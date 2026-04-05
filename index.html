@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KARDIRON — Play Designer</title>
+<link rel="stylesheet" href="css/kardiron.css">
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+
+<header>
+  <div class="logo">Kard<span>iron</span></div>
+  <div class="divider"></div>
+  <div class="mode-indicator" id="modeIndicator">EDITOR MODE</div>
+  <div class="sim-phase" id="simPhase"></div>
+  <div class="formation-badge" id="formationBadge"></div>
+  <div class="speed-wrap" style="margin-left:16px">
+    <span>SPEED</span>
+    <input type="range" id="speedSlider" min="0.5" max="5" step="0.5" value="2">
+    <span id="speedVal">2×</span>
+  </div>
+  <div class="header-right">
+    <button class="btn btn-ghost" id="saveBtn">SAVE</button>
+    <button class="btn btn-ghost" id="loadBtn">LOAD</button>
+    <input type="file" id="fileInput" accept=".json" style="display:none">
+    <button class="btn btn-warning" id="pauseBtn" style="display:none" onclick="togglePause()">⏸ PAUSE</button>
+    <button class="btn btn-sim" id="simBtn">▶ SIMULATE</button>
+  </div>
+</header>
+
+<div class="toast" id="toast"></div>
+
+<div class="main">
+  <!-- LEFT: Offense Panel -->
+  <div class="sidebar" id="offensePanel" style="width:160px">
+    <div class="panel-title offense">OFFENSE</div>
+    <!-- Offense Formation Preset — now ABOVE players -->
+    <div class="tool-section">
+      <div class="sidebar-title">Formation Preset</div>
+      <select id="offFormationSelect"
+        style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--ui-border);border-radius:3px;color:var(--text);font-family:'Barlow Condensed',sans-serif;font-size:12px;padding:4px 7px;cursor:pointer;margin-bottom:6px">
+        <option value="">— Select Formation —</option>
+        <option value="under-strong-l-east-slot">Under Strong L East Slot</option>
+        <option value="back-east-rt-trips-ringo">Under East RT Trips</option>
+        <option value="i-form-east-out">Under I East Out</option>
+        <option value="gun-ace">Gun Ace Leo</option>
+        <option value="gun-twins-ringo" selected>Gun Spread Ringo</option>
+        <option value="gun-west-lt-trey-leo">Gun West LT Trey Leo</option>
+        <option value="gun-rt-near-bunch-leo">Gun RT Near Bunch Leo</option>
+      </select>
+      <button onclick="applyOffFormationPreset()" class="panel-action-btn offense">▶ Apply Formation</button>
+    </div>
+    <!-- Play Preset -->
+    <div class="tool-section">
+      <div class="sidebar-title">Play Preset</div>
+      <select id="playPresetSelect">
+        <option value="manual" selected>Manual Assignment</option>
+        <option value="sail-dragon">Sail Dragon</option>
+        <option value="dagger-mesh-post">Dagger Mesh Post</option>
+        <option value="lion-hold-double-post">Lion Hold Double Post</option>
+        <option value="full-dragon-curl-flat">Full Dragon Curl Flat</option>
+        <option value="full-flood">Full Flood</option>
+      </select>
+      <button id="applyPlayPresetBtn" onclick="applyPlayPreset()" class="panel-action-btn offense">▶ Apply Play</button>
+    </div>
+    <!-- Offense Players accordion -->
+    <div class="off-players-header collapsed" id="offPlayersHeader" onclick="toggleOffPlayersAccordion()">
+      <span>OFFENSE PLAYERS</span>
+      <span class="off-players-chevron" id="offPlayersChevron">▼</span>
+    </div>
+    <div class="off-players-body hidden" id="offPlayersBody">
+      <div class="skill-counter" id="skillCounter" style="margin-bottom:6px">
+        <span>SKILL</span>
+        <div class="pips" id="skillPips"></div>
+        <span id="skillCountText">0/6</span>
+      </div>
+      <button class="add-btn" onclick="addPlayer('QB')"><span class="dot" style="background:#f0e040"></span>Quarterback</button>
+      <button class="add-btn" onclick="addPlayer('RB')"><span class="dot" style="background:#f0e040"></span>Running Back</button>
+      <button class="add-btn" onclick="addPlayer('WR')"><span class="dot" style="background:#f0e040"></span>Wide Receiver</button>
+      <button class="add-btn" onclick="addPlayer('TE')"><span class="dot" style="background:#f0e040"></span>Tight End</button>
+      <button class="add-btn" onclick="addPlayer('FB')"><span class="dot" style="background:#f0e040"></span>Fullback</button>
+      <div style="border-top:1px solid var(--ui-border);margin:8px 0 4px"></div>
+      <div class="player-list" id="playerList"></div>
+    </div>
+    <!-- O-Line accordion -->
+    <div class="oline-header collapsed" id="olineHeader" onclick="toggleOlineAccordion()">
+      <span>O-LINE</span>
+      <span class="oline-chevron" id="olineChevron">▼</span>
+    </div>
+    <div class="oline-list hidden" id="olineList"></div>
+    <!-- Play Type Selector -->
+    <div class="tool-section" style="padding-bottom:2px">
+      <div class="sidebar-title">Play Type</div>
+      <div class="play-type-group">
+        <button class="play-type-btn active-pass" id="ptPass" onclick="setPlayType('pass')" title="Pass play — routes, coverage, QB throws">Pass</button>
+        <button class="play-type-btn"             id="ptRun"  onclick="setPlayType('run')"  title="Run play — ball carrier, run fits, gap fills">Run</button>
+
+      </div>
+      <!-- Run carrier selector — visible only in Run/PA mode -->
+      <div id="runCarrierWrap" style="display:none;margin-top:6px">
+        <div class="run-carrier-label">Ball Carrier</div>
+        <select id="runCarrierSelect" onchange="onRunCarrierChange()"
+          style="color:var(--def-color)">
+          <option value="">— select carrier —</option>
+        </select>
+      </div>
+    </div>
+    <!-- Draw Tool -->
+    <div class="tool-section">
+      <div class="sidebar-title">Draw Tool</div>
+      <div class="tool-group">
+        <button class="tool-btn tool-route active" id="toolRoute"  onclick="setTool('route')"  title="Route — blue polyline, player runs this path">Route</button>
+        <button class="tool-btn tool-block"        id="toolBlock"  onclick="setTool('block')"  title="Block — red multi-point, player blocks at end">Block</button>
+        <button class="tool-btn tool-motion"       id="toolMotion" onclick="setTool('motion')" title="Motion — purple spring, 1 player pre-snap (after shift)">Motion</button>
+        <button class="tool-btn tool-shift"        id="toolShift"  onclick="setTool('shift')"  title="Shift — black spring, multi-player pre-snap (before motion)">Shift</button>
+      </div>
+      <div class="motion-owner-badge" id="motionOwnerBadge"></div>
+      <button onclick="flipPlayHorizontal()" class="panel-action-btn blue" style="margin-top:6px">⇆ Flip Play</button>
+    </div>
+    <div class="route-controls">
+      <button class="route-btn" id="clearRouteBtn">✕ Clear Assignment</button>
+      <button class="route-btn" id="clearAllRoutesBtn" style="color:#ff9060;border-color:rgba(255,144,96,0.25);background:rgba(255,144,96,0.08)">✕ Clear All</button>
+    </div>
+    <!-- Debug Overlay Toggle -->
+    <label class="debug-toggle-wrap" id="debugToggleWrap">
+      <input type="checkbox" id="debugOverlayToggle"> DEBUG: FORMATION
+    </label>
+    <!-- Live Read Toggle (Phase 3.1 — active only during sim) -->
+    <label class="debug-toggle-wrap" id="liveReadToggleWrap">
+      <input type="checkbox" id="liveReadToggle"> DEBUG: LIVE READ
+    </label>
+    <!-- Offense panel resize -->
+    <div class="panel-resize-strip">
+      <span>WIDTH</span>
+      <input type="range" id="offensePanelSlider" min="160" max="380" step="10" value="160"
+             oninput="document.getElementById('offensePanel').style.width = this.value + 'px'; resizeCanvas();">
+    </div>
+    <button class="panel-collapse-btn offense" onclick="collapsePanel('offense')">▸ CLOSE MENU</button>
+  </div>
+  <button class="panel-open-btn offense" id="offensePanelOpenBtn" style="display:none" onclick="expandPanel('offense')">◂ OFFENSE</button>
+
+  <!-- CENTER: Field -->
+  <div class="canvas-wrap">
+    <canvas id="canvas"></canvas>
+    <div class="info-bar" id="infoBar">Click field to add waypoints · Drag players to position · Drag ball horizontally</div>
+    <div class="debug-log" id="debugLog">
+      <div class="log-title">SIM DEBUG</div>
+      <div id="debugEntries"></div>
+    </div>
+  </div>
+
+  <!-- RIGHT: Defense Panel (Phase 3.2 / 3.3) -->
+  <div class="right-panel" id="defensePanel" style="width:160px">
+    <div class="panel-title defense">DEFENSE</div>
+    <!-- Formation Preset -->
+    <div class="def-section" id="formationPresetSection">
+      <div class="sidebar-title" style="margin-bottom:6px">Formation Preset</div>
+      <select id="formationPresetSelect"
+        style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--ui-border);border-radius:3px;color:var(--text);font-family:'Barlow Condensed',sans-serif;font-size:12px;padding:4px 7px;cursor:pointer">
+        <option value="">— Load Formation —</option>
+        <option value="4-3-over" selected>4-3 Over</option>
+        <option value="4-3-under">4-3 Under</option>
+        <option value="3-4">3-4 Bear</option>
+        <option value="3-3-5">3-3-5 Nickel</option>
+        <option value="4-2-5">4-2-5 Nickel</option>
+        <option value="double-mug">Double Mug</option>
+        <option value="dime">Dime (4-1-6)</option>
+        <option value="dime-236">Dime (2-3-6)</option>
+      </select>
+      <button onclick="applyDefFormationPreset()" class="panel-action-btn defense" style="margin-top:6px">▶ Apply Formation</button>
+    </div>
+
+    <!-- Phase 3.3: Coverage Call Sheet -->
+    <div class="def-section" id="coveragePresetSection">
+      <div class="sidebar-title" style="margin-bottom:8px">Coverage Call Sheet</div>
+
+      <!-- 2x2 -->
+      <div style="font-size:10px;color:#888;letter-spacing:0.06em;margin-bottom:4px">2×2</div>
+      <div style="display:grid;grid-template-columns:52px 1fr;align-items:center;gap:4px;margin-bottom:4px">
+        <span style="font-size:11px;color:#aaa">Strong</span>
+        <select id="cs-2x2-strong" onchange="onCallSheetChange('2x2-strong')" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--ui-border);border-radius:3px;color:var(--text);font-family:'Barlow Condensed',sans-serif;font-size:12px;padding:3px 6px;cursor:pointer">
+          <option value="manual">Manual</option>
+          <option value="cover1">Cover 1 — Man Free</option>
+          <option value="cover2man">Cover 2 Man</option>
+          <option value="tampa2-match-2x2">Tampa 2 Match 2×2</option>
+          <option value="invert2-2x2">Invert 2 — 2×2</option>
+          <option value="meg-strong">MEG — Strong Side</option>
+          <option value="mes-strong">MES — Strong Side</option>
+          <option value="quarters-strong">Quarters — Strong Side</option>
+          <option value="palms-strong">Palms 2-Read — Strong Side</option>
+          <option value="bracket-strong" selected>Bracket — Strong Side</option>
+          <option value="bronco-strong">Bronco — Strong Side</option>
+          <option value="c2m-strong">Cover 2 Match — Strong Side</option>
+          <option value="cover5-strong">Cover 5 | Cover 2 Man Strong</option>
+          <option value="tuff-strong">Tuff — Strong Side</option>
+          <option value="cougar-strong">Cougar — Strong Side</option>
+          <option value="cone-strong">Cone — Strong Side</option>
+          <option value="vice-strong">Vice — Strong Side</option>
+          <option value="firezone">Fire Zone Match 3</option>
+          <option value="tedouble">TE Double</option>
+          <option value="silver">Silver — Man Rush 5</option>
+          <option value="zero-blitz-lock">0 Blitz Lock — Man Rush 6</option>
+          <option value="cover3-sky">Cover 3 Sky Match</option>
+          <option value="muffin-cover3-cloud-strong">Muffin Cover 3 Cloud Strong</option>
+          <option value="cover3-cloud-strong">Cover 3 Cloud Strong 2×2</option>
+          <option value="cover3-cloud-weak">Cover 3 Cloud Weak 2×2</option>
+          <option value="cover2zone">Cover 2 Zone</option>
+          <option value="cover3-sky-zone">Cover 3 Sky Zone</option>
+          <option value="cover3zone">Cover 3 Buzz Zone</option>
+          <option value="cover3-robber-zone">Cover 3 Robber Zone</option>
+          <option value="cover3-weak-zone">Cover 3 Weak Zone</option>
+          <option value="cover3-buzz">Cover 3 Buzz Match</option>
+          <option value="cover3-robber">Cover 3 Robber Match</option>
+          <option value="cover3-weak">Cover 3 Weak Match</option>
+          <option value="cover4">Cover 4 Quarters</option>
+        </select>
+      </div>
+      <div style="display:grid;grid-template-columns:52px 1fr;align-items:center;gap:4px;margin-bottom:10px" id="cs-2x2-weak-row">
+        <span style="font-size:11px;color:#aaa">Weak</span>
+        <select id="cs-2x2-weak" onchange="onCallSheetChange('2x2-weak')" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--ui-border);border-radius:3px;color:var(--text);font-family:'Barlow Condensed',sans-serif;font-size:12px;padding:3px 6px;cursor:pointer">
+          <option value="manual">Manual</option>
+          <option value="meg-weak">MEG — Weak Side</option>
+          <option value="mes-weak">MES — Weak Side</option>
+          <option value="quarters-weak">Quarters — Weak Side</option>
+          <option value="palms-weak">Palms 2-Read — Weak Side</option>
+          <option value="bracket-weak">Bracket — Weak Side</option>
+          <option value="bronco-weak">Bronco — Weak Side</option>
+          <option value="c2m-weak">Cover 2 Match — Weak Side</option>
+          <option value="cover5-weak" selected>Cover 5 | Cover 2 Man</option>
+          <option value="tuff-weak">Tuff — Weak Side</option>
+          <option value="cougar-weak">Cougar — Weak Side</option>
+          <option value="cone-weak">Cone — Weak Side</option>
+          <option value="vice-weak">Vice — Weak Side</option>
+        </select>
+      </div>
+      <div id="cs-2x2-fullfield-hint" style="display:none;font-size:10px;color:#666;font-style:italic;margin-bottom:6px;padding-left:56px">Full Field — kein Weak Side nötig</div>
+
+      <!-- 3x1 -->
+      <div style="font-size:10px;color:#888;letter-spacing:0.06em;margin-bottom:4px">3×1</div>
+      <div style="display:grid;grid-template-columns:52px 1fr;align-items:center;gap:4px;margin-bottom:4px">
+        <span style="font-size:11px;color:#aaa">Strong</span>
+        <select id="cs-3x1-strong" onchange="onCallSheetChange('3x1-strong')" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--ui-border);border-radius:3px;color:var(--text);font-family:'Barlow Condensed',sans-serif;font-size:12px;padding:3px 6px;cursor:pointer">
+          <option value="manual">Manual</option>
+          <option value="cover1">Cover 1 — Man Free</option>
+          <option value="cover2man">Cover 2 Man</option>
+          <option value="tampa2-match-3x1">Tampa 2 Match 3×1</option>
+          <option value="invert2-3x1">Invert 2 — 3×1</option>
+          <option value="cover3-sky">Cover 3 Sky Match</option>
+          <option value="stubbie-strong">Stubbie — Strong Side</option>
+          <option value="stump-strong">Stump — Strong Side</option>
+          <option value="seahawk-strong" selected>Seahawk — Strong Side</option>
+          <option value="trio-strong">Trio — Strong Side</option>
+          <option value="zeke-strong">Zeke — Strong Side</option>
+          <option value="steeler-strong">Steeler — Strong Side</option>
+          <option value="knife-strong">Knife — Strong Side</option>
+          <option value="buster-strong">Buster — Strong Side</option>
+          <option value="poach-3x1">Poach — 3×1</option>
+          <option value="cover3-cloud-strong-3x1">Cover 3 Cloud Strong 3×1</option>
+          <option value="cover3-cloud-weak-3x1">Cover 3 Cloud Weak 3×1</option>
+          <option value="muffin-cover3-cloud-strong">Muffin Cover 3 Cloud Strong</option>
+          <option value="firezone">Fire Zone Match 3</option>
+          <option value="tedouble">TE Double</option>
+          <option value="silver">Silver — Man Rush 5</option>
+          <option value="zero-blitz-lock">0 Blitz Lock — Man Rush 6</option>
+          <option value="cover2zone">Cover 2 Zone</option>
+          <option value="cover3-sky-zone">Cover 3 Sky Zone</option>
+          <option value="cover3zone">Cover 3 Buzz Zone</option>
+          <option value="cover3-robber-zone">Cover 3 Robber Zone</option>
+          <option value="cover3-weak-zone">Cover 3 Weak Zone</option>
+          <option value="cover3-buzz">Cover 3 Buzz Match</option>
+          <option value="cover3-robber">Cover 3 Robber Match</option>
+          <option value="cover3-weak">Cover 3 Weak Match</option>
+          <option value="cover4">Cover 4 Quarters</option>
+        </select>
+      </div>
+      <div style="display:grid;grid-template-columns:52px 1fr;align-items:center;gap:4px;margin-bottom:6px" id="cs-3x1-backside-row">
+        <span style="font-size:11px;color:#aaa">Backside</span>
+        <select id="cs-3x1-backside" onchange="onCallSheetChange('3x1-backside')" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--ui-border);border-radius:3px;color:var(--text);font-family:'Barlow Condensed',sans-serif;font-size:12px;padding:3px 6px;cursor:pointer">
+          <option value="manual">Manual</option>
+          <option value="meg-backside">MEG — Backside</option>
+          <option value="cover2man-backside">Cover 2 Man — Backside</option>
+          <option value="c2m-backside" selected>Cover 2 Match — Backside</option>
+          <option value="tuff-backside">Tuff — Backside</option>
+          <option value="cone-backside">Cone — Backside</option>
+        </select>
+      </div>
+      <div id="cs-3x1-fullfield-hint" style="display:none;font-size:10px;color:#666;font-style:italic;margin-bottom:4px;padding-left:56px">Full Field — kein Backside nötig</div>
+
+      <!-- Empty -->
+      <div style="font-size:10px;color:#888;letter-spacing:0.06em;margin-bottom:4px">EMPTY</div>
+      <div style="display:grid;grid-template-columns:52px 1fr;align-items:center;gap:4px;margin-bottom:4px">
+        <span style="font-size:11px;color:#aaa">Trips</span>
+        <select id="cs-empty-trips" onchange="onCallSheetChange('empty-trips')" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--ui-border);border-radius:3px;color:var(--text);font-family:'Barlow Condensed',sans-serif;font-size:12px;padding:3px 6px;cursor:pointer">
+          <option value="manual">Manual</option>
+          <option value="cover1">Cover 1 — Man Free</option>
+          <option value="cover2man">Cover 2 Man</option>
+          <option value="buster-strong" selected>Buster — Trips Side</option>
+          <option value="steeler-strong">Steeler — Trips Side</option>
+          <option value="stump-strong">Stump — Trips Side</option>
+          <option value="seahawk-strong">Seahawk — Trips Side</option>
+          <option value="trio-strong">Trio — Trips Side</option>
+          <option value="zeke-strong">Zeke — Trips Side</option>
+          <option value="knife-strong">Knife — Trips Side</option>
+          <option value="stubbie-strong">Stubbie — Trips Side</option>
+          <option value="cover2zone">Cover 2 Zone</option>
+          <option value="cover3-sky-zone">Cover 3 Sky Zone</option>
+          <option value="cover3zone">Cover 3 Buzz Zone</option>
+          <option value="cover3-robber-zone">Cover 3 Robber Zone</option>
+          <option value="cover3-weak-zone">Cover 3 Weak Zone</option>
+        </select>
+      </div>
+      <div style="display:grid;grid-template-columns:52px 1fr;align-items:center;gap:4px;margin-bottom:6px" id="cs-empty-backside-row">
+        <span style="font-size:11px;color:#aaa">Backside</span>
+        <select id="cs-empty-backside" onchange="onCallSheetChange('empty-backside')" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid var(--ui-border);border-radius:3px;color:var(--text);font-family:'Barlow Condensed',sans-serif;font-size:12px;padding:3px 6px;cursor:pointer">
+          <option value="manual">Manual</option>
+          <option value="meg-backside">MEG — Backside</option>
+          <option value="c2m-backside">Cover 2 Match — Backside</option>
+          <option value="tuff-backside" selected>Tuff — Backside</option>
+          <option value="cover2man-backside">Cover 2 Man — Backside</option>
+          <option value="cone-backside">Cone — Backside</option>
+        </select>
+      </div>
+      <div id="cs-empty-fullfield-hint" style="display:none;font-size:10px;color:#666;font-style:italic;margin-bottom:4px;padding-left:56px">Full Field — kein Backside nötig</div>
+
+      <div id="presetMatchList" style="margin-top:6px;display:none"></div>
+    </div>
+    <!-- Player list accordion -->
+    <div class="def-accordion-header" id="defPlayersAccordionHeader" onclick="toggleDefPlayersAccordion()" style="color:#4ade80">
+      <span>DEFENSE PLAYERS</span>
+      <span class="def-accordion-chevron" id="defPlayersChevron">▼</span>
+    </div>
+    <div class="def-accordion-body hidden" id="defPlayersAccordionBody">
+      <div class="def-section" style="padding-bottom:4px;border-bottom:none">
+        <div id="defPlayerList"></div>
+        <div style="margin-top:6px;display:flex;gap:4px">
+          <button class="def-btn" id="addDefBtn" onclick="addDefender()" style="flex:1">+ Add</button>
+          <button class="def-btn danger" id="removeDefBtn" onclick="removeSelectedDefender()" style="flex:1">✕ Remove</button>
+        </div>
+      </div>
+    </div>
+    <!-- Assignment controls (shown only when a defender is selected) -->
+    <div class="def-assign-box" id="defAssignBox" style="display:none">
+      <!-- Change Position -->
+      <div class="sidebar-title" style="margin-bottom:4px;font-size:12px">Change Position To</div>
+      <select id="defChangePosition" onchange="onDefChangePosition()">
+        <option value="">— keep current —</option>
+        <option value="DE">DE</option>
+        <option value="DT">DT</option>
+        <option value="NT">NT</option>
+        <option value="SAM">SAM</option>
+        <option value="MIKE">MIKE</option>
+        <option value="WILL">WILL</option>
+        <option value="LOLB">LOLB</option>
+        <option value="ROLB">ROLB</option>
+        <option value="LILB">LILB</option>
+        <option value="RILB">RILB</option>
+        <option value="CB">CB</option>
+        <option value="NICKEL">NICKEL</option>
+        <option value="SS">SS</option>
+        <option value="FS">FS</option>
+      </select>
+      <!-- Pass Assignment -->
+      <div class="sidebar-title" style="margin-top:8px;margin-bottom:4px;font-size:12px">Pass Assignment</div>
+      <select id="defAssignType" onchange="onDefAssignTypeChange()">
+        <option value="none">None — hold position</option>
+        <option value="man">Man Coverage</option>
+        <option value="zone">Zone Drop</option>
+        <option value="rush">Rush QB</option>
+      </select>
+      <!-- Man: target -->
+      <div id="defManControls" style="display:none">
+        <label>Target (Offense)</label>
+        <select id="defManTarget" onchange="onDefAssignSave()"></select>
+        <div id="defManHint" style="font-size:10px;color:rgba(74,222,128,0.6);margin-top:4px;line-height:1.4">
+          💡 Or click an offense player on the field to assign
+        </div>
+        <label>Leverage</label>
+        <select id="defManLeverage" onchange="onDefAssignSave()">
+          <option value="headUp">Head-Up</option>
+          <option value="inside">Inside</option>
+          <option value="outside">Outside</option>
+        </select>
+        <label>Trail Distance (yd)</label>
+        <input type="range" id="defTrailDist" min="0" max="5" step="0.5" value="1" oninput="document.getElementById('defTrailDistVal').textContent=this.value+'yd'; onDefAssignSave()">
+        <span id="defTrailDistVal" style="font-size:10px;color:var(--text-dim)">1yd</span>
+      </div>
+      <!-- Zone: landmark -->
+      <div id="defZoneControls" style="display:none">
+        <label>Zone Landmark</label>
+        <select id="defZoneLandmark" onchange="onDefAssignSave()">
+          <option value="FLAT_L">Flat Left</option>
+          <option value="FLAT_R">Flat Right</option>
+          <option value="CURL_L">Curl Left</option>
+          <option value="CURL_R">Curl Right</option>
+          <option value="CURL_FLAT_L">Curl/Flat Left (two-phase)</option>
+          <option value="CURL_FLAT_R">Curl/Flat Right (two-phase)</option>
+          <option value="HOOK_L">Hook Left</option>
+          <option value="HOOK_MIDDLE">Hook Middle</option>
+          <option value="HOOK_R">Hook Right</option>
+          <option value="DEEP_L">Deep Left</option>
+          <option value="DEEP_MIDDLE">Deep Middle</option>
+          <option value="DEEP_R">Deep Right</option>
+          <option value="DEEP_FREE">Deep Free (single high)</option>
+          <option value="DEEP_HALF_L">Deep Half Left</option>
+          <option value="DEEP_HALF_R">Deep Half Right</option>
+          <option value="DEEP_QRTR_L">Deep Quarter Left</option>
+          <option value="DEEP_QRTR_ML">Deep Quarter Mid-Left</option>
+          <option value="DEEP_QRTR_MR">Deep Quarter Mid-Right</option>
+          <option value="DEEP_QRTR_R">Deep Quarter Right</option>
+        </select>
+      </div>
+      <!-- CB/Nickel alignment controls — shown only for CB/NICKEL roles -->
+      <div id="defCBControls" style="display:none;margin-top:6px;border-top:1px solid var(--ui-border);padding-top:6px">
+        <div style="font-size:10px;font-weight:700;letter-spacing:1px;color:var(--text-dim);margin-bottom:4px">ALIGNMENT</div>
+        <label>Spacing</label>
+        <select id="defCBSpacing" onchange="onCBAlignSave()">
+          <option value="normal">Normal (4 yds off)</option>
+          <option value="press">Press (tight)</option>
+          <option value="near">Near (7 yds off)</option>
+          <option value="off">Off (10 yds off)</option>
+        </select>
+        <label style="margin-top:4px">Shade</label>
+        <select id="defCBShade" onchange="onCBAlignSave()">
+          <option value="normal">Normal (head-up)</option>
+          <option value="inside">Inside shade (1 yd in)</option>
+          <option value="outside">Outside shade (1 yd out)</option>
+        </select>
+      </div>
+      <!-- Run Fit Assignment — separate from pass coverage -->
+      <div style="margin-top:8px;border-top:1px solid var(--ui-border);padding-top:6px">
+        <div class="sidebar-title" style="margin-bottom:4px;font-size:12px">Run Fit</div>
+        <select id="defRunFitType" onchange="onDefRunFitTypeChange()">
+          <option value="none">None — auto fit</option>
+          <option value="gap">Gap Responsibility</option>
+          <option value="contain">Contain (edge)</option>
+          <option value="spill">Spill / Force</option>
+        </select>
+        <div id="defGapControls" style="display:none;margin-top:4px">
+          <label>Gap</label>
+          <select id="defGapSelect" onchange="onDefRunFitSave()">
+            <option value="A_gap_L">A Gap Left (C–G)</option>
+            <option value="A_gap_R">A Gap Right (C–G)</option>
+            <option value="B_gap_L">B Gap Left (G–T)</option>
+            <option value="B_gap_R">B Gap Right (G–T)</option>
+            <option value="C_gap_L">C Gap Left (outside T)</option>
+            <option value="C_gap_R">C Gap Right (outside T)</option>
+            <option value="D_gap_L">D Gap Left (edge)</option>
+            <option value="D_gap_R">D Gap Right (edge)</option>
+          </select>
+          <label style="margin-top:4px">Fill Type</label>
+          <select id="defGapFillType" onchange="onDefRunFitSave()">
+            <option value="fill">Fill (attack gap)</option>
+            <option value="scrape">Scrape (flow over)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <!-- Show Zones toggle -->
+    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
+      <button class="tool-toggle-btn active" id="showJobsBtn" onclick="toggleShowJobs()">⬡ Show Jobs</button>
+    </div>
+    <!-- Show Zones toggle -->
+    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
+      <button class="tool-toggle-btn" id="showZonesBtn" onclick="toggleShowZones()">⬡ Show Zones</button>
+    </div>
+    <!-- Show Run Fits toggle -->
+    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
+      <button class="tool-toggle-btn" id="showRunFitsBtn" onclick="toggleShowRunFits()">⬡ Show Run Fits</button>
+      <div id="runFitsSummary" style="display:none;margin-top:6px;padding:6px 8px;background:rgba(74,222,128,0.05);border:1px solid rgba(74,222,128,0.2);border-radius:3px;font-size:11px;letter-spacing:0.5px;line-height:1.8;color:#4ade80"></div>
+    </div>
+    <!-- Reactive Formation toggle -->
+    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
+      <div style="font-size:10px;color:var(--text-dim);letter-spacing:0.5px;margin-bottom:4px">↺ REACTIVE FORMATION</div>
+      <div style="display:flex;gap:4px">
+        <button class="tool-toggle-btn" id="reactiveFormationBtn" style="flex:1;font-size:10px" onclick="toggleReactiveFormation('presnap')">Pre-Snap</button>
+        <button class="tool-toggle-btn" id="reactiveFormationAfterBtn" style="flex:1;font-size:10px" onclick="toggleReactiveFormation('after')">After Sh/Mo</button>
+      </div>
+    </div>
+    <!-- Reset Alignment to Preset -->
+    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
+      <button class="def-btn" style="width:100%;font-size:11px;color:#a78bfa;background:transparent;border-color:rgba(167,139,250,0.35)" onclick="resetAlignmentToPreset()">↺ Reset Alignment to Preset</button>
+    </div>
+    <!-- Status line -->
+    <div class="def-status" id="defStatus">No defender selected</div>
+    <!-- Deselect all button -->
+    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
+      <button class="def-btn" style="width:100%;font-size:11px;color:var(--text-dim);background:transparent;border-color:var(--ui-border)" onclick="deselectAll()">✕ Deselect All</button>
+    </div>
+    <!-- Zoom Tool -->
+    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
+      <button class="tool-toggle-btn" id="zoomToolBtn" onclick="toggleZoomTool()">🔍 Zoom: ±10 yds</button>
+    </div>
+    <!-- Defense panel resize -->
+    <div class="panel-resize-strip" style="margin-top:auto">
+      <span>WIDTH</span>
+      <input type="range" id="defensePanelSlider" min="160" max="380" step="10" value="160"
+             oninput="document.getElementById('defensePanel').style.width = this.value + 'px'; resizeCanvas();">
+    </div>
+    <button class="panel-collapse-btn defense" onclick="collapsePanel('defense')">◂ CLOSE MENU</button>
+  </div>
+  <button class="panel-open-btn defense" id="defensePanelOpenBtn" style="display:none" onclick="expandPanel('defense')">▸ DEFENSE</button>
+</div>
+
+
+<!-- ── JavaScript — load order matters, all global scope ── -->
+<script src="js/01_state.js"></script>
+<script src="js/02_offense_class.js"></script>
+<script src="js/03_sim_engine.js"></script>
+<script src="js/04_live_read.js"></script>
+<script src="js/05_defense.js"></script>
+<script src="js/06_coverage_engine.js"></script>
+<script src="js/07a_presets_base.js"></script>
+<script src="js/07b_presets_cover3.js"></script>
+<script src="js/07c_presets_side_only.js"></script>
+<script src="js/07c2_presets_advanced.js"></script>
+<script src="js/07d_presets_fullfield.js"></script>
+<script src="js/08_run_pass.js"></script>
+<script src="js/09_save_load_init.js"></script>
+
+</body>
+</html>
