@@ -1,1 +1,889 @@
-function _0x4c35(){const _0x554192=['editor','vYySl','children','jhnbh','FDNeR','vnpPg','olt','remove','contains','xRwzB','rTJpI','beginPath','35960wLspFr','clearRect','pip','min','oTUul','rgba(100,180,255,0.9)','fAjHL','sWOJZ','fillStyle','<span\x20style=\x22color:#ff4444;font-size:10px\x22>B</span>','BLOCK\x20—\x20Left-click\x20to\x20add\x20block\x20points\x20·\x20Right-click\x20removes\x20last','#ff4444','hacaC','fillRect','wGhFi','kmJiq','2670cPZGal','MRHau','zWKBY','run','middle','hqstH','FCQKN','296346dzrUIm','XXJLM','collapsed','\x20filled','ISWTv','COBix','Bunbc','SHIFT\x20—\x20Pre-snap\x20before\x20motion\x20(multi-player,\x20skill\x20only)\x20·\x20Left/Right-click','\x20full','KtzWp','YiILj','fuMVe','hypot','textBaseline','XkokE','innerHTML','entries','\x20skill\x20players\x20allowed','lineWidth','nBeHX','shiftPoints','\x20selected','cPWna','map','nIUBX','tJGPL','scale','dataset','IXWyI','routePoints','lfCkP','#fff','shadowBlur','sWTjG','[SIM]','LINE\x20OF\x20SCRIMMAGE','fjSGS','firstChild','offPlayersHeader','KTQlE','floor','rotate','createElement','ysoeI','yPflB','slice','urIqV','getContext','QQOKN','#dd99ff','rgba(255,255,255,0.4)','atan2','appendChild','route','skMvc','simStartY','#e8a020','WVpbK','JEhCn','TKowi','feDdQ','toast','GZkqd','round','wfOll','TGMsX','div','eHGyp','stroke','setLineDash','qeImH','tool','simY','lVQpf','YaANS','_isOlineData','7WKlyYS','hidden','block','rpvnY','iJmFk','SyGIg','tuXWZ','YpTXt','nzRWr','active','jFeFo','line','<span\x20style=\x22color:#aaa;font-size:10px\x22>S</span>','HStrk','toggle','translate','motionPoints','#2d5a1b','#4477ff','preplay','simX','left','rIfhh','jfPUO','eNDow','DrpVG','#000','zvBFL','uRlnQ','RXLrW','UMPmV','rgba(255,255,255,0.15)','CxeCT','caMsQ','olg','infoBar','font','rgba(100,180,255,0.75)','offPlayersBody','presnap','#c8651a','IkyIf','length','jiOgA','iVlii','lAjaQ','bTtrh','ykgYQ','mapla','\x20toast-info','ivSDg','ueSuj','efycc','WvQLW','TTkVJ','max','classList','XYbnD','fTchD','qvuMF','32LbShWF','label','aApBQ','#00e5ff','textAlign','OVXLv','removeChild','XhSxu','info','#cc66ff','join','yMKpG','ePGgC','yfmhq','lgZCP','kQZNW','PcXee','lybhb','color','KFRnF','arc','skillPips','closePath','<span\x20style=\x22color:#4477ff;font-size:10px\x22>R</span>','IdJfS','org','MyKYM','_designatedBlockTargetId','filter','sVvYy','\x22></span>','#ff8888','toUpperCase','TUXrr','ICMnm','QicNf','1456976AETXVh','nqJQL','aPNRe','click','GDbaT','rgba(255,255,255,0.5)','FeBAk','pecDW','ewvgx','bLhVB','RDBMP','textContent','CMyWE','skillCountText','#f08020','opvYa','LwzAu','strokeStyle','rgba(0,0,0,0.5)','center','JdlQz','scrollTop','CYQZU','carrying','#22c55e','style','replace','#f0e040','\x20show','58586TlICsi','CgaIY','simBlockPoints','NcyTe','moveTo','TwkfO','ieBZP','GqYCE','jWFjw','WCWmC','WKkhZ','lineTo','getElementById','includes','ZHmEC','rXVgD','drdeZ','FuGOM','blockPoints','<span\x20style=\x22color:#cc66ff;font-size:10px\x22>M</span>','zZTHS','shadowColor','847122SYGNYo','sSGDX','1693866OxYnAH','zACZS','log','bold\x209px\x20Barlow\x20Condensed','fillText','zAVKw','sim','NrVTQ','rgba(0,229,255,0.25)','yYzyN','FbPhH','UpScR','OSkHg','453225HLUmhU','del-btn','motionOwnerBadge','hSvNc','Wpeds','hrAsm','simStartX','NLPhL','lineJoin','save','fill','aPHQy','log-entry','iGUZq','MOTION\x20—\x20Pre-snap\x20after\x20shift\x20(max\x201\x20player)\x20·\x20Left/Right-click','done','rgba(255,255,255,0.05)','<span\x20class=\x22dot\x22\x20style=\x22background:','JpzJH','UIcPz','restore','shift','forEach','error','className','CistF','motion','simShiftPoints','debugEntries','CuTYT','type','EdjFE','juPLH','PLLGD','olineList','simMotionPoints','playerList','OMUWQ','<button\x20class=\x22del-btn\x22\x20data-id=\x22','target','lineCap','XPoNO','charAt','Motion:\x20','jBFzZ','esKUP','bold\x2011px\x20Barlow\x20Condensed','AjyrW','addEventListener','iyFkf','ubetD','1773jNIPJM','VPdDI','simRoutePoints','find','SqYeE'];_0x4c35=function(){return _0x554192;};return _0x4c35();}const _0x1d55af=_0x5571;(function(_0x425410,_0x5d8853){const _0x2dc6e5=_0x5571,_0x20e396=_0x425410();while(!![]){try{const _0x918dde=-parseInt(_0x2dc6e5(0xe5))/0x1+parseInt(_0x2dc6e5(0xb2))/0x2+-parseInt(_0x2dc6e5(0x14f))/0x3*(-parseInt(_0x2dc6e5(0x1d7))/0x4)+parseInt(_0x2dc6e5(0xf4))/0x5+parseInt(_0x2dc6e5(0xe7))/0x6*(parseInt(_0x2dc6e5(0x19b))/0x7)+-parseInt(_0x2dc6e5(0x138))/0x8*(-parseInt(_0x2dc6e5(0x127))/0x9)+parseInt(_0x2dc6e5(0x148))/0xa*(-parseInt(_0x2dc6e5(0xcf))/0xb);if(_0x918dde===_0x5d8853)break;else _0x20e396['push'](_0x20e396['shift']());}catch(_0x180e9d){_0x20e396['push'](_0x20e396['shift']());}}}(_0x4c35,0x7c093));const canvas=document['getElementById']('canvas'),ctx=canvas[_0x1d55af(0x17e)]('2d'),FIELD_W=0x424,FIELD_H=0x2bc,YARD_PX=0x14,ENDZONE_Y=0x0,FIELD_LEFT=0x0,FIELD_RIGHT=FIELD_W,HASH_OFFSET=Math['round'](6.67*YARD_PX),HASH_WIDTH=Math[_0x1d55af(0x18e)](0.5*YARD_PX),LEFT_HASH=FIELD_W/0x2-HASH_OFFSET,RIGHT_HASH=FIELD_W/0x2+HASH_OFFSET,CAM_BEHIND_YARDS=0xa,BALL_SCREEN_Y=FIELD_H-CAM_BEHIND_YARDS*YARD_PX;canvas['width']=FIELD_W,canvas['height']=FIELD_H;const SKILL_TYPES=['QB','RB','WR','TE','FB'],SKILL_LIMIT=0x6,OLINE_SPACING=0x20,ARRIVE_THRESHOLD=0x6,COLOR={'route':{'line':_0x1d55af(0x1ad),'wp':'#88aaff'},'motion':{'line':_0x1d55af(0x1e0),'wp':_0x1d55af(0x180)},'block':{'line':_0x1d55af(0x143),'wp':_0x1d55af(0x1f6)},'shift':{'line':'#000000','wp':'#333333'}};let ball={'x':FIELD_W/0x2,'y':BALL_SCREEN_Y};const LOS_Y=()=>ball['y'];let players=[],nextId=0x1,mode=_0x1d55af(0x12c),simSpeed=0x2,selectedPlayerId=null,animId=null,lastTime=null,simPaused=![],_reactiveDTOver=!![],simLockedGapX={},activeTool=_0x1d55af(0x184),motionOwnerId=null;function setTool(_0x215674){const _0x1f26bf=_0x1d55af,_0x3c73d9={'TwkfO':function(_0xf59be0,_0x332353){return _0xf59be0+_0x332353;},'ivSDg':_0x1f26bf(0x196),'qvuMF':_0x1f26bf(0x1a4),'eHGyp':function(_0x29d23e,_0x41d991){return _0x29d23e===_0x41d991;},'EsexS':'motion','IuXWM':_0x1f26bf(0x109),'jhnbh':function(_0x28c908){return _0x28c908();}};activeTool=_0x215674,['route','block',_0x3c73d9['EsexS'],_0x3c73d9['IuXWM']]['forEach'](_0x4ae81a=>{const _0xd48c57=_0x1f26bf,_0x49a36e=document['getElementById'](_0x3c73d9[_0xd48c57(0xd4)](_0x3c73d9[_0xd48c57(0x1cd)]+_0x4ae81a[_0xd48c57(0x11e)](0x0)[_0xd48c57(0x1f7)](),_0x4ae81a[_0xd48c57(0x17c)](0x1)));if(_0x49a36e)_0x49a36e['classList']['toggle'](_0x3c73d9[_0xd48c57(0x1d6)],_0x3c73d9[_0xd48c57(0x192)](_0x4ae81a,_0x215674));}),_0x3c73d9[_0x1f26bf(0x12f)](updateInfoBar);}function updateInfoBar(){const _0x5acb28=_0x1d55af,_0x7b4790={'AfuWT':_0x5acb28(0x142),'jfPUO':_0x5acb28(0x102)},_0x13fb65={'route':'ROUTE\x20—\x20Left-click\x20to\x20add\x20waypoints\x20·\x20Right-click\x20removes\x20last','block':_0x7b4790['AfuWT'],'motion':_0x7b4790[_0x5acb28(0x1b2)],'shift':_0x5acb28(0x156)};document[_0x5acb28(0xdb)](_0x5acb28(0x1be))[_0x5acb28(0xbd)]=_0x13fb65[activeTool]||'';}function updateMotionBadge(){const _0x305955=_0x1d55af,_0x55f5ff=document[_0x305955(0xdb)](_0x305955(0xf6));if(motionOwnerId!==null){const _0x2eb8b5=players['find'](_0x51e72d=>_0x51e72d['id']===motionOwnerId);_0x55f5ff[_0x305955(0xbd)]=_0x2eb8b5?_0x305955(0x11f)+_0x2eb8b5[_0x305955(0x1d8)]+'\x20#'+_0x2eb8b5['id']:'';}else _0x55f5ff[_0x305955(0xbd)]='';}let toastTimer=null;function showToast(_0x23fa2b,_0x16b2f9=_0x1d55af(0x10b)){const _0x190139=_0x1d55af,_0x46bfa0={'TUXrr':function(_0x444d40,_0x37e86e){return _0x444d40+_0x37e86e;},'iGUZq':function(_0x20930e,_0x38fcab){return _0x20930e===_0x38fcab;},'nIUBX':_0x190139(0x1df),'ZHmEC':_0x190139(0x1cc),'CuTYT':function(_0x1e8b8b,_0x23f3a8){return _0x1e8b8b(_0x23f3a8);}},_0x45d8e5=document[_0x190139(0xdb)]('toast');_0x45d8e5[_0x190139(0xbd)]=_0x23fa2b,_0x45d8e5['className']=_0x46bfa0[_0x190139(0x1f8)](_0x190139(0x18c),_0x46bfa0[_0x190139(0x101)](_0x16b2f9,_0x46bfa0[_0x190139(0x167)])?_0x46bfa0[_0x190139(0xdd)]:'')+_0x190139(0xce);if(toastTimer)_0x46bfa0[_0x190139(0x111)](clearTimeout,toastTimer);toastTimer=setTimeout(()=>{const _0xc3b340=_0x190139;_0x45d8e5[_0xc3b340(0x1d3)][_0xc3b340(0x133)]('show');},0xc80);}function _0x5571(_0x2a163e,_0x37b220){_0x2a163e=_0x2a163e-0xb2;const _0x4c3584=_0x4c35();let _0x55711f=_0x4c3584[_0x2a163e];return _0x55711f;}function countSkillPlayers(){const _0x4c557f=_0x1d55af;return players[_0x4c557f(0x1f3)](_0x399b2f=>SKILL_TYPES[_0x4c557f(0xdc)](_0x399b2f[_0x4c557f(0x112)]))['length'];}function refreshSkillCounter(){const _0x23a3bb=_0x1d55af,_0x3f9cf5={'YklHr':function(_0x1cb1ce,_0x2229a4){return _0x1cb1ce+_0x2229a4;},'VPdDI':'skillCountText','AjyrW':'#e74c3c','JdlQz':_0x23a3bb(0x1ec),'PLLGD':'div','wGhFi':function(_0x4168f2,_0x2dfd69){return _0x4168f2+_0x2dfd69;}},_0x37cfb9=countSkillPlayers(),_0x1ac6cf=_0x37cfb9>=SKILL_LIMIT;document[_0x23a3bb(0xdb)](_0x23a3bb(0xbf))[_0x23a3bb(0xbd)]=_0x3f9cf5['YklHr'](_0x37cfb9+'/',SKILL_LIMIT),document[_0x23a3bb(0xdb)](_0x3f9cf5[_0x23a3bb(0x128)])[_0x23a3bb(0xcb)][_0x23a3bb(0x1e9)]=_0x1ac6cf?_0x3f9cf5[_0x23a3bb(0x123)]:'';const _0x8e363b=document[_0x23a3bb(0xdb)](_0x3f9cf5[_0x23a3bb(0xc6)]);_0x8e363b[_0x23a3bb(0x15e)]='';for(let _0x1633b5=0x0;_0x1633b5<SKILL_LIMIT;_0x1633b5++){const _0x422436=document[_0x23a3bb(0x179)](_0x3f9cf5[_0x23a3bb(0x115)]);_0x422436[_0x23a3bb(0x10c)]=_0x3f9cf5[_0x23a3bb(0x146)](_0x23a3bb(0x13a),_0x1633b5<_0x37cfb9?_0x1ac6cf?_0x23a3bb(0x157):_0x23a3bb(0x152):''),_0x8e363b[_0x23a3bb(0x183)](_0x422436);}}function logDebug(_0x3b092b){const _0x51afb5=_0x1d55af,_0x2bb414={'Wpeds':_0x51afb5(0x171),'cPWna':_0x51afb5(0x110),'ieBZP':_0x51afb5(0x191),'uRlnQ':function(_0x399883,_0x59be32){return _0x399883>_0x59be32;}};console[_0x51afb5(0xe9)](_0x2bb414[_0x51afb5(0xf8)],_0x3b092b[_0x51afb5(0xcc)](/<[^>]*>/g,''));const _0x9e32d8=document[_0x51afb5(0xdb)](_0x2bb414[_0x51afb5(0x165)]),_0x1ecbf5=document['createElement'](_0x2bb414[_0x51afb5(0xd5)]);_0x1ecbf5['className']=_0x51afb5(0x100),_0x1ecbf5['innerHTML']=_0x3b092b,_0x9e32d8[_0x51afb5(0x183)](_0x1ecbf5);while(_0x2bb414[_0x51afb5(0x1b7)](_0x9e32d8[_0x51afb5(0x12e)][_0x51afb5(0x1c5)],0x1e))_0x9e32d8[_0x51afb5(0x1dd)](_0x9e32d8[_0x51afb5(0x174)]);document['getElementById']('debugLog')[_0x51afb5(0xc7)]=0x270f;}function clearDebugLog(){const _0x50d250=_0x1d55af;document[_0x50d250(0xdb)](_0x50d250(0x110))[_0x50d250(0x15e)]='';}function makePlayer(_0x25c970,_0x156624,_0x17f6a3){return{'id':nextId++,'type':_0x25c970,'label':_0x25c970,'x':_0x156624,'y':_0x17f6a3,'origX':_0x156624,'origY':_0x17f6a3,'routePoints':[],'motionPoints':[],'shiftPoints':[],'blockPoints':[],get 'routes'(){return this['routePoints'];},set 'routes'(_0x5921ae){this['routePoints']=_0x5921ae;}};}const OLINE_IDS=[_0x1d55af(0x132),_0x1d55af(0x1bd),'oc','org','ort'],OLINE_LABELS={'olt':'LT','olg':'LG','oc':'C','org':'RG','ort':'RT'};let olineData={};OLINE_IDS[_0x1d55af(0x10a)](_0x1fd86e=>{olineData[_0x1fd86e]={'blockPoints':[]};});let olineOpen=![];const OLINE_BACKFIELD_OFFSET=YARD_PX;function olinePlayers(){const _0xb4c658=_0x1d55af,_0x51e9d4={'GZkqd':_0xb4c658(0x132),'MRHau':function(_0xbdf7dd,_0x329c60){return _0xbdf7dd-_0x329c60;},'XkokE':function(_0x2a4ebe,_0x1bbe2f){return _0x2a4ebe*_0x1bbe2f;},'YiILj':_0xb4c658(0x1f0),'nBeHX':function(_0x29ab7b,_0x2bf995){return _0x29ab7b+_0x2bf995;},'XCLkT':'ort','IYvZp':function(_0x59f2fe,_0xf117fa){return _0x59f2fe+_0xf117fa;}},_0x35d100=LOS_Y()+OLINE_BACKFIELD_OFFSET;return[{'id':_0x51e9d4[_0xb4c658(0x18d)],'label':'LT','x':_0x51e9d4[_0xb4c658(0x149)](ball['x'],_0x51e9d4[_0xb4c658(0x15d)](OLINE_SPACING,0x2)),'y':_0x35d100,'isOline':!![]},{'id':_0xb4c658(0x1bd),'label':'LG','x':ball['x']-OLINE_SPACING,'y':_0x35d100,'isOline':!![]},{'id':'oc','label':'C','x':ball['x'],'y':_0x35d100,'isOline':!![]},{'id':_0x51e9d4[_0xb4c658(0x159)],'label':'RG','x':_0x51e9d4[_0xb4c658(0x162)](ball['x'],OLINE_SPACING),'y':_0x35d100,'isOline':!![]},{'id':_0x51e9d4['XCLkT'],'label':'RT','x':_0x51e9d4['IYvZp'](ball['x'],OLINE_SPACING*0x2),'y':_0x35d100,'isOline':!![]}];}function clampToLOS(_0x22c284,_0x3ab894){const _0x49cbcc=_0x1d55af,_0x31d6c9={'feDdQ':function(_0xf54131,_0x290655){return _0xf54131+_0x290655;},'HBNyJ':function(_0x2c573e,_0x2fbc54){return _0x2c573e-_0x2fbc54;}};return{'x':Math['max'](_0x31d6c9[_0x49cbcc(0x18b)](FIELD_LEFT,0xe),Math[_0x49cbcc(0x13b)](_0x31d6c9['HBNyJ'](FIELD_RIGHT,0xe),_0x22c284)),'y':Math[_0x49cbcc(0x1d2)](LOS_Y(),_0x3ab894)};}function spawnOffset(_0x2b82bd){const _0xb3c17d=_0x1d55af,_0x36787f={'opvYa':function(_0x38a65d,_0x230c14){return _0x38a65d%_0x230c14;}},_0x46ddf8=players[_0xb3c17d(0x1f3)](_0x136320=>_0x136320[_0xb3c17d(0x112)]===_0x2b82bd)[_0xb3c17d(0x1c5)],_0x6d85d0=_0x36787f[_0xb3c17d(0xc1)](_0x46ddf8,0x5),_0x58c521=Math[_0xb3c17d(0x177)](_0x46ddf8/0x5)%0x3;return{'dx':_0x6d85d0*0x1c,'dy':_0x58c521*0x24};}function addPlayer(_0x5045d0){const _0x483263=_0x1d55af,_0x5612fd={'OVXLv':function(_0x4fb47b){return _0x4fb47b();},'caMsQ':function(_0x246afb){return _0x246afb();},'jWFjw':function(_0x27fd90,_0x292013){return _0x27fd90+_0x292013;},'WKkhZ':function(_0x370b11,_0x2bb7a2){return _0x370b11*_0x2bb7a2;},'IXWyI':function(_0x4adb45,_0x1881dc){return _0x4adb45-_0x1881dc;},'QQOKN':function(_0x100b77,_0x12d67c){return _0x100b77-_0x12d67c;},'NcyTe':function(_0x2d3248,_0x36d6fd){return _0x2d3248+_0x36d6fd;},'GqYCE':function(_0x59242e,_0x574860){return _0x59242e+_0x574860;},'ykgYQ':function(_0x55040f,_0x572fa3){return _0x55040f(_0x572fa3);},'kmJiq':function(_0x3e5bbf,_0x9f8a68,_0x2f6d84){return _0x3e5bbf(_0x9f8a68,_0x2f6d84);},'MyKYM':function(_0xad9a04,_0x55de77,_0x29bb26,_0x38240a){return _0xad9a04(_0x55de77,_0x29bb26,_0x38240a);},'smcYx':function(_0x1d48e1){return _0x1d48e1();}};if(mode!==_0x483263(0x12c))return;if(SKILL_TYPES[_0x483263(0xdc)](_0x5045d0)&&_0x5612fd[_0x483263(0x1dc)](countSkillPlayers)>=SKILL_LIMIT){showToast('⚠\x20SKILL\x20LIMIT\x20REACHED\x20—\x20max\x20'+SKILL_LIMIT+_0x483263(0x160));return;}const _0x5f2cd7=_0x5612fd[_0x483263(0x1bc)](LOS_Y),_0x993412={'QB':{'x':ball['x'],'y':_0x5612fd[_0x483263(0xd7)](_0x5f2cd7,_0x5612fd[_0x483263(0xd9)](YARD_PX,0x5))},'RB':{'x':_0x5612fd[_0x483263(0x16b)](_0x5612fd[_0x483263(0x17f)](ball['x'],0x14),YARD_PX),'y':_0x5612fd[_0x483263(0xd2)](_0x5f2cd7,0x5a)},'WR':{'x':_0x5612fd['jWFjw'](FIELD_LEFT,0x50),'y':_0x5f2cd7+YARD_PX},'TE':{'x':_0x5612fd[_0x483263(0xd2)](ball['x'],OLINE_SPACING*0x3),'y':_0x5f2cd7+YARD_PX},'FB':{'x':_0x5612fd[_0x483263(0xd7)](ball['x'],YARD_PX),'y':_0x5f2cd7+0x41}},_0x31562e=_0x993412[_0x5045d0]||{'x':ball['x'],'y':_0x5612fd[_0x483263(0xd6)](_0x5f2cd7,0x3c)},_0x40ae22=_0x5612fd[_0x483263(0x1ca)](spawnOffset,_0x5045d0),_0x149e4e=_0x5612fd[_0x483263(0x147)](clampToLOS,_0x5612fd[_0x483263(0xd2)](_0x31562e['x'],_0x40ae22['dx']),_0x5612fd['GqYCE'](_0x31562e['y'],_0x40ae22['dy'])),_0x43f240=_0x5612fd[_0x483263(0x1f1)](makePlayer,_0x5045d0,_0x149e4e['x'],_0x149e4e['y']);players['push'](_0x43f240),selectedPlayerId=_0x43f240['id'],_0x5612fd['smcYx'](refreshPlayerList),refreshSkillCounter(),_0x5612fd['smcYx'](draw);}function deletePlayer(_0xfe2356){const _0x447410=_0x1d55af,_0x5beacd={'lybhb':function(_0xf81e64,_0x54c04b){return _0xf81e64===_0x54c04b;},'rTJpI':function(_0x186f75){return _0x186f75();}};if(_0x5beacd[_0x447410(0x1e8)](motionOwnerId,_0xfe2356))motionOwnerId=null;if(runCarrierId===_0xfe2356)runCarrierId=null;players=players[_0x447410(0x1f3)](_0x5b95d8=>_0x5b95d8['id']!==_0xfe2356);if(_0x5beacd['lybhb'](selectedPlayerId,_0xfe2356))selectedPlayerId=null;refreshPlayerList(),_0x5beacd['rTJpI'](refreshSkillCounter),_0x5beacd[_0x447410(0x136)](updateMotionBadge),_0x5beacd[_0x447410(0x136)](draw);}function refreshPlayerList(){const _0x18b743=_0x1d55af,_0x436cdd={'skMvc':function(_0x3c92b5,_0x694c1e){return _0x3c92b5(_0x694c1e);},'YJLOC':'player-item','yfmhq':_0x18b743(0x1a7),'UIcPz':_0x18b743(0x141),'hSvNc':_0x18b743(0xb5),'aApBQ':_0x18b743(0x118)},_0x389efc=document[_0x18b743(0xdb)](_0x436cdd[_0x18b743(0x1d9)]);_0x389efc[_0x18b743(0x15e)]='',players[_0x18b743(0x10a)](_0x26757b=>{const _0x59ff98=_0x18b743,_0x384970={'vEdHv':_0x59ff98(0xf5),'YaANS':function(_0x5e605e,_0x2d2815){const _0x4e9f32=_0x59ff98;return _0x436cdd[_0x4e9f32(0x185)](_0x5e605e,_0x2d2815);}},_0x2efa63=document[_0x59ff98(0x179)](_0x59ff98(0x191));_0x2efa63['className']=_0x436cdd['YJLOC']+(_0x26757b['id']===selectedPlayerId?_0x59ff98(0x164):'');const _0xc52b03=[_0x26757b[_0x59ff98(0x16c)][_0x59ff98(0x1c5)]?_0x59ff98(0x1ee):'',_0x26757b[_0x59ff98(0x1ab)]['length']?_0x59ff98(0xe2):'',_0x26757b[_0x59ff98(0x163)][_0x59ff98(0x1c5)]?_0x436cdd[_0x59ff98(0x1e4)]:'',_0x26757b['blockPoints'][_0x59ff98(0x1c5)]?_0x436cdd[_0x59ff98(0x107)]:''][_0x59ff98(0x1e1)]('');_0x2efa63[_0x59ff98(0x15e)]='<span\x20class=\x22dot\x22\x20style=\x22background:'+(_0x26757b['id']===selectedPlayerId?'#00e5ff':_0x59ff98(0xcd))+_0x59ff98(0x1f5)+(_0x26757b['label']+'\x20#'+_0x26757b['id']+'\x20'+_0xc52b03)+(_0x59ff98(0x11a)+_0x26757b['id']+'\x22>×</button>'),_0x2efa63[_0x59ff98(0x124)](_0x436cdd[_0x59ff98(0xf7)],_0x32fb44=>{const _0x31cd49=_0x59ff98;if(_0x32fb44[_0x31cd49(0x11b)][_0x31cd49(0x1d3)][_0x31cd49(0x134)](_0x384970['vEdHv'])){_0x384970[_0x31cd49(0x199)](deletePlayer,+_0x32fb44[_0x31cd49(0x11b)][_0x31cd49(0x16a)]['id']);return;}selectedPlayerId=_0x26757b['id'],refreshPlayerList(),draw();}),_0x389efc['appendChild'](_0x2efa63);}),refreshOlineList(),refreshRunCarrierSelect();}function refreshOlineList(){const _0x3cb3df=_0x1d55af,_0x13f313={'mapla':'block','oTUul':function(_0x24b82b,_0x440d94){return _0x24b82b+_0x440d94;},'NnTyL':'player-item','SqYeE':_0x3cb3df(0x141),'fuMVe':_0x3cb3df(0xb5)},_0x2cef7b=document[_0x3cb3df(0xdb)](_0x3cb3df(0x116));_0x2cef7b[_0x3cb3df(0x15e)]='',olinePlayers()[_0x3cb3df(0x10a)](_0x24d9e5=>{const _0x17d10d=_0x3cb3df,_0xca1cd1={'ubetD':_0x13f313[_0x17d10d(0x1cb)]},_0x356de6=olineData[_0x24d9e5['id']],_0x44ec4f=selectedPlayerId===_0x24d9e5['id'],_0x276f99=document[_0x17d10d(0x179)](_0x17d10d(0x191));_0x276f99[_0x17d10d(0x10c)]=_0x13f313[_0x17d10d(0x13c)](_0x13f313['NnTyL'],_0x44ec4f?_0x17d10d(0x164):'');const _0x6c94b6=_0x356de6[_0x17d10d(0xe1)][_0x17d10d(0x1c5)]?_0x13f313[_0x17d10d(0x12b)]:'';_0x276f99[_0x17d10d(0x15e)]=_0x17d10d(0x105)+(_0x44ec4f?_0x17d10d(0x1da):'#e8a020')+'\x22></span>'+(_0x24d9e5[_0x17d10d(0x1d8)]+'\x20'+_0x6c94b6),_0x276f99[_0x17d10d(0x124)](_0x13f313[_0x17d10d(0x15a)],()=>{const _0x3ef451=_0x17d10d;selectedPlayerId=_0x24d9e5['id'];if(activeTool!==_0xca1cd1[_0x3ef451(0x126)])setTool(_0x3ef451(0x19d));refreshPlayerList(),draw();}),_0x2cef7b[_0x17d10d(0x183)](_0x276f99);});}function toggleOlineAccordion(){const _0xa59d23=_0x1d55af,_0x3acb22={'KtzWp':_0xa59d23(0x116),'juPLH':'olineHeader'};olineOpen=!olineOpen,document[_0xa59d23(0xdb)](_0x3acb22[_0xa59d23(0x158)])['classList']['toggle'](_0xa59d23(0x19c),!olineOpen),document[_0xa59d23(0xdb)](_0x3acb22[_0xa59d23(0x114)])[_0xa59d23(0x1d3)][_0xa59d23(0x1a9)](_0xa59d23(0x151),!olineOpen);}function toggleOffPlayersAccordion(){const _0xa12bc0=_0x1d55af,_0x279bdf=document[_0xa12bc0(0xdb)](_0xa12bc0(0x1c1)),_0x5c1fcf=document[_0xa12bc0(0xdb)](_0xa12bc0(0x175)),_0x1c8ea4=_0x279bdf[_0xa12bc0(0x1d3)][_0xa12bc0(0x134)](_0xa12bc0(0x19c));_0x279bdf[_0xa12bc0(0x1d3)][_0xa12bc0(0x1a9)](_0xa12bc0(0x19c),!_0x1c8ea4),_0x5c1fcf[_0xa12bc0(0x1d3)][_0xa12bc0(0x1a9)](_0xa12bc0(0x151),_0x1c8ea4);}function drawField(){const _0x3c045e=_0x1d55af,_0x89dbad={'PcXee':function(_0x4860d6,_0x3d5ce6){return _0x4860d6*_0x3d5ce6;},'XMAPL':function(_0x4131ef,_0x3a7ce7){return _0x4131ef-_0x3a7ce7;},'WvQLW':function(_0x3768c0){return _0x3768c0();},'kQZNW':function(_0x114a82,_0x23a8b2){return _0x114a82===_0x23a8b2;},'fTchD':function(_0x327ca5,_0x4a30ce){return _0x327ca5%_0x4a30ce;},'fFKwm':function(_0x2d3d6a,_0x9866bc){return _0x2d3d6a/_0x9866bc;},'EUEwc':'rgba(255,255,255,0.6)','aPHQy':function(_0x3fe146,_0xc67668){return _0x3fe146<_0xc67668;},'FCQKN':function(_0x441776,_0x42102b){return _0x441776>_0x42102b;},'EdjFE':function(_0x5599e5,_0x2e58cb){return _0x5599e5+_0x2e58cb;},'khvRl':_0x3c045e(0x181),'NrVTQ':function(_0x4648c1,_0x74780c){return _0x4648c1<=_0x74780c;},'HStrk':function(_0x26ce5d){return _0x26ce5d();},'zZYaF':function(_0x321d37,_0x25ff8c){return _0x321d37-_0x25ff8c;},'CMyWE':function(_0x15f26f,_0x16a124){return _0x15f26f+_0x16a124;},'jBFzZ':'bold\x2048px\x20Barlow\x20Condensed','tJGPL':'center','CistF':function(_0x2cdfea,_0x7258eb){return _0x2cdfea(_0x7258eb);},'WjcAr':function(_0x1bf8b3,_0x2ee966){return _0x1bf8b3-_0x2ee966;},'OMUWQ':'alphabetic','UpScR':function(_0x5899c8,_0x32cc92){return _0x5899c8/_0x32cc92;},'zSbZt':'rgba(255,255,255,0.25)'};ctx[_0x3c045e(0x140)]=_0x3c045e(0x1ac),ctx[_0x3c045e(0x145)](0x0,0x0,FIELD_W,FIELD_H);for(let _0x65f290=-0xf;_0x65f290<=0x23;_0x65f290++){const _0x232c38=LOS_Y()-_0x89dbad[_0x3c045e(0x1e7)](_0x65f290+0x1,YARD_PX),_0x2bb9d9=_0x89dbad['XMAPL'](_0x89dbad[_0x3c045e(0x1d0)](LOS_Y),_0x89dbad['PcXee'](_0x65f290,YARD_PX));if(_0x2bb9d9<0x0||_0x232c38>FIELD_H)continue;_0x89dbad[_0x3c045e(0x1e6)](_0x89dbad[_0x3c045e(0x1d5)](Math[_0x3c045e(0x177)](_0x89dbad['fFKwm'](_0x65f290,0x5)),0x2),0x0)&&(ctx['fillStyle']='rgba(0,0,0,0.07)',ctx[_0x3c045e(0x145)](FIELD_LEFT,_0x232c38,FIELD_RIGHT-FIELD_LEFT,YARD_PX));}ctx[_0x3c045e(0xc3)]=_0x89dbad['EUEwc'],ctx[_0x3c045e(0x161)]=0x2,ctx[_0x3c045e(0x137)](),ctx['moveTo'](FIELD_LEFT,0x0),ctx[_0x3c045e(0xda)](FIELD_LEFT,FIELD_H),ctx[_0x3c045e(0xd3)](FIELD_RIGHT,0x0),ctx[_0x3c045e(0xda)](FIELD_RIGHT,FIELD_H),ctx[_0x3c045e(0x193)]();for(let _0x16df31=-0xf;_0x16df31<=0x23;_0x16df31++){const _0x17ee8e=LOS_Y()-_0x16df31*YARD_PX;if(_0x89dbad[_0x3c045e(0xff)](_0x17ee8e,-0x1)||_0x89dbad[_0x3c045e(0x14e)](_0x17ee8e,_0x89dbad[_0x3c045e(0x113)](FIELD_H,0x1)))continue;ctx[_0x3c045e(0xc3)]=_0x16df31%0x5===0x0?_0x89dbad['khvRl']:_0x3c045e(0x1ba),ctx[_0x3c045e(0x161)]=_0x16df31%0x5===0x0?1.5:0.8,ctx[_0x3c045e(0x137)](),ctx[_0x3c045e(0xd3)](FIELD_LEFT,_0x17ee8e),ctx[_0x3c045e(0xda)](FIELD_RIGHT,_0x17ee8e),ctx[_0x3c045e(0x193)]();}ctx[_0x3c045e(0x161)]=0x2,ctx['strokeStyle']=_0x3c045e(0xb7);for(let _0x308728=-0xf;_0x89dbad[_0x3c045e(0xee)](_0x308728,0x23);_0x308728++){const _0xb8ef1e=_0x89dbad[_0x3c045e(0x1a8)](LOS_Y)-_0x89dbad[_0x3c045e(0x1e7)](_0x308728,YARD_PX);if(_0xb8ef1e<0x0||_0x89dbad[_0x3c045e(0x14e)](_0xb8ef1e,FIELD_H))continue;const _0x256bad=HASH_WIDTH/0x2;ctx[_0x3c045e(0x137)](),ctx[_0x3c045e(0xd3)](_0x89dbad['zZYaF'](LEFT_HASH,_0x256bad),_0xb8ef1e),ctx[_0x3c045e(0xda)](LEFT_HASH+_0x256bad,_0xb8ef1e),ctx[_0x3c045e(0xd3)](RIGHT_HASH-_0x256bad,_0xb8ef1e),ctx[_0x3c045e(0xda)](_0x89dbad[_0x3c045e(0xbe)](RIGHT_HASH,_0x256bad),_0xb8ef1e),ctx[_0x3c045e(0x193)]();}const _0x2dca4c={0x0:'50',0xa:'40',0x14:'30',0x1e:'20'};ctx[_0x3c045e(0x140)]='rgba(255,255,255,0.55)',ctx[_0x3c045e(0x1bf)]=_0x89dbad[_0x3c045e(0x120)],ctx[_0x3c045e(0x1db)]=_0x89dbad[_0x3c045e(0x168)],ctx[_0x3c045e(0x15c)]='middle';for(const [_0x5845ed,_0x1d11dd]of Object[_0x3c045e(0x15f)](_0x2dca4c)){const _0x1f53f6=_0x89dbad[_0x3c045e(0x10d)](Number,_0x5845ed),_0x3f8b7c=_0x89dbad[_0x3c045e(0x1a8)](LOS_Y)-_0x1f53f6*YARD_PX;if(_0x89dbad[_0x3c045e(0xff)](_0x3f8b7c,0x14)||_0x89dbad[_0x3c045e(0x14e)](_0x3f8b7c,_0x89dbad['WjcAr'](FIELD_H,0xa)))continue;const _0x4f412b=_0x89dbad['fFKwm'](FIELD_LEFT+LEFT_HASH,0x2);ctx[_0x3c045e(0xfd)](),ctx[_0x3c045e(0x1aa)](_0x4f412b,_0x3f8b7c),ctx['rotate'](Math['PI']/0x2),ctx['fillText'](_0x1d11dd,0x0,0x0),ctx[_0x3c045e(0x108)]();const _0x5952b5=(RIGHT_HASH+FIELD_RIGHT)/0x2;ctx[_0x3c045e(0xfd)](),ctx[_0x3c045e(0x1aa)](_0x5952b5,_0x3f8b7c),ctx[_0x3c045e(0x178)](-Math['PI']/0x2),ctx[_0x3c045e(0xeb)](_0x1d11dd,0x0,0x0),ctx[_0x3c045e(0x108)]();}ctx[_0x3c045e(0x15c)]=_0x89dbad[_0x3c045e(0x119)],ctx[_0x3c045e(0xc3)]=_0x3c045e(0x104),ctx['lineWidth']=0x1,ctx[_0x3c045e(0x194)]([0x4,0x6]),ctx[_0x3c045e(0x137)](),ctx[_0x3c045e(0xd3)](LEFT_HASH,0x0),ctx[_0x3c045e(0xda)](LEFT_HASH,FIELD_H),ctx['moveTo'](RIGHT_HASH,0x0),ctx['lineTo'](RIGHT_HASH,FIELD_H),ctx[_0x3c045e(0x193)](),ctx[_0x3c045e(0x194)]([]),ctx[_0x3c045e(0xfd)](),ctx[_0x3c045e(0x1aa)](_0x89dbad[_0x3c045e(0xf2)](FIELD_W,0x2),0x16),ctx['fillStyle']=_0x89dbad['zSbZt'],ctx[_0x3c045e(0x1bf)]=_0x3c045e(0x122),ctx[_0x3c045e(0x1db)]=_0x89dbad[_0x3c045e(0x168)],ctx[_0x3c045e(0xeb)]('▲\x20\x20UPFIELD',0x0,0x0),ctx['restore']();}function drawLOS(){const _0x1f389f=_0x1d55af,_0xf7a353={'LwzAu':_0x1f389f(0x172),'KTQlE':function(_0x5e4f87,_0x1c47b4){return _0x5e4f87+_0x1c47b4;}},_0x1a411e=LOS_Y();ctx[_0x1f389f(0xfd)](),ctx[_0x1f389f(0xc3)]=_0x1f389f(0x1c0),ctx['lineWidth']=0x2,ctx[_0x1f389f(0x194)]([0x8,0x5]),ctx[_0x1f389f(0x137)](),ctx[_0x1f389f(0xd3)](FIELD_LEFT,_0x1a411e),ctx[_0x1f389f(0xda)](FIELD_RIGHT,_0x1a411e),ctx[_0x1f389f(0x193)](),ctx['setLineDash']([]),ctx[_0x1f389f(0x140)]=_0x1f389f(0x13d),ctx['font']=_0x1f389f(0x122),ctx[_0x1f389f(0x1db)]=_0x1f389f(0x1b0),ctx[_0x1f389f(0xeb)](_0xf7a353[_0x1f389f(0xc2)],_0xf7a353[_0x1f389f(0x176)](FIELD_LEFT,0x5),_0x1a411e-0x5),ctx[_0x1f389f(0x108)]();}function drawPolyline(_0x55e487,_0x23202e,_0x3c9dcb,_0x25c9cd,_0x2c2030,_0x3facc5,_0xa1ddee){const _0x77df07=_0x1d55af,_0x147e8b={'UaEkW':function(_0x4cef56,_0x32d43a){return _0x4cef56*_0x32d43a;},'urIqV':_0x77df07(0x1b5),'mScHC':_0x77df07(0x18e),'COBix':function(_0x19eb19,_0x155c32){return _0x19eb19<_0x155c32;},'CojJE':function(_0x442873,_0x8654b4){return _0x442873+_0x8654b4;}};if(!_0x3c9dcb||_0x3c9dcb['length']===0x0)return;ctx[_0x77df07(0xfd)](),ctx[_0x77df07(0xc3)]=_0x25c9cd,ctx[_0x77df07(0x161)]=_0x3facc5,ctx['lineJoin']=_0x147e8b['mScHC'];if(_0xa1ddee)ctx[_0x77df07(0x194)]([0x8,0x5]);ctx[_0x77df07(0x137)](),ctx['moveTo'](_0x55e487,_0x23202e),_0x3c9dcb[_0x77df07(0x10a)](_0x6e6bd4=>ctx[_0x77df07(0xda)](_0x6e6bd4['x'],_0x6e6bd4['y'])),ctx[_0x77df07(0x193)](),ctx['setLineDash']([]);const _0x4c83b7=[{'x':_0x55e487,'y':_0x23202e},..._0x3c9dcb];for(let _0xd8ecaf=0x0;_0x147e8b[_0x77df07(0x154)](_0xd8ecaf,_0x4c83b7[_0x77df07(0x1c5)]-0x1);_0xd8ecaf++){const _0x1d9485=_0x4c83b7[_0xd8ecaf],_0x24c10c=_0x4c83b7[_0x147e8b['CojJE'](_0xd8ecaf,0x1)];drawArrow(ctx,(_0x1d9485['x']+_0x24c10c['x'])/0x2,(_0x1d9485['y']+_0x24c10c['y'])/0x2,_0x24c10c['x'],_0x24c10c['y'],_0x25c9cd);}_0x3c9dcb[_0x77df07(0x10a)](_0x2ea15a=>{const _0x503c1d=_0x77df07;ctx[_0x503c1d(0x137)](),ctx['arc'](_0x2ea15a['x'],_0x2ea15a['y'],0x5,0x0,_0x147e8b['UaEkW'](Math['PI'],0x2)),ctx[_0x503c1d(0x140)]=_0x2c2030,ctx[_0x503c1d(0xfe)](),ctx[_0x503c1d(0xc3)]=_0x147e8b[_0x503c1d(0x17d)],ctx['lineWidth']=1.5,ctx[_0x503c1d(0x193)]();}),ctx[_0x77df07(0x108)]();}function drawMotionSpringPath(_0x211821,_0x44fe4c,_0x4e7da2,_0x53c746,_0xbdea72,_0x286a88){const _0x2beb2c=_0x1d55af,_0x34142b={'sSGDX':function(_0x89ce33,_0x335f34){return _0x89ce33*_0x335f34;},'IkyIf':_0x2beb2c(0x1b5),'xRwzB':function(_0x4be8aa,_0x242fe4){return _0x4be8aa===_0x242fe4;},'SCoxq':_0x2beb2c(0x18e),'pecDW':function(_0xd9335b,_0x17de3c){return _0xd9335b<_0x17de3c;},'Bunbc':function(_0x2da88b,_0xdf1b3e){return _0x2da88b-_0xdf1b3e;},'zZTHS':function(_0x42dce8,_0x4966cc){return _0x42dce8/_0x4966cc;},'lgZCP':function(_0x5950d4,_0x37dc71){return _0x5950d4/_0x37dc71;},'RDBMP':function(_0x300544,_0x473b06){return _0x300544<=_0x473b06;},'WCWmC':function(_0x2415a3,_0x121ddb){return _0x2415a3===_0x121ddb;},'ysoeI':function(_0x4b37eb,_0xadf634){return _0x4b37eb%_0xadf634;},'rpvnY':function(_0x3d7f92,_0x8f52e4){return _0x3d7f92+_0x8f52e4;},'zWKBY':function(_0x215374,_0x1290ee){return _0x215374*_0x1290ee;}};if(!_0x4e7da2||_0x34142b[_0x2beb2c(0x135)](_0x4e7da2[_0x2beb2c(0x1c5)],0x0))return;ctx[_0x2beb2c(0xfd)](),ctx['strokeStyle']=_0x53c746,ctx[_0x2beb2c(0x161)]=_0x286a88,ctx[_0x2beb2c(0xfc)]=_0x2beb2c(0x18e),ctx[_0x2beb2c(0x11c)]=_0x34142b['SCoxq'];const _0x4a5849=0x6,_0x132455=0xa,_0x42b2e=[{'x':_0x211821,'y':_0x44fe4c},..._0x4e7da2];ctx[_0x2beb2c(0x137)]();let _0x3d7b7c=!![];for(let _0xf18859=0x0;_0x34142b[_0x2beb2c(0xb9)](_0xf18859,_0x42b2e['length']-0x1);_0xf18859++){const _0x2c3a5a=_0x42b2e[_0xf18859],_0x328960=_0x42b2e[_0xf18859+0x1],_0x392a80=_0x34142b['Bunbc'](_0x328960['x'],_0x2c3a5a['x']),_0x1be2e9=_0x34142b[_0x2beb2c(0x155)](_0x328960['y'],_0x2c3a5a['y']),_0x2715cd=Math['hypot'](_0x392a80,_0x1be2e9);if(_0x2715cd<0x1)continue;const _0x5044b3=_0x34142b[_0x2beb2c(0xe3)](_0x392a80,_0x2715cd),_0x168451=_0x34142b[_0x2beb2c(0xe3)](_0x1be2e9,_0x2715cd),_0x3378c3=-_0x168451,_0x567904=_0x5044b3,_0xd88791=Math[_0x2beb2c(0x1d2)](0x2,Math[_0x2beb2c(0x18e)](_0x34142b[_0x2beb2c(0x1e5)](_0x2715cd,_0x132455)));for(let _0x1b5906=0x0;_0x34142b[_0x2beb2c(0xbc)](_0x1b5906,_0xd88791);_0x1b5906++){const _0x33800b=_0x1b5906/_0xd88791,_0x393c63=_0x2c3a5a['x']+_0x34142b[_0x2beb2c(0xe6)](_0x33800b,_0x392a80),_0x730289=_0x2c3a5a['y']+_0x33800b*_0x1be2e9,_0x270103=_0x34142b[_0x2beb2c(0xd8)](_0x34142b[_0x2beb2c(0x17a)](_0x1b5906,0x2),0x0)?0x1:-0x1,_0x59544e=Math['sin'](_0x33800b*Math['PI']),_0x37f1a5=_0x34142b[_0x2beb2c(0xe6)](_0x270103,_0x4a5849)*_0x59544e,_0x25bcda=_0x393c63+_0x3378c3*_0x37f1a5,_0x10142e=_0x34142b[_0x2beb2c(0x19e)](_0x730289,_0x34142b[_0x2beb2c(0x14a)](_0x567904,_0x37f1a5));if(_0x3d7b7c)ctx['moveTo'](_0x25bcda,_0x10142e),_0x3d7b7c=![];else ctx[_0x2beb2c(0xda)](_0x25bcda,_0x10142e);}}ctx[_0x2beb2c(0x193)](),_0x4e7da2[_0x2beb2c(0x10a)](_0x3fd420=>{const _0x3c167c=_0x2beb2c;ctx[_0x3c167c(0x137)](),ctx[_0x3c167c(0x1eb)](_0x3fd420['x'],_0x3fd420['y'],0x4,0x0,_0x34142b[_0x3c167c(0xe6)](Math['PI'],0x2)),ctx[_0x3c167c(0x140)]=_0xbdea72,ctx[_0x3c167c(0xfe)](),ctx[_0x3c167c(0xc3)]=_0x34142b[_0x3c167c(0x1c4)],ctx[_0x3c167c(0x161)]=1.2,ctx[_0x3c167c(0x193)]();}),ctx['restore']();}function drawBlockPath(_0x4dca9f,_0x4640ce,_0x3e53bc,_0x421841,_0x33c9a2){const _0x1148cc=_0x1d55af,_0x52d3ed={'JpzJH':_0x1148cc(0x18e),'FuGOM':function(_0x19c94e,_0x2e7788){return _0x19c94e<_0x2e7788;},'qeImH':function(_0x2184f1,_0x11d7ca){return _0x2184f1+_0x11d7ca;},'uAaGr':function(_0x484723,_0x4c4825,_0x34198b,_0x5558d0,_0x5d507e,_0x4c245b,_0x2f3a02){return _0x484723(_0x4c4825,_0x34198b,_0x5558d0,_0x5d507e,_0x4c245b,_0x2f3a02);},'KFRnF':function(_0x4ba878,_0x3b4056){return _0x4ba878/_0x3b4056;},'rIfhh':function(_0x524d94,_0x234e6d){return _0x524d94+_0x234e6d;},'FeBAk':function(_0x47bb63,_0xd6154){return _0x47bb63+_0xd6154;},'eNDow':function(_0xd90363,_0x2b9f4d){return _0xd90363<_0x2b9f4d;},'WVpbK':function(_0x4d9c39,_0x362c7b){return _0x4d9c39-_0x362c7b;},'sWOJZ':function(_0x55c3d4,_0x13df91){return _0x55c3d4>=_0x13df91;},'yMKpG':function(_0x50c2d0,_0x5b336f){return _0x50c2d0/_0x5b336f;},'XPoNO':function(_0x19103e,_0x13d985){return _0x19103e*_0x13d985;},'iVlii':function(_0x354c14,_0x47e226){return _0x354c14*_0x47e226;},'DrpVG':function(_0x50c387,_0x5d884a){return _0x50c387*_0x5d884a;},'FbPhH':function(_0x187d6e,_0x5c7573){return _0x187d6e+_0x5c7573;},'ewvgx':function(_0x197ed2,_0x3a26cb){return _0x197ed2+_0x3a26cb;},'tuXWZ':function(_0x2e7a8e,_0x3e82eb){return _0x2e7a8e-_0x3e82eb;},'NXkIr':function(_0x2746b0,_0x89b7f3){return _0x2746b0*_0x89b7f3;},'hacaC':function(_0x414c75,_0x162464){return _0x414c75*_0x162464;},'vnpPg':function(_0x52c7c1,_0x50b6a6){return _0x52c7c1-_0x50b6a6;},'TKowi':function(_0x452103,_0x2dc018){return _0x452103*_0x2dc018;}};if(!_0x3e53bc||_0x3e53bc[_0x1148cc(0x1c5)]===0x0)return;ctx[_0x1148cc(0xfd)](),ctx[_0x1148cc(0xc3)]=_0x421841,ctx['lineWidth']=2.5,ctx['setLineDash']([0x6,0x4]),ctx[_0x1148cc(0xfc)]=_0x52d3ed[_0x1148cc(0x106)],ctx[_0x1148cc(0x137)](),ctx[_0x1148cc(0xd3)](_0x4dca9f,_0x4640ce),_0x3e53bc[_0x1148cc(0x10a)](_0x1cb32f=>ctx[_0x1148cc(0xda)](_0x1cb32f['x'],_0x1cb32f['y'])),ctx[_0x1148cc(0x193)](),ctx[_0x1148cc(0x194)]([]);const _0x23d142=[{'x':_0x4dca9f,'y':_0x4640ce},..._0x3e53bc];for(let _0x265c3a=0x0;_0x52d3ed[_0x1148cc(0xe0)](_0x265c3a,_0x23d142[_0x1148cc(0x1c5)]-0x1);_0x265c3a++){const _0x58cfbe=_0x23d142[_0x265c3a],_0xf4f0e0=_0x23d142[_0x52d3ed[_0x1148cc(0x195)](_0x265c3a,0x1)];_0x52d3ed['uAaGr'](drawArrow,ctx,_0x52d3ed['KFRnF'](_0x52d3ed[_0x1148cc(0x1b1)](_0x58cfbe['x'],_0xf4f0e0['x']),0x2),_0x52d3ed[_0x1148cc(0xb8)](_0x58cfbe['y'],_0xf4f0e0['y'])/0x2,_0xf4f0e0['x'],_0xf4f0e0['y'],_0x421841);}for(let _0x583289=0x0;_0x52d3ed[_0x1148cc(0x1b3)](_0x583289,_0x52d3ed[_0x1148cc(0x188)](_0x3e53bc['length'],0x1));_0x583289++){ctx[_0x1148cc(0x137)](),ctx[_0x1148cc(0x1eb)](_0x3e53bc[_0x583289]['x'],_0x3e53bc[_0x583289]['y'],0x4,0x0,Math['PI']*0x2),ctx[_0x1148cc(0x140)]=_0x33c9a2,ctx[_0x1148cc(0xfe)](),ctx[_0x1148cc(0xc3)]=_0x1148cc(0x1b5),ctx[_0x1148cc(0x161)]=1.2,ctx['stroke']();}const _0x4af5a9=_0x3e53bc[_0x3e53bc[_0x1148cc(0x1c5)]-0x1],_0x17df42=_0x52d3ed[_0x1148cc(0x13f)](_0x3e53bc['length'],0x2)?_0x3e53bc[_0x3e53bc['length']-0x2]:{'x':_0x4dca9f,'y':_0x4640ce},_0x4b06ea=_0x52d3ed[_0x1148cc(0x188)](_0x4af5a9['x'],_0x17df42['x']),_0xc7c643=_0x4af5a9['y']-_0x17df42['y'],_0x3ebf1b=Math[_0x1148cc(0x15b)](_0x4b06ea,_0xc7c643)||0x1,_0x5b6714=_0x52d3ed[_0x1148cc(0x1e2)](_0x4b06ea,_0x3ebf1b),_0x16fdc5=_0x52d3ed[_0x1148cc(0x1ea)](_0xc7c643,_0x3ebf1b),_0x4b218b=-_0x16fdc5,_0x103391=_0x5b6714,_0x404a71=0xb,_0x1c201d=0x4;ctx['save'](),ctx[_0x1148cc(0x1aa)](_0x4af5a9['x'],_0x4af5a9['y']),ctx[_0x1148cc(0x137)](),ctx[_0x1148cc(0xd3)](_0x4b218b*_0x404a71+_0x52d3ed[_0x1148cc(0x11d)](_0x5b6714,_0x1c201d),_0x52d3ed[_0x1148cc(0x1c7)](_0x103391,_0x404a71)+_0x52d3ed[_0x1148cc(0x1b4)](_0x16fdc5,_0x1c201d)),ctx[_0x1148cc(0xda)](_0x52d3ed[_0x1148cc(0xf1)](-_0x4b218b*_0x404a71,_0x5b6714*_0x1c201d),_0x52d3ed[_0x1148cc(0xba)](_0x52d3ed[_0x1148cc(0x11d)](-_0x103391,_0x404a71),_0x52d3ed['XPoNO'](_0x16fdc5,_0x1c201d))),ctx[_0x1148cc(0xda)](_0x52d3ed[_0x1148cc(0x1a1)](_0x52d3ed['NXkIr'](-_0x4b218b,_0x404a71),_0x52d3ed[_0x1148cc(0x144)](_0x5b6714,_0x1c201d)),-_0x103391*_0x404a71-_0x16fdc5*_0x1c201d),ctx[_0x1148cc(0xda)](_0x4b218b*_0x404a71-_0x5b6714*_0x1c201d,_0x52d3ed[_0x1148cc(0x131)](_0x52d3ed[_0x1148cc(0x18a)](_0x103391,_0x404a71),_0x16fdc5*_0x1c201d)),ctx[_0x1148cc(0x1ed)](),ctx[_0x1148cc(0x140)]=_0x33c9a2,ctx[_0x1148cc(0xfe)](),ctx[_0x1148cc(0xc3)]=_0x1148cc(0x1b5),ctx[_0x1148cc(0x161)]=1.5,ctx['stroke'](),ctx[_0x1148cc(0x108)](),ctx['restore']();}function drawAssignments(){const _0x5aaf28=_0x1d55af,_0x11c7d2={'FDNeR':function(_0x4a4dec,_0x1c7839){return _0x4a4dec===_0x1c7839;},'aPNRe':function(_0x5c3a3a,_0x1a4536){return _0x5c3a3a===_0x1a4536;},'bLhVB':function(_0xb25583,_0x57c810){return _0xb25583!==_0x57c810;},'IdJfS':function(_0x3dd6e6,_0xae78a1){return _0x3dd6e6===_0xae78a1;},'zACZS':_0x5aaf28(0xed),'lnInS':function(_0x1ee2ee,_0x199518){return _0x1ee2ee-_0x199518;},'WOWDj':function(_0x28cfa1,_0x1f7af8){return _0x28cfa1>_0x1f7af8;},'lfCkP':function(_0x41eb48,_0x4214eb){return _0x41eb48>_0x4214eb;},'XhSxu':function(_0xc42bef,_0x491053,_0x5497e4,_0x502d7e,_0x5005b3,_0xb19e18,_0x22f269){return _0xc42bef(_0x491053,_0x5497e4,_0x502d7e,_0x5005b3,_0xb19e18,_0x22f269);},'OBFVS':function(_0x525325,_0x360d99){return _0x525325!==_0x360d99;},'rXVgD':function(_0x3f8895,_0x591a9b){return _0x3f8895>_0x591a9b;},'nqJQL':function(_0x36a2f4,_0x19260e){return _0x36a2f4===_0x19260e;},'esKUP':function(_0x5b6fa2,_0x3c3aa6){return _0x5b6fa2===_0x3c3aa6;},'OSkHg':function(_0xa9a441,_0x487bf3){return _0xa9a441-_0x487bf3;},'TTkVJ':function(_0x31b94e,_0x28a1d5){return _0x31b94e/_0x28a1d5;},'efycc':function(_0x248a03,_0x59c119){return _0x248a03*_0x59c119;},'hqstH':function(_0xb81736,_0x131685,_0x405cc7,_0x434640,_0x331a8b,_0x5007e6,_0x58ac99){return _0xb81736(_0x131685,_0x405cc7,_0x434640,_0x331a8b,_0x5007e6,_0x58ac99);},'iJmFk':function(_0x424fd1,_0x2efa33){return _0x424fd1*_0x2efa33;},'NLPhL':function(_0x3f0b81,_0x38d652){return _0x3f0b81+_0x38d652;},'CYQZU':function(_0x474eab,_0x52381f){return _0x474eab*_0x52381f;},'yYzyN':function(_0x29d69a,_0x3feabc){return _0x29d69a-_0x3feabc;},'npzFn':function(_0x4d6944,_0x46d9f0){return _0x4d6944*_0x46d9f0;},'sVvYy':function(_0x640ed7,_0x145fff){return _0x640ed7-_0x145fff;},'XYbnD':function(_0x4cd950,_0x70a2d2){return _0x4cd950*_0x70a2d2;},'vYySl':_0x5aaf28(0x1b5),'THtOq':function(_0x2f46db){return _0x2f46db();}};players[_0x5aaf28(0x10a)](_0x1b9a8b=>{const _0x17eaad=_0x5aaf28,_0x241fdf=_0x11c7d2[_0x17eaad(0x130)](_0x1b9a8b['id'],selectedPlayerId),_0x2cf1b5=mode==='sim'&&_0x1b9a8b[_0x17eaad(0x129)]?_0x1b9a8b[_0x17eaad(0x129)]:_0x1b9a8b['routePoints'],_0x2e1761=_0x11c7d2[_0x17eaad(0x130)](mode,'sim')&&_0x1b9a8b[_0x17eaad(0x117)]?_0x1b9a8b[_0x17eaad(0x117)]:_0x1b9a8b[_0x17eaad(0x1ab)],_0x15c944=_0x11c7d2['aPNRe'](mode,_0x17eaad(0xed))&&_0x1b9a8b['simShiftPoints']?_0x1b9a8b[_0x17eaad(0x10f)]:_0x1b9a8b[_0x17eaad(0x163)],_0x9269ee=mode==='sim'&&_0x1b9a8b[_0x17eaad(0xd1)]?_0x1b9a8b['simBlockPoints']:_0x1b9a8b[_0x17eaad(0xe1)],_0x1dc8da=mode===_0x17eaad(0xed)&&_0x11c7d2[_0x17eaad(0xbb)](_0x1b9a8b[_0x17eaad(0xfa)],undefined)?_0x1b9a8b[_0x17eaad(0xfa)]:_0x1b9a8b['x'],_0x36fb52=_0x11c7d2[_0x17eaad(0x1ef)](mode,_0x11c7d2[_0x17eaad(0xe8)])&&_0x1b9a8b[_0x17eaad(0x186)]!==undefined?_0x1b9a8b[_0x17eaad(0x186)]:_0x1b9a8b['y'];let _0x5bd1d7,_0x4b5fcd;_0x15c944&&_0x15c944[_0x17eaad(0x1c5)]>0x0?(_0x5bd1d7=_0x15c944[_0x15c944['length']-0x1]['x'],_0x4b5fcd=_0x15c944[_0x11c7d2['lnInS'](_0x15c944['length'],0x1)]['y']):(_0x5bd1d7=_0x1dc8da,_0x4b5fcd=_0x36fb52);const _0x1c2915=_0x5bd1d7,_0x21e71d=_0x4b5fcd;let _0x2df1af,_0x53fa89;_0x2e1761&&_0x11c7d2['WOWDj'](_0x2e1761[_0x17eaad(0x1c5)],0x0)?(_0x2df1af=_0x2e1761[_0x2e1761[_0x17eaad(0x1c5)]-0x1]['x'],_0x53fa89=_0x2e1761[_0x2e1761[_0x17eaad(0x1c5)]-0x1]['y']):(_0x2df1af=_0x5bd1d7,_0x53fa89=_0x4b5fcd);const _0x99566b=_0x241fdf?0x3:0x2;if(_0x15c944&&_0x11c7d2[_0x17eaad(0x16d)](_0x15c944[_0x17eaad(0x1c5)],0x0))drawMotionSpringPath(_0x1dc8da,_0x36fb52,_0x15c944,COLOR['shift'][_0x17eaad(0x1a6)],COLOR[_0x17eaad(0x109)]['wp'],_0x99566b);if(_0x2e1761&&_0x2e1761[_0x17eaad(0x1c5)]>0x0)_0x11c7d2[_0x17eaad(0x1de)](drawMotionSpringPath,_0x1c2915,_0x21e71d,_0x2e1761,COLOR[_0x17eaad(0x10e)]['line'],COLOR[_0x17eaad(0x10e)]['wp'],_0x99566b);if(_0x2cf1b5&&_0x2cf1b5[_0x17eaad(0x1c5)]>0x0)drawPolyline(_0x2df1af,_0x53fa89,_0x2cf1b5,COLOR['route'][_0x17eaad(0x1a6)],COLOR[_0x17eaad(0x184)]['wp'],_0x99566b,![]);if(_0x9269ee&&_0x9269ee['length']>0x0)drawBlockPath(_0x2df1af,_0x53fa89,_0x9269ee,COLOR[_0x17eaad(0x19d)][_0x17eaad(0x1a6)],COLOR['block']['wp']);}),olinePlayers()['forEach'](_0x1d07de=>{const _0x4b9b63=_0x5aaf28,_0x21eba5=olineData[_0x1d07de['id']];if(!_0x21eba5)return;const _0x15d179=mode===_0x4b9b63(0xed)&&_0x21eba5[_0x4b9b63(0xd1)]?_0x21eba5[_0x4b9b63(0xd1)]:_0x21eba5['blockPoints'];if(!_0x15d179||_0x11c7d2[_0x4b9b63(0xb4)](_0x15d179['length'],0x0))return;const _0x5f49d9=_0x11c7d2[_0x4b9b63(0xb4)](mode,_0x11c7d2[_0x4b9b63(0xe8)])&&_0x11c7d2['OBFVS'](_0x21eba5[_0x4b9b63(0xfa)],undefined)?_0x21eba5[_0x4b9b63(0xfa)]:_0x1d07de['x'],_0x5e88d7=mode===_0x11c7d2[_0x4b9b63(0xe8)]&&_0x11c7d2[_0x4b9b63(0xbb)](_0x21eba5['simStartY'],undefined)?_0x21eba5[_0x4b9b63(0x186)]:_0x1d07de['y'];drawBlockPath(_0x5f49d9,_0x5e88d7,_0x15d179,COLOR[_0x4b9b63(0x19d)][_0x4b9b63(0x1a6)],COLOR[_0x4b9b63(0x19d)]['wp']);});const _0x5204d6=[...players,..._0x11c7d2['THtOq'](olinePlayers)[_0x5aaf28(0x166)](_0x4065c7=>({...olineData[_0x4065c7['id']],'_isOlineData':!![],'id':_0x4065c7['id'],'x':_0x4065c7['x'],'y':_0x4065c7['y']}))];_0x5204d6[_0x5aaf28(0x10a)](_0x215656=>{const _0x3dce59=_0x5aaf28;if(!_0x215656[_0x3dce59(0x1f2)])return;const _0x103164=defensePlayers[_0x3dce59(0x12a)](_0x2bff7f=>_0x2bff7f['id']===_0x215656['_designatedBlockTargetId']);if(!_0x103164)return;const _0x2df064=_0x215656[_0x3dce59(0x19a)]?_0x215656[_0x3dce59(0xe1)]||[]:_0x215656[_0x3dce59(0xe1)]||[],_0x10b517=_0x11c7d2[_0x3dce59(0xde)](_0x2df064[_0x3dce59(0x1c5)],0x0),_0xf5a2f=_0x10b517?_0x2df064[_0x2df064[_0x3dce59(0x1c5)]-0x1]:null,_0x4cd156=_0x11c7d2[_0x3dce59(0xb3)](mode,_0x11c7d2[_0x3dce59(0xe8)])?_0x215656[_0x3dce59(0x1af)]??_0x215656['x']:_0xf5a2f?_0xf5a2f['x']:_0x215656['x'],_0x2cff2f=_0x11c7d2[_0x3dce59(0x121)](mode,_0x11c7d2[_0x3dce59(0xe8)])?_0x215656[_0x3dce59(0x197)]??_0x215656['y']:_0xf5a2f?_0xf5a2f['y']:_0x215656['y'],_0x56565b=mode===_0x3dce59(0xed)?_0x103164[_0x3dce59(0x1af)]??_0x103164['x']:_0x103164['x'],_0x1f80dc=mode==='sim'?_0x103164[_0x3dce59(0x197)]??_0x103164['y']:_0x103164['y'],_0x2a2e46=_0x11c7d2[_0x3dce59(0xf3)](_0x56565b,_0x4cd156),_0x454253=_0x11c7d2['lnInS'](_0x1f80dc,_0x2cff2f),_0x6bdd5c=Math['hypot'](_0x2a2e46,_0x454253)||0x1,_0x435637=_0x2a2e46/_0x6bdd5c,_0x1a4c90=_0x11c7d2[_0x3dce59(0x1d1)](_0x454253,_0x6bdd5c),_0x2c9722=-_0x1a4c90,_0x40839a=_0x435637,_0x2b208c=_0x56565b-_0x435637*0x12,_0x81bc2c=_0x1f80dc-_0x11c7d2[_0x3dce59(0x1cf)](_0x1a4c90,0x12);ctx['save'](),ctx['strokeStyle']=COLOR[_0x3dce59(0x19d)][_0x3dce59(0x1a6)],ctx[_0x3dce59(0x161)]=0x2,ctx[_0x3dce59(0x194)]([0x6,0x4]),ctx[_0x3dce59(0x137)](),ctx[_0x3dce59(0xd3)](_0x4cd156,_0x2cff2f),ctx[_0x3dce59(0xda)](_0x2b208c,_0x81bc2c),ctx['stroke'](),ctx[_0x3dce59(0x194)]([]),_0x11c7d2[_0x3dce59(0x14d)](drawArrow,ctx,_0x4cd156,_0x2cff2f,_0x2b208c,_0x81bc2c,COLOR[_0x3dce59(0x19d)][_0x3dce59(0x1a6)]),ctx[_0x3dce59(0x108)]();const _0x43494d=0xb,_0x5b9954=0x4;ctx[_0x3dce59(0xfd)](),ctx[_0x3dce59(0x1aa)](_0x2b208c,_0x81bc2c),ctx[_0x3dce59(0x137)](),ctx[_0x3dce59(0xd3)](_0x11c7d2['iJmFk'](_0x2c9722,_0x43494d)+_0x435637*_0x5b9954,_0x40839a*_0x43494d+_0x1a4c90*_0x5b9954),ctx[_0x3dce59(0xda)](_0x11c7d2[_0x3dce59(0xfb)](-_0x2c9722*_0x43494d,_0x435637*_0x5b9954),_0x11c7d2[_0x3dce59(0xc8)](-_0x40839a,_0x43494d)+_0x1a4c90*_0x5b9954),ctx[_0x3dce59(0xda)](_0x11c7d2[_0x3dce59(0xf0)](_0x11c7d2[_0x3dce59(0x19f)](-_0x2c9722,_0x43494d),_0x11c7d2[_0x3dce59(0x19f)](_0x435637,_0x5b9954)),_0x11c7d2[_0x3dce59(0xc8)](-_0x40839a,_0x43494d)-_0x1a4c90*_0x5b9954),ctx['lineTo'](_0x11c7d2['lnInS'](_0x2c9722*_0x43494d,_0x11c7d2['npzFn'](_0x435637,_0x5b9954)),_0x11c7d2[_0x3dce59(0x1f4)](_0x11c7d2[_0x3dce59(0x1d4)](_0x40839a,_0x43494d),_0x1a4c90*_0x5b9954)),ctx[_0x3dce59(0x1ed)](),ctx['fillStyle']=COLOR[_0x3dce59(0x19d)]['wp'],ctx[_0x3dce59(0xfe)](),ctx[_0x3dce59(0xc3)]=_0x11c7d2[_0x3dce59(0x12d)],ctx[_0x3dce59(0x161)]=1.5,ctx[_0x3dce59(0x193)](),ctx[_0x3dce59(0x108)]();});}function drawArrow(_0x360774,_0x76d1dd,_0x5efba3,_0xf9624e,_0x2ef39a,_0x2d2b84){const _0x4d8507=_0x1d55af,_0x141a40={'tpMex':function(_0x1e96f6,_0x56e87c){return _0x1e96f6-_0x56e87c;},'XXJLM':function(_0x586911,_0x63e857){return _0x586911/_0x63e857;}},_0x2beafc=Math[_0x4d8507(0x182)](_0x2ef39a-_0x5efba3,_0x141a40['tpMex'](_0xf9624e,_0x76d1dd)),_0x10e9ad=0x8;_0x360774['save'](),_0x360774[_0x4d8507(0x140)]=_0x2d2b84,_0x360774[_0x4d8507(0x1aa)](_0x76d1dd,_0x5efba3),_0x360774[_0x4d8507(0x178)](_0x2beafc),_0x360774[_0x4d8507(0x137)](),_0x360774[_0x4d8507(0xd3)](0x0,0x0),_0x360774[_0x4d8507(0xda)](-_0x10e9ad,_0x141a40[_0x4d8507(0x150)](-_0x10e9ad,0x2)),_0x360774[_0x4d8507(0xda)](-_0x10e9ad,_0x10e9ad/0x2),_0x360774[_0x4d8507(0x1ed)](),_0x360774[_0x4d8507(0xfe)](),_0x360774['restore']();}function drawPlayers(){const _0x54a658=_0x1d55af,_0x295ec9={'jFeFo':function(_0x5dbd16,_0x14fb69){return _0x5dbd16===_0x14fb69;},'ePGgC':function(_0x344355,_0x618024){return _0x344355!==_0x618024;},'jiOgA':function(_0x3fa42b,_0x542a01){return _0x3fa42b===_0x542a01;},'nzRWr':_0x54a658(0xed),'hrAsm':function(_0x597134,_0x371fe6,_0x47cb9d,_0x5cd19b,_0x7d3e3a,_0x4aa03f){return _0x597134(_0x371fe6,_0x47cb9d,_0x5cd19b,_0x7d3e3a,_0x4aa03f);},'CgaIY':_0x54a658(0x1da),'ISWTv':function(_0x59a468,_0x35d5e7){return _0x59a468===_0x35d5e7;},'cyjgA':function(_0x3fc696,_0x52136d){return _0x3fc696===_0x52136d;},'UMPmV':function(_0x337d22,_0x25958b){return _0x337d22===_0x25958b;},'YpTXt':_0x54a658(0xcd),'QicNf':function(_0x5d5354){return _0x5d5354();}};_0x295ec9[_0x54a658(0x1fa)](olinePlayers)['forEach'](_0x3761f7=>{const _0x2de506=_0x54a658,_0x3aeaed=_0x295ec9[_0x2de506(0x1a5)](selectedPlayerId,_0x3761f7['id']),_0x5741af=olineData[_0x3761f7['id']],_0x66738a=mode==='sim'&&_0x295ec9[_0x2de506(0x1e3)](_0x5741af[_0x2de506(0x1af)],undefined)?_0x5741af['simX']:_0x3761f7['x'],_0x17c164=_0x295ec9[_0x2de506(0x1c6)](mode,_0x295ec9[_0x2de506(0x1a3)])&&_0x295ec9[_0x2de506(0x1e3)](_0x5741af['simY'],undefined)?_0x5741af[_0x2de506(0x197)]:_0x3761f7['y'];_0x295ec9[_0x2de506(0xf9)](drawPlayerCircle,_0x66738a,_0x17c164,_0x3aeaed?_0x295ec9[_0x2de506(0xd0)]:_0x2de506(0x187),_0x3761f7[_0x2de506(0x1d8)],_0x3aeaed);}),players[_0x54a658(0x10a)](_0x33f560=>{const _0x11d4c9=_0x54a658,_0x589c32=mode===_0x11d4c9(0xed)?_0x33f560['simX']??_0x33f560['x']:_0x33f560['x'],_0x3312c1=_0x295ec9[_0x11d4c9(0x153)](mode,_0x295ec9[_0x11d4c9(0x1a3)])?_0x33f560[_0x11d4c9(0x197)]??_0x33f560['y']:_0x33f560['y'],_0x2d7d26=_0x295ec9[_0x11d4c9(0x1a5)](_0x33f560['id'],selectedPlayerId),_0x10e750=_0x295ec9['cyjgA'](playType,_0x11d4c9(0x14b))&&_0x295ec9[_0x11d4c9(0x1b9)](_0x33f560['id'],runCarrierId),_0x26dc3b=_0x2d7d26?_0x295ec9['CgaIY']:_0x10e750?_0x11d4c9(0xca):_0x295ec9[_0x11d4c9(0x1a2)];drawPlayerCircle(_0x589c32,_0x3312c1,_0x26dc3b,_0x33f560['label'],_0x2d7d26);});}function drawPlayerCircle(_0x30f0dd,_0x1259e3,_0x3ce0fd,_0x397253,_0x4f9710){const _0x1fda14=_0x1d55af,_0x59a4b7={'HaSOI':function(_0x5485d8,_0x2e632c){return _0x5485d8*_0x2e632c;},'TGMsX':_0x1fda14(0xc4),'fAjHL':_0x1fda14(0xea),'bTtrh':_0x1fda14(0xc5)};ctx[_0x1fda14(0xfd)](),_0x4f9710&&(ctx['shadowColor']=_0x1fda14(0x1da),ctx[_0x1fda14(0x16f)]=0x12),ctx[_0x1fda14(0x137)](),ctx[_0x1fda14(0x1eb)](_0x30f0dd,_0x1259e3,0xc,0x0,_0x59a4b7['HaSOI'](Math['PI'],0x2)),ctx['fillStyle']=_0x4f9710?_0x1fda14(0xef):_0x59a4b7[_0x1fda14(0x190)],ctx[_0x1fda14(0xfe)](),ctx['strokeStyle']=_0x3ce0fd,ctx[_0x1fda14(0x161)]=_0x4f9710?0x3:0x2,ctx[_0x1fda14(0x193)](),ctx[_0x1fda14(0x16f)]=0x0,ctx['fillStyle']=_0x3ce0fd,ctx[_0x1fda14(0x1bf)]=_0x59a4b7[_0x1fda14(0x13e)],ctx[_0x1fda14(0x1db)]=_0x59a4b7[_0x1fda14(0x1c9)],ctx['textBaseline']=_0x1fda14(0x14c),ctx['fillText'](_0x397253,_0x30f0dd,_0x1259e3),ctx[_0x1fda14(0x108)]();}function drawBall(){const _0x13961c=_0x1d55af,_0x48886a={'lAjaQ':_0x13961c(0xed),'GDbaT':_0x13961c(0x14b),'yPflB':_0x13961c(0xc9),'zAVKw':_0x13961c(0xc0),'zvBFL':function(_0x1f4b33,_0x3fe31e){return _0x1f4b33/_0x3fe31e;}};let _0x6afce8,_0x111484;if(mode===_0x48886a[_0x13961c(0x1c8)]){if(playType===_0x48886a[_0x13961c(0xb6)]){if(runHandoffState===_0x48886a[_0x13961c(0x17b)]){const _0x2bc318=players[_0x13961c(0x12a)](_0x4f34c8=>_0x4f34c8['id']===runCarrierId);_0x2bc318?(_0x6afce8=_0x2bc318['simX']??_0x2bc318['x'],_0x111484=_0x2bc318[_0x13961c(0x197)]??_0x2bc318['y']):(_0x6afce8=ball['x'],_0x111484=ball['y']);}else{if(ballSim[_0x13961c(0x103)]){const _0x128b9a=players[_0x13961c(0x12a)](_0x38e8ab=>_0x38e8ab[_0x13961c(0x112)]==='QB');_0x128b9a?(_0x6afce8=_0x128b9a['simX']??_0x128b9a['x'],_0x111484=_0x128b9a[_0x13961c(0x197)]??_0x128b9a['y']):(_0x6afce8=ballSim['x'],_0x111484=ballSim['y']);}else ballSim[_0x13961c(0x1a4)]?(_0x6afce8=ballSim['x'],_0x111484=ballSim['y']):(_0x6afce8=ball['x'],_0x111484=ball['y']);}}else{if(ballSim[_0x13961c(0x103)]){const _0x5db62a=players[_0x13961c(0x12a)](_0x3a8d49=>_0x3a8d49[_0x13961c(0x112)]==='QB');if(_0x5db62a)_0x6afce8=_0x5db62a['simX']??_0x5db62a['x'],_0x111484=_0x5db62a['simY']??_0x5db62a['y'];else return;}else ballSim[_0x13961c(0x1a4)]?(_0x6afce8=ballSim['x'],_0x111484=ballSim['y']):(_0x6afce8=ball['x'],_0x111484=ball['y']);}}else _0x6afce8=ball['x'],_0x111484=ball['y'];ctx[_0x13961c(0xfd)](),ctx['translate'](_0x6afce8,_0x111484),ctx['rotate'](Math['PI']/0x2),ctx[_0x13961c(0xe4)]=_0x48886a[_0x13961c(0xec)],ctx[_0x13961c(0x16f)]=0x14,ctx['save'](),ctx[_0x13961c(0x169)](0x1,0.55),ctx[_0x13961c(0x137)](),ctx[_0x13961c(0x1eb)](0x0,0x0,0xa,0x0,Math['PI']*0x2),ctx[_0x13961c(0x140)]=_0x13961c(0x1c3),ctx[_0x13961c(0xfe)](),ctx[_0x13961c(0xc3)]=_0x13961c(0x16e),ctx[_0x13961c(0x161)]=1.5,ctx['stroke'](),ctx['restore'](),ctx['save'](),ctx[_0x13961c(0x178)](_0x48886a[_0x13961c(0x1b6)](Math['PI'],0x2)),ctx['strokeStyle']=_0x13961c(0x16e),ctx[_0x13961c(0x161)]=0x1,ctx['beginPath'](),ctx['moveTo'](0x0,-0x3),ctx['lineTo'](0x0,0x3),ctx[_0x13961c(0xd3)](-0x3,-0x1),ctx[_0x13961c(0xda)](0x3,-0x1),ctx[_0x13961c(0xd3)](-0x3,0x1),ctx[_0x13961c(0xda)](0x3,0x1),ctx['stroke'](),ctx[_0x13961c(0x108)](),ctx['restore']();}function draw(){const _0x38f722=_0x1d55af,_0x4ce30e={'CxeCT':function(_0x3f8f79){return _0x3f8f79();},'JEhCn':_0x38f722(0xed),'RXLrW':function(_0x42944c,_0x437fa0){return _0x42944c===_0x437fa0;},'lVQpf':_0x38f722(0x1c2),'msXsf':_0x38f722(0x109),'fjSGS':function(_0xe0891a,_0x2dd305){return _0xe0891a===_0x2dd305;},'drdeZ':function(_0x22cd58,_0x4ad895){return _0x22cd58===_0x4ad895;},'iyFkf':_0x38f722(0x1ae),'ueSuj':function(_0x308cd0,_0x1cc72f,_0x3ed6c3,_0x2260c4){return _0x308cd0(_0x1cc72f,_0x3ed6c3,_0x2260c4);},'wfOll':function(_0x1c49fa){return _0x1c49fa();},'SyGIg':function(_0x349430){return _0x349430();},'ICMnm':function(_0x18929a){return _0x18929a();},'sWTjG':function(_0x528165){return _0x528165();}};ctx[_0x38f722(0x139)](0x0,0x0,FIELD_W,FIELD_H),_0x4ce30e[_0x38f722(0x1bb)](computeDynamicGaps),_snapRawOverride=mode!==_0x4ce30e[_0x38f722(0x189)]&&_0x4ce30e[_0x38f722(0x1b8)](reactiveFormationMode,_0x4ce30e[_0x38f722(0x198)]),rebuildOffenseStructureSnapshot();if(mode!==_0x38f722(0xed))updateDefenseDecisions(offenseStructureSnapshot,{},0x0);else(simPhase===_0x4ce30e['msXsf']||_0x4ce30e['fjSGS'](simPhase,'settle')||_0x4ce30e[_0x38f722(0xdf)](simPhase,_0x4ce30e[_0x38f722(0x125)]))&&_0x4ce30e[_0x38f722(0x1ce)](updateDefenseDecisions,offenseStructureSnapshot,{},0x0);_snapRawOverride=![];const _0x596e43=_0x4ce30e[_0x38f722(0x18f)](applyZoomTransform);_0x4ce30e[_0x38f722(0x1a0)](drawField),drawLOS();if(playType===_0x38f722(0x14b)||_0x4ce30e[_0x38f722(0x173)](playType,'pa')){drawGapMarkers();const _0x2fd997=players[_0x38f722(0x12a)](_0x28182c=>_0x28182c['id']===runCarrierId);if(_0x2fd997)drawRunPath(_0x2fd997);if(showRunFitsActive)_0x4ce30e[_0x38f722(0x1f9)](drawRunFitLines);}_0x4ce30e[_0x38f722(0x170)](drawAssignments),_0x4ce30e[_0x38f722(0x18f)](drawPlayers),_0x4ce30e[_0x38f722(0x1a0)](drawBall),drawDefenders(),_0x4ce30e['sWTjG'](drawZoneAreas),drawRunFitsOverlay();if(debugOverlayOn)drawDebugOverlay();else{if(liveReadOn)drawLiveReadOverlay();}if(_0x596e43)ctx[_0x38f722(0x108)]();}
+const canvas = document.getElementById('canvas');
+const ctx    = canvas.getContext('2d');
+
+// ─────────────────────────────────────────────
+// FIELD CONSTANTS
+// ─────────────────────────────────────────────
+const FIELD_W     = 1060;  // 53 yards * 20px/yd
+const FIELD_H     = 700;
+const YARD_PX     = 20;
+const ENDZONE_Y   = 0;     // Top of field (upfield end) — adjust when field grows
+const FIELD_LEFT  = 0;
+const FIELD_RIGHT = FIELD_W;
+// College field layout (from each sideline):
+//  9 yd | Numbers (5.67 yd) | 13.33 yd between hashes center-to-center
+// Hash offset from center = 13.33/2 = 6.67 yd
+const HASH_OFFSET = Math.round(6.67 * YARD_PX);   // 133px from center
+const HASH_WIDTH  = Math.round(0.5 * YARD_PX);    // 10px total hash width
+const LEFT_HASH   = FIELD_W / 2 - HASH_OFFSET;
+const RIGHT_HASH  = FIELD_W / 2 + HASH_OFFSET;
+
+const CAM_BEHIND_YARDS = 10;
+const BALL_SCREEN_Y    = FIELD_H - CAM_BEHIND_YARDS * YARD_PX;
+
+canvas.width  = FIELD_W;
+canvas.height = FIELD_H;
+
+// ─────────────────────────────────────────────
+// GAME CONSTANTS
+// ─────────────────────────────────────────────
+const SKILL_TYPES    = ['QB', 'RB', 'WR', 'TE', 'FB'];
+const SKILL_LIMIT    = 6;
+const OLINE_SPACING  = 32;
+const ARRIVE_THRESHOLD = 6;
+
+// COLORS per assignment type
+// Non-selected paths use slightly thinner lines but same full color — no fading.
+const COLOR = {
+  route:  { line: '#4477ff', wp: '#88aaff' },
+  motion: { line: '#cc66ff', wp: '#dd99ff' },
+  block:  { line: '#ff4444', wp: '#ff8888' },
+  shift:  { line: '#000000', wp: '#333333' },  // black spring, visually distinct
+};
+
+// ─────────────────────────────────────────────
+// STATE
+// ─────────────────────────────────────────────
+let ball = { x: FIELD_W / 2, y: BALL_SCREEN_Y };
+const LOS_Y = () => ball.y;
+
+let players        = [];
+let nextId         = 1;
+let mode           = 'editor'; // 'editor' | 'sim'
+let simSpeed       = 2;
+let selectedPlayerId = null;
+let animId         = null;
+let lastTime       = null;
+let simPaused      = false;
+let _reactiveDTOver = true; // frozen at sim start, used by reactiveFormationSimStep
+let simLockedGapX  = {};  // gap X positions frozen at snap
+
+// ── TOOL STATE ──────────────────────────────────
+// activeTool: 'route' | 'block' | 'motion' | 'shift' | 'brush'
+let activeTool = 'route';
+
+// motionOwnerId: id of the single player that has motionPoints, or null
+// (invariant: at most one player has motionPoints.length > 0 at a time)
+let motionOwnerId = null;
+
+// ── ANNOTATION STATE ─────────────────────────────────────────────────
+let annotations  = [];   // array of strokes; each stroke = [{x,y}, ...]
+let activeStroke = null; // stroke currently being drawn (null when not drawing)
+
+function setTool(tool) {
+  activeTool = tool;
+  ['route','block','motion','shift','brush'].forEach(t => {
+    const el = document.getElementById('tool' + t.charAt(0).toUpperCase() + t.slice(1));
+    if (el) el.classList.toggle('active', t === tool);
+  });
+  updateInfoBar();
+}
+
+function updateInfoBar() {
+  const tips = {
+    route:  'ROUTE — Left-click to add waypoints · Right-click removes last',
+    block:  'BLOCK — Left-click to add block points · Right-click removes last',
+    motion: 'MOTION — Pre-snap after shift (max 1 player) · Left/Right-click',
+    shift:  'SHIFT — Pre-snap before motion (multi-player, skill only) · Left/Right-click',
+    brush:  'BRUSH — Hold+drag to annotate · Right-click undoes last stroke',
+  };
+  document.getElementById('infoBar').textContent = tips[activeTool] || '';
+}
+
+function updateMotionBadge() {
+  const badge = document.getElementById('motionOwnerBadge');
+  if (motionOwnerId !== null) {
+    const p = players.find(pl => pl.id === motionOwnerId);
+    badge.textContent = p ? `Motion: ${p.label} #${p.id}` : '';
+  } else {
+    badge.textContent = '';
+  }
+}
+
+function toggleImportant() {
+  const p = players.find(pl => pl.id === selectedPlayerId);
+  if (!p) return;
+  p.important = !p.important;
+  const btn = document.getElementById('importantBtn');
+  if (btn) btn.textContent = p.important ? '★ Unmark Important' : '★ Mark Important';
+  refreshPlayerList();
+  draw();
+}
+
+// ─────────────────────────────────────────────
+// TOAST
+// ─────────────────────────────────────────────
+let toastTimer = null;
+function showToast(msg, type = 'error') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast' + (type === 'info' ? ' toast-info' : '') + ' show';
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { t.classList.remove('show'); }, 3200);
+}
+
+// ─────────────────────────────────────────────
+// SKILL COUNTER
+// ─────────────────────────────────────────────
+function countSkillPlayers() {
+  return players.filter(p => SKILL_TYPES.includes(p.type)).length;
+}
+function refreshSkillCounter() {
+  const count = countSkillPlayers();
+  const full  = count >= SKILL_LIMIT;
+  document.getElementById('skillCountText').textContent = count + '/' + SKILL_LIMIT;
+  document.getElementById('skillCountText').style.color = full ? '#e74c3c' : '';
+  const pips = document.getElementById('skillPips');
+  pips.innerHTML = '';
+  for (let i = 0; i < SKILL_LIMIT; i++) {
+    const pip = document.createElement('div');
+    pip.className = 'pip' + (i < count ? (full ? ' full' : ' filled') : '');
+    pips.appendChild(pip);
+  }
+}
+
+// ─────────────────────────────────────────────
+// DEBUG LOG
+// ─────────────────────────────────────────────
+function logDebug(msg) {
+  console.log('[SIM]', msg.replace(/<[^>]*>/g, ''));
+  const entries = document.getElementById('debugEntries');
+  const el = document.createElement('div');
+  el.className = 'log-entry';
+  el.innerHTML = msg;
+  entries.appendChild(el);
+  while (entries.children.length > 30) entries.removeChild(entries.firstChild);
+  document.getElementById('debugLog').scrollTop = 9999;
+}
+function clearDebugLog() {
+  document.getElementById('debugEntries').innerHTML = '';
+}
+
+// ─────────────────────────────────────────────
+// PLAYER MODEL
+// Each player has:
+//   routePoints  : [{x,y}]   blue route waypoints
+//   motionPoints : [{x,y}]   purple spring — pre-snap motion (max 1 player; runs AFTER shift)
+//   shiftPoints  : [{x,y}]   grey spring   — pre-snap shift  (multi-player; runs BEFORE motion)
+//   blockPoints  : [{x,y}]   red block path (multi-point, mutually exclusive with route)
+// Route ↔ Block are mutually exclusive. Shift/Motion are independent of both.
+// Shift is only for skill positions (QB/RB/WR/TE/FB). O-Line cannot shift.
+// ─────────────────────────────────────────────
+function makePlayer(type, x, y) {
+  return {
+    id: nextId++, type, label: type,
+    x, y, origX: x, origY: y,
+    important:    false,
+    routePoints:  [],
+    motionPoints: [],
+    shiftPoints:  [],
+    blockPoints:  [],
+    get routes() { return this.routePoints; },
+    set routes(v) { this.routePoints = v; },
+  };
+}
+
+// ── O-LINE DATA ──────────────────────────────────────────────────────────
+// O-Line players are auto-placed; block assignments stored in olineData map.
+const OLINE_IDS    = ['olt','olg','oc','org','ort'];
+const OLINE_LABELS = { olt:'LT', olg:'LG', oc:'C', org:'RG', ort:'RT' };
+let olineData = {};
+OLINE_IDS.forEach(id => { olineData[id] = { blockPoints: [] }; });
+
+let olineOpen = false; // accordion state — starts closed
+
+// Patch 3: O-Line is placed 1 yard (YARD_PX) BEHIND the LOS (backfield = higher Y)
+const OLINE_BACKFIELD_OFFSET = YARD_PX;
+
+function olinePlayers() {
+  const cy = LOS_Y() + OLINE_BACKFIELD_OFFSET; // behind LOS
+  return [
+    { id:'olt', label:'LT', x: ball.x - OLINE_SPACING*2, y:cy, isOline:true },
+    { id:'olg', label:'LG', x: ball.x - OLINE_SPACING,   y:cy, isOline:true },
+    { id:'oc',  label:'C',  x: ball.x,                   y:cy, isOline:true },
+    { id:'org', label:'RG', x: ball.x + OLINE_SPACING,   y:cy, isOline:true },
+    { id:'ort', label:'RT', x: ball.x + OLINE_SPACING*2, y:cy, isOline:true },
+  ];
+}
+
+// ─────────────────────────────────────────────
+// PLACEMENT HELPERS
+// ─────────────────────────────────────────────
+
+// LOS constraint: upfield = smaller Y → players must stay at or BELOW LOS (y >= LOS_Y())
+// A tiny 1-px tolerance keeps players exactly on the line without floating-point jitter.
+function clampToLOS(x, y) {
+  return {
+    x: Math.max(FIELD_LEFT + 14, Math.min(FIELD_RIGHT - 14, x)),
+    y: Math.max(LOS_Y(), y),          // y must be >= LOS (backfield side)
+  };
+}
+
+// Per-type spawn count (how many of this type already on field) → offset so duplicates don't stack.
+// Pattern: diagonal grid +24px X, +36px Y per existing same-type player (doubled from original).
+// Wraps after 5 to avoid pushing off-field. Always clamped afterwards.
+function spawnOffset(type) {
+  const sameType = players.filter(p => p.type === type).length; // count before push
+  const col = sameType % 5;
+  const row = Math.floor(sameType / 5) % 3;
+  return { dx: col * 28, dy: row * 36 };
+}
+
+function addPlayer(type) {
+  if (mode !== 'editor') return;
+  if (SKILL_TYPES.includes(type) && countSkillPlayers() >= SKILL_LIMIT) {
+    showToast(`⚠ SKILL LIMIT REACHED — max ${SKILL_LIMIT} skill players allowed`);
+    return;
+  }
+
+  // Base spawn positions (all guaranteed on or behind LOS)
+  const los = LOS_Y();
+  const defaults = {
+    QB: { x: ball.x,                    y: los + YARD_PX * 5 },
+    RB: { x: ball.x - 20 - YARD_PX,    y: los + 90 },
+    WR: { x: FIELD_LEFT + 80,           y: los + YARD_PX },
+    TE: { x: ball.x + OLINE_SPACING*3,  y: los + YARD_PX },
+    FB: { x: ball.x + YARD_PX,          y: los + 65 },
+  };
+  const base = defaults[type] || { x: ball.x, y: los + 60 };
+  const off  = spawnOffset(type);
+
+  // Apply offset then clamp to field + LOS
+  const clamped = clampToLOS(base.x + off.dx, base.y + off.dy);
+
+  const p = makePlayer(type, clamped.x, clamped.y);
+  players.push(p);
+  selectedPlayerId = p.id;
+  refreshPlayerList();
+  refreshSkillCounter();
+  draw();
+}
+
+function deletePlayer(id) {
+  if (motionOwnerId === id) motionOwnerId = null;
+  if (runCarrierId === id) runCarrierId = null;
+  players = players.filter(p => p.id !== id);
+  if (selectedPlayerId === id) selectedPlayerId = null;
+  refreshPlayerList();
+  refreshSkillCounter();
+  updateMotionBadge();
+  draw();
+}
+
+function refreshPlayerList() {
+  // ── Skill players ──────────────────────────────────────
+  const list = document.getElementById('playerList');
+  list.innerHTML = '';
+  players.forEach(p => {
+    const div = document.createElement('div');
+    div.className = 'player-item' + (p.id === selectedPlayerId ? ' selected' : '');
+    const icons = [
+      p.routePoints.length  ? '<span style="color:#4477ff;font-size:10px">R</span>' : '',
+      p.motionPoints.length ? '<span style="color:#cc66ff;font-size:10px">M</span>' : '',
+      p.shiftPoints.length  ? '<span style="color:#aaa;font-size:10px">S</span>'    : '',
+      p.blockPoints.length  ? '<span style="color:#ff4444;font-size:10px">B</span>' : '',
+      p.important           ? '<span style="color:#ffe066;font-size:10px">★</span>' : '',
+    ].join('');
+    div.innerHTML =
+      `<span class="dot" style="background:${p.id === selectedPlayerId ? '#00e5ff' : '#f0e040'}"></span>` +
+      `${p.label} #${p.id} ${icons}` +
+      `<button class="del-btn" data-id="${p.id}">×</button>`;
+    div.addEventListener('click', e => {
+      if (e.target.classList.contains('del-btn')) { deletePlayer(+e.target.dataset.id); return; }
+      selectedPlayerId = p.id;
+      refreshPlayerList();
+      draw();
+    });
+    list.appendChild(div);
+  });
+
+  // ── O-Line accordion ───────────────────────────────────
+  refreshOlineList();
+  // ── Run carrier selector ────────────────────────────────
+  refreshRunCarrierSelect();
+}
+
+function refreshOlineList() {
+  const list = document.getElementById('olineList');
+  list.innerHTML = '';
+  olinePlayers().forEach(ol => {
+    const data  = olineData[ol.id];
+    const isSel = selectedPlayerId === ol.id;
+    const div   = document.createElement('div');
+    div.className = 'player-item' + (isSel ? ' selected' : '');
+    const bIcon = data.blockPoints.length
+      ? '<span style="color:#ff4444;font-size:10px">B</span>' : '';
+    div.innerHTML =
+      `<span class="dot" style="background:${isSel ? '#00e5ff' : '#e8a020'}"></span>` +
+      `${ol.label} ${bIcon}`;
+    div.addEventListener('click', () => {
+      selectedPlayerId = ol.id;
+      // Switch to block tool — O-Line can only block
+      if (activeTool !== 'block') setTool('block');
+      refreshPlayerList();
+      draw();
+    });
+    list.appendChild(div);
+  });
+}
+
+function toggleOlineAccordion() {
+  olineOpen = !olineOpen;
+  document.getElementById('olineList').classList.toggle('hidden', !olineOpen);
+  document.getElementById('olineHeader').classList.toggle('collapsed', !olineOpen);
+}
+
+function toggleOffPlayersAccordion() {
+  const body = document.getElementById('offPlayersBody');
+  const header = document.getElementById('offPlayersHeader');
+  const isHidden = body.classList.contains('hidden');
+  body.classList.toggle('hidden', !isHidden);
+  header.classList.toggle('collapsed', isHidden);
+}
+
+// ─────────────────────────────────────────────
+// DRAWING
+// ─────────────────────────────────────────────
+function drawField() {
+  ctx.fillStyle = '#2d5a1b';
+  ctx.fillRect(0, 0, FIELD_W, FIELD_H);
+
+  for (let i = -15; i <= 35; i++) {
+    const yTop    = LOS_Y() - (i+1)*YARD_PX;
+    const yBottom = LOS_Y() - i*YARD_PX;
+    if (yBottom < 0 || yTop > FIELD_H) continue;
+    if (Math.floor(i/5) % 2 === 0) {
+      ctx.fillStyle = 'rgba(0,0,0,0.07)';
+      ctx.fillRect(FIELD_LEFT, yTop, FIELD_RIGHT - FIELD_LEFT, YARD_PX);
+    }
+  }
+
+  ctx.strokeStyle = 'rgba(255,255,255,0.6)';
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.moveTo(FIELD_LEFT, 0);  ctx.lineTo(FIELD_LEFT, FIELD_H);
+  ctx.moveTo(FIELD_RIGHT, 0); ctx.lineTo(FIELD_RIGHT, FIELD_H);
+  ctx.stroke();
+
+  for (let i = -15; i <= 35; i++) {
+    const y = LOS_Y() - i*YARD_PX;
+    if (y < -1 || y > FIELD_H+1) continue;
+    ctx.strokeStyle = i%5===0 ? 'rgba(255,255,255,0.4)' : 'rgba(255,255,255,0.15)';
+    ctx.lineWidth   = i%5===0 ? 1.5 : 0.8;
+    ctx.beginPath(); ctx.moveTo(FIELD_LEFT, y); ctx.lineTo(FIELD_RIGHT, y); ctx.stroke();
+  }
+
+  ctx.lineWidth = 2; ctx.strokeStyle = 'rgba(255,255,255,0.5)';
+  for (let i = -15; i <= 35; i++) {
+    const y = LOS_Y() - i*YARD_PX;
+    if (y < 0 || y > FIELD_H) continue;
+    const hw = HASH_WIDTH / 2;
+    ctx.beginPath();
+    ctx.moveTo(LEFT_HASH - hw, y);  ctx.lineTo(LEFT_HASH + hw, y);
+    ctx.moveTo(RIGHT_HASH - hw, y); ctx.lineTo(RIGHT_HASH + hw, y);
+    ctx.stroke();
+  }
+
+  // ── Yard numbers — between hash and sideline, pointing toward sideline ──
+  // Only 10-yard lines: 50 (LOS), 40 (+10), 30 (+20), 20 (+30)
+  // Left numbers rotate so top points LEFT (toward left sideline)
+  // Right numbers rotate so top points RIGHT (toward right sideline)
+  const YARD_LABELS = { 0:'50', 10:'40', 20:'30', 30:'20' };
+  ctx.fillStyle = 'rgba(255,255,255,0.55)';
+  ctx.font = 'bold 48px Barlow Condensed';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  for (const [offset, label] of Object.entries(YARD_LABELS)) {
+    const i  = Number(offset);
+    const y  = LOS_Y() - i * YARD_PX;
+    if (y < 20 || y > FIELD_H - 10) continue;
+
+    // Left number — top of digit points toward left sideline (rotate +90°)
+    const lx = (FIELD_LEFT + LEFT_HASH) / 2;
+    ctx.save();
+    ctx.translate(lx, y);
+    ctx.rotate(Math.PI / 2);
+    ctx.fillText(label, 0, 0);
+    ctx.restore();
+
+    // Right number — top of digit points toward right sideline (rotate -90°)
+    const rx = (RIGHT_HASH + FIELD_RIGHT) / 2;
+    ctx.save();
+    ctx.translate(rx, y);
+    ctx.rotate(-Math.PI / 2);
+    ctx.fillText(label, 0, 0);
+    ctx.restore();
+  }
+  ctx.textBaseline = 'alphabetic';
+
+  ctx.strokeStyle = 'rgba(255,255,255,0.05)'; ctx.lineWidth = 1;
+  ctx.setLineDash([4,6]);
+  ctx.beginPath();
+  ctx.moveTo(LEFT_HASH,  0); ctx.lineTo(LEFT_HASH,  FIELD_H);
+  ctx.moveTo(RIGHT_HASH, 0); ctx.lineTo(RIGHT_HASH, FIELD_H);
+  ctx.stroke(); ctx.setLineDash([]);
+
+  ctx.save(); ctx.translate(FIELD_W/2, 22);
+  ctx.fillStyle = 'rgba(255,255,255,0.25)';
+  ctx.font = 'bold 11px Barlow Condensed'; ctx.textAlign = 'center';
+  ctx.fillText('▲  UPFIELD', 0, 0); ctx.restore();
+}
+
+function drawLOS() {
+  const y = LOS_Y();
+  ctx.save();
+  ctx.strokeStyle = 'rgba(100,180,255,0.75)'; ctx.lineWidth = 2; ctx.setLineDash([8,5]);
+  ctx.beginPath(); ctx.moveTo(FIELD_LEFT, y); ctx.lineTo(FIELD_RIGHT, y); ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle = 'rgba(100,180,255,0.9)';
+  ctx.font = 'bold 11px Barlow Condensed'; ctx.textAlign = 'left';
+  ctx.fillText('LINE OF SCRIMMAGE', FIELD_LEFT+5, y-5);
+  ctx.restore();
+}
+
+// Helper: draw a polyline with arrow heads and waypoint dots
+function drawPolyline(startX, startY, pts, lineCol, wpCol, lineWidth, dashed) {
+  if (!pts || pts.length === 0) return;
+  ctx.save();
+  ctx.strokeStyle = lineCol; ctx.lineWidth = lineWidth; ctx.lineJoin = 'round';
+  if (dashed) ctx.setLineDash([8, 5]);
+  ctx.beginPath(); ctx.moveTo(startX, startY);
+  pts.forEach(wp => ctx.lineTo(wp.x, wp.y));
+  ctx.stroke(); ctx.setLineDash([]);
+
+  const all = [{x:startX,y:startY}, ...pts];
+  for (let i = 0; i < all.length-1; i++) {
+    const a=all[i], b=all[i+1];
+    drawArrow(ctx, (a.x+b.x)/2, (a.y+b.y)/2, b.x, b.y, lineCol);
+  }
+  pts.forEach(wp => {
+    ctx.beginPath(); ctx.arc(wp.x, wp.y, 5, 0, Math.PI*2);
+    ctx.fillStyle = wpCol; ctx.fill();
+    ctx.strokeStyle = '#000'; ctx.lineWidth = 1.5; ctx.stroke();
+  });
+  ctx.restore();
+}
+
+// ── Motion "spring" renderer ──────────────────────────────────────────
+// Draws a wavy zig-zag line along each segment of the motion path.
+// The wave oscillates perpendicular to the travel direction, giving a
+// spring / coil look that is visually distinct from Route (solid line)
+// and Block (dashed line + rect marker).
+function drawMotionSpringPath(startX, startY, pts, lineCol, wpCol, lineWidth) {
+  if (!pts || pts.length === 0) return;
+  ctx.save();
+  ctx.strokeStyle = lineCol;
+  ctx.lineWidth   = lineWidth;
+  ctx.lineJoin    = 'round';
+  ctx.lineCap     = 'round';
+
+  const WAVE_AMP  = 6;   // px perpendicular amplitude
+  const WAVE_STEP = 10;  // px along-segment between zig and zag
+
+  const all = [{ x: startX, y: startY }, ...pts];
+  ctx.beginPath();
+
+  let firstMove = true;
+  for (let seg = 0; seg < all.length - 1; seg++) {
+    const a = all[seg], b = all[seg + 1];
+    const dx = b.x - a.x, dy = b.y - a.y;
+    const segLen = Math.hypot(dx, dy);
+    if (segLen < 1) continue;
+
+    // Unit tangent and perpendicular
+    const tx = dx / segLen, ty = dy / segLen;
+    const nx = -ty,         ny =  tx;   // 90° CCW = left of travel dir
+
+    const steps = Math.max(2, Math.round(segLen / WAVE_STEP));
+    for (let i = 0; i <= steps; i++) {
+      const t      = i / steps;
+      const cx     = a.x + t * dx;
+      const cy     = a.y + t * dy;
+      // Alternating sign: even → +amp (left), odd → −amp (right)
+      const sign   = (i % 2 === 0) ? 1 : -1;
+      // Taper amplitude to 0 at segment endpoints for smooth join
+      const taper  = Math.sin(t * Math.PI);          // 0→1→0
+      const amp    = sign * WAVE_AMP * taper;
+      const px     = cx + nx * amp;
+      const py     = cy + ny * amp;
+      if (firstMove) { ctx.moveTo(px, py); firstMove = false; }
+      else             ctx.lineTo(px, py);
+    }
+  }
+  ctx.stroke();
+
+  // Small dots at each motion waypoint (excluding start — player circle is there)
+  pts.forEach(wp => {
+    ctx.beginPath(); ctx.arc(wp.x, wp.y, 4, 0, Math.PI * 2);
+    ctx.fillStyle = wpCol; ctx.fill();
+    ctx.strokeStyle = '#000'; ctx.lineWidth = 1.2; ctx.stroke();
+  });
+
+  ctx.restore();
+}
+function drawBlockPath(startX, startY, pts, lineCol, wpCol) {
+  if (!pts || pts.length === 0) return;
+  ctx.save();
+  ctx.strokeStyle = lineCol; ctx.lineWidth = 2.5;
+  ctx.setLineDash([6, 4]);
+  ctx.lineJoin = 'round';
+  ctx.beginPath(); ctx.moveTo(startX, startY);
+  pts.forEach(wp => ctx.lineTo(wp.x, wp.y));
+  ctx.stroke(); ctx.setLineDash([]);
+
+  // Arrow heads at midpoint of each segment
+  const all = [{x:startX,y:startY}, ...pts];
+  for (let i = 0; i < all.length - 1; i++) {
+    const a = all[i], b = all[i+1];
+    drawArrow(ctx, (a.x+b.x)/2, (a.y+b.y)/2, b.x, b.y, lineCol);
+  }
+
+  // Intermediate waypoint dots (not the last one — replaced by rectangle)
+  for (let i = 0; i < pts.length - 1; i++) {
+    ctx.beginPath(); ctx.arc(pts[i].x, pts[i].y, 4, 0, Math.PI*2);
+    ctx.fillStyle = wpCol; ctx.fill();
+    ctx.strokeStyle = '#000'; ctx.lineWidth = 1.2; ctx.stroke();
+  }
+
+  // ── Rectangle end-marker at last blockPoint ──────────────────────────
+  // Orientation: perpendicular to approach direction (long side across path)
+  const last = pts[pts.length - 1];
+  const prev = pts.length >= 2 ? pts[pts.length - 2] : { x: startX, y: startY };
+  const dx   = last.x - prev.x, dy = last.y - prev.y;
+  const len  = Math.hypot(dx, dy) || 1;
+  // Unit vector along approach direction
+  const ux = dx / len, uy = dy / len;
+  // Perpendicular (normal) = rotate 90°
+  const nx = -uy, ny = ux;
+  // Rectangle: wide=22px across path, thin=8px along path
+  const halfW = 11, halfH = 4;
+  ctx.save();
+  ctx.translate(last.x, last.y);
+  // Build rotated rect using perpendicular as X-axis
+  // corners: (±halfW along normal) × (±halfH along approach)
+  ctx.beginPath();
+  ctx.moveTo( nx*halfW + ux*halfH,  ny*halfW + uy*halfH);
+  ctx.lineTo(-nx*halfW + ux*halfH, -ny*halfW + uy*halfH);
+  ctx.lineTo(-nx*halfW - ux*halfH, -ny*halfW - uy*halfH);
+  ctx.lineTo( nx*halfW - ux*halfH,  ny*halfW - uy*halfH);
+  ctx.closePath();
+  ctx.fillStyle   = wpCol;
+  ctx.fill();
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth   = 1.5;
+  ctx.stroke();
+  ctx.restore();
+
+  ctx.restore();
+}
+
+function drawAssignments() {
+  // ── Skill players ───────────────────────────────────────────────────
+  players.forEach(p => {
+    const isSel = p.id === selectedPlayerId;
+
+    const rPts = (mode === 'sim' && p.simRoutePoints)  ? p.simRoutePoints  : p.routePoints;
+    const mPts = (mode === 'sim' && p.simMotionPoints) ? p.simMotionPoints : p.motionPoints;
+    const sPts = (mode === 'sim' && p.simShiftPoints)  ? p.simShiftPoints  : p.shiftPoints;
+    const bPts = (mode === 'sim' && p.simBlockPoints)  ? p.simBlockPoints  : p.blockPoints;
+
+    // Shift start: always from player's original/sim start position
+    const ssx = (mode === 'sim' && p.simStartX !== undefined) ? p.simStartX : p.x;
+    const ssy = (mode === 'sim' && p.simStartY !== undefined) ? p.simStartY : p.y;
+
+    // getPrePlayAnchor: last shift point if shift exists, else player start
+    // This is where motion should begin (or route/block if no motion)
+    let prePlayX, prePlayY;
+    if (sPts && sPts.length > 0) {
+      prePlayX = sPts[sPts.length - 1].x;
+      prePlayY = sPts[sPts.length - 1].y;
+    } else {
+      prePlayX = ssx;
+      prePlayY = ssy;
+    }
+
+    // Motion start: after shift end (or player start)
+    const msx = prePlayX;
+    const msy = prePlayY;
+
+    // getPreRouteAnchor: last motion point if motion exists, else last shift point, else player start
+    let sx, sy;
+    if (mPts && mPts.length > 0) {
+      sx = mPts[mPts.length - 1].x;
+      sy = mPts[mPts.length - 1].y;
+    } else {
+      sx = prePlayX;
+      sy = prePlayY;
+    }
+
+    const lw = isSel ? 3 : (p.important ? 3.5 : 2);
+    const routeLineCol = p.important ? '#77aaff' : COLOR.route.line;
+    const routeWpCol   = p.important ? '#aaccff' : COLOR.route.wp;
+    const blockLineCol = p.important ? '#ff7777' : COLOR.block.line;
+    const blockWpCol   = p.important ? '#ffaaaa' : COLOR.block.wp;
+
+    // Shift (black spring) — drawn from player start, before motion
+    if (sPts && sPts.length > 0)
+      drawMotionSpringPath(ssx, ssy, sPts, COLOR.shift.line, COLOR.shift.wp, lw);
+
+    // Motion (purple spring) — drawn from shift end (or player pos if no shift)
+    if (mPts && mPts.length > 0)
+      drawMotionSpringPath(msx, msy, mPts, COLOR.motion.line, COLOR.motion.wp, lw);
+
+    if (rPts && rPts.length > 0)
+      drawPolyline(sx, sy, rPts, routeLineCol, routeWpCol, lw, false);
+
+    if (bPts && bPts.length > 0)
+      drawBlockPath(sx, sy, bPts, blockLineCol, blockWpCol);
+  });
+
+  // ── O-Line block assignments ────────────────────────────────────────
+  olinePlayers().forEach(ol => {
+    const data = olineData[ol.id];
+    if (!data) return;
+
+    const bPts = (mode === 'sim' && data.simBlockPoints) ? data.simBlockPoints : data.blockPoints;
+    if (!bPts || bPts.length === 0) return;
+
+    const startX = (mode === 'sim' && data.simStartX !== undefined) ? data.simStartX : ol.x;
+    const startY = (mode === 'sim' && data.simStartY !== undefined) ? data.simStartY : ol.y;
+    drawBlockPath(startX, startY, bPts, COLOR.block.line, COLOR.block.wp);
+  });
+
+  // ── Designated block target lines (middle-click assignments) ────────
+  const allBlockers = [
+    ...players,
+    ...olinePlayers().map(ol => ({ ...olineData[ol.id], _isOlineData: true, id: ol.id, x: ol.x, y: ol.y }))
+  ];
+  allBlockers.forEach(b => {
+    if (!b._designatedBlockTargetId) return;
+    const target = defensePlayers.find(d => d.id === b._designatedBlockTargetId);
+    if (!target) return;
+
+    // Start from last block point if exists, else from player position
+    const blockPts = b._isOlineData ? (b.blockPoints || []) : (b.blockPoints || []);
+    const hasBlockPath = blockPts.length > 0;
+    const lastBP = hasBlockPath ? blockPts[blockPts.length - 1] : null;
+
+    const bx = mode === 'sim' ? (b.simX ?? b.x) : (lastBP ? lastBP.x : b.x);
+    const by = mode === 'sim' ? (b.simY ?? b.y) : (lastBP ? lastBP.y : b.y);
+    const tx = (mode === 'sim' ? (target.simX ?? target.x) : target.x);
+    const ty = (mode === 'sim' ? (target.simY ?? target.y) : target.y);
+
+    const dx  = tx - bx, dy = ty - by;
+    const len = Math.hypot(dx, dy) || 1;
+    const ux  = dx / len, uy = dy / len;
+    const nx  = -uy,      ny = ux;
+
+    // Stop 18px before defender center
+    const endX = tx - ux * 18;
+    const endY = ty - uy * 18;
+
+    ctx.save();
+    // Dashed line
+    ctx.strokeStyle = COLOR.block.line;
+    ctx.lineWidth   = 2;
+    ctx.setLineDash([6, 4]);
+    ctx.beginPath();
+    ctx.moveTo(bx, by);
+    ctx.lineTo(endX, endY);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    // Arrow at midpoint
+    drawArrow(ctx, bx, by, endX, endY, COLOR.block.line);
+    ctx.restore();
+
+    // Rectangle at endpoint
+    const halfW = 11, halfH = 4;
+    ctx.save();
+    ctx.translate(endX, endY);
+    ctx.beginPath();
+    ctx.moveTo( nx*halfW + ux*halfH,  ny*halfW + uy*halfH);
+    ctx.lineTo(-nx*halfW + ux*halfH, -ny*halfW + uy*halfH);
+    ctx.lineTo(-nx*halfW - ux*halfH, -ny*halfW - uy*halfH);
+    ctx.lineTo( nx*halfW - ux*halfH,  ny*halfW - uy*halfH);
+    ctx.closePath();
+    ctx.fillStyle   = COLOR.block.wp;
+    ctx.fill();
+    ctx.strokeStyle = '#000';
+    ctx.lineWidth   = 1.5;
+    ctx.stroke();
+    ctx.restore();
+  });
+}
+
+function drawArrow(ctx, fromX, fromY, toX, toY, color) {
+  const angle = Math.atan2(toY-fromY, toX-fromX);
+  const size  = 8;
+  ctx.save();
+  ctx.fillStyle = color;
+  ctx.translate(fromX, fromY); ctx.rotate(angle);
+  ctx.beginPath(); ctx.moveTo(0,0); ctx.lineTo(-size,-size/2); ctx.lineTo(-size,size/2);
+  ctx.closePath(); ctx.fill(); ctx.restore();
+}
+
+function drawPlayers() {
+  // O-Line — selectable for block assignment; moves in sim if they have a block target
+  olinePlayers().forEach(ol => {
+    const isSel = selectedPlayerId === ol.id;
+    const d  = olineData[ol.id];
+    const px = (mode === 'sim' && d.simX !== undefined) ? d.simX : ol.x;
+    const py = (mode === 'sim' && d.simY !== undefined) ? d.simY : ol.y;
+    drawPlayerCircle(px, py, isSel ? '#00e5ff' : '#e8a020', ol.label, isSel);
+  });
+  // Skill players
+  players.forEach(p => {
+    const px  = mode === 'sim' ? (p.simX ?? p.x) : p.x;
+    const py  = mode === 'sim' ? (p.simY ?? p.y) : p.y;
+    const sel = p.id === selectedPlayerId;
+    const isCarrier = playType === 'run' && p.id === runCarrierId;
+    const color = sel ? '#00e5ff' : isCarrier ? '#22c55e' : '#f0e040';
+    drawPlayerCircle(px, py, color, p.label, sel);
+    if (p.important) {
+      ctx.save();
+      ctx.fillStyle = '#ffe066';
+      ctx.font = 'bold 11px Barlow Condensed';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('★', px + 14, py - 14);
+      ctx.restore();
+    }
+  });
+}
+
+function drawPlayerCircle(x, y, color, label, selected) {
+  ctx.save();
+  if (selected) { ctx.shadowColor = '#00e5ff'; ctx.shadowBlur = 18; }
+  ctx.beginPath(); ctx.arc(x, y, 12, 0, Math.PI*2);
+  ctx.fillStyle = selected ? 'rgba(0,229,255,0.25)' : 'rgba(0,0,0,0.5)';
+  ctx.fill();
+  ctx.strokeStyle = color; ctx.lineWidth = selected ? 3 : 2; ctx.stroke();
+  ctx.shadowBlur = 0;
+  ctx.fillStyle = color; ctx.font = 'bold 9px Barlow Condensed';
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.fillText(label, x, y); ctx.restore();
+}
+
+// Patch 4: Ball rotated 90° — long axis vertical so tip points upfield (↑)
+// Patch 5: In sim, ball is animated from LOS → QB, then follows QB
+function drawBall() {
+  let bx, by;
+  if (mode === 'sim') {
+    if (playType === 'run') {
+      if (runHandoffState === 'carrying') {
+        // Carrier has the ball
+        const carrier = players.find(p => p.id === runCarrierId);
+        if (carrier) { bx = carrier.simX ?? carrier.x; by = carrier.simY ?? carrier.y; }
+        else { bx = ball.x; by = ball.y; }
+      } else if (ballSim.done) {
+        // Snap done but handoff not yet complete — ball with QB
+        const qb = players.find(p => p.type === 'QB');
+        if (qb) { bx = qb.simX ?? qb.x; by = qb.simY ?? qb.y; }
+        else { bx = ballSim.x; by = ballSim.y; }
+      } else if (ballSim.active) {
+        bx = ballSim.x; by = ballSim.y;
+      } else {
+        bx = ball.x; by = ball.y;
+      }
+    } else if (ballSim.done) {
+      // Snap complete: ball travels with QB
+      const qb = players.find(p => p.type === 'QB');
+      if (qb) { bx = qb.simX ?? qb.x; by = qb.simY ?? qb.y; }
+      else return; // no QB, nothing to draw
+    } else if (ballSim.active) {
+      // In-flight snap animation
+      bx = ballSim.x; by = ballSim.y;
+    } else {
+      // Motion phase or pre-play: ball stays at LOS spot
+      bx = ball.x; by = ball.y;
+    }
+  } else {
+    bx = ball.x; by = ball.y;
+  }
+
+  ctx.save();
+  ctx.translate(bx, by);
+  ctx.rotate(Math.PI / 2); // 90° → oval tip points toward screen-top = upfield
+
+  ctx.shadowColor = '#f08020'; ctx.shadowBlur = 20;
+
+  // Oval: scale Y to make it elongated, then the 90° rotation makes it vertical
+  ctx.save();
+  ctx.scale(1, 0.55);
+  ctx.beginPath(); ctx.arc(0, 0, 10, 0, Math.PI * 2);
+  ctx.fillStyle = '#c8651a'; ctx.fill();
+  ctx.strokeStyle = '#fff'; ctx.lineWidth = 1.5; ctx.stroke();
+  ctx.restore();
+
+  // Laces — rotated 90° relative to ball so they run across the short axis
+  ctx.save();
+  ctx.rotate(Math.PI / 2);
+  ctx.strokeStyle = '#fff'; ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(0, -3); ctx.lineTo(0,  3);   // center seam
+  ctx.moveTo(-3, -1); ctx.lineTo(3, -1);  // top lace
+  ctx.moveTo(-3,  1); ctx.lineTo(3,  1);  // bottom lace
+  ctx.stroke();
+  ctx.restore();
+
+  ctx.restore();
+}
+
+function drawAnnotations() {
+  if (mode === 'sim') return;
+  if (!annotations.length && !activeStroke) return;
+  ctx.save();
+  ctx.globalAlpha = 0.65;
+  ctx.strokeStyle = '#ffe83a';
+  ctx.lineWidth   = 2.5;
+  ctx.lineCap     = 'round';
+  ctx.lineJoin    = 'round';
+  const drawStroke = pts => {
+    if (pts.length < 2) return;
+    ctx.beginPath();
+    ctx.moveTo(pts[0].x, pts[0].y);
+    for (let i = 1; i < pts.length; i++) ctx.lineTo(pts[i].x, pts[i].y);
+    ctx.stroke();
+  };
+  annotations.forEach(drawStroke);
+  if (activeStroke) drawStroke(activeStroke);
+  ctx.restore();
+}
+
+function draw() {
+  ctx.clearRect(0,0,FIELD_W,FIELD_H);
+  computeDynamicGaps(); // rebuild A–F gap offsets from current offense alignment
+  // In editor presnap mode: ignore waypoints so snapshot reflects base positions
+  _snapRawOverride = (mode !== 'sim' && reactiveFormationMode === 'presnap');
+  rebuildOffenseStructureSnapshot();
+  // Coverage engine: update defender decisions for editor preview
+  // Keep _snapRawOverride active during updateDefenseDecisions so preset.decide()
+  // also reads pre-motion positions when classifying routes/alignments.
+  if (mode !== 'sim') {
+    updateDefenseDecisions(offenseStructureSnapshot, {}, 0);
+  } else if (simPhase === 'shift' || simPhase === 'settle' || simPhase === 'preplay') {
+    updateDefenseDecisions(offenseStructureSnapshot, {}, 0);
+  }
+  _snapRawOverride = false; // reset after all decisions are built
+  const zoomed = applyZoomTransform();
+  drawField(); drawLOS();
+
+  // ── Run/PA visuals ────────────────────────────────────────────
+  if (playType === 'run' || playType === 'pa') {
+    drawGapMarkers();
+    const carrier = players.find(p => p.id === runCarrierId);
+    if (carrier) drawRunPath(carrier);
+    if (showRunFitsActive) drawRunFitLines();
+  }
+
+  drawAssignments(); drawPlayers(); drawBall();
+  drawAnnotations();
+  drawDefenders();  // Phase 3.2 / 3.3
+  drawZoneAreas();  // Show Zones overlay
+  drawRunFitsOverlay(); // Show Run Fits overlay
+  if (debugOverlayOn) drawDebugOverlay();
+  else if (liveReadOn) drawLiveReadOverlay(); // standalone live read (no formation overlay)
+  if (zoomed) ctx.restore();
+}
+
+// ─────────────────────────────────────────────

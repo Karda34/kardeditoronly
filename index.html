@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KARDIRON — Play Designer</title>
 <link rel="stylesheet" href="css/kardiron.css">
-  <meta name="robots" content="noindex, nofollow">
 </head>
 <body>
 
@@ -114,13 +113,18 @@
         <button class="tool-btn tool-block"        id="toolBlock"  onclick="setTool('block')"  title="Block — red multi-point, player blocks at end">Block</button>
         <button class="tool-btn tool-motion"       id="toolMotion" onclick="setTool('motion')" title="Motion — purple spring, 1 player pre-snap (after shift)">Motion</button>
         <button class="tool-btn tool-shift"        id="toolShift"  onclick="setTool('shift')"  title="Shift — black spring, multi-player pre-snap (before motion)">Shift</button>
+        <button class="tool-btn tool-brush"        id="toolBrush"  onclick="setTool('brush')"  title="Brush — freehand annotations (editor only)">Brush</button>
       </div>
       <div class="motion-owner-badge" id="motionOwnerBadge"></div>
       <button onclick="flipPlayHorizontal()" class="panel-action-btn blue" style="margin-top:6px">⇆ Flip Play</button>
+      <button id="importantBtn" class="panel-action-btn blue" style="margin-top:4px" onclick="toggleImportant()">★ Mark Important</button>
     </div>
     <div class="route-controls">
       <button class="route-btn" id="clearRouteBtn">✕ Clear Assignment</button>
       <button class="route-btn" id="clearAllRoutesBtn" style="color:#ff9060;border-color:rgba(255,144,96,0.25);background:rgba(255,144,96,0.08)">✕ Clear All</button>
+    </div>
+    <div class="route-controls" id="annotationControls">
+      <button class="route-btn" id="clearAnnotationsBtn">✕ Clear Annotations</button>
     </div>
     <!-- Debug Overlay Toggle -->
     <label class="debug-toggle-wrap" id="debugToggleWrap">

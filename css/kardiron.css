@@ -487,6 +487,8 @@
   .tool-btn.tool-motion.active       { border-color: #c084fc; color: #d8b4fe; background: rgba(192,132,252,0.12); box-shadow: 0 0 12px rgba(192,132,252,0.2); }
   .tool-btn.tool-shift               { border-color: rgba(255,255,255,0.1); color: rgba(255,255,255,0.3); }
   .tool-btn.tool-shift.active        { border-color: #94a3b8; color: #cbd5e1; background: rgba(148,163,184,0.1); }
+  .tool-btn.tool-brush               { border-color: rgba(255,232,58,0.3); color: rgba(255,232,58,0.6); }
+  .tool-btn.tool-brush.active        { border-color: #ffe83a; color: #fff176; background: rgba(255,232,58,0.1); box-shadow: 0 0 12px rgba(255,232,58,0.2); }
   .motion-owner-badge { margin-top: 6px; font-size: 10px; letter-spacing: 1px; color: #c084fc; opacity: 0.8; min-height: 14px; font-family: 'Barlow Condensed', sans-serif; }
 
   /* ── SIM PHASE ───────────────────────────────────── */
