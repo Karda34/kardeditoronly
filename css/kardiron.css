@@ -522,6 +522,9 @@
   #outcomeOverlay.result-gain .outcome-yards      { color: #60a5fa; }
   #outcomeOverlay.result-loss .outcome-result,
   #outcomeOverlay.result-loss .outcome-yards      { color: #f87171; }
+  #outcomeOverlay.result-penalty .outcome-result,
+  #outcomeOverlay.result-penalty .outcome-yards   { color: #fb923c; }
+  #outcomeOverlay.result-penalty .outcome-card    { border-color: #fb923c; box-shadow: 0 8px 48px rgba(251,146,60,0.25); }
 
   /* ── DEBUG LOG ───────────────────────────────────── */
   .debug-log {
