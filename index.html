@@ -21,9 +21,15 @@
     <span id="speedVal">2×</span>
   </div>
   <div class="header-right">
+    <input type="text" id="playNameInput" placeholder="Play name…"
+      style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.18);
+             border-radius:4px;color:#fff;font-size:12px;padding:4px 8px;
+             width:130px;outline:none;font-family:inherit"
+      title="Play name — used as filename when saving">
+    <button class="btn btn-ghost" id="savePngBtn">SAVE PLAY</button>
     <button class="btn btn-ghost" id="saveBtn">SAVE GIF</button>
     <button class="btn btn-ghost" id="loadBtn">LOAD</button>
-    <input type="file" id="fileInput" accept=".json,.gif" style="display:none">
+    <input type="file" id="fileInput" accept=".json,.gif,.png" style="display:none">
     <button class="btn btn-warning" id="pauseBtn" style="display:none" onclick="togglePause()">⏸ PAUSE</button>
     <button class="btn btn-sim" id="simBtn">▶ SIMULATE</button>
   </div>
@@ -167,6 +173,15 @@
         title="QB throws — toggle throw mode on/off"
         style="color:#fff">
         QB throws: OFF
+      </button>
+    </div>
+    <!-- Illegal Formation Rules toggle -->
+    <div style="padding:6px 8px 4px">
+      <button class="panel-action-btn" id="illegalFormationBtn"
+        onclick="toggleIllegalFormationRules()"
+        title="Illegal Formation Rules on/off"
+        style="color:#fff;opacity:0.5">
+        Illegal Formation: OFF
       </button>
     </div>
     <!-- Debug Overlay Toggle -->
@@ -520,6 +535,10 @@
       <button class="tool-toggle-btn" id="showRunFitsBtn" onclick="toggleShowRunFits()">⬡ Show Run Fits</button>
       <div id="runFitsSummary" style="display:none;margin-top:6px;padding:6px 8px;background:rgba(74,222,128,0.05);border:1px solid rgba(74,222,128,0.2);border-radius:3px;font-size:11px;letter-spacing:0.5px;line-height:1.8;color:#4ade80"></div>
     </div>
+    <!-- Def Trails toggle -->
+    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
+      <button class="tool-toggle-btn" id="defTrailsBtn" onclick="toggleDefTrails()">⬡ Def Trails</button>
+    </div>
     <!-- Reactive Formation toggle -->
     <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
       <div style="font-size:10px;color:var(--text-dim);letter-spacing:0.5px;margin-bottom:4px">↺ REACTIVE FORMATION</div>
@@ -578,6 +597,7 @@
 <script src="js/09_save_load_init.js"></script>
 <script src="js/10_outcome.js"></script>
 <script src="js/11_gif_export.js"></script>
+<script src="js/13_game_engine.js"></script>
 <script>
   document.addEventListener('keydown', function(e) {
     if ((e.ctrlKey || e.metaKey) && e.key === 'z') { e.preventDefault(); undo(); }
