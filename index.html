@@ -270,7 +270,10 @@
           <option value="tedouble">TE Double</option>
           <option value="silver">Silver — Man Rush 5</option>
           <option value="zero-blitz-lock">0 Blitz Lock — Man Rush 6</option>
-          <option value="cover3-sky">Cover 3 Sky Match</option>
+          <option value="cover3-sky-2x2-match">Cover 3 Sky 2×2 Match</option>
+          <option value="cover3-buzz-2x2-match">Cover 3 Buzz 2×2 Match</option>
+          <option value="cover3-robber-2x2-match">Cover 3 Robber 2×2 Match</option>
+          <option value="cover3-weak-2x2-match">Cover 3 Weak 2×2 Match</option>
           <option value="muffin-cover3-cloud-strong">Muffin Cover 3 Cloud Strong</option>
           <option value="cover3-cloud-strong">Cover 3 Cloud Strong 2×2</option>
           <option value="cover3-cloud-weak">Cover 3 Cloud Weak 2×2</option>
@@ -278,10 +281,10 @@
           <option value="c3sky-strong">Cover 3 Sky Zone — Strong Side</option>
           <option value="c3robber-strong">Cover 3 Robber Zone — Strong Side</option>
           <option value="c3weakz-strong">Cover 3 Weak Zone — Strong Side</option>
-          <option value="cover3-buzz">Cover 3 Buzz Match</option>
-          <option value="cover3-robber">Cover 3 Robber Match</option>
-          <option value="cover3-weak">Cover 3 Weak Match</option>
-          <option value="cover4">Cover 4 Quarters</option>
+          <option value="cover3-sky-bugged">Cover 3 Sky Match Bugged</option>
+          <option value="cover3-buzz">Cover 3 Buzz Match Bugged</option>
+          <option value="cover3-robber">Cover 3 Robber Match Bugged</option>
+          <option value="cover3-weak">Cover 3 Weak Match Bugged</option>
         </select>
       </div>
       <div style="display:grid;grid-template-columns:52px 1fr;align-items:center;gap:4px;margin-bottom:10px" id="cs-2x2-weak-row">
@@ -320,7 +323,6 @@
           <option value="cover2man">Cover 2 Man</option>
           <option value="tampa2-match-3x1">Tampa 2 Match 3×1</option>
           <option value="invert2-3x1">Invert 2 — 3×1</option>
-          <option value="cover3-sky">Cover 3 Sky Match</option>
           <option value="stubbie-strong">Stubbie — Strong Side</option>
           <option value="stump-strong">Stump — Strong Side</option>
           <option value="seahawk-strong" selected>Seahawk — Strong Side</option>
@@ -333,6 +335,7 @@
           <option value="cover3-cloud-strong-3x1">Cover 3 Cloud Strong 3×1</option>
           <option value="cover3-cloud-weak-3x1">Cover 3 Cloud Weak 3×1</option>
           <option value="muffin-cover3-cloud-strong">Muffin Cover 3 Cloud Strong</option>
+          <option value="new-sky-3x1">New Sky 3×1</option>
           <option value="firezone">Fire Zone Match 3</option>
           <option value="tedouble">TE Double</option>
           <option value="silver">Silver — Man Rush 5</option>
@@ -343,10 +346,10 @@
           <option value="c3sky-strong">Cover 3 Sky Zone — Strong Side</option>
           <option value="c3robber-strong">Cover 3 Robber Zone — Strong Side</option>
           <option value="c3weakz-strong">Cover 3 Weak Zone — Strong Side</option>
-          <option value="cover3-buzz">Cover 3 Buzz Match</option>
-          <option value="cover3-robber">Cover 3 Robber Match</option>
-          <option value="cover3-weak">Cover 3 Weak Match</option>
-          <option value="cover4">Cover 4 Quarters</option>
+          <option value="cover3-sky-bugged">Cover 3 Sky Match Bugged</option>
+          <option value="cover3-buzz">Cover 3 Buzz Match Bugged</option>
+          <option value="cover3-robber">Cover 3 Robber Match Bugged</option>
+          <option value="cover3-weak">Cover 3 Weak Match Bugged</option>
         </select>
       </div>
       <div style="display:grid;grid-template-columns:52px 1fr;align-items:center;gap:4px;margin-bottom:6px" id="cs-3x1-backside-row">
@@ -593,6 +596,10 @@
     <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
       <button class="tool-toggle-btn" id="zoomToolBtn" onclick="toggleZoomTool()">🔍 Zoom: ±10 yds</button>
     </div>
+    <!-- Coverage Tester -->
+    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
+      <button class="tool-toggle-btn" id="covTestBtn" onclick="runCoverageTests()">🧪 Test Coverages</button>
+    </div>
     <!-- Defense panel resize -->
     <div class="panel-resize-strip" style="margin-top:auto">
       <span>WIDTH</span>
@@ -625,6 +632,7 @@
 <script src="js/10_outcome.js"></script>
 <script src="js/11_gif_export.js"></script>
 <script src="js/13_game_engine.js"></script>
+<script src="js/14_coverage_tester.js"></script>
 <script>
   document.addEventListener('keydown', function(e) {
     if ((e.ctrlKey || e.metaKey) && e.key === 'z') { e.preventDefault(); undo(); }
