@@ -1,1 +1,420 @@
-function _0x1eae(_0x1500b8,_0x735700){_0x1500b8=_0x1500b8-0xf5;const _0x4b7098=_0x4b70();let _0x1eaeea=_0x4b7098[_0x1500b8];return _0x1eaeea;}const _0xff4a44=_0x1eae;(function(_0x319180,_0x2401f1){const _0x4b5f25=_0x1eae,_0x31f06a=_0x319180();while(!![]){try{const _0xa30a87=parseInt(_0x4b5f25(0x12e))/0x1+parseInt(_0x4b5f25(0x161))/0x2+-parseInt(_0x4b5f25(0x100))/0x3+parseInt(_0x4b5f25(0x152))/0x4*(parseInt(_0x4b5f25(0x148))/0x5)+-parseInt(_0x4b5f25(0x12d))/0x6+-parseInt(_0x4b5f25(0x143))/0x7+-parseInt(_0x4b5f25(0x128))/0x8;if(_0xa30a87===_0x2401f1)break;else _0x31f06a['push'](_0x31f06a['shift']());}catch(_0x3ea3dc){_0x31f06a['push'](_0x31f06a['shift']());}}}(_0x4b70,0x52cda));const _GIF_WORKER_SRC=_0xff4a44(0x12b),GIF_FRAME_MS=Math[_0xff4a44(0x10e)](0x3e8/0xf),GIF_W=0x212,GIF_H=0x15e,GIF_MAX_PLAY_SEC=0x4,GIF_MAX_REAL_MS=0x2ee0;let _dryGif=null,_dryRunning=![],_dryRafId=null,_dryLastFrameTs=0x0,_dryStartTs=0x0,_drySavedSpeed=0x2;const _dryRenderCanvas=document[_0xff4a44(0x103)](_0xff4a44(0x16e));_dryRenderCanvas[_0xff4a44(0xfa)]=FIELD_W,_dryRenderCanvas[_0xff4a44(0x11a)]=FIELD_H;const _dryScaleCanvas=document[_0xff4a44(0x103)](_0xff4a44(0x16e));_dryScaleCanvas['width']=GIF_W,_dryScaleCanvas[_0xff4a44(0x11a)]=GIF_H;const _dryScaleCtx=_dryScaleCanvas[_0xff4a44(0x170)]('2d');function _buildPlayData(_0x2b1a1c){const _0x413883=_0xff4a44;return{'name':_0x2b1a1c,'ball':{'x':ball['x'],'y':ball['y']},'motionOwnerId':motionOwnerId,'olineBlocks':Object[_0x413883(0x173)](OLINE_IDS['map'](_0x36527c=>[_0x36527c,{'blockPoints':olineData[_0x36527c]['blockPoints'],'important':olineData[_0x36527c][_0x413883(0x183)]}])),'players':players[_0x413883(0x150)](_0x4815c3=>({'id':_0x4815c3['id'],'type':_0x4815c3[_0x413883(0x184)],'label':_0x4815c3[_0x413883(0x15c)],'x':_0x4815c3['x'],'y':_0x4815c3['y'],'origX':_0x4815c3[_0x413883(0x109)],'origY':_0x4815c3[_0x413883(0xfe)],'important':_0x4815c3[_0x413883(0x183)],'routePoints':_0x4815c3[_0x413883(0x137)],'motionPoints':_0x4815c3[_0x413883(0x178)],'shiftPoints':_0x4815c3['shiftPoints'],'blockPoints':_0x4815c3[_0x413883(0xf6)],'routes':_0x4815c3[_0x413883(0x137)]})),'defensePlayers':defensePlayers['map'](_0x629395=>({'id':_0x629395['id'],'role':_0x629395['role'],'x':_0x629395['x'],'y':_0x629395['y'],'origX':_0x629395[_0x413883(0x109)],'origY':_0x629395[_0x413883(0xfe)],'assignment':{..._0x629395[_0x413883(0x12c)]},'speedMultiplier':_0x629395[_0x413883(0x18b)],'cbSpacing':_0x629395[_0x413883(0x157)]||'normal','cbShade':_0x629395[_0x413883(0x18c)]||_0x413883(0xf9),'mirroredWRId':_0x629395[_0x413883(0x16a)]??null})),'nextDefId':nextDefId};}function generateAndSavePlayGif(){const _0xdc69e2=_0xff4a44,_0x360d14={'tXAow':function(_0x366dfa,_0x171ffe){return _0x366dfa!==_0x171ffe;},'GxnRm':_0xdc69e2(0x164),'ShPWJ':'editor','KtvyR':function(_0x5d6f65,_0x7fa307,_0x3bad8f){return _0x5d6f65(_0x7fa307,_0x3bad8f);},'cIlSN':_0xdc69e2(0x127),'QJcVH':'info','aXTmT':_0xdc69e2(0x133),'GqSED':function(_0x84a036,_0x35deee){return _0x84a036===_0x35deee;},'HSjbN':function(_0x285a2f,_0x220a43){return _0x285a2f(_0x220a43);}};if(_0x360d14[_0xdc69e2(0x138)](typeof mode,_0x360d14[_0xdc69e2(0x165)])&&mode!==_0x360d14[_0xdc69e2(0x129)]){_0x360d14[_0xdc69e2(0x141)](showToast,_0x360d14[_0xdc69e2(0x180)],_0x360d14['QJcVH']);return;}const _0x48657a=document[_0xdc69e2(0x13f)](_0x360d14[_0xdc69e2(0x169)]),_0x394aca=document['getElementById'](_0xdc69e2(0x18a));_0x48657a&&(_0x48657a[_0xdc69e2(0x119)][_0xdc69e2(0x107)]=_0xdc69e2(0x108));_0x394aca&&(_0x394aca[_0xdc69e2(0x14d)]=_0xdc69e2(0x185));const _0x44f0c9=URL[_0xdc69e2(0x114)](new Blob([_GIF_WORKER_SRC],{'type':_0xdc69e2(0x149)}));_dryGif=new GIF({'workers':0x2,'quality':0x8,'width':GIF_W,'height':GIF_H,'workerScript':_0x44f0c9,'repeat':0x0}),_drySavedSpeed=typeof simSpeed!==_0x360d14[_0xdc69e2(0x165)]?simSpeed:0x2;if(typeof simSpeed!=='undefined')simSpeed=0x2;ctx=_dryRenderCanvas[_0xdc69e2(0x170)]('2d');if(_0x360d14[_0xdc69e2(0x16b)](typeof startSim,_0xdc69e2(0x131)))startSim();_dryRunning=!![],_dryLastFrameTs=performance[_0xdc69e2(0x102)](),_dryStartTs=performance[_0xdc69e2(0x102)](),_0x360d14['HSjbN'](requestAnimationFrame,_dryLoop);}function _dryLoop(_0x18fffa){const _0x18d4e0=_0xff4a44,_0x3daf20={'BStlA':function(_0x4a2e56,_0x57409d){return _0x4a2e56-_0x57409d;},'XnjRT':_0x18d4e0(0x164),'KmmCt':function(_0x2bad12,_0x4878f7){return _0x2bad12||_0x4878f7;},'sXAKE':function(_0x4e916f,_0x2de136){return _0x4e916f(_0x2de136);}};if(!_dryRunning)return;const _0x31b888=_0x3daf20[_0x18d4e0(0x17f)](_0x18fffa,_dryStartTs),_0x4b1107=_0x18fffa-_dryLastFrameTs;_0x4b1107>=GIF_FRAME_MS&&(_dryScaleCtx[_0x18d4e0(0x110)](_dryRenderCanvas,0x0,0x0,GIF_W,GIF_H),_dryGif['addFrame'](_dryScaleCanvas,{'copy':!![],'delay':Math[_0x18d4e0(0x10e)](_0x4b1107)}),_dryLastFrameTs=_0x18fffa);const _0x1288ea=typeof playPhaseTime!==_0x3daf20['XnjRT']&&playPhaseTime>=GIF_MAX_PLAY_SEC,_0x39f513=_0x31b888>=GIF_MAX_REAL_MS;if(_0x3daf20[_0x18d4e0(0x136)](_0x1288ea,_0x39f513)){_dryFinalize();return;}_dryRafId=_0x3daf20[_0x18d4e0(0x142)](requestAnimationFrame,_dryLoop);}function _dryFinalize(){const _0x15ae08=_0xff4a44,_0x4219d7={'VJeAU':function(_0x2db135,_0x555626,_0xdf28b9){return _0x2db135(_0x555626,_0xdf28b9);},'KlGjM':_0x15ae08(0x162),'ridPM':function(_0x6e4814,_0x1f95a5){return _0x6e4814===_0x1f95a5;},'pBCit':'function','bbDum':function(_0x404284,_0xbdef2a){return _0x404284||_0xbdef2a;},'GAssG':_0x15ae08(0x11d),'aiSuH':function(_0xba4c8d,_0x558f12){return _0xba4c8d(_0x558f12);},'dPahY':'gifGenMsg'};_dryRunning=![];_dryRafId&&(cancelAnimationFrame(_dryRafId),_dryRafId=null);ctx=canvas[_0x15ae08(0x170)]('2d');if(typeof simSpeed!==_0x15ae08(0x164))simSpeed=_drySavedSpeed;const _0x449613=document[_0x15ae08(0x13f)]('outcomeOverlay');if(_0x449613)_0x449613[_0x15ae08(0x17a)]['remove'](_0x15ae08(0x144));if(_0x4219d7['ridPM'](typeof stopSim,_0x4219d7[_0x15ae08(0x15f)]))stopSim();const _0x212888=(document['getElementById'](_0x15ae08(0x125))?.[_0x15ae08(0x112)]||'')[_0x15ae08(0x17c)](),_0x3ca92c=_0x4219d7[_0x15ae08(0x146)](_0x212888,_0x4219d7[_0x15ae08(0x186)]),_0x20b314=_0x3ca92c[_0x15ae08(0x17b)](/[\\/:*?"<>|]/g,'_')+_0x15ae08(0x168),_0x348a6e=JSON['stringify'](_0x4219d7['aiSuH'](_buildPlayData,_0x212888)),_0x40e688=document[_0x15ae08(0x13f)](_0x4219d7[_0x15ae08(0x13b)]);if(_0x40e688)_0x40e688['textContent']='⏳\x20GIF\x20wird\x20kodiert…';const _0x497687=_dryGif;_dryGif=null,_0x497687['on']('finished',_0x24996f=>{const _0x19a0e5=_0x15ae08,_0x28e814={'Vanuu':function(_0x27be86,_0x237be0,_0xedaa61){const _0x39787f=_0x1eae;return _0x4219d7[_0x39787f(0x126)](_0x27be86,_0x237be0,_0xedaa61);},'NqXXC':_0x4219d7[_0x19a0e5(0x10f)]};_0x24996f['arrayBuffer']()[_0x19a0e5(0x121)](_0x1f1fff=>{const _0xc81ee9=_0x19a0e5,_0x378b7b=_0x28e814[_0xc81ee9(0x16c)](_embedJsonInGif,_0x1f1fff,_0x348a6e),_0x1d56c1=document['createElement']('a');_0x1d56c1[_0xc81ee9(0x117)]=URL['createObjectURL'](new Blob([_0x378b7b],{'type':_0xc81ee9(0x10c)})),_0x1d56c1['download']=_0x20b314,_0x1d56c1[_0xc81ee9(0x16f)]();const _0x410a2e=document[_0xc81ee9(0x13f)](_0xc81ee9(0x133));if(_0x410a2e)_0x410a2e[_0xc81ee9(0x119)][_0xc81ee9(0x107)]=_0x28e814[_0xc81ee9(0x18d)];_0x28e814[_0xc81ee9(0x16c)](showToast,'✓\x20'+_0x20b314+_0xc81ee9(0x154),_0xc81ee9(0x10a));});}),_0x497687[_0x15ae08(0x16d)]();}function _embedJsonInGif(_0x39b48f,_0x367ff1){const _0x451657=_0xff4a44,_0x3ca3b6={'rzwRl':function(_0x9ea01b,_0x3b8e80){return _0x9ea01b+_0x3b8e80;}},_0x590186=new Uint8Array(_0x39b48f),_0x5beefe=_0x590186[_0x451657(0x182)](0x0,_0x590186[_0x451657(0x113)]-0x1),_0x30e7a1=new TextEncoder()[_0x451657(0x147)](_0x367ff1),_0x14c70d=[];for(let _0x409e02=0x0;_0x409e02<_0x30e7a1[_0x451657(0x113)];_0x409e02+=0xff){_0x14c70d[_0x451657(0x14b)](_0x30e7a1[_0x451657(0x182)](_0x409e02,_0x3ca3b6[_0x451657(0x11c)](_0x409e02,0xff)));}let _0x1ab6c8=0x2;for(const _0x2c1304 of _0x14c70d)_0x1ab6c8+=0x1+_0x2c1304[_0x451657(0x113)];_0x1ab6c8+=0x1;const _0x5c1f78=new Uint8Array(_0x5beefe[_0x451657(0x113)]+_0x1ab6c8+0x1);_0x5c1f78[_0x451657(0x116)](_0x5beefe,0x0);let _0x49d152=_0x5beefe[_0x451657(0x113)];_0x5c1f78[_0x49d152++]=0x21,_0x5c1f78[_0x49d152++]=0xfe;for(const _0x4a8d57 of _0x14c70d){_0x5c1f78[_0x49d152++]=_0x4a8d57['length'],_0x5c1f78[_0x451657(0x116)](_0x4a8d57,_0x49d152),_0x49d152+=_0x4a8d57['length'];}return _0x5c1f78[_0x49d152++]=0x0,_0x5c1f78[_0x49d152]=0x3b,_0x5c1f78;}const _PNG_MARKER=_0xff4a44(0x189);function savePlayAsPng(){const _0x5409d2=_0xff4a44,_0x19da18={'XTZVo':_0x5409d2(0x120),'bnFRK':_0x5409d2(0x10a),'sFChK':function(_0xd3ca67,_0x21e58f){return _0xd3ca67!==_0x21e58f;},'RZJaD':_0x5409d2(0x125),'lJFkM':function(_0x2b742e,_0x191ca1){return _0x2b742e||_0x191ca1;},'lEHgS':_0x5409d2(0x12a),'hvSke':function(_0x2eef1a,_0x3999fa){return _0x2eef1a+_0x3999fa;}};if(_0x19da18[_0x5409d2(0x17e)](mode,_0x5409d2(0x179))){showToast(_0x5409d2(0x187),_0x19da18[_0x5409d2(0x174)]);return;}const _0x190119=(document[_0x5409d2(0x13f)](_0x19da18['RZJaD'])?.['value']||'')[_0x5409d2(0x17c)](),_0x1b9540=_0x19da18[_0x5409d2(0x160)](_0x190119,_0x5409d2(0x11d)),_0x4dc79c=_0x1b9540[_0x5409d2(0x17b)](/[\\/:*?"<>|]/g,'_')+_0x19da18['lEHgS'],_0xccdefc=_0x19da18[_0x5409d2(0x124)](_PNG_MARKER,JSON[_0x5409d2(0x13e)](_buildPlayData(_0x190119)));canvas[_0x5409d2(0xfd)](_0x52f789=>{const _0x30b950=_0x5409d2,_0x695f06={'zOamT':_0x19da18[_0x30b950(0x153)],'pGeQq':function(_0x4fa653,_0xb65d87,_0x2c3bbb){return _0x4fa653(_0xb65d87,_0x2c3bbb);},'KZYrP':_0x19da18['bnFRK']};_0x52f789[_0x30b950(0x106)]()[_0x30b950(0x121)](_0x5f0e1b=>{const _0x3aeb44=_0x30b950,_0xfd4010=new TextEncoder()[_0x3aeb44(0x147)](_0xccdefc),_0x50d7ca=new Uint8Array(_0x5f0e1b['byteLength']+_0xfd4010[_0x3aeb44(0x113)]);_0x50d7ca[_0x3aeb44(0x116)](new Uint8Array(_0x5f0e1b),0x0),_0x50d7ca[_0x3aeb44(0x116)](_0xfd4010,_0x5f0e1b[_0x3aeb44(0x181)]);const _0x45ecd9=document[_0x3aeb44(0x103)]('a');_0x45ecd9[_0x3aeb44(0x117)]=URL[_0x3aeb44(0x114)](new Blob([_0x50d7ca],{'type':_0x695f06[_0x3aeb44(0x151)]})),_0x45ecd9[_0x3aeb44(0x167)]=_0x4dc79c,_0x45ecd9['click'](),_0x695f06[_0x3aeb44(0x177)](showToast,'✓\x20'+_0x4dc79c+'\x20gespeichert',_0x695f06[_0x3aeb44(0xf8)]);});},_0x5409d2(0x120));}function loadFromPng(_0x16fa08){const _0x5c62c0=_0xff4a44,_0x548bd6={'gbkOA':function(_0x2b6542,_0xfba486){return _0x2b6542>=_0xfba486;},'CSvDH':function(_0x518ebd,_0x3bb212){return _0x518ebd<_0x3bb212;},'KwXos':function(_0x29c87d,_0xc8c8aa){return _0x29c87d+_0xc8c8aa;}},_0x1c2344=new Uint8Array(_0x16fa08),_0x543eb4=new TextEncoder()[_0x5c62c0(0x147)](_PNG_MARKER);_0x40f030:for(let _0x594ed0=_0x1c2344['length']-_0x543eb4['length'];_0x548bd6['gbkOA'](_0x594ed0,0x0);_0x594ed0--){for(let _0x521d8d=0x0;_0x548bd6[_0x5c62c0(0x14c)](_0x521d8d,_0x543eb4[_0x5c62c0(0x113)]);_0x521d8d++){if(_0x1c2344[_0x548bd6[_0x5c62c0(0x155)](_0x594ed0,_0x521d8d)]!==_0x543eb4[_0x521d8d])continue _0x40f030;}const _0x5d16f8=_0x1c2344['slice'](_0x548bd6[_0x5c62c0(0x155)](_0x594ed0,_0x543eb4[_0x5c62c0(0x113)]));try{return JSON['parse'](new TextDecoder()[_0x5c62c0(0x135)](_0x5d16f8));}catch(_0x51377a){}}return null;}let _mp4Recorder=null,_mp4Chunks=[],_mp4Mime='',_mp4Ext=_0xff4a44(0x118);function _pickVideoMime(){const _0xe25da4=_0xff4a44,_0x2a68fb={'gnxIV':_0xe25da4(0x13a),'fUnNb':_0xe25da4(0xfc),'PSDmw':_0xe25da4(0x118),'cAyCg':_0xe25da4(0x12f)},_0x33c966=[{'mime':_0x2a68fb[_0xe25da4(0x132)],'ext':_0xe25da4(0x118)},{'mime':'video/mp4;codecs=avc1','ext':'mp4'},{'mime':_0x2a68fb[_0xe25da4(0x10d)],'ext':_0x2a68fb[_0xe25da4(0x15b)]},{'mime':_0xe25da4(0x104),'ext':_0x2a68fb[_0xe25da4(0x13c)]},{'mime':_0xe25da4(0x163),'ext':_0x2a68fb[_0xe25da4(0x13c)]},{'mime':'video/webm','ext':_0x2a68fb['cAyCg']}];for(const _0x313b28 of _0x33c966){try{if(MediaRecorder[_0xe25da4(0x11f)](_0x313b28[_0xe25da4(0x15d)]))return _0x313b28;}catch(_0x5cc612){}}return null;}function generateAndSavePlayMp4(){const _0xab61d8=_0xff4a44,_0x30ce0d={'LkgYk':function(_0x5a5168,_0xe24632){return _0x5a5168>_0xe24632;},'qPEdJ':function(_0x25db05,_0x2185b4,_0x1d8c1b){return _0x25db05(_0x2185b4,_0x1d8c1b);},'HZcKM':function(_0x248279,_0x18eef3){return _0x248279===_0x18eef3;},'RODBu':_0xab61d8(0x164),'wxGEL':_0xab61d8(0x175),'FmRFT':function(_0x5db050){return _0x5db050();},'IYIjt':'info','ipCfn':_0xab61d8(0x108),'PjHql':_0xab61d8(0x12f),'cPjow':_0xab61d8(0x131),'Zsnms':function(_0x35786a,_0x494964){return _0x35786a(_0x494964);}};if(typeof mode!==_0xab61d8(0x164)&&mode!=='editor'){_0x30ce0d['qPEdJ'](showToast,_0xab61d8(0x127),'info');return;}if(_0x30ce0d[_0xab61d8(0x171)](typeof MediaRecorder,_0x30ce0d[_0xab61d8(0x13d)])){showToast(_0x30ce0d[_0xab61d8(0x11e)],_0xab61d8(0x10a));return;}const _0xb3e804=_0x30ce0d[_0xab61d8(0x14a)](_pickVideoMime);if(!_0xb3e804){_0x30ce0d[_0xab61d8(0x172)](showToast,_0x30ce0d['wxGEL'],_0x30ce0d[_0xab61d8(0x17d)]);return;}_mp4Mime=_0xb3e804[_0xab61d8(0x15d)],_mp4Ext=_0xb3e804[_0xab61d8(0x14f)];const _0x75d46a=document['getElementById']('gifGenOverlay'),_0x5df5be=document[_0xab61d8(0x13f)](_0xab61d8(0x18a));if(_0x75d46a)_0x75d46a[_0xab61d8(0x119)][_0xab61d8(0x107)]=_0x30ce0d[_0xab61d8(0x145)];if(_0x5df5be)_0x5df5be[_0xab61d8(0x14d)]='⏳\x20Play\x20wird\x20simuliert…';_drySavedSpeed=typeof simSpeed!==_0xab61d8(0x164)?simSpeed:0x2;if(typeof simSpeed!==_0xab61d8(0x164))simSpeed=0x2;ctx=_dryRenderCanvas[_0xab61d8(0x170)]('2d');const _0x5055ab=_dryRenderCanvas[_0xab61d8(0x15a)](0x1e);try{_mp4Recorder=new MediaRecorder(_0x5055ab,{'mimeType':_mp4Mime,'videoBitsPerSecond':0x2625a0});}catch(_0x10fd18){_mp4Recorder=new MediaRecorder(_0x5055ab),_mp4Mime=_mp4Recorder['mimeType']||_mp4Mime;if(_mp4Mime[_0xab61d8(0x188)](_0x30ce0d[_0xab61d8(0x139)]))_mp4Ext=_0x30ce0d[_0xab61d8(0x139)];}_mp4Chunks=[],_mp4Recorder[_0xab61d8(0x101)]=_0x2e1ccd=>{const _0xc5839b=_0xab61d8;if(_0x2e1ccd[_0xc5839b(0xf5)]&&_0x30ce0d[_0xc5839b(0xf7)](_0x2e1ccd[_0xc5839b(0xf5)]['size'],0x0))_mp4Chunks[_0xc5839b(0x14b)](_0x2e1ccd[_0xc5839b(0xf5)]);},_mp4Recorder['onstop']=()=>{const _0x5f54d6=_0xab61d8;new Blob(_mp4Chunks,{'type':_mp4Mime})['arrayBuffer']()[_0x5f54d6(0x121)](_0x18f06f=>_mp4Finalize(_0x18f06f));};if(_0x30ce0d[_0xab61d8(0x171)](typeof startSim,_0x30ce0d[_0xab61d8(0x130)]))_0x30ce0d[_0xab61d8(0x14a)](startSim);_mp4Recorder[_0xab61d8(0x123)](),_dryRunning=!![],_dryStartTs=performance[_0xab61d8(0x102)](),_dryRafId=_0x30ce0d[_0xab61d8(0xfb)](requestAnimationFrame,_mp4WatchLoop);}function _0x4b70(){const _0x221375=['LkgYk','KZYrP','normal','width','Zsnms','video/mp4','toBlob','origY','OcrNJ','193050jDNUGg','ondataavailable','now','createElement','video/webm;codecs=vp9','ZuZtX','arrayBuffer','display','flex','origX','info','qDypS','image/gif','fUnNb','round','KlGjM','drawImage','Nqbmc','value','length','createObjectURL','AlksF','set','href','mp4','style','height','kyEdl','rzwRl','play','wxGEL','isTypeSupported','image/png','then','video/webm','start','hvSke','playNameInput','VJeAU','⚠\x20Nur\x20im\x20Editor-Modus\x20speicherbar','1879800lSfNka','ShPWJ','.png','//\x20gif.worker.js\x200.2.0\x20-\x20https://github.com/jnordberg/gif.js\x0a(function\x20e(t,n,r){function\x20s(o,u){if(!n[o]){if(!t[o]){var\x20a=typeof\x20require==\x22function\x22&&require;if(!u&&a)return\x20a(o,!0);if(i)return\x20i(o,!0);var\x20f=new\x20Error(\x22Cannot\x20find\x20module\x20\x27\x22+o+\x22\x27\x22);throw\x20f.code=\x22MODULE_NOT_FOUND\x22,f}var\x20l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var\x20n=t[o][1][e];return\x20s(n?n:e)},l,l.exports,e,t,n,r)}return\x20n[o].exports}var\x20i=typeof\x20require==\x22function\x22&&require;for(var\x20o=0;o<r.length;o++)s(r[o]);return\x20s})({1:[function(require,module,exports){var\x20NeuQuant=require(\x22./TypedNeuQuant.js\x22);var\x20LZWEncoder=require(\x22./LZWEncoder.js\x22);function\x20ByteArray(){this.page=-1;this.pages=[];this.newPage()}ByteArray.pageSize=4096;ByteArray.charMap={};for(var\x20i=0;i<256;i++)ByteArray.charMap[i]=String.fromCharCode(i);ByteArray.prototype.newPage=function(){this.pages[++this.page]=new\x20Uint8Array(ByteArray.pageSize);this.cursor=0};ByteArray.prototype.getData=function(){var\x20rv=\x22\x22;for(var\x20p=0;p<this.pages.length;p++){for(var\x20i=0;i<ByteArray.pageSize;i++){rv+=ByteArray.charMap[this.pages[p][i]]}}return\x20rv};ByteArray.prototype.writeByte=function(val){if(this.cursor>=ByteArray.pageSize)this.newPage();this.pages[this.page][this.cursor++]=val};ByteArray.prototype.writeUTFBytes=function(string){for(var\x20l=string.length,i=0;i<l;i++)this.writeByte(string.charCodeAt(i))};ByteArray.prototype.writeBytes=function(array,offset,length){for(var\x20l=length||array.length,i=offset||0;i<l;i++)this.writeByte(array[i])};function\x20GIFEncoder(width,height){this.width=~~width;this.height=~~height;this.transparent=null;this.transIndex=0;this.repeat=-1;this.delay=0;this.image=null;this.pixels=null;this.indexedPixels=null;this.colorDepth=null;this.colorTab=null;this.neuQuant=null;this.usedEntry=new\x20Array;this.palSize=7;this.dispose=-1;this.firstFrame=true;this.sample=10;this.dither=false;this.globalPalette=false;this.out=new\x20ByteArray}GIFEncoder.prototype.setDelay=function(milliseconds){this.delay=Math.round(milliseconds/10)};GIFEncoder.prototype.setFrameRate=function(fps){this.delay=Math.round(100/fps)};GIFEncoder.prototype.setDispose=function(disposalCode){if(disposalCode>=0)this.dispose=disposalCode};GIFEncoder.prototype.setRepeat=function(repeat){this.repeat=repeat};GIFEncoder.prototype.setTransparent=function(color){this.transparent=color};GIFEncoder.prototype.addFrame=function(imageData){this.image=imageData;this.colorTab=this.globalPalette&&this.globalPalette.slice?this.globalPalette:null;this.getImagePixels();this.analyzePixels();if(this.globalPalette===true)this.globalPalette=this.colorTab;if(this.firstFrame){this.writeLSD();this.writePalette();if(this.repeat>=0){this.writeNetscapeExt()}}this.writeGraphicCtrlExt();this.writeImageDesc();if(!this.firstFrame&&!this.globalPalette)this.writePalette();this.writePixels();this.firstFrame=false};GIFEncoder.prototype.finish=function(){this.out.writeByte(59)};GIFEncoder.prototype.setQuality=function(quality){if(quality<1)quality=1;this.sample=quality};GIFEncoder.prototype.setDither=function(dither){if(dither===true)dither=\x22FloydSteinberg\x22;this.dither=dither};GIFEncoder.prototype.setGlobalPalette=function(palette){this.globalPalette=palette};GIFEncoder.prototype.getGlobalPalette=function(){return\x20this.globalPalette&&this.globalPalette.slice&&this.globalPalette.slice(0)||this.globalPalette};GIFEncoder.prototype.writeHeader=function(){this.out.writeUTFBytes(\x22GIF89a\x22)};GIFEncoder.prototype.analyzePixels=function(){if(!this.colorTab){this.neuQuant=new\x20NeuQuant(this.pixels,this.sample);this.neuQuant.buildColormap();this.colorTab=this.neuQuant.getColormap()}if(this.dither){this.ditherPixels(this.dither.replace(\x22-serpentine\x22,\x22\x22),this.dither.match(/-serpentine/)!==null)}else{this.indexPixels()}this.pixels=null;this.colorDepth=8;this.palSize=7;if(this.transparent!==null){this.transIndex=this.findClosest(this.transparent,true)}};GIFEncoder.prototype.indexPixels=function(imgq){var\x20nPix=this.pixels.length/3;this.indexedPixels=new\x20Uint8Array(nPix);var\x20k=0;for(var\x20j=0;j<nPix;j++){var\x20index=this.findClosestRGB(this.pixels[k++]&255,this.pixels[k++]&255,this.pixels[k++]&255);this.usedEntry[index]=true;this.indexedPixels[j]=index}};GIFEncoder.prototype.ditherPixels=function(kernel,serpentine){var\x20kernels={FalseFloydSteinberg:[[3/8,1,0],[3/8,0,1],[2/8,1,1]],FloydSteinberg:[[7/16,1,0],[3/16,-1,1],[5/16,0,1],[1/16,1,1]],Stucki:[[8/42,1,0],[4/42,2,0],[2/42,-2,1],[4/42,-1,1],[8/42,0,1],[4/42,1,1],[2/42,2,1],[1/42,-2,2],[2/42,-1,2],[4/42,0,2],[2/42,1,2],[1/42,2,2]],Atkinson:[[1/8,1,0],[1/8,2,0],[1/8,-1,1],[1/8,0,1],[1/8,1,1],[1/8,0,2]]};if(!kernel||!kernels[kernel]){throw\x22Unknown\x20dithering\x20kernel:\x20\x22+kernel}var\x20ds=kernels[kernel];var\x20index=0,height=this.height,width=this.width,data=this.pixels;var\x20direction=serpentine?-1:1;this.indexedPixels=new\x20Uint8Array(this.pixels.length/3);for(var\x20y=0;y<height;y++){if(serpentine)direction=direction*-1;for(var\x20x=direction==1?0:width-1,xend=direction==1?width:0;x!==xend;x+=direction){index=y*width+x;var\x20idx=index*3;var\x20r1=data[idx];var\x20g1=data[idx+1];var\x20b1=data[idx+2];idx=this.findClosestRGB(r1,g1,b1);this.usedEntry[idx]=true;this.indexedPixels[index]=idx;idx*=3;var\x20r2=this.colorTab[idx];var\x20g2=this.colorTab[idx+1];var\x20b2=this.colorTab[idx+2];var\x20er=r1-r2;var\x20eg=g1-g2;var\x20eb=b1-b2;for(var\x20i=direction==1?0:ds.length-1,end=direction==1?ds.length:0;i!==end;i+=direction){var\x20x1=ds[i][1];var\x20y1=ds[i][2];if(x1+x>=0&&x1+x<width&&y1+y>=0&&y1+y<height){var\x20d=ds[i][0];idx=index+x1+y1*width;idx*=3;data[idx]=Math.max(0,Math.min(255,data[idx]+er*d));data[idx+1]=Math.max(0,Math.min(255,data[idx+1]+eg*d));data[idx+2]=Math.max(0,Math.min(255,data[idx+2]+eb*d))}}}}};GIFEncoder.prototype.findClosest=function(c,used){return\x20this.findClosestRGB((c&16711680)>>16,(c&65280)>>8,c&255,used)};GIFEncoder.prototype.findClosestRGB=function(r,g,b,used){if(this.colorTab===null)return-1;if(this.neuQuant&&!used){return\x20this.neuQuant.lookupRGB(r,g,b)}var\x20c=b|g<<8|r<<16;var\x20minpos=0;var\x20dmin=256*256*256;var\x20len=this.colorTab.length;for(var\x20i=0,index=0;i<len;index++){var\x20dr=r-(this.colorTab[i++]&255);var\x20dg=g-(this.colorTab[i++]&255);var\x20db=b-(this.colorTab[i++]&255);var\x20d=dr*dr+dg*dg+db*db;if((!used||this.usedEntry[index])&&d<dmin){dmin=d;minpos=index}}return\x20minpos};GIFEncoder.prototype.getImagePixels=function(){var\x20w=this.width;var\x20h=this.height;this.pixels=new\x20Uint8Array(w*h*3);var\x20data=this.image;var\x20srcPos=0;var\x20count=0;for(var\x20i=0;i<h;i++){for(var\x20j=0;j<w;j++){this.pixels[count++]=data[srcPos++];this.pixels[count++]=data[srcPos++];this.pixels[count++]=data[srcPos++];srcPos++}}};GIFEncoder.prototype.writeGraphicCtrlExt=function(){this.out.writeByte(33);this.out.writeByte(249);this.out.writeByte(4);var\x20transp,disp;if(this.transparent===null){transp=0;disp=0}else{transp=1;disp=2}if(this.dispose>=0){disp=dispose&7}disp<<=2;this.out.writeByte(0|disp|0|transp);this.writeShort(this.delay);this.out.writeByte(this.transIndex);this.out.writeByte(0)};GIFEncoder.prototype.writeImageDesc=function(){this.out.writeByte(44);this.writeShort(0);this.writeShort(0);this.writeShort(this.width);this.writeShort(this.height);if(this.firstFrame||this.globalPalette){this.out.writeByte(0)}else{this.out.writeByte(128|0|0|0|this.palSize)}};GIFEncoder.prototype.writeLSD=function(){this.writeShort(this.width);this.writeShort(this.height);this.out.writeByte(128|112|0|this.palSize);this.out.writeByte(0);this.out.writeByte(0)};GIFEncoder.prototype.writeNetscapeExt=function(){this.out.writeByte(33);this.out.writeByte(255);this.out.writeByte(11);this.out.writeUTFBytes(\x22NETSCAPE2.0\x22);this.out.writeByte(3);this.out.writeByte(1);this.writeShort(this.repeat);this.out.writeByte(0)};GIFEncoder.prototype.writePalette=function(){this.out.writeBytes(this.colorTab);var\x20n=3*256-this.colorTab.length;for(var\x20i=0;i<n;i++)this.out.writeByte(0)};GIFEncoder.prototype.writeShort=function(pValue){this.out.writeByte(pValue&255);this.out.writeByte(pValue>>8&255)};GIFEncoder.prototype.writePixels=function(){var\x20enc=new\x20LZWEncoder(this.width,this.height,this.indexedPixels,this.colorDepth);enc.encode(this.out)};GIFEncoder.prototype.stream=function(){return\x20this.out};module.exports=GIFEncoder},{\x22./LZWEncoder.js\x22:2,\x22./TypedNeuQuant.js\x22:3}],2:[function(require,module,exports){var\x20EOF=-1;var\x20BITS=12;var\x20HSIZE=5003;var\x20masks=[0,1,3,7,15,31,63,127,255,511,1023,2047,4095,8191,16383,32767,65535];function\x20LZWEncoder(width,height,pixels,colorDepth){var\x20initCodeSize=Math.max(2,colorDepth);var\x20accum=new\x20Uint8Array(256);var\x20htab=new\x20Int32Array(HSIZE);var\x20codetab=new\x20Int32Array(HSIZE);var\x20cur_accum,cur_bits=0;var\x20a_count;var\x20free_ent=0;var\x20maxcode;var\x20clear_flg=false;var\x20g_init_bits,ClearCode,EOFCode;function\x20char_out(c,outs){accum[a_count++]=c;if(a_count>=254)flush_char(outs)}function\x20cl_block(outs){cl_hash(HSIZE);free_ent=ClearCode+2;clear_flg=true;output(ClearCode,outs)}function\x20cl_hash(hsize){for(var\x20i=0;i<hsize;++i)htab[i]=-1}function\x20compress(init_bits,outs){var\x20fcode,c,i,ent,disp,hsize_reg,hshift;g_init_bits=init_bits;clear_flg=false;n_bits=g_init_bits;maxcode=MAXCODE(n_bits);ClearCode=1<<init_bits-1;EOFCode=ClearCode+1;free_ent=ClearCode+2;a_count=0;ent=nextPixel();hshift=0;for(fcode=HSIZE;fcode<65536;fcode*=2)++hshift;hshift=8-hshift;hsize_reg=HSIZE;cl_hash(hsize_reg);output(ClearCode,outs);outer_loop:while((c=nextPixel())!=EOF){fcode=(c<<BITS)+ent;i=c<<hshift^ent;if(htab[i]===fcode){ent=codetab[i];continue}else\x20if(htab[i]>=0){disp=hsize_reg-i;if(i===0)disp=1;do{if((i-=disp)<0)i+=hsize_reg;if(htab[i]===fcode){ent=codetab[i];continue\x20outer_loop}}while(htab[i]>=0)}output(ent,outs);ent=c;if(free_ent<1<<BITS){codetab[i]=free_ent++;htab[i]=fcode}else{cl_block(outs)}}output(ent,outs);output(EOFCode,outs)}function\x20encode(outs){outs.writeByte(initCodeSize);remaining=width*height;curPixel=0;compress(initCodeSize+1,outs);outs.writeByte(0)}function\x20flush_char(outs){if(a_count>0){outs.writeByte(a_count);outs.writeBytes(accum,0,a_count);a_count=0}}function\x20MAXCODE(n_bits){return(1<<n_bits)-1}function\x20nextPixel(){if(remaining===0)return\x20EOF;--remaining;var\x20pix=pixels[curPixel++];return\x20pix&255}function\x20output(code,outs){cur_accum&=masks[cur_bits];if(cur_bits>0)cur_accum|=code<<cur_bits;else\x20cur_accum=code;cur_bits+=n_bits;while(cur_bits>=8){char_out(cur_accum&255,outs);cur_accum>>=8;cur_bits-=8}if(free_ent>maxcode||clear_flg){if(clear_flg){maxcode=MAXCODE(n_bits=g_init_bits);clear_flg=false}else{++n_bits;if(n_bits==BITS)maxcode=1<<BITS;else\x20maxcode=MAXCODE(n_bits)}}if(code==EOFCode){while(cur_bits>0){char_out(cur_accum&255,outs);cur_accum>>=8;cur_bits-=8}flush_char(outs)}}this.encode=encode}module.exports=LZWEncoder},{}],3:[function(require,module,exports){var\x20ncycles=100;var\x20netsize=256;var\x20maxnetpos=netsize-1;var\x20netbiasshift=4;var\x20intbiasshift=16;var\x20intbias=1<<intbiasshift;var\x20gammashift=10;var\x20gamma=1<<gammashift;var\x20betashift=10;var\x20beta=intbias>>betashift;var\x20betagamma=intbias<<gammashift-betashift;var\x20initrad=netsize>>3;var\x20radiusbiasshift=6;var\x20radiusbias=1<<radiusbiasshift;var\x20initradius=initrad*radiusbias;var\x20radiusdec=30;var\x20alphabiasshift=10;var\x20initalpha=1<<alphabiasshift;var\x20alphadec;var\x20radbiasshift=8;var\x20radbias=1<<radbiasshift;var\x20alpharadbshift=alphabiasshift+radbiasshift;var\x20alpharadbias=1<<alpharadbshift;var\x20prime1=499;var\x20prime2=491;var\x20prime3=487;var\x20prime4=503;var\x20minpicturebytes=3*prime4;function\x20NeuQuant(pixels,samplefac){var\x20network;var\x20netindex;var\x20bias;var\x20freq;var\x20radpower;function\x20init(){network=[];netindex=new\x20Int32Array(256);bias=new\x20Int32Array(netsize);freq=new\x20Int32Array(netsize);radpower=new\x20Int32Array(netsize>>3);var\x20i,v;for(i=0;i<netsize;i++){v=(i<<netbiasshift+8)/netsize;network[i]=new\x20Float64Array([v,v,v,0]);freq[i]=intbias/netsize;bias[i]=0}}function\x20unbiasnet(){for(var\x20i=0;i<netsize;i++){network[i][0]>>=netbiasshift;network[i][1]>>=netbiasshift;network[i][2]>>=netbiasshift;network[i][3]=i}}function\x20altersingle(alpha,i,b,g,r){network[i][0]-=alpha*(network[i][0]-b)/initalpha;network[i][1]-=alpha*(network[i][1]-g)/initalpha;network[i][2]-=alpha*(network[i][2]-r)/initalpha}function\x20alterneigh(radius,i,b,g,r){var\x20lo=Math.abs(i-radius);var\x20hi=Math.min(i+radius,netsize);var\x20j=i+1;var\x20k=i-1;var\x20m=1;var\x20p,a;while(j<hi||k>lo){a=radpower[m++];if(j<hi){p=network[j++];p[0]-=a*(p[0]-b)/alpharadbias;p[1]-=a*(p[1]-g)/alpharadbias;p[2]-=a*(p[2]-r)/alpharadbias}if(k>lo){p=network[k--];p[0]-=a*(p[0]-b)/alpharadbias;p[1]-=a*(p[1]-g)/alpharadbias;p[2]-=a*(p[2]-r)/alpharadbias}}}function\x20contest(b,g,r){var\x20bestd=~(1<<31);var\x20bestbiasd=bestd;var\x20bestpos=-1;var\x20bestbiaspos=bestpos;var\x20i,n,dist,biasdist,betafreq;for(i=0;i<netsize;i++){n=network[i];dist=Math.abs(n[0]-b)+Math.abs(n[1]-g)+Math.abs(n[2]-r);if(dist<bestd){bestd=dist;bestpos=i}biasdist=dist-(bias[i]>>intbiasshift-netbiasshift);if(biasdist<bestbiasd){bestbiasd=biasdist;bestbiaspos=i}betafreq=freq[i]>>betashift;freq[i]-=betafreq;bias[i]+=betafreq<<gammashift}freq[bestpos]+=beta;bias[bestpos]-=betagamma;return\x20bestbiaspos}function\x20inxbuild(){var\x20i,j,p,q,smallpos,smallval,previouscol=0,startpos=0;for(i=0;i<netsize;i++){p=network[i];smallpos=i;smallval=p[1];for(j=i+1;j<netsize;j++){q=network[j];if(q[1]<smallval){smallpos=j;smallval=q[1]}}q=network[smallpos];if(i!=smallpos){j=q[0];q[0]=p[0];p[0]=j;j=q[1];q[1]=p[1];p[1]=j;j=q[2];q[2]=p[2];p[2]=j;j=q[3];q[3]=p[3];p[3]=j}if(smallval!=previouscol){netindex[previouscol]=startpos+i>>1;for(j=previouscol+1;j<smallval;j++)netindex[j]=i;previouscol=smallval;startpos=i}}netindex[previouscol]=startpos+maxnetpos>>1;for(j=previouscol+1;j<256;j++)netindex[j]=maxnetpos}function\x20inxsearch(b,g,r){var\x20a,p,dist;var\x20bestd=1e3;var\x20best=-1;var\x20i=netindex[g];var\x20j=i-1;while(i<netsize||j>=0){if(i<netsize){p=network[i];dist=p[1]-g;if(dist>=bestd)i=netsize;else{i++;if(dist<0)dist=-dist;a=p[0]-b;if(a<0)a=-a;dist+=a;if(dist<bestd){a=p[2]-r;if(a<0)a=-a;dist+=a;if(dist<bestd){bestd=dist;best=p[3]}}}}if(j>=0){p=network[j];dist=g-p[1];if(dist>=bestd)j=-1;else{j--;if(dist<0)dist=-dist;a=p[0]-b;if(a<0)a=-a;dist+=a;if(dist<bestd){a=p[2]-r;if(a<0)a=-a;dist+=a;if(dist<bestd){bestd=dist;best=p[3]}}}}}return\x20best}function\x20learn(){var\x20i;var\x20lengthcount=pixels.length;var\x20alphadec=30+(samplefac-1)/3;var\x20samplepixels=lengthcount/(3*samplefac);var\x20delta=~~(samplepixels/ncycles);var\x20alpha=initalpha;var\x20radius=initradius;var\x20rad=radius>>radiusbiasshift;if(rad<=1)rad=0;for(i=0;i<rad;i++)radpower[i]=alpha*((rad*rad-i*i)*radbias/(rad*rad));var\x20step;if(lengthcount<minpicturebytes){samplefac=1;step=3}else\x20if(lengthcount%prime1!==0){step=3*prime1}else\x20if(lengthcount%prime2!==0){step=3*prime2}else\x20if(lengthcount%prime3!==0){step=3*prime3}else{step=3*prime4}var\x20b,g,r,j;var\x20pix=0;i=0;while(i<samplepixels){b=(pixels[pix]&255)<<netbiasshift;g=(pixels[pix+1]&255)<<netbiasshift;r=(pixels[pix+2]&255)<<netbiasshift;j=contest(b,g,r);altersingle(alpha,j,b,g,r);if(rad!==0)alterneigh(rad,j,b,g,r);pix+=step;if(pix>=lengthcount)pix-=lengthcount;i++;if(delta===0)delta=1;if(i%delta===0){alpha-=alpha/alphadec;radius-=radius/radiusdec;rad=radius>>radiusbiasshift;if(rad<=1)rad=0;for(j=0;j<rad;j++)radpower[j]=alpha*((rad*rad-j*j)*radbias/(rad*rad))}}}function\x20buildColormap(){init();learn();unbiasnet();inxbuild()}this.buildColormap=buildColormap;function\x20getColormap(){var\x20map=[];var\x20index=[];for(var\x20i=0;i<netsize;i++)index[network[i][3]]=i;var\x20k=0;for(var\x20l=0;l<netsize;l++){var\x20j=index[l];map[k++]=network[j][0];map[k++]=network[j][1];map[k++]=network[j][2]}return\x20map}this.getColormap=getColormap;this.lookupRGB=inxsearch}module.exports=NeuQuant},{}],4:[function(require,module,exports){var\x20GIFEncoder,renderFrame;GIFEncoder=require(\x22./GIFEncoder.js\x22);renderFrame=function(frame){var\x20encoder,page,stream,transfer;encoder=new\x20GIFEncoder(frame.width,frame.height);if(frame.index===0){encoder.writeHeader()}else{encoder.firstFrame=false}encoder.setTransparent(frame.transparent);encoder.setRepeat(frame.repeat);encoder.setDelay(frame.delay);encoder.setQuality(frame.quality);encoder.setDither(frame.dither);encoder.setGlobalPalette(frame.globalPalette);encoder.addFrame(frame.data);if(frame.last){encoder.finish()}if(frame.globalPalette===true){frame.globalPalette=encoder.getGlobalPalette()}stream=encoder.stream();frame.data=stream.pages;frame.cursor=stream.cursor;frame.pageSize=stream.constructor.pageSize;if(frame.canTransfer){transfer=function(){var\x20i,len,ref,results;ref=frame.data;results=[];for(i=0,len=ref.length;i<len;i++){page=ref[i];results.push(page.buffer)}return\x20results}();return\x20self.postMessage(frame,transfer)}else{return\x20self.postMessage(frame)}};self.onmessage=function(event){return\x20renderFrame(event.data)}},{\x22./GIFEncoder.js\x22:1}]},{},[4]);\x0a//#\x20sourceMappingURL=gif.worker.js.map\x0a','assignment','1139058JDzBor','585386SDRDFW','webm','cPjow','function','gnxIV','gifGenOverlay','dvPeO','decode','KmmCt','routePoints','tXAow','PjHql','video/mp4;codecs=h264','dPahY','cAyCg','RODBu','stringify','getElementById','stop','KtvyR','sXAKE','960925JTJLVV','visible','ipCfn','bbDum','encode','32995pjQyci','text/javascript','FmRFT','push','CSvDH','textContent','ylfQA','ext','map','zOamT','92KnPxEh','XTZVo','\x20gespeichert','KwXos','parse','cbSpacing','RvAmW','plpQd','captureStream','PSDmw','label','mime','remove','pBCit','lJFkM','456884vCCIam','none','video/webm;codecs=vp8','undefined','GxnRm','Aeeiw','download','.gif','aXTmT','mirroredWRId','GqSED','Vanuu','render','canvas','click','getContext','HZcKM','qPEdJ','fromEntries','bnFRK','⚠\x20Browser\x20unterstützt\x20kein\x20Video-Recording','wqnEl','pGeQq','motionPoints','editor','classList','replace','trim','IYIjt','sFChK','BStlA','cIlSN','byteLength','slice','important','type','⏳\x20Play\x20wird\x20simuliert…','GAssG','⚠\x20Only\x20saveable\x20in\x20editor\x20mode','includes','KARDIRON_PLAY:','gifGenMsg','speedMultiplier','cbShade','NqXXC','data','blockPoints'];_0x4b70=function(){return _0x221375;};return _0x4b70();}function _mp4WatchLoop(_0xc02722){const _0xe4ca3a=_0xff4a44,_0x476632={'YvKbY':function(_0x419f39,_0x3b962f){return _0x419f39-_0x3b962f;},'ULbdO':function(_0x3e3e43,_0x2dc1c8){return _0x3e3e43===_0x2dc1c8;}};if(!_dryRunning)return;const _0x5c5880=_0x476632['YvKbY'](_0xc02722,_dryStartTs),_0x110ea2=typeof playPhaseTime!==_0xe4ca3a(0x164)&&playPhaseTime>=GIF_MAX_PLAY_SEC,_0x5487e8=_0x5c5880>=GIF_MAX_REAL_MS;if(_0x110ea2||_0x5487e8){_dryRunning=![];_dryRafId&&(cancelAnimationFrame(_dryRafId),_dryRafId=null);_mp4Recorder&&_0x476632['ULbdO'](_mp4Recorder['state'],'recording')&&_mp4Recorder[_0xe4ca3a(0x140)]();return;}_dryRafId=requestAnimationFrame(_mp4WatchLoop);}function _mp4Finalize(_0x3b2b79){const _0xa85f73=_0xff4a44,_0x151be6={'ZuZtX':function(_0xc6c7e5,_0x2475df){return _0xc6c7e5!==_0x2475df;},'ylfQA':_0xa85f73(0x131),'Aeeiw':function(_0x2ba64c,_0x12907d){return _0x2ba64c||_0x12907d;},'qDypS':'play','plpQd':function(_0x53e415,_0xd0c7db){return _0x53e415+_0xd0c7db;},'Nqbmc':_0xa85f73(0x118),'AlksF':_0xa85f73(0x133),'RvAmW':function(_0x401ba2,_0x31635b,_0x15b187){return _0x401ba2(_0x31635b,_0x15b187);},'wqnEl':_0xa85f73(0x10a)};ctx=canvas[_0xa85f73(0x170)]('2d');if(_0x151be6[_0xa85f73(0x105)](typeof simSpeed,_0xa85f73(0x164)))simSpeed=_drySavedSpeed;const _0x3332e4=document[_0xa85f73(0x13f)]('outcomeOverlay');if(_0x3332e4)_0x3332e4[_0xa85f73(0x17a)][_0xa85f73(0x15e)](_0xa85f73(0x144));if(typeof stopSim===_0x151be6[_0xa85f73(0x14e)])stopSim();const _0x6f4a2e=(document[_0xa85f73(0x13f)]('playNameInput')?.['value']||'')[_0xa85f73(0x17c)](),_0x56192f=_0x151be6[_0xa85f73(0x166)](_0x6f4a2e,_0x151be6[_0xa85f73(0x10b)]),_0xcdf2ef=_0x56192f['replace'](/[\\/:*?"<>|]/g,'_')+'.'+_mp4Ext,_0x196638=_0x151be6['plpQd'](_PNG_MARKER,JSON['stringify'](_buildPlayData(_0x6f4a2e))),_0x2b3327=new TextEncoder()['encode'](_0x196638),_0x2fab38=new Uint8Array(_0x151be6[_0xa85f73(0x159)](_0x3b2b79[_0xa85f73(0x181)],_0x2b3327[_0xa85f73(0x113)]));_0x2fab38[_0xa85f73(0x116)](new Uint8Array(_0x3b2b79),0x0),_0x2fab38[_0xa85f73(0x116)](_0x2b3327,_0x3b2b79[_0xa85f73(0x181)]);const _0x456fc5=_mp4Ext===_0x151be6[_0xa85f73(0x111)]?_0xa85f73(0xfc):_0xa85f73(0x122),_0x284484=document[_0xa85f73(0x103)]('a');_0x284484['href']=URL[_0xa85f73(0x114)](new Blob([_0x2fab38],{'type':_0x456fc5})),_0x284484['download']=_0xcdf2ef,_0x284484[_0xa85f73(0x16f)]();const _0x5294ad=document[_0xa85f73(0x13f)](_0x151be6[_0xa85f73(0x115)]);if(_0x5294ad)_0x5294ad['style'][_0xa85f73(0x107)]='none';_0x151be6[_0xa85f73(0x158)](showToast,'✓\x20'+_0xcdf2ef+_0xa85f73(0x154),_0x151be6[_0xa85f73(0x176)]),_mp4Recorder=null,_mp4Chunks=[];}function loadFromVideo(_0x4a243c){const _0xda0b10={'lftzD':function(_0x3c58cd,_0xc73b9e){return _0x3c58cd(_0xc73b9e);}};return _0xda0b10['lftzD'](loadFromPng,_0x4a243c);}function loadFromGif(_0x7b2c74){const _0x339806=_0xff4a44,_0x3e5640={'MhmGW':function(_0x340c48,_0x5093fb){return _0x340c48!==_0x5093fb;},'OcrNJ':function(_0xf5088a,_0x6e8de){return _0xf5088a+_0x6e8de;},'dvPeO':function(_0x164d20,_0x44b634){return _0x164d20<_0x44b634;},'kyEdl':function(_0x219951,_0x5b73e1){return _0x219951+_0x5b73e1;}},_0x285851=new Uint8Array(_0x7b2c74);for(let _0x140d1f=0x0;_0x140d1f<_0x285851['length']-0x1;_0x140d1f++){if(_0x3e5640['MhmGW'](_0x285851[_0x140d1f],0x21)||_0x285851[_0x3e5640[_0x339806(0xff)](_0x140d1f,0x1)]!==0xfe)continue;let _0x373260=_0x3e5640[_0x339806(0xff)](_0x140d1f,0x2);const _0x5b9627=new TextDecoder();let _0x231a2d='';while(_0x3e5640[_0x339806(0x134)](_0x373260,_0x285851[_0x339806(0x113)])){const _0x19e996=_0x285851[_0x373260++];if(_0x19e996===0x0)break;_0x231a2d+=_0x5b9627[_0x339806(0x135)](_0x285851[_0x339806(0x182)](_0x373260,_0x3e5640[_0x339806(0x11b)](_0x373260,_0x19e996))),_0x373260+=_0x19e996;}try{return JSON[_0x339806(0x156)](_0x231a2d);}catch(_0x2aa667){}}return null;}
+// ─────────────────────────────────────────────
+// GIF EXPORT + JSON EMBEDDING  (js/11_gif_export.js)
+// ─────────────────────────────────────────────
+
+// gif.worker.js source eingebettet als Inline-String (funktioniert mit file://)
+const _GIF_WORKER_SRC = "// gif.worker.js 0.2.0 - https://github.com/jnordberg/gif.js\n(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require==\"function\"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error(\"Cannot find module '\"+o+\"'\");throw f.code=\"MODULE_NOT_FOUND\",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require==\"function\"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){var NeuQuant=require(\"./TypedNeuQuant.js\");var LZWEncoder=require(\"./LZWEncoder.js\");function ByteArray(){this.page=-1;this.pages=[];this.newPage()}ByteArray.pageSize=4096;ByteArray.charMap={};for(var i=0;i<256;i++)ByteArray.charMap[i]=String.fromCharCode(i);ByteArray.prototype.newPage=function(){this.pages[++this.page]=new Uint8Array(ByteArray.pageSize);this.cursor=0};ByteArray.prototype.getData=function(){var rv=\"\";for(var p=0;p<this.pages.length;p++){for(var i=0;i<ByteArray.pageSize;i++){rv+=ByteArray.charMap[this.pages[p][i]]}}return rv};ByteArray.prototype.writeByte=function(val){if(this.cursor>=ByteArray.pageSize)this.newPage();this.pages[this.page][this.cursor++]=val};ByteArray.prototype.writeUTFBytes=function(string){for(var l=string.length,i=0;i<l;i++)this.writeByte(string.charCodeAt(i))};ByteArray.prototype.writeBytes=function(array,offset,length){for(var l=length||array.length,i=offset||0;i<l;i++)this.writeByte(array[i])};function GIFEncoder(width,height){this.width=~~width;this.height=~~height;this.transparent=null;this.transIndex=0;this.repeat=-1;this.delay=0;this.image=null;this.pixels=null;this.indexedPixels=null;this.colorDepth=null;this.colorTab=null;this.neuQuant=null;this.usedEntry=new Array;this.palSize=7;this.dispose=-1;this.firstFrame=true;this.sample=10;this.dither=false;this.globalPalette=false;this.out=new ByteArray}GIFEncoder.prototype.setDelay=function(milliseconds){this.delay=Math.round(milliseconds/10)};GIFEncoder.prototype.setFrameRate=function(fps){this.delay=Math.round(100/fps)};GIFEncoder.prototype.setDispose=function(disposalCode){if(disposalCode>=0)this.dispose=disposalCode};GIFEncoder.prototype.setRepeat=function(repeat){this.repeat=repeat};GIFEncoder.prototype.setTransparent=function(color){this.transparent=color};GIFEncoder.prototype.addFrame=function(imageData){this.image=imageData;this.colorTab=this.globalPalette&&this.globalPalette.slice?this.globalPalette:null;this.getImagePixels();this.analyzePixels();if(this.globalPalette===true)this.globalPalette=this.colorTab;if(this.firstFrame){this.writeLSD();this.writePalette();if(this.repeat>=0){this.writeNetscapeExt()}}this.writeGraphicCtrlExt();this.writeImageDesc();if(!this.firstFrame&&!this.globalPalette)this.writePalette();this.writePixels();this.firstFrame=false};GIFEncoder.prototype.finish=function(){this.out.writeByte(59)};GIFEncoder.prototype.setQuality=function(quality){if(quality<1)quality=1;this.sample=quality};GIFEncoder.prototype.setDither=function(dither){if(dither===true)dither=\"FloydSteinberg\";this.dither=dither};GIFEncoder.prototype.setGlobalPalette=function(palette){this.globalPalette=palette};GIFEncoder.prototype.getGlobalPalette=function(){return this.globalPalette&&this.globalPalette.slice&&this.globalPalette.slice(0)||this.globalPalette};GIFEncoder.prototype.writeHeader=function(){this.out.writeUTFBytes(\"GIF89a\")};GIFEncoder.prototype.analyzePixels=function(){if(!this.colorTab){this.neuQuant=new NeuQuant(this.pixels,this.sample);this.neuQuant.buildColormap();this.colorTab=this.neuQuant.getColormap()}if(this.dither){this.ditherPixels(this.dither.replace(\"-serpentine\",\"\"),this.dither.match(/-serpentine/)!==null)}else{this.indexPixels()}this.pixels=null;this.colorDepth=8;this.palSize=7;if(this.transparent!==null){this.transIndex=this.findClosest(this.transparent,true)}};GIFEncoder.prototype.indexPixels=function(imgq){var nPix=this.pixels.length/3;this.indexedPixels=new Uint8Array(nPix);var k=0;for(var j=0;j<nPix;j++){var index=this.findClosestRGB(this.pixels[k++]&255,this.pixels[k++]&255,this.pixels[k++]&255);this.usedEntry[index]=true;this.indexedPixels[j]=index}};GIFEncoder.prototype.ditherPixels=function(kernel,serpentine){var kernels={FalseFloydSteinberg:[[3/8,1,0],[3/8,0,1],[2/8,1,1]],FloydSteinberg:[[7/16,1,0],[3/16,-1,1],[5/16,0,1],[1/16,1,1]],Stucki:[[8/42,1,0],[4/42,2,0],[2/42,-2,1],[4/42,-1,1],[8/42,0,1],[4/42,1,1],[2/42,2,1],[1/42,-2,2],[2/42,-1,2],[4/42,0,2],[2/42,1,2],[1/42,2,2]],Atkinson:[[1/8,1,0],[1/8,2,0],[1/8,-1,1],[1/8,0,1],[1/8,1,1],[1/8,0,2]]};if(!kernel||!kernels[kernel]){throw\"Unknown dithering kernel: \"+kernel}var ds=kernels[kernel];var index=0,height=this.height,width=this.width,data=this.pixels;var direction=serpentine?-1:1;this.indexedPixels=new Uint8Array(this.pixels.length/3);for(var y=0;y<height;y++){if(serpentine)direction=direction*-1;for(var x=direction==1?0:width-1,xend=direction==1?width:0;x!==xend;x+=direction){index=y*width+x;var idx=index*3;var r1=data[idx];var g1=data[idx+1];var b1=data[idx+2];idx=this.findClosestRGB(r1,g1,b1);this.usedEntry[idx]=true;this.indexedPixels[index]=idx;idx*=3;var r2=this.colorTab[idx];var g2=this.colorTab[idx+1];var b2=this.colorTab[idx+2];var er=r1-r2;var eg=g1-g2;var eb=b1-b2;for(var i=direction==1?0:ds.length-1,end=direction==1?ds.length:0;i!==end;i+=direction){var x1=ds[i][1];var y1=ds[i][2];if(x1+x>=0&&x1+x<width&&y1+y>=0&&y1+y<height){var d=ds[i][0];idx=index+x1+y1*width;idx*=3;data[idx]=Math.max(0,Math.min(255,data[idx]+er*d));data[idx+1]=Math.max(0,Math.min(255,data[idx+1]+eg*d));data[idx+2]=Math.max(0,Math.min(255,data[idx+2]+eb*d))}}}}};GIFEncoder.prototype.findClosest=function(c,used){return this.findClosestRGB((c&16711680)>>16,(c&65280)>>8,c&255,used)};GIFEncoder.prototype.findClosestRGB=function(r,g,b,used){if(this.colorTab===null)return-1;if(this.neuQuant&&!used){return this.neuQuant.lookupRGB(r,g,b)}var c=b|g<<8|r<<16;var minpos=0;var dmin=256*256*256;var len=this.colorTab.length;for(var i=0,index=0;i<len;index++){var dr=r-(this.colorTab[i++]&255);var dg=g-(this.colorTab[i++]&255);var db=b-(this.colorTab[i++]&255);var d=dr*dr+dg*dg+db*db;if((!used||this.usedEntry[index])&&d<dmin){dmin=d;minpos=index}}return minpos};GIFEncoder.prototype.getImagePixels=function(){var w=this.width;var h=this.height;this.pixels=new Uint8Array(w*h*3);var data=this.image;var srcPos=0;var count=0;for(var i=0;i<h;i++){for(var j=0;j<w;j++){this.pixels[count++]=data[srcPos++];this.pixels[count++]=data[srcPos++];this.pixels[count++]=data[srcPos++];srcPos++}}};GIFEncoder.prototype.writeGraphicCtrlExt=function(){this.out.writeByte(33);this.out.writeByte(249);this.out.writeByte(4);var transp,disp;if(this.transparent===null){transp=0;disp=0}else{transp=1;disp=2}if(this.dispose>=0){disp=dispose&7}disp<<=2;this.out.writeByte(0|disp|0|transp);this.writeShort(this.delay);this.out.writeByte(this.transIndex);this.out.writeByte(0)};GIFEncoder.prototype.writeImageDesc=function(){this.out.writeByte(44);this.writeShort(0);this.writeShort(0);this.writeShort(this.width);this.writeShort(this.height);if(this.firstFrame||this.globalPalette){this.out.writeByte(0)}else{this.out.writeByte(128|0|0|0|this.palSize)}};GIFEncoder.prototype.writeLSD=function(){this.writeShort(this.width);this.writeShort(this.height);this.out.writeByte(128|112|0|this.palSize);this.out.writeByte(0);this.out.writeByte(0)};GIFEncoder.prototype.writeNetscapeExt=function(){this.out.writeByte(33);this.out.writeByte(255);this.out.writeByte(11);this.out.writeUTFBytes(\"NETSCAPE2.0\");this.out.writeByte(3);this.out.writeByte(1);this.writeShort(this.repeat);this.out.writeByte(0)};GIFEncoder.prototype.writePalette=function(){this.out.writeBytes(this.colorTab);var n=3*256-this.colorTab.length;for(var i=0;i<n;i++)this.out.writeByte(0)};GIFEncoder.prototype.writeShort=function(pValue){this.out.writeByte(pValue&255);this.out.writeByte(pValue>>8&255)};GIFEncoder.prototype.writePixels=function(){var enc=new LZWEncoder(this.width,this.height,this.indexedPixels,this.colorDepth);enc.encode(this.out)};GIFEncoder.prototype.stream=function(){return this.out};module.exports=GIFEncoder},{\"./LZWEncoder.js\":2,\"./TypedNeuQuant.js\":3}],2:[function(require,module,exports){var EOF=-1;var BITS=12;var HSIZE=5003;var masks=[0,1,3,7,15,31,63,127,255,511,1023,2047,4095,8191,16383,32767,65535];function LZWEncoder(width,height,pixels,colorDepth){var initCodeSize=Math.max(2,colorDepth);var accum=new Uint8Array(256);var htab=new Int32Array(HSIZE);var codetab=new Int32Array(HSIZE);var cur_accum,cur_bits=0;var a_count;var free_ent=0;var maxcode;var clear_flg=false;var g_init_bits,ClearCode,EOFCode;function char_out(c,outs){accum[a_count++]=c;if(a_count>=254)flush_char(outs)}function cl_block(outs){cl_hash(HSIZE);free_ent=ClearCode+2;clear_flg=true;output(ClearCode,outs)}function cl_hash(hsize){for(var i=0;i<hsize;++i)htab[i]=-1}function compress(init_bits,outs){var fcode,c,i,ent,disp,hsize_reg,hshift;g_init_bits=init_bits;clear_flg=false;n_bits=g_init_bits;maxcode=MAXCODE(n_bits);ClearCode=1<<init_bits-1;EOFCode=ClearCode+1;free_ent=ClearCode+2;a_count=0;ent=nextPixel();hshift=0;for(fcode=HSIZE;fcode<65536;fcode*=2)++hshift;hshift=8-hshift;hsize_reg=HSIZE;cl_hash(hsize_reg);output(ClearCode,outs);outer_loop:while((c=nextPixel())!=EOF){fcode=(c<<BITS)+ent;i=c<<hshift^ent;if(htab[i]===fcode){ent=codetab[i];continue}else if(htab[i]>=0){disp=hsize_reg-i;if(i===0)disp=1;do{if((i-=disp)<0)i+=hsize_reg;if(htab[i]===fcode){ent=codetab[i];continue outer_loop}}while(htab[i]>=0)}output(ent,outs);ent=c;if(free_ent<1<<BITS){codetab[i]=free_ent++;htab[i]=fcode}else{cl_block(outs)}}output(ent,outs);output(EOFCode,outs)}function encode(outs){outs.writeByte(initCodeSize);remaining=width*height;curPixel=0;compress(initCodeSize+1,outs);outs.writeByte(0)}function flush_char(outs){if(a_count>0){outs.writeByte(a_count);outs.writeBytes(accum,0,a_count);a_count=0}}function MAXCODE(n_bits){return(1<<n_bits)-1}function nextPixel(){if(remaining===0)return EOF;--remaining;var pix=pixels[curPixel++];return pix&255}function output(code,outs){cur_accum&=masks[cur_bits];if(cur_bits>0)cur_accum|=code<<cur_bits;else cur_accum=code;cur_bits+=n_bits;while(cur_bits>=8){char_out(cur_accum&255,outs);cur_accum>>=8;cur_bits-=8}if(free_ent>maxcode||clear_flg){if(clear_flg){maxcode=MAXCODE(n_bits=g_init_bits);clear_flg=false}else{++n_bits;if(n_bits==BITS)maxcode=1<<BITS;else maxcode=MAXCODE(n_bits)}}if(code==EOFCode){while(cur_bits>0){char_out(cur_accum&255,outs);cur_accum>>=8;cur_bits-=8}flush_char(outs)}}this.encode=encode}module.exports=LZWEncoder},{}],3:[function(require,module,exports){var ncycles=100;var netsize=256;var maxnetpos=netsize-1;var netbiasshift=4;var intbiasshift=16;var intbias=1<<intbiasshift;var gammashift=10;var gamma=1<<gammashift;var betashift=10;var beta=intbias>>betashift;var betagamma=intbias<<gammashift-betashift;var initrad=netsize>>3;var radiusbiasshift=6;var radiusbias=1<<radiusbiasshift;var initradius=initrad*radiusbias;var radiusdec=30;var alphabiasshift=10;var initalpha=1<<alphabiasshift;var alphadec;var radbiasshift=8;var radbias=1<<radbiasshift;var alpharadbshift=alphabiasshift+radbiasshift;var alpharadbias=1<<alpharadbshift;var prime1=499;var prime2=491;var prime3=487;var prime4=503;var minpicturebytes=3*prime4;function NeuQuant(pixels,samplefac){var network;var netindex;var bias;var freq;var radpower;function init(){network=[];netindex=new Int32Array(256);bias=new Int32Array(netsize);freq=new Int32Array(netsize);radpower=new Int32Array(netsize>>3);var i,v;for(i=0;i<netsize;i++){v=(i<<netbiasshift+8)/netsize;network[i]=new Float64Array([v,v,v,0]);freq[i]=intbias/netsize;bias[i]=0}}function unbiasnet(){for(var i=0;i<netsize;i++){network[i][0]>>=netbiasshift;network[i][1]>>=netbiasshift;network[i][2]>>=netbiasshift;network[i][3]=i}}function altersingle(alpha,i,b,g,r){network[i][0]-=alpha*(network[i][0]-b)/initalpha;network[i][1]-=alpha*(network[i][1]-g)/initalpha;network[i][2]-=alpha*(network[i][2]-r)/initalpha}function alterneigh(radius,i,b,g,r){var lo=Math.abs(i-radius);var hi=Math.min(i+radius,netsize);var j=i+1;var k=i-1;var m=1;var p,a;while(j<hi||k>lo){a=radpower[m++];if(j<hi){p=network[j++];p[0]-=a*(p[0]-b)/alpharadbias;p[1]-=a*(p[1]-g)/alpharadbias;p[2]-=a*(p[2]-r)/alpharadbias}if(k>lo){p=network[k--];p[0]-=a*(p[0]-b)/alpharadbias;p[1]-=a*(p[1]-g)/alpharadbias;p[2]-=a*(p[2]-r)/alpharadbias}}}function contest(b,g,r){var bestd=~(1<<31);var bestbiasd=bestd;var bestpos=-1;var bestbiaspos=bestpos;var i,n,dist,biasdist,betafreq;for(i=0;i<netsize;i++){n=network[i];dist=Math.abs(n[0]-b)+Math.abs(n[1]-g)+Math.abs(n[2]-r);if(dist<bestd){bestd=dist;bestpos=i}biasdist=dist-(bias[i]>>intbiasshift-netbiasshift);if(biasdist<bestbiasd){bestbiasd=biasdist;bestbiaspos=i}betafreq=freq[i]>>betashift;freq[i]-=betafreq;bias[i]+=betafreq<<gammashift}freq[bestpos]+=beta;bias[bestpos]-=betagamma;return bestbiaspos}function inxbuild(){var i,j,p,q,smallpos,smallval,previouscol=0,startpos=0;for(i=0;i<netsize;i++){p=network[i];smallpos=i;smallval=p[1];for(j=i+1;j<netsize;j++){q=network[j];if(q[1]<smallval){smallpos=j;smallval=q[1]}}q=network[smallpos];if(i!=smallpos){j=q[0];q[0]=p[0];p[0]=j;j=q[1];q[1]=p[1];p[1]=j;j=q[2];q[2]=p[2];p[2]=j;j=q[3];q[3]=p[3];p[3]=j}if(smallval!=previouscol){netindex[previouscol]=startpos+i>>1;for(j=previouscol+1;j<smallval;j++)netindex[j]=i;previouscol=smallval;startpos=i}}netindex[previouscol]=startpos+maxnetpos>>1;for(j=previouscol+1;j<256;j++)netindex[j]=maxnetpos}function inxsearch(b,g,r){var a,p,dist;var bestd=1e3;var best=-1;var i=netindex[g];var j=i-1;while(i<netsize||j>=0){if(i<netsize){p=network[i];dist=p[1]-g;if(dist>=bestd)i=netsize;else{i++;if(dist<0)dist=-dist;a=p[0]-b;if(a<0)a=-a;dist+=a;if(dist<bestd){a=p[2]-r;if(a<0)a=-a;dist+=a;if(dist<bestd){bestd=dist;best=p[3]}}}}if(j>=0){p=network[j];dist=g-p[1];if(dist>=bestd)j=-1;else{j--;if(dist<0)dist=-dist;a=p[0]-b;if(a<0)a=-a;dist+=a;if(dist<bestd){a=p[2]-r;if(a<0)a=-a;dist+=a;if(dist<bestd){bestd=dist;best=p[3]}}}}}return best}function learn(){var i;var lengthcount=pixels.length;var alphadec=30+(samplefac-1)/3;var samplepixels=lengthcount/(3*samplefac);var delta=~~(samplepixels/ncycles);var alpha=initalpha;var radius=initradius;var rad=radius>>radiusbiasshift;if(rad<=1)rad=0;for(i=0;i<rad;i++)radpower[i]=alpha*((rad*rad-i*i)*radbias/(rad*rad));var step;if(lengthcount<minpicturebytes){samplefac=1;step=3}else if(lengthcount%prime1!==0){step=3*prime1}else if(lengthcount%prime2!==0){step=3*prime2}else if(lengthcount%prime3!==0){step=3*prime3}else{step=3*prime4}var b,g,r,j;var pix=0;i=0;while(i<samplepixels){b=(pixels[pix]&255)<<netbiasshift;g=(pixels[pix+1]&255)<<netbiasshift;r=(pixels[pix+2]&255)<<netbiasshift;j=contest(b,g,r);altersingle(alpha,j,b,g,r);if(rad!==0)alterneigh(rad,j,b,g,r);pix+=step;if(pix>=lengthcount)pix-=lengthcount;i++;if(delta===0)delta=1;if(i%delta===0){alpha-=alpha/alphadec;radius-=radius/radiusdec;rad=radius>>radiusbiasshift;if(rad<=1)rad=0;for(j=0;j<rad;j++)radpower[j]=alpha*((rad*rad-j*j)*radbias/(rad*rad))}}}function buildColormap(){init();learn();unbiasnet();inxbuild()}this.buildColormap=buildColormap;function getColormap(){var map=[];var index=[];for(var i=0;i<netsize;i++)index[network[i][3]]=i;var k=0;for(var l=0;l<netsize;l++){var j=index[l];map[k++]=network[j][0];map[k++]=network[j][1];map[k++]=network[j][2]}return map}this.getColormap=getColormap;this.lookupRGB=inxsearch}module.exports=NeuQuant},{}],4:[function(require,module,exports){var GIFEncoder,renderFrame;GIFEncoder=require(\"./GIFEncoder.js\");renderFrame=function(frame){var encoder,page,stream,transfer;encoder=new GIFEncoder(frame.width,frame.height);if(frame.index===0){encoder.writeHeader()}else{encoder.firstFrame=false}encoder.setTransparent(frame.transparent);encoder.setRepeat(frame.repeat);encoder.setDelay(frame.delay);encoder.setQuality(frame.quality);encoder.setDither(frame.dither);encoder.setGlobalPalette(frame.globalPalette);encoder.addFrame(frame.data);if(frame.last){encoder.finish()}if(frame.globalPalette===true){frame.globalPalette=encoder.getGlobalPalette()}stream=encoder.stream();frame.data=stream.pages;frame.cursor=stream.cursor;frame.pageSize=stream.constructor.pageSize;if(frame.canTransfer){transfer=function(){var i,len,ref,results;ref=frame.data;results=[];for(i=0,len=ref.length;i<len;i++){page=ref[i];results.push(page.buffer)}return results}();return self.postMessage(frame,transfer)}else{return self.postMessage(frame)}};self.onmessage=function(event){return renderFrame(event.data)}},{\"./GIFEncoder.js\":1}]},{},[4]);\n//# sourceMappingURL=gif.worker.js.map\n";
+
+// ── Dry-Run GIF Generation ─────────────────
+// State
+const GIF_FRAME_MS  = Math.round(1000 / 15);  // 15fps Capture-Rate
+const GIF_W         = 530;
+const GIF_H         = 350;
+const GIF_MAX_PLAY_SEC = 4.0;   // maximale Play-Phase-Dauer in Sim-Sekunden
+const GIF_MAX_REAL_MS  = 12000; // Failsafe: max Wartezeit in Echtzeitms
+
+let _dryGif         = null;
+let _dryRunning     = false;
+let _dryRafId       = null;
+let _dryLastFrameTs = 0;
+let _dryStartTs     = 0;
+let _drySavedSpeed  = 2;
+
+// Offscreen-Canvas für Vollbild-Rendering
+const _dryRenderCanvas    = document.createElement('canvas');
+_dryRenderCanvas.width    = FIELD_W;  // 1060
+_dryRenderCanvas.height   = FIELD_H;  // 700
+
+// Scale-Canvas für GIF-Frames (halbe Auflösung)
+const _dryScaleCanvas     = document.createElement('canvas');
+_dryScaleCanvas.width     = GIF_W;
+_dryScaleCanvas.height    = GIF_H;
+const _dryScaleCtx        = _dryScaleCanvas.getContext('2d');
+
+// ── Shared: Build play data object for embedding ─────────────
+function _buildPlayData(nameRaw) {
+  return {
+    name: nameRaw,
+    ball: { x: ball.x, y: ball.y },
+    motionOwnerId,
+    olineBlocks: Object.fromEntries(
+      OLINE_IDS.map(id => [id, {
+        blockPoints: olineData[id].blockPoints,
+        important:   olineData[id].important,
+      }])
+    ),
+    players: players.map(p => ({
+      id: p.id, type: p.type, label: p.label,
+      x: p.x, y: p.y, origX: p.origX, origY: p.origY,
+      important:    p.important,
+      routePoints:  p.routePoints,
+      motionPoints: p.motionPoints,
+      shiftPoints:  p.shiftPoints,
+      blockPoints:  p.blockPoints,
+      routes:       p.routePoints,
+    })),
+    defensePlayers: defensePlayers.map(d => ({
+      id: d.id, role: d.role, x: d.x, y: d.y,
+      origX: d.origX, origY: d.origY,
+      assignment: { ...d.assignment },
+      speedMultiplier: d.speedMultiplier,
+      cbSpacing: d.cbSpacing || 'normal',
+      cbShade:   d.cbShade   || 'normal',
+      mirroredWRId: d.mirroredWRId ?? null,
+    })),
+    nextDefId,
+  };
+}
+
+// ── Einstiegspunkt: SAVE GIF Button ────────
+function generateAndSavePlayGif() {
+  if (typeof mode !== 'undefined' && mode !== 'editor') {
+    showToast('⚠ Nur im Editor-Modus speicherbar', 'info');
+    return;
+  }
+
+  // Overlay anzeigen
+  const overlay = document.getElementById('gifGenOverlay');
+  const msg     = document.getElementById('gifGenMsg');
+  if (overlay) { overlay.style.display = 'flex'; }
+  if (msg)     { msg.textContent = '⏳ Play wird simuliert…'; }
+
+  // GIF-Instanz erstellen
+  const workerUrl = URL.createObjectURL(
+    new Blob([_GIF_WORKER_SRC], { type: 'text/javascript' })
+  );
+  _dryGif = new GIF({
+    workers: 2,
+    quality: 8,
+    width:   GIF_W,
+    height:  GIF_H,
+    workerScript: workerUrl,
+    repeat: 0,
+  });
+
+  // ctx auf Offscreen-Canvas umleiten
+  _drySavedSpeed = (typeof simSpeed !== 'undefined') ? simSpeed : 2;
+  if (typeof simSpeed !== 'undefined') simSpeed = 2;
+  ctx = _dryRenderCanvas.getContext('2d');
+
+  // Simulation starten (zeichnet jetzt auf Offscreen)
+  if (typeof startSim === 'function') startSim();
+
+  // Capture-Loop starten
+  _dryRunning     = true;
+  _dryLastFrameTs = performance.now();
+  _dryStartTs     = performance.now();
+  requestAnimationFrame(_dryLoop);
+}
+
+function _dryLoop(ts) {
+  if (!_dryRunning) return;
+
+  const realElapsed = ts - _dryStartTs;
+  const elapsed     = ts - _dryLastFrameTs;
+
+  // Frame erfassen (15fps)
+  if (elapsed >= GIF_FRAME_MS) {
+    _dryScaleCtx.drawImage(_dryRenderCanvas, 0, 0, GIF_W, GIF_H);
+    _dryGif.addFrame(_dryScaleCanvas, { copy: true, delay: Math.round(elapsed) });
+    _dryLastFrameTs = ts;
+  }
+
+  // Stop-Bedingungen: immer volle 4 Sim-Sekunden Play, egal ob QB wirft oder nicht
+  const playDone = (typeof playPhaseTime !== 'undefined' && playPhaseTime >= GIF_MAX_PLAY_SEC);
+  const timedOut = realElapsed >= GIF_MAX_REAL_MS;
+
+  if (playDone || timedOut) {
+    _dryFinalize();
+    return;
+  }
+
+  _dryRafId = requestAnimationFrame(_dryLoop);
+}
+
+function _dryFinalize() {
+  _dryRunning = false;
+  if (_dryRafId) { cancelAnimationFrame(_dryRafId); _dryRafId = null; }
+
+  // ctx ZUERST zurück auf sichtbaren Canvas (stopSim ruft draw() intern auf!)
+  ctx = canvas.getContext('2d');
+  if (typeof simSpeed !== 'undefined') simSpeed = _drySavedSpeed;
+
+  // Outcome-Overlay verbergen falls vorhanden
+  const outcomeOverlay = document.getElementById('outcomeOverlay');
+  if (outcomeOverlay) outcomeOverlay.classList.remove('visible');
+
+  // Sim stoppen → stellt Spielerpositionen wieder her + ruft draw() auf
+  if (typeof stopSim === 'function') stopSim();
+
+  // Play-Name lesen
+  const _playNameRaw  = (document.getElementById('playNameInput')?.value || '').trim();
+  const _playName     = _playNameRaw || 'play';
+  const _safeFilename = _playName.replace(/[\\/:*?"<>|]/g, '_') + '.gif';
+
+  // JSON aufbauen (aktuelle Editor-Positionen, nicht Sim-Positionen)
+  const jsonStr = JSON.stringify(_buildPlayData(_playNameRaw));
+
+  // Overlay-Text aktualisieren
+  const msg = document.getElementById('gifGenMsg');
+  if (msg) msg.textContent = '⏳ GIF wird kodiert…';
+
+  const gifInst = _dryGif;
+  _dryGif = null;
+
+  gifInst.on('finished', blob => {
+    blob.arrayBuffer().then(buf => {
+      const patched = _embedJsonInGif(buf, jsonStr);
+      const a = document.createElement('a');
+      a.href     = URL.createObjectURL(new Blob([patched], { type: 'image/gif' }));
+      a.download = _safeFilename;
+      a.click();
+
+      // Overlay ausblenden
+      const overlay = document.getElementById('gifGenOverlay');
+      if (overlay) overlay.style.display = 'none';
+
+      showToast(`✓ ${_safeFilename} gespeichert`, 'info');
+    });
+  });
+
+  gifInst.render();
+}
+
+// ── JSON in GIF-Comment-Extension einbetten ─
+function _embedJsonInGif(arrayBuf, jsonStr) {
+  const src  = new Uint8Array(arrayBuf);
+  const body = src.slice(0, src.length - 1); // letztes Byte = Trailer 0x3B entfernen
+
+  const jsonBytes = new TextEncoder().encode(jsonStr);
+  const chunks = [];
+  for (let i = 0; i < jsonBytes.length; i += 255) {
+    chunks.push(jsonBytes.slice(i, i + 255));
+  }
+
+  // Größe des Comment-Blocks berechnen
+  let commentSize = 2; // 0x21 0xFE
+  for (const c of chunks) commentSize += 1 + c.length;
+  commentSize += 1; // Terminator 0x00
+
+  const result = new Uint8Array(body.length + commentSize + 1);
+  result.set(body, 0);
+  let pos = body.length;
+  result[pos++] = 0x21;
+  result[pos++] = 0xFE;
+  for (const c of chunks) {
+    result[pos++] = c.length;
+    result.set(c, pos);
+    pos += c.length;
+  }
+  result[pos++] = 0x00;  // Sub-Block-Terminator
+  result[pos]   = 0x3B;  // GIF-Trailer
+  return result;
+}
+
+// ── PNG Export + JSON nach IEND einbetten ──────────────────────────────────
+const _PNG_MARKER = 'KARDIRON_PLAY:';  // marker before JSON in appended data
+
+function savePlayAsPng() {
+  if (mode !== 'editor') { showToast('⚠ Only saveable in editor mode', 'info'); return; }
+
+  // Build play JSON (same fields as GIF export)
+  const nameRaw      = (document.getElementById('playNameInput')?.value || '').trim();
+  const playName     = nameRaw || 'play';
+  const safeFilename = playName.replace(/[\\/:*?"<>|]/g, '_') + '.png';
+
+  const jsonStr = _PNG_MARKER + JSON.stringify(_buildPlayData(nameRaw));
+
+  canvas.toBlob(blob => {
+    blob.arrayBuffer().then(buf => {
+      // Append JSON after PNG IEND chunk
+      const marker   = new TextEncoder().encode(jsonStr);
+      const combined = new Uint8Array(buf.byteLength + marker.length);
+      combined.set(new Uint8Array(buf), 0);
+      combined.set(marker, buf.byteLength);
+
+      const a = document.createElement('a');
+      a.href     = URL.createObjectURL(new Blob([combined], { type: 'image/png' }));
+      a.download = safeFilename;
+      a.click();
+      showToast(`✓ ${safeFilename} gespeichert`, 'info');
+    });
+  }, 'image/png');
+}
+
+// ── JSON aus PNG lesen ─────────────────────────────────────────────────────
+function loadFromPng(arrayBuf) {
+  const bytes = new Uint8Array(arrayBuf);
+  const enc   = new TextEncoder().encode(_PNG_MARKER);
+  // Scan from end for efficiency (marker is appended at the very end)
+  outer:
+  for (let i = bytes.length - enc.length; i >= 0; i--) {
+    for (let j = 0; j < enc.length; j++) {
+      if (bytes[i + j] !== enc[j]) continue outer;
+    }
+    // Found marker at position i
+    const jsonBytes = bytes.slice(i + enc.length);
+    try { return JSON.parse(new TextDecoder().decode(jsonBytes)); } catch(e) {}
+  }
+  return null;
+}
+
+// ── MP4 / WebM Export via MediaRecorder ────────────────────────────────────
+// Verwendet denselben Trailer-Marker wie PNG. WhatsApp re-encoded Videos beim
+// Senden → eingebettetes JSON überlebt nur "lokal teilen", nicht den
+// WhatsApp-Roundtrip. Inline-Animation in WhatsApp funktioniert aber direkt.
+
+let _mp4Recorder = null;
+let _mp4Chunks   = [];
+let _mp4Mime     = '';
+let _mp4Ext      = 'mp4';
+
+function _pickVideoMime() {
+  const candidates = [
+    { mime: 'video/mp4;codecs=h264',    ext: 'mp4'  },
+    { mime: 'video/mp4;codecs=avc1',    ext: 'mp4'  },
+    { mime: 'video/mp4',                ext: 'mp4'  },
+    { mime: 'video/webm;codecs=vp9',    ext: 'webm' },
+    { mime: 'video/webm;codecs=vp8',    ext: 'webm' },
+    { mime: 'video/webm',               ext: 'webm' },
+  ];
+  for (const c of candidates) {
+    try { if (MediaRecorder.isTypeSupported(c.mime)) return c; } catch(e) {}
+  }
+  return null;
+}
+
+function generateAndSavePlayMp4() {
+  if (typeof mode !== 'undefined' && mode !== 'editor') {
+    showToast('⚠ Nur im Editor-Modus speicherbar', 'info');
+    return;
+  }
+  if (typeof MediaRecorder === 'undefined') {
+    showToast('⚠ Browser unterstützt kein Video-Recording', 'info');
+    return;
+  }
+  const picked = _pickVideoMime();
+  if (!picked) {
+    showToast('⚠ Browser unterstützt kein Video-Recording', 'info');
+    return;
+  }
+  _mp4Mime = picked.mime;
+  _mp4Ext  = picked.ext;
+
+  // Overlay
+  const overlay = document.getElementById('gifGenOverlay');
+  const msg     = document.getElementById('gifGenMsg');
+  if (overlay) overlay.style.display = 'flex';
+  if (msg)     msg.textContent = '⏳ Play wird simuliert…';
+
+  // ctx auf Offscreen-Canvas umleiten
+  _drySavedSpeed = (typeof simSpeed !== 'undefined') ? simSpeed : 2;
+  if (typeof simSpeed !== 'undefined') simSpeed = 2;
+  ctx = _dryRenderCanvas.getContext('2d');
+
+  // MediaRecorder auf Offscreen-Canvas
+  const stream = _dryRenderCanvas.captureStream(30);
+  try {
+    _mp4Recorder = new MediaRecorder(stream, {
+      mimeType: _mp4Mime,
+      videoBitsPerSecond: 2_500_000,
+    });
+  } catch (e) {
+    // Fallback: ohne expliziten mimeType
+    _mp4Recorder = new MediaRecorder(stream);
+    _mp4Mime = _mp4Recorder.mimeType || _mp4Mime;
+    if (_mp4Mime.includes('webm')) _mp4Ext = 'webm';
+  }
+  _mp4Chunks = [];
+  _mp4Recorder.ondataavailable = e => {
+    if (e.data && e.data.size > 0) _mp4Chunks.push(e.data);
+  };
+  _mp4Recorder.onstop = () => {
+    new Blob(_mp4Chunks, { type: _mp4Mime })
+      .arrayBuffer()
+      .then(buf => _mp4Finalize(buf));
+  };
+
+  if (typeof startSim === 'function') startSim();
+  _mp4Recorder.start();
+
+  _dryRunning = true;
+  _dryStartTs = performance.now();
+  _dryRafId   = requestAnimationFrame(_mp4WatchLoop);
+}
+
+function _mp4WatchLoop(ts) {
+  if (!_dryRunning) return;
+  const realElapsed = ts - _dryStartTs;
+  const playDone = (typeof playPhaseTime !== 'undefined' && playPhaseTime >= GIF_MAX_PLAY_SEC);
+  const timedOut = realElapsed >= GIF_MAX_REAL_MS;
+
+  if (playDone || timedOut) {
+    _dryRunning = false;
+    if (_dryRafId) { cancelAnimationFrame(_dryRafId); _dryRafId = null; }
+    if (_mp4Recorder && _mp4Recorder.state === 'recording') {
+      _mp4Recorder.stop();
+    }
+    return;
+  }
+  _dryRafId = requestAnimationFrame(_mp4WatchLoop);
+}
+
+function _mp4Finalize(arrayBuf) {
+  // ctx ZUERST zurück auf sichtbaren Canvas (stopSim ruft draw() intern auf)
+  ctx = canvas.getContext('2d');
+  if (typeof simSpeed !== 'undefined') simSpeed = _drySavedSpeed;
+
+  const outcomeOverlay = document.getElementById('outcomeOverlay');
+  if (outcomeOverlay) outcomeOverlay.classList.remove('visible');
+  if (typeof stopSim === 'function') stopSim();
+
+  // Play-Name + Filename
+  const nameRaw      = (document.getElementById('playNameInput')?.value || '').trim();
+  const playName     = nameRaw || 'play';
+  const safeFilename = playName.replace(/[\\/:*?"<>|]/g, '_') + '.' + _mp4Ext;
+
+  // JSON ans Datei-Ende anhängen (gleiche Mechanik wie PNG)
+  const jsonStr  = _PNG_MARKER + JSON.stringify(_buildPlayData(nameRaw));
+  const marker   = new TextEncoder().encode(jsonStr);
+  const combined = new Uint8Array(arrayBuf.byteLength + marker.length);
+  combined.set(new Uint8Array(arrayBuf), 0);
+  combined.set(marker, arrayBuf.byteLength);
+
+  const blobType = _mp4Ext === 'mp4' ? 'video/mp4' : 'video/webm';
+  const a = document.createElement('a');
+  a.href     = URL.createObjectURL(new Blob([combined], { type: blobType }));
+  a.download = safeFilename;
+  a.click();
+
+  const overlay = document.getElementById('gifGenOverlay');
+  if (overlay) overlay.style.display = 'none';
+  showToast(`✓ ${safeFilename} gespeichert`, 'info');
+
+  _mp4Recorder = null;
+  _mp4Chunks   = [];
+}
+
+// JSON aus MP4/WebM lesen — identisch zu PNG (Trailer-Marker)
+function loadFromVideo(arrayBuf) {
+  return loadFromPng(arrayBuf);
+}
+
+// ── JSON aus GIF-Comment-Extension lesen ───
+function loadFromGif(arrayBuf) {
+  const bytes = new Uint8Array(arrayBuf);
+  for (let i = 0; i < bytes.length - 1; i++) {
+    if (bytes[i] !== 0x21 || bytes[i + 1] !== 0xFE) continue;
+    let pos = i + 2;
+    const dec = new TextDecoder();
+    let text = '';
+    while (pos < bytes.length) {
+      const len = bytes[pos++];
+      if (len === 0) break;
+      text += dec.decode(bytes.slice(pos, pos + len));
+      pos += len;
+    }
+    try { return JSON.parse(text); } catch(e) {}
+  }
+  return null;
+}

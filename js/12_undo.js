@@ -1,1 +1,134 @@
-(function(_0x3f4c12,_0x554a6b){const _0x41dd9b=_0x198a,_0x4553c0=_0x3f4c12();while(!![]){try{const _0x51908f=-parseInt(_0x41dd9b(0x12a))/0x1*(-parseInt(_0x41dd9b(0x11e))/0x2)+parseInt(_0x41dd9b(0x128))/0x3+parseInt(_0x41dd9b(0x110))/0x4+parseInt(_0x41dd9b(0x12e))/0x5+parseInt(_0x41dd9b(0x12f))/0x6+parseInt(_0x41dd9b(0xff))/0x7*(parseInt(_0x41dd9b(0x101))/0x8)+-parseInt(_0x41dd9b(0x116))/0x9;if(_0x51908f===_0x554a6b)break;else _0x4553c0['push'](_0x4553c0['shift']());}catch(_0x13d415){_0x4553c0['push'](_0x4553c0['shift']());}}}(_0xd86a,0xdc354));function _0xd86a(){const _0xd062d=['motionPoints','fEcjB','UeEgV','map','routePoints','ball','4eAVYHy','nextDefId','mNmcz','WwUGE','getElementById','undefined','QjJht','0.35','FfbFM','xzrCZ','549975ocjAuc','nextId','495861gmCBXt','_designatedBlockTargetId','_blockChaseTargetId','defensePlayers','269590XQecrh','6507186fQraWu','length','manual','style','KTXpu','21iFgTiH','opacity','1814072hsZVxK','important','olineData','pop','assignment','origX','not-allowed','cursor','qZlvN','motionOwnerId','MIssm','shift','origY','push','shiftPoints','5734940uNkgfi','function','undoBtn','role','blockPoints','assign','31729824IyQraH','type'];_0xd86a=function(){return _0xd062d;};return _0xd86a();}function _0x198a(_0x22fe70,_0x5aed68){_0x22fe70=_0x22fe70-0xfe;const _0xd86a82=_0xd86a();let _0x198ae0=_0xd86a82[_0x22fe70];return _0x198ae0;}const UNDO_MAX=0x5;let _undoStack=[];function _deepCopyPlayer(_0x41e80f){const _0x158181=_0x198a;return{'id':_0x41e80f['id'],'type':_0x41e80f[_0x158181(0x117)],'x':_0x41e80f['x'],'y':_0x41e80f['y'],'important':_0x41e80f[_0x158181(0x102)],'routePoints':_0x41e80f[_0x158181(0x11c)][_0x158181(0x11b)](_0x2e1615=>({'x':_0x2e1615['x'],'y':_0x2e1615['y']})),'motionPoints':_0x41e80f['motionPoints'][_0x158181(0x11b)](_0x21519d=>({'x':_0x21519d['x'],'y':_0x21519d['y']})),'shiftPoints':_0x41e80f[_0x158181(0x10f)]['map'](_0x460f52=>({'x':_0x460f52['x'],'y':_0x460f52['y']})),'blockPoints':_0x41e80f['blockPoints'][_0x158181(0x11b)](_0x1b86b9=>({'x':_0x1b86b9['x'],'y':_0x1b86b9['y']})),'_designatedBlockTargetId':_0x41e80f[_0x158181(0x12b)]||null,'_blockChaseTargetId':_0x41e80f['_blockChaseTargetId']||null};}function _deepCopyDefender(_0x391f6d){const _0x2f92eb=_0x198a,_0x4f22ac=_0x391f6d['assignment']?Object[_0x2f92eb(0x115)]({},_0x391f6d[_0x2f92eb(0x105)]):{};return{'id':_0x391f6d['id'],'role':_0x391f6d[_0x2f92eb(0x113)],'x':_0x391f6d['x'],'y':_0x391f6d['y'],'origX':_0x391f6d[_0x2f92eb(0x106)],'origY':_0x391f6d[_0x2f92eb(0x10d)],'assignment':_0x4f22ac};}function _deepCopyOline(_0xa95444){const _0x5c5168=_0x198a,_0x254189={};for(const _0x4bac94 in _0xa95444){_0x254189[_0x4bac94]={'blockPoints':_0xa95444[_0x4bac94]['blockPoints'][_0x5c5168(0x11b)](_0x5be3c8=>({'x':_0x5be3c8['x'],'y':_0x5be3c8['y']})),'important':_0xa95444[_0x4bac94]['important']};}return _0x254189;}function saveUndoSnapshot(){const _0x596cbb=_0x198a,_0x3b2e53={'KYMdy':function(_0x379b72,_0xf85730){return _0x379b72(_0xf85730);},'UeEgV':function(_0x80def6,_0x6b312a){return _0x80def6>_0x6b312a;}},_0x491f4d={'players':players['map'](_deepCopyPlayer),'defensePlayers':defensePlayers[_0x596cbb(0x11b)](_deepCopyDefender),'olineData':_0x3b2e53['KYMdy'](_deepCopyOline,olineData),'ball':{'x':ball['x'],'y':ball['y']},'motionOwnerId':motionOwnerId,'nextId':nextId,'nextDefId':nextDefId,'annotationStrokes':annotationStrokes[_0x596cbb(0x11b)](_0x21475c=>_0x21475c[_0x596cbb(0x11b)](_0xce099c=>({'x':_0xce099c['x'],'y':_0xce099c['y']})))};_undoStack[_0x596cbb(0x10e)](_0x491f4d);if(_0x3b2e53[_0x596cbb(0x11a)](_undoStack['length'],UNDO_MAX))_undoStack[_0x596cbb(0x10c)]();const _0x1d89e1=document['getElementById'](_0x596cbb(0x112));_0x1d89e1&&(_0x1d89e1['disabled']=![],_0x1d89e1[_0x596cbb(0x132)][_0x596cbb(0x100)]='',_0x1d89e1[_0x596cbb(0x132)][_0x596cbb(0x108)]='');}function undo(){const _0x545d57=_0x198a,_0x4fc677={'qZlvN':function(_0x14e3bf,_0x1b880d,_0x5c7a59){return _0x14e3bf(_0x1b880d,_0x5c7a59);},'MIssm':function(_0x5f2e8b,_0x613e24){return _0x5f2e8b!=_0x613e24;},'WwUGE':function(_0x5494d,_0x3541fd){return _0x5494d!=_0x3541fd;},'fEcjB':_0x545d57(0x112),'FfbFM':function(_0x6d2d56,_0x22e8a5){return _0x6d2d56===_0x22e8a5;},'mNmcz':_0x545d57(0x107),'xzrCZ':_0x545d57(0x111),'QjJht':function(_0xd805d9,_0x2c6ce5){return _0xd805d9===_0x2c6ce5;},'KTXpu':function(_0x3741fb){return _0x3741fb();}};if(_undoStack[_0x545d57(0x130)]===0x0)return;const _0x184e68=_undoStack[_0x545d57(0x104)]();players=_0x184e68['players'][_0x545d57(0x11b)](_0xf2f6ac=>{const _0x395188=_0x545d57,_0x1e13c1=makePlayer(_0xf2f6ac[_0x395188(0x117)],_0xf2f6ac['x'],_0xf2f6ac['y']);return _0x1e13c1['id']=_0xf2f6ac['id'],_0x1e13c1['important']=_0xf2f6ac['important'],_0x1e13c1['routePoints']=_0xf2f6ac['routePoints'],_0x1e13c1[_0x395188(0x118)]=_0xf2f6ac[_0x395188(0x118)],_0x1e13c1['shiftPoints']=_0xf2f6ac[_0x395188(0x10f)],_0x1e13c1[_0x395188(0x114)]=_0xf2f6ac['blockPoints'],_0x1e13c1[_0x395188(0x12b)]=_0xf2f6ac[_0x395188(0x12b)],_0x1e13c1[_0x395188(0x12c)]=_0xf2f6ac['_blockChaseTargetId'],_0x1e13c1;}),defensePlayers=_0x184e68[_0x545d57(0x12d)]['map'](_0x405bc3=>{const _0x2c97d2=_0x545d57,_0x310d58=_0x4fc677[_0x2c97d2(0x109)](makeDefender,_0x405bc3['x'],_0x405bc3['y']);return _0x310d58['id']=_0x405bc3['id'],_0x310d58['role']=_0x405bc3[_0x2c97d2(0x113)],_0x310d58['x']=_0x405bc3['x'],_0x310d58['y']=_0x405bc3['y'],_0x310d58[_0x2c97d2(0x106)]=_0x4fc677[_0x2c97d2(0x10b)](_0x405bc3[_0x2c97d2(0x106)],null)?_0x405bc3[_0x2c97d2(0x106)]:_0x405bc3['x'],_0x310d58[_0x2c97d2(0x10d)]=_0x4fc677[_0x2c97d2(0x121)](_0x405bc3[_0x2c97d2(0x10d)],null)?_0x405bc3['origY']:_0x405bc3['y'],_0x310d58[_0x2c97d2(0x105)]=Object[_0x2c97d2(0x115)]({},_0x405bc3[_0x2c97d2(0x105)]),_0x310d58;});for(const _0xc69cfe in _0x184e68[_0x545d57(0x103)]){olineData[_0xc69cfe]&&(olineData[_0xc69cfe][_0x545d57(0x114)]=_0x184e68[_0x545d57(0x103)][_0xc69cfe][_0x545d57(0x114)],olineData[_0xc69cfe][_0x545d57(0x102)]=_0x184e68[_0x545d57(0x103)][_0xc69cfe][_0x545d57(0x102)]);}ball['x']=_0x184e68[_0x545d57(0x11d)]['x'],ball['y']=_0x184e68[_0x545d57(0x11d)]['y'],motionOwnerId=_0x184e68[_0x545d57(0x10a)],nextId=_0x184e68[_0x545d57(0x129)],nextDefId=_0x184e68[_0x545d57(0x11f)],annotationStrokes=_0x184e68['annotationStrokes'][_0x545d57(0x11b)](_0x5359ef=>_0x5359ef[_0x545d57(0x11b)](_0x564be1=>({'x':_0x564be1['x'],'y':_0x564be1['y']}))),annotationCurrentStroke=null;const _0x552cde=document[_0x545d57(0x122)](_0x4fc677[_0x545d57(0x119)]);_0x552cde&&_0x4fc677[_0x545d57(0x126)](_undoStack[_0x545d57(0x130)],0x0)&&(_0x552cde['disabled']=!![],_0x552cde[_0x545d57(0x132)][_0x545d57(0x100)]=_0x545d57(0x125),_0x552cde['style'][_0x545d57(0x108)]=_0x4fc677[_0x545d57(0x120)]);if(_0x4fc677[_0x545d57(0x126)](typeof refreshPlayerList,_0x4fc677[_0x545d57(0x127)]))refreshPlayerList();if(_0x4fc677['QjJht'](typeof refreshSkillCounter,_0x4fc677['xzrCZ']))refreshSkillCounter();if(_0x4fc677['QjJht'](typeof updateMotionBadge,_0x4fc677['xzrCZ']))updateMotionBadge();if(typeof refreshDefPlayerList===_0x545d57(0x111))refreshDefPlayerList();if(_0x4fc677[_0x545d57(0x124)](typeof refreshDefAssignBox,'function'))refreshDefAssignBox();if(typeof refreshPresetMatchList===_0x545d57(0x111)&&typeof activePreset!==_0x545d57(0x123)&&activePreset!==_0x545d57(0x131))_0x4fc677[_0x545d57(0xfe)](refreshPresetMatchList);_0x4fc677[_0x545d57(0xfe)](draw);}
+// ── UNDO (5 Ebenen, Snapshot-Stack) ────────────────────────────────────────
+
+const UNDO_MAX = 5;
+let _undoStack = [];
+
+// ── Deep-copy helpers ──────────────────────────────────────────────────────
+
+function _deepCopyPlayer(p) {
+  return {
+    id:               p.id,
+    type:             p.type,
+    x:                p.x,
+    y:                p.y,
+    important:        p.important,
+    routePoints:      p.routePoints.map(pt => ({ x: pt.x, y: pt.y })),
+    motionPoints:     p.motionPoints.map(pt => ({ x: pt.x, y: pt.y })),
+    shiftPoints:      p.shiftPoints.map(pt => ({ x: pt.x, y: pt.y })),
+    blockPoints:      p.blockPoints.map(pt => ({ x: pt.x, y: pt.y })),
+    _designatedBlockTargetId: p._designatedBlockTargetId || null,
+    _blockChaseTargetId:      p._blockChaseTargetId      || null,
+  };
+}
+
+function _deepCopyDefender(d) {
+  const asgCopy = d.assignment ? Object.assign({}, d.assignment) : {};
+  return {
+    id:         d.id,
+    role:       d.role,
+    x:          d.x,
+    y:          d.y,
+    origX:      d.origX,
+    origY:      d.origY,
+    assignment: asgCopy,
+  };
+}
+
+function _deepCopyOline(src) {
+  const out = {};
+  for (const id in src) {
+    out[id] = {
+      blockPoints: src[id].blockPoints.map(pt => ({ x: pt.x, y: pt.y })),
+      important:   src[id].important,
+    };
+  }
+  return out;
+}
+
+// ── Save snapshot ──────────────────────────────────────────────────────────
+
+function saveUndoSnapshot() {
+  const snapshot = {
+    players:           players.map(_deepCopyPlayer),
+    defensePlayers:    defensePlayers.map(_deepCopyDefender),
+    olineData:         _deepCopyOline(olineData),
+    ball:              { x: ball.x, y: ball.y },
+    motionOwnerId:     motionOwnerId,
+    nextId:            nextId,
+    nextDefId:         nextDefId,
+    annotationStrokes: annotationStrokes.map(s => s.map(pt => ({ x: pt.x, y: pt.y }))),
+  };
+  _undoStack.push(snapshot);
+  if (_undoStack.length > UNDO_MAX) _undoStack.shift();
+  // Activate undo button
+  const btn = document.getElementById('undoBtn');
+  if (btn) { btn.disabled = false; btn.style.opacity = ''; btn.style.cursor = ''; }
+}
+
+// ── Restore snapshot ───────────────────────────────────────────────────────
+
+function undo() {
+  if (_undoStack.length === 0) return;
+  const snap = _undoStack.pop();
+
+  // Restore players
+  players = snap.players.map(p => {
+    const full = makePlayer(p.type, p.x, p.y);
+    full.id          = p.id;
+    full.important   = p.important;
+    full.routePoints  = p.routePoints;
+    full.motionPoints = p.motionPoints;
+    full.shiftPoints  = p.shiftPoints;
+    full.blockPoints  = p.blockPoints;
+    full._designatedBlockTargetId = p._designatedBlockTargetId;
+    full._blockChaseTargetId      = p._blockChaseTargetId;
+    return full;
+  });
+
+  // Restore defense
+  defensePlayers = snap.defensePlayers.map(d => {
+    const full = makeDefender(d.x, d.y);
+    full.id         = d.id;
+    full.role       = d.role;
+    full.x          = d.x;
+    full.y          = d.y;
+    full.origX      = d.origX != null ? d.origX : d.x;
+    full.origY      = d.origY != null ? d.origY : d.y;
+    full.assignment = Object.assign({}, d.assignment);
+    return full;
+  });
+
+  // Restore o-line
+  for (const id in snap.olineData) {
+    if (olineData[id]) {
+      olineData[id].blockPoints = snap.olineData[id].blockPoints;
+      olineData[id].important   = snap.olineData[id].important;
+    }
+  }
+
+  // Restore misc
+  ball.x             = snap.ball.x;
+  ball.y             = snap.ball.y;
+  motionOwnerId      = snap.motionOwnerId;
+  nextId             = snap.nextId;
+  nextDefId          = snap.nextDefId;
+  annotationStrokes  = snap.annotationStrokes.map(s => s.map(pt => ({ x: pt.x, y: pt.y })));
+  annotationCurrentStroke = null;
+
+  // Deactivate button when stack empty
+  const btn = document.getElementById('undoBtn');
+  if (btn && _undoStack.length === 0) {
+    btn.disabled = true;
+    btn.style.opacity = '0.35';
+    btn.style.cursor  = 'not-allowed';
+  }
+
+  // Refresh UI
+  if (typeof refreshPlayerList      === 'function') refreshPlayerList();
+  if (typeof refreshSkillCounter    === 'function') refreshSkillCounter();
+  if (typeof updateMotionBadge      === 'function') updateMotionBadge();
+  if (typeof refreshDefPlayerList   === 'function') refreshDefPlayerList();
+  if (typeof refreshDefAssignBox    === 'function') refreshDefAssignBox();
+  if (typeof refreshPresetMatchList === 'function' && typeof activePreset !== 'undefined' && activePreset !== 'manual') refreshPresetMatchList();
+  draw();
+}
