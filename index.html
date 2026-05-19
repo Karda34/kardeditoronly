@@ -38,6 +38,14 @@
 
 <div class="toast" id="toast"></div>
 
+<!-- Playclock — visible during PLAY phase, freezes on outcome -->
+<div id="playClock" style="display:none;position:fixed;bottom:12px;right:12px;
+     background:rgba(0,0,0,0.6);border:1px solid var(--def-color, #00cfff);
+     color:var(--def-color, #00cfff);font-family:'JetBrains Mono','Consolas',monospace;
+     font-size:14px;font-weight:600;letter-spacing:1px;padding:6px 12px;
+     border-radius:6px;z-index:500;pointer-events:none;
+     box-shadow:0 2px 8px rgba(0,0,0,0.4)">0.0 s</div>
+
 <!-- GIF Generation Overlay -->
 <div id="gifGenOverlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:9999;display:none;align-items:center;justify-content:center;flex-direction:column;gap:12px">
   <div style="color:#fff;font-size:18px;font-weight:600;letter-spacing:1px" id="gifGenMsg">⏳ Play wird simuliert…</div>
