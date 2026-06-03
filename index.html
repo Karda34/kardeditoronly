@@ -9,6 +9,45 @@
 </head>
 <body>
 
+<!-- ════════ MOBILE GATE ════════
+     Shown only on small screens (phones). Covers the desktop-only editor
+     and tells visitors to come back on a laptop/PC. Touches no editor code.
+     Breakpoint is the 900px in the media query below — tune if needed. -->
+<style>
+  #mobileGate { display: none; }
+  @media (max-width: 900px) {
+    #mobileGate { display: flex !important; }
+  }
+</style>
+<div id="mobileGate" style="position:fixed;inset:0;z-index:100000;background:#0a0d12;
+     flex-direction:column;align-items:center;justify-content:center;text-align:center;
+     padding:32px 24px;font-family:'Inter',sans-serif;color:#f0f0f2;overflow:auto">
+  <div style="font-family:'Bebas Neue',cursive;font-size:48px;letter-spacing:2px;line-height:1">
+    Kard<span style="color:#ff5e1a">iron</span>
+  </div>
+  <div style="font-size:15px;color:rgba(240,240,242,0.6);margin-top:10px;max-width:300px;line-height:1.5">
+    Football-Plays gegen eine reagierende KI-Defense simulieren.
+  </div>
+
+  <!-- TRAILER SLOT — paste the autoplay <video>/Vimeo embed here later. -->
+
+  <div style="margin-top:34px;font-size:18px;font-weight:600;line-height:1.5;max-width:330px">
+    Der Editor funktioniert im Moment nur am <span style="color:#ff5e1a">Laptop oder PC</span>.
+  </div>
+  <div style="font-size:14px;color:rgba(240,240,242,0.6);margin-top:8px;max-width:330px;line-height:1.5">
+    Öffne <b style="color:#f0f0f2">kardiron.de</b> also gerne nochmal an deinem Rechner.
+  </div>
+
+  <div style="font-size:14px;color:rgba(240,240,242,0.6);margin-top:26px;max-width:330px;line-height:1.5">
+    Du willst wissen, was alles möglich ist?<br>Hier siehst du, wie der Editor funktioniert:
+  </div>
+  <a href="https://www.youtube.com/watch?v=3KpoP5f4O_8" target="_blank" rel="noopener"
+     style="margin-top:14px;text-decoration:none;background:rgba(255,255,255,0.05);
+            border:1px solid rgba(255,255,255,0.18);border-radius:8px;padding:12px 22px;
+            color:#f0f0f2;font-family:'Barlow Condensed',sans-serif;font-size:15px;
+            letter-spacing:0.5px">▶ Tutorial ansehen</a>
+</div>
+
 <header>
   <div class="logo">Kard<span>iron</span></div>
   <div class="divider"></div>
@@ -17,8 +56,8 @@
   <div class="formation-badge" id="formationBadge"></div>
   <div class="speed-wrap" style="margin-left:16px">
     <span>SPEED</span>
-    <input type="range" id="speedSlider" min="0.5" max="5" step="0.5" value="2">
-    <span id="speedVal">2×</span>
+    <input type="range" id="speedSlider" min="0.25" max="3" step="0.25" value="1">
+    <span id="speedVal">1×</span>
   </div>
   <div class="header-right">
     <input type="text" id="playNameInput" placeholder="Play name…"
@@ -627,6 +666,127 @@
 </div>
 
 
+<!-- ── First-visit onboarding overlay ── -->
+<div id="onboardOverlay" style="display:none;position:fixed;inset:0;z-index:10000;
+     background:rgba(6,8,12,0.82);backdrop-filter:blur(6px);
+     align-items:center;justify-content:center;padding:20px">
+  <div style="max-width:480px;width:100%;background:#11151c;
+       border:1px solid rgba(255,255,255,0.13);border-radius:14px;
+       box-shadow:0 24px 60px rgba(0,0,0,0.6);padding:30px 32px;
+       font-family:'Inter',sans-serif;color:#f0f0f2">
+    <div style="font-family:'Bebas Neue',cursive;font-size:34px;letter-spacing:1px;line-height:1">
+      Welcome to <span style="color:#ff5e1a">KARDIRON</span>
+    </div>
+    <div style="color:rgba(240,240,242,0.6);font-size:14px;margin-top:8px;margin-bottom:22px">
+      Design a football play, then watch it run live against an AI defense.
+    </div>
+
+    <div style="display:flex;gap:13px;margin-bottom:16px;align-items:flex-start">
+      <div style="flex:0 0 26px;height:26px;border-radius:50%;background:rgba(255,94,26,0.15);
+           color:#ff5e1a;border:1px solid #ff5e1a;font-weight:700;font-size:13px;
+           display:flex;align-items:center;justify-content:center">1</div>
+      <div style="font-size:13.5px;line-height:1.5;padding-top:3px">
+        A play is <b>already on the field</b> — <span style="color:#ff5e1a">offense in orange</span>,
+        <span style="color:#00cfff">defense in cyan</span>.
+      </div>
+    </div>
+    <div style="display:flex;gap:13px;margin-bottom:16px;align-items:flex-start">
+      <div style="flex:0 0 26px;height:26px;border-radius:50%;background:rgba(0,207,255,0.15);
+           color:#00cfff;border:1px solid #00cfff;font-weight:700;font-size:13px;
+           display:flex;align-items:center;justify-content:center">2</div>
+      <div style="font-size:13.5px;line-height:1.5;padding-top:3px">
+        Hit <b style="color:#00cfff">▶ SIMULATE</b> (top-right) to snap the ball.
+      </div>
+    </div>
+    <div style="display:flex;gap:13px;margin-bottom:26px;align-items:flex-start">
+      <div style="flex:0 0 26px;height:26px;border-radius:50%;background:rgba(255,255,255,0.08);
+           color:#f0f0f2;border:1px solid rgba(255,255,255,0.2);font-weight:700;font-size:13px;
+           display:flex;align-items:center;justify-content:center">3</div>
+      <div style="font-size:13.5px;line-height:1.5;padding-top:3px">
+        Watch the defense <b>react in real time</b>, then see the play's result.
+      </div>
+    </div>
+
+    <div style="display:flex;gap:10px">
+      <button id="onboardDemoBtn" style="flex:1;background:#00cfff;color:#000;border:none;
+           border-radius:7px;padding:12px;font-family:'Barlow Condensed',sans-serif;
+           font-size:15px;font-weight:600;letter-spacing:0.5px;cursor:pointer">
+        ▶ RUN THE DEMO PLAY</button>
+      <button id="onboardSkipBtn" style="background:transparent;color:rgba(240,240,242,0.5);
+           border:1px solid rgba(255,255,255,0.13);border-radius:7px;padding:12px 16px;
+           font-family:'Barlow Condensed',sans-serif;font-size:15px;letter-spacing:0.5px;
+           cursor:pointer">EXPLORE ON MY OWN</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Post-demo "your turn" hint ── -->
+<div id="demoNextOverlay" style="display:none;position:fixed;inset:0;z-index:10000;
+     background:rgba(6,8,12,0.82);backdrop-filter:blur(6px);
+     align-items:center;justify-content:center;padding:20px">
+  <div style="max-width:480px;width:100%;background:#11151c;
+       border:1px solid rgba(255,255,255,0.13);border-radius:14px;
+       box-shadow:0 24px 60px rgba(0,0,0,0.6);padding:30px 32px;
+       font-family:'Inter',sans-serif;color:#f0f0f2">
+    <div style="font-family:'Bebas Neue',cursive;font-size:32px;letter-spacing:1px;line-height:1">
+      That's <span style="color:#ff5e1a">KARDIRON</span>
+    </div>
+    <div style="color:rgba(240,240,242,0.6);font-size:14px;margin-top:8px;margin-bottom:22px">
+      You just watched the routes develop against the AI defense.
+      Now make it your own:
+    </div>
+
+    <div style="display:flex;gap:13px;margin-bottom:14px;align-items:flex-start">
+      <div style="flex:0 0 24px;text-align:center;font-size:16px">🛡️</div>
+      <div style="font-size:13.5px;line-height:1.5;padding-top:1px">
+        Pick a different <b style="color:#00cfff">coverage</b> on the Defense panel (right).
+      </div>
+    </div>
+    <div style="display:flex;gap:13px;margin-bottom:14px;align-items:flex-start">
+      <div style="flex:0 0 24px;text-align:center;font-size:16px">✏️</div>
+      <div style="font-size:13.5px;line-height:1.5;padding-top:1px">
+        Drag any <span style="color:#ff5e1a">player or route</span> to redesign the play.
+      </div>
+    </div>
+    <div style="display:flex;gap:13px;margin-bottom:26px;align-items:flex-start">
+      <div style="flex:0 0 24px;text-align:center;font-size:16px">▶</div>
+      <div style="font-size:13.5px;line-height:1.5;padding-top:1px">
+        Hit <b style="color:#00cfff">SIMULATE</b> again to see how the result changes.
+      </div>
+    </div>
+
+    <button id="demoNextBtn" style="width:100%;background:#ff5e1a;color:#fff;border:none;
+         border-radius:7px;padding:12px;font-family:'Barlow Condensed',sans-serif;
+         font-size:15px;font-weight:600;letter-spacing:0.5px;cursor:pointer">
+      ◂ BACK TO THE EDITOR</button>
+
+    <!-- Optional full walkthrough videos -->
+    <div style="margin-top:18px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.08)">
+      <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;
+           color:rgba(240,240,242,0.4);margin-bottom:10px;text-align:center">
+        Prefer a full walkthrough?
+      </div>
+      <div style="display:flex;gap:10px">
+        <a id="tutorialDe" href="https://www.youtube.com/watch?v=3KpoP5f4O_8"
+           target="_blank" rel="noopener"
+           style="flex:1;text-align:center;text-decoration:none;
+                  background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.18);
+                  border-radius:7px;padding:10px;color:#f0f0f2;
+                  font-family:'Barlow Condensed',sans-serif;font-size:14px;
+                  letter-spacing:0.5px;cursor:pointer">🇩🇪 Komplett-Tutorial</a>
+        <!-- Paste the English video URL below to activate this button. -->
+        <a id="tutorialEn" href="PLACEHOLDER_EN_URL"
+           target="_blank" rel="noopener"
+           style="flex:1;text-align:center;text-decoration:none;
+                  background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.18);
+                  border-radius:7px;padding:10px;color:#f0f0f2;
+                  font-family:'Barlow Condensed',sans-serif;font-size:14px;
+                  letter-spacing:0.5px;cursor:pointer">🇬🇧 Full tutorial</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- ── JavaScript — load order matters, all global scope ── -->
 <script src="js/00_attributes.js"></script>
 <script src="js/gif.js"></script>
@@ -652,6 +812,118 @@
   document.addEventListener('keydown', function(e) {
     if ((e.ctrlKey || e.metaKey) && e.key === 'z') { e.preventDefault(); undo(); }
   });
+
+  // ── First-visit onboarding ──────────────────────────────────────
+  (function initOnboarding() {
+    var KEY = 'kardiron_onboarded';
+    var overlay = document.getElementById('onboardOverlay');
+    if (!overlay) return;
+
+    function close() {
+      overlay.style.display = 'none';
+      try { localStorage.setItem(KEY, '1'); } catch (e) {}
+    }
+
+    // Show only if the visitor hasn't seen it before
+    var seen = false;
+    try { seen = localStorage.getItem(KEY) === '1'; } catch (e) {}
+    if (!seen) overlay.style.display = 'flex';
+
+    // Load the showcase play: Gun Spread Ringo + Full Flood, defended by a 4-3 Over
+    function loadDemoPlay() {
+      // 1) Offense — formation, then route concept
+      var formSel = document.getElementById('offFormationSelect');
+      if (formSel && typeof applyOffFormationPreset === 'function') {
+        formSel.value = 'gun-twins-ringo';
+        applyOffFormationPreset();
+      }
+      var playSel = document.getElementById('playPresetSelect');
+      if (playSel && typeof applyPlayPreset === 'function') {
+        playSel.value = 'full-flood';
+        applyPlayPreset();
+      }
+      // 2) Defense — set the front and align it against the offense we just placed.
+      //    applyDefFormationPreset() also applies the active coverage call sheet
+      //    (Bracket strong / Cover 5 weak by default) and assigns run fits.
+      var defSel = document.getElementById('formationPresetSelect');
+      if (defSel && typeof applyDefFormationPreset === 'function') {
+        defSel.value = '4-3-over';
+        applyDefFormationPreset();
+      }
+      // 3) Play it back at 1× (real time) so the routes are easy to follow.
+      var speedSlider = document.getElementById('speedSlider');
+      if (speedSlider) {
+        speedSlider.value = '1';
+        speedSlider.dispatchEvent(new Event('input')); // updates simSpeed + label
+      }
+      // NOTE: QB throws stay OFF on purpose — coaches want to watch the routes
+      // develop against the coverage, not get pulled out by a throw + outcome.
+    }
+
+    var nextOverlay = document.getElementById('demoNextOverlay');
+
+    // Hide any tutorial button whose URL is still a placeholder, so a dead
+    // link can never ship. The German one is live; English activates the
+    // moment you paste a real URL into its href.
+    ['tutorialDe', 'tutorialEn'].forEach(function(id) {
+      var a = document.getElementById(id);
+      if (a && (!a.href || a.getAttribute('href').indexOf('PLACEHOLDER') !== -1)) {
+        a.style.display = 'none';
+      }
+    });
+
+    function inSim() {
+      return document.getElementById('modeIndicator').textContent.trim() === 'SIMULATION';
+    }
+
+    // Freeze the fully-developed play on screen and show the "your turn" card.
+    function endDemoPlay() {
+      if (!window.__kardironDemoRunning) return;
+      window.__kardironDemoRunning = false;
+      // Pause (not stop) so the developed routes stay frozen behind the card.
+      if (inSim() && typeof simPaused !== 'undefined' && !simPaused
+          && typeof togglePause === 'function') {
+        togglePause();
+      }
+      setTimeout(function() { if (nextOverlay) nextOverlay.style.display = 'flex'; }, 150);
+    }
+
+    // Let the demo play run for a fixed 8 seconds so it's easy to watch,
+    // then freeze it and show the "your turn" card.
+    var DEMO_RUN_MS = 8000;
+    function watchDemoPlay() {
+      var startedAt = Date.now();
+      var iv = setInterval(function() {
+        if (!window.__kardironDemoRunning) { clearInterval(iv); return; }
+        if (!inSim()) { clearInterval(iv); window.__kardironDemoRunning = false; return; }
+        if (Date.now() - startedAt >= DEMO_RUN_MS) {
+          clearInterval(iv);
+          endDemoPlay();
+        }
+      }, 100);
+    }
+
+    document.getElementById('onboardSkipBtn').addEventListener('click', close);
+    document.getElementById('onboardDemoBtn').addEventListener('click', function() {
+      close();
+      loadDemoPlay();
+      window.__kardironDemoRunning = true;
+      // Kick off the simulation once routes are applied
+      var simBtn = document.getElementById('simBtn');
+      if (simBtn) setTimeout(function() { simBtn.click(); watchDemoPlay(); }, 250);
+    });
+
+    // "Your turn" card → stop the (paused) sim and return to the editor.
+    document.getElementById('demoNextBtn').addEventListener('click', function() {
+      nextOverlay.style.display = 'none';
+      var simBtn = document.getElementById('simBtn');
+      if (simBtn && inSim()) simBtn.click();
+    });
+    // Click on the dark backdrop (outside the card) also dismisses
+    overlay.addEventListener('click', function(e) {
+      if (e.target === overlay) close();
+    });
+  })();
 </script>
 
 </body>
