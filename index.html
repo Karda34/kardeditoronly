@@ -59,6 +59,12 @@
     <input type="range" id="speedSlider" min="0.25" max="3" step="0.25" value="1">
     <span id="speedVal">1×</span>
   </div>
+  <button id="helpBtn" title="Hilfe & Tutorials"
+    style="width:28px;height:28px;border-radius:50%;border:1px solid #ff5e1a;
+           background:rgba(255,94,26,0.12);color:#ff5e1a;font-weight:700;font-size:15px;
+           cursor:pointer;font-family:'Barlow Condensed',sans-serif;line-height:1;
+           display:flex;align-items:center;justify-content:center;flex:0 0 auto;
+           padding:0;margin-left:14px">?</button>
   <div class="header-right">
     <input type="text" id="playNameInput" placeholder="Play name…"
       style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.18);
@@ -277,11 +283,13 @@
         <option value="4-3-over" selected>4-3 Over</option>
         <option value="4-3-under">4-3 Under</option>
         <option value="3-4">3-4 Bear</option>
+        <option value="double-mug">Double Mug</option>
+        <!-- DEAKTIVIERT (Code bleibt in js/05_defense.js DEF_FORMATIONS erhalten):
         <option value="3-3-5">3-3-5 Nickel</option>
         <option value="4-2-5">4-2-5 Nickel</option>
-        <option value="double-mug">Double Mug</option>
         <option value="dime">Dime (4-1-6)</option>
         <option value="dime-236">Dime (2-3-6)</option>
+        -->
       </select>
       <button onclick="applyDefFormationPreset()" class="panel-action-btn defense" style="margin-top:6px">▶ Apply Formation</button>
     </div>
@@ -787,6 +795,77 @@
   </div>
 </div>
 
+<!-- ── Help Center (Hilfezentrale) ── -->
+<div id="helpOverlay" style="display:none;position:fixed;inset:0;z-index:10000;
+     background:rgba(6,8,12,0.82);backdrop-filter:blur(6px);
+     align-items:center;justify-content:center;padding:20px">
+  <div style="max-width:460px;width:100%;background:#11151c;
+       border:1px solid rgba(255,255,255,0.13);border-radius:14px;
+       box-shadow:0 24px 60px rgba(0,0,0,0.6);padding:30px 32px;
+       font-family:'Inter',sans-serif;color:#f0f0f2">
+    <div style="font-family:'Bebas Neue',cursive;font-size:32px;letter-spacing:1px;line-height:1">
+      Hilfe<span style="color:#ff5e1a">zentrale</span>
+    </div>
+    <div style="color:rgba(240,240,242,0.6);font-size:14px;margin-top:8px;margin-bottom:22px">
+      Hängst du irgendwo? Hier findest du Tutorials und Hilfe rund um den Editor.
+    </div>
+
+    <!-- ▼▼ TUTORIAL-LISTE — hier später einfach weitere <a class="help-item"> ergänzen ▼▼ -->
+    <div id="helpList">
+      <a href="https://www.youtube.com/watch?v=3KpoP5f4O_8" target="_blank" rel="noopener"
+         class="help-item" style="display:flex;align-items:center;gap:13px;text-decoration:none;
+         background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);
+         border-radius:9px;padding:14px 16px;color:#f0f0f2;margin-bottom:10px">
+        <span style="font-size:20px;flex:0 0 auto">▶</span>
+        <span>
+          <span style="display:block;font-weight:600;font-size:14px">Komplett-Tutorial</span>
+          <span style="display:block;font-size:12px;color:rgba(240,240,242,0.5);margin-top:2px">
+            So funktioniert der Editor — Schritt für Schritt</span>
+        </span>
+      </a>
+      <!-- Beispiel für weitere Einträge (Kopiervorlage):
+      <a href="VIDEO_URL" target="_blank" rel="noopener" class="help-item" style="display:flex;align-items:center;gap:13px;text-decoration:none;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:9px;padding:14px 16px;color:#f0f0f2;margin-bottom:10px">
+        <span style="font-size:20px;flex:0 0 auto">▶</span>
+        <span><span style="display:block;font-weight:600;font-size:14px">TITEL</span>
+        <span style="display:block;font-size:12px;color:rgba(240,240,242,0.5);margin-top:2px">BESCHREIBUNG</span></span>
+      </a>
+      -->
+    </div>
+    <!-- ▲▲ TUTORIAL-LISTE ▲▲ -->
+
+    <!-- Community & Kontakt -->
+    <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;
+         color:rgba(240,240,242,0.4);margin:20px 0 10px">
+      Fragen, Feedback & Updates
+    </div>
+    <div style="display:flex;gap:8px">
+      <a href="https://discord.gg/SVPH56Hy" target="_blank" rel="noopener"
+         style="flex:1;text-align:center;text-decoration:none;background:rgba(255,255,255,0.04);
+                border:1px solid rgba(255,255,255,0.12);border-radius:8px;padding:11px 6px;
+                color:#f0f0f2;font-family:'Barlow Condensed',sans-serif;font-size:13px;
+                letter-spacing:0.3px">💬 Discord</a>
+      <a href="https://www.instagram.com/kardafootball/" target="_blank" rel="noopener"
+         style="flex:1;text-align:center;text-decoration:none;background:rgba(255,255,255,0.04);
+                border:1px solid rgba(255,255,255,0.12);border-radius:8px;padding:11px 6px;
+                color:#f0f0f2;font-family:'Barlow Condensed',sans-serif;font-size:13px;
+                letter-spacing:0.3px">📷 Instagram</a>
+      <a href="https://www.tiktok.com/@kardafootball" target="_blank" rel="noopener"
+         style="flex:1;text-align:center;text-decoration:none;background:rgba(255,255,255,0.04);
+                border:1px solid rgba(255,255,255,0.12);border-radius:8px;padding:11px 6px;
+                color:#f0f0f2;font-family:'Barlow Condensed',sans-serif;font-size:13px;
+                letter-spacing:0.3px">🎵 TikTok</a>
+    </div>
+    <div style="font-size:12px;color:rgba(240,240,242,0.45);margin-top:10px;line-height:1.5">
+      Problem nicht gelöst? Frag direkt in unserem <b style="color:#f0f0f2">Discord</b> — wir helfen gern.
+    </div>
+
+    <button id="helpCloseBtn" style="width:100%;margin-top:18px;background:transparent;
+         color:rgba(240,240,242,0.6);border:1px solid rgba(255,255,255,0.13);
+         border-radius:8px;padding:11px;font-family:'Barlow Condensed',sans-serif;
+         font-size:14px;letter-spacing:0.5px;cursor:pointer">SCHLIESSEN</button>
+  </div>
+</div>
+
 <!-- ── JavaScript — load order matters, all global scope ── -->
 <script src="js/00_attributes.js"></script>
 <script src="js/gif.js"></script>
@@ -812,6 +891,19 @@
   document.addEventListener('keydown', function(e) {
     if ((e.ctrlKey || e.metaKey) && e.key === 'z') { e.preventDefault(); undo(); }
   });
+
+  // ── Help Center (Hilfezentrale) ─────────────────────────────────
+  (function initHelpCenter() {
+    var btn = document.getElementById('helpBtn');
+    var overlay = document.getElementById('helpOverlay');
+    var closeBtn = document.getElementById('helpCloseBtn');
+    if (!btn || !overlay) return;
+    function open()  { overlay.style.display = 'flex'; }
+    function close() { overlay.style.display = 'none'; }
+    btn.addEventListener('click', open);
+    if (closeBtn) closeBtn.addEventListener('click', close);
+    overlay.addEventListener('click', function(e) { if (e.target === overlay) close(); });
+  })();
 
   // ── First-visit onboarding ──────────────────────────────────────
   (function initOnboarding() {
