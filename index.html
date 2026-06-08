@@ -38,6 +38,10 @@
     So open <b style="color:#f0f0f2">kardiron.de</b> again on your computer.
   </div>
 
+  <div style="font-size:12.5px;color:rgba(240,240,242,0.45);margin-top:14px;max-width:330px;line-height:1.5">
+    On a tablet? Try landscape mode. For the full experience we still recommend a PC.
+  </div>
+
   <div style="font-size:14px;color:rgba(240,240,242,0.6);margin-top:26px;max-width:330px;line-height:1.5">
     Want to see what's possible?<br>Here's how the editor works:
   </div>
@@ -71,13 +75,16 @@
              border-radius:4px;color:#fff;font-size:12px;padding:4px 8px;
              width:130px;outline:none;font-family:inherit"
       title="Play name — used as filename when saving">
-    <button class="btn btn-ghost" id="saveJsonBtn">SAVE JSON</button>
-    <button class="btn btn-ghost" id="savePngBtn">SAVE PLAY</button>
-    <button class="btn btn-ghost" id="saveBtn">SAVE GIF</button>
-    <button class="btn btn-ghost" id="saveMp4Btn">SAVE MP4</button>
+    <button class="btn btn-ghost" id="saveMenuBtn">SAVE ▾</button>
+    <!-- Original save buttons kept hidden so their handlers stay wired; SAVE ▾ proxies clicks -->
+    <button class="btn btn-ghost" id="saveJsonBtn" style="display:none">SAVE JSON</button>
+    <button class="btn btn-ghost" id="savePngBtn"  style="display:none">SAVE PLAY</button>
+    <button class="btn btn-ghost" id="saveBtn"     style="display:none">SAVE GIF</button>
+    <button class="btn btn-ghost" id="saveMp4Btn"  style="display:none">SAVE MP4</button>
     <button class="btn btn-ghost" id="loadBtn">LOAD</button>
     <input type="file" id="fileInput" accept=".json,.gif,.png,.mp4,.webm" style="display:none">
     <button class="btn btn-warning" id="pauseBtn" style="display:none" onclick="togglePause()">⏸ PAUSE</button>
+    <button class="btn btn-sim" id="replayBtn" style="display:none" onclick="replaySim()">↻ REPLAY</button>
     <button class="btn btn-sim" id="simBtn">▶ SIMULATE</button>
   </div>
 </header>
@@ -239,6 +246,8 @@
         Illegal Formation: OFF
       </button>
     </div>
+    <!-- GAME button injected here by the game engine -->
+    <div id="gameBtnSlot" style="padding:6px 8px 4px"></div>
     <!-- Debug Overlay Toggle -->
     <label class="debug-toggle-wrap" id="debugToggleWrap">
       <input type="checkbox" id="debugOverlayToggle"> DEBUG: FORMATION
@@ -877,6 +886,35 @@
   </div>
 </div>
 
+<!-- Sim debug log hidden for now (remove this rule to bring it back) -->
+<style>#debugLog{display:none !important}</style>
+
+<!-- SAVE ▾ dropdown (consolidates the export buttons) -->
+<style>
+  #saveMenu .save-menu-item{padding:8px 12px;border-radius:5px;cursor:pointer;font-size:13px;letter-spacing:0.8px;
+    text-transform:uppercase;color:#f0f0f2;font-family:'Barlow Condensed',sans-serif;white-space:nowrap}
+  #saveMenu .save-menu-item:hover{background:rgba(255,255,255,0.08)}
+</style>
+<div id="saveMenu" style="display:none;position:fixed;z-index:9000;min-width:150px;
+     background:#1c1f26;border:1px solid rgba(255,255,255,0.18);border-radius:8px;
+     box-shadow:0 12px 36px rgba(0,0,0,0.6);padding:6px">
+  <div class="save-menu-item" data-action="saveToPlaybook">📋 Save to Playbook</div>
+  <div class="save-menu-item" data-target="saveJsonBtn">Save JSON</div>
+  <div class="save-menu-item" data-target="savePngBtn">Save Play (PNG)</div>
+  <div class="save-menu-item" data-target="saveBtn">Save GIF</div>
+  <div class="save-menu-item" data-target="saveMp4Btn">Save MP4</div>
+</div>
+
+<!-- Defender quick-assign context menu (right-click a defender) -->
+<style>
+  #defContextMenu .def-ctx-item{padding:6px 11px;border-radius:5px;cursor:pointer;font-size:13px;letter-spacing:0.4px;white-space:nowrap;color:#f0f0f2}
+  #defContextMenu .def-ctx-item:hover{background:rgba(255,255,255,0.08)}
+  #defContextMenu .def-ctx-head{padding:7px 11px 3px;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(240,240,242,0.4)}
+</style>
+<div id="defContextMenu" style="display:none;position:fixed;z-index:10001;min-width:190px;max-height:72vh;overflow-y:auto;
+     background:#1c1f26;border:1px solid rgba(255,255,255,0.18);border-radius:9px;
+     box-shadow:0 14px 44px rgba(0,0,0,0.65);padding:6px;font-family:'Barlow Condensed',sans-serif"></div>
+
 <!-- ── JavaScript — load order matters, all global scope ── -->
 <script src="js/00_attributes.js"></script>
 <script src="js/gif.js"></script>
@@ -903,6 +941,73 @@
     if ((e.ctrlKey || e.metaKey) && e.key === 'z') { e.preventDefault(); undo(); }
   });
 
+  // ── Header auto-fit ─────────────────────────────────────────────
+  // Zoom the top bar down just enough that every button stays visible,
+  // no matter the window width. Only ever shrinks, never enlarges past 1.
+  // A MutationObserver re-fits whenever the bar's content changes
+  // (e.g. Replay / Back to Editor appear, phase badges update in sim).
+  (function initHeaderFit() {
+    var h = document.querySelector('header');
+    if (!h) return;
+    var observer;
+    var OBS_OPTS = { subtree: true, childList: true, attributes: true, characterData: true };
+    function fit() {
+      if (observer) observer.disconnect();   // avoid self-trigger from the zoom write
+      h.style.zoom = '1';                     // reset to measure natural width
+      var need = h.scrollWidth, avail = h.clientWidth;
+      h.style.zoom = (need > avail) ? (avail / need) * 0.99 : 1;
+      if (observer) observer.observe(h, OBS_OPTS);
+    }
+    observer = new MutationObserver(fit);
+    window.addEventListener('resize', fit);
+    window.addEventListener('load', fit);
+    fit();
+    observer.observe(h, OBS_OPTS);
+    setTimeout(fit, 300);                      // again after web fonts settle
+  })();
+
+  // ── SAVE ▾ dropdown ─────────────────────────────────────────────
+  (function initSaveMenu() {
+    var btn = document.getElementById('saveMenuBtn');
+    var menu = document.getElementById('saveMenu');
+    if (!btn || !menu) return;
+    function close() {
+      menu.style.display = 'none';
+      document.removeEventListener('mousedown', onDoc, true);
+      document.removeEventListener('keydown', onKey, true);
+    }
+    function onDoc(e) { if (!menu.contains(e.target) && e.target !== btn) close(); }
+    function onKey(e) { if (e.key === 'Escape') close(); }
+    function open() {
+      menu.style.display = 'block';
+      var r = btn.getBoundingClientRect();
+      menu.style.left = '0px'; menu.style.top = '0px';
+      var w = menu.offsetWidth;
+      var x = Math.min(r.right - w, window.innerWidth - w - 8); // right-align under the button
+      menu.style.left = Math.max(8, x) + 'px';
+      menu.style.top  = (r.bottom + 4) + 'px';
+      setTimeout(function () {
+        document.addEventListener('mousedown', onDoc, true);
+        document.addEventListener('keydown', onKey, true);
+      }, 0);
+    }
+    btn.addEventListener('click', function () {
+      if (menu.style.display === 'block') close(); else open();
+    });
+    [].forEach.call(menu.querySelectorAll('.save-menu-item'), function (it) {
+      it.addEventListener('click', function () {
+        var action = it.getAttribute('data-action');
+        if (action && typeof window[action] === 'function') {
+          window[action]();
+        } else {
+          var t = document.getElementById(it.getAttribute('data-target'));
+          if (t) t.click();
+        }
+        close();
+      });
+    });
+  })();
+
   // ── Help Center (Hilfezentrale) ─────────────────────────────────
   (function initHelpCenter() {
     var btn = document.getElementById('helpBtn');
@@ -914,6 +1019,146 @@
     btn.addEventListener('click', open);
     if (closeBtn) closeBtn.addEventListener('click', close);
     overlay.addEventListener('click', function(e) { if (e.target === overlay) close(); });
+  })();
+
+  // ── Defender quick-assign context menu ──────────────────────────
+  (function initDefContextMenu() {
+    var menu = document.getElementById('defContextMenu');
+    if (!menu) return;
+
+    var ZONES = [
+      ['FLAT_L','Flat Left'],   ['FLAT_R','Flat Right'],
+      ['CURL_L','Curl Left'],   ['CURL_R','Curl Right'],
+      ['HOOK_MIDDLE','Hook Middle'],
+      ['DEEP_L','Deep Left (third)'], ['DEEP_MIDDLE','Deep Middle'], ['DEEP_R','Deep Right (third)'],
+      ['DEEP_HALF_L','Deep Half Left'], ['DEEP_HALF_R','Deep Half Right']
+    ];
+
+    function apply(d, assignment) {
+      d.assignment = assignment;
+      d.passAssignment = assignment.type !== 'none' ? Object.assign({}, assignment) : null;
+      d._manualAssignment = (assignment.type !== 'none');
+      if (typeof assignmentToDecision === 'function') d.decision = assignmentToDecision(assignment);
+      if (typeof refreshDefPlayerList === 'function') refreshDefPlayerList();
+      if (typeof refreshDefAssignBox === 'function') refreshDefAssignBox();
+      if (typeof draw === 'function') draw();
+    }
+
+    function close() {
+      menu.style.display = 'none';
+      menu.innerHTML = '';
+      document.removeEventListener('mousedown', onDocDown, true);
+      document.removeEventListener('keydown', onKey, true);
+    }
+    function onDocDown(e) { if (!menu.contains(e.target)) close(); }
+    function onKey(e) { if (e.key === 'Escape') close(); }
+
+    function head(txt) { var h = document.createElement('div'); h.className = 'def-ctx-head'; h.textContent = txt; return h; }
+    function item(txt, fn) {
+      var it = document.createElement('div'); it.className = 'def-ctx-item'; it.textContent = txt;
+      it.addEventListener('click', function () { fn(); close(); });
+      return it;
+    }
+
+    function chevronRow(txt, onClick) {
+      var it = document.createElement('div'); it.className = 'def-ctx-item';
+      it.style.display = 'flex'; it.style.justifyContent = 'space-between'; it.style.alignItems = 'center';
+      var a = document.createElement('span'); a.textContent = txt;
+      var b = document.createElement('span'); b.textContent = '›'; b.style.opacity = '0.4'; b.style.marginLeft = '14px';
+      it.appendChild(a); it.appendChild(b);
+      it.addEventListener('click', onClick);
+      return it;
+    }
+    function note(txt) {
+      var n = document.createElement('div'); n.className = 'def-ctx-head';
+      n.style.fontStyle = 'italic'; n.style.textTransform = 'none'; n.textContent = txt;
+      return n;
+    }
+
+    window.openDefContextMenu = function (d, clientX, clientY) {
+      function reposition() {
+        menu.style.display = 'block';
+        menu.style.left = '0px'; menu.style.top = '0px';
+        var w = menu.offsetWidth, h = menu.offsetHeight;
+        var x = Math.min(clientX, window.innerWidth - w - 8);
+        var y = Math.min(clientY, window.innerHeight - h - 8);
+        menu.style.left = Math.max(8, x) + 'px';
+        menu.style.top  = Math.max(8, y) + 'px';
+      }
+      function title(txt) {
+        var t = document.createElement('div'); t.className = 'def-ctx-head';
+        t.style.color = '#00cfff'; t.style.fontSize = '12px'; t.textContent = txt;
+        return t;
+      }
+      function backRow() {
+        var it = document.createElement('div'); it.className = 'def-ctx-item';
+        it.style.color = 'rgba(240,240,242,0.55)'; it.textContent = '‹ Back';
+        it.addEventListener('click', function () { render('root'); });
+        return it;
+      }
+      function render(level) {
+        menu.innerHTML = '';
+        menu.appendChild(title('Assign ' + d.role + d.id));
+
+        if (level === 'root') {
+          menu.appendChild(chevronRow('Man',   function () { render('man'); }));
+          menu.appendChild(chevronRow('Zone',  function () { render('zone'); }));
+          menu.appendChild(chevronRow('Match', function () { render('match'); }));
+          menu.appendChild(chevronRow('Other', function () { render('other'); }));
+        } else {
+          menu.appendChild(backRow());
+          if (level === 'man') {
+            if (typeof players !== 'undefined' && players.length) {
+              players.forEach(function (p) {
+                menu.appendChild(item('→ ' + p.label + ' #' + p.id, function () {
+                  apply(d, { type: 'man', targetId: p.id, leverage: 'headUp', trailDistance: 1 });
+                }));
+              });
+            } else {
+              menu.appendChild(note('Add offense players first'));
+            }
+          } else if (level === 'zone') {
+            ZONES.forEach(function (z) {
+              menu.appendChild(item(z[1], function () { apply(d, { type: 'zone', landmarkId: z[0] }); }));
+            });
+          } else if (level === 'match' || level === 'match-all') {
+            function addMatchItems(ids) {
+              ids.forEach(function (mid) {
+                var spec = MATCH_ROLES[mid];
+                menu.appendChild(item(spec.label, function () {
+                  apply(d, { type: 'match', matchId: mid, preset: spec.preset, role: spec.role });
+                }));
+                if (spec.note) menu.appendChild(note(spec.note));
+              });
+            }
+            if (typeof MATCH_ROLES === 'undefined' || !Object.keys(MATCH_ROLES).length) {
+              menu.appendChild(note('No match rules defined'));
+            } else if (level === 'match-all') {
+              addMatchItems(Object.keys(MATCH_ROLES));
+            } else {
+              // Native rules for this defender's position (by coverage family)
+              var nativeIds = (typeof nativeMatchRuleIds === 'function') ? nativeMatchRuleIds(d.role) : Object.keys(MATCH_ROLES);
+              if (nativeIds.length) {
+                addMatchItems(nativeIds);
+              } else {
+                menu.appendChild(note('No match rule for ' + d.role + ', see Other'));
+              }
+              menu.appendChild(chevronRow('Other (all rules)', function () { render('match-all'); }));
+            }
+          } else if (level === 'other') {
+            menu.appendChild(item('Rush QB', function () { apply(d, { type: 'rush' }); }));
+            menu.appendChild(item('Clear assignment', function () { apply(d, { type: 'none' }); }));
+          }
+        }
+        reposition();
+      }
+
+      render('root');
+      setTimeout(function () {
+        document.addEventListener('mousedown', onDocDown, true);
+        document.addEventListener('keydown', onKey, true);
+      }, 0);
+    };
   })();
 
   // ── First-visit onboarding ──────────────────────────────────────
