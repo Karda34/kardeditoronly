@@ -228,38 +228,7 @@
         ✕ Clear Drawings
       </button>
     </div>
-    <!-- QB Throw toggle -->
-    <div style="padding:6px 8px 4px">
-      <button class="panel-action-btn" id="qbNeverThrowBtn"
-        onclick="toggleQBNeverThrow()"
-        title="QB throws — toggle throw mode on/off"
-        style="color:#fff">
-        QB throws: OFF
-      </button>
-    </div>
-    <!-- Illegal Formation Rules toggle -->
-    <div style="padding:6px 8px 4px">
-      <button class="panel-action-btn" id="illegalFormationBtn"
-        onclick="toggleIllegalFormationRules()"
-        title="Illegal Formation Rules on/off"
-        style="color:#fff;opacity:0.5">
-        Illegal Formation: OFF
-      </button>
-    </div>
-    <!-- GAME button injected here by the game engine -->
-    <div id="gameBtnSlot" style="padding:6px 8px 4px"></div>
-    <!-- Debug Overlay Toggle -->
-    <label class="debug-toggle-wrap" id="debugToggleWrap">
-      <input type="checkbox" id="debugOverlayToggle"> DEBUG: FORMATION
-    </label>
-    <!-- Live Read Toggle (Phase 3.1 — active only during sim) -->
-    <label class="debug-toggle-wrap" id="liveReadToggleWrap">
-      <input type="checkbox" id="liveReadToggle"> DEBUG: LIVE READ
-    </label>
-    <!-- QB Read Debug Toggle -->
-    <label class="debug-toggle-wrap" id="qbReadToggleWrap">
-      <input type="checkbox" id="qbReadToggle"> DEBUG: QB READ
-    </label>
+    <!-- Illegal Formation, GAME, QB Throws, Debug → Game Features drawer (bottom) -->
     <!-- Offense panel resize -->
     <div class="panel-resize-strip">
       <span>WIDTH</span>
@@ -682,6 +651,71 @@
   <button class="panel-open-btn defense" id="defensePanelOpenBtn" style="display:none" onclick="expandPanel('defense')">▸ DEFENSE</button>
 </div>
 
+<!-- ════════ GAME FEATURES DRAWER ════════
+     Collapsed by default — not needed for basic play drawing.
+     Contains QB Throws, Game Mode, and Playbook (future-game / OC tools).
+     Expands as a slim row at the bottom of the editor.               -->
+<div id="advancedDrawer"
+     style="flex-shrink:0;border-top:1px solid rgba(255,94,26,0.18);background:#0b0e14;overflow:hidden">
+
+  <!-- Toggle bar — always visible -->
+  <div id="advancedToggleBar" onclick="toggleAdvancedDrawer()"
+       title="Game Features — QB Throws · Game Mode · Playbook"
+       style="display:flex;align-items:center;gap:10px;padding:0 18px;height:26px;
+              cursor:pointer;user-select:none;font-family:'Barlow Condensed',sans-serif;
+              font-size:10px;letter-spacing:1.5px;color:rgba(255,94,26,0.45)">
+    <span id="advancedChevron"
+          style="font-size:8px;display:inline-block;transition:transform 0.2s;line-height:1">▲</span>
+    GAME FEATURES
+    <span style="font-size:9px;color:rgba(255,255,255,0.15);margin-left:4px;letter-spacing:0.5px">
+      QB Throws · Game Mode · Playbook
+    </span>
+  </div>
+
+  <!-- Drawer body — hidden by default, flex row when open -->
+  <div id="advancedDrawerBody"
+       style="display:none;flex-direction:row;gap:8px;padding:6px 16px 10px;
+              align-items:center;flex-wrap:wrap">
+
+    <!-- QB Throws (moved from offense panel) -->
+    <button class="panel-action-btn" id="qbNeverThrowBtn"
+      onclick="toggleQBNeverThrow()"
+      title="QB throws — toggle throw mode on/off"
+      style="color:#fff">QB throws: OFF</button>
+
+    <!-- Illegal Formation (moved from offense panel) -->
+    <button class="panel-action-btn" id="illegalFormationBtn"
+      onclick="toggleIllegalFormationRules()"
+      title="Illegal Formation Rules on/off"
+      style="color:#fff;opacity:0.5">Illegal Formation: OFF</button>
+
+    <!-- GAME button injected here by the game engine (moved from offense panel) -->
+    <div id="gameBtnSlot" style="display:flex"></div>
+
+    <!-- Playbook (moved from SAVE dropdown) -->
+    <button class="panel-action-btn" id="drawerPlaybookBtn"
+      onclick="typeof saveToPlaybook==='function'&&saveToPlaybook()"
+      title="Save current play to Playbook and open it">📋 Playbook</button>
+
+    <!-- Sim Debug toggle — shows/hides the sim debug log panel -->
+    <button class="panel-action-btn" id="simDebugToggleBtn"
+      onclick="toggleSimDebug()"
+      title="Show or hide the simulation debug log"
+      style="color:#fff;opacity:0.4">SIM DEBUG: OFF</button>
+
+    <!-- Debug overlay toggles (moved from offense panel — JS in 02/03/04 wires these) -->
+    <label class="debug-toggle-wrap" id="debugToggleWrap">
+      <input type="checkbox" id="debugOverlayToggle"> DEBUG: FORMATION
+    </label>
+    <label class="debug-toggle-wrap" id="liveReadToggleWrap">
+      <input type="checkbox" id="liveReadToggle"> DEBUG: LIVE READ
+    </label>
+    <label class="debug-toggle-wrap" id="qbReadToggleWrap">
+      <input type="checkbox" id="qbReadToggle"> DEBUG: QB READ
+    </label>
+  </div>
+</div>
+
 
 <!-- ── First-visit onboarding overlay ── -->
 <div id="onboardOverlay" style="display:none;position:fixed;inset:0;z-index:10000;
@@ -886,8 +920,8 @@
   </div>
 </div>
 
-<!-- Sim debug log hidden for now (remove this rule to bring it back) -->
-<style>#debugLog{display:none !important}</style>
+<!-- Sim debug log hidden by default; drawer toggle adds .debug-log-visible to body to show it -->
+<style>body:not(.debug-log-visible) #debugLog{display:none !important}</style>
 
 <!-- SAVE ▾ dropdown (consolidates the export buttons) -->
 <style>
@@ -898,7 +932,7 @@
 <div id="saveMenu" style="display:none;position:fixed;z-index:9000;min-width:150px;
      background:#1c1f26;border:1px solid rgba(255,255,255,0.18);border-radius:8px;
      box-shadow:0 12px 36px rgba(0,0,0,0.6);padding:6px">
-  <div class="save-menu-item" data-action="saveToPlaybook">📋 Save to Playbook</div>
+  <!-- Playbook moved to bottom Game Features drawer -->
   <div class="save-menu-item" data-target="saveJsonBtn">Save JSON</div>
   <div class="save-menu-item" data-target="savePngBtn">Save Play (PNG)</div>
   <div class="save-menu-item" data-target="saveBtn">Save GIF</div>
@@ -965,6 +999,32 @@
     observer.observe(h, OBS_OPTS);
     setTimeout(fit, 300);                      // again after web fonts settle
   })();
+
+  // ── GAME FEATURES DRAWER ────────────────────────────────────────
+  // Collapsible bottom bar containing QB Throws, Game Mode, Playbook.
+  // Uses simple show/hide — no animation library needed.
+  function toggleAdvancedDrawer() {
+    var body    = document.getElementById('advancedDrawerBody');
+    var chevron = document.getElementById('advancedChevron');
+    if (!body) return;
+    var isOpen = body.style.display === 'flex';
+    if (isOpen) {
+      body.style.display = 'none';
+      chevron.style.transform = '';          // ▲ = collapsed
+    } else {
+      body.style.display = 'flex';
+      chevron.style.transform = 'rotate(180deg)'; // ▼ = expanded
+    }
+  }
+
+  function toggleSimDebug() {
+    var on  = document.body.classList.toggle('debug-log-visible');
+    var btn = document.getElementById('simDebugToggleBtn');
+    if (btn) {
+      btn.textContent = 'SIM DEBUG: ' + (on ? 'ON' : 'OFF');
+      btn.style.opacity = on ? '1' : '0.4';
+    }
+  }
 
   // ── SAVE ▾ dropdown ─────────────────────────────────────────────
   (function initSaveMenu() {
@@ -1137,7 +1197,7 @@
               addMatchItems(Object.keys(MATCH_ROLES));
             } else {
               // Native rules for this defender's position (by coverage family)
-              var nativeIds = (typeof nativeMatchRuleIds === 'function') ? nativeMatchRuleIds(d.role) : Object.keys(MATCH_ROLES);
+              var nativeIds = (typeof nativeMatchRuleIds === 'function') ? nativeMatchRuleIds(d) : Object.keys(MATCH_ROLES);
               if (nativeIds.length) {
                 addMatchItems(nativeIds);
               } else {
