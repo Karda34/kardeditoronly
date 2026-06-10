@@ -1,1 +1,794 @@
-const _0xcf41c7=_0x547b;(function(_0x4ad30c,_0x518260){const _0x35dfb5=_0x547b,_0x547c16=_0x4ad30c();while(!![]){try{const _0x35f876=-parseInt(_0x35dfb5(0xa1))/0x1+-parseInt(_0x35dfb5(0x1ab))/0x2+parseInt(_0x35dfb5(0x90))/0x3+-parseInt(_0x35dfb5(0x14a))/0x4+parseInt(_0x35dfb5(0x15e))/0x5+parseInt(_0x35dfb5(0xff))/0x6+-parseInt(_0x35dfb5(0xb8))/0x7;if(_0x35f876===_0x518260)break;else _0x547c16['push'](_0x547c16['shift']());}catch(_0x14f1f3){_0x547c16['push'](_0x547c16['shift']());}}}(_0x2efa,0x3d621));let gameState={'down':0x1,'distance':0xa,'yardLine':0x19,'quarter':0x1,'score':{'home':0x0,'away':0x0},'clock':0x384,'active':![],'possession':_0xcf41c7(0x163)};const PLAYBOOK_KEY='kardiron_playbook';function _0x2efa(){const _0x81c93a=['setItem','wckfF','cursor','max','fromEntries','shadowColor','XLcoj','GeXSo','2028950JbDrhZ','blockPoints','↑\x20FIRST\x20DOWN!\x20','HoXkg','forEach','home','beginPath','VUDVQ','YYHBs','zreQL','gktXP','upffT','tmiot','sbQuarter','0|3|5|8|7|9|10|11|4|2|1|13|6|14|12','cdCNK','HTRwu','origX','\x20:\x20','align-items:center','uKVtR','4th','Remove\x20from\x20playbook','fillStyle',';color:#ff5e1a;border-color:rgba(255,94,26,0.5);','Opp\x20','FGoUF','border:1px\x20solid\x20rgba(255,255,255,0.09)','BUSvn','padding:9px\x2040px\x209px\x2012px','\x20AWAY','FqLZs','#f87171','⚡\x20INTERCEPTION\x20—\x20Turnover!\x20','sXmax','rgba(180,30,30,0.18)','width','.main','⬛\x20FIELD\x20GOAL\x20—\x20GOOD!\x20(','onclick','height','font-size:13px','AhdQZ','uWISM','type','Ahpqe','JzdHC','distance','🏈\x20Game\x20Mode\x20—\x201st\x20&\x2010,\x20Own\x2025.\x20Call\x20your\x20first\x20play!','offsetY','font','Toggle\x20OC\x20Game\x20Mode','hoBtB','eqqRE','right','ewxZk','playNameInput','wqFvf','wVehO','uVvSa','hrHIn','shadowBlur','GPZAv','fgBtn','sim','IYGys','result','MVaWw','apply','OPAeU','\x20–\x20','border-radius:4px','join','removed','button','AELFy','DPGlH','32688aCdIZu','sbFieldPos','PVfza','fourthDownModal','pQlbq','findIndex','BHrYn','letter-spacing:0.5px','body','CfnJY','none','border:none','now','createElement','border-bottom:1px\x20solid\x20rgba(255,94,26,0.3)','toUpperCase','XewmB','sbClock','querySelector','🏈\x20GOING\x20FOR\x20IT\x20—\x20Snap\x20the\x20ball!','padding:3px\x206px','clock','vtHOL','QDmlX','jmOsV','noBIO','#111318','tMuWX','justify-content:space-between','rUNwI','lineTo','bZXzl','callPlayBtn','error','flex:1','WEIso','TvAXf','toFixed','rgba(240,240,242,0.22)','FULXp','3rd','yBZky','important','qfTMg','innerHTML','Ghzxc','AZMTl','rgba(255,255,255,0.09)','parse','font-size:14px','ymqUe','down','getItem','getMonth','VyEex','WEroH','\x20&\x20','cTGdL','KzyOS','flex-shrink:0','957630ZutYyX','draw','strokeStyle','aORIc','ByBGp','Updated\x20\x22','ArHyu','active','OWN\x20GOAL\x20LINE','trim','background','RiSZX','_savedQbNeverThrow','div','offsetX','position:absolute','rgba(255,255,255,0.04)','406005dxAUdL','restore','opacity','RvgYW','vhCCl','twSUX','appendChild','CUWWD','uipnG','title','wbIGC','min','top:50%','gameModeBtn','interception','2nd','rgba(255,255,255,0.05)','\x0a\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:14px\x22>','jMKRh','⚠\x20Play-Namen\x20eingeben\x20bevor\x20speichern','MyjOR','WbwJS','gameBtnSlot','992845jqMjsT','text-align:left','dBbSK','transition:background\x200.13s','gameScoreboard','DDIle','score','getElementById','label','rgba(255,255,255,0.4)','map','possession','ikPnT','hXWWU','Unnamed\x20Play','yxroK','rgba(240,192,0,0.6)','BfBPg','moveTo','closeOutcomeOverlay','</span>\x0a\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:11px;color:rgba(240,240,242,0.3)\x22>','KtJVw','hkBVG','cssText','sbDownDist','ZKHkN','NFCcL','stroke','pOcqN','borderColor','split','yards','cXXrp','4th\x20&\x20','callPlayModal','lnlIH','speedMultiplier','iKlwZ','flex','Removed\x20\x22','length','</span>\x0a\x20\x20\x20\x20','touchdown','rgba(255,94,26,0.12)','rFVKN','routePoints','random','undefined','Klxgg','nHnlF','className','away','EhvBO','lineWidth','🏈\x20GAME','punt','CpNWO','\x0a\x20\x20\x20\x20<div\x20style=\x22display:flex;align-items:center;gap:16px;flex:1;min-width:0\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20id=\x22sbDownDist\x22\x20style=\x22font-size:16px;font-weight:700;color:#fff;white-space:nowrap\x22>1st\x20&amp;\x2010</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20id=\x22sbFieldPos\x22\x20style=\x22color:rgba(240,240,242,0.5);white-space:nowrap;font-size:13px\x22>Own\x2025</div>\x0a\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20<div\x20style=\x22display:flex;align-items:center;gap:16px;flex-shrink:0\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:right\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:10px;color:rgba(240,240,242,0.3);letter-spacing:1px\x22>HOME</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22sbScoreHome\x22\x20style=\x22font-size:22px;font-weight:700;color:#fff;line-height:1\x22>0</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:10px;color:rgba(240,240,242,0.3);letter-spacing:1px\x22>Q<span\x20id=\x22sbQuarter\x22>1</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22sbClock\x22\x20style=\x22font-size:13px;color:rgba(240,240,242,0.5)\x22>15:00</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:left\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:10px;color:rgba(240,240,242,0.3);letter-spacing:1px\x22>AWAY</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22sbScoreAway\x22\x20style=\x22font-size:22px;font-weight:700;color:rgba(240,240,242,0.5);line-height:1\x22>0</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20<div\x20style=\x22flex:1;display:flex;justify-content:flex-end\x22>\x0a\x20\x20\x20\x20\x20\x20<button\x20id=\x22callPlayBtn\x22\x20style=\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:rgba(255,94,26,0.15);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:1px\x20solid\x20rgba(255,94,26,0.5);\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:4px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:#ff5e1a;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x27Barlow\x20Condensed\x27,sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:13px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:600;\x0a\x20\x20\x20\x20\x20\x20\x20\x20letter-spacing:1px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:6px\x2014px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20white-space:nowrap;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:background\x200.15s;\x0a\x20\x20\x20\x20\x20\x20\x22\x20onmouseover=\x22this.style.background=\x27rgba(255,94,26,0.25)\x27\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20onmouseout=\x22this.style.background=\x27rgba(255,94,26,0.15)\x27\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20onclick=\x22openCallPlayModal()\x22>📋\x20CALL\x20PLAY</button>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20','yardLine','🏈\x20TOUCHDOWN!\x20HOME\x20','⬛\x20FIELD\x20GOAL\x20—\x20NO\x20GOOD!\x20(','\x20DOWN','display','QBHTg','onmouseover','jXJDd','getDate','display:flex','⚠\x20Erst\x20Sim\x20stoppen','transform:translateY(-50%)','fillRect','2764872EfUQaZ','etFSE','insertBefore','textContent','qMWdT','abpHj','style','\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:rgba(240,240,242,0.3);font-size:12px;padding:20px;text-align:center;line-height:1.7\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20No\x20plays\x20saved.<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20Draw\x20a\x20play\x20in\x20the\x20editor,\x20name\x20it,\x20then\x20click<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<b\x20style=\x22color:rgba(240,240,242,0.55)\x22>📋\x20PLAYBOOK</b>\x20to\x20save\x20it\x20here.\x0a\x20\x20\x20\x20\x20\x20</div>','fillText','UYJEN','OmIYI','1st','_savedIllegalFormationOn','rgba(255,255,255,0.3)','qHILX','position:relative;display:flex;align-items:center;gap:0;','✕\x20EXIT\x20GAME','fndGf','AfGhI','stopPropagation','name','Midfield\x20(50)','getMinutes','info','penalty','zsVsj','textAlign','\x20yds)','cursor:pointer','\x20beginnt','floor','gDVPj','rgba(255,255,255,0.35)','Out\x20of\x20field\x20goal\x20range','VoAig','font-family:\x27Barlow\x20Condensed\x27,sans-serif','onmouseout','TucCa','left','callPlayList','BBxXx','\x20—\x20','zpXsC','iWWMp','bold\x2010px\x20Barlow\x20Condensed','MEpMi','RRGfj','rerUI','shiftPoints','acqGr','VlNFv','function','stringify','quarter','mhdNe','#f0c000','hVXOm','line-height:1','QxDTH','Field\x20Goal\x20attempt','cpSituation','mzxUg','lbqSQ','Own\x20','📌\x20Turnover\x20on\x20Downs\x20—\x20','padStart','rgba(255,60,60,0.95)','⚠\x20Out\x20of\x20field\x20goal\x20range','jltSY','color','assignment','VMlPS','sbScoreAway','uBorB','eCjgY','1480812nIWFfk','pointer','panel-action-btn','yTuXt','success','right:6px','rgba(255,80,80,0.9)','setLineDash','XuygV','IDQvo','save','pJlQq'];_0x2efa=function(){return _0x81c93a;};return _0x2efa();}function getPlaybook(){const _0x40313b=_0xcf41c7;try{return JSON[_0x40313b(0x84)](localStorage[_0x40313b(0x88)](PLAYBOOK_KEY)||'[]');}catch{return[];}}function _buildCurrentPlayData(){const _0x1b84b8=_0xcf41c7,_0xddadbd={'RvgYW':_0x1b84b8(0x196),'uWISM':_0x1b84b8(0xc6)},_0x14c163=document['getElementById'](_0xddadbd[_0x1b84b8(0xa4)]),_0x5eee60=_0x14c163?.['value']?.[_0x1b84b8(0x99)]()||_0xddadbd[_0x1b84b8(0x189)];return{'name':_0x5eee60,'ball':{'x':ball['x'],'y':ball['y']},'motionOwnerId':motionOwnerId,'olineBlocks':Object[_0x1b84b8(0x15a)](OLINE_IDS[_0x1b84b8(0xc2)](_0x2ad6b7=>[_0x2ad6b7,{'blockPoints':olineData[_0x2ad6b7][_0x1b84b8(0x15f)],'important':olineData[_0x2ad6b7]['important'],'offsetX':olineData[_0x2ad6b7][_0x1b84b8(0x9e)]||0x0,'offsetY':olineData[_0x2ad6b7][_0x1b84b8(0x18f)]||0x0,'removed':!!olineData[_0x2ad6b7][_0x1b84b8(0x1a7)]}])),'players':players[_0x1b84b8(0xc2)](_0x26ff48=>({'id':_0x26ff48['id'],'type':_0x26ff48[_0x1b84b8(0x18a)],'label':_0x26ff48[_0x1b84b8(0xc0)],'x':_0x26ff48['x'],'y':_0x26ff48['y'],'origX':_0x26ff48['origX'],'origY':_0x26ff48['origY'],'important':_0x26ff48[_0x1b84b8(0x7e)],'routePoints':_0x26ff48[_0x1b84b8(0xe5)],'motionPoints':_0x26ff48['motionPoints'],'shiftPoints':_0x26ff48[_0x1b84b8(0x12f)],'blockPoints':_0x26ff48[_0x1b84b8(0x15f)],'routes':_0x26ff48[_0x1b84b8(0xe5)]})),'defensePlayers':defensePlayers[_0x1b84b8(0xc2)](_0x4fbc92=>({'id':_0x4fbc92['id'],'role':_0x4fbc92['role'],'x':_0x4fbc92['x'],'y':_0x4fbc92['y'],'origX':_0x4fbc92[_0x1b84b8(0x16f)],'origY':_0x4fbc92['origY'],'assignment':{..._0x4fbc92[_0x1b84b8(0x145)]},'speedMultiplier':_0x4fbc92[_0x1b84b8(0xdc)],'cbSpacing':_0x4fbc92['cbSpacing']||'normal','cbShade':_0x4fbc92['cbShade']||'normal','mirroredWRId':_0x4fbc92['mirroredWRId']??null})),'nextDefId':nextDefId};}function saveToPlaybook(){const _0x9d6cdc=_0xcf41c7,_0x3f5aed={'MVaWw':'sim','HoXkg':function(_0x52d8c9,_0x2bc99c,_0x30d49e){return _0x52d8c9(_0x2bc99c,_0x30d49e);},'jMKRh':_0x9d6cdc(0xfc),'KtJVw':function(_0x228403){return _0x228403();},'mhdNe':'error','tmiot':function(_0x2500ba,_0x9c7007){return _0x2500ba>=_0x9c7007;},'qyqOa':'⚠\x20Speichern\x20fehlgeschlagen\x20—\x20localStorage\x20voll','OPAeU':function(_0x4c3ac2,_0x57c665,_0x1ae628){return _0x4c3ac2(_0x57c665,_0x1ae628);}};if(mode===_0x3f5aed[_0x9d6cdc(0x1a1)]){_0x3f5aed[_0x9d6cdc(0x161)](showToast,_0x3f5aed[_0x9d6cdc(0xb3)],_0x9d6cdc(0x1cc));return;}const _0x3aaa46=_0x3f5aed[_0x9d6cdc(0xcd)](_buildCurrentPlayData),_0x19b40f=_0x3aaa46[_0x9d6cdc(0x113)];if(!_0x19b40f||_0x19b40f===_0x9d6cdc(0xc6)){showToast(_0x9d6cdc(0xb4),_0x3f5aed[_0x9d6cdc(0x135)]);return;}const _0x137752=_0x3f5aed['KtJVw'](getPlaybook),_0x139837=_0x137752[_0x9d6cdc(0x1b0)](_0x58e651=>_0x58e651[_0x9d6cdc(0x113)]===_0x19b40f),_0x41da0b={'name':_0x19b40f,'timestamp':Date[_0x9d6cdc(0x1b7)](),'data':_0x3aaa46};_0x3f5aed[_0x9d6cdc(0x16a)](_0x139837,0x0)?_0x137752[_0x139837]=_0x41da0b:_0x137752['push'](_0x41da0b);try{localStorage[_0x9d6cdc(0x156)](PLAYBOOK_KEY,JSON[_0x9d6cdc(0x133)](_0x137752));}catch(_0x9f8f33){showToast(_0x3f5aed['qyqOa'],_0x9d6cdc(0x1cc));return;}if(_0x3f5aed[_0x9d6cdc(0x16a)](_0x139837,0x0))showToast(_0x9d6cdc(0x95)+_0x19b40f+'\x22\x20in\x20Playbook',_0x9d6cdc(0x14e));else _0x3f5aed[_0x9d6cdc(0x1a3)](showToast,'\x22'+_0x19b40f+'\x22\x20→\x20Playbook',_0x9d6cdc(0x14e));_renderPlaybookModal();}function _injectGameUI(){const _0x514d6f=_0xcf41c7,_0x69e08={'Xolhf':_0x514d6f(0xb7),'AbdoU':_0x514d6f(0x14c),'FULXp':'🏈\x20GAME','IDQvo':'gameScoreboard','Ahpqe':'display:none','VyEex':_0x514d6f(0x171),'wckfF':'height:44px','TucCa':_0x514d6f(0x122),'FBjuW':_0x514d6f(0x1b2),'uipnG':_0x514d6f(0x183),'etFSE':_0x514d6f(0x9d),'KgSdY':'display:none;position:fixed;inset:0;z-index:8000;background:rgba(0,0,0,0.78);align-items:center;justify-content:center;','GeXSo':_0x514d6f(0x1ae),'RRGfj':'display:none;position:fixed;inset:0;z-index:8100;background:rgba(0,0,0,0.82);align-items:center;justify-content:center;'},_0x23ad52=document[_0x514d6f(0xbf)](_0x69e08['Xolhf']);if(_0x23ad52&&!document[_0x514d6f(0xbf)](_0x514d6f(0xae))){const _0x5b72d7=document[_0x514d6f(0x1b8)](_0x514d6f(0x1a8));_0x5b72d7[_0x514d6f(0xea)]=_0x69e08['AbdoU'],_0x5b72d7['id']=_0x514d6f(0xae),_0x5b72d7[_0x514d6f(0x102)]=_0x69e08[_0x514d6f(0x7b)],_0x5b72d7['title']=_0x514d6f(0x191),_0x5b72d7[_0x514d6f(0x185)]=toggleGameMode,_0x23ad52['appendChild'](_0x5b72d7);}const _0x5092ce=document[_0x514d6f(0x1b8)](_0x514d6f(0x9d));_0x5092ce['id']=_0x69e08[_0x514d6f(0x153)],_0x5092ce['style'][_0x514d6f(0xcf)]=[_0x69e08[_0x514d6f(0x18b)],_0x69e08[_0x514d6f(0x8a)],_0x514d6f(0x1c7),'padding:0\x2020px',_0x69e08[_0x514d6f(0x157)],'background:#0c0f14',_0x514d6f(0x1b9),_0x514d6f(0x8f),'gap:12px',_0x69e08[_0x514d6f(0x124)],_0x514d6f(0x187),_0x69e08['FBjuW']]['join'](';'),_0x5092ce['innerHTML']=_0x514d6f(0xf1);const _0x10ad5b=document[_0x514d6f(0x1bd)](_0x69e08[_0x514d6f(0xa9)]);if(_0x10ad5b)_0x10ad5b['parentNode'][_0x514d6f(0x101)](_0x5092ce,_0x10ad5b);const _0x58f404=document[_0x514d6f(0x1b8)](_0x69e08[_0x514d6f(0x100)]);_0x58f404['id']='callPlayModal',_0x58f404[_0x514d6f(0x105)][_0x514d6f(0xcf)]=_0x69e08['KgSdY'],_0x58f404[_0x514d6f(0x80)]='\x0a\x20\x20\x20\x20<div\x20style=\x22background:#16191f;border:1px\x20solid\x20rgba(255,94,26,0.35);border-radius:8px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:24px;min-width:300px;max-width:460px;width:90vw;max-height:75vh;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:flex;flex-direction:column;gap:14px;\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-family:\x27Barlow\x20Condensed\x27,sans-serif;font-size:19px;font-weight:700;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20letter-spacing:2px;color:#fff\x22>📋\x20PLAYBOOK</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:11px;color:rgba(240,240,242,0.4);margin-top:-6px\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20Situation:\x20<span\x20id=\x22cpSituation\x22>—</span>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20id=\x22callPlayList\x22\x20style=\x22overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:5px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-height:50vh;min-height:60px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;gap:8px;justify-content:flex-end;border-top:1px\x20solid\x20rgba(255,255,255,0.06);padding-top:12px\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22closeCallPlayModal()\x22\x20style=\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:transparent;border:1px\x20solid\x20rgba(255,255,255,0.12);border-radius:4px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:rgba(240,240,242,0.5);font-family:\x27Barlow\x20Condensed\x27,sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:13px;letter-spacing:1px;padding:6px\x2016px;cursor:pointer;\x22>CANCEL</button>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20',document['body'][_0x514d6f(0xa7)](_0x58f404);const _0x260262=document[_0x514d6f(0x1b8)](_0x514d6f(0x9d));_0x260262['id']=_0x69e08[_0x514d6f(0x15d)],_0x260262[_0x514d6f(0x105)][_0x514d6f(0xcf)]=_0x69e08[_0x514d6f(0x12d)],_0x260262[_0x514d6f(0x80)]='\x0a\x20\x20\x20\x20<div\x20style=\x22background:#16191f;border:1px\x20solid\x20rgba(255,220,50,0.4);border-radius:8px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:28px\x2032px;min-width:280px;display:flex;flex-direction:column;gap:18px;align-items:center\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-family:\x27Barlow\x20Condensed\x27,sans-serif;font-size:22px;font-weight:700;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20letter-spacing:2px;color:#ffe040;text-align:center\x22>⬡\x204TH\x20DOWN</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20id=\x22fourthDownSituation\x22\x20style=\x22font-size:13px;color:rgba(240,240,242,0.55);text-align:center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x204th\x20&amp;\x20—\x20—\x20Own\x20—\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;flex-direction:column;gap:9px;width:100%\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22fourthDownDecision(\x27go\x27)\x22\x20style=\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:100%;background:rgba(255,94,26,0.15);border:1px\x20solid\x20rgba(255,94,26,0.5);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:4px;color:#ff5e1a;font-family:\x27Barlow\x20Condensed\x27,sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:15px;font-weight:600;letter-spacing:1px;padding:9px;cursor:pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🏈\x20Go\x20For\x20It\x0a\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22fourthDownDecision(\x27punt\x27)\x22\x20style=\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:100%;background:rgba(255,255,255,0.04);border:1px\x20solid\x20rgba(255,255,255,0.12);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:4px;color:#f0f0f2;font-family:\x27Barlow\x20Condensed\x27,sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:15px;font-weight:600;letter-spacing:1px;padding:9px;cursor:pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20➡\x20Punt\x0a\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22fgBtn\x22\x20onclick=\x22fourthDownDecision(\x27fg\x27)\x22\x20style=\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:100%;background:rgba(255,255,255,0.04);border:1px\x20solid\x20rgba(255,255,255,0.12);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:4px;color:#f0f0f2;font-family:\x27Barlow\x20Condensed\x27,sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:15px;font-weight:600;letter-spacing:1px;padding:9px;cursor:pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⬛\x20Field\x20Goal\x0a\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20',document[_0x514d6f(0x1b3)]['appendChild'](_0x260262);}function toggleGameMode(){const _0x5ba0fa=_0xcf41c7,_0x146db4={'WbwJS':_0x5ba0fa(0xae),'MyjOR':_0x5ba0fa(0xbc),'XLcoj':_0x5ba0fa(0x10f),'PVfza':_0x5ba0fa(0xde),'bZXzl':function(_0x479180,_0x251ea2){return _0x479180===_0x251ea2;},'abpHj':function(_0x222088){return _0x222088();},'Klxgg':_0x5ba0fa(0x18e),'lbqSQ':function(_0x17689e,_0x577792){return _0x17689e!==_0x577792;},'CpNWO':function(_0x1a804c){return _0x1a804c();},'VlNFv':function(_0xdffbfa){return _0xdffbfa();},'QBHTg':_0x5ba0fa(0xee),'upffT':_0x5ba0fa(0x1b5),'dBbSK':_0x5ba0fa(0x132)};gameState[_0x5ba0fa(0x97)]=!gameState[_0x5ba0fa(0x97)];const _0x24d73a=document[_0x5ba0fa(0xbf)](_0x146db4[_0x5ba0fa(0xb6)]),_0x45133b=document[_0x5ba0fa(0xbf)](_0x146db4[_0x5ba0fa(0xb5)]),_0x5cd0f5=document[_0x5ba0fa(0xbf)](_0x5ba0fa(0x1cb));if(gameState['active']){gameState[_0x5ba0fa(0x9c)]=qbNeverThrow,gameState[_0x5ba0fa(0x10b)]=illegalFormationRulesOn,gameState[_0x5ba0fa(0x87)]=0x1,gameState[_0x5ba0fa(0x18d)]=0xa,gameState[_0x5ba0fa(0xf2)]=0x19,gameState[_0x5ba0fa(0x134)]=0x1,gameState[_0x5ba0fa(0xbe)]={'home':0x0,'away':0x0},gameState[_0x5ba0fa(0x1c0)]=0x384,gameState[_0x5ba0fa(0xc3)]=_0x5ba0fa(0x163);if(qbNeverThrow)toggleQBNeverThrow();if(!illegalFormationRulesOn)toggleIllegalFormationRules();_0x24d73a['textContent']=_0x146db4[_0x5ba0fa(0x15c)],_0x24d73a['style'][_0x5ba0fa(0xcf)]+=_0x5ba0fa(0x176);if(_0x45133b)_0x45133b[_0x5ba0fa(0x105)][_0x5ba0fa(0xf6)]=_0x146db4[_0x5ba0fa(0x1ad)];if(_0x5cd0f5)_0x5cd0f5['style'][_0x5ba0fa(0xf6)]='';updateScoreboard();if(_0x146db4[_0x5ba0fa(0x1ca)](typeof draw,'function'))_0x146db4[_0x5ba0fa(0x104)](draw);showToast(_0x146db4[_0x5ba0fa(0xe8)],_0x5ba0fa(0x116));}else{if(_0x146db4[_0x5ba0fa(0x13d)](qbNeverThrow,gameState[_0x5ba0fa(0x9c)]))_0x146db4[_0x5ba0fa(0xf0)](toggleQBNeverThrow);if(illegalFormationRulesOn!==gameState['_savedIllegalFormationOn'])_0x146db4[_0x5ba0fa(0x131)](toggleIllegalFormationRules);_0x24d73a[_0x5ba0fa(0x102)]=_0x146db4[_0x5ba0fa(0xf7)],_0x24d73a['style'][_0x5ba0fa(0x144)]='',_0x24d73a[_0x5ba0fa(0x105)][_0x5ba0fa(0xd5)]='';if(_0x45133b)_0x45133b[_0x5ba0fa(0x105)][_0x5ba0fa(0xf6)]=_0x146db4[_0x5ba0fa(0x169)];if(_0x5cd0f5)_0x5cd0f5[_0x5ba0fa(0x105)][_0x5ba0fa(0xf6)]=_0x5ba0fa(0x1b5);if(typeof draw===_0x146db4[_0x5ba0fa(0xba)])draw();}}function _ordinal(_0xa6b122){const _0x3e5c3b=_0xcf41c7,_0x2ac648={'MEpMi':_0x3e5c3b(0x173)};return['',_0x3e5c3b(0x10a),_0x3e5c3b(0xb0),_0x3e5c3b(0x7c),_0x2ac648[_0x3e5c3b(0x12c)]][_0xa6b122]||_0xa6b122+'th';}function _fieldPosStr(_0x38d7c3){const _0x4d9538=_0xcf41c7,_0x32d94b={'AhdQZ':function(_0x2e730c,_0x19de8b){return _0x2e730c>_0x19de8b;}};if(_0x38d7c3===0x32)return _0x4d9538(0x114);if(_0x32d94b[_0x4d9538(0x188)](_0x38d7c3,0x32))return _0x4d9538(0x177)+(0x64-_0x38d7c3);return _0x4d9538(0x13e)+_0x38d7c3;}function _0x547b(_0x45e99f,_0x42d7be){_0x45e99f=_0x45e99f-0x76;const _0x2efa46=_0x2efa();let _0x547b07=_0x2efa46[_0x45e99f];return _0x547b07;}function _clockStr(_0x57d294){const _0x55a7f7=_0xcf41c7,_0x208d42={'qHILX':function(_0x1ab553,_0x322f27){return _0x1ab553/_0x322f27;},'qgLby':function(_0x3f1c25,_0x16f2e6){return _0x3f1c25(_0x16f2e6);}},_0x36c38e=Math[_0x55a7f7(0x11d)](_0x208d42[_0x55a7f7(0x10d)](_0x57d294,0x3c)),_0x548b02=_0x57d294%0x3c;return _0x36c38e+':'+_0x208d42['qgLby'](String,_0x548b02)[_0x55a7f7(0x140)](0x2,'0');}function updateScoreboard(){const _0x2a084e=_0xcf41c7,_0x5e2119={'nxfCI':_0x2a084e(0xd0),'eqqRE':function(_0x378c1c,_0x4e73e9){return _0x378c1c(_0x4e73e9);},'CfnJY':_0x2a084e(0x1ac),'cXXrp':function(_0x403def,_0x3f7690){return _0x403def(_0x3f7690);},'AZMTl':'sbScoreHome','hVXOm':_0x2a084e(0x147),'BUSvn':function(_0x588de2,_0x3cef42){return _0x588de2(_0x3cef42);},'zsVsj':_0x2a084e(0x16b),'FGoUF':function(_0x53eb41,_0x4be3d1){return _0x53eb41(_0x4be3d1);},'DDIle':function(_0x4df89b,_0x18fc56){return _0x4df89b(_0x18fc56);}},_0x5e404a=gameState,_0x2598ed=_0x222e07=>document[_0x2a084e(0xbf)](_0x222e07),_0xeb69dc=_0x2598ed(_0x5e2119['nxfCI']),_0x289c3a=_0x5e2119[_0x2a084e(0x193)](_0x2598ed,_0x5e2119[_0x2a084e(0x1b4)]),_0x2634f3=_0x5e2119[_0x2a084e(0xd8)](_0x2598ed,_0x5e2119[_0x2a084e(0x82)]),_0x394360=_0x5e2119[_0x2a084e(0x193)](_0x2598ed,_0x5e2119[_0x2a084e(0x137)]),_0x54b2b2=_0x5e2119[_0x2a084e(0x17a)](_0x2598ed,_0x5e2119[_0x2a084e(0x118)]),_0x417741=_0x5e2119[_0x2a084e(0xd8)](_0x2598ed,_0x2a084e(0x1bc));if(_0xeb69dc)_0xeb69dc[_0x2a084e(0x102)]=_0x5e2119[_0x2a084e(0x178)](_ordinal,_0x5e404a['down'])+_0x2a084e(0x8c)+_0x5e404a[_0x2a084e(0x18d)];if(_0x289c3a)_0x289c3a['textContent']=_0x5e2119[_0x2a084e(0xbd)](_fieldPosStr,_0x5e404a[_0x2a084e(0xf2)]);if(_0x2634f3)_0x2634f3[_0x2a084e(0x102)]=_0x5e404a[_0x2a084e(0xbe)][_0x2a084e(0x163)];if(_0x394360)_0x394360[_0x2a084e(0x102)]=_0x5e404a[_0x2a084e(0xbe)][_0x2a084e(0xeb)];if(_0x54b2b2)_0x54b2b2['textContent']=_0x5e404a[_0x2a084e(0x134)];if(_0x417741)_0x417741[_0x2a084e(0x102)]=_clockStr(_0x5e404a[_0x2a084e(0x1c0)]);}function openCallPlayModal(){const _0x5a4787=_0xcf41c7,_0x269a80={'pQlbq':function(_0x1514ad,_0x44d547,_0x359b76){return _0x1514ad(_0x44d547,_0x359b76);},'wVehO':'⚠\x20Erst\x20Sim\x20stoppen','HtxzO':_0x5a4787(0x1cc),'sgdyk':_0x5a4787(0xda),'ikPnT':_0x5a4787(0x13b),'mzxUg':function(_0xe20a3a,_0xef9521){return _0xe20a3a(_0xef9521);},'QDmlX':function(_0x5b19a8,_0x953673){return _0x5b19a8(_0x953673);},'AfGhI':function(_0x30e11e){return _0x30e11e();},'twSUX':_0x5a4787(0xde)};if(mode===_0x5a4787(0x19e)){_0x269a80[_0x5a4787(0x1af)](showToast,_0x269a80[_0x5a4787(0x198)],_0x269a80['HtxzO']);return;}const _0x592971=document[_0x5a4787(0xbf)](_0x269a80['sgdyk']),_0x2ce9cc=document[_0x5a4787(0xbf)](_0x269a80[_0x5a4787(0xc4)]);_0x2ce9cc&&(_0x2ce9cc['textContent']=_0x269a80[_0x5a4787(0x13c)](_ordinal,gameState[_0x5a4787(0x87)])+_0x5a4787(0x8c)+gameState[_0x5a4787(0x18d)]+'\x20—\x20'+_0x269a80[_0x5a4787(0x1c2)](_fieldPosStr,gameState[_0x5a4787(0xf2)]));_0x269a80[_0x5a4787(0x111)](_renderPlaybookModal);if(_0x592971)_0x592971[_0x5a4787(0x105)][_0x5a4787(0xf6)]=_0x269a80[_0x5a4787(0xa6)];}function closeCallPlayModal(){const _0xf72be9=_0xcf41c7,_0x4bdffe=document[_0xf72be9(0xbf)]('callPlayModal');if(_0x4bdffe)_0x4bdffe['style'][_0xf72be9(0xf6)]=_0xf72be9(0x1b5);}function _renderPlaybookModal(){const _0x878e4=_0xcf41c7,_0x287c90={'UTGuO':_0x878e4(0x83),'ewxZk':_0x878e4(0x7a),'BfBPg':_0x878e4(0x10e),'VoAig':_0x878e4(0x76),'ZwEuj':'background:rgba(255,255,255,0.04)','RiSZX':_0x878e4(0x179),'hrHIn':_0x878e4(0x17b),'WEroH':_0x878e4(0x85),'uVvSa':_0x878e4(0x9f),'hXWWU':_0x878e4(0x14f),'eHKcp':_0x878e4(0xfd),'TbZug':_0x878e4(0x11b),'vtHOL':'font-size:13px','hoBtB':'transition:color\x200.13s'},_0x433bf4=document[_0x878e4(0xbf)](_0x878e4(0x126));if(!_0x433bf4)return;const _0x2ea1e5=getPlaybook();if(_0x2ea1e5[_0x878e4(0xe0)]===0x0){_0x433bf4['innerHTML']=_0x878e4(0x106);return;}_0x433bf4[_0x878e4(0x80)]='',_0x2ea1e5[_0x878e4(0x162)]((_0x39723a,_0x6b076c)=>{const _0x3101ee=_0x878e4,_0x2e4815=document[_0x3101ee(0x1b8)](_0x3101ee(0x9d));_0x2e4815[_0x3101ee(0x105)]['cssText']=_0x287c90[_0x3101ee(0xc9)];const _0x2d1218=document[_0x3101ee(0x1b8)]('button');_0x2d1218[_0x3101ee(0x105)][_0x3101ee(0xcf)]=[_0x287c90[_0x3101ee(0x121)],_0x3101ee(0xfb),_0x3101ee(0x171),_0x3101ee(0x1c7),_0x287c90['ZwEuj'],_0x287c90[_0x3101ee(0x9b)],_0x3101ee(0x1a5),_0x287c90[_0x3101ee(0x19a)],'color:#fff',_0x3101ee(0x11b),_0x3101ee(0xb9),_0x3101ee(0x122),_0x287c90[_0x3101ee(0x8b)],_0x3101ee(0x1b2),_0x3101ee(0xbb)][_0x3101ee(0x1a6)](';'),_0x2d1218[_0x3101ee(0xf8)]=()=>{const _0x34c392=_0x3101ee;_0x2d1218[_0x34c392(0x105)][_0x34c392(0x9a)]=_0x34c392(0xe3),_0x2d1218['style'][_0x34c392(0xd5)]='rgba(255,94,26,0.3)';},_0x2d1218[_0x3101ee(0x123)]=()=>{const _0x556cb1=_0x3101ee;_0x2d1218[_0x556cb1(0x105)][_0x556cb1(0x9a)]=_0x556cb1(0xa0),_0x2d1218[_0x556cb1(0x105)][_0x556cb1(0xd5)]=_0x287c90['UTGuO'];};const _0x36235a=new Date(_0x39723a['timestamp']),_0x11d7ff=_0x36235a[_0x3101ee(0x89)]()+0x1+'/'+_0x36235a[_0x3101ee(0xfa)]()+'\x20'+_0x36235a['getHours']()+':'+String(_0x36235a[_0x3101ee(0x115)]())[_0x3101ee(0x140)](0x2,'0');_0x2d1218[_0x3101ee(0x80)]=_0x3101ee(0xb2)+_0x39723a['name']+_0x3101ee(0xcc)+_0x11d7ff+_0x3101ee(0xe1),_0x2d1218['onclick']=()=>_callPlay(_0x39723a);const _0x32762a=document[_0x3101ee(0x1b8)](_0x3101ee(0x1a8));_0x32762a[_0x3101ee(0xaa)]=_0x3101ee(0x174),_0x32762a[_0x3101ee(0x102)]='✕',_0x32762a[_0x3101ee(0x105)][_0x3101ee(0xcf)]=[_0x287c90[_0x3101ee(0x199)],_0x287c90[_0x3101ee(0xc5)],_0x3101ee(0xad),_0x287c90['eHKcp'],'background:none',_0x3101ee(0x1b6),'color:rgba(240,240,242,0.22)',_0x287c90['TbZug'],_0x287c90[_0x3101ee(0x1c1)],_0x3101ee(0x1bf),_0x3101ee(0x138),_0x287c90[_0x3101ee(0x192)]]['join'](';'),_0x32762a[_0x3101ee(0xf8)]=()=>{const _0x5e390c=_0x3101ee;_0x32762a[_0x5e390c(0x105)]['color']=_0x5e390c(0x17e);},_0x32762a[_0x3101ee(0x123)]=()=>{const _0x9e7b80=_0x3101ee;_0x32762a['style'][_0x9e7b80(0x144)]=_0x287c90[_0x9e7b80(0x195)];},_0x32762a['onclick']=_0x57846f=>{const _0xc22c17=_0x3101ee;_0x57846f[_0xc22c17(0x112)](),_removeFromPlaybook(_0x6b076c);},_0x2e4815[_0x3101ee(0xa7)](_0x2d1218),_0x2e4815[_0x3101ee(0xa7)](_0x32762a),_0x433bf4[_0x3101ee(0xa7)](_0x2e4815);});}function _removeFromPlaybook(_0x534a39){const _0x56c71f=_0xcf41c7,_0x3fe63d={'XuygV':function(_0x55e227){return _0x55e227();},'BHrYn':function(_0x45c386,_0x17e6aa,_0x36463b){return _0x45c386(_0x17e6aa,_0x36463b);}},_0x51f370=_0x3fe63d[_0x56c71f(0x152)](getPlaybook),_0x38357a=_0x51f370['splice'](_0x534a39,0x1)[0x0];try{localStorage[_0x56c71f(0x156)](PLAYBOOK_KEY,JSON[_0x56c71f(0x133)](_0x51f370));}catch(_0x248bb8){_0x3fe63d[_0x56c71f(0x1b1)](showToast,'⚠\x20Löschen\x20konnte\x20nicht\x20gespeichert\x20werden',_0x56c71f(0x1cc));return;}if(_0x38357a)showToast(_0x56c71f(0xdf)+_0x38357a[_0x56c71f(0x113)]+'\x22\x20from\x20Playbook','info');_renderPlaybookModal();}function _callPlay(_0x38852a){const _0x353559=_0xcf41c7,_0x586916={'XewmB':function(_0x1d295c,_0x1d68b9,_0x537f27){return _0x1d295c(_0x1d68b9,_0x537f27);}};closeCallPlayModal(),applyLoadedPlayData(_0x38852a['data']),_0x586916[_0x353559(0x1bb)](showToast,'▶\x20'+_0x38852a['name']+'\x20geladen\x20—\x20▶\x20SIMULATE\x20drücken\x20zum\x20Snappen',_0x353559(0x116));}(function _hookOutcomeClose(){const _0x4e4761=_0xcf41c7,_0x12fd92={'ArHyu':function(_0x2cb92a){return _0x2cb92a();},'VPFex':_0x4e4761(0xe7),'ByBGp':function(_0xf6970a,_0x3be5b1){return _0xf6970a===_0x3be5b1;},'gktXP':'sim','rFVKN':function(_0x30cf98){return _0x30cf98();},'IYGys':_0x4e4761(0x132)};setTimeout(function(){const _0x5070e0=_0x4e4761,_0x4104d4=window['closeOutcomeOverlay'];if(typeof _0x4104d4!==_0x12fd92[_0x5070e0(0x19f)])return;window[_0x5070e0(0xcb)]=function(){const _0x16f2e9=_0x5070e0;_0x12fd92[_0x16f2e9(0x96)](_0x4104d4);if(gameState[_0x16f2e9(0x97)]&&typeof lastPlayOutcome!==_0x12fd92['VPFex']&&lastPlayOutcome){processGameOutcome(lastPlayOutcome);if(_0x12fd92[_0x16f2e9(0x94)](typeof stopSim,'function')&&mode===_0x12fd92[_0x16f2e9(0x168)])_0x12fd92[_0x16f2e9(0xe4)](stopSim);}};},0x0);}());function processGameOutcome(_0x1794e6){const _0x3e8e33=_0xcf41c7,_0x1877a6={'yTuXt':_0x3e8e33(0x117),'iKlwZ':function(_0x14e2c7,_0x4995d8){return _0x14e2c7-_0x4995d8;},'VUDVQ':function(_0x5093fd,_0x29273c){return _0x5093fd>_0x29273c;},'jXJDd':_0x3e8e33(0x1cc),'zpXsC':function(_0x43d3e5){return _0x43d3e5();},'VWvnk':function(_0x451cab,_0x49709c){return _0x451cab===_0x49709c;},'UYJEN':_0x3e8e33(0xaf),'DPGlH':function(_0x48e2f3,_0x4da303){return _0x48e2f3-_0x4da303;},'jmOsV':function(_0x4c5090,_0x9353a8){return _0x4c5090===_0x9353a8;},'uKVtR':function(_0xfef0d7,_0x296db3){return _0xfef0d7(_0x296db3);},'GPZAv':function(_0x3abd77){return _0x3abd77();},'wbIGC':function(_0x4293fb,_0x535398){return _0x4293fb===_0x535398;},'OueLM':function(_0x615936,_0x4e59db,_0x2bccc1){return _0x615936(_0x4e59db,_0x2bccc1);},'zreQL':_0x3e8e33(0x14e),'RFMvB':function(_0x41a974,_0x507c15){return _0x41a974>=_0x507c15;},'pOcqN':function(_0x11422f,_0x11e142,_0x5ede9f){return _0x11422f(_0x11e142,_0x5ede9f);},'FqLZs':function(_0x2ed942,_0x2e4edf){return _0x2ed942(_0x2e4edf);},'cTGdL':function(_0x2d5822,_0x4e64c5){return _0x2d5822===_0x4e64c5;},'UfBsJ':_0x3e8e33(0x163),'NFCcL':function(_0xb38ea2,_0x311d42,_0x2538a7){return _0xb38ea2(_0x311d42,_0x2538a7);}};if(!gameState['active'])return;const _0x2bb08d=gameState,_0x2cec45=_0x1794e6[_0x3e8e33(0xd7)]??0x0,_0x4ad579=_0x1794e6[_0x3e8e33(0x1a0)]??'incomplete';_0x2bb08d[_0x3e8e33(0x1c0)]=Math[_0x3e8e33(0x159)](0x0,_0x2bb08d[_0x3e8e33(0x1c0)]-0x23);if(_0x4ad579===_0x1877a6[_0x3e8e33(0x14d)]){const _0xa596c6=_0x1794e6[_0x3e8e33(0xd7)]??-0x5;_0x2bb08d[_0x3e8e33(0xf2)]=Math['max'](0x1,Math[_0x3e8e33(0xac)](0x63,_0x2bb08d['yardLine']+_0xa596c6)),_0x2bb08d[_0x3e8e33(0x18d)]=Math[_0x3e8e33(0x159)](0x1,_0x1877a6[_0x3e8e33(0xdd)](_0x2bb08d[_0x3e8e33(0x18d)],_0xa596c6)),showToast('⚑\x20PENALTY\x20—\x20'+(_0x1877a6[_0x3e8e33(0x165)](_0xa596c6,0x0)?'+':'')+_0xa596c6+'\x20yds',_0x1877a6[_0x3e8e33(0xf9)]),_0x1877a6[_0x3e8e33(0x129)](updateScoreboard);return;}if(_0x1877a6['VWvnk'](_0x4ad579,_0x1877a6[_0x3e8e33(0x108)])){const _0x5cff70=Math['max'](0xa,Math[_0x3e8e33(0xac)](0x5a,_0x1877a6[_0x3e8e33(0x1aa)](0x64,_0x2bb08d[_0x3e8e33(0xf2)])));_0x2bb08d['yardLine']=_0x5cff70,_0x2bb08d['down']=0x1,_0x2bb08d[_0x3e8e33(0x18d)]=0xa,_0x2bb08d['possession']=_0x1877a6[_0x3e8e33(0x1c3)](_0x2bb08d[_0x3e8e33(0xc3)],_0x3e8e33(0x163))?_0x3e8e33(0xeb):_0x3e8e33(0x163),showToast(_0x3e8e33(0x17f)+_0x1877a6[_0x3e8e33(0x172)](_fieldPosStr,_0x2bb08d[_0x3e8e33(0xf2)]),_0x1877a6[_0x3e8e33(0xf9)]),_0x1877a6[_0x3e8e33(0x19c)](updateScoreboard);return;}const _0x2355ba=_0x2bb08d[_0x3e8e33(0xf2)]+_0x2cec45;if(_0x1877a6[_0x3e8e33(0xab)](_0x4ad579,_0x3e8e33(0xe2))||_0x2355ba>=0x64){_0x2bb08d[_0x3e8e33(0xbe)][_0x3e8e33(0x163)]+=0x7,_0x1877a6['OueLM'](showToast,_0x3e8e33(0xf3)+_0x2bb08d[_0x3e8e33(0xbe)][_0x3e8e33(0x163)]+_0x3e8e33(0x1a4)+_0x2bb08d[_0x3e8e33(0xbe)][_0x3e8e33(0xeb)]+_0x3e8e33(0x17c),_0x1877a6[_0x3e8e33(0x167)]),_0x1877a6['GPZAv'](_advanceQuarterIfNeeded),_0x2bb08d['yardLine']=0x19,_0x2bb08d[_0x3e8e33(0x87)]=0x1,_0x2bb08d[_0x3e8e33(0x18d)]=0xa,_0x1877a6[_0x3e8e33(0x19c)](updateScoreboard);return;}_0x2bb08d[_0x3e8e33(0xf2)]=Math['max'](0x1,Math[_0x3e8e33(0xac)](0x63,_0x2355ba));if(_0x1877a6['RFMvB'](_0x2cec45,_0x2bb08d[_0x3e8e33(0x18d)]))_0x2bb08d[_0x3e8e33(0x87)]=0x1,_0x2bb08d[_0x3e8e33(0x18d)]=0xa,_0x1877a6[_0x3e8e33(0xd4)](showToast,_0x3e8e33(0x160)+_0x1877a6[_0x3e8e33(0x17d)](_fieldPosStr,_0x2bb08d[_0x3e8e33(0xf2)]),_0x1877a6[_0x3e8e33(0x167)]);else{_0x2bb08d[_0x3e8e33(0x87)]++,_0x2bb08d[_0x3e8e33(0x18d)]=Math['max'](0x1,_0x1877a6['DPGlH'](_0x2bb08d['distance'],_0x2cec45));if(_0x2bb08d['down']===0x4){_advanceQuarterIfNeeded(),_0x1877a6[_0x3e8e33(0x19c)](updateScoreboard),_0x1877a6[_0x3e8e33(0x19c)](_show4thDownModal);return;}_0x2bb08d[_0x3e8e33(0x87)]>0x4&&(_0x2bb08d[_0x3e8e33(0xf2)]=Math[_0x3e8e33(0x159)](0xa,Math['min'](0x5a,_0x1877a6[_0x3e8e33(0xdd)](0x64,_0x2bb08d[_0x3e8e33(0xf2)]))),_0x2bb08d[_0x3e8e33(0x87)]=0x1,_0x2bb08d[_0x3e8e33(0x18d)]=0xa,_0x2bb08d[_0x3e8e33(0xc3)]=_0x1877a6[_0x3e8e33(0x8d)](_0x2bb08d['possession'],_0x3e8e33(0x163))?_0x3e8e33(0xeb):_0x1877a6['UfBsJ'],_0x1877a6[_0x3e8e33(0xd2)](showToast,_0x3e8e33(0x13f)+_0x1877a6[_0x3e8e33(0x172)](_fieldPosStr,_0x2bb08d[_0x3e8e33(0xf2)]),_0x1877a6[_0x3e8e33(0xf9)]));}_advanceQuarterIfNeeded(),updateScoreboard();}function _advanceQuarterIfNeeded(){const _0x4a4dc4=_0xcf41c7,_0x347d29={'VFarm':function(_0x9232f2,_0x2d300e){return _0x9232f2<_0x2d300e;},'JzdHC':function(_0x1d423f,_0x544c18,_0x2c2159){return _0x1d423f(_0x544c18,_0x2c2159);},'tMuWX':_0x4a4dc4(0x116)};if(gameState[_0x4a4dc4(0x1c0)]>0x0)return;const _0x2bfe16=gameState;_0x347d29['VFarm'](_0x2bfe16[_0x4a4dc4(0x134)],0x4)?(_0x2bfe16['quarter']++,_0x2bfe16[_0x4a4dc4(0x1c0)]=0x384,showToast('Q'+_0x2bfe16[_0x4a4dc4(0x134)]+_0x4a4dc4(0x11c),_0x4a4dc4(0x116))):_0x347d29[_0x4a4dc4(0x18c)](showToast,'🏁\x20GAME\x20OVER\x20—\x20HOME\x20'+_0x2bfe16[_0x4a4dc4(0xbe)]['home']+_0x4a4dc4(0x170)+_0x2bfe16[_0x4a4dc4(0xbe)][_0x4a4dc4(0xeb)]+_0x4a4dc4(0x17c),_0x347d29[_0x4a4dc4(0x1c6)]);}function _show4thDownModal(){const _0xba7cc=_0xcf41c7,_0x3929d0={'KzyOS':_0xba7cc(0x19d),'hkBVG':function(_0x5b5971,_0x5e6e44){return _0x5b5971(_0x5e6e44);},'qMWdT':'0.4','lPDyE':_0xba7cc(0x14b),'rUNwI':_0xba7cc(0x120)},_0x3be6ae=document[_0xba7cc(0xbf)](_0xba7cc(0x1ae)),_0x56637b=document[_0xba7cc(0xbf)]('fourthDownSituation'),_0x196af9=document['getElementById'](_0x3929d0[_0xba7cc(0x8e)]);if(!_0x3be6ae)return;_0x56637b&&(_0x56637b[_0xba7cc(0x102)]=_0xba7cc(0xd9)+gameState[_0xba7cc(0x18d)]+_0xba7cc(0x128)+_0x3929d0[_0xba7cc(0xce)](_fieldPosStr,gameState[_0xba7cc(0xf2)]));if(_0x196af9){const _0xda1e1c=gameState[_0xba7cc(0xf2)]>=0x41;_0x196af9[_0xba7cc(0x105)][_0xba7cc(0xa3)]=_0xda1e1c?'1':_0x3929d0[_0xba7cc(0x103)],_0x196af9[_0xba7cc(0x105)][_0xba7cc(0x158)]=_0xda1e1c?_0x3929d0['lPDyE']:'not-allowed',_0x196af9['title']=_0xda1e1c?_0xba7cc(0x13a):_0x3929d0[_0xba7cc(0x1c8)];}_0x3be6ae[_0xba7cc(0x105)]['display']='flex';}function fourthDownDecision(_0x275c82){const _0xebd7f1=_0xcf41c7,_0x35a3ec={'jltSY':_0xebd7f1(0x1b5),'aORIc':function(_0x1ab4b7,_0x22d2a5){return _0x1ab4b7-_0x22d2a5;},'rNTBA':function(_0x44085a,_0x59a339){return _0x44085a+_0x59a339;},'yxroK':function(_0xdca296,_0x5d8013){return _0xdca296===_0x5d8013;},'noBIO':_0xebd7f1(0x163),'flwqI':_0xebd7f1(0xeb),'FszyI':function(_0x1e5503,_0x3f1065,_0x3f100c){return _0x1e5503(_0x3f1065,_0x3f100c);},'AaOpY':function(_0x241234,_0x4aed32){return _0x241234(_0x4aed32);},'sXmax':function(_0x42f4e2,_0x30d050){return _0x42f4e2>=_0x30d050;},'HTRwu':function(_0x1ad059,_0x30f1bc,_0x584d6c){return _0x1ad059(_0x30f1bc,_0x584d6c);},'ZKHkN':function(_0x2c61f8,_0x4a59ed){return _0x2c61f8+_0x4a59ed;},'eCjgY':function(_0x2ca355,_0x1311f4){return _0x2ca355-_0x1311f4;},'vhCCl':function(_0x5b3a72,_0x41a93a){return _0x5b3a72/_0x41a93a;},'eDCpI':function(_0x51032f,_0x26a92f){return _0x51032f<_0x26a92f;},'uBorB':_0xebd7f1(0x1cc)},_0x138a32=document[_0xebd7f1(0xbf)]('fourthDownModal');if(_0x138a32)_0x138a32[_0xebd7f1(0x105)][_0xebd7f1(0xf6)]=_0x35a3ec[_0xebd7f1(0x143)];const _0x510948=gameState;if(_0x275c82===_0xebd7f1(0xef)){const _0x52c6e3=0x2a,_0x1ec47e=Math[_0xebd7f1(0x159)](0xa,Math[_0xebd7f1(0xac)](0x5f,_0x35a3ec[_0xebd7f1(0x93)](0x64,_0x35a3ec['rNTBA'](_0x510948[_0xebd7f1(0xf2)],_0x52c6e3))));_0x510948[_0xebd7f1(0xf2)]=_0x1ec47e,_0x510948[_0xebd7f1(0x87)]=0x1,_0x510948[_0xebd7f1(0x18d)]=0xa,_0x510948[_0xebd7f1(0xc3)]=_0x35a3ec[_0xebd7f1(0xc7)](_0x510948['possession'],_0x35a3ec[_0xebd7f1(0x1c4)])?_0x35a3ec['flwqI']:_0xebd7f1(0x163),_0x35a3ec['FszyI'](showToast,'➡\x20PUNT\x20—\x20Opp\x20ball\x20on\x20'+_0x35a3ec['AaOpY'](_fieldPosStr,_0x510948[_0xebd7f1(0xf2)]),'info'),updateScoreboard();return;}if(_0x275c82==='fg'){const _0xb96761=_0x35a3ec[_0xebd7f1(0x180)](_0x510948[_0xebd7f1(0xf2)],0x41);if(!_0xb96761){_0x35a3ec[_0xebd7f1(0x16e)](showToast,_0xebd7f1(0x142),_0xebd7f1(0x1cc)),_show4thDownModal();return;}const _0xa26bbd=_0x35a3ec[_0xebd7f1(0xd1)](_0x35a3ec[_0xebd7f1(0x149)](0x64,_0x510948[_0xebd7f1(0xf2)]),0x11),_0x17faac=Math['max'](0.15,Math[_0xebd7f1(0xac)](0.97,_0x35a3ec['eCjgY'](1.1,_0x35a3ec[_0xebd7f1(0xa5)](_0xa26bbd,0x4b)))),_0x54a82e=_0x35a3ec['eDCpI'](Math[_0xebd7f1(0xe6)](),_0x17faac);_0x54a82e?(_0x510948[_0xebd7f1(0xbe)][_0xebd7f1(0x163)]+=0x3,showToast(_0xebd7f1(0x184)+_0xa26bbd+'\x20yds)\x20HOME\x20'+_0x510948[_0xebd7f1(0xbe)][_0xebd7f1(0x163)],'success')):showToast(_0xebd7f1(0xf4)+_0xa26bbd+_0xebd7f1(0x11a),_0x35a3ec[_0xebd7f1(0x148)]);_0x510948['yardLine']=0x50,_0x510948[_0xebd7f1(0x87)]=0x1,_0x510948[_0xebd7f1(0x18d)]=0xa,_0x510948[_0xebd7f1(0xc3)]=_0x510948['possession']===_0x35a3ec[_0xebd7f1(0x1c4)]?_0xebd7f1(0xeb):_0xebd7f1(0x163),updateScoreboard();return;}showToast(_0xebd7f1(0x1be),_0xebd7f1(0x116));}function getFieldYardLabels(){const _0x49a509=_0xcf41c7,_0xe97a6b={'Ghzxc':function(_0x2032dd,_0xfaaad6){return _0x2032dd<=_0xfaaad6;},'TiQWv':function(_0x5413b3,_0x4e1a9c){return _0x5413b3(_0x4e1a9c);}};if(!gameState[_0x49a509(0x97)])return{0x0:'50',0xa:'40',0x14:'30',0x1e:'20'};const _0x1fad29={};for(let _0xd462a9=-0xf;_0xd462a9<=0x23;_0xd462a9++){const _0x4b854d=gameState['yardLine']+_0xd462a9;if(_0x4b854d%0xa!==0x0)continue;if(_0xe97a6b[_0x49a509(0x81)](_0x4b854d,0x0)||_0x4b854d>=0x64)continue;const _0x164aeb=_0x4b854d<=0x32?_0x4b854d:0x64-_0x4b854d;_0x1fad29[_0xd462a9]=_0xe97a6b['TiQWv'](String,_0x164aeb);}return _0x1fad29;}function _drawGameOverlays(){const _0x1e3ab6=_0xcf41c7,_0x43130b={'lpfuZ':function(_0x29ae08){return _0x29ae08();},'CUWWD':function(_0x31c802,_0x196a43){return _0x31c802-_0x196a43;},'cdCNK':function(_0x31e659,_0x296204){return _0x31e659+_0x296204;},'cxcgJ':function(_0x10a038,_0x20742b){return _0x10a038*_0x20742b;},'BBxXx':function(_0xbd680e,_0xe2e99e){return _0xbd680e*_0xe2e99e;},'lnlIH':function(_0xf8523c,_0x393bec){return _0xf8523c>_0x393bec;},'QxDTH':function(_0x35cf49,_0x3310b4){return _0x35cf49<_0x3310b4;},'WEIso':function(_0x432805,_0x31e9bc){return _0x432805<_0x31e9bc;},'ecTFZ':_0x1e3ab6(0xc8),'gDVPj':_0x1e3ab6(0x12b),'TvAXf':function(_0x45ba09,_0x22d34c){return _0x45ba09+_0x22d34c;},'KQmGg':_0x1e3ab6(0xf5),'iWWMp':function(_0xd5551,_0x9940f9){return _0xd5551<_0x9940f9;},'nHnlF':_0x1e3ab6(0x16c),'acqGr':'rgba(255,60,60,0.5)','AELFy':function(_0x1dc72b,_0x52fa43){return _0x1dc72b>_0x52fa43;},'rerUI':function(_0x199021,_0x3a46ef){return _0x199021<_0x3a46ef;},'VMlPS':_0x1e3ab6(0x10c),'IXmhv':function(_0x121335,_0x142c07){return _0x121335<_0x142c07;},'wqFvf':_0x1e3ab6(0x11f),'YYHBs':_0x1e3ab6(0x125),'ymqUe':function(_0x68ca12,_0x197055){return _0x68ca12>_0x197055;},'EJVOs':function(_0x2bcb16,_0x28cf61){return _0x2bcb16-_0x28cf61;},'OmIYI':function(_0x4afe3f,_0x34f0b2){return _0x4afe3f/_0x34f0b2;},'yBZky':function(_0xde00da,_0x3f5c97){return _0xde00da-_0x3f5c97;}};if(!gameState[_0x1e3ab6(0x97)])return;const _0x153bda=gameState,_0x3e0d7c=_0x43130b['lpfuZ'](LOS_Y),_0x2a635b=0x64-_0x153bda[_0x1e3ab6(0xf2)],_0x65ca88=_0x3e0d7c-_0x2a635b*YARD_PX,_0x100936=_0x43130b[_0x1e3ab6(0xa8)](_0x65ca88,0xa*YARD_PX),_0x30187b=_0x43130b[_0x1e3ab6(0x16d)](_0x3e0d7c,_0x43130b['cxcgJ'](_0x153bda[_0x1e3ab6(0xf2)],YARD_PX)),_0xb48b8a=_0x30187b+_0x43130b[_0x1e3ab6(0x127)](0xa,YARD_PX);ctx[_0x1e3ab6(0x154)](),ctx[_0x1e3ab6(0x175)]=_0x1e3ab6(0x1c5);if(_0x43130b['lnlIH'](_0x100936,0x0))ctx[_0x1e3ab6(0xfe)](0x0,0x0,canvas[_0x1e3ab6(0x182)],_0x100936);if(_0x43130b[_0x1e3ab6(0x139)](_0xb48b8a,canvas[_0x1e3ab6(0x186)]))ctx[_0x1e3ab6(0xfe)](0x0,_0xb48b8a,canvas[_0x1e3ab6(0x182)],_0x43130b['CUWWD'](canvas[_0x1e3ab6(0x186)],_0xb48b8a));ctx[_0x1e3ab6(0xa2)]();const _0x3f09d1=_0x43130b[_0x1e3ab6(0xa8)](_0x3e0d7c,_0x153bda['distance']*YARD_PX);_0x3f09d1>0x0&&_0x43130b[_0x1e3ab6(0x77)](_0x3f09d1,canvas['height'])&&(ctx[_0x1e3ab6(0x154)](),ctx['strokeStyle']=_0x1e3ab6(0x136),ctx['lineWidth']=0x3,ctx[_0x1e3ab6(0x151)]([]),ctx[_0x1e3ab6(0x15b)]=_0x43130b['ecTFZ'],ctx['shadowBlur']=0x6,ctx[_0x1e3ab6(0x164)](),ctx[_0x1e3ab6(0xca)](0x0,_0x3f09d1),ctx['lineTo'](canvas[_0x1e3ab6(0x182)],_0x3f09d1),ctx['stroke'](),ctx[_0x1e3ab6(0x19b)]=0x0,ctx['fillStyle']=_0x1e3ab6(0x136),ctx[_0x1e3ab6(0x190)]=_0x43130b[_0x1e3ab6(0x11e)],ctx[_0x1e3ab6(0x119)]=_0x1e3ab6(0x194),ctx[_0x1e3ab6(0x107)](_0x43130b[_0x1e3ab6(0x78)](_ordinal(_0x153bda[_0x1e3ab6(0x87)])[_0x1e3ab6(0x1ba)](),_0x43130b['KQmGg']),_0x43130b[_0x1e3ab6(0xa8)](canvas[_0x1e3ab6(0x182)],0x6),_0x3f09d1-0x4),ctx[_0x1e3ab6(0xa2)]());if(_0x65ca88>-0x2&&_0x43130b[_0x1e3ab6(0x12a)](_0x65ca88,_0x43130b[_0x1e3ab6(0x16d)](canvas['height'],0x2))){const _0x356bf7=_0x43130b[_0x1e3ab6(0xe9)][_0x1e3ab6(0xd6)]('|');let _0x5004ce=0x0;while(!![]){switch(_0x356bf7[_0x5004ce++]){case'0':ctx[_0x1e3ab6(0x154)]();continue;case'1':ctx[_0x1e3ab6(0x175)]=_0x1e3ab6(0x150);continue;case'2':ctx[_0x1e3ab6(0x19b)]=0x0;continue;case'3':ctx[_0x1e3ab6(0x92)]=_0x1e3ab6(0x141);continue;case'4':ctx['stroke']();continue;case'5':ctx[_0x1e3ab6(0xed)]=0x3;continue;case'6':ctx[_0x1e3ab6(0x119)]='left';continue;case'7':ctx[_0x1e3ab6(0x19b)]=0x8;continue;case'8':ctx['shadowColor']=_0x43130b[_0x1e3ab6(0x130)];continue;case'9':ctx[_0x1e3ab6(0x164)]();continue;case'10':ctx['moveTo'](0x0,_0x65ca88);continue;case'11':ctx[_0x1e3ab6(0x1c9)](canvas[_0x1e3ab6(0x182)],_0x65ca88);continue;case'12':ctx[_0x1e3ab6(0xa2)]();continue;case'13':ctx[_0x1e3ab6(0x190)]=_0x1e3ab6(0x12b);continue;case'14':ctx[_0x1e3ab6(0x107)]('GOAL\x20LINE',0x6,_0x65ca88-0x4);continue;}break;}}const _0xa36bc8=Math[_0x1e3ab6(0x159)](0x0,_0x100936),_0x5a629c=Math['min'](canvas[_0x1e3ab6(0x186)],_0x65ca88);_0x5a629c>_0xa36bc8&&(ctx[_0x1e3ab6(0x154)](),ctx[_0x1e3ab6(0x175)]=_0x1e3ab6(0x181),ctx[_0x1e3ab6(0xfe)](0x0,_0xa36bc8,canvas[_0x1e3ab6(0x182)],_0x5a629c-_0xa36bc8),ctx['restore']());if(_0x43130b[_0x1e3ab6(0x1a9)](_0x100936,-0x2)&&_0x43130b[_0x1e3ab6(0x12e)](_0x100936,_0x43130b[_0x1e3ab6(0x78)](canvas['height'],0x2))){const _0x765932='8|4|3|5|1|7|6|0|9|2'[_0x1e3ab6(0xd6)]('|');let _0x33007b=0x0;while(!![]){switch(_0x765932[_0x33007b++]){case'0':ctx[_0x1e3ab6(0xd3)]();continue;case'1':ctx[_0x1e3ab6(0x164)]();continue;case'2':ctx[_0x1e3ab6(0xa2)]();continue;case'3':ctx[_0x1e3ab6(0xed)]=1.5;continue;case'4':ctx[_0x1e3ab6(0x92)]=_0x43130b[_0x1e3ab6(0x146)];continue;case'5':ctx[_0x1e3ab6(0x151)]([0x4,0x4]);continue;case'6':ctx[_0x1e3ab6(0x1c9)](canvas[_0x1e3ab6(0x182)],_0x100936);continue;case'7':ctx[_0x1e3ab6(0xca)](0x0,_0x100936);continue;case'8':ctx[_0x1e3ab6(0x154)]();continue;case'9':ctx[_0x1e3ab6(0x151)]([]);continue;}break;}}_0x43130b[_0x1e3ab6(0xdb)](_0x30187b,-0x2)&&_0x43130b['IXmhv'](_0x30187b,canvas['height']+0x2)&&(ctx[_0x1e3ab6(0x154)](),ctx[_0x1e3ab6(0x92)]=_0x1e3ab6(0xc1),ctx[_0x1e3ab6(0xed)]=0x2,ctx[_0x1e3ab6(0x151)]([0x6,0x4]),ctx[_0x1e3ab6(0x164)](),ctx[_0x1e3ab6(0xca)](0x0,_0x30187b),ctx[_0x1e3ab6(0x1c9)](canvas[_0x1e3ab6(0x182)],_0x30187b),ctx[_0x1e3ab6(0xd3)](),ctx[_0x1e3ab6(0x151)]([]),ctx[_0x1e3ab6(0x175)]=_0x43130b[_0x1e3ab6(0x197)],ctx[_0x1e3ab6(0x190)]=_0x43130b[_0x1e3ab6(0x11e)],ctx['textAlign']=_0x43130b[_0x1e3ab6(0x166)],ctx[_0x1e3ab6(0x107)](_0x1e3ab6(0x98),0x6,_0x30187b+0xc),ctx[_0x1e3ab6(0xa2)]());const _0x3425d9=Math['max'](0x0,_0x30187b),_0x592b21=Math[_0x1e3ab6(0xac)](canvas[_0x1e3ab6(0x186)],_0xb48b8a);_0x43130b[_0x1e3ab6(0x86)](_0x592b21,_0x3425d9)&&(ctx['save'](),ctx[_0x1e3ab6(0x175)]=_0x1e3ab6(0xb1),ctx[_0x1e3ab6(0xfe)](0x0,_0x3425d9,canvas['width'],_0x43130b['EJVOs'](_0x592b21,_0x3425d9)),ctx[_0x1e3ab6(0xa2)]());if(_0x153bda[_0x1e3ab6(0xf2)]>=0x50){const _0x242c1=_0x43130b['cdCNK'](0.03,_0x43130b['BBxXx'](_0x43130b[_0x1e3ab6(0x109)](_0x43130b[_0x1e3ab6(0xa8)](_0x153bda[_0x1e3ab6(0xf2)],0x50),0x14),0.05));ctx[_0x1e3ab6(0x154)](),ctx[_0x1e3ab6(0x175)]='rgba(255,40,40,'+_0x242c1[_0x1e3ab6(0x79)](0x2)+')';const _0x5912f5=Math[_0x1e3ab6(0x159)](0x0,_0x65ca88);ctx[_0x1e3ab6(0xfe)](0x0,_0x5912f5,canvas[_0x1e3ab6(0x182)],_0x43130b[_0x1e3ab6(0x7d)](_0x3e0d7c,_0x5912f5)),ctx[_0x1e3ab6(0xa2)]();}}(function _wrapDraw(){const _0x1e6116=_0xcf41c7,_0x273145={'EhvBO':function(_0xee3053,_0x4ed0de){return _0xee3053!==_0x4ed0de;},'qfTMg':function(_0x2e2453,_0x30866c,_0x3ededc){return _0x2e2453(_0x30866c,_0x3ededc);}};_0x273145[_0x1e6116(0x7f)](setTimeout,function(){const _0x4cffc8=_0x1e6116,_0xef4766=window[_0x4cffc8(0x91)];if(_0x273145[_0x4cffc8(0xec)](typeof _0xef4766,_0x4cffc8(0x132)))return;window[_0x4cffc8(0x91)]=function(){const _0x330bbe=_0x4cffc8;_0xef4766[_0x330bbe(0x1a2)](this,arguments),_drawGameOverlays();};},0x0);}());const _origProcessGameOutcome=processGameOutcome;processGameOutcome=function(_0x3dcde3){const _0x44c1bf=_0xcf41c7,_0x47f727={'fndGf':function(_0x13fe4f,_0x5a03ca){return _0x13fe4f===_0x5a03ca;},'pJlQq':_0x44c1bf(0x132)};_origProcessGameOutcome(_0x3dcde3);if(_0x47f727[_0x44c1bf(0x110)](typeof draw,_0x47f727[_0x44c1bf(0x155)]))draw();},_injectGameUI();
+// ===================================================================
+// 13_GAME_ENGINE.JS — OC Game Mode
+// ===================================================================
+// Rein additiv — kein bestehender Code wird angefasst.
+// Lädt nach 11_gif_export.js in index.html.
+//
+// Globale Abhängigkeiten (aus anderen Dateien):
+//   ball, players, defensePlayers, OLINE_IDS, olineData
+//   motionOwnerId, nextDefId, mode
+//   applyLoadedPlayData(), showToast(), lastPlayOutcome
+//   closeOutcomeOverlay()
+// ===================================================================
+
+// ── Game State ───────────────────────────────────────────────────────
+
+let gameState = {
+  down:       1,
+  distance:   10,
+  yardLine:   25,     // 0 = eigene Endzone, 100 = Gegner-Endzone
+  quarter:    1,
+  score:      { home: 0, away: 0 },
+  clock:      900,    // 15 min in Sekunden
+  active:     false,
+  possession: 'home',
+};
+
+// ── LocalStorage Playbook ────────────────────────────────────────────
+
+const PLAYBOOK_KEY = 'kardiron_playbook';
+
+function getPlaybook() {
+  try { return JSON.parse(localStorage.getItem(PLAYBOOK_KEY) || '[]'); }
+  catch { return []; }
+}
+
+function _buildCurrentPlayData() {
+  const nameInput = document.getElementById('playNameInput');
+  const name = nameInput?.value?.trim() || 'Unnamed Play';
+  return {
+    name,
+    ball: { x: ball.x, y: ball.y },
+    motionOwnerId,
+    olineBlocks: Object.fromEntries(
+      OLINE_IDS.map(id => [id, {
+        blockPoints: olineData[id].blockPoints,
+        important:   olineData[id].important,
+        offsetX:     olineData[id].offsetX || 0,
+        offsetY:     olineData[id].offsetY || 0,
+        removed:     !!olineData[id].removed,
+      }])
+    ),
+    players: players.map(p => ({
+      id: p.id, type: p.type, label: p.label,
+      x: p.x, y: p.y, origX: p.origX, origY: p.origY,
+      important:    p.important,
+      routePoints:  p.routePoints,
+      motionPoints: p.motionPoints,
+      shiftPoints:  p.shiftPoints,
+      blockPoints:  p.blockPoints,
+      routes:       p.routePoints,
+    })),
+    defensePlayers: defensePlayers.map(d => ({
+      id: d.id, role: d.role, x: d.x, y: d.y,
+      origX: d.origX, origY: d.origY,
+      assignment: { ...d.assignment },
+      speedMultiplier: d.speedMultiplier,
+      cbSpacing: d.cbSpacing || 'normal',
+      cbShade:   d.cbShade   || 'normal',
+      mirroredWRId: d.mirroredWRId ?? null,
+    })),
+    nextDefId,
+  };
+}
+
+function saveToPlaybook() {
+  if (mode === 'sim') { showToast('⚠ Erst Sim stoppen', 'error'); return; }
+  const data = _buildCurrentPlayData();
+  const name = data.name;
+  if (!name || name === 'Unnamed Play') {
+    showToast('⚠ Play-Namen eingeben bevor speichern', 'error'); return;
+  }
+  const playbook = getPlaybook();
+  const existingIdx = playbook.findIndex(p => p.name === name);
+  const entry = { name, timestamp: Date.now(), data };
+
+  if (existingIdx >= 0) {
+    playbook[existingIdx] = entry;
+  } else {
+    playbook.push(entry);
+  }
+
+  try {
+    localStorage.setItem(PLAYBOOK_KEY, JSON.stringify(playbook));
+  } catch (e) {
+    showToast('⚠ Speichern fehlgeschlagen — localStorage voll', 'error');
+    return;
+  }
+  if (existingIdx >= 0) showToast(`Updated "${name}" in Playbook`, 'success');
+  else                  showToast(`"${name}" → Playbook`, 'success');
+  _renderPlaybookModal();
+}
+
+// ── UI-Injection ─────────────────────────────────────────────────────
+
+function _injectGameUI() {
+  // 1. GAME button → offense panel (under the QB throws / formation toggles).
+  //    PLAYBOOK now lives in the header SAVE ▾ dropdown (calls saveToPlaybook directly).
+  const gameSlot = document.getElementById('gameBtnSlot');
+  if (gameSlot && !document.getElementById('gameModeBtn')) {
+    const gameModeBtn = document.createElement('button');
+    gameModeBtn.className = 'panel-action-btn';
+    gameModeBtn.id = 'gameModeBtn';
+    gameModeBtn.textContent = '🏈 GAME';
+    gameModeBtn.title = 'Toggle OC Game Mode';
+    gameModeBtn.onclick = toggleGameMode;
+    gameSlot.appendChild(gameModeBtn);
+  }
+
+  // 2. Scoreboard-Bar (zwischen header und .main)
+  const scoreboard = document.createElement('div');
+  scoreboard.id = 'gameScoreboard';
+  scoreboard.style.cssText = [
+    'display:none',
+    'align-items:center',
+    'justify-content:space-between',
+    'padding:0 20px',
+    'height:44px',
+    'background:#0c0f14',
+    'border-bottom:1px solid rgba(255,94,26,0.3)',
+    'flex-shrink:0',
+    'gap:12px',
+    "font-family:'Barlow Condensed',sans-serif",
+    'font-size:13px',
+    'letter-spacing:0.5px',
+  ].join(';');
+
+  scoreboard.innerHTML = `
+    <div style="display:flex;align-items:center;gap:16px;flex:1;min-width:0">
+      <div id="sbDownDist" style="font-size:16px;font-weight:700;color:#fff;white-space:nowrap">1st &amp; 10</div>
+      <div id="sbFieldPos" style="color:rgba(240,240,242,0.5);white-space:nowrap;font-size:13px">Own 25</div>
+    </div>
+
+    <div style="display:flex;align-items:center;gap:16px;flex-shrink:0">
+      <div style="text-align:right">
+        <div style="font-size:10px;color:rgba(240,240,242,0.3);letter-spacing:1px">HOME</div>
+        <div id="sbScoreHome" style="font-size:22px;font-weight:700;color:#fff;line-height:1">0</div>
+      </div>
+      <div style="text-align:center">
+        <div style="font-size:10px;color:rgba(240,240,242,0.3);letter-spacing:1px">Q<span id="sbQuarter">1</span></div>
+        <div id="sbClock" style="font-size:13px;color:rgba(240,240,242,0.5)">15:00</div>
+      </div>
+      <div style="text-align:left">
+        <div style="font-size:10px;color:rgba(240,240,242,0.3);letter-spacing:1px">AWAY</div>
+        <div id="sbScoreAway" style="font-size:22px;font-weight:700;color:rgba(240,240,242,0.5);line-height:1">0</div>
+      </div>
+    </div>
+
+    <div style="flex:1;display:flex;justify-content:flex-end">
+      <button id="callPlayBtn" style="
+        display:none;
+        background:rgba(255,94,26,0.15);
+        border:1px solid rgba(255,94,26,0.5);
+        border-radius:4px;
+        color:#ff5e1a;
+        font-family:'Barlow Condensed',sans-serif;
+        font-size:13px;
+        font-weight:600;
+        letter-spacing:1px;
+        padding:6px 14px;
+        cursor:pointer;
+        white-space:nowrap;
+        transition:background 0.15s;
+      " onmouseover="this.style.background='rgba(255,94,26,0.25)'"
+         onmouseout="this.style.background='rgba(255,94,26,0.15)'"
+         onclick="openCallPlayModal()">📋 CALL PLAY</button>
+    </div>
+  `;
+
+  const mainEl = document.querySelector('.main');
+  if (mainEl) mainEl.parentNode.insertBefore(scoreboard, mainEl);
+
+  // 3. Call Play Modal
+  const callPlayModal = document.createElement('div');
+  callPlayModal.id = 'callPlayModal';
+  callPlayModal.style.cssText = 'display:none;position:fixed;inset:0;z-index:8000;background:rgba(0,0,0,0.78);align-items:center;justify-content:center;';
+  callPlayModal.innerHTML = `
+    <div style="background:#16191f;border:1px solid rgba(255,94,26,0.35);border-radius:8px;
+                padding:24px;min-width:300px;max-width:460px;width:90vw;max-height:75vh;
+                display:flex;flex-direction:column;gap:14px;">
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:19px;font-weight:700;
+                  letter-spacing:2px;color:#fff">📋 PLAYBOOK</div>
+      <div style="font-size:11px;color:rgba(240,240,242,0.4);margin-top:-6px">
+        Situation: <span id="cpSituation">—</span>
+      </div>
+      <div id="callPlayList" style="overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:5px;
+                                    max-height:50vh;min-height:60px;"></div>
+      <div style="display:flex;gap:8px;justify-content:flex-end;border-top:1px solid rgba(255,255,255,0.06);padding-top:12px">
+        <button onclick="closeCallPlayModal()" style="
+          background:transparent;border:1px solid rgba(255,255,255,0.12);border-radius:4px;
+          color:rgba(240,240,242,0.5);font-family:'Barlow Condensed',sans-serif;
+          font-size:13px;letter-spacing:1px;padding:6px 16px;cursor:pointer;">CANCEL</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(callPlayModal);
+
+  // 4. 4th Down Decision Modal
+  const fourthDownModal = document.createElement('div');
+  fourthDownModal.id = 'fourthDownModal';
+  fourthDownModal.style.cssText = 'display:none;position:fixed;inset:0;z-index:8100;background:rgba(0,0,0,0.82);align-items:center;justify-content:center;';
+  fourthDownModal.innerHTML = `
+    <div style="background:#16191f;border:1px solid rgba(255,220,50,0.4);border-radius:8px;
+                padding:28px 32px;min-width:280px;display:flex;flex-direction:column;gap:18px;align-items:center">
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;
+                  letter-spacing:2px;color:#ffe040;text-align:center">⬡ 4TH DOWN</div>
+      <div id="fourthDownSituation" style="font-size:13px;color:rgba(240,240,242,0.55);text-align:center">
+        4th &amp; — — Own —
+      </div>
+      <div style="display:flex;flex-direction:column;gap:9px;width:100%">
+        <button onclick="fourthDownDecision('go')" style="
+          width:100%;background:rgba(255,94,26,0.15);border:1px solid rgba(255,94,26,0.5);
+          border-radius:4px;color:#ff5e1a;font-family:'Barlow Condensed',sans-serif;
+          font-size:15px;font-weight:600;letter-spacing:1px;padding:9px;cursor:pointer;">
+          🏈 Go For It
+        </button>
+        <button onclick="fourthDownDecision('punt')" style="
+          width:100%;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);
+          border-radius:4px;color:#f0f0f2;font-family:'Barlow Condensed',sans-serif;
+          font-size:15px;font-weight:600;letter-spacing:1px;padding:9px;cursor:pointer;">
+          ➡ Punt
+        </button>
+        <button id="fgBtn" onclick="fourthDownDecision('fg')" style="
+          width:100%;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);
+          border-radius:4px;color:#f0f0f2;font-family:'Barlow Condensed',sans-serif;
+          font-size:15px;font-weight:600;letter-spacing:1px;padding:9px;cursor:pointer;">
+          ⬛ Field Goal
+        </button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(fourthDownModal);
+}
+
+// ── Game Mode Toggle ─────────────────────────────────────────────────
+
+function toggleGameMode() {
+  gameState.active = !gameState.active;
+  const btn        = document.getElementById('gameModeBtn');
+  const scoreboard = document.getElementById('gameScoreboard');
+  const callPlayBtn = document.getElementById('callPlayBtn');
+
+  if (gameState.active) {
+    // Vorherigen Toggle-State sichern bevor wir ihn überschreiben
+    gameState._savedQbNeverThrow        = qbNeverThrow;
+    gameState._savedIllegalFormationOn  = illegalFormationRulesOn;
+
+    // Neues Spiel initialisieren
+    gameState.down       = 1;
+    gameState.distance   = 10;
+    gameState.yardLine   = 25;
+    gameState.quarter    = 1;
+    gameState.score      = { home: 0, away: 0 };
+    gameState.clock      = 900;
+    gameState.possession = 'home';
+
+    // QB throws ON erzwingen (qbNeverThrow = false bedeutet "throws ON")
+    if (qbNeverThrow) toggleQBNeverThrow();
+    // Illegal Formation Rules ON erzwingen
+    if (!illegalFormationRulesOn) toggleIllegalFormationRules();
+
+    btn.textContent = '✕ EXIT GAME';
+    btn.style.cssText += ';color:#ff5e1a;border-color:rgba(255,94,26,0.5);';
+    if (scoreboard)   scoreboard.style.display = 'flex';
+    if (callPlayBtn)  callPlayBtn.style.display = '';
+    updateScoreboard();
+    if (typeof draw === 'function') draw();
+    showToast('🏈 Game Mode — 1st & 10, Own 25. Call your first play!', 'info');
+  } else {
+    // Vorherigen State wiederherstellen
+    if (qbNeverThrow !== gameState._savedQbNeverThrow) toggleQBNeverThrow();
+    if (illegalFormationRulesOn !== gameState._savedIllegalFormationOn) toggleIllegalFormationRules();
+
+    btn.textContent = '🏈 GAME';
+    btn.style.color = '';
+    btn.style.borderColor = '';
+    if (scoreboard)   scoreboard.style.display = 'none';
+    if (callPlayBtn)  callPlayBtn.style.display = 'none';
+    if (typeof draw === 'function') draw();
+  }
+}
+
+// ── Scoreboard Update ────────────────────────────────────────────────
+
+function _ordinal(n) {
+  return ['', '1st', '2nd', '3rd', '4th'][n] || (n + 'th');
+}
+
+function _fieldPosStr(yardLine) {
+  if (yardLine === 50) return 'Midfield (50)';
+  if (yardLine > 50)   return `Opp ${100 - yardLine}`;
+  return `Own ${yardLine}`;
+}
+
+function _clockStr(sec) {
+  const m = Math.floor(sec / 60);
+  const s = sec % 60;
+  return `${m}:${String(s).padStart(2, '0')}`;
+}
+
+function updateScoreboard() {
+  const gs = gameState;
+  const el = id => document.getElementById(id);
+
+  const dd = el('sbDownDist');
+  const fp = el('sbFieldPos');
+  const sh = el('sbScoreHome');
+  const sa = el('sbScoreAway');
+  const q  = el('sbQuarter');
+  const cl = el('sbClock');
+
+  if (dd) dd.textContent = `${_ordinal(gs.down)} & ${gs.distance}`;
+  if (fp) fp.textContent = _fieldPosStr(gs.yardLine);
+  if (sh) sh.textContent = gs.score.home;
+  if (sa) sa.textContent = gs.score.away;
+  if (q)  q.textContent  = gs.quarter;
+  if (cl) cl.textContent = _clockStr(gs.clock);
+}
+
+// ── Call Play Modal ──────────────────────────────────────────────────
+
+function openCallPlayModal() {
+  if (mode === 'sim') { showToast('⚠ Erst Sim stoppen', 'error'); return; }
+  const modal = document.getElementById('callPlayModal');
+  const sitEl = document.getElementById('cpSituation');
+  if (sitEl) {
+    sitEl.textContent = `${_ordinal(gameState.down)} & ${gameState.distance} — ${_fieldPosStr(gameState.yardLine)}`;
+  }
+  _renderPlaybookModal();
+  if (modal) modal.style.display = 'flex';
+}
+
+function closeCallPlayModal() {
+  const modal = document.getElementById('callPlayModal');
+  if (modal) modal.style.display = 'none';
+}
+
+function _renderPlaybookModal() {
+  const list = document.getElementById('callPlayList');
+  if (!list) return;
+  const playbook = getPlaybook();
+
+  if (playbook.length === 0) {
+    list.innerHTML = `
+      <div style="color:rgba(240,240,242,0.3);font-size:12px;padding:20px;text-align:center;line-height:1.7">
+        No plays saved.<br>
+        Draw a play in the editor, name it, then click<br>
+        <b style="color:rgba(240,240,242,0.55)">📋 PLAYBOOK</b> to save it here.
+      </div>`;
+    return;
+  }
+
+  list.innerHTML = '';
+  playbook.forEach((entry, idx) => {
+    const row = document.createElement('div');
+    row.style.cssText = 'position:relative;display:flex;align-items:center;gap:0;';
+
+    const btn = document.createElement('button');
+    btn.style.cssText = [
+      'flex:1',
+      'display:flex',
+      'align-items:center',
+      'justify-content:space-between',
+      'background:rgba(255,255,255,0.04)',
+      'border:1px solid rgba(255,255,255,0.09)',
+      'border-radius:4px',
+      'padding:9px 40px 9px 12px',
+      'color:#fff',
+      'cursor:pointer',
+      'text-align:left',
+      "font-family:'Barlow Condensed',sans-serif",
+      'font-size:14px',
+      'letter-spacing:0.5px',
+      'transition:background 0.13s',
+    ].join(';');
+    btn.onmouseover = () => { btn.style.background = 'rgba(255,94,26,0.12)'; btn.style.borderColor = 'rgba(255,94,26,0.3)'; };
+    btn.onmouseout  = () => { btn.style.background = 'rgba(255,255,255,0.04)'; btn.style.borderColor = 'rgba(255,255,255,0.09)'; };
+
+    const d = new Date(entry.timestamp);
+    const dateStr = `${d.getMonth()+1}/${d.getDate()} ${d.getHours()}:${String(d.getMinutes()).padStart(2,'0')}`;
+    btn.innerHTML = `
+      <span style="font-size:14px">${entry.name}</span>
+      <span style="font-size:11px;color:rgba(240,240,242,0.3)">${dateStr}</span>
+    `;
+    btn.onclick = () => _callPlay(entry);
+
+    const delBtn = document.createElement('button');
+    delBtn.title = 'Remove from playbook';
+    delBtn.textContent = '✕';
+    delBtn.style.cssText = [
+      'position:absolute',
+      'right:6px',
+      'top:50%',
+      'transform:translateY(-50%)',
+      'background:none',
+      'border:none',
+      'color:rgba(240,240,242,0.22)',
+      'cursor:pointer',
+      'font-size:13px',
+      'padding:3px 6px',
+      'line-height:1',
+      'transition:color 0.13s',
+    ].join(';');
+    delBtn.onmouseover = () => { delBtn.style.color = '#f87171'; };
+    delBtn.onmouseout  = () => { delBtn.style.color = 'rgba(240,240,242,0.22)'; };
+    delBtn.onclick = (e) => { e.stopPropagation(); _removeFromPlaybook(idx); };
+
+    row.appendChild(btn);
+    row.appendChild(delBtn);
+    list.appendChild(row);
+  });
+}
+
+function _removeFromPlaybook(idx) {
+  const playbook = getPlaybook();
+  const removed = playbook.splice(idx, 1)[0];
+  try {
+    localStorage.setItem(PLAYBOOK_KEY, JSON.stringify(playbook));
+  } catch (e) {
+    showToast('⚠ Löschen konnte nicht gespeichert werden', 'error');
+    return;
+  }
+  if (removed) showToast(`Removed "${removed.name}" from Playbook`, 'info');
+  _renderPlaybookModal();
+}
+
+function _callPlay(entry) {
+  closeCallPlayModal();
+  applyLoadedPlayData(entry.data);
+  showToast(`▶ ${entry.name} geladen — ▶ SIMULATE drücken zum Snappen`, 'info');
+}
+
+// ── Outcome-Hook ─────────────────────────────────────────────────────
+// Wir wrappen closeOutcomeOverlay ohne den Original-Code anzufassen.
+// Immer wenn Game Mode aktiv → Outcome → Game State updaten.
+
+(function _hookOutcomeClose() {
+  setTimeout(function() {
+    const _origClose = window.closeOutcomeOverlay;
+    if (typeof _origClose !== 'function') return;
+
+    window.closeOutcomeOverlay = function() {
+      _origClose();
+      if (gameState.active && typeof lastPlayOutcome !== 'undefined' && lastPlayOutcome) {
+        processGameOutcome(lastPlayOutcome);
+        if (typeof stopSim === 'function' && mode === 'sim') stopSim();
+      }
+    };
+  }, 0);
+})();
+
+// ── Game Outcome Processing ──────────────────────────────────────────
+
+function processGameOutcome(outcome) {
+  if (!gameState.active) return;
+  const gs     = gameState;
+  const yards  = outcome.yards  ?? 0;
+  const result = outcome.result ?? 'incomplete';
+
+  // Uhrzeit pro Play (pauschal)
+  gs.clock = Math.max(0, gs.clock - 35);
+
+  // Penalty
+  if (result === 'penalty') {
+    const penYards = outcome.yards ?? -5;
+    gs.yardLine  = Math.max(1, Math.min(99, gs.yardLine + penYards));
+    gs.distance  = Math.max(1, gs.distance - penYards);
+    showToast(`⚑ PENALTY — ${penYards > 0 ? '+' : ''}${penYards} yds`, 'error');
+    updateScoreboard();
+    return;
+  }
+
+  // Interception → Turnover
+  if (result === 'interception') {
+    const newYL = Math.max(10, Math.min(90, 100 - gs.yardLine));
+    gs.yardLine   = newYL;
+    gs.down       = 1;
+    gs.distance   = 10;
+    gs.possession = gs.possession === 'home' ? 'away' : 'home';
+    showToast(`⚡ INTERCEPTION — Turnover! ${_fieldPosStr(gs.yardLine)}`, 'error');
+    updateScoreboard();
+    return;
+  }
+
+  // Touchdown (via result flag oder yardLine überläuft)
+  const newYardLine = gs.yardLine + yards;
+  if (result === 'touchdown' || newYardLine >= 100) {
+    gs.score.home += 7;
+    showToast(`🏈 TOUCHDOWN! HOME ${gs.score.home} – ${gs.score.away} AWAY`, 'success');
+    _advanceQuarterIfNeeded();
+    gs.yardLine  = 25;  // nächster Drive: approximierter Kickoff-Start
+    gs.down      = 1;
+    gs.distance  = 10;
+    updateScoreboard();
+    return;
+  }
+
+  // Normaler Gain/Loss
+  gs.yardLine = Math.max(1, Math.min(99, newYardLine));
+
+  if (yards >= gs.distance) {
+    // First Down
+    gs.down     = 1;
+    gs.distance = 10;
+    showToast(`↑ FIRST DOWN! ${_fieldPosStr(gs.yardLine)}`, 'success');
+  } else {
+    gs.down++;
+    gs.distance = Math.max(1, gs.distance - yards);
+
+    if (gs.down === 4) {
+      _advanceQuarterIfNeeded();
+      updateScoreboard();
+      _show4thDownModal();
+      return;
+    }
+
+    if (gs.down > 4) {
+      // Turnover on downs
+      gs.yardLine   = Math.max(10, Math.min(90, 100 - gs.yardLine));
+      gs.down       = 1;
+      gs.distance   = 10;
+      gs.possession = gs.possession === 'home' ? 'away' : 'home';
+      showToast(`📌 Turnover on Downs — ${_fieldPosStr(gs.yardLine)}`, 'error');
+    }
+  }
+
+  _advanceQuarterIfNeeded();
+  updateScoreboard();
+}
+
+function _advanceQuarterIfNeeded() {
+  if (gameState.clock > 0) return;
+  const gs = gameState;
+  if (gs.quarter < 4) {
+    gs.quarter++;
+    gs.clock = 900;
+    showToast(`Q${gs.quarter} beginnt`, 'info');
+  } else {
+    showToast(`🏁 GAME OVER — HOME ${gs.score.home} : ${gs.score.away} AWAY`, 'info');
+  }
+}
+
+// ── 4th Down Modal ────────────────────────────────────────────────────
+
+function _show4thDownModal() {
+  const modal  = document.getElementById('fourthDownModal');
+  const sitEl  = document.getElementById('fourthDownSituation');
+  const fgBtn  = document.getElementById('fgBtn');
+  if (!modal) return;
+
+  if (sitEl) {
+    sitEl.textContent = `4th & ${gameState.distance} — ${_fieldPosStr(gameState.yardLine)}`;
+  }
+
+  // FG realistisch ab ca. Opp 35 → yardLine >= 65
+  if (fgBtn) {
+    const inRange = gameState.yardLine >= 65;
+    fgBtn.style.opacity = inRange ? '1' : '0.4';
+    fgBtn.style.cursor  = inRange ? 'pointer' : 'not-allowed';
+    fgBtn.title = inRange ? 'Field Goal attempt' : 'Out of field goal range';
+  }
+
+  modal.style.display = 'flex';
+}
+
+function fourthDownDecision(decision) {
+  const modal = document.getElementById('fourthDownModal');
+  if (modal) modal.style.display = 'none';
+  const gs = gameState;
+
+  if (decision === 'punt') {
+    // Punt: ~42 Yards netto (vereinfacht)
+    const puntNet  = 42;
+    const oppYL    = Math.max(10, Math.min(95, 100 - (gs.yardLine + puntNet)));
+    gs.yardLine    = oppYL;
+    gs.down        = 1;
+    gs.distance    = 10;
+    gs.possession  = gs.possession === 'home' ? 'away' : 'home';
+    showToast(`➡ PUNT — Opp ball on ${_fieldPosStr(gs.yardLine)}`, 'info');
+    updateScoreboard();
+    return;
+  }
+
+  if (decision === 'fg') {
+    const inRange = gs.yardLine >= 65;
+    if (!inRange) { showToast('⚠ Out of field goal range', 'error'); _show4thDownModal(); return; }
+
+    // Grobe Erfolgswahrscheinlichkeit nach Distanz
+    const fgDist  = (100 - gs.yardLine) + 17; // Endzone-Tiefe + Snap
+    const fgProb  = Math.max(0.15, Math.min(0.97, 1.1 - fgDist / 75));
+    const made    = Math.random() < fgProb;
+
+    if (made) {
+      gs.score.home += 3;
+      showToast(`⬛ FIELD GOAL — GOOD! (${fgDist} yds) HOME ${gs.score.home}`, 'success');
+    } else {
+      showToast(`⬛ FIELD GOAL — NO GOOD! (${fgDist} yds)`, 'error');
+    }
+
+    // Gegner übernimmt auf eigener 20 (oder Spot bei verfehltem FG, vereinfacht)
+    gs.yardLine   = 80; // Opp ball on their 20 approximiert
+    gs.down       = 1;
+    gs.distance   = 10;
+    gs.possession = gs.possession === 'home' ? 'away' : 'home';
+    updateScoreboard();
+    return;
+  }
+
+  // decision === 'go' → Down bleibt 4, normaler Play-Ablauf
+  showToast('🏈 GOING FOR IT — Snap the ball!', 'info');
+}
+
+// ── Dynamische Yard-Labels ────────────────────────────────────────────
+// Wird von drawField() in 01_state.js aufgerufen wenn Game Mode aktiv.
+// Gibt { i: 'label' } zurück — i = Yard-Offset von LOS (0 = LOS, 10 = 10 yds upfield, usw.)
+
+function getFieldYardLabels() {
+  if (!gameState.active) return { 0: '50', 10: '40', 20: '30', 30: '20' };
+
+  const labels = {};
+  // Alle i-Offsets von -15 bis +35 prüfen ob dort eine echte NFL 10-Yard-Linie liegt
+  for (let i = -15; i <= 35; i++) {
+    const absYard = gameState.yardLine + i;  // absolute Feld-Position
+    if (absYard % 10 !== 0) continue;        // nur 10-Yard-Linien
+    if (absYard <= 0 || absYard >= 100) continue; // Endzonen-Linien bekommen kein Nummer-Label
+    const fieldNum = absYard <= 50 ? absYard : 100 - absYard; // NFL: 10→50→10
+    labels[i] = String(fieldNum);
+  }
+  return labels;
+}
+
+// ── Game Field Overlays (First-Down-Linie, Endzone, Red Zone) ─────────
+// Wird nach dem normalen draw() eingefügt via wrap.
+
+function _drawGameOverlays() {
+  if (!gameState.active) return;
+  const gs  = gameState;
+  const los  = LOS_Y();
+
+  // ── Feld-Grenzen vorberechnen ─────────────────────────────────────
+  const oppGoalLineYards = 100 - gs.yardLine;
+  const oppGoalLineY     = los - oppGoalLineYards * YARD_PX;
+  const oppBackY         = oppGoalLineY - 10 * YARD_PX;
+  const ownGoalLineY     = los + gs.yardLine * YARD_PX;
+  const ownBackY         = ownGoalLineY + 10 * YARD_PX;
+
+  // ── Bereich außerhalb des Feldes abdecken ─────────────────────────
+  // Alles vor der gegnerischen Back-of-Endzone und hinter der eigenen
+  ctx.save();
+  ctx.fillStyle = '#111318';
+  if (oppBackY > 0) ctx.fillRect(0, 0, canvas.width, oppBackY);
+  if (ownBackY < canvas.height) ctx.fillRect(0, ownBackY, canvas.width, canvas.height - ownBackY);
+  ctx.restore();
+
+  // ── Erste-Down-Linie (gelb, TV-Style) ──────────────────────────────
+  const fdY = los - gs.distance * YARD_PX;
+  if (fdY > 0 && fdY < canvas.height) {
+    ctx.save();
+    ctx.strokeStyle = '#f0c000';
+    ctx.lineWidth   = 3;
+    ctx.setLineDash([]);
+    ctx.shadowColor  = 'rgba(240,192,0,0.6)';
+    ctx.shadowBlur   = 6;
+    ctx.beginPath();
+    ctx.moveTo(0, fdY);
+    ctx.lineTo(canvas.width, fdY);
+    ctx.stroke();
+    ctx.shadowBlur = 0;
+
+    // Label: "1ST DOWN" / "2ND DOWN" etc.
+    ctx.fillStyle = '#f0c000';
+    ctx.font = 'bold 10px Barlow Condensed';
+    ctx.textAlign = 'right';
+    ctx.fillText(_ordinal(gs.down).toUpperCase() + ' DOWN', canvas.width - 6, fdY - 4);
+    ctx.restore();
+  }
+
+  // ── Gegnerische Endzone: 10-Yard-Band ────────────────────────────
+
+  // Goal Line (rot, stark)
+  if (oppGoalLineY > -2 && oppGoalLineY < canvas.height + 2) {
+    ctx.save();
+    ctx.strokeStyle = 'rgba(255,60,60,0.95)';
+    ctx.lineWidth   = 3;
+    ctx.shadowColor = 'rgba(255,60,60,0.5)';
+    ctx.shadowBlur  = 8;
+    ctx.beginPath();
+    ctx.moveTo(0, oppGoalLineY); ctx.lineTo(canvas.width, oppGoalLineY);
+    ctx.stroke();
+    ctx.shadowBlur = 0;
+    ctx.fillStyle  = 'rgba(255,80,80,0.9)';
+    ctx.font = 'bold 10px Barlow Condensed';
+    ctx.textAlign = 'left';
+    ctx.fillText('GOAL LINE', 6, oppGoalLineY - 4);
+    ctx.restore();
+  }
+
+  // Endzone-Fläche (10 yds tief, halbtransparentes Rot)
+  const ezTop    = Math.max(0, oppBackY);
+  const ezBottom = Math.min(canvas.height, oppGoalLineY);
+  if (ezBottom > ezTop) {
+    ctx.save();
+    ctx.fillStyle = 'rgba(180,30,30,0.18)';
+    ctx.fillRect(0, ezTop, canvas.width, ezBottom - ezTop);
+    ctx.restore();
+  }
+
+  // Back-of-Endzone-Linie (Touchback-Linie)
+  if (oppBackY > -2 && oppBackY < canvas.height + 2) {
+    ctx.save();
+    ctx.strokeStyle = 'rgba(255,255,255,0.3)';
+    ctx.lineWidth   = 1.5;
+    ctx.setLineDash([4, 4]);
+    ctx.beginPath();
+    ctx.moveTo(0, oppBackY); ctx.lineTo(canvas.width, oppBackY);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.restore();
+  }
+
+  // ── Eigene Endzone: Goal Line hinter LOS ─────────────────────────
+
+  if (ownGoalLineY > -2 && ownGoalLineY < canvas.height + 2) {
+    ctx.save();
+    ctx.strokeStyle = 'rgba(255,255,255,0.4)';
+    ctx.lineWidth   = 2;
+    ctx.setLineDash([6, 4]);
+    ctx.beginPath();
+    ctx.moveTo(0, ownGoalLineY); ctx.lineTo(canvas.width, ownGoalLineY);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle = 'rgba(255,255,255,0.35)';
+    ctx.font = 'bold 10px Barlow Condensed';
+    ctx.textAlign = 'left';
+    ctx.fillText('OWN GOAL LINE', 6, ownGoalLineY + 12);
+    ctx.restore();
+  }
+
+  // Eigene Endzone-Fläche
+  const ownEzTop    = Math.max(0, ownGoalLineY);
+  const ownEzBottom = Math.min(canvas.height, ownBackY);
+  if (ownEzBottom > ownEzTop) {
+    ctx.save();
+    ctx.fillStyle = 'rgba(255,255,255,0.05)';
+    ctx.fillRect(0, ownEzTop, canvas.width, ownEzBottom - ownEzTop);
+    ctx.restore();
+  }
+
+  // ── Red Zone Overlay (Opp 20 = yardLine >= 80) ────────────────────
+  if (gs.yardLine >= 80) {
+    const alpha = 0.03 + (gs.yardLine - 80) / 20 * 0.05;
+    ctx.save();
+    ctx.fillStyle = `rgba(255,40,40,${alpha.toFixed(2)})`;
+    const rzTop = Math.max(0, oppGoalLineY);
+    ctx.fillRect(0, rzTop, canvas.width, los - rzTop);
+    ctx.restore();
+  }
+}
+
+// ── draw() wrappen ────────────────────────────────────────────────────
+// Overlays nach jedem normalen draw()-Aufruf einhängen.
+
+(function _wrapDraw() {
+  setTimeout(function() {
+    const _origDraw = window.draw;
+    if (typeof _origDraw !== 'function') return;
+    window.draw = function() {
+      _origDraw.apply(this, arguments);
+      _drawGameOverlays();
+    };
+  }, 0);
+})();
+
+// ── Field nach Outcome aktualisieren ─────────────────────────────────
+// processGameOutcome ruft draw() am Ende auf damit das Feld sofort stimmt.
+
+const _origProcessGameOutcome = processGameOutcome;
+processGameOutcome = function(outcome) {
+  _origProcessGameOutcome(outcome);
+  if (typeof draw === 'function') draw();
+};
+
+// ── Init ──────────────────────────────────────────────────────────────
+
+_injectGameUI();

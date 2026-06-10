@@ -1,1 +1,293 @@
-const _0x3546a2=_0x3631;(function(_0x407567,_0x1df030){const _0x212f8d=_0x3631,_0x80a55d=_0x407567();while(!![]){try{const _0x3cf4ae=parseInt(_0x212f8d(0x11a))/0x1+-parseInt(_0x212f8d(0x15d))/0x2*(parseInt(_0x212f8d(0x105))/0x3)+parseInt(_0x212f8d(0x156))/0x4+-parseInt(_0x212f8d(0x116))/0x5+parseInt(_0x212f8d(0x12c))/0x6+-parseInt(_0x212f8d(0x167))/0x7+parseInt(_0x212f8d(0x16c))/0x8*(parseInt(_0x212f8d(0x132))/0x9);if(_0x3cf4ae===_0x1df030)break;else _0x80a55d['push'](_0x80a55d['shift']());}catch(_0x44bc83){_0x80a55d['push'](_0x80a55d['shift']());}}}(_0x3b39,0x80f46));const LR_STOP_SPEED=0x3,LR_BACKWARDS_VY=0x3,LR_VERTICAL_MIN_VY=0x8,LR_UNDER_MAX_VY=0x8,LR_UNDER_MIN_VX=0x8,LR_VERTICAL_MAX_DEG=0x14,LR_HORIZONTAL_MIN_DEG=0x41,LR_SHALLOW_MIN_DEG=0x23,LR_SHALLOW_MAX_DEPTH=0x7,LR_BREAK_DEG=0x23,LR_MIDDLE_TOL_X=YARD_PX*0.25,LR_VERTICAL_THREAT_DEPTH=YARD_PX*0xf;let liveReadStateById={},liveReadOn=![],playPhaseTime=0x0;document[_0x3546a2(0x12a)]('liveReadToggle')[_0x3546a2(0x106)]('change',function(){const _0x1623bc=_0x3546a2,_0x1c0c22={'jJyxg':function(_0x32adc6){return _0x32adc6();}};liveReadOn=this[_0x1623bc(0x16b)],document[_0x1623bc(0x12a)](_0x1623bc(0x127))['classList']['toggle'](_0x1623bc(0x15e),liveReadOn),_0x1c0c22[_0x1623bc(0x133)](draw);});function _0x3631(_0x21c854,_0x42741e){_0x21c854=_0x21c854-0xf2;const _0x3b3958=_0x3b39();let _0x36314d=_0x3b3958[_0x21c854];return _0x36314d;}function lrDirAngleDeg(_0x520ccf,_0x3e098a){const _0x3e2225=_0x3546a2,_0x190461={'JRbEI':function(_0x1202fe,_0x13e8b5){return _0x1202fe*_0x13e8b5;}},_0x29462c=Math['hypot'](_0x520ccf,_0x3e098a);if(_0x29462c<0.01)return 0x5a;const _0xf555cd=(_0x190461[_0x3e2225(0x109)](_0x520ccf,0x0)+_0x3e098a*-0x1)/_0x29462c;return Math[_0x3e2225(0x126)](Math[_0x3e2225(0x113)](-0x1,Math[_0x3e2225(0x164)](0x1,_0xf555cd)))*(0xb4/Math['PI']);}function lrClassifyMoveType(_0x559107,_0x33d528,_0x2d38dc,_0x3a3504,_0x1ce349,_0x539266,_0x14fd2d){const _0x2fdc27=_0x3546a2,_0x139fb8={'pKiwR':function(_0x38835e,_0x51d461){return _0x38835e<_0x51d461;},'XwLaP':_0x2fdc27(0x166),'RrrWa':function(_0x379ac2,_0x153b37){return _0x379ac2>_0x153b37;},'shiAi':function(_0x15fd3c,_0x493d06){return _0x15fd3c<=_0x493d06;},'NxLRJ':function(_0x18fbc7,_0x1c10aa){return _0x18fbc7===_0x1c10aa;},'QxhCv':function(_0x2178f8,_0x4d6fb0){return _0x2178f8>=_0x4d6fb0;},'exEQf':_0x2fdc27(0xfe),'ChRoi':'outside','DlKpa':function(_0x4e71ac,_0x3287b7){return _0x4e71ac<=_0x3287b7;}};if(_0x139fb8['pKiwR'](_0x2d38dc,LR_STOP_SPEED))return _0x139fb8['XwLaP'];if(_0x139fb8[_0x2fdc27(0x110)](_0x33d528,LR_BACKWARDS_VY))return _0x2fdc27(0x123);if(_0x33d528<-LR_VERTICAL_MIN_VY&&_0x139fb8[_0x2fdc27(0x153)](_0x3a3504,LR_VERTICAL_MAX_DEG))return _0x2fdc27(0x16d);const _0x35a81e=_0x139fb8['NxLRJ'](_0x1ce349,'L')?_0x559107>0x0:_0x139fb8[_0x2fdc27(0x125)](_0x559107,0x0);if(Math['abs'](_0x33d528)<=LR_UNDER_MAX_VY&&_0x139fb8[_0x2fdc27(0x13e)](Math['abs'](_0x559107),LR_UNDER_MIN_VX))return _0x35a81e?_0x139fb8[_0x2fdc27(0x12e)]:_0x139fb8['ChRoi'];if(_0x3a3504>=LR_HORIZONTAL_MIN_DEG)return _0x35a81e?_0x2fdc27(0xfe):_0x139fb8[_0x2fdc27(0x11d)];if(!_0x35a81e)return _0x139fb8[_0x2fdc27(0x11d)];const _0x13ea3c=_0x14fd2d??_0x539266??0x0;if(_0x139fb8[_0x2fdc27(0x13e)](_0x3a3504,LR_SHALLOW_MIN_DEG)&&_0x139fb8[_0x2fdc27(0x13a)](_0x13ea3c,LR_SHALLOW_MAX_DEPTH))return _0x2fdc27(0xfe);return _0x2fdc27(0x119);}function _0x3b39(){const _0x37e56=['RrrWa','forEach','mid=','max','oRIyG','_side','4061595HZXgWS','toFixed','filter','inside','100942zOuZtn','CRwWU','prevVelDir','ChRoi','eligiblePlayers','beginPath','KnTkq','textBaseline','losY','backwards','jcUwD','pKiwR','acos','liveReadToggleWrap','lastDecisionChangeAt','oYRCD','getElementById','top','6060156ylhqEF','cos','exEQf','simX','nkSho','stroke','1791VWCPkJ','jJyxg','lastActiveVel','speed','lZRvh','oBATL','round','nkEPe','DlKpa','ZLZvz','closePath','LIVE:','QxhCv','strokeStyle','toUpperCase','nwMkm','ireSX','join','eHBDZ','spd=','crossedMiddleNow','restore','fillStyle','bjhVg','pos','moveType','Kyhtp','HEQcA','BuBWx','YsiWR','Kyyjv','#facc15','eJUUx','shiAi','backfieldPlayers','prevPos','3198380QIoDqF','sin','rgba(134,239,172,0.8)','lastActiveDirAngleDeg','abs','dirAngleDeg','Vzdev','983324uyWfcY','active','sim','#86efac','breakDepthYards','zlmhw','bold\x2010px\x20Barlow\x20Condensed','min','play','stopped','1713705rXZreQ','gvAwm','CNBvo','xdppF','checked','26456aLvxeK','vertical','lineTo','simY','<span>LIVE\x20READ\x20INIT</span>\x20—\x20','ajJXl','#f87171','startSide','atan2','textContent','ballX','fillText','avTYH','lastActiveMoveType','isVerticalThreatNow','#6b7280','under','Wusir','lineWidth','breakNow','font','rgba(134,239,172,0.7)','prevMoveType','6hwCyIA','addEventListener','vel','length','JRbEI','setLineDash','save','BRK!','hypot','depthYards','MyOAd'];_0x3b39=function(){return _0x37e56;};return _0x3b39();}function initLiveReadsForPlayStart(){const _0x1d3ef8=_0x3546a2,_0x2fe61c={'nwMkm':_0x1d3ef8(0x165),'zlmhw':'stopped'};liveReadStateById={},playPhaseTime=0x0;if(!offenseStructureSnapshot)return;const _0x294b42=offenseStructureSnapshot,_0x3de8f1=[..._0x294b42[_0x1d3ef8(0x11e)],..._0x294b42[_0x1d3ef8(0x154)]];_0x3de8f1[_0x1d3ef8(0x111)](_0x12a3c7=>{const _0x57e201=_0x1d3ef8,_0x70a921=_0x12a3c7[_0x57e201(0x12f)]??_0x12a3c7['x'],_0x3e9bb4=_0x12a3c7[_0x57e201(0x16f)]??_0x12a3c7['y'];liveReadStateById[_0x12a3c7['id']]={'phase':_0x2fe61c[_0x57e201(0x141)],'t':0x0,'initPos':{'x':_0x70a921,'y':_0x3e9bb4},'pos':{'x':_0x70a921,'y':_0x3e9bb4},'prevPos':{'x':_0x70a921,'y':_0x3e9bb4},'vel':{'x':0x0,'y':0x0},'speed':0x0,'dirAngleDeg':0x5a,'moveType':_0x57e201(0x166),'prevMoveType':_0x57e201(0x166),'lastActiveMoveType':_0x2fe61c[_0x57e201(0x162)],'lastActiveVel':{'x':0x0,'y':0x0},'lastActiveDirAngleDeg':0x5a,'depthYards':0x0,'breakDepthYards':null,'isVerticalThreatNow':![],'startSide':_0x12a3c7[_0x57e201(0x115)]||'R','crossedMiddleNow':![],'lastDecisionChangeAt':0x0,'prevVelDir':{'x':0x0,'y':-0x1},'breakNow':![]};}),logDebug(_0x1d3ef8(0xf2)+_0x3de8f1[_0x1d3ef8(0x108)]+'\x20tracked\x20players');}function updateLiveReads(_0x427a80){const _0x3c9ae=_0x3546a2,_0x4f42ef={'eJUUx':'play','Vzdev':'stopped','PZvJn':function(_0x346e5c,_0x5e792b){return _0x346e5c>_0x5e792b;},'ireSX':function(_0x4e04a2,_0x251e74){return _0x4e04a2/_0x251e74;},'jcUwD':function(_0x53cc99,_0x5d32f5){return _0x53cc99>_0x5d32f5;},'xdppF':function(_0x2ef161,_0x565c49){return _0x2ef161-_0x565c49;},'KnTkq':function(_0x4c72d4,_0x82db7e){return _0x4c72d4+_0x82db7e;},'Kyyjv':function(_0x748f63,_0x36f79b,_0x4a6120,_0x383151,_0x5eb6ce,_0x4630eb,_0x53217e,_0x3b13cb){return _0x748f63(_0x36f79b,_0x4a6120,_0x383151,_0x5eb6ce,_0x4630eb,_0x53217e,_0x3b13cb);},'tIyen':function(_0x1879f9,_0x56e876){return _0x1879f9>=_0x56e876;},'MyOAd':function(_0x1d0e35,_0x2724e9){return _0x1d0e35*_0x2724e9;},'nkSho':function(_0x49044a,_0x5a983a){return _0x49044a>_0x5a983a;},'ajJXl':function(_0x1b9b4b,_0xec0255){return _0x1b9b4b-_0xec0255;},'oYRCD':function(_0x4eaf72,_0xba507c){return _0x4eaf72===_0xba507c;},'eHBDZ':function(_0x26c998,_0xbe7b22){return _0x26c998>=_0xbe7b22;},'FjLlX':_0x3c9ae(0x123),'gvAwm':function(_0x217224,_0x300ee5){return _0x217224/_0x300ee5;},'utbZg':function(_0x57b868,_0x2d00c7){return _0x57b868/_0x2d00c7;},'RzSOC':function(_0x39ac85,_0x20a2f2){return _0x39ac85/_0x20a2f2;},'CNBvo':function(_0x15a2b1,_0x1b8014){return _0x15a2b1*_0x1b8014;},'nkEPe':'playClock'};if(simPhase!==_0x3c9ae(0x165))return;if(!offenseStructureSnapshot)return;playPhaseTime+=_0x4f42ef[_0x3c9ae(0x169)](_0x427a80,simSpeed);if(!lastPlayOutcome){const _0x3a434c=document[_0x3c9ae(0x12a)](_0x4f42ef[_0x3c9ae(0x139)]);if(_0x3a434c)_0x3a434c[_0x3c9ae(0xf7)]=playPhaseTime[_0x3c9ae(0x117)](0x1)+'\x20s';}const _0x88b7ed=offenseStructureSnapshot[_0x3c9ae(0xf8)],_0x4eed24=offenseStructureSnapshot[_0x3c9ae(0x122)],_0x5c9cb0=offenseStructureSnapshot,_0x1daa25=[..._0x5c9cb0[_0x3c9ae(0x11e)],..._0x5c9cb0[_0x3c9ae(0x154)]];_0x1daa25[_0x3c9ae(0x111)](_0x14658b=>{const _0x4415e9=_0x3c9ae;let _0x371f2=liveReadStateById[_0x14658b['id']];if(!_0x371f2){const _0x5caa43=_0x14658b['simX']??_0x14658b['x'],_0x421824=_0x14658b[_0x4415e9(0x16f)]??_0x14658b['y'];_0x371f2=liveReadStateById[_0x14658b['id']]={'phase':_0x4f42ef[_0x4415e9(0x152)],'t':0x0,'initPos':{'x':_0x5caa43,'y':_0x421824},'pos':{'x':_0x5caa43,'y':_0x421824},'prevPos':{'x':_0x5caa43,'y':_0x421824},'vel':{'x':0x0,'y':0x0},'speed':0x0,'dirAngleDeg':0x5a,'moveType':_0x4f42ef[_0x4415e9(0x15c)],'prevMoveType':'stopped','lastActiveMoveType':_0x4f42ef[_0x4415e9(0x15c)],'lastActiveVel':{'x':0x0,'y':0x0},'lastActiveDirAngleDeg':0x5a,'depthYards':0x0,'isVerticalThreatNow':![],'startSide':_0x14658b[_0x4415e9(0x115)]||'R','crossedMiddleNow':![],'lastDecisionChangeAt':0x0,'prevVelDir':{'x':0x0,'y':-0x1},'breakNow':![]};}const _0x24c0da=_0x14658b[_0x4415e9(0x12f)]??_0x14658b['x'],_0x3706f3=_0x14658b[_0x4415e9(0x16f)]??_0x14658b['y'],_0x1da075=_0x4f42ef['PZvJn'](_0x427a80,0x0)?_0x4f42ef[_0x4415e9(0x142)](_0x24c0da-_0x371f2[_0x4415e9(0x14a)]['x'],_0x427a80):0x0,_0x564158=_0x4f42ef[_0x4415e9(0x124)](_0x427a80,0x0)?_0x4f42ef['xdppF'](_0x3706f3,_0x371f2['pos']['y'])/_0x427a80:0x0,_0x79aed6=Math[_0x4415e9(0x10d)](_0x1da075,_0x564158),_0x265801=lrDirAngleDeg(_0x1da075,_0x564158),_0x1717d6=_0x24c0da<_0x4f42ef[_0x4415e9(0x16a)](_0x88b7ed,LR_MIDDLE_TOL_X)?'L':_0x24c0da>_0x4f42ef[_0x4415e9(0x120)](_0x88b7ed,LR_MIDDLE_TOL_X)?'R':_0x371f2[_0x4415e9(0xf5)],_0x47f80c=(_0x4eed24-_0x3706f3)/YARD_PX,_0x4e1422=_0x4f42ef[_0x4415e9(0x150)](lrClassifyMoveType,_0x1da075,_0x564158,_0x79aed6,_0x265801,_0x1717d6,_0x47f80c,_0x371f2['breakDepthYards']);let _0x586f2d=![];if(_0x4f42ef['tIyen'](_0x79aed6,LR_STOP_SPEED)){const _0x2fab8f=Math[_0x4415e9(0x10d)](_0x371f2[_0x4415e9(0x11c)]['x'],_0x371f2[_0x4415e9(0x11c)]['y']);if(_0x2fab8f>0.01){const _0x19b456=(_0x4f42ef['MyOAd'](_0x1da075,_0x371f2[_0x4415e9(0x11c)]['x'])+_0x4f42ef['MyOAd'](_0x564158,_0x371f2[_0x4415e9(0x11c)]['y']))/(_0x79aed6*_0x2fab8f),_0x12c65b=_0x4f42ef[_0x4415e9(0x10f)](Math['acos'](Math[_0x4415e9(0x113)](-0x1,Math[_0x4415e9(0x164)](0x1,_0x19b456))),0xb4/Math['PI']);_0x586f2d=_0x4f42ef['tIyen'](_0x12c65b,LR_BREAK_DEG);}}const _0x4eef16=_0x371f2[_0x4415e9(0x146)]||_0x1717d6!==_0x371f2[_0x4415e9(0xf5)]&&_0x4f42ef[_0x4415e9(0x130)](Math[_0x4415e9(0x15a)](_0x4f42ef[_0x4415e9(0xf3)](_0x24c0da,_0x88b7ed)),LR_MIDDLE_TOL_X),_0x1e44b3=_0x4f42ef[_0x4415e9(0x129)](_0x4e1422,'vertical')&&(_0x4eed24-_0x3706f3>=LR_VERTICAL_THREAT_DEPTH||_0x4f42ef[_0x4415e9(0x144)](_0x47f80c,0xa)),_0x351e23=_0x4e1422!==_0x371f2[_0x4415e9(0x14b)]?playPhaseTime:_0x371f2['lastDecisionChangeAt'];_0x371f2[_0x4415e9(0x155)]={..._0x371f2[_0x4415e9(0x14a)]},_0x371f2[_0x4415e9(0x14a)]={'x':_0x24c0da,'y':_0x3706f3},_0x371f2[_0x4415e9(0x104)]=_0x371f2[_0x4415e9(0x14b)],_0x371f2[_0x4415e9(0x107)]={'x':_0x1da075,'y':_0x564158},_0x371f2[_0x4415e9(0x135)]=_0x79aed6,_0x371f2[_0x4415e9(0x15b)]=Math[_0x4415e9(0x138)](_0x265801),_0x371f2[_0x4415e9(0x14b)]=_0x4e1422,_0x4e1422!==_0x4f42ef[_0x4415e9(0x15c)]&&_0x4e1422!==_0x4f42ef['FjLlX']&&(_0x371f2[_0x4415e9(0xfb)]=_0x4e1422,_0x371f2[_0x4415e9(0x134)]={'x':_0x1da075,'y':_0x564158},_0x371f2[_0x4415e9(0x159)]=Math['round'](_0x265801)),_0x371f2[_0x4415e9(0x10e)]=_0x4f42ef[_0x4415e9(0x168)](Math[_0x4415e9(0x138)](_0x47f80c*0xa),0xa),_0x371f2[_0x4415e9(0x161)]=_0x586f2d?_0x4f42ef['utbZg'](Math[_0x4415e9(0x138)](_0x4f42ef['MyOAd'](_0x47f80c,0xa)),0xa):_0x371f2[_0x4415e9(0x161)],_0x371f2[_0x4415e9(0xfc)]=_0x1e44b3,_0x371f2['crossedMiddleNow']=_0x4eef16,_0x371f2[_0x4415e9(0x128)]=_0x351e23,_0x371f2['breakNow']=_0x586f2d,_0x371f2['t']=playPhaseTime,_0x79aed6>=LR_STOP_SPEED&&(_0x371f2[_0x4415e9(0x11c)]={'x':_0x4f42ef['RzSOC'](_0x1da075,_0x79aed6),'y':_0x4f42ef['ireSX'](_0x564158,_0x79aed6)});});}function drawLiveReadOverlay(){const _0x52cebb=_0x3546a2,_0x75cc55={'lZRvh':function(_0xd8b16,_0x43a79e){return _0xd8b16/_0x43a79e;},'HEQcA':_0x52cebb(0x10c),'YsiWR':_0x52cebb(0x13d),'BuBWx':_0x52cebb(0xfd),'avTYH':_0x52cebb(0x160),'bjhVg':function(_0x400813,_0xbb6eba){return _0x400813+_0xbb6eba;},'oBATL':function(_0x120c24,_0x4737c8){return _0x120c24*_0x4737c8;},'oRIyG':function(_0x32d4e1,_0x3f254b){return _0x32d4e1+_0x3f254b;},'CRwWU':function(_0x1f5d54,_0x3aec3d){return _0x1f5d54-_0x3aec3d;},'Wusir':function(_0x45434d,_0x27933f){return _0x45434d-_0x27933f;},'ZLZvz':function(_0x44f522,_0xf81c8){return _0x44f522+_0xf81c8;},'Kyhtp':function(_0x33fb67,_0x431389){return _0x33fb67+_0x431389;}};if(!liveReadOn||mode!==_0x52cebb(0x15f)||!offenseStructureSnapshot)return;ctx[_0x52cebb(0x10b)](),ctx[_0x52cebb(0x121)]=_0x52cebb(0x12b);const _0x525e02=offenseStructureSnapshot,_0x107655=[..._0x525e02[_0x52cebb(0x11e)],..._0x525e02['backfieldPlayers']];_0x107655['forEach'](_0x855055=>{const _0x475ffc=_0x52cebb,_0x35495b=liveReadStateById[_0x855055['id']];if(!_0x35495b)return;const _0x3c251a=_0x855055[_0x475ffc(0x12f)]??_0x855055['x'],_0x1aa4d0=_0x855055[_0x475ffc(0x16f)]??_0x855055['y'],_0x474cb3=_0x35495b[_0x475ffc(0x14b)][_0x475ffc(0x140)]()['slice'](0x0,0x4),_0x1760a9=_0x35495b[_0x475ffc(0x135)]>=LR_STOP_SPEED?_0x475ffc(0x145)+_0x75cc55[_0x475ffc(0x136)](_0x35495b[_0x475ffc(0x135)],YARD_PX)['toFixed'](0x1):'',_0x1320f4='d='+_0x35495b[_0x475ffc(0x10e)],_0x5408ea=_0x35495b[_0x475ffc(0x101)]?_0x75cc55[_0x475ffc(0x14d)]:'',_0x21d931=_0x475ffc(0x112)+(_0x35495b[_0x475ffc(0x146)]?0x1:0x0),_0x57e459=_0x35495b[_0x475ffc(0xfc)]?'↑!':'',_0x194d41=[_0x75cc55[_0x475ffc(0x14f)],_0x474cb3,_0x1760a9,_0x1320f4,_0x5408ea,_0x57e459,_0x21d931][_0x475ffc(0x118)](Boolean),_0x1dc9ab=_0x194d41[_0x475ffc(0x143)]('\x20'),_0x1d44ff=_0x3c251a+0x10,_0x1fbf52=_0x1aa4d0+0x6;ctx[_0x475ffc(0x102)]=_0x475ffc(0x163),ctx[_0x475ffc(0x100)]=2.5,ctx[_0x475ffc(0x13f)]='rgba(0,0,0,0.85)',ctx['strokeText'](_0x1dc9ab,_0x1d44ff,_0x1fbf52),ctx[_0x475ffc(0x148)]=_0x35495b[_0x475ffc(0xfc)]?_0x475ffc(0x151):_0x35495b['breakNow']?_0x475ffc(0xf4):_0x35495b[_0x475ffc(0x14b)]===_0x475ffc(0x166)?_0x75cc55[_0x475ffc(0x14e)]:_0x75cc55[_0x475ffc(0xfa)],ctx[_0x475ffc(0xf9)](_0x1dc9ab,_0x1d44ff,_0x1fbf52);if(_0x35495b['speed']>=LR_STOP_SPEED){const _0x187799=_0x35495b[_0x475ffc(0x135)],_0x1bf7d7=_0x75cc55[_0x475ffc(0x136)](Math[_0x475ffc(0x164)](0x16,_0x187799),_0x187799),_0x2bb05c=_0x75cc55[_0x475ffc(0x149)](_0x3c251a,_0x75cc55[_0x475ffc(0x137)](_0x35495b[_0x475ffc(0x107)]['x'],_0x1bf7d7)),_0x3af373=_0x75cc55[_0x475ffc(0x114)](_0x1aa4d0,_0x35495b['vel']['y']*_0x1bf7d7);ctx[_0x475ffc(0x13f)]=_0x475ffc(0x103),ctx[_0x475ffc(0x100)]=1.5,ctx[_0x475ffc(0x10a)]([]),ctx[_0x475ffc(0x11f)](),ctx['moveTo'](_0x3c251a,_0x1aa4d0),ctx[_0x475ffc(0x16e)](_0x2bb05c,_0x3af373),ctx[_0x475ffc(0x131)]();const _0x4fc0c5=Math[_0x475ffc(0xf6)](_0x35495b['vel']['y'],_0x35495b[_0x475ffc(0x107)]['x']),_0x2cb240=0x4;ctx[_0x475ffc(0x148)]=_0x475ffc(0x158),ctx['beginPath'](),ctx['moveTo'](_0x2bb05c,_0x3af373),ctx[_0x475ffc(0x16e)](_0x75cc55[_0x475ffc(0x11b)](_0x2bb05c,_0x2cb240*Math[_0x475ffc(0x12d)](_0x75cc55[_0x475ffc(0xff)](_0x4fc0c5,0.4))),_0x75cc55['Wusir'](_0x3af373,_0x2cb240*Math[_0x475ffc(0x157)](_0x4fc0c5-0.4))),ctx['lineTo'](_0x2bb05c-_0x2cb240*Math[_0x475ffc(0x12d)](_0x75cc55[_0x475ffc(0x13b)](_0x4fc0c5,0.4)),_0x3af373-_0x75cc55[_0x475ffc(0x137)](_0x2cb240,Math['sin'](_0x75cc55[_0x475ffc(0x14c)](_0x4fc0c5,0.4)))),ctx[_0x475ffc(0x13c)](),ctx['fill']();}}),ctx[_0x52cebb(0x147)]();}
+// ===================================================================
+// LIVE READ (Phase 3.1)
+// Per-tick tracking of receiver/backfield movement during PlayPhase.
+// Pure helpers + registry. No route/motion/shift/block data is read here.
+// Only reads: actual sim positions (simX/simY) each tick.
+// ===================================================================
+
+// ── Live Read config constants ────────────────────────────────────────
+const LR_STOP_SPEED          = 3;    // px/s below which player is "stopped"
+const LR_BACKWARDS_VY        = 3;    // px/s downward (canvas +y) to qualify as backwards
+const LR_VERTICAL_MIN_VY     = 8;    // px/s upfield (canvas -y) to qualify as vertical
+const LR_UNDER_MAX_VY        = 8;    // px/s vertical threshold for "under/flat"
+const LR_UNDER_MIN_VX        = 8;    // px/s horizontal threshold for "under/flat"
+const LR_VERTICAL_MAX_DEG    = 20;   // angle deg from upfield axis → vertical
+const LR_HORIZONTAL_MIN_DEG  = 65;   // angle deg → flat/under (pure under)
+const LR_SHALLOW_MIN_DEG     = 35;   // angle deg → shallow (slant-like, ≤7 yds deep)
+const LR_SHALLOW_MAX_DEPTH   = 7;    // yards — deeper than this → inside even if angle qualifies
+const LR_BREAK_DEG           = 35;   // direction change threshold for breakNow
+const LR_MIDDLE_TOL_X        = YARD_PX * 0.25; // 0.25 yd tolerance for crossedMiddle
+const LR_VERTICAL_THREAT_DEPTH = YARD_PX * 15; // 15 yards upfield = deep threat
+
+// ── Live Read state registry ──────────────────────────────────────────
+// keyed by player.id; cleared on stopSim, rebuilt on initPlayPhase.
+let liveReadStateById = {};
+let liveReadOn = false;  // toggles Live Read debug display
+let playPhaseTime = 0;   // seconds since PlayPhase started
+
+// Toggle handler
+document.getElementById('liveReadToggle').addEventListener('change', function() {
+  liveReadOn = this.checked;
+  document.getElementById('liveReadToggleWrap').classList.toggle('active', liveReadOn);
+  draw();
+});
+
+// ── Helpers (pure, no side effects) ──────────────────────────────────
+
+// Direction angle from upfield axis (0=vertical up, 90=flat). Uses velocity {x,y}.
+function lrDirAngleDeg(vx, vy) {
+  // upfield = canvas -y direction; angle from (0,-1) unit vector
+  const mag = Math.hypot(vx, vy);
+  if (mag < 0.01) return 90;
+  const cosA = (vx * 0 + vy * (-1)) / mag; // dot with (0,-1) = -vy/mag
+  return Math.acos(Math.max(-1, Math.min(1, cosA))) * (180 / Math.PI);
+}
+
+// Classify movement type from velocity, angle, side.
+// side: 'L'|'R' relative to ballX.
+function lrClassifyMoveType(vx, vy, speed, dirDeg, side, depthYards, breakDepthYards) {
+  if (speed < LR_STOP_SPEED)                                            return 'stopped';
+  if (vy > LR_BACKWARDS_VY)                                             return 'backwards';
+  if (vy < -LR_VERTICAL_MIN_VY && dirDeg <= LR_VERTICAL_MAX_DEG)       return 'vertical';
+
+  // Check direction first so flat outward routes → 'outside', flat inward → 'shallow'
+  const isMovingInside = (side === 'L') ? vx > 0 : vx < 0;
+
+  // Very flat angle (≥65° from vertical) → outside or shallow depending on direction
+  if (Math.abs(vy) <= LR_UNDER_MAX_VY && Math.abs(vx) >= LR_UNDER_MIN_VX)
+    return isMovingInside ? 'under' : 'outside';
+  if (dirDeg >= LR_HORIZONTAL_MIN_DEG)
+    return isMovingInside ? 'under' : 'outside';
+
+  if (!isMovingInside) return 'outside';
+  // Use breakDepthYards (frozen at break moment) if available, else live depthYards
+  const depth = breakDepthYards ?? depthYards ?? 0;
+  if (dirDeg >= LR_SHALLOW_MIN_DEG && depth <= LR_SHALLOW_MAX_DEPTH) return 'under';
+  return 'inside';
+}
+
+// ── Init ──────────────────────────────────────────────────────────────
+// Called at start of PlayPhase. Initialises live state for all
+// eligible + backfield players from snapshot.
+function initLiveReadsForPlayStart() {
+  liveReadStateById = {};
+  playPhaseTime = 0;
+
+  if (!offenseStructureSnapshot) return;
+  const snap = offenseStructureSnapshot;
+  const relevant = [...snap.eligiblePlayers, ...snap.backfieldPlayers];
+
+  relevant.forEach(p => {
+    const cx = p.simX ?? p.x;
+    const cy = p.simY ?? p.y;
+    liveReadStateById[p.id] = {
+      phase:              'play',
+      t:                  0,
+      initPos:            { x: cx, y: cy },  // snap position — never mutated
+      pos:                { x: cx, y: cy },
+      prevPos:            { x: cx, y: cy },
+      vel:                { x: 0, y: 0 },
+      speed:              0,
+      dirAngleDeg:        90,
+      moveType:           'stopped',
+      prevMoveType:       'stopped',
+      lastActiveMoveType: 'stopped',
+      lastActiveVel:      { x: 0, y: 0 },
+      lastActiveDirAngleDeg: 90,
+      depthYards:         0,
+      breakDepthYards:    null, // depthYards at moment of last break — reset on each new break
+      isVerticalThreatNow: false,
+      startSide:          p._side || 'R',
+      crossedMiddleNow:   false,
+      lastDecisionChangeAt: 0,
+      prevVelDir:         { x: 0, y: -1 }, // default: upfield
+      breakNow:           false,
+    };
+  });
+  logDebug(`<span>LIVE READ INIT</span> — ${relevant.length} tracked players`);
+}
+
+// ── Per-tick update ───────────────────────────────────────────────────
+// Called AFTER all player positions are updated each tick, PlayPhase only.
+function updateLiveReads(dt) {
+  if (simPhase !== 'play') return;
+  if (!offenseStructureSnapshot)  return;
+
+  playPhaseTime += dt * simSpeed;
+
+  // Playclock UI — count up from 0.0s, freeze when outcome fires
+  if (!lastPlayOutcome) {
+    const pc = document.getElementById('playClock');
+    if (pc) pc.textContent = playPhaseTime.toFixed(1) + ' s';
+  }
+  const ballX = offenseStructureSnapshot.ballX;
+  const losY  = offenseStructureSnapshot.losY;
+
+  const snap     = offenseStructureSnapshot;
+  const relevant = [...snap.eligiblePlayers, ...snap.backfieldPlayers];
+
+  relevant.forEach(p => {
+    let lr = liveReadStateById[p.id];
+    if (!lr) {
+      // Lazy init if player wasn't in snapshot at PlayPhase start
+      const cx = p.simX ?? p.x;
+      const cy = p.simY ?? p.y;
+      lr = liveReadStateById[p.id] = {
+        phase: 'play', t: 0,
+        initPos: { x:cx, y:cy },  // snap position — never mutated
+        pos: { x:cx, y:cy }, prevPos: { x:cx, y:cy },
+        vel: {x:0,y:0}, speed: 0, dirAngleDeg: 90,
+        moveType: 'stopped', prevMoveType: 'stopped',
+        lastActiveMoveType: 'stopped',
+        lastActiveVel: { x: 0, y: 0 },
+        lastActiveDirAngleDeg: 90,
+        depthYards: 0, isVerticalThreatNow: false,
+        startSide: p._side || 'R', crossedMiddleNow: false,
+        lastDecisionChangeAt: 0,
+        prevVelDir: {x:0, y:-1}, breakNow: false,
+      };
+    }
+
+    const cx = p.simX ?? p.x;
+    const cy = p.simY ?? p.y;
+
+    // Velocity estimate from delta pos
+    const vx = dt > 0 ? (cx - lr.pos.x) / dt : 0;
+    const vy = dt > 0 ? (cy - lr.pos.y) / dt : 0;
+    const speed = Math.hypot(vx, vy);
+
+    // Direction angle
+    const dirDeg = lrDirAngleDeg(vx, vy);
+
+    // Current side relative to ball
+    const curSide = (cx < ballX - LR_MIDDLE_TOL_X) ? 'L'
+                  : (cx > ballX + LR_MIDDLE_TOL_X) ? 'R'
+                  : lr.startSide; // in tolerance band → keep
+
+    // Depth from LOS: positive = upfield (canvas y decreases upfield)
+    const depthYards = (losY - cy) / YARD_PX;
+
+    // Classify move type (use frozen breakDepthYards from previous tick if available)
+    const moveType = lrClassifyMoveType(vx, vy, speed, dirDeg, curSide, depthYards, lr.breakDepthYards);
+
+    // Break detection: angle between previous vel direction and current
+    let breakNow = false;
+    if (speed >= LR_STOP_SPEED) {
+      const prevMag = Math.hypot(lr.prevVelDir.x, lr.prevVelDir.y);
+      if (prevMag > 0.01) {
+        const dot   = (vx * lr.prevVelDir.x + vy * lr.prevVelDir.y) / (speed * prevMag);
+        const delta = Math.acos(Math.max(-1, Math.min(1, dot))) * (180 / Math.PI);
+        breakNow = delta >= LR_BREAK_DEG;
+      }
+    }
+
+    // Crossed middle: compare current side vs start side
+    const crossedMiddleNow = lr.crossedMiddleNow ||
+      (curSide !== lr.startSide && Math.abs(cx - ballX) > LR_MIDDLE_TOL_X);
+
+    const isVerticalThreatNow = (moveType === 'vertical') &&
+      ((losY - cy) >= LR_VERTICAL_THREAT_DEPTH || depthYards >= 10);
+
+    // Detect decision change (moveType changed)
+    const lastDecisionChangeAt = (moveType !== lr.moveType)
+      ? playPhaseTime
+      : lr.lastDecisionChangeAt;
+
+    // Update state (mutate in place)
+    lr.prevPos            = { ...lr.pos };
+    lr.pos                = { x: cx, y: cy };
+    lr.prevMoveType       = lr.moveType;
+    lr.vel                = { x: vx, y: vy };
+    lr.speed              = speed;
+    lr.dirAngleDeg        = Math.round(dirDeg);
+    lr.moveType           = moveType;
+    // Sticky last-active fields: updated only while receiver is moving
+    if (moveType !== 'stopped' && moveType !== 'backwards') {
+      lr.lastActiveMoveType    = moveType;
+      lr.lastActiveVel         = { x: vx, y: vy };
+      lr.lastActiveDirAngleDeg = Math.round(dirDeg);
+    }
+    lr.depthYards         = Math.round(depthYards * 10) / 10;
+    lr.breakDepthYards    = breakNow ? Math.round(depthYards * 10) / 10 : lr.breakDepthYards;
+    lr.isVerticalThreatNow= isVerticalThreatNow;
+    lr.crossedMiddleNow   = crossedMiddleNow;
+    lr.lastDecisionChangeAt = lastDecisionChangeAt;
+    lr.breakNow           = breakNow;
+    lr.t                  = playPhaseTime;
+    if (speed >= LR_STOP_SPEED) {
+      lr.prevVelDir = { x: vx / speed, y: vy / speed };
+    }
+  });
+}
+
+// ── Debug render: Live Read labels ────────────────────────────────────
+// Called from drawDebugOverlay() when liveReadOn is true and mode==='sim'.
+function drawLiveReadOverlay() {
+  if (!liveReadOn || mode !== 'sim' || !offenseStructureSnapshot) return;
+
+  ctx.save();
+  ctx.textBaseline = 'top';
+
+  const snap     = offenseStructureSnapshot;
+  const relevant = [...snap.eligiblePlayers, ...snap.backfieldPlayers];
+
+  relevant.forEach(p => {
+    const lr = liveReadStateById[p.id];
+    if (!lr) return;
+
+    const px = p.simX ?? p.x;
+    const py = p.simY ?? p.y;
+
+    // Build label
+    const mtShort = lr.moveType.toUpperCase().slice(0, 4);
+    const spdStr  = lr.speed >= LR_STOP_SPEED ? `spd=${(lr.speed / YARD_PX).toFixed(1)}` : '';
+    const dStr    = `d=${lr.depthYards}`;
+    const brkStr  = lr.breakNow ? 'BRK!' : '';
+    const midStr  = `mid=${lr.crossedMiddleNow ? 1 : 0}`;
+    const vtStr   = lr.isVerticalThreatNow ? '↑!' : '';
+
+    const parts = ['LIVE:', mtShort, spdStr, dStr, brkStr, vtStr, midStr].filter(Boolean);
+    const liveLabel = parts.join(' ');
+
+    const lx = px + 16;
+    // Stagger below Phase 2.3 labels (which use ~ly-14 and ly-1)
+    const ly = py + 6;
+
+    ctx.font = 'bold 10px Barlow Condensed';
+    ctx.lineWidth   = 2.5;
+    ctx.strokeStyle = 'rgba(0,0,0,0.85)';
+    ctx.strokeText(liveLabel, lx, ly);
+    ctx.fillStyle   = lr.isVerticalThreatNow ? '#facc15'
+                    : lr.breakNow            ? '#f87171'
+                    : lr.moveType === 'stopped' ? '#6b7280'
+                    : '#86efac';
+    ctx.fillText(liveLabel, lx, ly);
+
+    // Velocity arrow from current position (small, capped at 22px)
+    if (lr.speed >= LR_STOP_SPEED) {
+      const mag   = lr.speed;
+      const scale = Math.min(22, mag) / mag;
+      const ax    = px + lr.vel.x * scale;
+      const ay    = py + lr.vel.y * scale;
+      ctx.strokeStyle = 'rgba(134,239,172,0.7)';
+      ctx.lineWidth   = 1.5;
+      ctx.setLineDash([]);
+      ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(ax, ay); ctx.stroke();
+      const ang = Math.atan2(lr.vel.y, lr.vel.x);
+      const hs  = 4;
+      ctx.fillStyle = 'rgba(134,239,172,0.8)';
+      ctx.beginPath();
+      ctx.moveTo(ax, ay);
+      ctx.lineTo(ax - hs * Math.cos(ang - 0.4), ay - hs * Math.sin(ang - 0.4));
+      ctx.lineTo(ax - hs * Math.cos(ang + 0.4), ay - hs * Math.sin(ang + 0.4));
+      ctx.closePath(); ctx.fill();
+    }
+  });
+
+  ctx.restore();
+}
+
+// ===================================================================
+// DEFENSE (Phase 3.2)
+// Player placement, selection, Man/Zone assignments, render, sim.
+// Does NOT touch offense data. Reads offenseStructureSnapshot read-only.

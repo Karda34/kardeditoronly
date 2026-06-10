@@ -1,1 +1,140 @@
-(function(_0x3c339d,_0x26175b){const _0x2bcb81=_0x15ae,_0x4069c8=_0x3c339d();while(!![]){try{const _0x32686c=-parseInt(_0x2bcb81(0x1a2))/0x1*(parseInt(_0x2bcb81(0x1a0))/0x2)+-parseInt(_0x2bcb81(0x1c9))/0x3*(parseInt(_0x2bcb81(0x1ae))/0x4)+-parseInt(_0x2bcb81(0x1db))/0x5*(-parseInt(_0x2bcb81(0x1a6))/0x6)+-parseInt(_0x2bcb81(0x1b1))/0x7*(parseInt(_0x2bcb81(0x1da))/0x8)+parseInt(_0x2bcb81(0x1cd))/0x9*(-parseInt(_0x2bcb81(0x1a8))/0xa)+-parseInt(_0x2bcb81(0x1c5))/0xb+parseInt(_0x2bcb81(0x1c0))/0xc;if(_0x32686c===_0x26175b)break;else _0x4069c8['push'](_0x4069c8['shift']());}catch(_0x4085f8){_0x4069c8['push'](_0x4069c8['shift']());}}}(_0x3b3e,0xca265));const UNDO_MAX=0x5;let _undoStack=[];function _deepCopyPlayer(_0x1f8822){const _0x44555c=_0x15ae;return{'id':_0x1f8822['id'],'type':_0x1f8822[_0x44555c(0x1bd)],'x':_0x1f8822['x'],'y':_0x1f8822['y'],'important':_0x1f8822[_0x44555c(0x1bb)],'routePoints':_0x1f8822[_0x44555c(0x1d6)][_0x44555c(0x1b7)](_0x571a1d=>({'x':_0x571a1d['x'],'y':_0x571a1d['y']})),'motionPoints':_0x1f8822['motionPoints'][_0x44555c(0x1b7)](_0x1b796e=>({'x':_0x1b796e['x'],'y':_0x1b796e['y']})),'shiftPoints':_0x1f8822[_0x44555c(0x1d2)]['map'](_0x3e5507=>({'x':_0x3e5507['x'],'y':_0x3e5507['y']})),'blockPoints':_0x1f8822[_0x44555c(0x1af)][_0x44555c(0x1b7)](_0x5c45ac=>({'x':_0x5c45ac['x'],'y':_0x5c45ac['y']})),'_designatedBlockTargetId':_0x1f8822[_0x44555c(0x1d1)]||null,'_blockChaseTargetId':_0x1f8822[_0x44555c(0x1a1)]||null};}function _0x15ae(_0x35038b,_0x59befa){_0x35038b=_0x35038b-0x1a0;const _0x3b3e36=_0x3b3e();let _0x15ae55=_0x3b3e36[_0x35038b];return _0x15ae55;}function _deepCopyDefender(_0x2f10ee){const _0x5f1c0e=_0x15ae,_0x4574cf=_0x2f10ee[_0x5f1c0e(0x1b0)]?Object[_0x5f1c0e(0x1d4)]({},_0x2f10ee[_0x5f1c0e(0x1b0)]):{};return{'id':_0x2f10ee['id'],'role':_0x2f10ee[_0x5f1c0e(0x1a3)],'x':_0x2f10ee['x'],'y':_0x2f10ee['y'],'origX':_0x2f10ee[_0x5f1c0e(0x1cc)],'origY':_0x2f10ee[_0x5f1c0e(0x1a5)],'assignment':_0x4574cf};}function _deepCopyOline(_0x3bf039){const _0x259287=_0x15ae,_0x52c8db={};for(const _0x111c32 in _0x3bf039){_0x52c8db[_0x111c32]={'blockPoints':_0x3bf039[_0x111c32][_0x259287(0x1af)][_0x259287(0x1b7)](_0x45c9a5=>({'x':_0x45c9a5['x'],'y':_0x45c9a5['y']})),'important':_0x3bf039[_0x111c32][_0x259287(0x1bb)],'offsetX':_0x3bf039[_0x111c32]['offsetX']||0x0,'offsetY':_0x3bf039[_0x111c32][_0x259287(0x1c7)]||0x0,'removed':!!_0x3bf039[_0x111c32][_0x259287(0x1a9)]};}return _0x52c8db;}function saveUndoSnapshot(){const _0x59363f=_0x15ae,_0x34341d={'bPirB':_0x59363f(0x1b2)},_0x8d7496={'players':players[_0x59363f(0x1b7)](_deepCopyPlayer),'defensePlayers':defensePlayers[_0x59363f(0x1b7)](_deepCopyDefender),'olineData':_deepCopyOline(olineData),'ball':{'x':ball['x'],'y':ball['y']},'motionOwnerId':motionOwnerId,'nextId':nextId,'nextDefId':nextDefId,'annotationStrokes':annotationStrokes[_0x59363f(0x1b7)](_0x12f721=>_0x12f721[_0x59363f(0x1b7)](_0x3c3e13=>({'x':_0x3c3e13['x'],'y':_0x3c3e13['y']})))};_undoStack[_0x59363f(0x1cb)](_0x8d7496);if(_undoStack[_0x59363f(0x1ce)]>UNDO_MAX)_undoStack[_0x59363f(0x1aa)]();const _0x551b91=document[_0x59363f(0x1bf)](_0x34341d[_0x59363f(0x1d5)]);_0x551b91&&(_0x551b91[_0x59363f(0x1d9)]=![],_0x551b91['style'][_0x59363f(0x1b8)]='',_0x551b91[_0x59363f(0x1c8)][_0x59363f(0x1dc)]='');}function _0x3b3e(){const _0x1f3da0=['olineData','important','YsSKj','type','tpEHA','getElementById','33946572EogjrU','offsetX','IHmAG','function','ball','7548057mgTRpQ','mKBLj','offsetY','style','1442811sPuXtG','QBDte','push','origX','9CrsYxK','length','nextDefId','AopGg','_designatedBlockTargetId','shiftPoints','manual','assign','bPirB','routePoints','PwQjg','motionPoints','disabled','56WBkHoy','50zJYFdy','cursor','83432imPPlD','_blockChaseTargetId','17mLVuqg','role','cAQmf','origY','564666HJxjyd','mxLlJ','1858390SNqipX','removed','shift','nextId','fLgkG','undefined','4tcrShQ','blockPoints','assignment','879851uBfrWG','undoBtn','coJAR','motionOwnerId','vDaOm','players','map','opacity','0.35'];_0x3b3e=function(){return _0x1f3da0;};return _0x3b3e();}function undo(){const _0x2ee3bf=_0x15ae,_0x4acc19={'QBDte':function(_0x13fd28,_0xaf0066,_0x419044,_0x53445b){return _0x13fd28(_0xaf0066,_0x419044,_0x53445b);},'mKBLj':function(_0x27947e,_0x45b0a7,_0x5ce6aa){return _0x27947e(_0x45b0a7,_0x5ce6aa);},'cAQmf':function(_0x4a8727,_0x2dbd91){return _0x4a8727!=_0x2dbd91;},'chYQh':_0x2ee3bf(0x1b2),'PwQjg':'not-allowed','AopGg':'function','mxLlJ':function(_0x35216c){return _0x35216c();},'fLgkG':function(_0x348c17,_0x1ff0f7){return _0x348c17===_0x1ff0f7;},'coJAR':function(_0xd6f12){return _0xd6f12();},'tpEHA':function(_0x1d7983){return _0x1d7983();},'YsSKj':function(_0x43511f,_0x162742){return _0x43511f!==_0x162742;},'IHmAG':_0x2ee3bf(0x1ad),'EpCkE':function(_0x458944){return _0x458944();},'vDaOm':function(_0x14bf3e){return _0x14bf3e();}};if(_undoStack['length']===0x0)return;const _0x387a3e=_undoStack['pop']();players=_0x387a3e[_0x2ee3bf(0x1b6)][_0x2ee3bf(0x1b7)](_0x193ae5=>{const _0xc14b23=_0x2ee3bf,_0x5c03e2=_0x4acc19[_0xc14b23(0x1ca)](makePlayer,_0x193ae5[_0xc14b23(0x1bd)],_0x193ae5['x'],_0x193ae5['y']);return _0x5c03e2['id']=_0x193ae5['id'],_0x5c03e2[_0xc14b23(0x1bb)]=_0x193ae5[_0xc14b23(0x1bb)],_0x5c03e2['routePoints']=_0x193ae5[_0xc14b23(0x1d6)],_0x5c03e2[_0xc14b23(0x1d8)]=_0x193ae5[_0xc14b23(0x1d8)],_0x5c03e2[_0xc14b23(0x1d2)]=_0x193ae5[_0xc14b23(0x1d2)],_0x5c03e2[_0xc14b23(0x1af)]=_0x193ae5[_0xc14b23(0x1af)],_0x5c03e2[_0xc14b23(0x1d1)]=_0x193ae5[_0xc14b23(0x1d1)],_0x5c03e2[_0xc14b23(0x1a1)]=_0x193ae5['_blockChaseTargetId'],_0x5c03e2;}),defensePlayers=_0x387a3e['defensePlayers']['map'](_0x2d79d6=>{const _0x2dc2b6=_0x2ee3bf,_0x6a70fc=_0x4acc19[_0x2dc2b6(0x1c6)](makeDefender,_0x2d79d6['x'],_0x2d79d6['y']);return _0x6a70fc['id']=_0x2d79d6['id'],_0x6a70fc[_0x2dc2b6(0x1a3)]=_0x2d79d6[_0x2dc2b6(0x1a3)],_0x6a70fc['x']=_0x2d79d6['x'],_0x6a70fc['y']=_0x2d79d6['y'],_0x6a70fc['origX']=_0x4acc19[_0x2dc2b6(0x1a4)](_0x2d79d6[_0x2dc2b6(0x1cc)],null)?_0x2d79d6[_0x2dc2b6(0x1cc)]:_0x2d79d6['x'],_0x6a70fc[_0x2dc2b6(0x1a5)]=_0x4acc19[_0x2dc2b6(0x1a4)](_0x2d79d6[_0x2dc2b6(0x1a5)],null)?_0x2d79d6['origY']:_0x2d79d6['y'],_0x6a70fc['assignment']=Object[_0x2dc2b6(0x1d4)]({},_0x2d79d6['assignment']),_0x6a70fc;});for(const _0x306647 in _0x387a3e[_0x2ee3bf(0x1ba)]){olineData[_0x306647]&&(olineData[_0x306647][_0x2ee3bf(0x1af)]=_0x387a3e[_0x2ee3bf(0x1ba)][_0x306647][_0x2ee3bf(0x1af)],olineData[_0x306647][_0x2ee3bf(0x1bb)]=_0x387a3e[_0x2ee3bf(0x1ba)][_0x306647]['important'],olineData[_0x306647][_0x2ee3bf(0x1c1)]=_0x387a3e[_0x2ee3bf(0x1ba)][_0x306647][_0x2ee3bf(0x1c1)]||0x0,olineData[_0x306647][_0x2ee3bf(0x1c7)]=_0x387a3e['olineData'][_0x306647][_0x2ee3bf(0x1c7)]||0x0,olineData[_0x306647][_0x2ee3bf(0x1a9)]=!!_0x387a3e['olineData'][_0x306647]['removed']);}ball['x']=_0x387a3e[_0x2ee3bf(0x1c4)]['x'],ball['y']=_0x387a3e[_0x2ee3bf(0x1c4)]['y'],motionOwnerId=_0x387a3e[_0x2ee3bf(0x1b4)],nextId=_0x387a3e[_0x2ee3bf(0x1ab)],nextDefId=_0x387a3e[_0x2ee3bf(0x1cf)],annotationStrokes=_0x387a3e['annotationStrokes'][_0x2ee3bf(0x1b7)](_0x4b5872=>_0x4b5872[_0x2ee3bf(0x1b7)](_0xf41a13=>({'x':_0xf41a13['x'],'y':_0xf41a13['y']}))),annotationCurrentStroke=null;const _0x492377=document[_0x2ee3bf(0x1bf)](_0x4acc19['chYQh']);_0x492377&&_undoStack[_0x2ee3bf(0x1ce)]===0x0&&(_0x492377[_0x2ee3bf(0x1d9)]=!![],_0x492377[_0x2ee3bf(0x1c8)][_0x2ee3bf(0x1b8)]=_0x2ee3bf(0x1b9),_0x492377[_0x2ee3bf(0x1c8)][_0x2ee3bf(0x1dc)]=_0x4acc19[_0x2ee3bf(0x1d7)]);if(typeof refreshPlayerList===_0x2ee3bf(0x1c3))refreshPlayerList();if(typeof refreshSkillCounter===_0x4acc19['AopGg'])_0x4acc19[_0x2ee3bf(0x1a7)](refreshSkillCounter);if(_0x4acc19[_0x2ee3bf(0x1ac)](typeof updateMotionBadge,_0x2ee3bf(0x1c3)))_0x4acc19[_0x2ee3bf(0x1b3)](updateMotionBadge);if(typeof refreshDefPlayerList===_0x2ee3bf(0x1c3))refreshDefPlayerList();if(typeof refreshDefAssignBox===_0x2ee3bf(0x1c3))_0x4acc19[_0x2ee3bf(0x1be)](refreshDefAssignBox);if(typeof refreshPresetMatchList===_0x4acc19[_0x2ee3bf(0x1d0)]&&_0x4acc19[_0x2ee3bf(0x1bc)](typeof activePreset,_0x4acc19[_0x2ee3bf(0x1c2)])&&activePreset!==_0x2ee3bf(0x1d3))_0x4acc19['EpCkE'](refreshPresetMatchList);_0x4acc19[_0x2ee3bf(0x1b5)](draw);}
+// ── UNDO (5 Ebenen, Snapshot-Stack) ────────────────────────────────────────
+
+const UNDO_MAX = 5;
+let _undoStack = [];
+
+// ── Deep-copy helpers ──────────────────────────────────────────────────────
+
+function _deepCopyPlayer(p) {
+  return {
+    id:               p.id,
+    type:             p.type,
+    x:                p.x,
+    y:                p.y,
+    important:        p.important,
+    routePoints:      p.routePoints.map(pt => ({ x: pt.x, y: pt.y })),
+    motionPoints:     p.motionPoints.map(pt => ({ x: pt.x, y: pt.y })),
+    shiftPoints:      p.shiftPoints.map(pt => ({ x: pt.x, y: pt.y })),
+    blockPoints:      p.blockPoints.map(pt => ({ x: pt.x, y: pt.y })),
+    _designatedBlockTargetId: p._designatedBlockTargetId || null,
+    _blockChaseTargetId:      p._blockChaseTargetId      || null,
+  };
+}
+
+function _deepCopyDefender(d) {
+  const asgCopy = d.assignment ? Object.assign({}, d.assignment) : {};
+  return {
+    id:         d.id,
+    role:       d.role,
+    x:          d.x,
+    y:          d.y,
+    origX:      d.origX,
+    origY:      d.origY,
+    assignment: asgCopy,
+  };
+}
+
+function _deepCopyOline(src) {
+  const out = {};
+  for (const id in src) {
+    out[id] = {
+      blockPoints: src[id].blockPoints.map(pt => ({ x: pt.x, y: pt.y })),
+      important:   src[id].important,
+      offsetX:     src[id].offsetX || 0,
+      offsetY:     src[id].offsetY || 0,
+      removed:     !!src[id].removed,
+    };
+  }
+  return out;
+}
+
+// ── Save snapshot ──────────────────────────────────────────────────────────
+
+function saveUndoSnapshot() {
+  const snapshot = {
+    players:           players.map(_deepCopyPlayer),
+    defensePlayers:    defensePlayers.map(_deepCopyDefender),
+    olineData:         _deepCopyOline(olineData),
+    ball:              { x: ball.x, y: ball.y },
+    motionOwnerId:     motionOwnerId,
+    nextId:            nextId,
+    nextDefId:         nextDefId,
+    annotationStrokes: annotationStrokes.map(s => s.map(pt => ({ x: pt.x, y: pt.y }))),
+  };
+  _undoStack.push(snapshot);
+  if (_undoStack.length > UNDO_MAX) _undoStack.shift();
+  // Activate undo button
+  const btn = document.getElementById('undoBtn');
+  if (btn) { btn.disabled = false; btn.style.opacity = ''; btn.style.cursor = ''; }
+}
+
+// ── Restore snapshot ───────────────────────────────────────────────────────
+
+function undo() {
+  if (_undoStack.length === 0) return;
+  const snap = _undoStack.pop();
+
+  // Restore players
+  players = snap.players.map(p => {
+    const full = makePlayer(p.type, p.x, p.y);
+    full.id          = p.id;
+    full.important   = p.important;
+    full.routePoints  = p.routePoints;
+    full.motionPoints = p.motionPoints;
+    full.shiftPoints  = p.shiftPoints;
+    full.blockPoints  = p.blockPoints;
+    full._designatedBlockTargetId = p._designatedBlockTargetId;
+    full._blockChaseTargetId      = p._blockChaseTargetId;
+    return full;
+  });
+
+  // Restore defense
+  defensePlayers = snap.defensePlayers.map(d => {
+    const full = makeDefender(d.x, d.y);
+    full.id         = d.id;
+    full.role       = d.role;
+    full.x          = d.x;
+    full.y          = d.y;
+    full.origX      = d.origX != null ? d.origX : d.x;
+    full.origY      = d.origY != null ? d.origY : d.y;
+    full.assignment = Object.assign({}, d.assignment);
+    return full;
+  });
+
+  // Restore o-line
+  for (const id in snap.olineData) {
+    if (olineData[id]) {
+      olineData[id].blockPoints = snap.olineData[id].blockPoints;
+      olineData[id].important   = snap.olineData[id].important;
+      olineData[id].offsetX     = snap.olineData[id].offsetX || 0;
+      olineData[id].offsetY     = snap.olineData[id].offsetY || 0;
+      olineData[id].removed     = !!snap.olineData[id].removed;
+    }
+  }
+
+  // Restore misc
+  ball.x             = snap.ball.x;
+  ball.y             = snap.ball.y;
+  motionOwnerId      = snap.motionOwnerId;
+  nextId             = snap.nextId;
+  nextDefId          = snap.nextDefId;
+  annotationStrokes  = snap.annotationStrokes.map(s => s.map(pt => ({ x: pt.x, y: pt.y })));
+  annotationCurrentStroke = null;
+
+  // Deactivate button when stack empty
+  const btn = document.getElementById('undoBtn');
+  if (btn && _undoStack.length === 0) {
+    btn.disabled = true;
+    btn.style.opacity = '0.35';
+    btn.style.cursor  = 'not-allowed';
+  }
+
+  // Refresh UI
+  if (typeof refreshPlayerList      === 'function') refreshPlayerList();
+  if (typeof refreshSkillCounter    === 'function') refreshSkillCounter();
+  if (typeof updateMotionBadge      === 'function') updateMotionBadge();
+  if (typeof refreshDefPlayerList   === 'function') refreshDefPlayerList();
+  if (typeof refreshDefAssignBox    === 'function') refreshDefAssignBox();
+  if (typeof refreshPresetMatchList === 'function' && typeof activePreset !== 'undefined' && activePreset !== 'manual') refreshPresetMatchList();
+  draw();
+}

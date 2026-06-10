@@ -1,1 +1,977 @@
-function _0x1df7(_0x361bbd,_0x30d316){_0x361bbd=_0x361bbd-0x1ca;const _0xcdb488=_0xcdb4();let _0x1df7b1=_0xcdb488[_0x361bbd];return _0x1df7b1;}const _0xb4d3a7=_0x1df7;(function(_0x536c0a,_0x342202){const _0x298ce2=_0x1df7,_0x7aa03f=_0x536c0a();while(!![]){try{const _0x2389db=-parseInt(_0x298ce2(0x2b6))/0x1*(-parseInt(_0x298ce2(0x2ae))/0x2)+parseInt(_0x298ce2(0x30b))/0x3*(parseInt(_0x298ce2(0x2a2))/0x4)+-parseInt(_0x298ce2(0x1f5))/0x5+-parseInt(_0x298ce2(0x2d2))/0x6+parseInt(_0x298ce2(0x30a))/0x7*(-parseInt(_0x298ce2(0x1f7))/0x8)+-parseInt(_0x298ce2(0x27a))/0x9*(parseInt(_0x298ce2(0x284))/0xa)+parseInt(_0x298ce2(0x2fa))/0xb*(parseInt(_0x298ce2(0x292))/0xc);if(_0x2389db===_0x342202)break;else _0x7aa03f['push'](_0x7aa03f['shift']());}catch(_0x394107){_0x7aa03f['push'](_0x7aa03f['shift']());}}}(_0xcdb4,0xe8d94));const YARDS_PER_PX=0x1/YARD_PX,OPEN_SEPARATION_PX=0x3*YARD_PX,CONTESTED_SEP_PX=1.5*YARD_PX,PRESSURE_RADIUS_PX=2.5*YARD_PX,PRESSURE_TIME_THR=2.5;let _qbPressureTracked={'pressured':![],'minDistPx':Infinity,'rusherId':null,'pressureFactor':0x1};function resetQBPressureTracking(){_qbPressureTracked={'pressured':![],'minDistPx':Infinity,'rusherId':null,'pressureFactor':0x1};}function trackQBPressureTick(){const _0xd19d1d=_0x1df7,_0x3880f3={'iZGeu':function(_0x582e60,_0x2f27e5){return _0x582e60!==_0x2f27e5;},'hWbVE':_0xd19d1d(0x28a),'VdvZt':function(_0x5e03af,_0x40f301,_0x319c90){return _0x5e03af(_0x40f301,_0x319c90);},'GYVhy':function(_0x323eb9,_0x3b7dbd){return _0x323eb9+_0x3b7dbd;},'UhCwT':function(_0x900e67,_0x4af034){return _0x900e67*_0x4af034;},'BDDwP':_0xd19d1d(0x2cf),'puiCU':_0xd19d1d(0x30d),'bLjLJ':function(_0x48d30f,_0x1162c3){return _0x48d30f/_0x1162c3;},'pKMoh':function(_0x4628dc,_0x105a67){return _0x4628dc*_0x105a67;},'JeAnu':function(_0x49ccea,_0x2054f8){return _0x49ccea/_0x2054f8;},'DRYzf':function(_0x26407a,_0x2d1816){return _0x26407a<_0x2d1816;},'XPBxO':function(_0x320086,_0x59b589){return _0x320086>_0x59b589;}};if(_0x3880f3[_0xd19d1d(0x300)](playPhaseTime,PRESSURE_TIME_THR))return;const _0x2c2033=players[_0xd19d1d(0x319)](_0x4b0637=>_0x4b0637[_0xd19d1d(0x21b)]==='QB');if(!_0x2c2033)return;const _0x348b1e=simPos(_0x2c2033);defensePlayers[_0xd19d1d(0x246)](_0x4264e6=>{const _0xc2a52a=_0xd19d1d;if(!_0x4264e6['decision']||_0x3880f3[_0xc2a52a(0x240)](_0x4264e6[_0xc2a52a(0x2f0)]['mode'],_0x3880f3[_0xc2a52a(0x285)]))return;const _0x364aef=_0x3880f3['VdvZt'](dist,simPos(_0x4264e6),_0x348b1e),_0x3c49b9=_0x3880f3[_0xc2a52a(0x1e0)](getAttr,_0x4264e6,_0xc2a52a(0x236)),_0x3a2a13=getAttr(_0x4264e6,_0xc2a52a(0x2e7)),_0x28219a=_0x3880f3[_0xc2a52a(0x1d4)](_0x3c49b9*0.7,_0x3880f3[_0xc2a52a(0x27f)](_0x3a2a13,0.3));let _0x1c3ac8=0x1;const _0x205a7d=[...players,..._0x3880f3[_0xc2a52a(0x240)](typeof OLINE_IDS,_0x3880f3[_0xc2a52a(0x2aa)])?OLINE_IDS[_0xc2a52a(0x261)](_0x5d4832=>olineData[_0x5d4832])[_0xc2a52a(0x2d4)](Boolean):[]],_0x6e527a=_0x205a7d[_0xc2a52a(0x319)](_0x589e74=>_0x589e74[_0xc2a52a(0x2ee)]===_0x4264e6['id']&&dist(simPos(_0x589e74),simPos(_0x4264e6))<=BLOCK_HOLD_DIST+DEF_PLAYER_RADIUS+0x4);if(_0x6e527a){const _0x4c0283=getAttr(_0x6e527a,_0x3880f3[_0xc2a52a(0x27d)]);_0x1c3ac8=_0x3880f3[_0xc2a52a(0x2a6)](0x4b,Math[_0xc2a52a(0x207)](_0x4c0283,0x28));}const _0x1057dc=_0x3880f3[_0xc2a52a(0x1d8)](PRESSURE_RADIUS_PX,_0x28219a/0x4b)*_0x1c3ac8,_0x5432a9=_0x3880f3[_0xc2a52a(0x25a)](_0x364aef,_0x1057dc)*PRESSURE_RADIUS_PX;_0x3880f3[_0xc2a52a(0x323)](_0x5432a9,_qbPressureTracked[_0xc2a52a(0x29d)])&&(_qbPressureTracked[_0xc2a52a(0x29d)]=_0x5432a9,_qbPressureTracked['rusherId']=_0x4264e6['id']);}),_qbPressureTracked[_0xd19d1d(0x29d)]<=PRESSURE_RADIUS_PX&&(_qbPressureTracked[_0xd19d1d(0x25f)]=!![],_qbPressureTracked[_0xd19d1d(0x1d7)]=Math['max'](0.4,_0x3880f3[_0xd19d1d(0x25a)](_qbPressureTracked['minDistPx'],PRESSURE_RADIUS_PX)));}function getQBPressure(){return{..._qbPressureTracked};}function simPos(_0x507288){const _0x28a293=_0x1df7;return{'x':_0x507288[_0x28a293(0x2c8)]??_0x507288['x'],'y':_0x507288['simY']??_0x507288['y']};}function dist(_0x3e776e,_0x32fe5f){const _0x18b0cd={'AOPCl':function(_0x4414d1,_0x57f8ff){return _0x4414d1-_0x57f8ff;}};return Math['hypot'](_0x3e776e['x']-_0x32fe5f['x'],_0x18b0cd['AOPCl'](_0x3e776e['y'],_0x32fe5f['y']));}function yardGain(_0x6cbe03,_0x2680dd){const _0xe39379=_0x1df7;return Math[_0xe39379(0x2b8)]((_0x6cbe03-_0x2680dd)*YARDS_PER_PX);}function getCoverageQualityFactor(_0x2617dc,_0x4c7e72,_0x469f5a,_0x119b61){const _0x5c4b9a=_0x1df7,_0x1208e1={'LtgNb':'drop','TaHzr':_0x5c4b9a(0x1f8),'DOvaH':'inside','zYGgG':function(_0x5c3bcf,_0x1a14de){return _0x5c3bcf===_0x1a14de;},'wVCyr':function(_0x5d7638,_0x519716){return _0x5d7638===_0x519716;},'HUHde':function(_0xe12ae4,_0x58276a){return _0xe12ae4===_0x58276a;},'xnHBv':_0x5c4b9a(0x263),'YqeXx':function(_0x1fd212,_0xbd40c2){return _0x1fd212===_0xbd40c2;},'DUcaE':function(_0x2601bd,_0x573143){return _0x2601bd(_0x573143);},'qWQLy':function(_0x2363e9,_0x3062a2,_0x2084c7){return _0x2363e9(_0x3062a2,_0x2084c7);},'gmyoK':_0x5c4b9a(0x2bd),'cDrUW':function(_0x4bdb93,_0x329ef0){return _0x4bdb93/_0x329ef0;},'Qmysi':function(_0x5cf3c3,_0x53e7c1){return _0x5cf3c3+_0x53e7c1;},'SvgEE':function(_0x52b337,_0x4fb2db,_0x59f032){return _0x52b337(_0x4fb2db,_0x59f032);},'FERIG':_0x5c4b9a(0x294),'TArEg':function(_0x271467,_0x314f3f,_0x52347f){return _0x271467(_0x314f3f,_0x52347f);},'lfEmC':function(_0x3c21ff,_0x1040d3){return _0x3c21ff*_0x1040d3;},'dmiNh':function(_0x660346,_0x1a37d0){return _0x660346*_0x1a37d0;},'btNhM':function(_0x35979e,_0x2ee634){return _0x35979e*_0x2ee634;}};if(!_0x2617dc)return 1.5;const _0x8edb69=_0x2617dc['decision']?.[_0x5c4b9a(0x283)]===_0x5c4b9a(0x220),_0x5ba568=_0x2617dc[_0x5c4b9a(0x2f0)]?.[_0x5c4b9a(0x283)]===_0x1208e1['LtgNb'],_0x250506=_0x8edb69?0x1:0.75,_0x13a7a2=_0x2617dc['cbShade']||_0x1208e1[_0x5c4b9a(0x270)],_0x221540=liveReadStateById[_0x4c7e72['id']],_0xf24b56=_0x221540?.[_0x5c4b9a(0x273)]||_0x5c4b9a(0x1ff);let _0x453eeb=0x1;if(_0x13a7a2===_0x1208e1[_0x5c4b9a(0x24a)]&&(_0xf24b56===_0x5c4b9a(0x1e4)||_0x1208e1[_0x5c4b9a(0x31a)](_0xf24b56,'corner')))_0x453eeb=1.25;if(_0x13a7a2===_0x5c4b9a(0x306)&&(_0x1208e1[_0x5c4b9a(0x2b3)](_0xf24b56,_0x5c4b9a(0x263))||_0xf24b56===_0x5c4b9a(0x281)))_0x453eeb=0.85;if(_0x13a7a2==='outside'&&(_0x1208e1[_0x5c4b9a(0x2ea)](_0xf24b56,_0x1208e1[_0x5c4b9a(0x297)])||_0x1208e1[_0x5c4b9a(0x25e)](_0xf24b56,'dig')))_0x453eeb=1.25;if(_0x13a7a2===_0x5c4b9a(0x229)&&(_0xf24b56===_0x5c4b9a(0x1e4)||_0xf24b56===_0x5c4b9a(0x324)))_0x453eeb=0.85;const _0x4b1780=_0x469f5a||_0x1208e1[_0x5c4b9a(0x28b)](simPos,_0x4c7e72),_0x3fd8b9=_0x119b61||simPos(_0x2617dc),_0x15877a=_0x3fd8b9['y']>_0x4b1780['y'],_0x465372=_0x1208e1[_0x5c4b9a(0x31c)](getAttr,_0x4c7e72,_0x1208e1[_0x5c4b9a(0x259)]),_0x24a2bc=_0x15877a?0x0:_0x1208e1[_0x5c4b9a(0x1e2)](_0x465372-0x4b,0x96),_0x17538e=_0x1208e1[_0x5c4b9a(0x1da)](_0x15877a?1.2:0.9,_0x24a2bc),_0x346925=_0x8edb69?_0x1208e1[_0x5c4b9a(0x2d3)](getAttr,_0x2617dc,_0x5c4b9a(0x1e5)):getAttr(_0x2617dc,_0x1208e1[_0x5c4b9a(0x2c6)]),_0x536f28=getAttr(_0x4c7e72,_0x5c4b9a(0x308)),_0x19cd74=_0x1208e1[_0x5c4b9a(0x215)](getAttr,_0x4c7e72,_0x5c4b9a(0x271)),_0x8b9b36=_0x1208e1[_0x5c4b9a(0x1e2)](0x4b,_0x346925),_0x5d30c0=_0x1208e1['Qmysi'](_0x536f28,_0x19cd74)/0x2/0x4b,_0x59de34=_0x1208e1['qWQLy'](getAttr,_0x4c7e72,_0x5c4b9a(0x302)),_0x34cd3d=_0x221540?.[_0x5c4b9a(0x1e6)]||![],_0xe87929=_0x34cd3d?(_0x59de34-0x4b)/0xc8:0x0;return _0x1208e1[_0x5c4b9a(0x201)](_0x1208e1[_0x5c4b9a(0x1ec)](_0x1208e1[_0x5c4b9a(0x1ec)](_0x1208e1[_0x5c4b9a(0x279)](_0x250506,_0x453eeb),_0x17538e),_0x8b9b36),_0x5d30c0)+_0xe87929;}function nearestDefender(_0x50c1cd,_0x4bf809=[]){const _0x48523e=_0x1df7,_0x3278b1={'EbYWY':function(_0x152719,_0x4a4d53){return _0x152719(_0x4a4d53);}},_0xbdec2a=_0x3278b1[_0x48523e(0x2a0)](simPos,_0x50c1cd);let _0x2b0220=null,_0x3185cd=Infinity;return defensePlayers[_0x48523e(0x246)](_0x17255b=>{const _0x485676=_0x48523e;if(_0x4bf809[_0x485676(0x2c9)](_0x17255b['id']))return;const _0x3a3d3b=dist(simPos(_0x17255b),_0xbdec2a);_0x3a3d3b<_0x3185cd&&(_0x3185cd=_0x3a3d3b,_0x2b0220=_0x17255b);}),{'defender':_0x2b0220,'separationPx':_0x3185cd};}let _dryRunTimeline=null;const _SNAP_PLAYER_KEYS=[_0xb4d3a7(0x2c8),_0xb4d3a7(0x2bc),_0xb4d3a7(0x310),_0xb4d3a7(0x253),_0xb4d3a7(0x2ee),'_blockChaseDone','_blockHoldX',_0xb4d3a7(0x22e),_0xb4d3a7(0x23b),_0xb4d3a7(0x1f6),_0xb4d3a7(0x2f5),_0xb4d3a7(0x2ef),_0xb4d3a7(0x25c),_0xb4d3a7(0x31f),'_breakTimer',_0xb4d3a7(0x26c),'_releaseTimer',_0xb4d3a7(0x289),'_accMult'],_SNAP_DEFENDER_KEYS=[_0xb4d3a7(0x2c8),'simY','_prevSimX',_0xb4d3a7(0x2ef),'_velX',_0xb4d3a7(0x31f),'_dualManRole',_0xb4d3a7(0x1de),_0xb4d3a7(0x313),'simZonePhase',_0xb4d3a7(0x2be),_0xb4d3a7(0x1f6),_0xb4d3a7(0x225),_0xb4d3a7(0x27e),_0xb4d3a7(0x213),_0xb4d3a7(0x219),_0xb4d3a7(0x275),_0xb4d3a7(0x231),_0xb4d3a7(0x287),'_lastDecKey','_defAccMult',_0xb4d3a7(0x1ce),_0xb4d3a7(0x272),'_percVelX','_percVelY',_0xb4d3a7(0x316),_0xb4d3a7(0x1ca),_0xb4d3a7(0x2db),_0xb4d3a7(0x24c)],_SNAP_OLINE_KEYS=[_0xb4d3a7(0x2c8),_0xb4d3a7(0x2bc),_0xb4d3a7(0x310),_0xb4d3a7(0x253),_0xb4d3a7(0x2ee),_0xb4d3a7(0x269),_0xb4d3a7(0x2e0),'_blockHoldY',_0xb4d3a7(0x23b),_0xb4d3a7(0x1f6)];function _0xcdb4(){const _0x5d69b3=['STR','sfngg','JOguj','HUHde','length','pQPgD','PowJF','_blockChaseTargetId','_prevSimY','decision','role','wZpPL','simBlockPoints','yd</span>','_prevSimX','outcomeOverlay','naCMi','fLNXw','lpBej','11pCUkoC','%\x20EY:','oline','touchdown','depthYards','UYlOz','XPBxO','_tackleTimer','BRK','zxqCr','CCcXW','penalty','inside','lastActiveVel','catch','tywRT','1787527CJILCi','3ewLzRe','ypQqr','BLK','FRcOE','cZTgm','simWpIdx','phase','textContent','_dualManIsTop','prevPos','lPXDt','_lastCommitTime','yd\x20·\x20','LbNji','find','zYGgG','Szrhe','qWQLy','assign','expectedYards','_velY','wmSDl','iMDNt','#86efac','DRYzf','corner','_passoffTime','_qbReadProb','EQUdg','result','_smoothVelX','qbReadProb','qbThrow','yards','SPD','tsZyR','GYVhy','hypot','wPmbO','pressureFactor','pKMoh','WmsYf','Qmysi','lastDecisionChangeAt','breakDepthYards','HTdKm','_dualManTargetId','xGYpE','VdvZt','UMhCN','cDrUW','oOZYI','out','manCoverage','breakNow','RTE','giZxp','lnDsl','rmPNZ','✗\x20INCOMPLETE','dmiNh',')\x20dryRec:','xZkHy','dirAngleDeg','BtLhV',')\x20drift=','covFactor','wzxrJ','function','8287115uzqxiV','_blockLocked','24dBuiSW','normal','⚡\x20INTERCEPTION','OIlCE','persistentCovCalls','eIXgA','active','min','unknown','prevMoveType','lfEmC','wTzQZ','interception','BSNum','\x20comp:','pDjeK','max','FXxUA','%\x20·\x20EY:','effectiveSepYds','fsHIr','className','\x20·\x20PRESSURE','wMbER','vkuIh','Illegal\x20Man\x20Downfield\x20—\x20','Kein\x20Receiver','\x20steps:','_manualRunAssignment','⚑\x20PENALTY','TArEg','RJhdY','prevVelDir','mxNzQ','_creFreezeTimer','\x20la:','type','djRof','\x20—\x20','simRoutePoints','dBbiW','follow','woJQy','MvhPA','ceil','startSide','simDeepArrived','yd\x20Comp:','PjWfs','GaNQI','outside','liveReads','qMBRw','qZvTZ','stepDt','_blockHoldY','MFKDc','\x20|\x20nearestNow:def#','_pendingTimer','RawSep:\x20','incomplete','[DRY-RUN]\x20RESTORE\x20DRIFT\x20id=','ballSim','PRS','OEAvB','\x20YDS','UAkAK','innerHTML','_blockDistTraveled','avbKK','XfNuH','WKrFM','QAIzb','iZGeu','RsnDz','NULL','raw','TAK','steps','forEach','players','speed','troUx','DOvaH','_shadedLandmarkPos','_covCall','kXklI','playPhaseTime','label','vQwHZ','getElementById','LRPtB','simDone','defender','completionProb','NeqRg','keys','AzUJm','gmyoK','JeAnu','iIlcw','_velX','_tackleTimerActive','YqeXx','pressured','FEBzI','map','yd\x20→\x20EffSep:\x20','post','WFaMz','separationPx','piBFF','LUtFQ','%\x20int:','_blockChaseDone','defenders','<br><span\x20style=\x22color:#6b7280\x22>QB-Read:\x20nicht\x20verfügbar\x20(kein\x20qbThrow)</span>','_breakSpeedMult','fbaio','#f87171','rawSeparationPx','TaHzr','route','_smoothVelY','lastActiveMoveType','aOtlo','_pendingDecision','detail','\x20·\x20CovF:','fMEdL','btNhM','64809CYwINA','[DRY-RUN]\x20restore\x20OK\x20—\x20','run','puiCU','_lockedGapId','UhCwT','fmSyd','dig','\x20·\x20QB\x20PRESSURE','mode','1730DaHMbJ','hWbVE','Kein\x20Carrier','_backpedalDone','pHsDz','_releaseSpeedMult','rush','DUcaE','AhvDo','vel','no\x20receiver','yd\x20','kVVES','vohqJ','54362808iczjzY','\x20·\x20Sep:','zoneCoverage','UZiGZ','info','xnHBv','pos','\x20sep:','VXQzj','NmtVJ','sdZjc','minDistPx','JniEm','arrivalProb','EbYWY','\x20→\x20','1500568FMITCx','SRmvB','KghRF','kZEIk','bLjLJ','Sqswq','CIT','MFSiy','BDDwP','↓\x20LOSS','log','GOwWz','40QEBaga','\x20Yards\x20(TackleProb:','EWFso','crossedMiddleNow','loss','wVCyr','exp','warn','21290Ooeirg','intProb','round','Nnyyj','ZZgZN','cuCMs','simY','REL','simZoneDone','lastActiveDirAngleDeg','moveType','yd\x20EffSep:','xXJzB','<span>OUTCOME</span>\x20','toFixed','complete','FERIG','EWZBF','simX','includes','%</b>\x20·\x20INT:','outcomeYards','nearbyDefCount','uWnDU','rVQRU','undefined','hpEVy','jLoBh','4248894zcvtGX','SvgEE','filter','%\x20·\x20ΔSep:','✓\x20COMPLETE','×COV','push','toUpperCase','outcomeResult','_covLock','pressure','<br><span\x20style=\x22color:#93c5fd\x22>⬤\x20QB-Read:</span>\x20Comp:<b>','random',':\x20pre(','_blockHoldX','\x20|\x20currRec:(','Eglot','\x20entities','Kein\x20Target\x20—\x20Throwaway','sXBjW','rveox'];_0xcdb4=function(){return _0x5d69b3;};return _0xcdb4();}function _snapshotSimState(){const _0x8974b1=_0xb4d3a7,_0x42a860={'uyFzj':function(_0x2ce74d,_0x9c292c){return _0x2ce74d!==_0x9c292c;},'Szrhe':_0x8974b1(0x2cf),'tsZyR':function(_0x1f5d17,_0x2c5b29){return _0x1f5d17!==_0x2c5b29;},'CCcXW':function(_0x3c8657,_0x199791){return _0x3c8657!==_0x199791;}},_0x31c150={'players':[],'defenders':[],'oline':[],'liveReads':{},'pressure':{..._qbPressureTracked},'playPhaseTime':playPhaseTime,'lastPlayOutcome':lastPlayOutcome,'qbThrow':qbThrow?{...qbThrow}:null,'ballSim':{...ballSim},'_tackleTimerActive':_0x42a860['uyFzj'](typeof _tackleTimerActive,_0x42a860[_0x8974b1(0x31b)])?_tackleTimerActive:![],'_tackleTimer':_0x42a860[_0x8974b1(0x1d3)](typeof _tackleTimer,_0x8974b1(0x2cf))?_tackleTimer:0x0,'persistentCovCalls':_0x42a860[_0x8974b1(0x304)](typeof persistentCovCalls,_0x8974b1(0x2cf))?{...persistentCovCalls}:{}};players['forEach'](_0x122dcb=>{const _0x43df67=_0x8974b1,_0xc0b350={'id':_0x122dcb['id']};_SNAP_PLAYER_KEYS[_0x43df67(0x246)](_0xa44fe8=>{_0xc0b350[_0xa44fe8]=_0x122dcb[_0xa44fe8];}),_0x31c150[_0x43df67(0x247)][_0x43df67(0x2d8)](_0xc0b350);}),defensePlayers['forEach'](_0x36aaad=>{const _0x31cd84=_0x8974b1,_0x47a29b={'id':_0x36aaad['id']};_SNAP_DEFENDER_KEYS['forEach'](_0x459a02=>{_0x47a29b[_0x459a02]=_0x36aaad[_0x459a02];}),_0x47a29b[_0x31cd84(0x2f0)]=_0x36aaad[_0x31cd84(0x2f0)]?{..._0x36aaad[_0x31cd84(0x2f0)],'_shadedLandmarkPos':_0x36aaad[_0x31cd84(0x2f0)][_0x31cd84(0x24b)]?{'x':_0x36aaad[_0x31cd84(0x2f0)][_0x31cd84(0x24b)]['x'],'y':_0x36aaad['decision'][_0x31cd84(0x24b)]['y']}:null}:null,_0x31c150[_0x31cd84(0x26a)][_0x31cd84(0x2d8)](_0x47a29b);});typeof OLINE_IDS!==_0x42a860['Szrhe']&&OLINE_IDS['forEach'](_0x2c0f32=>{const _0x696580=_0x8974b1,_0x5aa360=olineData[_0x2c0f32];if(!_0x5aa360)return;const _0x39b941={'id':_0x2c0f32};_SNAP_OLINE_KEYS[_0x696580(0x246)](_0x2074c1=>{_0x39b941[_0x2074c1]=_0x5aa360[_0x2074c1];}),_0x31c150[_0x696580(0x2fc)]['push'](_0x39b941);});for(const _0x559992 in liveReadStateById){const _0x3ac844=liveReadStateById[_0x559992];_0x31c150[_0x8974b1(0x22a)][_0x559992]={'phase':_0x3ac844[_0x8974b1(0x311)],'t':_0x3ac844['t'],'pos':{'x':_0x3ac844[_0x8974b1(0x298)]['x'],'y':_0x3ac844[_0x8974b1(0x298)]['y']},'prevPos':{'x':_0x3ac844[_0x8974b1(0x314)]['x'],'y':_0x3ac844[_0x8974b1(0x314)]['y']},'vel':{'x':_0x3ac844[_0x8974b1(0x28d)]['x'],'y':_0x3ac844['vel']['y']},'speed':_0x3ac844[_0x8974b1(0x248)],'dirAngleDeg':_0x3ac844['dirAngleDeg'],'moveType':_0x3ac844[_0x8974b1(0x2c0)],'prevMoveType':_0x3ac844['prevMoveType'],'lastActiveMoveType':_0x3ac844[_0x8974b1(0x273)],'lastActiveVel':_0x3ac844[_0x8974b1(0x307)]?{'x':_0x3ac844[_0x8974b1(0x307)]['x'],'y':_0x3ac844[_0x8974b1(0x307)]['y']}:{'x':0x0,'y':0x0},'lastActiveDirAngleDeg':_0x3ac844[_0x8974b1(0x2bf)],'depthYards':_0x3ac844[_0x8974b1(0x2fe)],'breakDepthYards':_0x3ac844[_0x8974b1(0x1dc)],'isVerticalThreatNow':_0x3ac844['isVerticalThreatNow'],'startSide':_0x3ac844[_0x8974b1(0x224)],'crossedMiddleNow':_0x3ac844[_0x8974b1(0x2b1)],'lastDecisionChangeAt':_0x3ac844[_0x8974b1(0x1db)],'prevVelDir':_0x3ac844[_0x8974b1(0x217)]?{'x':_0x3ac844[_0x8974b1(0x217)]['x'],'y':_0x3ac844[_0x8974b1(0x217)]['y']}:{'x':0x0,'y':-0x1},'breakNow':_0x3ac844['breakNow']};}return _0x31c150;}function _restoreSimState(_0x4a9c6c){const _0x1d8451=_0xb4d3a7,_0x3f5646={'JOguj':'undefined','hnkDM':function(_0x41db93,_0x4262ba){return _0x41db93!==_0x4262ba;}};_0x4a9c6c[_0x1d8451(0x247)]['forEach'](_0x24f6f3=>{const _0x20e236=_0x1d8451,_0x42d29a=players[_0x20e236(0x319)](_0x5e129c=>_0x5e129c['id']===_0x24f6f3['id']);if(!_0x42d29a)return;_SNAP_PLAYER_KEYS[_0x20e236(0x246)](_0x46527e=>{_0x42d29a[_0x46527e]=_0x24f6f3[_0x46527e];});}),_0x4a9c6c[_0x1d8451(0x26a)]['forEach'](_0x31b863=>{const _0x119f2a=_0x1d8451,_0xbd8cc8=defensePlayers[_0x119f2a(0x319)](_0x55f4c7=>_0x55f4c7['id']===_0x31b863['id']);if(!_0xbd8cc8)return;_SNAP_DEFENDER_KEYS[_0x119f2a(0x246)](_0x3e38dd=>{_0xbd8cc8[_0x3e38dd]=_0x31b863[_0x3e38dd];}),_0xbd8cc8[_0x119f2a(0x2f0)]=_0x31b863[_0x119f2a(0x2f0)]?{..._0x31b863[_0x119f2a(0x2f0)],'_shadedLandmarkPos':_0x31b863['decision'][_0x119f2a(0x24b)]?{'x':_0x31b863['decision'][_0x119f2a(0x24b)]['x'],'y':_0x31b863[_0x119f2a(0x2f0)][_0x119f2a(0x24b)]['y']}:null}:null;}),_0x4a9c6c[_0x1d8451(0x2fc)][_0x1d8451(0x246)](_0x2e3e9c=>{const _0x107365=_0x1d8451,_0x4a0f00=olineData[_0x2e3e9c['id']];if(!_0x4a0f00)return;_SNAP_OLINE_KEYS[_0x107365(0x246)](_0x1eeab4=>{_0x4a0f00[_0x1eeab4]=_0x2e3e9c[_0x1eeab4];});});for(const _0x117fc0 in liveReadStateById)delete liveReadStateById[_0x117fc0];for(const _0x130f7c in _0x4a9c6c[_0x1d8451(0x22a)]){const _0x256d02=_0x4a9c6c[_0x1d8451(0x22a)][_0x130f7c];liveReadStateById[_0x130f7c]={'phase':_0x256d02['phase'],'t':_0x256d02['t'],'pos':{'x':_0x256d02[_0x1d8451(0x298)]['x'],'y':_0x256d02[_0x1d8451(0x298)]['y']},'prevPos':{'x':_0x256d02['prevPos']['x'],'y':_0x256d02[_0x1d8451(0x314)]['y']},'vel':{'x':_0x256d02['vel']['x'],'y':_0x256d02[_0x1d8451(0x28d)]['y']},'speed':_0x256d02['speed'],'dirAngleDeg':_0x256d02[_0x1d8451(0x1ef)],'moveType':_0x256d02['moveType'],'prevMoveType':_0x256d02[_0x1d8451(0x200)],'lastActiveMoveType':_0x256d02['lastActiveMoveType'],'lastActiveVel':_0x256d02[_0x1d8451(0x307)]?{'x':_0x256d02[_0x1d8451(0x307)]['x'],'y':_0x256d02[_0x1d8451(0x307)]['y']}:{'x':0x0,'y':0x0},'lastActiveDirAngleDeg':_0x256d02[_0x1d8451(0x2bf)],'depthYards':_0x256d02[_0x1d8451(0x2fe)],'breakDepthYards':_0x256d02[_0x1d8451(0x1dc)],'isVerticalThreatNow':_0x256d02['isVerticalThreatNow'],'startSide':_0x256d02[_0x1d8451(0x224)],'crossedMiddleNow':_0x256d02['crossedMiddleNow'],'lastDecisionChangeAt':_0x256d02[_0x1d8451(0x1db)],'prevVelDir':_0x256d02[_0x1d8451(0x217)]?{'x':_0x256d02[_0x1d8451(0x217)]['x'],'y':_0x256d02[_0x1d8451(0x217)]['y']}:{'x':0x0,'y':-0x1},'breakNow':_0x256d02[_0x1d8451(0x1e6)]};}_qbPressureTracked={..._0x4a9c6c[_0x1d8451(0x2dc)]},playPhaseTime=_0x4a9c6c[_0x1d8451(0x24e)],lastPlayOutcome=_0x4a9c6c['lastPlayOutcome'],qbThrow=_0x4a9c6c[_0x1d8451(0x1d0)]?{..._0x4a9c6c['qbThrow']}:null,ballSim={..._0x4a9c6c[_0x1d8451(0x235)]};if(typeof _tackleTimerActive!==_0x3f5646[_0x1d8451(0x2e9)])_tackleTimerActive=_0x4a9c6c[_0x1d8451(0x25d)];if(typeof _tackleTimer!==_0x1d8451(0x2cf))_tackleTimer=_0x4a9c6c[_0x1d8451(0x301)];if(_0x3f5646['hnkDM'](typeof persistentCovCalls,_0x1d8451(0x2cf))){for(const _0x462a9d in persistentCovCalls)delete persistentCovCalls[_0x462a9d];Object[_0x1d8451(0x31d)](persistentCovCalls,_0x4a9c6c[_0x1d8451(0x1fb)]);}}function _capturePositions(){const _0x32e2cf=_0xb4d3a7,_0x507957={'JVaJc':function(_0x3ad80,_0x296a28){return _0x3ad80+_0x296a28;},'TnJKD':function(_0xa92a7b,_0x530cfd){return _0xa92a7b+_0x530cfd;}},_0x1605a5={};return players[_0x32e2cf(0x246)](_0x21c027=>{const _0x5b9a0a=_0x32e2cf;_0x1605a5[_0x507957['JVaJc']('o',_0x21c027['id'])]={'x':_0x21c027[_0x5b9a0a(0x2c8)]??_0x21c027['x'],'y':_0x21c027['simY']??_0x21c027['y']};}),defensePlayers[_0x32e2cf(0x246)](_0x4535fe=>{const _0x59cec9=_0x32e2cf;_0x1605a5[_0x507957['TnJKD']('d',_0x4535fe['id'])]={'x':_0x4535fe[_0x59cec9(0x2c8)]??_0x4535fe['x'],'y':_0x4535fe[_0x59cec9(0x2bc)]??_0x4535fe['y']};}),_0x1605a5;}function _dryRunPassTick(_0x9bbbe9){const _0xb15df2=_0xb4d3a7,_0x5b45cf={'zxqCr':function(_0x4efdbc,_0x5e3dae){return _0x4efdbc<=_0x5e3dae;},'vkuIh':function(_0x16dffe,_0x553a80){return _0x16dffe+_0x553a80;},'MFKDc':function(_0x16d3b9,_0x300490,_0x43638c,_0x18f4d4){return _0x16d3b9(_0x300490,_0x43638c,_0x18f4d4);},'EQUdg':function(_0x223d32,_0x59b9f4,_0x394826,_0xb82eea){return _0x223d32(_0x59b9f4,_0x394826,_0xb82eea);},'wzxrJ':function(_0x1ea508,_0x18ded6){return _0x1ea508>_0x18ded6;},'wPmbO':function(_0x1dfdfb,_0x5e5fd9){return _0x1dfdfb>_0x5e5fd9;},'lpBej':function(_0x4b41d1,_0x507ac4,_0xe18564,_0x5ae93c,_0x1a06e5){return _0x4b41d1(_0x507ac4,_0xe18564,_0x5ae93c,_0x1a06e5);},'WmsYf':function(_0x553178,_0x59bf65){return _0x553178!=_0x59bf65;},'MFSiy':function(_0x570c6f,_0x418e59){return _0x570c6f>=_0x418e59;},'iIlcw':function(_0x16690a,_0x56612a){return _0x16690a-_0x56612a;},'xGYpE':function(_0x543a72,_0x399c0a){return _0x543a72+_0x399c0a;},'fMEdL':function(_0x49029a,_0x5eddce,_0x481a7e,_0x472359){return _0x49029a(_0x5eddce,_0x481a7e,_0x472359);},'uWnDU':function(_0x55f6a6,_0x476bbc){return _0x55f6a6>=_0x476bbc;},'vemBv':function(_0x55d42b,_0x2a6ad8){return _0x55d42b*_0x2a6ad8;},'UMhCN':_0xb15df2(0x2cf),'jLoBh':function(_0x38704e,_0x185642){return _0x38704e(_0x185642);},'naCMi':function(_0x5e1864){return _0x5e1864();},'vohqJ':function(_0x429e7b,_0xe8779b){return _0x429e7b===_0xe8779b;},'Eglot':function(_0x2ef16b,_0x5007fa,_0x5c99e9,_0x5a79e1){return _0x2ef16b(_0x5007fa,_0x5c99e9,_0x5a79e1);},'PjWfs':'function','avbKK':function(_0x3e9030,_0x43f8ec){return _0x3e9030(_0x43f8ec);}},_0x15cd27=_0x5b45cf['vemBv'](simSpeed,SIM_BASE_SPEED);players[_0xb15df2(0x246)](_0x15818f=>{const _0x540612=_0xb15df2;if(_0x15818f[_0x540612(0x21b)]==='QB')return;const _0x32b09f=getMoveSpeed(_0x15818f,_0x15cd27);if(_0x15818f[_0x540612(0x2ee)]!=null){const _0x486760=defensePlayers[_0x540612(0x319)](_0x14029b=>_0x14029b['id']===_0x15818f['_blockChaseTargetId']);if(_0x486760){const _0xbb4397=Math['hypot']((_0x486760['simX']??_0x486760['x'])-(_0x15818f[_0x540612(0x2c8)]??_0x15818f['x']),(_0x486760[_0x540612(0x2bc)]??_0x486760['y'])-(_0x15818f[_0x540612(0x2bc)]??_0x15818f['y']));if(_0x5b45cf[_0x540612(0x303)](_0xbb4397,_0x5b45cf[_0x540612(0x20f)](BLOCK_HOLD_DIST,DEF_PLAYER_RADIUS)+0x2))_0x5b45cf[_0x540612(0x22f)](stepBlockHold,_0x15818f,_0x9bbbe9,_0x32b09f);else _0x5b45cf[_0x540612(0x1cc)](stepBlockChase,_0x15818f,_0x9bbbe9,_0x32b09f);}else _0x5b45cf['MFKDc'](stepBlockChase,_0x15818f,_0x9bbbe9,_0x32b09f);return;}if(_0x15818f['simDone'])return;const _0x288ee8=_0x15818f[_0x540612(0x2f3)]&&_0x5b45cf[_0x540612(0x1f3)](_0x15818f[_0x540612(0x2f3)]['length'],0x0),_0x52587c=_0x15818f[_0x540612(0x21e)]&&_0x5b45cf[_0x540612(0x1d6)](_0x15818f[_0x540612(0x21e)][_0x540612(0x2eb)],0x0);if(_0x288ee8){const _0x2e9827=_0x5b45cf[_0x540612(0x2f9)](stepPlayer,_0x15818f,_0x15818f[_0x540612(0x2f3)],_0x9bbbe9,_0x32b09f);if(_0x5b45cf[_0x540612(0x1d9)](_0x15818f[_0x540612(0x2ee)],null))stepBlockChase(_0x15818f,_0x9bbbe9,_0x32b09f);else{if(_0x2e9827)tryStartBlockChase(_0x15818f,_0x32b09f,!![]);else{const _0x28381d=_0x5b45cf[_0x540612(0x2a9)](_0x15818f[_0x540612(0x2f3)][_0x540612(0x2eb)],0x2)?_0x15818f[_0x540612(0x310)]>=0x1:![];if(!_0x15818f[_0x540612(0x269)]&&_0x28381d)tryStartBlockChase(_0x15818f,_0x32b09f,![]);}}}else{if(_0x52587c){if(stepPlayer(_0x15818f,_0x15818f[_0x540612(0x21e)],_0x9bbbe9,_0x32b09f))_0x15818f[_0x540612(0x253)]=!![];}}});typeof OLINE_IDS!==_0x5b45cf[_0xb15df2(0x1e1)]&&OLINE_IDS[_0xb15df2(0x246)](_0x5cb420=>{const _0x3a53f9=_0xb15df2,_0x3aa9b7=olineData[_0x5cb420];if(!_0x3aa9b7)return;const _0x570c16=getMoveSpeed(_0x3aa9b7,_0x15cd27);if(_0x3aa9b7[_0x3a53f9(0x2ee)]!=null){const _0x55fecf=defensePlayers[_0x3a53f9(0x319)](_0x22901b=>_0x22901b['id']===_0x3aa9b7[_0x3a53f9(0x2ee)]);if(_0x55fecf){const _0x8a90f1=Math['hypot']((_0x55fecf[_0x3a53f9(0x2c8)]??_0x55fecf['x'])-(_0x3aa9b7[_0x3a53f9(0x2c8)]??_0x3aa9b7['x']),_0x5b45cf[_0x3a53f9(0x25b)](_0x55fecf[_0x3a53f9(0x2bc)]??_0x55fecf['y'],_0x3aa9b7['simY']??_0x3aa9b7['y']));if(_0x5b45cf[_0x3a53f9(0x303)](_0x8a90f1,_0x5b45cf[_0x3a53f9(0x1df)](_0x5b45cf['vkuIh'](BLOCK_HOLD_DIST,DEF_PLAYER_RADIUS),0x2)))stepBlockHold(_0x3aa9b7,_0x9bbbe9,_0x570c16);else stepBlockChase(_0x3aa9b7,_0x9bbbe9,_0x570c16);}else _0x5b45cf['fMEdL'](stepBlockChase,_0x3aa9b7,_0x9bbbe9,_0x570c16);return;}if(!_0x3aa9b7[_0x3a53f9(0x253)]&&_0x3aa9b7[_0x3a53f9(0x2f3)]&&_0x5b45cf[_0x3a53f9(0x1f3)](_0x3aa9b7[_0x3a53f9(0x2f3)][_0x3a53f9(0x2eb)],0x0)){const _0x1252d8=stepPlayer(_0x3aa9b7,_0x3aa9b7[_0x3a53f9(0x2f3)],_0x9bbbe9,_0x570c16);if(_0x5b45cf[_0x3a53f9(0x1d9)](_0x3aa9b7[_0x3a53f9(0x2ee)],null))_0x5b45cf[_0x3a53f9(0x278)](stepBlockChase,_0x3aa9b7,_0x9bbbe9,_0x570c16);else{if(_0x1252d8)_0x5b45cf[_0x3a53f9(0x1cc)](tryStartBlockChase,_0x3aa9b7,_0x570c16,!![]);else{const _0xc9bebf=_0x3aa9b7[_0x3a53f9(0x2f3)]['length']>=0x2?_0x5b45cf[_0x3a53f9(0x2cd)](_0x3aa9b7[_0x3a53f9(0x310)],0x1):![];if(!_0x3aa9b7[_0x3a53f9(0x269)]&&_0xc9bebf)_0x5b45cf['EQUdg'](tryStartBlockChase,_0x3aa9b7,_0x570c16,![]);}}}});_0x5b45cf[_0xb15df2(0x2d1)](updateLiveReads,_0x9bbbe9);if(typeof trackQBPressureTick===_0xb15df2(0x1f4))_0x5b45cf[_0xb15df2(0x2f7)](trackQBPressureTick);_0x5b45cf[_0xb15df2(0x291)](typeof updateDefenseDecisions,'function')&&typeof offenseStructureSnapshot!=='undefined'&&_0x5b45cf[_0xb15df2(0x2e2)](updateDefenseDecisions,offenseStructureSnapshot,liveReadStateById,_0x9bbbe9);if(typeof stepDefensePlayers===_0x5b45cf[_0xb15df2(0x227)])_0x5b45cf[_0xb15df2(0x23c)](stepDefensePlayers,_0x9bbbe9);}const DRY_RUN_STEP_DT=0x1/0x1e,DRY_RUN_MAX_TIME=0x2;function runDryRunProjection(){const _0x572af2=_0xb4d3a7,_0x193dbb={'pQPgD':function(_0x4f39a1){return _0x4f39a1();},'fsHIr':function(_0xaedf9f,_0x369bf4){return _0xaedf9f/_0x369bf4;},'vQwHZ':function(_0x5c42b9,_0x5ab159){return _0x5c42b9*_0x5ab159;},'cZTgm':function(_0xacfa14,_0x2c3ad2){return _0xacfa14+_0x2c3ad2;},'AhvDo':function(_0x3349b8,_0x4b3373){return _0x3349b8(_0x4b3373);},'BtLhV':function(_0x515b85,_0x546c15){return _0x515b85-_0x546c15;}},_0x57a292=_0x193dbb[_0x572af2(0x2ec)](_snapshotSimState),_0x565c5e=Math[_0x572af2(0x223)](_0x193dbb[_0x572af2(0x20b)](DRY_RUN_MAX_TIME,DRY_RUN_STEP_DT)),_0xd6a98b=[{'t':0x0,'pos':_capturePositions()}];try{for(let _0x38a61e=0x0;_0x38a61e<_0x565c5e;_0x38a61e++){_dryRunPassTick(DRY_RUN_STEP_DT),_0xd6a98b[_0x572af2(0x2d8)]({'t':_0x193dbb[_0x572af2(0x250)](_0x193dbb[_0x572af2(0x30f)](_0x38a61e,0x1),DRY_RUN_STEP_DT),'pos':_capturePositions()});}}catch(_0x2dbf78){console['error']('[DRY-RUN]\x20ERROR\x20during\x20simulation:',_0x2dbf78);}_0x193dbb[_0x572af2(0x28c)](_restoreSimState,_0x57a292),_dryRunTimeline={'stepDt':DRY_RUN_STEP_DT,'maxTime':DRY_RUN_MAX_TIME,'steps':_0xd6a98b};const _0x2bb017=_capturePositions(),_0x237e62=_0xd6a98b[0x0][_0x572af2(0x298)];let _0x45223f=!![];for(const _0x465356 in _0x237e62){const _0x111656=_0x237e62[_0x465356],_0x4fcd49=_0x2bb017[_0x465356];if(!_0x4fcd49){console['warn']('[DRY-RUN]\x20MISSING\x20after\x20restore:\x20id='+_0x465356),_0x45223f=![];continue;}const _0x400634=Math[_0x572af2(0x1d5)](_0x193dbb[_0x572af2(0x1f0)](_0x111656['x'],_0x4fcd49['x']),_0x111656['y']-_0x4fcd49['y']);_0x400634>0.5&&(console[_0x572af2(0x2b5)](_0x572af2(0x234)+_0x465356+_0x572af2(0x2df)+_0x111656['x'][_0x572af2(0x2c4)](0x1)+','+_0x111656['y'][_0x572af2(0x2c4)](0x1)+')\x20post('+_0x4fcd49['x'][_0x572af2(0x2c4)](0x1)+','+_0x4fcd49['y'][_0x572af2(0x2c4)](0x1)+_0x572af2(0x1f1)+_0x400634['toFixed'](0x1)+'px'),_0x45223f=![]);}if(_0x45223f)console[_0x572af2(0x2ac)](_0x572af2(0x27b)+_0x565c5e+'\x20steps,\x20'+Object[_0x572af2(0x257)](_0x237e62)['length']+_0x572af2(0x2e3));}function getDryRunPositionsAt(_0x1fdd03){const _0x564d52=_0xb4d3a7,_0x553765={'fhHjx':function(_0x362186,_0x5c785d){return _0x362186===_0x5c785d;},'kXklI':function(_0x3f8d79,_0x5313aa){return _0x3f8d79/_0x5313aa;}};if(!_dryRunTimeline||_0x553765['fhHjx'](_dryRunTimeline['steps'][_0x564d52(0x2eb)],0x0))return null;const _0x4540de=Math[_0x564d52(0x1fe)](Math[_0x564d52(0x2b8)](_0x553765[_0x564d52(0x24d)](_0x1fdd03,_dryRunTimeline[_0x564d52(0x22d)])),_dryRunTimeline[_0x564d52(0x245)][_0x564d52(0x2eb)]-0x1);return _dryRunTimeline[_0x564d52(0x245)][Math['max'](0x0,_0x4540de)][_0x564d52(0x298)];}function getPassCompletionProb(_0x8161c,_0x4de28d,_0x5553f6){const _0x399574=_0xb4d3a7,_0x33bdc4={'sfngg':function(_0x44c514,_0x400296){return _0x44c514<_0x400296;},'xXJzB':function(_0x464dd5,_0x18457a,_0x3d38fd){return _0x464dd5(_0x18457a,_0x3d38fd);},'OIlCE':function(_0x358456,_0x33f0d4,_0x757ebd){return _0x358456(_0x33f0d4,_0x757ebd);},'VXQzj':function(_0x133d3f,_0x2d8671){return _0x133d3f(_0x2d8671);},'pdYug':function(_0x301853,_0x53cc97){return _0x301853===_0x53cc97;},'FEBzI':function(_0x4baadb,_0x5d5ade){return _0x4baadb||_0x5d5ade;},'BanRW':function(_0x3f54c3,_0x2e2ccc){return _0x3f54c3>_0x2e2ccc;},'QAUdO':function(_0xca560f,_0x314b79){return _0xca560f+_0x314b79;},'qZvTZ':function(_0x4eab80,_0x5f20ee){return _0x4eab80&&_0x5f20ee;},'Sqswq':function(_0x39ba21,_0x3d5197){return _0x39ba21+_0x3d5197;},'Umoyi':function(_0x1aed60,_0x42cf5a){return _0x1aed60(_0x42cf5a);},'WKrFM':function(_0x3197e0){return _0x3197e0();},'EWFso':function(_0x5b6131){return _0x5b6131();},'fmSyd':function(_0x2df6e0,_0x4371c0){return _0x2df6e0(_0x4371c0);},'wTzQZ':function(_0x280383,_0x168e30){return _0x280383/_0x168e30;},'hpEVy':function(_0x45ac6c,_0xce9f12){return _0x45ac6c+_0xce9f12;},'wMbER':function(_0xeb0f54,_0x4fd66a){return _0xeb0f54*_0x4fd66a;},'HTdKm':function(_0x59c270,_0x58db7a){return _0x59c270*_0x58db7a;},'eIXgA':function(_0xa2c94f,_0x292a8a){return _0xa2c94f>=_0x292a8a;},'RJhdY':function(_0x10e96e,_0x5944b5){return _0x10e96e/_0x5944b5;},'RsnDz':function(_0x81bb4e,_0x2ff72a){return _0x81bb4e/_0x2ff72a;},'pDjeK':function(_0xd8e0a2,_0x4f0bf9){return _0xd8e0a2-_0x4f0bf9;},'djRof':function(_0x211b9d,_0xa3f99c){return _0x211b9d+_0xa3f99c;},'FXxUA':function(_0x316e33,_0x55ce20){return _0x316e33-_0x55ce20;},'JniEm':function(_0x42c59f,_0x500304,_0x1a706b){return _0x42c59f(_0x500304,_0x1a706b);},'oOZYI':_0x399574(0x1e7),'wmSDl':function(_0xd75b2d,_0x490b5c){return _0xd75b2d+_0x490b5c;},'TOIAZ':function(_0x4db572,_0x4b4b6f){return _0x4db572/_0x4b4b6f;},'UZiGZ':function(_0x175b5a,_0x2ef19c){return _0x175b5a-_0x2ef19c;},'cuCMs':function(_0xba8152,_0x470886){return _0xba8152>=_0x470886;},'iZqll':function(_0x361339,_0x118bc7){return _0x361339-_0x118bc7;},'UYlOz':function(_0x2a1a5e,_0x341b98){return _0x2a1a5e(_0x341b98);},'dBbiW':function(_0x1db6a1,_0x5a234c){return _0x1db6a1<_0x5a234c;},'piBFF':function(_0x2cd987,_0x2a5873){return _0x2cd987-_0x2a5873;},'CRLOd':function(_0x36dafc,_0x3a04b2){return _0x36dafc/_0x3a04b2;},'UAkAK':'coverage','xZkHy':function(_0x3f0551,_0x337549){return _0x3f0551*_0x337549;},'cdOoO':function(_0x2dbba0,_0x2e116f){return _0x2dbba0-_0x2e116f;},'troUx':function(_0x2635aa,_0x689cae){return _0x2635aa*_0x689cae;},'LRPtB':function(_0x548677,_0xbd08b8){return _0x548677(_0xbd08b8);},'KghRF':function(_0x1ea9ae,_0x1b2fe6){return _0x1ea9ae-_0x1b2fe6;},'WxWjY':function(_0x56d606,_0x25813b){return _0x56d606*_0x25813b;},'XfNuH':_0x399574(0x2d7)},_0x17a511=players['find'](_0x1d324b=>_0x1d324b['id']===_0x8161c);if(!_0x17a511)return{'completionProb':0x0,'intProb':0x0,'expectedYards':0x0,'rawYards':0x0,'nearbyDefCount':0x0,'effectiveSepYds':0x0,'debug':_0x399574(0x28e)};const _0xe9f315=_0x33bdc4[_0x399574(0x260)](_0x5553f6,0x0),_0x5dfd17=_0x33bdc4['BanRW'](_0xe9f315,0x0)?_0x33bdc4[_0x399574(0x29a)](getDryRunPositionsAt,_0xe9f315):null;if(_0xe9f315>0x0){const _0x52310f=!!_dryRunTimeline,_0x83f290=_0x52310f?_dryRunTimeline[_0x399574(0x245)]['length']:0x0,_0x7f688e=_0x5dfd17?!!_0x5dfd17['o'+_0x17a511['id']]:![],_0x4bdf42=simPos(_0x17a511),_0x341312=_0x5dfd17?_0x5dfd17[_0x33bdc4['QAUdO']('o',_0x17a511['id'])]:null;let _0x2f5f0c=Infinity,_0x413163=null;defensePlayers[_0x399574(0x246)](_0x4693bf=>{const _0x15eddb=dist(simPos(_0x4693bf),_0x4bdf42);_0x33bdc4['sfngg'](_0x15eddb,_0x2f5f0c)&&(_0x2f5f0c=_0x15eddb,_0x413163=_0x4693bf['id']);});let _0x52af79=Infinity,_0x46fdc8=null;_0x33bdc4[_0x399574(0x22c)](_0x5dfd17,_0x341312)&&defensePlayers['forEach'](_0x3fac8d=>{const _0x57962e=_0x399574,_0x3e05c9=_0x5dfd17['d'+_0x3fac8d['id']];if(!_0x3e05c9)return;const _0x956c0f=_0x33bdc4[_0x57962e(0x2c2)](dist,_0x3e05c9,_0x341312);_0x956c0f<_0x52af79&&(_0x52af79=_0x956c0f,_0x46fdc8=_0x3fac8d['id']);}),console[_0x399574(0x2ac)](_0x33bdc4[_0x399574(0x2a7)](_0x33bdc4[_0x399574(0x2a7)]('[DRY-RUN\x20DIAG]\x20rec:'+_0x17a511[_0x399574(0x24f)]+'#'+_0x17a511['id']+_0x399574(0x21a)+_0xe9f315[_0x399574(0x2c4)](0x2)+'s\x20|\x20timeline:'+_0x52310f+_0x399574(0x212)+_0x83f290+'\x20hasRecPos:'+_0x7f688e,_0x399574(0x2e1)+_0x4bdf42['x'][_0x399574(0x2c4)](0x0)+','+_0x4bdf42['y'][_0x399574(0x2c4)](0x0)+_0x399574(0x1ed)+(_0x341312?'('+_0x341312['x'][_0x399574(0x2c4)](0x0)+','+_0x341312['y'][_0x399574(0x2c4)](0x0)+')':_0x399574(0x242))),_0x399574(0x230)+_0x413163+'\x20'+(_0x2f5f0c/YARD_PX)[_0x399574(0x2c4)](0x1)+'yd\x20|\x20nearestDry:def#'+_0x46fdc8+'\x20'+(_0x52af79/YARD_PX)[_0x399574(0x2c4)](0x1)+'yd'));}const _0x4096d5=_0x5dfd17?_0x5dfd17['o'+_0x17a511['id']]||simPos(_0x17a511):_0x4de28d||_0x33bdc4['Umoyi'](simPos,_0x17a511),_0x5a38d5=_0x33bdc4[_0x399574(0x23e)](LOS_Y),_0x304338=yardGain(_0x5a38d5,_0x4096d5['y']),_0xf1d7df=_0x33bdc4[_0x399574(0x2b0)](getQBPressure);function _0x21d6b3(_0x27b7d2){if(_0x5dfd17&&_0x5dfd17['d'+_0x27b7d2['id']])return _0x5dfd17['d'+_0x27b7d2['id']];return simPos(_0x27b7d2);}let _0x5b4524=null,_0x1289f2=Infinity;defensePlayers[_0x399574(0x246)](_0x31bf27=>{const _0x25e4b9=_0x399574,_0x35706c=_0x33bdc4['OIlCE'](dist,_0x33bdc4[_0x25e4b9(0x29a)](_0x21d6b3,_0x31bf27),_0x4096d5);_0x33bdc4[_0x25e4b9(0x2e8)](_0x35706c,_0x1289f2)&&(_0x1289f2=_0x35706c,_0x5b4524=_0x31bf27);});const _0x45d52a=getCoverageQualityFactor(_0x5b4524,_0x17a511,_0x4096d5,_0x5b4524?_0x33bdc4[_0x399574(0x280)](_0x21d6b3,_0x5b4524):null),_0x3ac769=_0x1289f2*_0x45d52a*_0xf1d7df['pressureFactor'],_0x238c62=getAttr(_0x17a511,_0x399574(0x308)),_0x363e9d=OPEN_SEPARATION_PX*_0x33bdc4[_0x399574(0x202)](_0x238c62,0x4b),_0xd8cf2c=players['find'](_0x3ce075=>_0x3ce075[_0x399574(0x21b)]==='QB'),_0x239d16=_0xd8cf2c?_0x33bdc4[_0x399574(0x1fa)](getAttr,_0xd8cf2c,'THA'):0x4b,_0x272f59=_0x33bdc4[_0x399574(0x2d0)](0.6,_0x33bdc4[_0x399574(0x20e)](_0x33bdc4['HTdKm'](0.4,_0xf1d7df[_0x399574(0x1d7)]),_0x239d16/0x4b)),_0x17748a=_0x33bdc4[_0x399574(0x2c2)](getAttr,_0x17a511,_0x399574(0x1d2)),_0x4fa890=liveReadStateById[_0x17a511['id']]?.[_0x399574(0x2fe)]??0x0,_0x32d527=_0x33bdc4[_0x399574(0x1fc)](_0x4fa890,0xf)?_0x33bdc4[_0x399574(0x216)](_0x17748a-0x4b,0x12c):0x0,_0x26f3b2=0x5*YARD_PX;let _0x2b2159=0x0;defensePlayers[_0x399574(0x246)](_0x1d1610=>{const _0x1ea878=_0x399574;if(_0x33bdc4['pdYug'](_0x1d1610['decision']?.[_0x1ea878(0x283)],_0x1ea878(0x28a)))return;const _0x41a76d=dist(_0x33bdc4[_0x1ea878(0x29a)](_0x21d6b3,_0x1d1610),_0x4096d5);if(_0x41a76d<=_0x26f3b2)_0x2b2159++;});const _0x478ce8=_0x33bdc4['eIXgA'](_0x2b2159,0x2),_0x3f0064=_0x926c00=>0x1/(0x1+Math[_0x399574(0x2b4)](-_0x926c00)),_0x79bb78=_0x33bdc4[_0x399574(0x241)](_0x33bdc4['Sqswq'](CONTESTED_SEP_PX,_0x363e9d),0x2),_0x4d84c8=_0x33bdc4[_0x399574(0x206)](_0x363e9d,CONTESTED_SEP_PX)/0x4,_0x563102=_0x4d84c8>0x0?_0x33bdc4[_0x399574(0x206)](_0x3ac769,_0x79bb78)/_0x4d84c8:0x0,_0x66598a=0.08,_0x12a567=0.97;let _0x3a3232=_0x33bdc4[_0x399574(0x21c)](_0x66598a,_0x33bdc4[_0x399574(0x208)](_0x12a567,_0x66598a)*_0x3f0064(_0x563102));const _0x34df23=_0x33bdc4[_0x399574(0x29e)](getAttr,_0x17a511,_0x399574(0x2a8)),_0x5d6f62=_0x33bdc4[_0x399574(0x1fa)](getAttr,_0x17a511,_0x33bdc4[_0x399574(0x1e3)]),_0x3f0975=_0x3f0064(_0x563102),_0x3e7f56=_0x33bdc4[_0x399574(0x320)](_0x238c62*_0x3f0975,_0x34df23*(0x1-_0x3f0975));_0x3a3232+=_0x33bdc4[_0x399574(0x241)](_0x3e7f56-0x4b,0xfa),_0x3a3232+=_0x33bdc4['TOIAZ'](_0x5d6f62-0x4b,0x15e),_0x3a3232+=_0x33bdc4[_0x399574(0x1dd)](_0x33bdc4[_0x399574(0x295)](_0x45d52a,0x1),0.08),_0x3a3232+=_0x32d527,_0x3a3232*=_0x272f59;const _0x149090=_0x478ce8?(_0x33bdc4[_0x399574(0x2bb)](_0x2b2159,0x3)?0.25:0.15)*_0x33bdc4['iZqll'](0x1,_0x33bdc4[_0x399574(0x2ff)](_0x3f0064,_0x563102)*0.6):0x0;_0x3a3232-=_0x149090,_0x3a3232=Math[_0x399574(0x207)](0.03,Math['min'](0.97,_0x3a3232));const _0x7744ad=_0x5b4524?_0x21d6b3(_0x5b4524):_0x4096d5,_0x243afe=_0x33bdc4[_0x399574(0x21f)](_0x7744ad['y'],_0x4096d5['y']),_0x16c0ab=_0x243afe?0.22:0.06,_0x3af156=0.01;let _0x32fc4e=_0x33bdc4['QAUdO'](_0x3af156,(_0x16c0ab-_0x3af156)*_0x33bdc4[_0x399574(0x266)](0x1,_0x33bdc4[_0x399574(0x29a)](_0x3f0064,_0x563102)));if(_0x5b4524)_0x32fc4e+=_0x33bdc4['CRLOd'](_0x33bdc4[_0x399574(0x266)](getAttr(_0x5b4524,_0x33bdc4[_0x399574(0x239)]),0x4b),0x1f4);_0x32fc4e+=_0x33bdc4[_0x399574(0x1ee)](_0x33bdc4['cdOoO'](0x1,_0x272f59),0.08);if(_0x2b2159>=0x3)_0x32fc4e+=_0x33bdc4[_0x399574(0x249)](0.12,0x1-_0x33bdc4['fmSyd'](_0x3f0064,_0x563102));else{if(_0x478ce8)_0x32fc4e+=0.07*_0x33bdc4['pDjeK'](0x1,_0x33bdc4[_0x399574(0x252)](_0x3f0064,_0x563102));}_0x32fc4e=Math[_0x399574(0x207)](0.01,Math['min'](0.35,_0x32fc4e));const _0x11cdce=0x28,_0xa26d46=_0x33bdc4[_0x399574(0x2a4)](_0x33bdc4[_0x399574(0x249)](_0x3a3232,Math[_0x399574(0x207)](_0x304338,0.5)),_0x33bdc4['WxWjY'](_0x32fc4e,_0x11cdce)),_0x3b5696=_0x33bdc4[_0x399574(0x249)](_0x3ac769,YARDS_PER_PX),_0x395d00=_0x17a511[_0x399574(0x24f)]+'#'+_0x17a511['id']+_0x399574(0x205)+(_0x3a3232*0x64)['toFixed'](0x0)+_0x399574(0x268)+(_0x32fc4e*0x64)[_0x399574(0x2c4)](0x0)+_0x399574(0x2fb)+_0xa26d46[_0x399574(0x2c4)](0x1)+_0x399574(0x299)+_0x3b5696[_0x399574(0x2c4)](0x1)+_0x399574(0x28f)+(_0x33bdc4[_0x399574(0x1fc)](_0x2b2159,0x2)?_0x33bdc4[_0x399574(0x2d0)](_0x2b2159,_0x33bdc4[_0x399574(0x23d)]):'');return{'completionProb':_0x3a3232,'intProb':_0x32fc4e,'expectedYards':_0xa26d46,'rawYards':_0x304338,'nearbyDefCount':_0x2b2159,'effectiveSepYds':_0x3b5696,'debug':_0x395d00};}function getPassOutcome(_0x3de221){const _0x3432ef=_0xb4d3a7,_0x3ce4b0={'lnDsl':'incomplete','giZxp':_0x3432ef(0x211),'SRmvB':function(_0x5ce2a2,_0x500672){return _0x5ce2a2(_0x500672);},'DaRxZ':function(_0x54adc0){return _0x54adc0();},'gQysZ':function(_0xd5f343){return _0xd5f343();},'GOwWz':function(_0x118750,_0x281153){return _0x118750(_0x281153);},'ZZgZN':function(_0x11fa68,_0x55c5db){return _0x11fa68*_0x55c5db;},'rveox':function(_0x46bd69,_0xe9f0ab,_0xc6e963){return _0x46bd69(_0xe9f0ab,_0xc6e963);},'rmPNZ':'catch','pOGZX':_0x3432ef(0x203),'QAIzb':function(_0x4986ef,_0x3d6834){return _0x4986ef-_0x3d6834;},'kvDFG':_0x3432ef(0x2c5),'PowJF':function(_0x2e3266,_0x44fe75){return _0x2e3266>=_0x44fe75;},'mxNzQ':function(_0x16ba77,_0x5196f0){return _0x16ba77*_0x5196f0;},'WjOhS':function(_0x3ce0d9,_0x3d9838){return _0x3ce0d9*_0x3d9838;},'fbaio':_0x3432ef(0x20d),'jFLGP':function(_0x87853d,_0x2f9a6e){return _0x87853d*_0x2f9a6e;}},_0x55190e=players[_0x3432ef(0x319)](_0x5d8b10=>_0x5d8b10['id']===_0x3de221);if(!_0x55190e)return{'complete':![],'yards':0x0,'result':_0x3ce4b0[_0x3432ef(0x1e9)],'defender':null,'detail':_0x3ce4b0[_0x3432ef(0x1e8)]};const _0x546fc4=_0x3ce4b0[_0x3432ef(0x2a3)](getPassCompletionProb,_0x3de221),_0x2ecdbd=simPos(_0x55190e),_0x52ea23=_0x3ce4b0['DaRxZ'](LOS_Y),_0x70aeb4=yardGain(_0x52ea23,_0x2ecdbd['y']),_0x3df6b0=_0x3ce4b0['gQysZ'](getQBPressure),{defender:_0xc391f5,separationPx:_0x42a6f1}=_0x3ce4b0[_0x3432ef(0x2ad)](nearestDefender,_0x55190e),_0x48deba=getCoverageQualityFactor(_0xc391f5,_0x55190e),_0x101288=_0x3ce4b0[_0x3432ef(0x2ba)](_0x42a6f1*_0x48deba,_0x3df6b0[_0x3432ef(0x1d7)]),_0x30a6fd=OPEN_SEPARATION_PX*(_0x3ce4b0[_0x3432ef(0x2e6)](getAttr,_0x55190e,_0x3ce4b0[_0x3432ef(0x1ea)])/0x4b);let _0x23a50a,_0x5c96ba;const _0x53ee9b=_0x546fc4['completionProb'],_0x5be901=_0x546fc4[_0x3432ef(0x2b7)];if(Math[_0x3432ef(0x2de)]()<_0x5be901)_0x5c96ba=![],_0x23a50a=_0x3ce4b0['pOGZX'];else Math[_0x3432ef(0x2de)]()<_0x53ee9b/_0x3ce4b0[_0x3432ef(0x23f)](0x1,_0x5be901)?(_0x5c96ba=!![],_0x23a50a=_0x3ce4b0['kvDFG']):(_0x5c96ba=![],_0x23a50a=_0x3ce4b0[_0x3432ef(0x1e9)]);if(_0x5c96ba&&_0x3ce4b0[_0x3432ef(0x2ed)](_0x70aeb4,0x1e))_0x23a50a=_0x3432ef(0x2fd);const _0x239be6=_0x3ce4b0[_0x3432ef(0x218)](_0x101288,YARDS_PER_PX)['toFixed'](0x1),_0x3a376a=(_0x42a6f1*YARDS_PER_PX)[_0x3432ef(0x2c4)](0x1),_0x1ef16c=_0x3ce4b0['WjOhS'](_0x30a6fd,YARDS_PER_PX)[_0x3432ef(0x2c4)](0x1),_0x49458d=_0x3df6b0[_0x3432ef(0x25f)]?_0x3ce4b0[_0x3432ef(0x26d)]:'',_0x3f3cc5=_0x546fc4[_0x3432ef(0x2cc)]>=0x2?'\x20·\x20'+_0x546fc4[_0x3432ef(0x2cc)]+_0x3432ef(0x2d7):'',_0x359c06=_0x55190e[_0x3432ef(0x24f)]+'#'+_0x55190e['id']+'\x20—\x20RawSep:'+_0x3a376a+_0x3432ef(0x2c1)+_0x239be6+'yd\x20Thresh:'+_0x1ef16c+_0x3432ef(0x226)+_0x3ce4b0['jFLGP'](_0x53ee9b,0x64)[_0x3432ef(0x2c4)](0x0)+'%\x20INT:'+_0x3ce4b0[_0x3432ef(0x218)](_0x5be901,0x64)['toFixed'](0x0)+'%'+_0x49458d+_0x3f3cc5+_0x3432ef(0x2a1)+_0x23a50a['toUpperCase'](),_0x32d50c=qbThrow?.[_0x3432ef(0x1cb)]||null;return{'complete':_0x5c96ba,'yards':_0x5c96ba?_0x70aeb4:0x0,'result':_0x23a50a,'defender':_0xc391f5,'separationPx':_0x101288,'rawSeparationPx':_0x42a6f1,'covFactor':_0x48deba,'pressure':_0x3df6b0,'isDoubleCovered':_0x546fc4[_0x3432ef(0x2cc)]>=0x2,'nearbyDefCount':_0x546fc4[_0x3432ef(0x2cc)],'detail':_0x359c06,'arrivalProb':_0x546fc4,'qbReadProb':_0x32d50c};}function getRunOutcome(){const _0x390247=_0xb4d3a7,_0x1a1153={'EWZBF':'gain','gCFFy':_0x390247(0x286),'bbVVb':function(_0x450eb4,_0x517e0b,_0x288200){return _0x450eb4(_0x517e0b,_0x288200);},'aOtlo':function(_0x10b9b7,_0xf8e085){return _0x10b9b7(_0xf8e085);},'NeqRg':function(_0x4b00be,_0x1d60b8,_0x1c6baa){return _0x4b00be(_0x1d60b8,_0x1c6baa);},'PEvdb':_0x390247(0x1d2),'WFaMz':function(_0x31e226,_0x5f1533){return _0x31e226*_0x5f1533;},'kZEIk':function(_0xb53148,_0x15e7e6){return _0xb53148/_0x15e7e6;},'lPXDt':function(_0x3d5218,_0x1fc6cf){return _0x3d5218*_0x1fc6cf;},'GaNQI':_0x390247(0x2fd)},_0x473ca9=players[_0x390247(0x319)](_0xf782e7=>_0xf782e7['id']===runCarrierId);if(!_0x473ca9)return{'yards':0x0,'result':_0x1a1153[_0x390247(0x2c7)],'tackler':null,'detail':_0x1a1153['gCFFy']};const _0x24f1cc=simPos(_0x473ca9),_0x58992b=LOS_Y(),_0x131edb=_0x1a1153['bbVVb'](yardGain,_0x58992b,_0x24f1cc['y']),{defender:_0x703ad0,separationPx:_0x7eceb5}=_0x1a1153[_0x390247(0x274)](nearestDefender,_0x473ca9),_0x32636d=getAttr(_0x703ad0,_0x390247(0x244)),_0x222614=_0x1a1153['bbVVb'](getAttr,_0x703ad0,_0x390247(0x2e7)),_0x884285=_0x1a1153[_0x390247(0x256)](getAttr,_0x473ca9,_0x1a1153['PEvdb']),_0x34f2d1=_0x1a1153[_0x390247(0x264)](_0x32636d,0.7)+_0x1a1153[_0x390247(0x264)](_0x222614,0.3),_0x2661f4=_0x34f2d1/(_0x34f2d1+_0x884285),_0x22ed51=typeof gameState!==_0x390247(0x2cf)&&gameState[_0x390247(0x1fd)],_0x294c1c=Math[_0x390247(0x1fe)](_0x1a1153[_0x390247(0x2a5)](_0x7eceb5,YARD_PX),0x4),_0x25f2e8=_0x1a1153['WFaMz'](0x1-_0x2661f4,0x2),_0x21b409=_0x22ed51?Math[_0x390247(0x207)](0x0,_0x1a1153['WFaMz'](_0x294c1c,0x1-_0x1a1153[_0x390247(0x315)](_0x2661f4,0.5))+_0x25f2e8):0x0,_0x4b912a=Math['round'](_0x131edb+_0x21b409),_0x524f7d=_0x4b912a>=0x1e?_0x1a1153[_0x390247(0x228)]:_0x4b912a<0x0?_0x390247(0x2b2):'gain',_0x5f297c=_0x1a1153[_0x390247(0x315)](_0x2661f4,0x64)[_0x390247(0x2c4)](0x0),_0x5c75b5=_0x473ca9['label']+'#'+_0x473ca9['id']+_0x390247(0x21d)+(_0x4b912a>0x0?'+':'')+_0x4b912a+_0x390247(0x2af)+_0x5f297c+'%\x20YAC:'+_0x21b409[_0x390247(0x2c4)](0x1)+')';return{'yards':_0x4b912a,'result':_0x524f7d,'tackler':_0x703ad0,'separationPx':_0x7eceb5,'tackleSuccessProb':_0x2661f4,'yac':_0x21b409,'detail':_0x5c75b5};}function showOutcomeToast(_0xc5fba){const _0x17ebdd=_0xb4d3a7,_0x1aa020={'kVVES':function(_0x534eb7,_0x4154f3){return _0x534eb7!==_0x4154f3;},'OEAvB':'🏈\x20TOUCHDOWN','LbNji':_0x17ebdd(0x1eb),'iMDNt':_0x17ebdd(0x2ab),'wZpPL':function(_0xbb3620,_0x4b8a13){return _0xbb3620!==_0x4b8a13;},'FRcOE':_0x17ebdd(0x233),'woJQy':_0x17ebdd(0x203),'tywRT':_0x17ebdd(0x2f6),'pHsDz':_0x17ebdd(0x2da),'AzUJm':'outcomeDetail','qMBRw':'outcomeSep','ypQqr':_0x17ebdd(0x296),'rVQRU':function(_0x4277d9,_0x3ef7df){return _0x4277d9===_0x3ef7df;},'UKasw':_0x17ebdd(0x238),'BSNum':function(_0xe3e871,_0x1f3b17){return _0xe3e871!=_0x1f3b17;},'LUtFQ':function(_0x53a960,_0x4c46f3){return _0x53a960*_0x4c46f3;},'sXBjW':function(_0x5e8f8c,_0x4b8fbe){return _0x5e8f8c*_0x4b8fbe;},'fLNXw':function(_0x19dd80,_0x26bd35){return _0x19dd80>=_0x26bd35;},'JLWIu':function(_0xd01e8e,_0xbac5b1){return _0xd01e8e(_0xbac5b1);},'JseUh':function(_0x1d0901,_0x123589){return _0x1d0901>_0x123589;},'sdZjc':'sim'};if(!_0xc5fba)return;if(_0x1aa020[_0x17ebdd(0x290)](typeof _dryRunning,_0x17ebdd(0x2cf))&&_dryRunning)return;const _0x1d897f={'touchdown':_0x1aa020[_0x17ebdd(0x237)],'complete':_0x17ebdd(0x2d6),'incomplete':_0x1aa020[_0x17ebdd(0x318)],'interception':_0x17ebdd(0x1f9),'gain':'↑\x20GAIN','loss':_0x1aa020[_0x17ebdd(0x321)],'penalty':_0x17ebdd(0x214)},_0x27b2dc=_0x1aa020[_0x17ebdd(0x2f2)](_0xc5fba[_0x17ebdd(0x1d1)],0x0)?''+(_0xc5fba[_0x17ebdd(0x1d1)]>0x0?'+':'')+_0xc5fba[_0x17ebdd(0x1d1)]:_0xc5fba['result']===_0x1aa020[_0x17ebdd(0x30e)]||_0xc5fba[_0x17ebdd(0x1cd)]===_0x1aa020[_0x17ebdd(0x221)]?'—':'0',_0xcbd82=document[_0x17ebdd(0x251)](_0x1aa020[_0x17ebdd(0x309)]),_0xdd862a=document['getElementById'](_0x1aa020[_0x17ebdd(0x288)]),_0x51f150=document['getElementById'](_0x17ebdd(0x2cb)),_0x33d953=document[_0x17ebdd(0x251)](_0x1aa020[_0x17ebdd(0x258)]),_0x5c3819=document['getElementById'](_0x1aa020[_0x17ebdd(0x22b)]);if(!_0xcbd82){showToast(_0x1d897f[_0xc5fba[_0x17ebdd(0x1cd)]]+'\x20'+_0x27b2dc,_0x1aa020[_0x17ebdd(0x30c)]);return;}_0xdd862a[_0x17ebdd(0x312)]=_0x1d897f[_0xc5fba[_0x17ebdd(0x1cd)]]??_0xc5fba[_0x17ebdd(0x1cd)][_0x17ebdd(0x2d9)](),_0x51f150[_0x17ebdd(0x312)]=_0x1aa020[_0x17ebdd(0x2ce)](_0xc5fba['result'],_0x17ebdd(0x233))||_0x1aa020[_0x17ebdd(0x2ce)](_0xc5fba['result'],_0x1aa020[_0x17ebdd(0x221)])?'—':_0x27b2dc+_0x1aa020['UKasw'],_0x33d953[_0x17ebdd(0x312)]=_0xc5fba[_0x17ebdd(0x276)]??'';if(_0xc5fba['raw']?.[_0x17ebdd(0x265)]!=null){const _0x2e5b29=(_0xc5fba[_0x17ebdd(0x243)]['separationPx']/YARD_PX)[_0x17ebdd(0x2c4)](0x1),_0x4dd47b=(_0xc5fba[_0x17ebdd(0x243)][_0x17ebdd(0x26f)]/YARD_PX)[_0x17ebdd(0x2c4)](0x1),_0x471bdf=_0xc5fba[_0x17ebdd(0x243)]?.['defender']?''+_0xc5fba[_0x17ebdd(0x243)][_0x17ebdd(0x254)][_0x17ebdd(0x2f1)]+_0xc5fba[_0x17ebdd(0x243)]['defender']['id']:'kein\x20Defender',_0x4b7a08=_0xc5fba[_0x17ebdd(0x243)]?.[_0x17ebdd(0x2dc)]?.['pressured']?_0x17ebdd(0x282):'',_0x39d0d2=_0xc5fba[_0x17ebdd(0x243)]?.[_0x17ebdd(0x1f2)]!=null?_0x17ebdd(0x277)+_0xc5fba[_0x17ebdd(0x243)][_0x17ebdd(0x1f2)][_0x17ebdd(0x2c4)](0x2):'';let _0x4d69cd=_0x17ebdd(0x232)+_0x4dd47b+_0x17ebdd(0x262)+_0x2e5b29+_0x17ebdd(0x317)+_0x471bdf+_0x4b7a08+_0x39d0d2;const _0x39d34f=_0xc5fba[_0x17ebdd(0x243)]?.[_0x17ebdd(0x29f)];_0x39d34f&&_0x1aa020[_0x17ebdd(0x204)](_0x39d34f[_0x17ebdd(0x255)],null)&&(_0x4d69cd+='<br><span\x20style=\x22color:#86efac\x22>⬤\x20Arrival:</span>\x20Comp:<b>'+(_0x39d34f[_0x17ebdd(0x255)]*0x64)['toFixed'](0x0)+'%</b>\x20·\x20INT:'+(_0x39d34f[_0x17ebdd(0x2b7)]*0x64)[_0x17ebdd(0x2c4)](0x0)+_0x17ebdd(0x209)+_0x39d34f[_0x17ebdd(0x31e)][_0x17ebdd(0x2c4)](0x1)+_0x17ebdd(0x293)+_0x39d34f[_0x17ebdd(0x20a)]['toFixed'](0x1)+'yd');const _0x147b22=_0xc5fba[_0x17ebdd(0x243)]?.[_0x17ebdd(0x1cf)];if(_0x147b22&&_0x1aa020[_0x17ebdd(0x204)](_0x147b22[_0x17ebdd(0x255)],null)){_0x4d69cd+=_0x17ebdd(0x2dd)+_0x1aa020[_0x17ebdd(0x267)](_0x147b22[_0x17ebdd(0x255)],0x64)['toFixed'](0x0)+_0x17ebdd(0x2ca)+_0x1aa020[_0x17ebdd(0x2e5)](_0x147b22[_0x17ebdd(0x2b7)],0x64)[_0x17ebdd(0x2c4)](0x0)+_0x17ebdd(0x209)+_0x147b22[_0x17ebdd(0x31e)][_0x17ebdd(0x2c4)](0x1)+_0x17ebdd(0x293)+_0x147b22[_0x17ebdd(0x20a)][_0x17ebdd(0x2c4)](0x1)+'yd';if(_0x39d34f&&_0x39d34f[_0x17ebdd(0x255)]!=null){const _0x370c50=((_0x39d34f[_0x17ebdd(0x255)]-_0x147b22[_0x17ebdd(0x255)])*0x64)['toFixed'](0x0),_0x2e78b1=(_0x39d34f['effectiveSepYds']-_0x147b22['effectiveSepYds'])[_0x17ebdd(0x2c4)](0x1),_0x1e1478=_0x1aa020[_0x17ebdd(0x2f8)](_0x1aa020['JLWIu'](parseFloat,_0x370c50),0x0)?_0x17ebdd(0x322):_0x17ebdd(0x26e);_0x4d69cd+='<br><span\x20style=\x22color:'+_0x1e1478+'\x22>Δ\x20Comp:'+(_0x1aa020['JseUh'](_0x370c50,0x0)?'+':'')+_0x370c50+_0x17ebdd(0x2d5)+(_0x2e78b1>0x0?'+':'')+_0x2e78b1+_0x17ebdd(0x2f4);}}else _0x4d69cd+=_0x17ebdd(0x26b);_0x5c3819[_0x17ebdd(0x23a)]=_0x4d69cd;}else _0x5c3819[_0x17ebdd(0x312)]='';_0xcbd82[_0x17ebdd(0x20c)]='visible\x20result-'+_0xc5fba[_0x17ebdd(0x1cd)];if(mode===_0x1aa020[_0x17ebdd(0x29c)]&&!simPaused)togglePause();logDebug(_0x17ebdd(0x2c3)+_0xc5fba[_0x17ebdd(0x276)]);}function closeOutcomeOverlay(){const _0x23c2ad=_0xb4d3a7,_0x1553fe=document[_0x23c2ad(0x251)]('outcomeOverlay');if(_0x1553fe)_0x1553fe[_0x23c2ad(0x20c)]='';}function resolvePlayOutcome(_0x215d00=null){const _0x20ddfc=_0xb4d3a7,_0x388428={'BTBdE':function(_0x5cf0e7,_0x4eaacc){return _0x5cf0e7==_0x4eaacc;},'NmtVJ':function(_0x56a121,_0x1ac463){return _0x56a121(_0x1ac463);},'Nnyyj':'pass','MvhPA':_0x20ddfc(0x305),'Dtlwh':_0x20ddfc(0x27c)};let _0x343252;if(playType===_0x20ddfc(0x27c))_0x343252=getRunOutcome();else{let _0xbf05cb=_0x215d00;if(_0xbf05cb==null){const _0x556ebb=players[_0x20ddfc(0x319)](_0x146f0e=>['WR','TE','RB','FB'][_0x20ddfc(0x2c9)](_0x146f0e[_0x20ddfc(0x21b)])&&_0x146f0e['simRoutePoints']&&_0x146f0e[_0x20ddfc(0x21e)][_0x20ddfc(0x2eb)]>0x0);_0xbf05cb=_0x556ebb?.['id']??null;}_0x388428['BTBdE'](_0xbf05cb,null)?_0x343252={'complete':![],'yards':0x0,'result':_0x20ddfc(0x233),'defender':null,'detail':_0x20ddfc(0x2e4)}:_0x343252=getPassOutcome(_0xbf05cb);}_0x388428[_0x20ddfc(0x29b)](logDebug,_0x20ddfc(0x2c3)+_0x343252[_0x20ddfc(0x276)]);if(illegalFormationRulesOn&&_pendingIllegalManDownfield){const _0x492f69=_pendingIllegalManDownfield;return _pendingIllegalManDownfield=null,{'playType':_0x388428[_0x20ddfc(0x2b9)],'yards':-0x5,'result':_0x388428[_0x20ddfc(0x222)],'detail':_0x20ddfc(0x210)+_0x492f69,'raw':{'yards':-0x5,'result':_0x388428[_0x20ddfc(0x222)],'detail':'Illegal\x20Man\x20Downfield\x20—\x20'+_0x492f69}};}return{'playType':playType==='run'?_0x388428['Dtlwh']:_0x388428[_0x20ddfc(0x2b9)],'yards':_0x343252[_0x20ddfc(0x1d1)],'result':_0x343252['result'],'detail':_0x343252[_0x20ddfc(0x276)],'raw':_0x343252};}
+// ===================================================================
+// 10_OUTCOME.JS — Play Outcome Engine
+// ===================================================================
+// Berechnet das Ergebnis eines Plays am Ende der Simulation.
+//
+// Einstiegspunkte:
+//   getPassOutcome(targetId)  → { complete, yards, result, defender, detail }
+//   getRunOutcome()           → { yards, result, defender, detail }
+//   getQBPressure()           → { pressured, rusherId, timeToArrival }
+//
+// Attribute-Fallback-System:
+//   Alle Spieler-Ratings default auf 75 wenn keine d.attributes gesetzt.
+//   Später einfach d.attributes = { speed: 82, coverage: 79, ... } setzen.
+// ===================================================================
+
+// ── Attribute-Helfer ─────────────────────────────────────────────────
+// getAttr() lebt jetzt in 00_attributes.js (muss vor dieser Datei laden).
+// Legacy-Keys (speed, catch, route, ...) werden dort automatisch gemappt.
+
+// ── Konstanten ───────────────────────────────────────────────────────
+
+const YARDS_PER_PX       = 1 / YARD_PX;
+const OPEN_SEPARATION_PX = 3 * YARD_PX;   // ab hier gilt Receiver als "open"
+const CONTESTED_SEP_PX   = 1.5 * YARD_PX; // darunter = contested catch
+const PRESSURE_RADIUS_PX = 2.5 * YARD_PX; // QB-Distanz ab der Pressure gilt
+const PRESSURE_TIME_THR  = 2.5;           // Sekunden — nur in ersten 2.5s relevant
+
+// ── Pressure-Tracking ────────────────────────────────────────────────
+// Pressure wird WÄHREND der Sim getrackt (jeden Tick), nicht erst am Ende.
+// So geht kein früher Druck verloren wenn die Sim länger läuft.
+let _qbPressureTracked = {
+  pressured:      false,
+  minDistPx:      Infinity,
+  rusherId:       null,
+  pressureFactor: 1.0,
+};
+
+function resetQBPressureTracking() {
+  _qbPressureTracked = { pressured: false, minDistPx: Infinity, rusherId: null, pressureFactor: 1.0 };
+}
+
+// Jeden Pass-Play-Tick aufrufen (in animateSim)
+function trackQBPressureTick() {
+  if (playPhaseTime > PRESSURE_TIME_THR) return;
+  const qb = players.find(p => p.type === 'QB');
+  if (!qb) return;
+  const qbPos = simPos(qb);
+  defensePlayers.forEach(d => {
+    if (!d.decision || d.decision.mode !== 'rush') return;
+    const separation = dist(simPos(d), qbPos);
+
+    // ── PRS + STR: effektiver Druck-Radius pro Rusher ──────────────────
+    // PRS = primäre Pass-Rush-Fähigkeit, STR = Kraftkomponente (Bull Rush).
+    // rushScore > 75 → größerer effektiver Radius, < 75 → kleinerer.
+    // simSpeed bereits in Bewegungsgeschwindigkeit & playPhaseTime eingerechnet.
+    const prsRating = getAttr(d, 'PRS');
+    const strRating = getAttr(d, 'STR');
+    const rushScore = prsRating * 0.7 + strRating * 0.3;
+
+    // ── BLK: aktiver Blocker reduziert den effektiven Druck-Radius ─────
+    // Prüft ob ein Blocker (Skill oder OLine) diesen Rusher gerade hält.
+    let blkFactor = 1.0;
+    const allBlockers = [
+      ...players,
+      ...(typeof OLINE_IDS !== 'undefined'
+          ? OLINE_IDS.map(id => olineData[id]).filter(Boolean)
+          : []),
+    ];
+    const engagedBlocker = allBlockers.find(b =>
+      b._blockChaseTargetId === d.id &&
+      dist(simPos(b), simPos(d)) <= BLOCK_HOLD_DIST + DEF_PLAYER_RADIUS + 4
+    );
+    if (engagedBlocker) {
+      const blkRating = getAttr(engagedBlocker, 'BLK');
+      // Hoher BLK = Rusher wird effektiv abgehalten → kleinerer effektiver Radius.
+      // Formel: blkFactor < 1 bei blkRating > 75, > 1 bei blkRating < 75.
+      blkFactor = 75 / Math.max(blkRating, 40);
+    }
+
+    // Effektiver Radius skaliert mit rushScore und wird durch Blocking gemindert.
+    const effectiveRadius = PRESSURE_RADIUS_PX * (rushScore / 75) * blkFactor;
+
+    // Normalisierter Abstand: verhält sich wie der alte minDistPx bzgl. pressureFactor.
+    const normalizedDist = (separation / effectiveRadius) * PRESSURE_RADIUS_PX;
+    if (normalizedDist < _qbPressureTracked.minDistPx) {
+      _qbPressureTracked.minDistPx = normalizedDist;
+      _qbPressureTracked.rusherId  = d.id;
+    }
+  });
+  if (_qbPressureTracked.minDistPx <= PRESSURE_RADIUS_PX) {
+    _qbPressureTracked.pressured      = true;
+    _qbPressureTracked.pressureFactor = Math.max(0.4,
+      _qbPressureTracked.minDistPx / PRESSURE_RADIUS_PX);
+  }
+}
+
+// Gibt das bisherige Tracking-Ergebnis zurück (statt live zu prüfen)
+function getQBPressure() {
+  return { ..._qbPressureTracked };
+}
+
+function simPos(player) {
+  return {
+    x: player.simX ?? player.x,
+    y: player.simY ?? player.y,
+  };
+}
+
+function dist(a, b) {
+  return Math.hypot(a.x - b.x, a.y - b.y);
+}
+
+// Wandelt Canvas-Y-Differenz in Yards um (upfield = weniger Y = positive Yards)
+function yardGain(fromY, toY) {
+  return Math.round((fromY - toY) * YARDS_PER_PX);
+}
+
+// ── Coverage-Faktor eines einzelnen Defenders ────────────────────────
+// Wie gut deckt dieser Defender diesen Receiver?
+// Gibt einen Multiplikator zurück: > 1.0 = Offense-Vorteil, < 1.0 = Defense-Vorteil
+
+function getCoverageQualityFactor(defender, receiver, recPosOverride, defPosOverride) {
+  if (!defender) return 1.5; // kein Defender → offen
+
+  // 1. Basis: Man vs Zone
+  const isMan  = defender.decision?.mode === 'follow';
+  const isZone = defender.decision?.mode === 'drop';
+  const coverageBase = isMan ? 1.0 : 0.75; // Zone = DB kommt von woanders
+
+  // 2. Leverage (cbShade) vs Route-Richtung
+  // Inside-Shade + Out-Route = Offense-Vorteil
+  // Outside-Shade + Post/Dig = Offense-Vorteil
+  const shade     = defender.cbShade || 'normal';
+  const lr        = liveReadStateById[receiver.id];
+  const routeType = lr?.lastActiveMoveType || 'unknown';
+
+  let leverageFactor = 1.0;
+  if (shade === 'inside'  && (routeType === 'out'    || routeType === 'corner')) leverageFactor = 1.25;
+  if (shade === 'inside'  && (routeType === 'post'   || routeType === 'dig'))    leverageFactor = 0.85;
+  if (shade === 'outside' && (routeType === 'post'   || routeType === 'dig'))    leverageFactor = 1.25;
+  if (shade === 'outside' && (routeType === 'out'    || routeType === 'corner')) leverageFactor = 0.85;
+
+  // 3. Phase: ist der DB vor oder hinter dem Receiver?
+  // Upfield = kleineres Y. Wenn d.simY > rec.simY → DB ist hinter (trail) → Vorteil Offense
+  // Nutze übergebene Positionen (Dry-Run) oder fallback auf simPos (Live)
+  const recPos = recPosOverride || simPos(receiver);
+  const defPos = defPosOverride || simPos(defender);
+  const isTrail = defPos.y > recPos.y;
+
+  // REL: Release-Rating des Receivers wirkt gegen Press-Coverage.
+  // Bei Trail-Coverage (DB hinter Receiver) greift REL nicht.
+  // simSpeed bereits in den Bewegungspositionen eingerechnet.
+  const relRating = getAttr(receiver, 'REL');
+  const relBonus  = isTrail ? 0 : (relRating - 75) / 150;
+  // REL=75 → +0.0, REL=99 → +0.16, REL=50 → −0.17
+  const phaseFactor = (isTrail ? 1.2 : 0.9) + relBonus;
+
+  // 4. Attribute-Einfluss
+  const covRating = isMan
+    ? getAttr(defender, 'manCoverage')
+    : getAttr(defender, 'zoneCoverage');
+  const catchRating  = getAttr(receiver, 'catch');
+  const routeRating  = getAttr(receiver, 'route');
+
+  // 75 = Baseline. >75 verbessert, <75 verschlechtert.
+  const defAttrMult = 75 / covRating;           // guter DB → Faktor < 1 → weniger Separation
+  const offAttrMult = ((catchRating + routeRating) / 2) / 75; // guter WR → Faktor > 1
+
+  // BRK: Separation-Bonus beim Route-Cut.
+  // breakNow wird in LiveRead getrackt (Winkeländerung ≥35°).
+  // Addiert zum Endergebnis da es ein absoluter Bonus auf den covFactor ist.
+  const brkRating  = getAttr(receiver, 'BRK');
+  const breakNow   = lr?.breakNow || false;
+  const breakBonus = breakNow ? (brkRating - 75) / 200 : 0;
+  // BRK=75 → +0.0, BRK=99 → +0.12, BRK=50 → −0.13
+
+  return coverageBase * leverageFactor * phaseFactor * defAttrMult * offAttrMult + breakBonus;
+}
+
+// ── Nächster Defender zu einem Receiver ──────────────────────────────
+
+function nearestDefender(receiver, excludeIds = []) {
+  const recPos = simPos(receiver);
+  let best = null, bestDist = Infinity;
+
+  defensePlayers.forEach(d => {
+    if (excludeIds.includes(d.id)) return;
+    const separation = dist(simPos(d), recPos);
+    if (separation < bestDist) {
+      bestDist = separation;
+      best = d;
+    }
+  });
+
+  return { defender: best, separationPx: bestDist };
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// DRY-RUN PROJECTION SYSTEM
+// Runs the real sim forward in time (without rendering) to project
+// where all players/defenders will be at ball arrival.
+// Used by getPassCompletionProb for accurate separation prediction.
+// ═══════════════════════════════════════════════════════════════════════
+
+let _dryRunTimeline = null;
+// { stepDt, maxTime, steps: [ { t, pos: { [id]: {x,y} } }, ... ] }
+
+// ── Properties to snapshot per object type ──────────────────────────
+const _SNAP_PLAYER_KEYS = [
+  'simX', 'simY', 'simWpIdx', 'simDone',
+  '_blockChaseTargetId', '_blockChaseDone', '_blockHoldX', '_blockHoldY', '_blockDistTraveled',
+  '_blockLocked', '_prevSimX', '_prevSimY', '_velX', '_velY',
+  '_breakTimer', '_breakSpeedMult',
+  '_releaseTimer', '_releaseSpeedMult',
+  '_accMult',
+];
+const _SNAP_DEFENDER_KEYS = [
+  'simX', 'simY', '_prevSimX', '_prevSimY', '_velX', '_velY',
+  '_dualManRole', '_dualManTargetId', '_dualManIsTop',
+  'simZonePhase', 'simZoneDone', '_blockLocked',
+  'simDeepArrived', '_lockedGapId', '_manualRunAssignment',
+  '_creFreezeTimer', '_pendingDecision', '_pendingTimer',
+  '_backpedalDone', '_lastDecKey',
+  '_defAccMult', '_smoothVelX', '_smoothVelY',
+  '_percVelX', '_percVelY',
+  '_lastCommitTime', '_passoffTime', '_covLock', '_covCall',
+];
+const _SNAP_OLINE_KEYS = [
+  'simX', 'simY', 'simWpIdx', 'simDone',
+  '_blockChaseTargetId', '_blockChaseDone', '_blockHoldX', '_blockHoldY', '_blockDistTraveled',
+  '_blockLocked',
+];
+
+function _snapshotSimState() {
+  const snap = {
+    players: [], defenders: [], oline: [],
+    liveReads: {},
+    pressure: { ..._qbPressureTracked },
+    playPhaseTime: playPhaseTime,
+    lastPlayOutcome: lastPlayOutcome,
+    qbThrow: qbThrow ? { ...qbThrow } : null,
+    ballSim: { ...ballSim },
+    _tackleTimerActive: (typeof _tackleTimerActive !== 'undefined') ? _tackleTimerActive : false,
+    _tackleTimer: (typeof _tackleTimer !== 'undefined') ? _tackleTimer : 0,
+    persistentCovCalls: (typeof persistentCovCalls !== 'undefined') ? { ...persistentCovCalls } : {},
+  };
+
+  players.forEach(p => {
+    const s = { id: p.id };
+    _SNAP_PLAYER_KEYS.forEach(k => { s[k] = p[k]; });
+    snap.players.push(s);
+  });
+
+  defensePlayers.forEach(d => {
+    const s = { id: d.id };
+    _SNAP_DEFENDER_KEYS.forEach(k => { s[k] = d[k]; });
+    s.decision = d.decision ? {
+      ...d.decision,
+      _shadedLandmarkPos: d.decision._shadedLandmarkPos
+        ? { x: d.decision._shadedLandmarkPos.x, y: d.decision._shadedLandmarkPos.y } : null,
+    } : null;
+    snap.defenders.push(s);
+  });
+
+  if (typeof OLINE_IDS !== 'undefined') {
+    OLINE_IDS.forEach(id => {
+      const d = olineData[id];
+      if (!d) return;
+      const s = { id };
+      _SNAP_OLINE_KEYS.forEach(k => { s[k] = d[k]; });
+      snap.oline.push(s);
+    });
+  }
+
+  // Live reads: manual deep clone (avoid JSON for speed and undefined preservation)
+  for (const key in liveReadStateById) {
+    const lr = liveReadStateById[key];
+    snap.liveReads[key] = {
+      phase: lr.phase, t: lr.t,
+      pos: { x: lr.pos.x, y: lr.pos.y },
+      prevPos: { x: lr.prevPos.x, y: lr.prevPos.y },
+      vel: { x: lr.vel.x, y: lr.vel.y },
+      speed: lr.speed, dirAngleDeg: lr.dirAngleDeg,
+      moveType: lr.moveType, prevMoveType: lr.prevMoveType,
+      lastActiveMoveType: lr.lastActiveMoveType,
+      lastActiveVel: lr.lastActiveVel ? { x: lr.lastActiveVel.x, y: lr.lastActiveVel.y } : { x: 0, y: 0 },
+      lastActiveDirAngleDeg: lr.lastActiveDirAngleDeg,
+      depthYards: lr.depthYards,
+      breakDepthYards: lr.breakDepthYards,
+      isVerticalThreatNow: lr.isVerticalThreatNow,
+      startSide: lr.startSide,
+      crossedMiddleNow: lr.crossedMiddleNow,
+      lastDecisionChangeAt: lr.lastDecisionChangeAt,
+      prevVelDir: lr.prevVelDir ? { x: lr.prevVelDir.x, y: lr.prevVelDir.y } : { x: 0, y: -1 },
+      breakNow: lr.breakNow,
+    };
+  }
+
+  return snap;
+}
+
+function _restoreSimState(snap) {
+  snap.players.forEach(s => {
+    const p = players.find(pl => pl.id === s.id);
+    if (!p) return;
+    _SNAP_PLAYER_KEYS.forEach(k => { p[k] = s[k]; });
+  });
+
+  snap.defenders.forEach(s => {
+    const d = defensePlayers.find(df => df.id === s.id);
+    if (!d) return;
+    _SNAP_DEFENDER_KEYS.forEach(k => { d[k] = s[k]; });
+    d.decision = s.decision ? {
+      ...s.decision,
+      _shadedLandmarkPos: s.decision._shadedLandmarkPos
+        ? { x: s.decision._shadedLandmarkPos.x, y: s.decision._shadedLandmarkPos.y } : null,
+    } : null;
+  });
+
+  snap.oline.forEach(s => {
+    const d = olineData[s.id];
+    if (!d) return;
+    _SNAP_OLINE_KEYS.forEach(k => { d[k] = s[k]; });
+  });
+
+  // Live reads: restore in place
+  for (const key in liveReadStateById) delete liveReadStateById[key];
+  for (const key in snap.liveReads) {
+    const lr = snap.liveReads[key];
+    liveReadStateById[key] = {
+      phase: lr.phase, t: lr.t,
+      pos: { x: lr.pos.x, y: lr.pos.y },
+      prevPos: { x: lr.prevPos.x, y: lr.prevPos.y },
+      vel: { x: lr.vel.x, y: lr.vel.y },
+      speed: lr.speed, dirAngleDeg: lr.dirAngleDeg,
+      moveType: lr.moveType, prevMoveType: lr.prevMoveType,
+      lastActiveMoveType: lr.lastActiveMoveType,
+      lastActiveVel: lr.lastActiveVel ? { x: lr.lastActiveVel.x, y: lr.lastActiveVel.y } : { x: 0, y: 0 },
+      lastActiveDirAngleDeg: lr.lastActiveDirAngleDeg,
+      depthYards: lr.depthYards,
+      breakDepthYards: lr.breakDepthYards,
+      isVerticalThreatNow: lr.isVerticalThreatNow,
+      startSide: lr.startSide,
+      crossedMiddleNow: lr.crossedMiddleNow,
+      lastDecisionChangeAt: lr.lastDecisionChangeAt,
+      prevVelDir: lr.prevVelDir ? { x: lr.prevVelDir.x, y: lr.prevVelDir.y } : { x: 0, y: -1 },
+      breakNow: lr.breakNow,
+    };
+  }
+
+  // Globals
+  _qbPressureTracked = { ...snap.pressure };
+  playPhaseTime = snap.playPhaseTime;
+  lastPlayOutcome = snap.lastPlayOutcome;
+  qbThrow = snap.qbThrow ? { ...snap.qbThrow } : null;
+  ballSim = { ...snap.ballSim };
+  if (typeof _tackleTimerActive !== 'undefined') _tackleTimerActive = snap._tackleTimerActive;
+  if (typeof _tackleTimer !== 'undefined') _tackleTimer = snap._tackleTimer;
+  if (typeof persistentCovCalls !== 'undefined') {
+    for (const k in persistentCovCalls) delete persistentCovCalls[k];
+    Object.assign(persistentCovCalls, snap.persistentCovCalls);
+  }
+}
+
+// ── Capture positions of all players/defenders ─────────────────────
+function _capturePositions() {
+  const pos = {};
+  players.forEach(p => { pos['o' + p.id] = { x: p.simX ?? p.x, y: p.simY ?? p.y }; });
+  defensePlayers.forEach(d => { pos['d' + d.id] = { x: d.simX ?? d.x, y: d.simY ?? d.y }; });
+  return pos;
+}
+
+// ── One dry-run tick (pass play movement, no QB read/ball/draw) ────
+function _dryRunPassTick(dt) {
+  const baseSpeed = simSpeed * SIM_BASE_SPEED;
+
+  // Offense: skill players step routes/blocks
+  players.forEach(p => {
+    if (p.type === 'QB') return;
+    const spd = getMoveSpeed(p, baseSpeed);
+    if (p._blockChaseTargetId != null) {
+      const target = defensePlayers.find(d => d.id === p._blockChaseTargetId);
+      if (target) {
+        const dd = Math.hypot((target.simX ?? target.x) - (p.simX ?? p.x),
+                              (target.simY ?? target.y) - (p.simY ?? p.y));
+        if (dd <= BLOCK_HOLD_DIST + DEF_PLAYER_RADIUS + 2) stepBlockHold(p, dt, spd);
+        else stepBlockChase(p, dt, spd);
+      } else stepBlockChase(p, dt, spd);
+      return;
+    }
+    if (p.simDone) return;
+    const hasBlock = p.simBlockPoints && p.simBlockPoints.length > 0;
+    const hasRoute = p.simRoutePoints && p.simRoutePoints.length > 0;
+    if (hasBlock) {
+      const done = stepPlayer(p, p.simBlockPoints, dt, spd);
+      if (p._blockChaseTargetId != null) stepBlockChase(p, dt, spd);
+      else if (done) tryStartBlockChase(p, spd, true);
+      else {
+        const search = p.simBlockPoints.length >= 2 ? p.simWpIdx >= 1 : false;
+        if (!p._blockChaseDone && search) tryStartBlockChase(p, spd, false);
+      }
+    } else if (hasRoute) {
+      if (stepPlayer(p, p.simRoutePoints, dt, spd)) p.simDone = true;
+    }
+  });
+
+  // OLine blockers
+  if (typeof OLINE_IDS !== 'undefined') {
+    OLINE_IDS.forEach(id => {
+      const d = olineData[id]; if (!d) return;
+      const spd = getMoveSpeed(d, baseSpeed);
+      if (d._blockChaseTargetId != null) {
+        const tgt = defensePlayers.find(def => def.id === d._blockChaseTargetId);
+        if (tgt) {
+          const dd = Math.hypot((tgt.simX ?? tgt.x) - (d.simX ?? d.x),
+                                (tgt.simY ?? tgt.y) - (d.simY ?? d.y));
+          if (dd <= BLOCK_HOLD_DIST + DEF_PLAYER_RADIUS + 2) stepBlockHold(d, dt, spd);
+          else stepBlockChase(d, dt, spd);
+        } else stepBlockChase(d, dt, spd);
+        return;
+      }
+      if (!d.simDone && d.simBlockPoints && d.simBlockPoints.length > 0) {
+        const done = stepPlayer(d, d.simBlockPoints, dt, spd);
+        if (d._blockChaseTargetId != null) stepBlockChase(d, dt, spd);
+        else if (done) tryStartBlockChase(d, spd, true);
+        else {
+          const search = d.simBlockPoints.length >= 2 ? d.simWpIdx >= 1 : false;
+          if (!d._blockChaseDone && search) tryStartBlockChase(d, spd, false);
+        }
+      }
+    });
+  }
+
+  // Live reads (also advances playPhaseTime)
+  updateLiveReads(dt);
+
+  // Pressure tracking
+  if (typeof trackQBPressureTick === 'function') trackQBPressureTick();
+
+  // Defense decisions + movement
+  if (typeof updateDefenseDecisions === 'function' && typeof offenseStructureSnapshot !== 'undefined') {
+    updateDefenseDecisions(offenseStructureSnapshot, liveReadStateById, dt);
+  }
+  if (typeof stepDefensePlayers === 'function') stepDefensePlayers(dt);
+}
+
+// ── Main entry: run dry-run and build timeline ─────────────────────
+const DRY_RUN_STEP_DT  = 1 / 30;  // 30fps — accurate enough
+const DRY_RUN_MAX_TIME = 2.0;     // max ball flight time in seconds (covers deep throws)
+
+function runDryRunProjection() {
+  const snap = _snapshotSimState();
+  const totalSteps = Math.ceil(DRY_RUN_MAX_TIME / DRY_RUN_STEP_DT);
+  const timeline = [{ t: 0, pos: _capturePositions() }];
+
+  try {
+    for (let i = 0; i < totalSteps; i++) {
+      _dryRunPassTick(DRY_RUN_STEP_DT);
+      timeline.push({ t: (i + 1) * DRY_RUN_STEP_DT, pos: _capturePositions() });
+    }
+  } catch (e) {
+    console.error('[DRY-RUN] ERROR during simulation:', e);
+  }
+
+  _restoreSimState(snap);
+
+  _dryRunTimeline = { stepDt: DRY_RUN_STEP_DT, maxTime: DRY_RUN_MAX_TIME, steps: timeline };
+
+  // ── DIAGNOSTIC: Verify restore ──
+  const postRestore = _capturePositions();
+  const preSnap = timeline[0].pos;
+  let restoreOk = true;
+  for (const id in preSnap) {
+    const pre = preSnap[id];
+    const post = postRestore[id];
+    if (!post) { console.warn(`[DRY-RUN] MISSING after restore: id=${id}`); restoreOk = false; continue; }
+    const drift = Math.hypot(pre.x - post.x, pre.y - post.y);
+    if (drift > 0.5) {
+      console.warn(`[DRY-RUN] RESTORE DRIFT id=${id}: pre(${pre.x.toFixed(1)},${pre.y.toFixed(1)}) post(${post.x.toFixed(1)},${post.y.toFixed(1)}) drift=${drift.toFixed(1)}px`);
+      restoreOk = false;
+    }
+  }
+  if (restoreOk) console.log(`[DRY-RUN] restore OK — ${totalSteps} steps, ${Object.keys(preSnap).length} entities`);
+}
+
+// ── Lookup positions at a specific time ────────────────────────────
+function getDryRunPositionsAt(timeSec) {
+  if (!_dryRunTimeline || _dryRunTimeline.steps.length === 0) return null;
+  const idx = Math.min(
+    Math.round(timeSec / _dryRunTimeline.stepDt),
+    _dryRunTimeline.steps.length - 1
+  );
+  return _dryRunTimeline.steps[Math.max(0, idx)].pos;
+}
+
+// ── PASS COMPLETION PROBABILITY ──────────────────────────────────────
+// Gibt die geschätzte Completion-Wahrscheinlichkeit für einen Receiver zurück
+// OHNE zu würfeln. Wird vom QB-Read benutzt um den besten Wurf zu finden.
+//
+// lookAheadSec > 0: nutzt Dry-Run-Positionen (projiziert bei Ballankunft)
+// lookAheadSec == 0 oder absent: nutzt aktuelle Positionen (Outcome)
+
+function getPassCompletionProb(targetId, projPos, lookAheadSec) {
+  const receiver = players.find(p => p.id === targetId);
+  if (!receiver) {
+    return { completionProb: 0, intProb: 0, expectedYards: 0, rawYards: 0,
+             nearbyDefCount: 0, effectiveSepYds: 0, debug: 'no receiver' };
+  }
+
+  const la = lookAheadSec || 0;
+  const dryPos = (la > 0) ? getDryRunPositionsAt(la) : null;
+
+  // ── DIAGNOSTIC: Dry-Run Debug ──────────────────────────────────
+  if (la > 0) {
+    const hasTL = !!_dryRunTimeline;
+    const steps = hasTL ? _dryRunTimeline.steps.length : 0;
+    const hasRecPos = dryPos ? !!dryPos['o' + receiver.id] : false;
+    const currRec = simPos(receiver);
+    const dryRec = dryPos ? dryPos['o' + receiver.id] : null;
+
+    // Find closest current defender
+    let closestNowDist = Infinity, closestNowId = null;
+    defensePlayers.forEach(d => {
+      const s = dist(simPos(d), currRec);
+      if (s < closestNowDist) { closestNowDist = s; closestNowId = d.id; }
+    });
+
+    // Find closest dry-run defender
+    let closestDryDist = Infinity, closestDryId = null;
+    if (dryPos && dryRec) {
+      defensePlayers.forEach(d => {
+        const dp = dryPos['d' + d.id];
+        if (!dp) return;
+        const s = dist(dp, dryRec);
+        if (s < closestDryDist) { closestDryDist = s; closestDryId = d.id; }
+      });
+    }
+
+    console.log(`[DRY-RUN DIAG] rec:${receiver.label}#${receiver.id} la:${la.toFixed(2)}s | timeline:${hasTL} steps:${steps} hasRecPos:${hasRecPos}` +
+      ` | currRec:(${currRec.x.toFixed(0)},${currRec.y.toFixed(0)}) dryRec:${dryRec ? `(${dryRec.x.toFixed(0)},${dryRec.y.toFixed(0)})` : 'NULL'}` +
+      ` | nearestNow:def#${closestNowId} ${(closestNowDist/YARD_PX).toFixed(1)}yd | nearestDry:def#${closestDryId} ${(closestDryDist/YARD_PX).toFixed(1)}yd`);
+  }
+  // ── END DIAGNOSTIC ─────────────────────────────────────────────
+
+  // Receiver-Position: Dry-Run > projPos > aktuell
+  const recPos = dryPos ? (dryPos['o' + receiver.id] || simPos(receiver))
+               : (projPos || simPos(receiver));
+  const los    = LOS_Y();
+  const rawYards = yardGain(los, recPos.y);
+
+  const pressure = getQBPressure();
+
+  // Helper: Defender-Position (Dry-Run oder aktuell)
+  function defPosAt(d) {
+    if (dryPos && dryPos['d' + d.id]) return dryPos['d' + d.id];
+    return simPos(d);
+  }
+
+  // Nächster Defender
+  let defender = null, rawSep = Infinity;
+  defensePlayers.forEach(d => {
+    const s = dist(defPosAt(d), recPos);
+    if (s < rawSep) { rawSep = s; defender = d; }
+  });
+
+  const covFactor    = getCoverageQualityFactor(defender, receiver, recPos, defender ? defPosAt(defender) : null);
+  const effectiveSep = rawSep * covFactor * pressure.pressureFactor;
+
+  const catchRating    = getAttr(receiver, 'catch');
+  const catchThreshold = OPEN_SEPARATION_PX * (catchRating / 75);
+
+  // THA: QB-Genauigkeit unter Druck.
+  // Hoher THA = Accuracy-Verlust unter Druck wird abgefedert.
+  // pressureFactor bereits simSpeed-skaliert (via playPhaseTime += dt * simSpeed).
+  // THA=75 → Faktor 1.0 (kein Unterschied). THA=99 → Faktor 1.32 (besser unter Druck).
+  // THA=50 → Faktor 0.67 (deutlich schlechter unter Druck).
+  const qb         = players.find(p => p.type === 'QB');
+  const thaRating  = qb ? getAttr(qb, 'THA') : 75;
+  const passAccuracy = 0.6 + 0.4 * pressure.pressureFactor * (thaRating / 75);
+
+  // SPD: Tiefe-Routen-Bonus — schnelle Receiver gewinnen mehr Separation auf Go-Routen.
+  // Greift erst ab 15 Yards Tiefe; simSpeed in den Positionsdaten bereits eingerechnet.
+  const recSpd     = getAttr(receiver, 'SPD');
+  const depthYds   = liveReadStateById[receiver.id]?.depthYards ?? 0;
+  const deepBonus  = depthYds >= 15 ? (recSpd - 75) / 300 : 0;
+  // SPD=75 → +0.0, SPD=99 → +0.08, SPD=50 → −0.08
+
+  // Double Coverage
+  const DC_RADIUS = 5 * YARD_PX;
+  let nearbyDefCount = 0;
+  defensePlayers.forEach(d => {
+    if (d.decision?.mode === 'rush') return;
+    const s = dist(defPosAt(d), recPos);
+    if (s <= DC_RADIUS) nearbyDefCount++;
+  });
+  const isDoubleCovered = nearbyDefCount >= 2;
+
+  // ── Smooth Sigmoid Probability Model ──────────────────────────────
+  // Ersetzt die harten Zonen-Grenzen durch eine glatte S-Kurve.
+  // effectiveSep → completionProb ohne Cliff-Effekte.
+
+  const _sig = x => 1 / (1 + Math.exp(-x));
+
+  // Sigmoid-Parameter: Mittelpunkt zwischen tight und open
+  const midpoint   = (CONTESTED_SEP_PX + catchThreshold) / 2;  // ~2.25yd in px
+  const steepness  = (catchThreshold - CONTESTED_SEP_PX) / 4;  // Breite der Transition
+  const t          = steepness > 0 ? (effectiveSep - midpoint) / steepness : 0;
+
+  // Basis-Kurve: 8% (tight) → 97% (open)
+  const FLOOR   = 0.08;
+  const CEILING = 0.97;
+  let completionProb = FLOOR + (CEILING - FLOOR) * _sig(t);
+
+  // ── Attribut-Modifikatoren (kontinuierlich, nicht zonenabhängig) ──
+  // CTH dominiert bei Separation (open), CIT dominiert bei Traffic (tight)
+  const citRating   = getAttr(receiver, 'CIT');
+  const routeRating = getAttr(receiver, 'RTE');
+  const openness    = _sig(t); // 0 = tight, 1 = open
+  const blendedCatch = catchRating * openness + citRating * (1 - openness);
+  completionProb += (blendedCatch - 75) / 250;   // Fang-Bonus (blend CTH/CIT)
+  completionProb += (routeRating - 75) / 350;    // gute Route → +bonus
+  completionProb += (covFactor - 1.0) * 0.08;    // Coverage-Qualität
+  completionProb += deepBonus;                    // SPD: Tiefe-Routen-Bonus
+  completionProb *= passAccuracy;                 // THA + Pressure-Einfluss
+
+  // Double/Triple Coverage — skaliert mit Separation (härter bei tight)
+  const dcPenalty = isDoubleCovered
+    ? (nearbyDefCount >= 3 ? 0.25 : 0.15) * (1 - _sig(t) * 0.6)
+    : 0;
+  completionProb -= dcPenalty;
+
+  completionProb = Math.max(0.03, Math.min(0.97, completionProb));
+
+  // ── INT-Wahrscheinlichkeit: inverse Sigmoid (hoch bei tight, niedrig bei open) ──
+  const dPos      = defender ? defPosAt(defender) : recPos;
+  const dbInFront = dPos.y < recPos.y;
+  const intBase   = dbInFront ? 0.22 : 0.06;
+  const intFloor  = 0.01;
+  // Bei voller Separation → intFloor, bei 0 Separation → intBase
+  let intProb = intFloor + (intBase - intFloor) * (1 - _sig(t));
+
+  if (defender) intProb += (getAttr(defender, 'coverage') - 75) / 500;
+  intProb += (1.0 - passAccuracy) * 0.08;
+  if (nearbyDefCount >= 3)       intProb += 0.12 * (1 - _sig(t));
+  else if (isDoubleCovered)      intProb += 0.07 * (1 - _sig(t));
+
+  intProb = Math.max(0.01, Math.min(0.35, intProb));
+
+  // Expected Value: completionProb × Yards − intProb × Strafwert
+  // INT = ca. -40 Yards Feldposition-Verlust als Strafwert
+  const INT_PENALTY_YARDS = 40;
+  const expectedYards = completionProb * Math.max(rawYards, 0.5)
+                      - intProb * INT_PENALTY_YARDS;
+
+  const effSepYds = (effectiveSep * YARDS_PER_PX);
+  const debug = `${receiver.label}#${receiver.id} comp:${(completionProb*100).toFixed(0)}% int:${(intProb*100).toFixed(0)}% EY:${expectedYards.toFixed(1)} sep:${effSepYds.toFixed(1)}yd ${nearbyDefCount >= 2 ? nearbyDefCount+'×COV' : ''}`;
+
+  return {
+    completionProb,
+    intProb,
+    expectedYards,
+    rawYards,
+    nearbyDefCount,
+    effectiveSepYds: effSepYds,
+    debug,
+  };
+}
+
+// ── PASS OUTCOME ─────────────────────────────────────────────────────
+// targetId: ID des Receivers dem der Pass gilt.
+//
+// WICHTIG: Nutzt jetzt getPassCompletionProb(targetId) als einzige
+// Wahrscheinlichkeits-Quelle. Damit sind QB-Read-Vorhersage und
+// tatsächliches Outcome garantiert konsistent — der einzige Unterschied
+// ist, dass der QB-Read Dry-Run-Positionen nutzt (lookAhead > 0),
+// während das Outcome die echten Live-Positionen nutzt (lookAhead = 0).
+//
+// Rückgabe:
+// {
+//   complete:    boolean,
+//   yards:       number,          // ab LOS (nur wenn complete)
+//   result:      string,          // 'touchdown' | 'complete' | 'incomplete' | 'interception'
+//   defender:    object | null,   // der entscheidende Defender
+//   separationPx: number,
+//   detail:      string,          // lesbarer Text für UI/Log
+// }
+
+function getPassOutcome(targetId) {
+  const receiver = players.find(p => p.id === targetId);
+  if (!receiver) {
+    return { complete: false, yards: 0, result: 'incomplete', defender: null, detail: 'Kein Receiver' };
+  }
+
+  // ── Einzige Wahrscheinlichkeits-Berechnung: getPassCompletionProb ──
+  // lookAheadSec = 0 → nutzt echte simPos() für alle Spieler
+  const arrivalProb = getPassCompletionProb(targetId);
+
+  const recPos   = simPos(receiver);
+  const los      = LOS_Y();
+  const rawYards = yardGain(los, recPos.y);
+  const pressure = getQBPressure();
+
+  // Nächster Defender (live positions — konsistent mit getPassCompletionProb bei la=0)
+  const { defender, separationPx: rawSep } = nearestDefender(receiver);
+  const covFactor    = getCoverageQualityFactor(defender, receiver);
+  const effectiveSep = rawSep * covFactor * pressure.pressureFactor;
+
+  const catchThreshold = OPEN_SEPARATION_PX * (getAttr(receiver, 'catch') / 75);
+
+  // ── Würfeln basierend auf der Prob-Engine ─────────────────────────
+  let result, complete;
+  const compProb = arrivalProb.completionProb;
+  const intProb  = arrivalProb.intProb;
+
+  // Zuerst INT prüfen, dann Completion
+  if (Math.random() < intProb) {
+    complete = false;
+    result   = 'interception';
+  } else if (Math.random() < compProb / (1 - intProb)) {
+    // Bedingte Completion-Wahrscheinlichkeit (gegeben kein INT)
+    complete = true;
+    result   = 'complete';
+  } else {
+    complete = false;
+    result   = 'incomplete';
+  }
+
+  // Touchdown-Check
+  if (complete && rawYards >= 30) result = 'touchdown';
+
+  // Detail-String für Debug/UI
+  const sepYds    = (effectiveSep * YARDS_PER_PX).toFixed(1);
+  const rawSepYds = (rawSep * YARDS_PER_PX).toFixed(1);
+  const threshYds = (catchThreshold * YARDS_PER_PX).toFixed(1);
+  const pressStr  = pressure.pressured ? ' · PRESSURE' : '';
+  const dcStr     = arrivalProb.nearbyDefCount >= 2 ? ` · ${arrivalProb.nearbyDefCount}×COV` : '';
+  const detail    = `${receiver.label}#${receiver.id} — RawSep:${rawSepYds}yd EffSep:${sepYds}yd Thresh:${threshYds}yd Comp:${(compProb*100).toFixed(0)}% INT:${(intProb*100).toFixed(0)}%${pressStr}${dcStr} → ${result.toUpperCase()}`;
+
+  // QB-Read-Vorhersage aus qbThrow anhängen (wenn vorhanden)
+  const qbReadProb = qbThrow?._qbReadProb || null;
+
+  return {
+    complete,
+    yards:           complete ? rawYards : 0,
+    result,
+    defender,
+    separationPx:    effectiveSep,
+    rawSeparationPx: rawSep,
+    covFactor,
+    pressure,
+    isDoubleCovered: arrivalProb.nearbyDefCount >= 2,
+    nearbyDefCount:  arrivalProb.nearbyDefCount,
+    detail,
+    arrivalProb,
+    qbReadProb,   // Dry-Run-Vorhersage zum Vergleich
+  };
+}
+
+// ── RUN OUTCOME ──────────────────────────────────────────────────────
+// Berechnet Yards für das aktuell laufende Run-Play.
+//
+// Rückgabe:
+// {
+//   yards:              number,
+//   result:             'gain' | 'loss' | 'touchdown',
+//   tackler:            object | null,
+//   tackleSuccessProb:  number,   // 0–1, Tackle-Erfolgswahrscheinlichkeit (TAK+STR vs SPD)
+//   yac:                number,   // Yards After Contact
+//   detail:             string,
+// }
+
+function getRunOutcome() {
+  const carrier = players.find(p => p.id === runCarrierId);
+  if (!carrier) return { yards: 0, result: 'gain', tackler: null, detail: 'Kein Carrier' };
+
+  const carPos  = simPos(carrier);
+  const los     = LOS_Y();
+  const rawYards = yardGain(los, carPos.y);
+
+  // Nächster Tackler
+  const { defender: tackler, separationPx } = nearestDefender(carrier);
+
+  // ── Tackle-Duel: TAK + STR (Defense) vs SPD (Offense) ───────────────
+  // TAK = Tackle-Technik (70%), STR = Kraft/Stopping-Power (30%).
+  // Carrier-SPD = Ausweichgeschwindigkeit / Elusiveness beim Erstkontakt.
+  // separationPx ist bereits simSpeed-skaliert (Sim lief schneller/langsamer,
+  // aber der Feldabstand beim Play-Ende ist positions-konsistent).
+  const tackRating = getAttr(tackler, 'TAK');
+  const strRating  = getAttr(tackler, 'STR');
+  const carrierSpd = getAttr(carrier,  'SPD');
+
+  // Gewichteter Defense-Score vs Offense-Score → Tackle-Erfolgswahrscheinlichkeit
+  const defScore          = tackRating * 0.7 + strRating * 0.3;
+  const tackleSuccessProb = defScore / (defScore + carrierSpd);
+  // Gleiche Attribute (75 vs 75): 75/(75+75) = 0.5
+
+  // YAC: Separation-Basis (max 4 yd) + Tackle-Miss-Anteil (bis +2 yd extra).
+  // Only applied in GAME mode — in the editor/simulator the yardage is the
+  // carrier's pure final position vs. the LOS, with nothing packed on top.
+  const gameOn  = (typeof gameState !== 'undefined') && gameState.active;
+  const yacBase = Math.min(separationPx / YARD_PX, 4);
+  const yacAttr = (1 - tackleSuccessProb) * 2;
+  // tackleSuccessProb=0.5 → yacAttr=+1 yd; =0.3 → +1.4 yd; =0.7 → +0.6 yd
+  const yac     = gameOn ? Math.max(0, yacBase * (1 - tackleSuccessProb * 0.5) + yacAttr) : 0;
+
+  const totalYards = Math.round(rawYards + yac);
+
+  const result = totalYards >= 30 ? 'touchdown'
+               : totalYards < 0   ? 'loss'
+               : 'gain';
+
+  const tackProb = (tackleSuccessProb * 100).toFixed(0);
+  const detail = `${carrier.label}#${carrier.id} — ${totalYards > 0 ? '+' : ''}${totalYards} Yards (TackleProb:${tackProb}% YAC:${yac.toFixed(1)})`;
+
+  return {
+    yards: totalYards,
+    result,
+    tackler,
+    separationPx,
+    tackleSuccessProb,
+    yac,
+    detail,
+  };
+}
+
+// ── UI: Outcome Overlay ───────────────────────────────────────────────
+
+function showOutcomeToast(outcome) {
+  if (!outcome) return;
+  if (typeof _dryRunning !== 'undefined' && _dryRunning) return; // Outcome während Dry-Run unterdrücken
+
+  const labels = {
+    touchdown:    '🏈 TOUCHDOWN',
+    complete:     '✓ COMPLETE',
+    incomplete:   '✗ INCOMPLETE',
+    interception: '⚡ INTERCEPTION',
+    gain:         '↑ GAIN',
+    loss:         '↓ LOSS',
+    penalty:      '⚑ PENALTY',
+  };
+
+  const yardStr = outcome.yards !== 0
+    ? `${outcome.yards > 0 ? '+' : ''}${outcome.yards}`
+    : outcome.result === 'incomplete' || outcome.result === 'interception' ? '—' : '0';
+
+  const overlay   = document.getElementById('outcomeOverlay');
+  const resEl     = document.getElementById('outcomeResult');
+  const yardsEl   = document.getElementById('outcomeYards');
+  const detailEl  = document.getElementById('outcomeDetail');
+  const sepEl     = document.getElementById('outcomeSep');
+
+  if (!overlay) {
+    // Fallback: Toast wenn kein Overlay im DOM
+    showToast(labels[outcome.result] + ' ' + yardStr, 'info');
+    return;
+  }
+
+  resEl.textContent   = labels[outcome.result]  ?? outcome.result.toUpperCase();
+  yardsEl.textContent = outcome.result === 'incomplete' || outcome.result === 'interception'
+    ? '—'
+    : yardStr + ' YDS';
+  detailEl.textContent = outcome.detail ?? '';
+
+  // Separation Info + Debug-Zahlen
+  if (outcome.raw?.separationPx != null) {
+    const effSepYds = (outcome.raw.separationPx / YARD_PX).toFixed(1);
+    const rawSepYds = (outcome.raw.rawSeparationPx / YARD_PX).toFixed(1);
+    const defName   = outcome.raw?.defender
+      ? `${outcome.raw.defender.role}${outcome.raw.defender.id}`
+      : 'kein Defender';
+    const pressStr  = outcome.raw?.pressure?.pressured ? ' · QB PRESSURE' : '';
+    const covFac    = outcome.raw?.covFactor != null ? ` · CovF:${outcome.raw.covFactor.toFixed(2)}` : '';
+
+    let lines = `RawSep: ${rawSepYds}yd → EffSep: ${effSepYds}yd · ${defName}${pressStr}${covFac}`;
+
+    // ── Arrival: Live-Positionen bei Ballankunft (was tatsächlich passiert ist) ──
+    const ap = outcome.raw?.arrivalProb;
+    if (ap && ap.completionProb != null) {
+      lines += `<br><span style="color:#86efac">⬤ Arrival:</span> Comp:<b>${(ap.completionProb*100).toFixed(0)}%</b> · INT:${(ap.intProb*100).toFixed(0)}% · EY:${ap.expectedYards.toFixed(1)} · Sep:${ap.effectiveSepYds.toFixed(1)}yd`;
+    }
+
+    // ── QB-Read: Dry-Run-Vorhersage zum Zeitpunkt der Wurfentscheidung ──
+    const qp = outcome.raw?.qbReadProb;
+    if (qp && qp.completionProb != null) {
+      lines += `<br><span style="color:#93c5fd">⬤ QB-Read:</span> Comp:<b>${(qp.completionProb*100).toFixed(0)}%</b> · INT:${(qp.intProb*100).toFixed(0)}% · EY:${qp.expectedYards.toFixed(1)} · Sep:${qp.effectiveSepYds.toFixed(1)}yd`;
+
+      // Delta anzeigen wenn beide vorhanden
+      if (ap && ap.completionProb != null) {
+        const compDelta = ((ap.completionProb - qp.completionProb) * 100).toFixed(0);
+        const sepDelta  = (ap.effectiveSepYds - qp.effectiveSepYds).toFixed(1);
+        const deltaColor = parseFloat(compDelta) >= 0 ? '#86efac' : '#f87171';
+        lines += `<br><span style="color:${deltaColor}">Δ Comp:${compDelta > 0 ? '+' : ''}${compDelta}% · ΔSep:${sepDelta > 0 ? '+' : ''}${sepDelta}yd</span>`;
+      }
+    } else {
+      lines += `<br><span style="color:#6b7280">QB-Read: nicht verfügbar (kein qbThrow)</span>`;
+    }
+
+    sepEl.innerHTML = lines;
+  } else {
+    sepEl.textContent = '';
+  }
+
+  // CSS-Klasse für Farbe
+  overlay.className = `visible result-${outcome.result}`;
+
+  // Sim pausieren damit man das Overlay lesen kann
+  if (mode === 'sim' && !simPaused) togglePause();
+
+  logDebug(`<span>OUTCOME</span> ${outcome.detail}`);
+}
+
+function closeOutcomeOverlay() {
+  const overlay = document.getElementById('outcomeOverlay');
+  if (overlay) overlay.className = '';
+}
+
+// targetId: für Pass-Plays die ID des Receivers; null für Run-Plays.
+//
+// Gibt ein einheitliches Ergebnis-Objekt zurück:
+// {
+//   playType:  'pass' | 'run',
+//   yards:     number,
+//   result:    string,
+//   detail:    string,
+//   raw:       object,   // volles Ergebnis-Objekt (pass oder run)
+// }
+
+function resolvePlayOutcome(targetId = null) {
+  let raw;
+
+  if (playType === 'run') {
+    raw = getRunOutcome();
+  } else {
+    // Kein Target manuell gesetzt → automatisch den ersten Receiver mit Route nehmen
+    let effectiveTarget = targetId;
+    if (effectiveTarget == null) {
+      const autoTarget = players.find(p =>
+        ['WR','TE','RB','FB'].includes(p.type) &&
+        p.simRoutePoints && p.simRoutePoints.length > 0
+      );
+      effectiveTarget = autoTarget?.id ?? null;
+    }
+
+    if (effectiveTarget == null) {
+      raw = {
+        complete: false, yards: 0,
+        result: 'incomplete', defender: null,
+        detail: 'Kein Target — Throwaway',
+      };
+    } else {
+      raw = getPassOutcome(effectiveTarget);
+    }
+  }
+
+  logDebug(`<span>OUTCOME</span> ${raw.detail}`);
+
+  // ── Alignment Checker: Illegal Man Downfield override ───────────────
+  if (illegalFormationRulesOn && _pendingIllegalManDownfield) {
+    const penaltyDetail = _pendingIllegalManDownfield;
+    _pendingIllegalManDownfield = null; // consume before return
+    return {
+      playType: 'pass',
+      yards:    -5,
+      result:   'penalty',
+      detail:   `Illegal Man Downfield — ${penaltyDetail}`,
+      raw:      { yards: -5, result: 'penalty', detail: `Illegal Man Downfield — ${penaltyDetail}` },
+    };
+  }
+
+  return {
+    playType: playType === 'run' ? 'run' : 'pass',
+    yards:    raw.yards,
+    result:   raw.result,
+    detail:   raw.detail,
+    raw,
+  };
+}

@@ -1,1 +1,6689 @@
-const _0x2e24de=_0x3a08;function _0x3a08(_0x5f4607,_0x11420b){_0x5f4607=_0x5f4607-0x142;const _0x3560b9=_0x3560();let _0x3a0802=_0x3560b9[_0x5f4607];return _0x3a0802;}(function(_0x42a268,_0x2d7964){const _0x529c4a=_0x3a08,_0x1103f4=_0x42a268();while(!![]){try{const _0x4409df=parseInt(_0x529c4a(0x496))/0x1+parseInt(_0x529c4a(0x1c7))/0x2*(-parseInt(_0x529c4a(0x379))/0x3)+-parseInt(_0x529c4a(0x597))/0x4*(-parseInt(_0x529c4a(0x2c4))/0x5)+-parseInt(_0x529c4a(0x2ba))/0x6+parseInt(_0x529c4a(0x3dc))/0x7+-parseInt(_0x529c4a(0x5bf))/0x8+parseInt(_0x529c4a(0x460))/0x9*(parseInt(_0x529c4a(0x383))/0xa);if(_0x4409df===_0x2d7964)break;else _0x1103f4['push'](_0x1103f4['shift']());}catch(_0x2d1b94){_0x1103f4['push'](_0x1103f4['shift']());}}}(_0x3560,0x8de91));const _PR_FULLFIELD={'cover2man-backside':{'fullField':![],'isOneHigh':![],'decide'(_0x766dbf,_0x255e6c,_0x1c204d){const _0x5646a5=_0x3a08,_0x341e6a={'gfIPj':function(_0x303e07,_0xc574db){return _0x303e07===_0xc574db;},'lQlZD':function(_0x4fb615,_0x453ebe){return _0x4fb615===_0x453ebe;},'KaPGq':'HOOK-L','dhFAE':function(_0x5f160c,_0x4307b8){return _0x5f160c(_0x4307b8);},'Arhrp':function(_0x5964bf,_0x324d24){return _0x5964bf(_0x324d24);},'VeEqX':function(_0x448403,_0x10e7c9){return _0x448403>=_0x10e7c9;},'QmcJy':function(_0x9c556e,_0x17ba67,_0x1c8965){return _0x9c556e(_0x17ba67,_0x1c8965);}},_0x372c5f=new Map();if(!_0x1c204d)return _0x372c5f;const _0x218108=_0x1c204d[_0x5646a5(0x1b2)],_0x3a46a6=_0x1c204d['eligiblePlayers']||[],_0x5e0ff9=_0x1c204d['primaryBackfield']||null,_0x190178=_0x3a46a6[_0x5646a5(0x427)](_0x4884e8=>_0x4884e8['_side']==='L')[_0x5646a5(0x6ab)],_0x595a2e=_0x3a46a6[_0x5646a5(0x427)](_0x4ffa7b=>_0x4ffa7b[_0x5646a5(0x6c1)]==='R')['length'],_0x230944=_0x1c204d[_0x5646a5(0x1c0)]||(_0x341e6a[_0x5646a5(0x44a)](_0x190178,_0x595a2e)?'L':'R'),_0x483a02=_0x230944==='L'?'R':'L',_0x200910=_0x341e6a['gfIPj'](_0x483a02,'L')?_0x5646a5(0x19e):_0x5646a5(0x4bb);function _0xaee6c5(_0x24db90,_0x5890a1){const _0x27c900=_0x5646a5;return _0x3a46a6[_0x27c900(0x1b9)](_0x57afd5=>_0x57afd5[_0x27c900(0x6c1)]===_0x24db90&&_0x57afd5[_0x27c900(0x4df)]===_0x5890a1)||null;}const _0x1f3dba=_0x341e6a[_0x5646a5(0x515)](_0xaee6c5,_0x483a02,0x1);return _0x766dbf[_0x5646a5(0x29e)]((_0x5078fd,_0x409856)=>{const _0x179f79=_0x5646a5,_0x294db4=_0x255e6c['get'](_0x409856);if(!_0x294db4)return;const _0x4ec600=_0x294db4['x']<=_0x218108?'L':'R',_0x3f2cde=_0x341e6a[_0x179f79(0x715)](_0x5078fd,_0x179f79(0x3e5))||_0x341e6a[_0x179f79(0x39d)](_0x5078fd,_0x341e6a[_0x179f79(0x281)])?'L':_0x5078fd===_0x179f79(0x238)||_0x5078fd===_0x179f79(0x400)?'R':_0x4ec600,_0x8850e4=_0x3f2cde===_0x483a02;switch(_0x5078fd){case'CB':if(_0x8850e4)_0x372c5f['set'](_0x409856,_0x1f3dba?manCover(_0x1f3dba['id']):_0x341e6a[_0x179f79(0x403)](zoneDrop,_0x200910));break;case'APEX-L':case _0x179f79(0x238):if(_0x8850e4)_0x372c5f[_0x179f79(0x590)](_0x409856,_0x341e6a['dhFAE'](zoneDrop,_0x179f79(0x434)));break;case _0x179f79(0x23b):_0x372c5f[_0x179f79(0x590)](_0x409856,_0x341e6a[_0x179f79(0x18a)](zoneDrop,_0x200910));break;}}),_0x372c5f;},'react'(_0x48d61a,_0xa3ee95,_0x559773,_0x2065a4){const _0x124d54=_0x3a08,_0x3c1338={'Xulxr':function(_0x5d8ab6,_0x20f6e9,_0x2268a3){return _0x5d8ab6(_0x20f6e9,_0x2268a3);},'rNNBB':function(_0x103665,_0x4d52c8){return _0x103665<=_0x4d52c8;},'NexJG':function(_0x9fc800,_0xdb3ab9){return _0x9fc800===_0xdb3ab9;},'TafJC':function(_0x423ba3,_0x5603ff){return _0x423ba3===_0x5603ff;},'LzGDf':function(_0x741b9e,_0x4bcec2){return _0x741b9e===_0x4bcec2;},'gHjON':function(_0x1ce60a,_0xda9d57){return _0x1ce60a===_0xda9d57;},'SXknb':_0x124d54(0x3e5),'wZnEC':_0x124d54(0x238),'ZdjYu':function(_0xe6afbe,_0x457b65){return _0xe6afbe(_0x457b65);},'nGweK':function(_0x1b3de1,_0x5b1c4a){return _0x1b3de1(_0x5b1c4a);},'QmYEs':'HOOK_MIDDLE'};if(!_0x559773)return null;const _0x1c77fe=_0x559773['ballX'],_0x38b129=_0x559773[_0x124d54(0x205)]||[],_0x257b47=_0x559773['primaryBackfield']||null,_0x530bd8=_0x38b129[_0x124d54(0x427)](_0x5a6f1a=>_0x5a6f1a[_0x124d54(0x6c1)]==='L')[_0x124d54(0x6ab)],_0x461c7d=_0x38b129[_0x124d54(0x427)](_0x4a9a13=>_0x4a9a13['_side']==='R')[_0x124d54(0x6ab)],_0x5e1e9c=_0x559773[_0x124d54(0x1c0)]||(_0x530bd8>=_0x461c7d?'L':'R'),_0x13432f=_0x5e1e9c==='L'?'R':'L',_0x23283d=snapAlignment[_0x48d61a['id']]?.['x']??(_0x48d61a[_0x124d54(0x79d)]??_0x48d61a['x']),_0x48a7da=_0x3c1338[_0x124d54(0x570)](_0x23283d,_0x1c77fe)?'L':'R',_0x320763=_0x3c1338[_0x124d54(0x1ec)](_0xa3ee95,'APEX-L')||_0x3c1338['TafJC'](_0xa3ee95,_0x124d54(0x669))?'L':_0xa3ee95===_0x124d54(0x238)||_0x3c1338['LzGDf'](_0xa3ee95,_0x124d54(0x400))?'R':_0x48a7da,_0x51cd72=_0x3c1338['gHjON'](_0x320763,_0x13432f);function _0x1b2d95(_0x5eebbe,_0xd660fa){const _0x20aa36=_0x124d54;return _0x38b129[_0x20aa36(0x1b9)](_0x32761b=>_0x32761b['_side']===_0x5eebbe&&_0x32761b[_0x20aa36(0x4df)]===_0xd660fa)||null;}function _0x309654(_0x5f3b73){const _0x446a8f=_0x124d54;return _0x3c1338[_0x446a8f(0x39f)](isReleasedRoute,_0x5f3b73,_0x2065a4);}const _0x3582ba=_0x13432f==='L'?_0x124d54(0x19e):_0x124d54(0x4bb),_0x46b604=_0x1b2d95(_0x13432f,0x1);if(_0xa3ee95==='CB'&&_0x51cd72)return _0x46b604?manCover(_0x46b604['id']):null;if((_0xa3ee95===_0x3c1338['SXknb']||_0x3c1338[_0x124d54(0x4e4)](_0xa3ee95,_0x3c1338[_0x124d54(0x401)]))&&_0x51cd72){!persistentCovCalls[_0x124d54(0x2a3)]&&_0x257b47&&_0x3c1338[_0x124d54(0x63b)](_0x309654,_0x257b47)&&(persistentCovCalls[_0x124d54(0x2a3)]=!![]);if(persistentCovCalls[_0x124d54(0x2a3)]&&_0x257b47)return _0x3c1338['ZdjYu'](manCover,_0x257b47['id']);return _0x3c1338[_0x124d54(0x76b)](zoneDrop,_0x3c1338[_0x124d54(0x339)]);}if(_0xa3ee95===_0x124d54(0x23b))return zoneDrop(_0x3582ba);return null;}},'cone-backside':{'fullField':![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x28b),'cbShade':_0x2e24de(0x4a1)}},'decide'(_0xb60824,_0x37c893,_0x550904){const _0x25f33f=_0x2e24de,_0x301423={'gAGPD':_0x25f33f(0x669),'cvojd':_0x25f33f(0x238),'UuOmI':function(_0x409609,_0x3cab65){return _0x409609===_0x3cab65;},'cpohk':function(_0x345cf2,_0x31ac23){return _0x345cf2(_0x31ac23);},'PbSne':_0x25f33f(0x434),'oLCiB':_0x25f33f(0x23b),'ngyUU':function(_0x26fc53,_0x4dcd7d){return _0x26fc53>=_0x4dcd7d;},'bAUBQ':function(_0xc71938,_0x2d165c,_0x1a7dcf){return _0xc71938(_0x2d165c,_0x1a7dcf);}},_0x4e5cf7=new Map();if(!_0x550904)return _0x4e5cf7;const _0x106f73=_0x550904['ballX'],_0x3c7acc=_0x550904[_0x25f33f(0x205)]||[],_0x5cbb56=_0x3c7acc[_0x25f33f(0x427)](_0xf27e9=>_0xf27e9[_0x25f33f(0x6c1)]==='L')['length'],_0x526c64=_0x3c7acc[_0x25f33f(0x427)](_0x2f5704=>_0x2f5704[_0x25f33f(0x6c1)]==='R')[_0x25f33f(0x6ab)],_0x18fed2=_0x550904[_0x25f33f(0x1c0)]||(_0x301423[_0x25f33f(0x75d)](_0x5cbb56,_0x526c64)?'L':'R'),_0x1c97ec=_0x18fed2==='L'?'R':'L',_0x4064f2=_0x1c97ec==='L'?_0x25f33f(0x27b):_0x25f33f(0x399);function _0xea2968(_0xa26aaf,_0x22f701){const _0x7bc38e=_0x25f33f;return _0x3c7acc[_0x7bc38e(0x1b9)](_0x4ae9a3=>_0x4ae9a3[_0x7bc38e(0x6c1)]===_0xa26aaf&&_0x4ae9a3[_0x7bc38e(0x4df)]===_0x22f701)||null;}const _0x17a3cf=_0x301423[_0x25f33f(0x6d7)](_0xea2968,_0x1c97ec,0x1);return _0xb60824[_0x25f33f(0x29e)]((_0x1dbd85,_0x5b252e)=>{const _0x545145=_0x25f33f,_0x4b2874=_0x37c893[_0x545145(0x331)](_0x5b252e);if(!_0x4b2874)return;const _0x2591eb=_0x4b2874['x']<=_0x106f73?'L':'R',_0x27f16b=_0x1dbd85==='APEX-L'||_0x1dbd85===_0x301423[_0x545145(0x6df)]?'L':_0x1dbd85===_0x301423[_0x545145(0x35f)]||_0x301423[_0x545145(0x334)](_0x1dbd85,_0x545145(0x400))?'R':_0x2591eb,_0x5e452a=_0x301423[_0x545145(0x334)](_0x27f16b,_0x1c97ec);switch(_0x1dbd85){case'CB':if(_0x5e452a)_0x4e5cf7[_0x545145(0x590)](_0x5b252e,_0x17a3cf?_0x301423[_0x545145(0x6f8)](manCover,_0x17a3cf['id']):zoneDrop(_0x4064f2));break;case _0x545145(0x3e5):case _0x301423['cvojd']:if(_0x5e452a)_0x4e5cf7[_0x545145(0x590)](_0x5b252e,_0x301423['cpohk'](zoneDrop,_0x301423[_0x545145(0x57f)]));break;case _0x301423[_0x545145(0x792)]:_0x4e5cf7[_0x545145(0x590)](_0x5b252e,_0x17a3cf?manCover(_0x17a3cf['id']):_0x301423[_0x545145(0x6f8)](zoneDrop,_0x4064f2));break;}}),_0x4e5cf7;},'react'(_0x19487d,_0x2991fd,_0x114382,_0xcd302c){const _0x2b35e1=_0x2e24de,_0x15ae8c={'gHZsw':function(_0xbb73cb,_0x5b33c1,_0xe8d407){return _0xbb73cb(_0x5b33c1,_0xe8d407);},'LkTrT':function(_0x2d8f4f,_0x56e35a,_0x5d6049){return _0x2d8f4f(_0x56e35a,_0x5d6049);},'WiLUc':function(_0x281e9a,_0x3a4368){return _0x281e9a>=_0x3a4368;},'ukSjc':function(_0x4cd596,_0x505a2b){return _0x4cd596===_0x505a2b;},'FsFRt':'APEX-L','Inwsh':_0x2b35e1(0x669),'CetOl':function(_0x326c6d,_0x2e8182){return _0x326c6d===_0x2e8182;},'tixQQ':'DEEP_QRTR_R','ADpyh':function(_0x40331f,_0x3ef7ed){return _0x40331f===_0x3ef7ed;},'WLtPZ':function(_0x236dfd,_0x251746){return _0x236dfd(_0x251746);},'OdETH':function(_0xea4c17,_0xb96972){return _0xea4c17(_0xb96972);},'woQPd':function(_0x27865e,_0x3a716c){return _0x27865e(_0x3a716c);},'mSerx':function(_0x214384,_0x5872ff){return _0x214384<_0x5872ff;},'ObuuL':_0x2b35e1(0x23b),'jodRC':function(_0x4556e7,_0x2ab26d){return _0x4556e7(_0x2ab26d);}};if(!_0x114382)return null;const _0x4081f7=_0x114382[_0x2b35e1(0x1b2)],_0x3dc42c=_0x114382[_0x2b35e1(0x205)]||[],_0x452ccb=_0x114382[_0x2b35e1(0x479)]||null,_0x1e2068=_0x3dc42c[_0x2b35e1(0x427)](_0x513ab0=>_0x513ab0[_0x2b35e1(0x6c1)]==='L')[_0x2b35e1(0x6ab)],_0x2eabd8=_0x3dc42c['filter'](_0x3c5925=>_0x3c5925[_0x2b35e1(0x6c1)]==='R')[_0x2b35e1(0x6ab)],_0x4fde20=_0x114382[_0x2b35e1(0x1c0)]||(_0x15ae8c[_0x2b35e1(0x442)](_0x1e2068,_0x2eabd8)?'L':'R'),_0x139daa=_0x4fde20==='L'?'R':'L',_0x217c03=snapAlignment[_0x19487d['id']]?.['x']??(_0x19487d[_0x2b35e1(0x79d)]??_0x19487d['x']),_0x260939=_0x217c03<=_0x4081f7?'L':'R',_0x149e35=_0x15ae8c[_0x2b35e1(0x61c)](_0x2991fd,_0x15ae8c[_0x2b35e1(0x4ea)])||_0x2991fd===_0x15ae8c[_0x2b35e1(0x190)]?'L':_0x2991fd===_0x2b35e1(0x238)||_0x2991fd===_0x2b35e1(0x400)?'R':_0x260939,_0x37569b=_0x15ae8c[_0x2b35e1(0x5f4)](_0x149e35,_0x139daa);function _0x48a908(_0x26d9fb,_0x5ee42a){const _0x48654d=_0x2b35e1;return _0x3dc42c[_0x48654d(0x1b9)](_0x3c6d70=>_0x3c6d70[_0x48654d(0x6c1)]===_0x26d9fb&&_0x3c6d70['_receiverNumber']===_0x5ee42a)||null;}function _0x51c14c(_0x4e1c18){return _0x4e1c18?_0xcd302c[_0x4e1c18['id']]:null;}function _0x4543d2(_0x4e0ca5){const _0x517b4d=_0x2b35e1;return _0x15ae8c[_0x517b4d(0x491)](isUnderRoute,_0x4e0ca5,_0xcd302c);}function _0x6beac7(_0x1bee26){const _0x557e96=_0x2b35e1;return _0x15ae8c[_0x557e96(0x79f)](isReleasedRoute,_0x1bee26,_0xcd302c);}function _0x1015c1(_0x54061f){return isVerticalRoute(_0x54061f,_0xcd302c);}const _0x278f40=_0x139daa==='L'?_0x2b35e1(0x27b):_0x15ae8c[_0x2b35e1(0x4f6)],_0x1ca8ab=_0x15ae8c[_0x2b35e1(0x491)](_0x48a908,_0x139daa,0x1);if(_0x15ae8c[_0x2b35e1(0x44b)](_0x2991fd,'CB')&&_0x37569b){if(stickyOnce(_0x2b35e1(0x68d),!!(_0x1ca8ab&&_0x15ae8c[_0x2b35e1(0x69c)](_0x4543d2,_0x1ca8ab))))return _0x15ae8c[_0x2b35e1(0x196)](zoneDrop,_0x278f40);return _0x1ca8ab?manCover(_0x1ca8ab['id']):zoneDrop(_0x278f40);}if((_0x2991fd===_0x15ae8c[_0x2b35e1(0x4ea)]||_0x2991fd===_0x2b35e1(0x238))&&_0x37569b){if(_0x452ccb&&_0x15ae8c[_0x2b35e1(0x5c5)](_0x6beac7,_0x452ccb)){const _0x3e5023=_0x51c14c(_0x452ccb),_0xad4fe9=_0x3e5023?.[_0x2b35e1(0x6ae)]?.['x']??0x0,_0x2e734d=_0x15ae8c[_0x2b35e1(0x44b)](_0x139daa,'L')?_0x15ae8c[_0x2b35e1(0x264)](_0xad4fe9,0x0):_0xad4fe9>0x0;if(_0x2e734d||_0x15ae8c[_0x2b35e1(0x69c)](_0x1015c1,_0x452ccb))return manCover(_0x452ccb['id']);}const _0x4b6cfe=_0x3dc42c[_0x2b35e1(0x427)](_0x285d1f=>_0x285d1f[_0x2b35e1(0x6c1)]===_0x4fde20),_0xa385d9=_0x4b6cfe['find'](_0x37531f=>_0x4543d2(_0x37531f));if(_0xa385d9)return manCover(_0xa385d9['id']);return _0x15ae8c['WLtPZ'](zoneDrop,_0x2b35e1(0x434));}if(_0x15ae8c[_0x2b35e1(0x44b)](_0x2991fd,_0x15ae8c[_0x2b35e1(0x733)]))return _0x1ca8ab?manCover(_0x1ca8ab['id']):_0x15ae8c[_0x2b35e1(0x57c)](zoneDrop,_0x278f40);return null;}},'cover3-cloud-strong-3x1-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x377),'cbShade':'normal'}},'decide'(_0x502477,_0x3eda8c,_0x5bf01e){const _0x2c8bbb=_0x2e24de,_0x178460={'xXSDZ':function(_0x535264,_0x2ec43f){return _0x535264===_0x2ec43f;},'FPUxt':_0x2c8bbb(0x3e5),'qfyOH':'APEX-R','eGmeo':function(_0x595db0,_0x5937f3){return _0x595db0===_0x5937f3;},'UEKQr':_0x2c8bbb(0x400),'rXHMs':function(_0x4cddc9,_0x8c1939){return _0x4cddc9===_0x8c1939;},'NVYwj':function(_0x31a957,_0x3295db){return _0x31a957===_0x3295db;},'DHjSY':_0x2c8bbb(0x25f),'qDXgM':'UNDER','MbKKs':function(_0x1b11f1){return _0x1b11f1();},'DHEzn':function(_0x448d91,_0x2b6172){return _0x448d91(_0x2b6172);},'NSoth':function(_0x347f85,_0x5190c2){return _0x347f85(_0x5190c2);},'TQuvu':_0x2c8bbb(0x669),'igRmO':_0x2c8bbb(0x722),'AtyCU':_0x2c8bbb(0x2ac),'KuOhG':function(_0x5c05ca,_0x32b259){return _0x5c05ca(_0x32b259);},'WAwNK':function(_0x1d09fc,_0x24af40){return _0x1d09fc>=_0x24af40;},'FHihS':_0x2c8bbb(0x4fb),'Gupaz':'FLAT_L','dFzOG':'HOOK_CURL_R','sfsDW':function(_0x52615a,_0x3fc576,_0x3558f3){return _0x52615a(_0x3fc576,_0x3558f3);}},_0x396eb6=new Map();if(!_0x5bf01e)return _0x396eb6;const _0x35f1c7=_0x5bf01e[_0x2c8bbb(0x1b2)],_0x5e9856=_0x5bf01e[_0x2c8bbb(0x205)]||[],_0x254177=_0x5bf01e[_0x2c8bbb(0x479)]||null,_0x971a4f=_0x5e9856[_0x2c8bbb(0x427)](_0x4f8f95=>_0x4f8f95[_0x2c8bbb(0x6c1)]==='L')[_0x2c8bbb(0x6ab)],_0xbb111e=_0x5e9856[_0x2c8bbb(0x427)](_0x28cac0=>_0x28cac0[_0x2c8bbb(0x6c1)]==='R')[_0x2c8bbb(0x6ab)],_0x19ca15=_0x5bf01e[_0x2c8bbb(0x1c0)]||(_0x178460[_0x2c8bbb(0x303)](_0x971a4f,_0xbb111e)?'L':'R'),_0x454052=_0x19ca15==='L'?'R':'L',_0x4b9ccc=_0x19ca15==='L'?_0x2c8bbb(0x3e8):_0x178460[_0x2c8bbb(0x448)],_0x24768c=_0x19ca15==='L'?_0x178460['Gupaz']:'FLAT_R',_0x26c94e=_0x178460[_0x2c8bbb(0x77f)](_0x19ca15,'L')?'HOOK_CURL_L':_0x2c8bbb(0x198),_0xd12424=_0x178460[_0x2c8bbb(0x60a)](_0x454052,'L')?_0x2c8bbb(0x226):_0x178460['dFzOG'],_0x1bc33c=_0x19ca15==='L'?'HOOK_L':_0x2c8bbb(0x74b);function _0x558970(_0x2d4e1e,_0x38b2f6){const _0x2a5f99=_0x2c8bbb;return _0x5e9856[_0x2a5f99(0x1b9)](_0x42db24=>_0x42db24[_0x2a5f99(0x6c1)]===_0x2d4e1e&&_0x42db24[_0x2a5f99(0x4df)]===_0x38b2f6)||null;}const _0x56ac91=_0x558970(_0x19ca15,0x1),_0x314974=_0x178460[_0x2c8bbb(0x180)](_0x558970,_0x19ca15,0x2),_0xa074a8=_0x558970(_0x19ca15,0x3),_0x581cf0=_0x558970(_0x454052,0x1);return _0x502477[_0x2c8bbb(0x29e)]((_0x5bbda9,_0x34125e)=>{const _0x528351=_0x2c8bbb,_0x56bf2d=_0x3eda8c[_0x528351(0x331)](_0x34125e);if(!_0x56bf2d)return;const _0x4662d9=_0x56bf2d['x']<=_0x35f1c7?'L':'R',_0x1183b2=_0x178460['xXSDZ'](_0x5bbda9,_0x178460['FPUxt'])||_0x178460[_0x528351(0x3c4)](_0x5bbda9,_0x528351(0x669))?'L':_0x5bbda9===_0x178460[_0x528351(0x716)]||_0x178460[_0x528351(0x2f6)](_0x5bbda9,_0x178460[_0x528351(0x182)])?'R':_0x4662d9,_0x3701a5=_0x178460['rXHMs'](_0x1183b2,_0x19ca15),_0x517d05=_0x178460['NVYwj'](_0x1183b2,_0x454052);switch(_0x5bbda9){case _0x178460[_0x528351(0x3d6)]:case _0x178460[_0x528351(0x168)]:_0x396eb6[_0x528351(0x590)](_0x34125e,_0x178460[_0x528351(0x5f6)](rushDec));break;case'CB':if(_0x3701a5)_0x396eb6['set'](_0x34125e,_0x178460['DHEzn'](zoneDrop,_0x24768c));if(_0x517d05)_0x396eb6[_0x528351(0x590)](_0x34125e,_0x581cf0?manCover(_0x581cf0['id']):_0x178460['DHEzn'](zoneDrop,_0xd12424));break;case _0x178460['FPUxt']:case _0x178460[_0x528351(0x716)]:if(_0x3701a5)_0x396eb6[_0x528351(0x590)](_0x34125e,_0x314974?_0x178460[_0x528351(0x541)](manCover,_0x314974['id']):zoneDrop(_0x26c94e));if(_0x517d05)_0x396eb6[_0x528351(0x590)](_0x34125e,_0x178460[_0x528351(0x3a3)](zoneDrop,_0xd12424));break;case _0x178460[_0x528351(0x3e6)]:case _0x178460[_0x528351(0x182)]:case _0x178460[_0x528351(0x683)]:_0x396eb6[_0x528351(0x590)](_0x34125e,_0xa074a8?_0x178460[_0x528351(0x3a3)](manCover,_0xa074a8['id']):_0x178460['NSoth'](zoneDrop,_0x1bc33c));break;case _0x178460['AtyCU']:_0x396eb6[_0x528351(0x590)](_0x34125e,_0x178460[_0x528351(0x22c)](zoneDrop,_0x4b9ccc));break;case'SAF_W':_0x396eb6['set'](_0x34125e,_0x178460[_0x528351(0x541)](zoneDrop,_0x528351(0x259)));break;}}),_0x396eb6;},'react'(_0x2e34ba,_0x1ee0b7,_0x2173c4,_0x5e5395){const _0x3bcd8c=_0x2e24de,_0x2ca748={'YEuJj':function(_0x3cfa8c,_0xb6e431,_0x5dc9b3){return _0x3cfa8c(_0xb6e431,_0x5dc9b3);},'UXbqz':function(_0x480660,_0x4b79ff){return _0x480660>=_0x4b79ff;},'yAEvg':function(_0x42b0f4,_0x18ebdc){return _0x42b0f4===_0x18ebdc;},'ALhZB':function(_0xa475cd,_0x38691c){return _0xa475cd<=_0x38691c;},'rEMCp':function(_0x1c851c,_0x3f5cf7){return _0x1c851c===_0x3f5cf7;},'QzZpG':'HOOK-L','AGYMr':_0x3bcd8c(0x238),'mKxYC':_0x3bcd8c(0x400),'BdpCr':'DEEP_R','SLJcF':_0x3bcd8c(0x2d8),'kZecT':_0x3bcd8c(0x226),'cYtHl':'HOOK_CURL_R','dUdLM':function(_0x425c0f,_0x374d23){return _0x425c0f===_0x374d23;},'GRUYr':_0x3bcd8c(0x620),'hiJdQ':'HOOK_R','jjykW':function(_0xefce81,_0x252e11,_0x3befd5){return _0xefce81(_0x252e11,_0x3befd5);},'Cxzus':function(_0xd13240,_0x53b9e7,_0x3d295c){return _0xd13240(_0x53b9e7,_0x3d295c);},'vJtZg':function(_0x173529,_0x2ba420){return _0x173529===_0x2ba420;},'kkxCa':function(_0x5c7f9e,_0x3278a8,_0x10b237,_0x336cf3,_0x3f1bfb){return _0x5c7f9e(_0x3278a8,_0x10b237,_0x336cf3,_0x3f1bfb);},'IlZXQ':function(_0x4a825a,_0x2eaf50){return _0x4a825a(_0x2eaf50);},'AykVw':function(_0x503948,_0x3e9fdf){return _0x503948(_0x3e9fdf);},'OIvPQ':_0x3bcd8c(0x3e5),'TUVsZ':function(_0x390971,_0xb4ad8){return _0x390971(_0xb4ad8);},'XfvDi':function(_0x5f0a90,_0x1b14af){return _0x5f0a90===_0x1b14af;},'pLuss':function(_0x3d8649,_0x263b6){return _0x3d8649(_0x263b6);},'gapLR':function(_0x89fbad,_0x1fd495){return _0x89fbad(_0x1fd495);},'JAYyF':_0x3bcd8c(0x722),'laOSR':function(_0xb76d48,_0x146c20){return _0xb76d48(_0x146c20);},'thKpU':function(_0x50c44a,_0x40214e){return _0x50c44a(_0x40214e);},'xgemq':function(_0x189c50,_0x2e060c){return _0x189c50===_0x2e060c;},'QKxMg':function(_0x4b9601,_0x4699f8){return _0x4b9601<_0x4699f8;},'LPHLw':function(_0x5c8d27,_0x5720f9){return _0x5c8d27===_0x5720f9;},'ZQWik':function(_0xbe0577,_0x1c4234){return _0xbe0577(_0x1c4234);},'oXcZK':_0x3bcd8c(0x259)};if(!_0x2173c4)return null;const _0x3f7076=_0x2173c4[_0x3bcd8c(0x1b2)],_0x32ee2b=_0x2173c4[_0x3bcd8c(0x205)]||[],_0x45f551=_0x2173c4[_0x3bcd8c(0x479)]||null,_0x577258=_0x32ee2b[_0x3bcd8c(0x427)](_0x1695b2=>_0x1695b2['_side']==='L')[_0x3bcd8c(0x6ab)],_0x2d329d=_0x32ee2b[_0x3bcd8c(0x427)](_0x3f0c66=>_0x3f0c66['_side']==='R')['length'],_0x3b45a8=_0x2173c4['coverageStrongSide']||(_0x2ca748[_0x3bcd8c(0x3db)](_0x577258,_0x2d329d)?'L':'R'),_0x4478fb=_0x2ca748[_0x3bcd8c(0x29a)](_0x3b45a8,'L')?'R':'L',_0x171724=snapAlignment[_0x2e34ba['id']]?.['x']??(_0x2e34ba['simX']??_0x2e34ba['x']),_0x5db591=_0x2ca748[_0x3bcd8c(0x74e)](_0x171724,_0x3f7076)?'L':'R',_0x5dd6a8=_0x2ca748[_0x3bcd8c(0x29a)](_0x1ee0b7,_0x3bcd8c(0x3e5))||_0x2ca748[_0x3bcd8c(0x357)](_0x1ee0b7,_0x2ca748[_0x3bcd8c(0x458)])?'L':_0x1ee0b7===_0x2ca748[_0x3bcd8c(0x5d8)]||_0x2ca748[_0x3bcd8c(0x357)](_0x1ee0b7,_0x2ca748[_0x3bcd8c(0x696)])?'R':_0x5db591,_0x2a4719=_0x2ca748['rEMCp'](_0x5dd6a8,_0x3b45a8),_0x15a00c=_0x5dd6a8===_0x4478fb;function _0x16b800(_0x4a2002,_0x4c519d){const _0x2b8b25=_0x3bcd8c;return _0x32ee2b[_0x2b8b25(0x1b9)](_0xaa15ce=>_0xaa15ce['_side']===_0x4a2002&&_0xaa15ce[_0x2b8b25(0x4df)]===_0x4c519d)||null;}function _0x3eba23(_0xa53b98){return _0xa53b98?_0x5e5395[_0xa53b98['id']]:null;}function _0x41b0c6(_0x11e227){return isDeepVertical(_0x11e227,_0x5e5395);}function _0x59647f(_0x2c48fa){const _0x3b480f=_0x3bcd8c;return _0x2ca748[_0x3b480f(0x482)](isReleasedRoute,_0x2c48fa,_0x5e5395);}const _0x41d3b1=_0x3b45a8==='L'?'DEEP_L':_0x2ca748[_0x3bcd8c(0x35e)],_0x1c6252=_0x3b45a8==='L'?_0x3bcd8c(0x425):_0x2ca748[_0x3bcd8c(0x43f)],_0x1c2286=_0x3b45a8==='L'?_0x2ca748[_0x3bcd8c(0x3f3)]:_0x3bcd8c(0x198),_0x431c25=_0x4478fb==='L'?_0x2ca748[_0x3bcd8c(0x3f3)]:_0x2ca748[_0x3bcd8c(0x66e)],_0x4d82db=_0x2ca748['dUdLM'](_0x3b45a8,'L')?_0x2ca748[_0x3bcd8c(0x2ce)]:_0x2ca748[_0x3bcd8c(0x1ac)],_0x5d228f=_0x2ca748['jjykW'](_0x16b800,_0x3b45a8,0x1),_0x2e08dd=_0x2ca748[_0x3bcd8c(0x60c)](_0x16b800,_0x3b45a8,0x2),_0x36658d=_0x16b800(_0x3b45a8,0x3),_0xc3f0ad=_0x16b800(_0x4478fb,0x1),_0x313bb5=_0x16b800(_0x4478fb,0x2),_0x2ddc6f=_0x32ee2b;if(_0x2ca748[_0x3bcd8c(0x612)](_0x1ee0b7,'CB')&&_0x2a4719){const _0x597e6d=_0x2ca748[_0x3bcd8c(0x5a7)](getFlatReceiver,_0x3b45a8,_0x2ddc6f,_0x2173c4,_0x5e5395);if(_0x597e6d)return _0x2ca748[_0x3bcd8c(0x4d5)](manCover,_0x597e6d['id']);if(_0x5d228f&&!isUnderRoute(_0x5d228f,_0x5e5395))return manCover(_0x5d228f['id']);return _0x2ca748[_0x3bcd8c(0x469)](zoneDrop,_0x1c6252);}if((_0x2ca748[_0x3bcd8c(0x612)](_0x1ee0b7,_0x2ca748[_0x3bcd8c(0x4f8)])||_0x1ee0b7===_0x3bcd8c(0x238))&&_0x2a4719){if(_0x2e08dd&&isFlatRoute(_0x2e08dd,_0x3b45a8,_0x5e5395,_0x2173c4))return _0x2ca748['IlZXQ'](zoneDrop,_0x1c2286);return _0x2e08dd?_0x2ca748[_0x3bcd8c(0x4d5)](manCover,_0x2e08dd['id']):_0x2ca748[_0x3bcd8c(0x417)](zoneDrop,_0x1c2286);}if(_0x2ca748[_0x3bcd8c(0x568)](_0x1ee0b7,_0x3bcd8c(0x2ac))){if(_0x5d228f&&_0x2ca748[_0x3bcd8c(0x793)](_0x41b0c6,_0x5d228f))return manCover(_0x5d228f['id']);return _0x2ca748['gapLR'](zoneDrop,_0x41d3b1);}if(_0x1ee0b7===_0x2ca748[_0x3bcd8c(0x458)]||_0x1ee0b7===_0x2ca748[_0x3bcd8c(0x696)]||_0x2ca748[_0x3bcd8c(0x6cf)](_0x1ee0b7,_0x2ca748[_0x3bcd8c(0x30d)])){if(_0x36658d&&isFlatRoute(_0x36658d,_0x3b45a8,_0x5e5395,_0x2173c4))return zoneDrop(_0x4d82db);if(_0x36658d&&_0x41b0c6(_0x36658d))return _0x2ca748['laOSR'](zoneDrop,_0x4d82db);return _0x36658d?manCover(_0x36658d['id']):_0x2ca748[_0x3bcd8c(0x793)](zoneDrop,_0x4d82db);}if((_0x1ee0b7===_0x2ca748[_0x3bcd8c(0x4f8)]||_0x1ee0b7===_0x2ca748[_0x3bcd8c(0x5d8)])&&_0x15a00c){if(_0x45f551&&_0x59647f(_0x45f551)){const _0x2971d7=_0x2ca748[_0x3bcd8c(0x2f1)](_0x3eba23,_0x45f551)?.['vel']?.['x']??0x0,_0x1217c0=_0x2ca748['xgemq'](_0x4478fb,'L')?_0x2ca748['QKxMg'](_0x2971d7,0x0):_0x2971d7>0x0;if(_0x1217c0)return manCover(_0x45f551['id']);}return zoneDrop(_0x431c25);}if(_0x2ca748['LPHLw'](_0x1ee0b7,'CB')&&_0x15a00c)return _0xc3f0ad?manCover(_0xc3f0ad['id']):null;if(_0x2ca748[_0x3bcd8c(0x357)](_0x1ee0b7,_0x3bcd8c(0x23b))){const _0x260998=_0x3eba23(_0x2e08dd)?.[_0x3bcd8c(0x65e)]??0x0,_0x2ad345=_0x2ca748[_0x3bcd8c(0x684)](_0x3eba23,_0x313bb5)?.['depthYards']??0x0,_0x44643b=_0x2e08dd&&_0x260998>=0x9,_0x5b8aeb=_0x313bb5&&_0x2ad345>=0x9;if(_0x44643b&&_0x5b8aeb)return zoneDrop(_0x3bcd8c(0x259));if(_0x44643b)return _0x2ca748[_0x3bcd8c(0x2f1)](manCover,_0x2e08dd['id']);if(_0x5b8aeb)return _0x2ca748[_0x3bcd8c(0x684)](manCover,_0x313bb5['id']);if(_0x5d228f&&isVertInsideRoute(_0x5d228f,_0x5e5395))return manCover(_0x5d228f['id']);if(_0xc3f0ad&&_0x2ca748['Cxzus'](isVertInsideRoute,_0xc3f0ad,_0x5e5395))return manCover(_0xc3f0ad['id']);return _0x2ca748[_0x3bcd8c(0x1d9)](zoneDrop,_0x2ca748[_0x3bcd8c(0x2e8)]);}return null;}},'cover3-cloud-weak-3x1-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':'normal','cbShade':_0x2e24de(0x377)}},'decide'(_0x5bba27,_0x28138d,_0x238065){const _0x35767d=_0x2e24de,_0x2a0fcb={'zygWK':function(_0x29b246,_0x38469a){return _0x29b246===_0x38469a;},'pZDTF':_0x35767d(0x3e5),'BDJXe':function(_0x1e52df,_0x13a77f){return _0x1e52df===_0x13a77f;},'lsUMJ':'HOOK-R','JiJbb':function(_0x502f0a,_0x2390e0){return _0x502f0a===_0x2390e0;},'GKffM':_0x35767d(0x4ef),'XIkxi':function(_0xe3eecd){return _0xe3eecd();},'tCrTw':function(_0x1e22dc,_0x487d44){return _0x1e22dc(_0x487d44);},'nYulE':function(_0x1c7ce6,_0x545bf3){return _0x1c7ce6(_0x545bf3);},'cRXGQ':_0x35767d(0x669),'NYNHq':'SAF_S','iOSId':_0x35767d(0x259),'IEcjM':_0x35767d(0x23b),'CFpOB':_0x35767d(0x4fb),'jAyCD':function(_0x53b209,_0xdf44e0){return _0x53b209===_0xdf44e0;},'HvIJj':_0x35767d(0x226),'YmCZe':_0x35767d(0x620),'gfBiC':function(_0x4f2fa3,_0x2dc910,_0x5bd953){return _0x4f2fa3(_0x2dc910,_0x5bd953);},'PwIyL':function(_0x4dc037,_0x422591,_0x1ee6e9){return _0x4dc037(_0x422591,_0x1ee6e9);},'zzYes':function(_0x34acb2,_0x32e761,_0x236e6d){return _0x34acb2(_0x32e761,_0x236e6d);}},_0x4f0c11=new Map();if(!_0x238065)return _0x4f0c11;const _0x232d1c=_0x238065[_0x35767d(0x1b2)],_0x5570fa=_0x238065[_0x35767d(0x205)]||[],_0x2fd416=_0x238065[_0x35767d(0x479)]||null,_0x1f1757=_0x5570fa[_0x35767d(0x427)](_0x36f43c=>_0x36f43c[_0x35767d(0x6c1)]==='L')['length'],_0x531281=_0x5570fa['filter'](_0x65bd23=>_0x65bd23[_0x35767d(0x6c1)]==='R')[_0x35767d(0x6ab)],_0xaac08f=_0x238065[_0x35767d(0x1c0)]||(_0x1f1757>=_0x531281?'L':'R'),_0x37fef3=_0x2a0fcb[_0x35767d(0x49e)](_0xaac08f,'L')?'R':'L',_0x1eeb40=_0x37fef3==='L'?_0x35767d(0x3e8):_0x2a0fcb[_0x35767d(0x240)],_0x1a3d0e=_0x2a0fcb['zygWK'](_0x37fef3,'L')?'FLAT_L':_0x35767d(0x2d8),_0x148a5b=_0x2a0fcb[_0x35767d(0x2bc)](_0xaac08f,'L')?_0x2a0fcb[_0x35767d(0x38b)]:_0x35767d(0x198),_0x131a56=_0x37fef3==='L'?_0x2a0fcb[_0x35767d(0x38b)]:_0x35767d(0x198),_0x495df9=_0x2a0fcb[_0x35767d(0x49e)](_0xaac08f,'L')?_0x2a0fcb[_0x35767d(0x62a)]:_0x35767d(0x74b);function _0x42c8bc(_0x44da73,_0x4c95b1){const _0x310872=_0x35767d;return _0x5570fa[_0x310872(0x1b9)](_0x357c7f=>_0x357c7f[_0x310872(0x6c1)]===_0x44da73&&_0x357c7f[_0x310872(0x4df)]===_0x4c95b1)||null;}const _0x4614df=_0x2a0fcb[_0x35767d(0x78d)](_0x42c8bc,_0xaac08f,0x1),_0x3b31fd=_0x42c8bc(_0xaac08f,0x2),_0x4cb437=_0x2a0fcb[_0x35767d(0x5f5)](_0x42c8bc,_0xaac08f,0x3),_0x5655b2=_0x2a0fcb[_0x35767d(0x149)](_0x42c8bc,_0x37fef3,0x1);return _0x5bba27[_0x35767d(0x29e)]((_0x351cc1,_0x42c41c)=>{const _0x412520=_0x35767d,_0x55a135=_0x28138d[_0x412520(0x331)](_0x42c41c);if(!_0x55a135)return;const _0x3e9fe3=_0x55a135['x']<=_0x232d1c?'L':'R',_0x214607=_0x2a0fcb[_0x412520(0x218)](_0x351cc1,_0x2a0fcb['pZDTF'])||_0x2a0fcb[_0x412520(0x218)](_0x351cc1,_0x412520(0x669))?'L':_0x351cc1===_0x412520(0x238)||_0x2a0fcb[_0x412520(0x67f)](_0x351cc1,_0x2a0fcb[_0x412520(0x1c3)])?'R':_0x3e9fe3,_0x10bcb2=_0x2a0fcb[_0x412520(0x218)](_0x214607,_0xaac08f),_0x2cb07e=_0x2a0fcb['JiJbb'](_0x214607,_0x37fef3);switch(_0x351cc1){case _0x412520(0x25f):case _0x2a0fcb['GKffM']:_0x4f0c11[_0x412520(0x590)](_0x42c41c,_0x2a0fcb[_0x412520(0x15e)](rushDec));break;case'CB':if(_0x2cb07e)_0x4f0c11[_0x412520(0x590)](_0x42c41c,_0x2a0fcb[_0x412520(0x166)](zoneDrop,_0x1a3d0e));if(_0x10bcb2)_0x4f0c11[_0x412520(0x590)](_0x42c41c,_0x4614df?_0x2a0fcb[_0x412520(0x40d)](manCover,_0x4614df['id']):_0x2a0fcb[_0x412520(0x40d)](zoneDrop,_0x148a5b));break;case _0x2a0fcb[_0x412520(0x2c0)]:case _0x412520(0x238):if(_0x10bcb2)_0x4f0c11[_0x412520(0x590)](_0x42c41c,_0x3b31fd?manCover(_0x3b31fd['id']):zoneDrop(_0x148a5b));if(_0x2cb07e)_0x4f0c11[_0x412520(0x590)](_0x42c41c,zoneDrop(_0x131a56));break;case _0x2a0fcb[_0x412520(0x50c)]:case _0x412520(0x400):case _0x412520(0x722):_0x4f0c11['set'](_0x42c41c,_0x4cb437?manCover(_0x4cb437['id']):zoneDrop(_0x495df9));break;case _0x2a0fcb[_0x412520(0x192)]:_0x4f0c11[_0x412520(0x590)](_0x42c41c,zoneDrop(_0x2a0fcb[_0x412520(0x79e)]));break;case _0x2a0fcb['IEcjM']:_0x4f0c11['set'](_0x42c41c,_0x2a0fcb[_0x412520(0x166)](zoneDrop,_0x1eeb40));break;}}),_0x4f0c11;},'react'(_0x4aa2c6,_0x3494fb,_0x4ce737,_0x37ee22){const _0x26a459=_0x2e24de,_0x2dd6c3={'hpjpX':function(_0x5864eb,_0x31b5e8,_0x1b2e0b){return _0x5864eb(_0x31b5e8,_0x1b2e0b);},'xKHCy':function(_0x40037b,_0x7b3464){return _0x40037b<=_0x7b3464;},'rNJPe':function(_0x2a01da,_0x4b1f2d){return _0x2a01da===_0x4b1f2d;},'MKqzD':_0x26a459(0x3e5),'sGHoc':function(_0x149de1,_0x3fdde2){return _0x149de1===_0x3fdde2;},'Ysyzz':_0x26a459(0x669),'trraY':_0x26a459(0x425),'fIpib':'FLAT_R','qbHjU':_0x26a459(0x198),'BOtXC':function(_0xdcdd98,_0x1ff447){return _0xdcdd98(_0x1ff447);},'fniaU':function(_0xa57a7c,_0x31802e){return _0xa57a7c(_0x31802e);},'Tjsen':_0x26a459(0x238),'WtbaR':function(_0x15aaf1,_0x2bda65,_0x528ab4,_0x12b508,_0x1b7132){return _0x15aaf1(_0x2bda65,_0x528ab4,_0x12b508,_0x1b7132);},'ortEO':function(_0x41ab82,_0x1427bd){return _0x41ab82&&_0x1427bd;},'WHzdl':_0x26a459(0x259),'vIHJu':function(_0x379987,_0x48d78f){return _0x379987(_0x48d78f);},'BItBf':function(_0x12ca83,_0x3872e5){return _0x12ca83(_0x3872e5);},'zDqcZ':function(_0x4c0115,_0x25b6cf){return _0x4c0115(_0x25b6cf);},'reLct':function(_0xae5682,_0x4e5598){return _0xae5682(_0x4e5598);},'mjHPv':_0x26a459(0x400),'MOyOd':_0x26a459(0x722),'NIULb':function(_0x542d58,_0x5e1d2b){return _0x542d58(_0x5e1d2b);},'PaNlp':function(_0x579451,_0x565db3){return _0x579451(_0x565db3);},'GmQyc':_0x26a459(0x23b)};if(!_0x4ce737)return null;const _0x46b263=_0x4ce737['ballX'],_0x34fcb5=_0x4ce737[_0x26a459(0x205)]||[],_0x5373b3=_0x4ce737[_0x26a459(0x479)]||null,_0xc9dea9=_0x34fcb5['filter'](_0x4449b7=>_0x4449b7[_0x26a459(0x6c1)]==='L')[_0x26a459(0x6ab)],_0x415ea8=_0x34fcb5[_0x26a459(0x427)](_0x4d2f14=>_0x4d2f14[_0x26a459(0x6c1)]==='R')[_0x26a459(0x6ab)],_0x57e420=_0x4ce737[_0x26a459(0x1c0)]||(_0xc9dea9>=_0x415ea8?'L':'R'),_0x1cd584=_0x57e420==='L'?'R':'L',_0xed4be5=snapAlignment[_0x4aa2c6['id']]?.['x']??(_0x4aa2c6[_0x26a459(0x79d)]??_0x4aa2c6['x']),_0x18c88c=_0x2dd6c3[_0x26a459(0x509)](_0xed4be5,_0x46b263)?'L':'R',_0x2d57a8=_0x2dd6c3[_0x26a459(0x654)](_0x3494fb,_0x2dd6c3[_0x26a459(0x159)])||_0x2dd6c3[_0x26a459(0x680)](_0x3494fb,_0x2dd6c3[_0x26a459(0x75c)])?'L':_0x3494fb===_0x26a459(0x238)||_0x3494fb===_0x26a459(0x400)?'R':_0x18c88c,_0x23b10b=_0x2d57a8===_0x57e420,_0x59018d=_0x2d57a8===_0x1cd584;function _0x52d9f3(_0x1d511f,_0x36409c){const _0x4c6667=_0x26a459;return _0x34fcb5[_0x4c6667(0x1b9)](_0x5e7af6=>_0x5e7af6[_0x4c6667(0x6c1)]===_0x1d511f&&_0x5e7af6[_0x4c6667(0x4df)]===_0x36409c)||null;}function _0x31ee96(_0x61b9b3){return _0x61b9b3?_0x37ee22[_0x61b9b3['id']]:null;}function _0x271dd3(_0x293053){return isDeepVertical(_0x293053,_0x37ee22);}function _0x15446a(_0x47a93d){return _0x2dd6c3['hpjpX'](isReleasedRoute,_0x47a93d,_0x37ee22);}const _0x5ca16c=_0x1cd584==='L'?_0x26a459(0x3e8):_0x26a459(0x4fb),_0x317699=_0x1cd584==='L'?_0x2dd6c3['trraY']:_0x2dd6c3[_0x26a459(0x154)],_0x3a4837=_0x57e420==='L'?_0x26a459(0x226):_0x2dd6c3[_0x26a459(0x625)],_0x174d73=_0x2dd6c3['rNJPe'](_0x1cd584,'L')?_0x26a459(0x226):_0x2dd6c3[_0x26a459(0x625)],_0x5312a4=_0x2dd6c3[_0x26a459(0x654)](_0x57e420,'L')?_0x26a459(0x620):_0x26a459(0x74b),_0x2c8fc8=_0x52d9f3(_0x57e420,0x1),_0x54f443=_0x52d9f3(_0x57e420,0x2),_0x2321dd=_0x2dd6c3['hpjpX'](_0x52d9f3,_0x57e420,0x3),_0x55ef5c=_0x52d9f3(_0x1cd584,0x1),_0x1f809f=_0x52d9f3(_0x1cd584,0x2),_0x102403=_0x34fcb5;if(_0x3494fb==='CB'&&_0x59018d){const _0x199bee=getFlatReceiver(_0x1cd584,_0x102403,_0x4ce737,_0x37ee22);if(_0x199bee)return manCover(_0x199bee['id']);if(_0x55ef5c&&!isUnderRoute(_0x55ef5c,_0x37ee22))return _0x2dd6c3[_0x26a459(0x7a0)](manCover,_0x55ef5c['id']);return _0x2dd6c3[_0x26a459(0x744)](zoneDrop,_0x317699);}if((_0x3494fb===_0x26a459(0x3e5)||_0x3494fb===_0x2dd6c3[_0x26a459(0x5f2)])&&_0x23b10b){if(_0x54f443&&_0x2dd6c3[_0x26a459(0x559)](isFlatRoute,_0x54f443,_0x57e420,_0x37ee22,_0x4ce737))return zoneDrop(_0x3a4837);return _0x54f443?manCover(_0x54f443['id']):zoneDrop(_0x3a4837);}if(_0x3494fb===_0x26a459(0x2ac)){const _0x5994ff=_0x2dd6c3[_0x26a459(0x744)](_0x31ee96,_0x54f443)?.['depthYards']??0x0,_0x93e97a=_0x31ee96(_0x1f809f)?.[_0x26a459(0x65e)]??0x0,_0x277202=_0x54f443&&_0x5994ff>=0x9,_0x5e5812=_0x1f809f&&_0x93e97a>=0x9;if(_0x2dd6c3[_0x26a459(0x4d0)](_0x277202,_0x5e5812))return zoneDrop(_0x2dd6c3[_0x26a459(0x742)]);if(_0x277202)return _0x2dd6c3[_0x26a459(0x700)](manCover,_0x54f443['id']);if(_0x5e5812)return _0x2dd6c3[_0x26a459(0x747)](manCover,_0x1f809f['id']);if(_0x2c8fc8&&isVertInsideRoute(_0x2c8fc8,_0x37ee22))return _0x2dd6c3['zDqcZ'](manCover,_0x2c8fc8['id']);if(_0x55ef5c&&isVertInsideRoute(_0x55ef5c,_0x37ee22))return _0x2dd6c3[_0x26a459(0x4bc)](manCover,_0x55ef5c['id']);return _0x2dd6c3[_0x26a459(0x4bc)](zoneDrop,_0x26a459(0x259));}if(_0x3494fb===_0x2dd6c3[_0x26a459(0x75c)]||_0x3494fb===_0x2dd6c3['mjHPv']||_0x3494fb===_0x2dd6c3[_0x26a459(0x443)]){if(_0x2321dd&&isFlatRoute(_0x2321dd,_0x57e420,_0x37ee22,_0x4ce737))return _0x2dd6c3[_0x26a459(0x313)](zoneDrop,_0x5312a4);if(_0x2321dd&&_0x271dd3(_0x2321dd))return _0x2dd6c3[_0x26a459(0x4bc)](zoneDrop,_0x5312a4);return _0x2321dd?_0x2dd6c3[_0x26a459(0x744)](manCover,_0x2321dd['id']):_0x2dd6c3[_0x26a459(0x19c)](zoneDrop,_0x5312a4);}if((_0x3494fb===_0x2dd6c3[_0x26a459(0x159)]||_0x3494fb===_0x2dd6c3['Tjsen'])&&_0x59018d){if(_0x5373b3&&_0x2dd6c3[_0x26a459(0x744)](_0x15446a,_0x5373b3)){const _0x2f4ccb=_0x2dd6c3[_0x26a459(0x508)](_0x31ee96,_0x5373b3)?.['vel']?.['x']??0x0,_0x4e81a1=_0x1cd584==='L'?_0x2f4ccb<0x0:_0x2f4ccb>0x0;if(_0x4e81a1)return manCover(_0x5373b3['id']);}return zoneDrop(_0x174d73);}if(_0x2dd6c3[_0x26a459(0x680)](_0x3494fb,'CB')&&_0x23b10b)return _0x2c8fc8?_0x2dd6c3[_0x26a459(0x7a0)](manCover,_0x2c8fc8['id']):null;if(_0x3494fb===_0x2dd6c3[_0x26a459(0x441)]){if(_0x55ef5c&&_0x271dd3(_0x55ef5c))return manCover(_0x55ef5c['id']);return zoneDrop(_0x5ca16c);}return null;}},'cover3-cloud-strong-3x1-new-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x377),'cbShade':_0x2e24de(0x377)}},'decide'(_0x385160,_0xdab9b,_0x5ba729){const _0x21a107=_0x2e24de,_0x518231={'ArrlG':function(_0x485803,_0x4b485c){return _0x485803<=_0x4b485c;},'IeALd':function(_0x50f530,_0x31c705){return _0x50f530===_0x31c705;},'fxIjN':function(_0x1062d7,_0x3e5829){return _0x1062d7===_0x3e5829;},'KFTdr':function(_0x5647b3,_0x188fd6){return _0x5647b3===_0x188fd6;},'WgZoe':function(_0x20b72e){return _0x20b72e();},'aiiRa':function(_0x347fac,_0x14b949){return _0x347fac(_0x14b949);},'VHGVI':function(_0x471450,_0x446097,_0x3bbdea){return _0x471450(_0x446097,_0x3bbdea);},'WXhXG':function(_0x465ce7,_0x44fea8){return _0x465ce7*_0x44fea8;},'FFIiR':_0x21a107(0x669),'Cuqgf':_0x21a107(0x400),'kCvNv':_0x21a107(0x722),'QkiOv':function(_0x113acd,_0x1b0398){return _0x113acd(_0x1b0398);},'MueLP':_0x21a107(0x259),'yXiyx':function(_0x3e2881,_0x5cc9fe){return _0x3e2881>=_0x5cc9fe;},'zOxOx':_0x21a107(0x4fb),'iWdTl':function(_0x21000f,_0xd4927c){return _0x21000f===_0xd4927c;},'kxAtt':'DEEP_L','mUxaX':_0x21a107(0x425),'ohEcI':_0x21a107(0x226),'CSSAE':'HOOK_CURL_R','nGups':function(_0x463f04,_0x361ff7){return _0x463f04===_0x361ff7;},'HVFcT':function(_0xf5a670,_0x4db2c1,_0x219bfc){return _0xf5a670(_0x4db2c1,_0x219bfc);}},_0x24ed3d=new Map();if(!_0x5ba729)return _0x24ed3d;const _0x5ca898=_0x5ba729['ballX'],_0x263e5a=_0x5ba729['eligiblePlayers']||[],_0x19005e=_0x5ba729[_0x21a107(0x479)]||null,_0x49667a=_0x263e5a['filter'](_0x1acc9e=>_0x1acc9e[_0x21a107(0x6c1)]==='L')[_0x21a107(0x6ab)],_0x3efb5d=_0x263e5a[_0x21a107(0x427)](_0x5a5429=>_0x5a5429[_0x21a107(0x6c1)]==='R')[_0x21a107(0x6ab)],_0x197457=_0x5ba729[_0x21a107(0x1c0)]||(_0x518231['yXiyx'](_0x49667a,_0x3efb5d)?'L':'R'),_0x1e06b9=_0x518231['KFTdr'](_0x197457,'L')?'R':'L',_0x284845=_0x518231['IeALd'](_0x197457,'L')?_0x21a107(0x3e8):_0x518231[_0x21a107(0x522)],_0x39fc11=_0x518231['iWdTl'](_0x1e06b9,'L')?_0x518231['kxAtt']:'DEEP_R',_0x10d552=_0x197457==='L'?_0x518231[_0x21a107(0x24c)]:_0x21a107(0x2d8),_0x1cff54=_0x197457==='L'?_0x518231[_0x21a107(0x244)]:_0x518231[_0x21a107(0x16a)],_0x52962b=_0x518231[_0x21a107(0x5c4)](_0x1e06b9,'L')?_0x518231[_0x21a107(0x244)]:_0x518231[_0x21a107(0x16a)],_0x58ff44=_0x518231[_0x21a107(0x657)](_0x197457,'L')?_0x21a107(0x620):'HOOK_R';function _0x16f0ee(_0x4e82ca,_0x1f2102){const _0x3d3f11=_0x21a107;return _0x263e5a['find'](_0x41af3f=>_0x41af3f[_0x3d3f11(0x6c1)]===_0x4e82ca&&_0x41af3f[_0x3d3f11(0x4df)]===_0x1f2102)||null;}const _0x58e449=_0x518231[_0x21a107(0x6fb)](_0x16f0ee,_0x197457,0x1),_0x230436=_0x518231[_0x21a107(0x306)](_0x16f0ee,_0x197457,0x2),_0x452743=_0x16f0ee(_0x197457,0x3),_0x5e0d10=_0x16f0ee(_0x1e06b9,0x1);return _0x385160[_0x21a107(0x29e)]((_0x303bb2,_0x250f5c)=>{const _0x32319a=_0x21a107,_0xcfd3d6=_0xdab9b[_0x32319a(0x331)](_0x250f5c);if(!_0xcfd3d6)return;const _0x7b089f=_0x518231[_0x32319a(0x468)](_0xcfd3d6['x'],_0x5ca898)?'L':'R',_0x5165ae=_0x518231[_0x32319a(0x5c4)](_0x303bb2,'APEX-L')||_0x303bb2===_0x32319a(0x669)?'L':_0x518231['fxIjN'](_0x303bb2,_0x32319a(0x238))||_0x303bb2===_0x32319a(0x400)?'R':_0x7b089f,_0x50d845=_0x5165ae===_0x197457,_0x34793c=_0x518231[_0x32319a(0x36c)](_0x5165ae,_0x1e06b9);switch(_0x303bb2){case _0x32319a(0x25f):case _0x32319a(0x4ef):_0x24ed3d[_0x32319a(0x590)](_0x250f5c,_0x518231[_0x32319a(0x413)](rushDec));break;case'CB':if(_0x50d845)_0x24ed3d[_0x32319a(0x590)](_0x250f5c,_0x518231['aiiRa'](zoneDrop,_0x10d552));if(_0x34793c)_0x24ed3d['set'](_0x250f5c,_0x5e0d10?_0x518231[_0x32319a(0x6fb)](manCover,_0x5e0d10['id'],_0x518231['WXhXG'](YARD_PX,0.5)):zoneDrop(_0x39fc11));break;case _0x32319a(0x3e5):case _0x32319a(0x238):if(_0x50d845)_0x24ed3d[_0x32319a(0x590)](_0x250f5c,_0x230436?manCover(_0x230436['id']):_0x518231[_0x32319a(0x171)](zoneDrop,_0x1cff54));if(_0x34793c)_0x24ed3d[_0x32319a(0x590)](_0x250f5c,_0x518231[_0x32319a(0x171)](zoneDrop,_0x52962b));break;case _0x518231[_0x32319a(0x6bd)]:case _0x518231['Cuqgf']:case _0x518231[_0x32319a(0x6fa)]:_0x24ed3d[_0x32319a(0x590)](_0x250f5c,_0x452743?manCover(_0x452743['id']):_0x518231[_0x32319a(0x5b2)](zoneDrop,_0x58ff44));break;case _0x32319a(0x2ac):_0x24ed3d[_0x32319a(0x590)](_0x250f5c,_0x518231[_0x32319a(0x5b2)](zoneDrop,_0x284845));break;case _0x32319a(0x23b):_0x24ed3d[_0x32319a(0x590)](_0x250f5c,zoneDrop(_0x518231[_0x32319a(0x66a)]));break;}}),_0x24ed3d;},'react'(_0x152a42,_0x1c1f5b,_0x37c6f5,_0x487f99){const _0x25403f=_0x2e24de,_0x545a26={'XnGFn':function(_0x229037,_0x57560e,_0x359607){return _0x229037(_0x57560e,_0x359607);},'GdwJc':_0x25403f(0x1d8),'YSWNK':function(_0x5c46f4,_0x3d6b60,_0x30c829){return _0x5c46f4(_0x3d6b60,_0x30c829);},'iiTbz':function(_0x501ee4,_0x2db7b9){return _0x501ee4>_0x2db7b9;},'FvDgv':function(_0x53509e,_0x144d1a,_0x2b5aaf){return _0x53509e(_0x144d1a,_0x2b5aaf);},'xlcXK':function(_0x1be150,_0x5c030b){return _0x1be150>=_0x5c030b;},'QImsU':function(_0xcc5069,_0x4cce80){return _0xcc5069===_0x4cce80;},'CoozA':function(_0x383156,_0x332f2d){return _0x383156<=_0x332f2d;},'hekzo':function(_0x5a041a,_0x59da0a){return _0x5a041a===_0x59da0a;},'rYFNx':_0x25403f(0x3e5),'YTzpy':_0x25403f(0x238),'akiov':function(_0x492e56,_0x420f0b){return _0x492e56===_0x420f0b;},'xEuJx':function(_0xa8134f,_0x824e0f){return _0xa8134f===_0x824e0f;},'DEgtp':_0x25403f(0x3e8),'uIqPb':_0x25403f(0x425),'CwVMC':'HOOK_CURL_R','tGYuy':_0x25403f(0x74b),'xEPso':function(_0x2a2cc5,_0x2eb666,_0x1e6477){return _0x2a2cc5(_0x2eb666,_0x1e6477);},'iaLrJ':function(_0x1e3755,_0x23736a){return _0x1e3755===_0x23736a;},'qzhgV':function(_0x354f3a,_0x20a6fc,_0x3c5a52,_0x2ebbe1){return _0x354f3a(_0x20a6fc,_0x3c5a52,_0x2ebbe1);},'WpnIa':function(_0x281317,_0x302a5f){return _0x281317(_0x302a5f);},'oDdHN':function(_0x4af6f2,_0x3e6d97){return _0x4af6f2(_0x3e6d97);},'mVJSR':function(_0x32dde1,_0xf45893){return _0x32dde1===_0xf45893;},'pCUux':_0x25403f(0x164),'yRTAt':function(_0x1e0f0a,_0x38956a){return _0x1e0f0a(_0x38956a);},'mWyzO':function(_0xf7c3cb,_0x334b68){return _0xf7c3cb(_0x334b68);},'OhZoe':'HOOK-L','dqplF':function(_0x308a7f,_0x35d877){return _0x308a7f===_0x35d877;},'ZXWGE':'HOOK-M','uoLRM':function(_0x365ae4,_0x1ab352){return _0x365ae4===_0x1ab352;},'YTYHU':function(_0x48ea27,_0xdf38ee){return _0x48ea27(_0xdf38ee);},'uMLWA':function(_0x5a8d84,_0x4fe037){return _0x5a8d84===_0x4fe037;},'UqJTv':function(_0x44de36,_0x1994c4,_0x160659){return _0x44de36(_0x1994c4,_0x160659);},'pioQv':function(_0x5c30c0,_0x407252){return _0x5c30c0===_0x407252;},'RyYRG':function(_0x19f7ca,_0x1b6e40){return _0x19f7ca<_0x1b6e40;},'SXcSS':function(_0x26a5f8,_0x2158f7,_0x3758d1){return _0x26a5f8(_0x2158f7,_0x3758d1);},'pYlVh':'cs3_rbWeak_wa','xCPkI':function(_0x532a48,_0x1b5433){return _0x532a48(_0x1b5433);},'ASPma':_0x25403f(0x452)};if(!_0x37c6f5)return null;const _0x1f031b=_0x37c6f5['ballX'],_0x234e23=_0x37c6f5[_0x25403f(0x205)]||[],_0x4621dc=_0x37c6f5[_0x25403f(0x479)]||null,_0x524115=_0x234e23['filter'](_0x2540b9=>_0x2540b9[_0x25403f(0x6c1)]==='L')[_0x25403f(0x6ab)],_0x3adf4b=_0x234e23[_0x25403f(0x427)](_0x4c062a=>_0x4c062a[_0x25403f(0x6c1)]==='R')[_0x25403f(0x6ab)],_0x2b0e16=_0x37c6f5[_0x25403f(0x1c0)]||(_0x545a26[_0x25403f(0x363)](_0x524115,_0x3adf4b)?'L':'R'),_0x45578e=_0x545a26['QImsU'](_0x2b0e16,'L')?'R':'L',_0x16b435=snapAlignment[_0x152a42['id']]?.['x']??(_0x152a42[_0x25403f(0x79d)]??_0x152a42['x']),_0x2ffad2=_0x545a26['CoozA'](_0x16b435,_0x1f031b)?'L':'R',_0x5c5845=_0x545a26[_0x25403f(0x38a)](_0x1c1f5b,_0x545a26[_0x25403f(0x503)])||_0x1c1f5b===_0x25403f(0x669)?'L':_0x545a26[_0x25403f(0x38a)](_0x1c1f5b,_0x545a26['YTzpy'])||_0x545a26[_0x25403f(0x38a)](_0x1c1f5b,_0x25403f(0x400))?'R':_0x2ffad2,_0x11086e=_0x545a26[_0x25403f(0x38a)](_0x5c5845,_0x2b0e16),_0x549c4e=_0x545a26[_0x25403f(0x38a)](_0x5c5845,_0x45578e);function _0x4e36b5(_0x302bb7,_0x289c8c){const _0x248f17=_0x25403f;return _0x234e23[_0x248f17(0x1b9)](_0x4ce955=>_0x4ce955[_0x248f17(0x6c1)]===_0x302bb7&&_0x4ce955['_receiverNumber']===_0x289c8c)||null;}function _0x66f892(_0xd45c10){return _0xd45c10?_0x487f99[_0xd45c10['id']]:null;}function _0x4d02cf(_0x3fb8cb){return isUnderRoute(_0x3fb8cb,_0x487f99);}function _0x51c983(_0x583fd6){const _0xd94235=_0x25403f;return _0x545a26[_0xd94235(0x74f)](isHitchRoute,_0x583fd6,_0x487f99);}function _0x353fce(_0x5bf7dd){const _0x492b9b=_0x25403f;return _0x545a26[_0x492b9b(0x74f)](isDeepVertical,_0x5bf7dd,_0x487f99);}function _0x3ced22(_0x4789c3,_0x461810){return canReachRoute(_0x4789c3,_0x461810,_0x487f99);}const _0x59a06f=_0x545a26[_0x25403f(0x191)](_0x2b0e16,'L')?'DEEP_L':_0x25403f(0x4fb),_0x3394d9=_0x545a26[_0x25403f(0x527)](_0x45578e,'L')?_0x545a26['DEgtp']:_0x25403f(0x4fb),_0x3ecc32=_0x545a26[_0x25403f(0x38a)](_0x2b0e16,'L')?_0x545a26[_0x25403f(0x6fe)]:_0x25403f(0x2d8),_0x57d0c7=_0x2b0e16==='L'?'HOOK_CURL_L':'HOOK_CURL_R',_0x3cdaa4=_0x45578e==='L'?'HOOK_CURL_L':_0x545a26[_0x25403f(0x323)],_0x5df5b0=_0x2b0e16==='L'?'HOOK_L':_0x545a26[_0x25403f(0x5e0)],_0x35aca4=_0x4e36b5(_0x2b0e16,0x1),_0x85fb38=_0x545a26[_0x25403f(0x412)](_0x4e36b5,_0x2b0e16,0x2),_0x2180a0=_0x4e36b5(_0x2b0e16,0x3),_0x3b3eb7=_0x545a26[_0x25403f(0x74f)](_0x4e36b5,_0x45578e,0x1),_0x14e202=_0x4621dc?[..._0x234e23,_0x4621dc]:_0x234e23;function _0x539628(_0x27b099,_0x94083e,_0x3f3583){const _0x2b9700=_0x25403f,_0xac715d=_0x66f892(_0x4621dc),_0x32d279=_0xac715d?.[_0x2b9700(0x6ae)]?.['x']??0x0,_0x10147e=_0x4621dc&&_0xac715d?.[_0x2b9700(0x71b)]!==_0x545a26[_0x2b9700(0x688)]&&!_0x545a26[_0x2b9700(0x30c)](isDeepVertical,_0x4621dc,_0x487f99)&&(_0x27b099==='L'?_0x32d279<0x0:_0x545a26[_0x2b9700(0x749)](_0x32d279,0x0)),_0x927cf8=_0x94083e&&isFlatRoute(_0x94083e,_0x27b099,_0x487f99,_0x37c6f5)&&!isDeepVertical(_0x94083e,_0x487f99),_0x1f7b55=_0x3f3583&&isFlatRoute(_0x3f3583,_0x27b099,_0x487f99,_0x37c6f5),_0x1cccc4=_0x4621dc&&(isFlatRoute(_0x4621dc,_0x27b099,_0x487f99,_0x37c6f5)||_0x10147e)&&_0x545a26[_0x2b9700(0x229)](_0x3ced22,_0x152a42,_0x4621dc);if(_0x927cf8)return _0x94083e;if(_0x1f7b55)return _0x3f3583;if(_0x1cccc4)return _0x4621dc;return null;}if(_0x545a26[_0x25403f(0x3a1)](_0x1c1f5b,'CB')&&_0x11086e){const _0x2b61b3=_0x545a26[_0x25403f(0x783)](_0x539628,_0x2b0e16,_0x35aca4,_0x85fb38);if(_0x2b61b3)return _0x545a26[_0x25403f(0x22d)](manCover,_0x2b61b3['id']);if(_0x35aca4&&!_0x545a26['WpnIa'](_0x353fce,_0x35aca4))return _0x545a26[_0x25403f(0x22d)](manCover,_0x35aca4['id']);return _0x545a26[_0x25403f(0x402)](zoneDrop,_0x3ecc32);}if((_0x1c1f5b===_0x25403f(0x3e5)||_0x545a26['mVJSR'](_0x1c1f5b,_0x545a26[_0x25403f(0x2a5)]))&&_0x11086e){if(_0x85fb38&&isFlatRoute(_0x85fb38,_0x2b0e16,_0x487f99,_0x37c6f5))return _0x545a26[_0x25403f(0x402)](zoneDrop,_0x57d0c7);const _0x1b7cca=_0x66f892(_0x85fb38)?.[_0x25403f(0x65e)]??0x0;if(_0x85fb38&&_0x1b7cca>=0x6&&_0x35aca4&&isUnderRoute(_0x35aca4,_0x487f99)&&!isStickyLocked(_0x545a26[_0x25403f(0x64a)])&&stickyOnce(_0x25403f(0x53c),!![]))return _0x545a26[_0x25403f(0x402)](manCover,_0x35aca4['id']);return _0x85fb38?_0x545a26[_0x25403f(0x402)](manCover,_0x85fb38['id']):_0x545a26[_0x25403f(0x22d)](zoneDrop,_0x57d0c7);}if(_0x1c1f5b===_0x25403f(0x2ac)){if(_0x35aca4&&_0x545a26[_0x25403f(0x729)](_0x353fce,_0x35aca4))return manCover(_0x35aca4['id']);return _0x545a26['mWyzO'](zoneDrop,_0x59a06f);}if(_0x545a26[_0x25403f(0x527)](_0x1c1f5b,_0x545a26['OhZoe'])||_0x1c1f5b==='HOOK-R'||_0x545a26[_0x25403f(0x490)](_0x1c1f5b,_0x545a26['ZXWGE'])){if(_0x2180a0&&isFlatRoute(_0x2180a0,_0x2b0e16,_0x487f99,_0x37c6f5))return zoneDrop(_0x5df5b0);return _0x2180a0?manCover(_0x2180a0['id']):zoneDrop(_0x5df5b0);}if(_0x545a26['uoLRM'](_0x1c1f5b,'CB')&&_0x549c4e)return _0x3b3eb7?_0x545a26['YTYHU'](manCover,_0x3b3eb7['id']):zoneDrop(_0x3394d9);if((_0x1c1f5b==='APEX-L'||_0x545a26[_0x25403f(0x70e)](_0x1c1f5b,_0x545a26[_0x25403f(0x2a5)]))&&_0x549c4e){if(_0x4621dc&&_0x545a26[_0x25403f(0x765)](isReleasedRoute,_0x4621dc,_0x487f99)){const _0x494886=_0x545a26['YTYHU'](_0x66f892,_0x4621dc)?.[_0x25403f(0x6ae)]?.['x']??0x0,_0x3cec78=_0x545a26[_0x25403f(0x402)](_0x66f892,_0x4621dc)?.[_0x25403f(0x71b)]!==_0x545a26['GdwJc'],_0x2f969f=!!(_0x3cec78&&(_0x545a26[_0x25403f(0x41f)](_0x45578e,'L')?_0x545a26['RyYRG'](_0x494886,0x0):_0x494886>0x0));if(_0x545a26[_0x25403f(0x5fe)](stickyOnce,_0x545a26[_0x25403f(0x61f)],_0x2f969f))return _0x545a26[_0x25403f(0x22d)](manCover,_0x4621dc['id']);}if(_0x35aca4&&isUnderRoute(_0x35aca4,_0x487f99)&&!isStickyLocked(_0x25403f(0x53c))&&_0x545a26[_0x25403f(0x765)](stickyOnce,_0x545a26['pCUux'],!![]))return _0x545a26[_0x25403f(0x5cf)](manCover,_0x35aca4['id']);return _0x545a26[_0x25403f(0x462)](zoneDrop,_0x3cdaa4);}if(_0x1c1f5b===_0x25403f(0x23b)){if(_0x85fb38&&_0x353fce(_0x85fb38)&&stickyOnce(_0x545a26[_0x25403f(0x4af)],!![]))return manCover(_0x85fb38['id']);return _0x545a26[_0x25403f(0x402)](zoneDrop,_0x25403f(0x259));}return null;}},'cover3-cloud-weak-3x1-new-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':'normal','cbShade':'normal'}},'decide'(_0x3b9055,_0x5685cc,_0x28d953){const _0x202370=_0x2e24de,_0x1af96d={'yeIat':_0x202370(0x3e5),'QvduZ':function(_0x24696f,_0xf1042f){return _0x24696f===_0xf1042f;},'ByNLv':function(_0x2ad639,_0x105f79){return _0x2ad639===_0x105f79;},'yUOYj':function(_0x4dac4c,_0x2c5460){return _0x4dac4c===_0x2c5460;},'PSahu':_0x202370(0x25f),'ZIVot':_0x202370(0x4ef),'ltxsE':function(_0x2eb7f9,_0xec4c06,_0xca493d){return _0x2eb7f9(_0xec4c06,_0xca493d);},'vlPuo':function(_0x4f7edd,_0x1bae4a){return _0x4f7edd*_0x1bae4a;},'BIQbK':function(_0x3951fd,_0x58185b){return _0x3951fd(_0x58185b);},'LxSpW':function(_0x3e359,_0x3150f4){return _0x3e359(_0x3150f4);},'EagRI':_0x202370(0x400),'ANEfu':_0x202370(0x259),'KbYnt':function(_0x41e6b9,_0x1b9a9b){return _0x41e6b9===_0x1b9a9b;},'RfZWQ':_0x202370(0x4fb),'wppFu':function(_0x128a1d,_0x5b766d){return _0x128a1d===_0x5b766d;},'PfHcw':_0x202370(0x647),'vUsMK':_0x202370(0x1d1),'dSzVr':function(_0x413e65,_0x595f09){return _0x413e65===_0x595f09;},'xajzm':_0x202370(0x226),'MHNQH':function(_0x312061,_0x5401ef){return _0x312061===_0x5401ef;},'Vvxbt':_0x202370(0x2d8),'qJlVu':function(_0x1a0397,_0xacc70e,_0x2443f0){return _0x1a0397(_0xacc70e,_0x2443f0);},'UTulP':function(_0x3141bb,_0x3877f6,_0x57b825){return _0x3141bb(_0x3877f6,_0x57b825);}},_0x445c0a=new Map();if(!_0x28d953)return _0x445c0a;const _0x3df19d=_0x28d953['ballX'],_0x196340=_0x28d953[_0x202370(0x205)]||[],_0x96c522=_0x28d953[_0x202370(0x479)]||null,_0x14c214=_0x196340['filter'](_0x372972=>_0x372972[_0x202370(0x6c1)]==='L')['length'],_0x22ce6e=_0x196340[_0x202370(0x427)](_0x33ea01=>_0x33ea01['_side']==='R')['length'],_0x1a0af9=_0x28d953[_0x202370(0x1c0)]||(_0x14c214>=_0x22ce6e?'L':'R'),_0x558cb7=_0x1af96d[_0x202370(0x78b)](_0x1a0af9,'L')?'R':'L',_0x156ae7=_0x1af96d['KbYnt'](_0x1a0af9,'L')?_0x202370(0x3e8):_0x202370(0x4fb),_0x3b9c9f=_0x558cb7==='L'?_0x202370(0x3e8):_0x1af96d['RfZWQ'],_0x47adf1=_0x1af96d['wppFu'](_0x1a0af9,'L')?_0x1af96d['PfHcw']:_0x1af96d['vUsMK'],_0x25d3e8=_0x1af96d[_0x202370(0x1e4)](_0x558cb7,'L')?_0x1af96d['xajzm']:_0x202370(0x198),_0x5a0e10=_0x1af96d[_0x202370(0x1fc)](_0x1a0af9,'L')?_0x202370(0x620):_0x202370(0x74b),_0x480b86=_0x1af96d['MHNQH'](_0x558cb7,'L')?_0x202370(0x425):_0x1af96d[_0x202370(0x293)];function _0x41b079(_0x43e4a6,_0x299389){const _0x45c599=_0x202370;return _0x196340['find'](_0x29c4e9=>_0x29c4e9[_0x45c599(0x6c1)]===_0x43e4a6&&_0x29c4e9['_receiverNumber']===_0x299389)||null;}const _0x4269e1=_0x1af96d[_0x202370(0x373)](_0x41b079,_0x1a0af9,0x1),_0x3785fd=_0x1af96d['qJlVu'](_0x41b079,_0x1a0af9,0x2),_0x5d0375=_0x41b079(_0x1a0af9,0x3),_0x3e818e=_0x1af96d[_0x202370(0x66b)](_0x41b079,_0x558cb7,0x1);return _0x3b9055[_0x202370(0x29e)]((_0x820f9f,_0xc96bc9)=>{const _0x3a2d98=_0x202370,_0x457ebe=_0x5685cc[_0x3a2d98(0x331)](_0xc96bc9);if(!_0x457ebe)return;const _0xb95d0b=_0x457ebe['x']<=_0x3df19d?'L':'R',_0x19eab4=_0x820f9f===_0x1af96d[_0x3a2d98(0x39b)]||_0x1af96d['QvduZ'](_0x820f9f,_0x3a2d98(0x669))?'L':_0x1af96d['QvduZ'](_0x820f9f,_0x3a2d98(0x238))||_0x820f9f===_0x3a2d98(0x400)?'R':_0xb95d0b,_0x2e7620=_0x1af96d[_0x3a2d98(0x1fc)](_0x19eab4,_0x1a0af9),_0x5460aa=_0x1af96d[_0x3a2d98(0x6e5)](_0x19eab4,_0x558cb7);switch(_0x820f9f){case _0x1af96d['PSahu']:case _0x1af96d[_0x3a2d98(0x20f)]:_0x445c0a['set'](_0xc96bc9,rushDec());break;case'CB':if(_0x5460aa)_0x445c0a[_0x3a2d98(0x590)](_0xc96bc9,zoneDrop(_0x480b86));if(_0x2e7620)_0x445c0a[_0x3a2d98(0x590)](_0xc96bc9,_0x4269e1?_0x1af96d[_0x3a2d98(0x373)](manCover,_0x4269e1['id'],_0x1af96d[_0x3a2d98(0x76d)](YARD_PX,0.5)):zoneDrop(_0x156ae7));break;case _0x3a2d98(0x3e5):case _0x3a2d98(0x238):if(_0x5460aa)_0x445c0a[_0x3a2d98(0x590)](_0xc96bc9,_0x1af96d[_0x3a2d98(0x26c)](zoneDrop,_0x25d3e8));if(_0x2e7620)_0x445c0a[_0x3a2d98(0x590)](_0xc96bc9,_0x3785fd?_0x1af96d[_0x3a2d98(0x54c)](manCover,_0x3785fd['id']):zoneDrop(_0x47adf1));break;case _0x3a2d98(0x669):case _0x1af96d['EagRI']:case _0x3a2d98(0x722):_0x445c0a['set'](_0xc96bc9,_0x5d0375?_0x1af96d[_0x3a2d98(0x54c)](manCover,_0x5d0375['id']):zoneDrop(_0x5a0e10));break;case'SAF_S':_0x445c0a[_0x3a2d98(0x590)](_0xc96bc9,zoneDrop(_0x1af96d[_0x3a2d98(0x6e7)]));break;case _0x3a2d98(0x23b):_0x445c0a[_0x3a2d98(0x590)](_0xc96bc9,_0x1af96d['LxSpW'](zoneDrop,_0x3b9c9f));break;}}),_0x445c0a;},'react'(_0x49a4a6,_0x2ddeca,_0x5171be,_0x24da51){const _0x304dde=_0x2e24de,_0x139e19={'TdUvA':function(_0x2131ad,_0xb3719,_0x4ce55d){return _0x2131ad(_0xb3719,_0x4ce55d);},'JstBT':function(_0x14a4b3,_0x2dee27,_0x12f887){return _0x14a4b3(_0x2dee27,_0x12f887);},'ldNTy':function(_0x53c48a,_0x319e02,_0x1ae0f0,_0x29cbf1){return _0x53c48a(_0x319e02,_0x1ae0f0,_0x29cbf1);},'BtwNs':function(_0x20e389,_0x207f3f){return _0x20e389!==_0x207f3f;},'imYcP':function(_0x174bb9,_0x4de9b2){return _0x174bb9<_0x4de9b2;},'TrNwq':function(_0x3b760a,_0x57605e,_0x5cf3f8){return _0x3b760a(_0x57605e,_0x5cf3f8);},'QaWPa':function(_0x1e756c,_0x5829d7,_0x54d77e,_0x21ae51,_0x2607cb){return _0x1e756c(_0x5829d7,_0x54d77e,_0x21ae51,_0x2607cb);},'KlAXs':function(_0x1732bc,_0x5289dc){return _0x1732bc>=_0x5289dc;},'WPNdo':function(_0x5cef3e,_0x12df9a){return _0x5cef3e===_0x12df9a;},'UFbLj':'HOOK-L','RgeFS':function(_0x115c66,_0x5579fd){return _0x115c66===_0x5579fd;},'dkLZI':_0x304dde(0x1d1),'ifLrC':'HOOK_L','JWRkE':_0x304dde(0x425),'UMODZ':'FLAT_R','LorXM':function(_0x5f1ff4,_0x591c89){return _0x5f1ff4===_0x591c89;},'IvDgS':function(_0x2b4982,_0x142b65,_0x3b8126,_0x35357a){return _0x2b4982(_0x142b65,_0x3b8126,_0x35357a);},'oOceS':function(_0xef77f5,_0x142c66){return _0xef77f5(_0x142c66);},'oaLdQ':function(_0x3fd6e5,_0x3e998c){return _0x3fd6e5===_0x3e998c;},'mvswN':function(_0x27cb18,_0x92570b){return _0x27cb18(_0x92570b);},'ZOsvr':function(_0x272bfd,_0x1f7ac4,_0x5587f4){return _0x272bfd(_0x1f7ac4,_0x5587f4);},'akmMg':_0x304dde(0x3d2),'aCmfM':function(_0x538dd4,_0x9d5e0d,_0x482a60){return _0x538dd4(_0x9d5e0d,_0x482a60);},'Hiqgg':'cw3_rbStrong_sa','lhdou':function(_0x6c9991,_0x1edcf0){return _0x6c9991===_0x1edcf0;},'SUzpl':function(_0x43897d,_0x24daab){return _0x43897d(_0x24daab);},'kIEeA':function(_0x4b4d39,_0x231480){return _0x4b4d39===_0x231480;},'APYFO':function(_0xece32e,_0x6f3d1e){return _0xece32e>_0x6f3d1e;},'TuVMW':'SAF_W','ZqjsX':function(_0x4eede2,_0x4ac379){return _0x4eede2===_0x4ac379;},'mOpFz':function(_0x4050f8,_0x56ab8c){return _0x4050f8===_0x56ab8c;},'SuOtH':_0x304dde(0x422),'AMxpL':function(_0x2a2b53,_0x45dffe){return _0x2a2b53(_0x45dffe);},'VpJTA':_0x304dde(0x2f0),'WhprJ':function(_0x18e464,_0x303d3a,_0x2ca733){return _0x18e464(_0x303d3a,_0x2ca733);},'hSrVX':_0x304dde(0x786),'MdXDt':function(_0x14550f,_0x34199e){return _0x14550f(_0x34199e);},'fntgT':function(_0x3f3cc6,_0x19e155){return _0x3f3cc6(_0x19e155);},'ZTjnz':_0x304dde(0x725),'jPyAJ':function(_0x2d4a54,_0x28e62b){return _0x2d4a54(_0x28e62b);},'ysnCI':function(_0x10c009,_0x46b31e){return _0x10c009(_0x46b31e);},'SKiPR':function(_0xe1ca95,_0x5391e7){return _0xe1ca95(_0x5391e7);},'vkgOr':function(_0x5f00af,_0x2ad917){return _0x5f00af===_0x2ad917;},'eoZxP':function(_0x411502,_0x2ae580){return _0x411502===_0x2ae580;},'VdpLn':function(_0x4bf337,_0x4b9647){return _0x4bf337(_0x4b9647);},'fjayG':_0x304dde(0x2ac),'tiBSI':'cw3_push_hook','PfHVU':_0x304dde(0x4eb),'RKasK':function(_0x47599e,_0x305cd8){return _0x47599e(_0x305cd8);},'hzQxH':_0x304dde(0x259)};if(!_0x5171be)return null;const _0x36b47e=_0x5171be[_0x304dde(0x1b2)],_0x142f4d=_0x5171be[_0x304dde(0x205)]||[],_0x4b6b6a=_0x5171be[_0x304dde(0x479)]||null,_0x8404de=_0x142f4d[_0x304dde(0x427)](_0x1f5699=>_0x1f5699[_0x304dde(0x6c1)]==='L')[_0x304dde(0x6ab)],_0x43793c=_0x142f4d['filter'](_0x34f0fe=>_0x34f0fe[_0x304dde(0x6c1)]==='R')['length'],_0x176426=_0x5171be['coverageStrongSide']||(_0x139e19['KlAXs'](_0x8404de,_0x43793c)?'L':'R'),_0x96e088=_0x176426==='L'?'R':'L',_0x2b3aee=snapAlignment[_0x49a4a6['id']]?.['x']??(_0x49a4a6['simX']??_0x49a4a6['x']),_0x480ba0=_0x2b3aee<=_0x36b47e?'L':'R',_0x5d645d=_0x139e19[_0x304dde(0x551)](_0x2ddeca,_0x304dde(0x3e5))||_0x2ddeca===_0x139e19[_0x304dde(0x288)]?'L':_0x2ddeca===_0x304dde(0x238)||_0x139e19[_0x304dde(0x551)](_0x2ddeca,'HOOK-R')?'R':_0x480ba0,_0x373b85=_0x139e19[_0x304dde(0x551)](_0x5d645d,_0x176426),_0x1dc2b2=_0x139e19[_0x304dde(0x551)](_0x5d645d,_0x96e088);function _0x499afa(_0x10e82d,_0x53a510){const _0x54fb62=_0x304dde;return _0x142f4d[_0x54fb62(0x1b9)](_0x12b7bb=>_0x12b7bb['_side']===_0x10e82d&&_0x12b7bb[_0x54fb62(0x4df)]===_0x53a510)||null;}function _0x3c381e(_0x3bcbcd){return _0x3bcbcd?_0x24da51[_0x3bcbcd['id']]:null;}function _0x1aa0d9(_0x2d3316){const _0x350426=_0x304dde;return _0x139e19[_0x350426(0x505)](isUnderRoute,_0x2d3316,_0x24da51);}function _0x4d289f(_0x53bb39){const _0x308995=_0x304dde;return _0x139e19[_0x308995(0x48e)](isHitchRoute,_0x53bb39,_0x24da51);}function _0x3354f4(_0x1488f0){return isDeepVertical(_0x1488f0,_0x24da51);}function _0x4804ae(_0x58ae31,_0x8b8a11){return _0x139e19['ldNTy'](canReachRoute,_0x58ae31,_0x8b8a11,_0x24da51);}const _0x5b5d1a=_0x176426==='L'?_0x304dde(0x3e8):_0x304dde(0x4fb),_0x3d5e4c=_0x96e088==='L'?_0x304dde(0x3e8):_0x304dde(0x4fb),_0x269fd2=_0x139e19[_0x304dde(0x43e)](_0x176426,'L')?'CURL_FLAT_L':_0x139e19[_0x304dde(0x209)],_0x188272=_0x139e19['WPNdo'](_0x96e088,'L')?_0x304dde(0x226):_0x304dde(0x198),_0x273247=_0x176426==='L'?_0x139e19[_0x304dde(0x795)]:_0x304dde(0x74b),_0x4a7912=_0x139e19[_0x304dde(0x43e)](_0x96e088,'L')?_0x139e19[_0x304dde(0x53e)]:_0x139e19[_0x304dde(0x75f)],_0xc11617=_0x499afa(_0x176426,0x1),_0x2814fc=_0x499afa(_0x176426,0x2),_0xb3d64f=_0x499afa(_0x176426,0x3),_0x353740=_0x499afa(_0x96e088,0x1),_0x168f9d=_0x4b6b6a?[..._0x142f4d,_0x4b6b6a]:_0x142f4d;function _0x4af01b(_0x1495e1,_0x567083,_0x10ca3c){const _0x45234d=_0x304dde,_0x448feb=_0x3c381e(_0x4b6b6a),_0x549178=_0x448feb?.['vel']?.['x']??0x0,_0x29ed43=_0x4b6b6a&&_0x139e19['BtwNs'](_0x448feb?.['moveType'],'stopped')&&!isDeepVertical(_0x4b6b6a,_0x24da51)&&(_0x1495e1==='L'?_0x139e19[_0x45234d(0x1b7)](_0x549178,0x0):_0x549178>0x0),_0x143bfc=_0x567083&&isFlatRoute(_0x567083,_0x1495e1,_0x24da51,_0x5171be)&&!_0x139e19['TrNwq'](isDeepVertical,_0x567083,_0x24da51),_0x1c5fd5=_0x10ca3c&&isFlatRoute(_0x10ca3c,_0x1495e1,_0x24da51,_0x5171be),_0x5690c1=_0x4b6b6a&&(_0x139e19['QaWPa'](isFlatRoute,_0x4b6b6a,_0x1495e1,_0x24da51,_0x5171be)||_0x29ed43)&&_0x4804ae(_0x49a4a6,_0x4b6b6a);if(_0x143bfc)return _0x567083;if(_0x1c5fd5)return _0x10ca3c;if(_0x5690c1)return _0x4b6b6a;return null;}if(_0x139e19['LorXM'](_0x2ddeca,'CB')&&_0x1dc2b2){const _0x2fd6e8=_0x139e19[_0x304dde(0x42e)](_0x4af01b,_0x96e088,_0x353740,null);if(_0x2fd6e8)return _0x139e19['oOceS'](manCover,_0x2fd6e8['id']);if(_0x353740&&!isUnderRoute(_0x353740,_0x24da51))return manCover(_0x353740['id']);return zoneDrop(_0x4a7912);}if((_0x139e19['oaLdQ'](_0x2ddeca,_0x304dde(0x3e5))||_0x2ddeca==='APEX-R')&&_0x1dc2b2){if(_0xb3d64f&&_0x139e19[_0x304dde(0x16f)](_0x3354f4,_0xb3d64f)&&_0x139e19[_0x304dde(0x2f9)](stickyOnce,_0x139e19[_0x304dde(0x18e)],!![]))return manCover(_0xb3d64f['id']);const _0x57955a=_0x139e19['mvswN'](_0x3c381e,_0x4b6b6a),_0x4db9e8=_0x57955a?.[_0x304dde(0x6ae)]?.['x']??0x0,_0x294a5b=_0x139e19[_0x304dde(0x512)](_0x57955a?.[_0x304dde(0x71b)],_0x304dde(0x1d8));if(_0x4b6b6a&&_0x139e19[_0x304dde(0x1e9)](isReleasedRoute,_0x4b6b6a,_0x24da51)&&!_0x139e19[_0x304dde(0x532)](isStickyLocked,_0x139e19[_0x304dde(0x26d)])){const _0x165954=!!(_0x294a5b&&(_0x139e19[_0x304dde(0x591)](_0x96e088,'L')?_0x4db9e8<0x0:_0x4db9e8>0x0));if(_0x139e19[_0x304dde(0x630)](stickyOnce,'cw3_rbWeak_wa',_0x165954))return _0x139e19[_0x304dde(0x19a)](manCover,_0x4b6b6a['id']);}if(!_0xb3d64f||!_0x139e19[_0x304dde(0x16f)](_0x3354f4,_0xb3d64f)){const _0x45ee62=!!(_0x4b6b6a&&_0x294a5b&&(_0x139e19['kIEeA'](_0x176426,'L')?_0x4db9e8<0x0:_0x139e19['APYFO'](_0x4db9e8,0x0)));if(_0x4b6b6a&&!isStickyLocked(_0x304dde(0x273))&&stickyOnce(_0x139e19['Hiqgg'],_0x45ee62))return manCover(_0x4b6b6a['id']);}return zoneDrop(_0x188272);}if(_0x2ddeca===_0x139e19[_0x304dde(0x155)]){if(_0x353740&&_0x3354f4(_0x353740))return manCover(_0x353740['id']);return zoneDrop(_0x3d5e4c);}if(_0x139e19['ZqjsX'](_0x2ddeca,_0x304dde(0x669))||_0x139e19[_0x304dde(0x3c1)](_0x2ddeca,_0x304dde(0x400))||_0x139e19[_0x304dde(0x480)](_0x2ddeca,_0x304dde(0x722))){if(_0xb3d64f&&isFlatRoute(_0xb3d64f,_0x176426,_0x24da51,_0x5171be)&&stickyOnce(_0x304dde(0x384),!![]))return _0x2814fc?_0x139e19[_0x304dde(0x532)](manCover,_0x2814fc['id']):zoneDrop(_0x273247);if(persistentCovCalls['cw3_underStrong']){const _0x27bd52=getStickyTarget(_0x139e19[_0x304dde(0x3a0)]);if(_0x27bd52)return _0x139e19['AMxpL'](manCover,_0x27bd52);const _0x25e55b=[_0xc11617,_0x2814fc][_0x304dde(0x427)](_0x304500=>_0x304500&&_0x1aa0d9(_0x304500));if(_0x25e55b[_0x304dde(0x6ab)]>0x0){const _0x4d4ca1=_0x25e55b[_0x304dde(0x760)]((_0x192cb4,_0x223e24)=>(_0x3c381e(_0x192cb4)?.[_0x304dde(0x65e)]??0x0)>=(_0x3c381e(_0x223e24)?.[_0x304dde(0x65e)]??0x0)?_0x192cb4:_0x223e24);return _0x139e19[_0x304dde(0x630)](lockStickyTarget,_0x139e19[_0x304dde(0x3a0)],_0x4d4ca1['id']),manCover(_0x4d4ca1['id']);}}if(_0xb3d64f&&isUnderRoute(_0xb3d64f,_0x24da51)&&_0x139e19['aCmfM'](stickyOnce,_0x139e19['VpJTA'],!![])){if(_0x353740&&_0x139e19[_0x304dde(0x4e0)](isUnderRoute,_0x353740,_0x24da51)&&stickyOnce(_0x139e19[_0x304dde(0x302)],!![]))return _0x139e19['MdXDt'](manCover,_0x353740['id']);return _0x139e19['SUzpl'](zoneDrop,_0x273247);}if(_0xb3d64f&&_0x139e19['fntgT'](_0x3354f4,_0xb3d64f)&&stickyOnce(_0x304dde(0x4a8),!![])){if(_0x353740&&_0x139e19[_0x304dde(0x2f9)](isUnderRoute,_0x353740,_0x24da51)&&_0x139e19['TdUvA'](stickyOnce,_0x139e19[_0x304dde(0x302)],!![]))return manCover(_0x353740['id']);return zoneDrop(_0x273247);}return _0xb3d64f?manCover(_0xb3d64f['id']):_0x139e19['SUzpl'](zoneDrop,_0x273247);}if(_0x2ddeca==='CB'&&_0x373b85){if(_0x139e19[_0x304dde(0x630)](stickyOnce,_0x304dde(0x725),!!(_0xc11617&&_0x139e19[_0x304dde(0x780)](_0x1aa0d9,_0xc11617)))){if(isStickyLocked(_0x139e19['ZTjnz']))persistentCovCalls['cw3_underStrong']=!![];return _0x139e19['jPyAJ'](zoneDrop,_0x5b5d1a);}if(stickyOnce(_0x304dde(0x309),!!(_0xc11617&&_0x139e19['ysnCI'](_0x4d289f,_0xc11617)))){if(isStickyLocked('cw3_smashS'))persistentCovCalls['cw3_smashStrong']=!![];return _0x139e19[_0x304dde(0x19a)](zoneDrop,_0x5b5d1a);}return _0xc11617?manCover(_0xc11617['id'],YARD_PX*0.5):_0x139e19['SKiPR'](zoneDrop,_0x5b5d1a);}if((_0x139e19[_0x304dde(0x5fa)](_0x2ddeca,'APEX-L')||_0x139e19[_0x304dde(0x2df)](_0x2ddeca,_0x304dde(0x238)))&&_0x373b85){if(_0xb3d64f&&isFlatRoute(_0xb3d64f,_0x176426,_0x24da51,_0x5171be)&&stickyOnce(_0x304dde(0x4eb),!![]))return manCover(_0xb3d64f['id']);if(_0x139e19[_0x304dde(0x2f9)](stickyOnce,_0x304dde(0x575),!!(_0x2814fc&&_0x1aa0d9(_0x2814fc)))){if(isStickyLocked(_0x304dde(0x575)))persistentCovCalls[_0x304dde(0x623)]=!![];return zoneDrop(_0x269fd2);}if(persistentCovCalls[_0x304dde(0x754)])return _0xc11617?manCover(_0xc11617['id'],YARD_PX*0.5):zoneDrop(_0x269fd2);return _0x2814fc?manCover(_0x2814fc['id']):_0x139e19[_0x304dde(0x37c)](zoneDrop,_0x269fd2);}if(_0x2ddeca===_0x139e19[_0x304dde(0x31e)]){const _0x2924cb=_0x139e19['MdXDt'](_0x3c381e,_0xb3d64f)?.[_0x304dde(0x65e)]??0x0,_0x3bcb24=_0x139e19[_0x304dde(0x19a)](_0x3c381e,_0x2814fc)?.[_0x304dde(0x65e)]??0x0,_0x31ad54=_0x3c381e(_0xc11617)?.[_0x304dde(0x65e)]??0x0,_0x247f43=!isStickyLocked(_0x139e19[_0x304dde(0x3ba)])&&!isStickyLocked(_0x139e19[_0x304dde(0x606)])&&!isStickyLocked('cw3_hook_r3v'),_0x55bd2b=isStickyLocked(_0x304dde(0x4eb)),_0x24615d=isStickyLocked(_0x139e19['akmMg']);if(_0xb3d64f&&_0x2924cb>=0x6&&!_0x247f43&&!_0x55bd2b&&!_0x24615d)return manCover(_0xb3d64f['id']);const _0x24b84c=!_0x139e19[_0x304dde(0x23d)](isStickyLocked,'cw3_underS_sa')&&!isStickyLocked(_0x139e19['PfHVU'])&&!persistentCovCalls[_0x304dde(0x754)],_0x510516=isStickyLocked(_0x139e19['tiBSI']);if(_0x2814fc&&_0x3bcb24>=0x6&&!_0x24b84c&&!_0x510516)return _0x139e19[_0x304dde(0x47a)](manCover,_0x2814fc['id']);const _0x4fb3bd=!isStickyLocked(_0x304dde(0x725))&&!isStickyLocked(_0x304dde(0x309)),_0x3c751f=persistentCovCalls[_0x304dde(0x754)];if(_0xc11617&&_0x31ad54>=0x6&&!_0x4fb3bd&&!_0x3c751f)return manCover(_0xc11617['id']);return zoneDrop(_0x139e19[_0x304dde(0x619)]);}return null;}},'cover3-cloud-strong-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x377),'cbShade':'normal'}},'decide'(_0x1d3d75,_0x2ec0cd,_0x44d84f){const _0x6df770=_0x2e24de,_0x380e2c={'DmYVX':function(_0x3ec1ed,_0x23eeae){return _0x3ec1ed<=_0x23eeae;},'ZwrKz':function(_0x8afb9c,_0x110824){return _0x8afb9c===_0x110824;},'twzhG':function(_0x36613b,_0x33a794){return _0x36613b===_0x33a794;},'zQZeN':_0x6df770(0x238),'SVIip':_0x6df770(0x25f),'hZJjC':function(_0x56f1b7,_0x22c94f,_0xae0ab5){return _0x56f1b7(_0x22c94f,_0xae0ab5);},'TeOTa':function(_0x2f0ef6,_0x713617){return _0x2f0ef6(_0x713617);},'NfsJY':function(_0x50d64b,_0x23b01e){return _0x50d64b(_0x23b01e);},'BqNUC':_0x6df770(0x669),'mqOgQ':_0x6df770(0x400),'fqJSQ':_0x6df770(0x722),'hRzpz':function(_0x54fb2e,_0x1d55ae){return _0x54fb2e(_0x1d55ae);},'BImUg':_0x6df770(0x23b),'SZPGI':_0x6df770(0x259),'jjIPf':function(_0x3c737c,_0x9256fb){return _0x3c737c>=_0x9256fb;},'qPjOb':function(_0x145548,_0x59d30e){return _0x145548===_0x59d30e;},'nVvcQ':_0x6df770(0x4fb),'biksI':function(_0x5e47c3,_0x4bcc22){return _0x5e47c3===_0x4bcc22;},'FFWtj':_0x6df770(0x198),'kgGbg':_0x6df770(0x620),'uoiDF':_0x6df770(0x74b),'qVirG':'FLAT_R','KXlJg':function(_0x45b8f0,_0x1964e2,_0x3fde08){return _0x45b8f0(_0x1964e2,_0x3fde08);},'YrtZP':function(_0x3cb57d,_0x44abcd,_0x3fbd44){return _0x3cb57d(_0x44abcd,_0x3fbd44);},'Vghxe':function(_0x191ad,_0x1440f7,_0x2fc240){return _0x191ad(_0x1440f7,_0x2fc240);}},_0x27e442=new Map();if(!_0x44d84f)return _0x27e442;const _0x1f9cc1=_0x44d84f[_0x6df770(0x1b2)],_0x11ec73=_0x44d84f[_0x6df770(0x205)]||[],_0x1c5ca1=_0x44d84f[_0x6df770(0x479)]||null,_0x5eb948=_0x11ec73['filter'](_0x1d4186=>_0x1d4186[_0x6df770(0x6c1)]==='L')[_0x6df770(0x6ab)],_0x45adbe=_0x11ec73[_0x6df770(0x427)](_0xe5c7c3=>_0xe5c7c3['_side']==='R')['length'],_0x8ab36a=_0x44d84f[_0x6df770(0x1c0)]||(_0x380e2c[_0x6df770(0x1bf)](_0x5eb948,_0x45adbe)?'L':'R'),_0x11b68c=_0x8ab36a==='L'?'R':'L',_0x138128=_0x380e2c[_0x6df770(0x76e)](_0x8ab36a,'L')?_0x6df770(0x3e8):_0x380e2c[_0x6df770(0x3cf)],_0x1f52d4=_0x380e2c[_0x6df770(0x2b9)](_0x11b68c,'L')?_0x6df770(0x3e8):_0x380e2c[_0x6df770(0x3cf)],_0x2cf43d=_0x11b68c==='L'?_0x6df770(0x647):_0x6df770(0x1d1),_0x4d539c=_0x8ab36a==='L'?_0x6df770(0x226):_0x380e2c[_0x6df770(0x5e8)],_0x1010cf=_0x11b68c==='L'?_0x380e2c['kgGbg']:_0x380e2c[_0x6df770(0x580)],_0x49c8df=_0x380e2c[_0x6df770(0x2b9)](_0x8ab36a,'L')?'FLAT_L':_0x380e2c[_0x6df770(0x332)];function _0x2360a9(_0x535203,_0x1d8f93){const _0x5059c2=_0x6df770;return _0x11ec73[_0x5059c2(0x1b9)](_0x58e784=>_0x58e784[_0x5059c2(0x6c1)]===_0x535203&&_0x58e784[_0x5059c2(0x4df)]===_0x1d8f93)||null;}const _0x143ebc=_0x380e2c[_0x6df770(0x790)](_0x2360a9,_0x8ab36a,0x1),_0x5135ad=_0x380e2c['YrtZP'](_0x2360a9,_0x8ab36a,0x2),_0xfe6f59=_0x380e2c[_0x6df770(0x284)](_0x2360a9,_0x11b68c,0x1),_0x55cbb8=_0x380e2c['Vghxe'](_0x2360a9,_0x11b68c,0x2);return _0x1d3d75[_0x6df770(0x29e)]((_0x7b1eb4,_0x624199)=>{const _0x340370=_0x6df770,_0x1af145=_0x2ec0cd['get'](_0x624199);if(!_0x1af145)return;const _0x1e1527=_0x380e2c[_0x340370(0x5c9)](_0x1af145['x'],_0x1f9cc1)?'L':'R',_0x4bb19a=_0x7b1eb4===_0x340370(0x3e5)||_0x380e2c[_0x340370(0x514)](_0x7b1eb4,_0x340370(0x669))?'L':_0x380e2c[_0x340370(0x49a)](_0x7b1eb4,_0x380e2c['zQZeN'])||_0x380e2c['ZwrKz'](_0x7b1eb4,_0x340370(0x400))?'R':_0x1e1527,_0x3909b3=_0x4bb19a===_0x8ab36a,_0x14a36d=_0x4bb19a===_0x11b68c;switch(_0x7b1eb4){case _0x380e2c[_0x340370(0x4b0)]:case _0x340370(0x4ef):_0x27e442[_0x340370(0x590)](_0x624199,rushDec());break;case'CB':if(_0x3909b3)_0x27e442[_0x340370(0x590)](_0x624199,zoneDrop(_0x49c8df));if(_0x14a36d)_0x27e442[_0x340370(0x590)](_0x624199,_0xfe6f59?_0x380e2c[_0x340370(0x2e9)](manCover,_0xfe6f59['id'],YARD_PX*0.5):_0x380e2c[_0x340370(0x65b)](zoneDrop,_0x1f52d4));break;case _0x340370(0x3e5):case _0x340370(0x238):if(_0x3909b3)_0x27e442[_0x340370(0x590)](_0x624199,_0x5135ad?manCover(_0x5135ad['id']):_0x380e2c[_0x340370(0x4a7)](zoneDrop,_0x4d539c));if(_0x14a36d)_0x27e442[_0x340370(0x590)](_0x624199,_0x55cbb8?_0x380e2c[_0x340370(0x4a7)](manCover,_0x55cbb8['id']):zoneDrop(_0x2cf43d));break;case _0x380e2c[_0x340370(0x3bd)]:case _0x380e2c['mqOgQ']:case _0x380e2c[_0x340370(0x3b5)]:_0x27e442['set'](_0x624199,zoneDrop(_0x1010cf));break;case _0x340370(0x2ac):_0x27e442[_0x340370(0x590)](_0x624199,_0x380e2c[_0x340370(0x6cb)](zoneDrop,_0x138128));break;case _0x380e2c[_0x340370(0x1ea)]:_0x27e442[_0x340370(0x590)](_0x624199,_0x380e2c[_0x340370(0x65b)](zoneDrop,_0x380e2c[_0x340370(0x2f8)]));break;}}),_0x27e442;},'react'(_0x184340,_0x2824a1,_0x1aeab2,_0x4c0146){const _0xabcd72=_0x2e24de,_0x127a87={'fZxUj':function(_0x4d57da,_0x30c79d,_0x4e5b05){return _0x4d57da(_0x30c79d,_0x4e5b05);},'QTVXJ':function(_0x1ce647,_0x4cce8d,_0x1a20be,_0x12865e){return _0x1ce647(_0x4cce8d,_0x1a20be,_0x12865e);},'MoTNJ':function(_0x492040,_0x372e9f){return _0x492040>_0x372e9f;},'jSDDu':function(_0x4f3325,_0x1ba445,_0x1124e2,_0x1a30a4,_0x4696f8){return _0x4f3325(_0x1ba445,_0x1124e2,_0x1a30a4,_0x4696f8);},'KMmXe':function(_0x5de007,_0x181696,_0x47b96e,_0x5b25d2,_0x541664){return _0x5de007(_0x181696,_0x47b96e,_0x5b25d2,_0x541664);},'fvyOs':function(_0x2e3ec5,_0x5d38a5){return _0x2e3ec5>=_0x5d38a5;},'UAPgd':function(_0x2080ae,_0x3b8501){return _0x2080ae===_0x3b8501;},'zZAuT':function(_0x400e0d,_0x4993cd){return _0x400e0d===_0x4993cd;},'NXyMb':_0xabcd72(0x3e8),'YauAo':function(_0x1c9cd2,_0x3b7fad){return _0x1c9cd2===_0x3b7fad;},'PRsLB':_0xabcd72(0x4fb),'UIYWc':'CURL_FLAT_R','hgclY':_0xabcd72(0x226),'Jjzqq':_0xabcd72(0x198),'tqdpD':_0xabcd72(0x425),'EVvFZ':function(_0x47ca4d,_0x392c40){return _0x47ca4d(_0x392c40);},'PzWyI':_0xabcd72(0x3e5),'tmeKo':function(_0x5e707b,_0x539ae2,_0x1c2735,_0x6d8ef3,_0x29930b){return _0x5e707b(_0x539ae2,_0x1c2735,_0x6d8ef3,_0x29930b);},'nNxhf':function(_0x24e724,_0x4546f7){return _0x24e724(_0x4546f7);},'KLpsZ':'stopped','lnwAY':function(_0x317869,_0x559518){return _0x317869&&_0x559518;},'VbbuN':function(_0x18b22a,_0x2142f7){return _0x18b22a<_0x2142f7;},'rdIoa':_0xabcd72(0x572),'XDtAd':function(_0x463325,_0x279268){return _0x463325(_0x279268);},'JuTAy':function(_0x3f8fd2,_0x548e45){return _0x3f8fd2(_0x548e45);},'bcioV':'cs_underW_cb','wVCpS':function(_0x4e487b,_0x3db596){return _0x4e487b(_0x3db596);},'CDSyO':function(_0x34cd44,_0x79f9a5){return _0x34cd44(_0x79f9a5);},'zcobl':_0xabcd72(0x79b),'pQigG':function(_0x2a2a23,_0x67fc7e){return _0x2a2a23(_0x67fc7e);},'yVGQN':function(_0x343846,_0x49b01a){return _0x343846*_0x49b01a;},'ASqVT':function(_0x527c77,_0x7c44a6){return _0x527c77(_0x7c44a6);},'JRkdF':function(_0x5021df,_0x55a6b5,_0x3d7463){return _0x5021df(_0x55a6b5,_0x3d7463);},'PCCqG':_0xabcd72(0x2fb),'YXbdy':function(_0xb6db17,_0x5c9a27,_0x43ac00){return _0xb6db17(_0x5c9a27,_0x43ac00);},'FkALN':function(_0x4184b8,_0x322e09){return _0x4184b8*_0x322e09;},'ApYjl':function(_0x27d358,_0x1ff4f3){return _0x27d358!==_0x1ff4f3;},'wmkIP':function(_0x191783,_0x1f36f9){return _0x191783>_0x1f36f9;},'HmNpe':_0xabcd72(0x6c4),'hUMwX':function(_0x4b9762,_0x267263){return _0x4b9762(_0x267263);},'UtPJm':_0xabcd72(0x669),'xxKoy':_0xabcd72(0x722),'HDvVx':function(_0x36ef2f,_0x1b8331){return _0x36ef2f(_0x1b8331);},'jUGiG':_0xabcd72(0x3c5),'ZFcJN':function(_0x416907,_0x218f47){return _0x416907(_0x218f47);},'HVjcT':_0xabcd72(0x23b),'ojZRi':_0xabcd72(0x259)};if(!_0x1aeab2)return null;const _0x27de39=_0x1aeab2[_0xabcd72(0x1b2)],_0x3faab9=_0x1aeab2[_0xabcd72(0x205)]||[],_0x1e1f31=_0x1aeab2[_0xabcd72(0x479)]||null,_0x1c2799=_0x3faab9[_0xabcd72(0x427)](_0x42efa0=>_0x42efa0['_side']==='L')[_0xabcd72(0x6ab)],_0x29d724=_0x3faab9[_0xabcd72(0x427)](_0x29fc29=>_0x29fc29[_0xabcd72(0x6c1)]==='R')['length'],_0x358e38=_0x1aeab2[_0xabcd72(0x1c0)]||(_0x127a87['fvyOs'](_0x1c2799,_0x29d724)?'L':'R'),_0x4c5329=_0x358e38==='L'?'R':'L',_0xb038e9=snapAlignment[_0x184340['id']]?.['x']??(_0x184340[_0xabcd72(0x79d)]??_0x184340['x']),_0x10b7e8=_0xb038e9<=_0x27de39?'L':'R',_0x17ba55=_0x2824a1===_0xabcd72(0x3e5)||_0x127a87[_0xabcd72(0x22e)](_0x2824a1,'HOOK-L')?'L':_0x2824a1===_0xabcd72(0x238)||_0x2824a1===_0xabcd72(0x400)?'R':_0x10b7e8,_0xbb576d=_0x127a87[_0xabcd72(0x6db)](_0x17ba55,_0x358e38),_0x51eb0e=_0x17ba55===_0x4c5329;function _0x558a86(_0x2ff1de,_0x173814){const _0x418b8f=_0xabcd72;return _0x3faab9[_0x418b8f(0x1b9)](_0x49e851=>_0x49e851[_0x418b8f(0x6c1)]===_0x2ff1de&&_0x49e851[_0x418b8f(0x4df)]===_0x173814)||null;}function _0x1042a4(_0x3c82aa){return _0x3c82aa?_0x4c0146[_0x3c82aa['id']]:null;}function _0x32266f(_0xf30505){return isUnderRoute(_0xf30505,_0x4c0146);}function _0x370eeb(_0xf98e18){const _0xfa4322=_0xabcd72;return _0x127a87[_0xfa4322(0x1c6)](isHitchRoute,_0xf98e18,_0x4c0146);}function _0x50d167(_0x54cbb0){const _0x2296e9=_0xabcd72;return _0x127a87[_0x2296e9(0x1c6)](isDeepVertical,_0x54cbb0,_0x4c0146);}function _0x2e46be(_0x2cc0dc){return isOutRoute(_0x2cc0dc,_0x4c0146);}function _0x2844ec(_0x4918b8,_0x3b3283){const _0x12999a=_0xabcd72;return _0x127a87[_0x12999a(0x5f8)](canReachRoute,_0x4918b8,_0x3b3283,_0x4c0146);}const _0x3d372d=_0x358e38==='L'?_0x127a87[_0xabcd72(0x26b)]:_0xabcd72(0x4fb),_0x1123f6=_0x127a87[_0xabcd72(0x2a7)](_0x4c5329,'L')?_0xabcd72(0x3e8):_0x127a87[_0xabcd72(0x24e)],_0x1434b2=_0x4c5329==='L'?_0xabcd72(0x647):_0x127a87[_0xabcd72(0x2b0)],_0x5da756=_0x358e38==='L'?_0x127a87['hgclY']:_0x127a87['Jjzqq'],_0x427187=_0x4c5329==='L'?_0xabcd72(0x620):'HOOK_R',_0x48b4d3=_0x127a87[_0xabcd72(0x22e)](_0x358e38,'L')?_0x127a87[_0xabcd72(0x5ef)]:'FLAT_R',_0x53c76d=_0x558a86(_0x358e38,0x1),_0x172903=_0x558a86(_0x358e38,0x2),_0x146257=_0x127a87[_0xabcd72(0x1c6)](_0x558a86,_0x4c5329,0x1),_0x499446=_0x558a86(_0x4c5329,0x2),_0x214463=_0x1e1f31?[..._0x3faab9,_0x1e1f31]:_0x3faab9;function _0x38fcfc(_0x2eb15f,_0x43ee97,_0x4a8d1a){const _0x51ec6f=_0xabcd72,_0xf79fe4=_0x1042a4(_0x1e1f31),_0x374db7=_0xf79fe4?.[_0x51ec6f(0x6ae)]?.['x']??0x0,_0x238656=_0x1e1f31&&_0xf79fe4?.['moveType']!==_0x51ec6f(0x1d8)&&!isDeepVertical(_0x1e1f31,_0x4c0146)&&(_0x2eb15f==='L'?_0x374db7<0x0:_0x127a87[_0x51ec6f(0x280)](_0x374db7,0x0)),_0x3dc248=_0x43ee97&&_0x127a87['jSDDu'](isFlatRoute,_0x43ee97,_0x2eb15f,_0x4c0146,_0x1aeab2)&&!_0x127a87['fZxUj'](isDeepVertical,_0x43ee97,_0x4c0146),_0x392061=_0x4a8d1a&&_0x127a87[_0x51ec6f(0x2e4)](isFlatRoute,_0x4a8d1a,_0x2eb15f,_0x4c0146,_0x1aeab2),_0x391bd0=_0x1e1f31&&(isFlatRoute(_0x1e1f31,_0x2eb15f,_0x4c0146,_0x1aeab2)||_0x238656)&&_0x2844ec(_0x184340,_0x1e1f31);if(_0x3dc248)return _0x43ee97;if(_0x392061)return _0x4a8d1a;if(_0x391bd0)return _0x1e1f31;return null;}if(_0x2824a1==='CB'&&_0xbb576d){const _0x3c91c0=_0x38fcfc(_0x358e38,_0x53c76d,_0x172903);if(_0x3c91c0)return manCover(_0x3c91c0['id']);if(_0x53c76d&&!_0x127a87[_0xabcd72(0x1c6)](isUnderRoute,_0x53c76d,_0x4c0146))return _0x127a87[_0xabcd72(0x6c0)](manCover,_0x53c76d['id']);return zoneDrop(_0x48b4d3);}if((_0x2824a1===_0x127a87[_0xabcd72(0x418)]||_0x127a87[_0xabcd72(0x2a7)](_0x2824a1,_0xabcd72(0x238)))&&_0xbb576d){if(_0x172903&&_0x127a87[_0xabcd72(0x5cd)](isFlatRoute,_0x172903,_0x358e38,_0x4c0146,_0x1aeab2)){if(_0x1e1f31){const _0x34c5e7=defensePlayers[_0xabcd72(0x57b)](_0x50ef99=>_0x50ef99['id']!==_0x184340['id']&&_0x50ef99[_0xabcd72(0x239)]?.[_0xabcd72(0x5bb)]===_0x1e1f31['id']);if(!_0x34c5e7)return manCover(_0x1e1f31['id']);}return _0x127a87[_0xabcd72(0x6c0)](zoneDrop,_0x5da756);}const _0x4ac16b=_0x127a87['EVvFZ'](_0x1042a4,_0x172903)?.[_0xabcd72(0x65e)]??0x0,_0x30fab5=_0x127a87['nNxhf'](_0x1042a4,_0x1e1f31),_0x496a31=_0x30fab5?.[_0xabcd72(0x6ae)]?.['x']??0x0,_0x50f4c9=_0x30fab5?.['moveType']!==_0x127a87[_0xabcd72(0x2ec)],_0x194bee=!!(_0x127a87[_0xabcd72(0x195)](_0x1e1f31,_0x50f4c9)&&(_0x358e38==='L'?_0x127a87[_0xabcd72(0x415)](_0x496a31,0x0):_0x496a31>0x0));if(_0x172903&&_0x127a87[_0xabcd72(0x5a4)](_0x4ac16b,0x9)&&_0x1e1f31&&_0x127a87[_0xabcd72(0x1c6)](stickyOnce,_0x127a87[_0xabcd72(0x77b)],_0x194bee))return _0x127a87[_0xabcd72(0x58c)](manCover,_0x1e1f31['id']);if(!_0x172903){if(_0x1e1f31){const _0x5a9b9b=defensePlayers[_0xabcd72(0x57b)](_0x4a0b57=>_0x4a0b57['id']!==_0x184340['id']&&_0x4a0b57[_0xabcd72(0x239)]?.[_0xabcd72(0x5bb)]===_0x1e1f31['id']);if(!_0x5a9b9b)return _0x127a87[_0xabcd72(0x58c)](manCover,_0x1e1f31['id']);}return zoneDrop(_0x5da756);}return _0x127a87[_0xabcd72(0x16d)](manCover,_0x172903['id']);}if(_0x2824a1===_0xabcd72(0x2ac)){if(_0x53c76d&&_0x50d167(_0x53c76d))return manCover(_0x53c76d['id']);return _0x127a87[_0xabcd72(0x202)](zoneDrop,_0x3d372d);}if(_0x127a87[_0xabcd72(0x6db)](_0x2824a1,'CB')&&_0x51eb0e){if(stickyOnce(_0x127a87[_0xabcd72(0x61b)],!!(_0x146257&&_0x127a87[_0xabcd72(0x188)](_0x32266f,_0x146257)))){if(_0x127a87[_0xabcd72(0x58c)](isStickyLocked,_0xabcd72(0x1c5)))persistentCovCalls['cs_underWeak']=!![];return _0x127a87['CDSyO'](zoneDrop,_0x1123f6);}if(stickyOnce(_0x127a87['zcobl'],!!(_0x146257&&_0x127a87['pQigG'](_0x370eeb,_0x146257)))){if(isStickyLocked('cs_smashW'))persistentCovCalls['cs_smashWeak']=!![];return _0x127a87['wVCpS'](zoneDrop,_0x1123f6);}return _0x146257?manCover(_0x146257['id'],_0x127a87[_0xabcd72(0x5b8)](YARD_PX,0.5)):_0x127a87['ASqVT'](zoneDrop,_0x1123f6);}if((_0x127a87[_0xabcd72(0x2a7)](_0x2824a1,_0x127a87[_0xabcd72(0x418)])||_0x127a87[_0xabcd72(0x22e)](_0x2824a1,_0xabcd72(0x238)))&&_0x51eb0e){if(_0x127a87[_0xabcd72(0x5c1)](stickyOnce,_0xabcd72(0x2fb),!!(_0x499446&&_0x127a87['ASqVT'](_0x32266f,_0x499446)))){if(isStickyLocked(_0x127a87[_0xabcd72(0x1bd)]))persistentCovCalls[_0xabcd72(0x533)]=!![];return zoneDrop(_0x1434b2);}if(persistentCovCalls[_0xabcd72(0x523)])return _0x146257?_0x127a87['YXbdy'](manCover,_0x146257['id'],_0x127a87['FkALN'](YARD_PX,0.5)):_0x127a87[_0xabcd72(0x16d)](zoneDrop,_0x1434b2);const _0xabd2bf=_0x1042a4(_0x499446)?.['depthYards']??0x0,_0x24cc5a=_0x1042a4(_0x1e1f31),_0x1f0170=_0x24cc5a?.[_0xabcd72(0x6ae)]?.['x']??0x0,_0x4d594b=_0x127a87[_0xabcd72(0x432)](_0x24cc5a?.[_0xabcd72(0x71b)],_0x127a87[_0xabcd72(0x2ec)]),_0x105f16=!!(_0x127a87['lnwAY'](_0x1e1f31,_0x4d594b)&&(_0x4c5329==='L'?_0x1f0170<0x0:_0x127a87[_0xabcd72(0x398)](_0x1f0170,0x0)));if(_0x499446&&_0xabd2bf>=0x9&&_0x1e1f31&&stickyOnce(_0x127a87[_0xabcd72(0x27c)],_0x105f16))return _0x127a87[_0xabcd72(0x59c)](manCover,_0x1e1f31['id']);return _0x499446?manCover(_0x499446['id']):_0x127a87['nNxhf'](zoneDrop,_0x1434b2);}if(_0x2824a1===_0x127a87[_0xabcd72(0x4f7)]||_0x2824a1===_0xabcd72(0x400)||_0x2824a1===_0x127a87[_0xabcd72(0x69b)]){if(persistentCovCalls['cs_underWeak']){const _0xe4febd=_0x127a87[_0xabcd72(0x750)](getStickyTarget,_0x127a87[_0xabcd72(0x318)]);if(_0xe4febd)return _0x127a87['ZFcJN'](manCover,_0xe4febd);const _0x239a7e=[_0x146257,_0x499446]['filter'](_0x3f8a06=>_0x3f8a06&&_0x32266f(_0x3f8a06));if(_0x127a87[_0xabcd72(0x398)](_0x239a7e[_0xabcd72(0x6ab)],0x0)){const _0x18cc64=_0x239a7e[_0xabcd72(0x760)]((_0x23acbc,_0x3ccfa2)=>(_0x1042a4(_0x23acbc)?.['depthYards']??0x0)>=(_0x1042a4(_0x3ccfa2)?.['depthYards']??0x0)?_0x23acbc:_0x3ccfa2);return lockStickyTarget(_0xabcd72(0x3c5),_0x18cc64['id']),manCover(_0x18cc64['id']);}}return zoneDrop(_0x427187);}if(_0x2824a1===_0x127a87['HVjcT']){const _0x475f7a=_0x1042a4(_0x172903)?.[_0xabcd72(0x65e)]??0x0,_0x5d67f3=_0x1042a4(_0x499446)?.[_0xabcd72(0x65e)]??0x0,_0x3d8624=_0x172903&&_0x475f7a>=0x9,_0x8c8f05=_0x499446&&_0x5d67f3>=0x9;if(_0x3d8624&&_0x8c8f05){const _0x3198e6=defensePlayers[_0xabcd72(0x57b)](_0xe2a0f7=>_0xe2a0f7['id']!==_0x184340['id']&&_0xe2a0f7[_0xabcd72(0x239)]?.['focusTargetId']===_0x172903['id']),_0x226fc5=defensePlayers['some'](_0x5836ca=>_0x5836ca['id']!==_0x184340['id']&&_0x5836ca[_0xabcd72(0x239)]?.[_0xabcd72(0x5bb)]===_0x499446['id']);if(_0x3198e6&&!_0x226fc5)return manCover(_0x499446['id']);if(_0x127a87[_0xabcd72(0x195)](!_0x3198e6,_0x226fc5))return _0x127a87[_0xabcd72(0x188)](manCover,_0x172903['id']);return{...zoneDrop('DEEP_MIDDLE'),'_midpointPlayers':[_0x172903['id'],_0x499446['id']]};}if(_0x3d8624)return manCover(_0x172903['id']);if(_0x8c8f05)return manCover(_0x499446['id']);return _0x127a87[_0xabcd72(0x58c)](zoneDrop,_0x127a87[_0xabcd72(0x1fd)]);}return null;}},'cover3-cloud-strong-book-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x377),'cbShade':_0x2e24de(0x377)}},'decide'(_0x56aa70,_0x1174bb,_0x3e2a07){const _0x255071=_0x2e24de,_0x352878={'aWDvO':function(_0x1981b7,_0x11ed5c){return _0x1981b7<=_0x11ed5c;},'wZlcu':function(_0x2de981,_0x2843b8){return _0x2de981===_0x2843b8;},'VjYTB':function(_0x374ec0,_0x53a6e5){return _0x374ec0===_0x53a6e5;},'fEPZt':'RUSH','ADOml':_0x255071(0x4ef),'iPome':_0x255071(0x238),'uKQvV':function(_0x35de8b,_0x444a89){return _0x35de8b(_0x444a89);},'eUnuz':_0x255071(0x669),'uaegm':_0x255071(0x2ac),'VWCDU':_0x255071(0x259),'KMdYs':_0x255071(0x3e8),'JJYBk':'DEEP_R','YAMBB':function(_0x22cc86,_0x110b90){return _0x22cc86===_0x110b90;},'yOeEf':_0x255071(0x1d1),'KRyGe':_0x255071(0x226),'kJEHe':_0x255071(0x620),'cKdKO':_0x255071(0x74b),'cXNlK':function(_0x21299f,_0x4e9e2b,_0x5620e5){return _0x21299f(_0x4e9e2b,_0x5620e5);}},_0x565aad=new Map();if(!_0x3e2a07)return _0x565aad;const _0x1a279d=_0x3e2a07[_0x255071(0x1b2)],_0x5a17b9=_0x3e2a07[_0x255071(0x205)]||[],_0x50f889=_0x5a17b9[_0x255071(0x427)](_0x54e464=>_0x54e464[_0x255071(0x6c1)]==='L')[_0x255071(0x6ab)],_0x630837=_0x5a17b9[_0x255071(0x427)](_0x3c563b=>_0x3c563b[_0x255071(0x6c1)]==='R')['length'],_0x43d01d=_0x3e2a07[_0x255071(0x1c0)]||(_0x50f889>=_0x630837?'L':'R'),_0x4dc5bf=_0x352878[_0x255071(0x428)](_0x43d01d,'L')?'R':'L',_0x9b5e1f=_0x43d01d==='L'?_0x352878['KMdYs']:'DEEP_R',_0x2648a6=_0x4dc5bf==='L'?_0x255071(0x3e8):_0x352878[_0x255071(0x554)],_0xe9dcca=_0x352878['YAMBB'](_0x4dc5bf,'L')?_0x255071(0x647):_0x352878[_0x255071(0x656)],_0x381c0e=_0x352878[_0x255071(0x25e)](_0x43d01d,'L')?_0x352878['KRyGe']:_0x255071(0x198),_0x2927c4=_0x4dc5bf==='L'?_0x352878[_0x255071(0x731)]:_0x352878['cKdKO'],_0x1b7144=_0x43d01d==='L'?'FLAT_L':_0x255071(0x2d8);function _0x556ace(_0xdadea0,_0x2dc0de){const _0x1aad8c=_0x255071;return _0x5a17b9['find'](_0xc8ffc0=>_0xc8ffc0[_0x1aad8c(0x6c1)]===_0xdadea0&&_0xc8ffc0[_0x1aad8c(0x4df)]===_0x2dc0de)||null;}const _0x271d1b=_0x556ace(_0x43d01d,0x1),_0x1211ea=_0x556ace(_0x43d01d,0x2),_0x56df8b=_0x352878[_0x255071(0x329)](_0x556ace,_0x4dc5bf,0x1),_0x45b421=_0x556ace(_0x4dc5bf,0x2);return _0x56aa70[_0x255071(0x29e)]((_0x536724,_0x595fe3)=>{const _0x44f2ff=_0x255071,_0x410733=_0x1174bb['get'](_0x595fe3);if(!_0x410733)return;const _0x4955e7=_0x352878[_0x44f2ff(0x2b5)](_0x410733['x'],_0x1a279d)?'L':'R',_0x1a6503=_0x536724===_0x44f2ff(0x3e5)||_0x352878['wZlcu'](_0x536724,'HOOK-L')?'L':_0x352878['wZlcu'](_0x536724,'APEX-R')||_0x352878[_0x44f2ff(0x428)](_0x536724,_0x44f2ff(0x400))?'R':_0x4955e7,_0x112423=_0x352878['VjYTB'](_0x1a6503,_0x43d01d),_0x414d29=_0x352878[_0x44f2ff(0x428)](_0x1a6503,_0x4dc5bf);switch(_0x536724){case _0x352878[_0x44f2ff(0x3f6)]:case _0x352878[_0x44f2ff(0x3ab)]:_0x565aad['set'](_0x595fe3,rushDec());break;case'CB':if(_0x112423)_0x565aad[_0x44f2ff(0x590)](_0x595fe3,zoneDrop(_0x1b7144));if(_0x414d29)_0x565aad[_0x44f2ff(0x590)](_0x595fe3,_0x56df8b?manCover(_0x56df8b['id'],YARD_PX*0.5):zoneDrop(_0x2648a6));break;case _0x44f2ff(0x3e5):case _0x352878[_0x44f2ff(0x77d)]:if(_0x112423)_0x565aad[_0x44f2ff(0x590)](_0x595fe3,_0x1211ea?manCover(_0x1211ea['id']):_0x352878[_0x44f2ff(0x664)](zoneDrop,_0x381c0e));if(_0x414d29)_0x565aad['set'](_0x595fe3,_0x45b421?manCover(_0x45b421['id']):zoneDrop(_0xe9dcca));break;case _0x352878[_0x44f2ff(0x44d)]:case _0x44f2ff(0x400):case _0x44f2ff(0x722):_0x565aad[_0x44f2ff(0x590)](_0x595fe3,_0x352878[_0x44f2ff(0x664)](zoneDrop,_0x2927c4));break;case _0x352878['uaegm']:_0x565aad[_0x44f2ff(0x590)](_0x595fe3,_0x352878['uKQvV'](zoneDrop,_0x9b5e1f));break;case _0x44f2ff(0x23b):_0x565aad[_0x44f2ff(0x590)](_0x595fe3,_0x352878['uKQvV'](zoneDrop,_0x352878[_0x44f2ff(0x4e6)]));break;}}),_0x565aad;},'react'(_0x57b3f6,_0x3b47e2,_0x4abe83,_0x425853){const _0x2c765a=_0x2e24de,_0x1fd32b={'qGaqu':function(_0x105a99,_0xa5dabe,_0x1e6b86){return _0x105a99(_0xa5dabe,_0x1e6b86);},'Bplpz':function(_0x3d683b,_0x254466,_0x4ad761){return _0x3d683b(_0x254466,_0x4ad761);},'LQrsq':_0x2c765a(0x3e5),'pzSjW':function(_0x28eee0,_0x3faf9d){return _0x28eee0===_0x3faf9d;},'tqBtL':function(_0x3ad508,_0x2f1bab){return _0x3ad508===_0x2f1bab;},'lUOBk':function(_0x91bfef,_0x318c3f){return _0x91bfef===_0x318c3f;},'vjjjS':_0x2c765a(0x3e8),'DYKyT':_0x2c765a(0x647),'vDlmf':_0x2c765a(0x226),'LDMTB':function(_0x1d0621,_0x1e64a7){return _0x1d0621===_0x1e64a7;},'KgaXQ':_0x2c765a(0x620),'LMUOr':_0x2c765a(0x425),'cAruB':function(_0x59c646,_0x43d003){return _0x59c646===_0x43d003;},'CvoZW':function(_0x148b36,_0x34824a,_0x228653){return _0x148b36(_0x34824a,_0x228653);},'JRwlL':function(_0x1ea61d,_0x10d332){return _0x1ea61d(_0x10d332);},'QDDRa':'SAF_S','Rwvmh':function(_0x508b31,_0x4a5fd5){return _0x508b31(_0x4a5fd5);},'IIbwz':function(_0x25b114,_0x4cdcba){return _0x25b114===_0x4cdcba;},'lQoUZ':_0x2c765a(0x220),'jGJlZ':function(_0x4b8e13,_0x3871cc){return _0x4b8e13(_0x3871cc);},'MRjdm':_0x2c765a(0x689),'WNsXw':function(_0x25d60b,_0xdbf6a9){return _0x25d60b(_0xdbf6a9);},'SGwDZ':_0x2c765a(0x604),'BqAYY':function(_0x4d26c9,_0x4ee9ff){return _0x4d26c9*_0x4ee9ff;},'KnfPG':_0x2c765a(0x400),'IfIJd':'csb_hook_crosser','GhxIt':function(_0x2f7eba,_0x2024ef){return _0x2f7eba===_0x2024ef;},'ixBKh':_0x2c765a(0x23b),'zOCoN':function(_0x33839e,_0x48b089){return _0x33839e(_0x48b089);},'VNzKd':function(_0x2bd159,_0x3f9f6f){return _0x2bd159>=_0x3f9f6f;},'UEYzN':function(_0x3a6505,_0x4d8115){return _0x3a6505&&_0x4d8115;},'tuYyM':function(_0x592669,_0x587c75){return _0x592669(_0x587c75);},'pdfXU':_0x2c765a(0x259),'bXtHS':function(_0x166891,_0x1e84ed){return _0x166891(_0x1e84ed);},'kCidl':function(_0x3bffe4,_0x57ffae){return _0x3bffe4(_0x57ffae);},'rujjo':function(_0x237a8f,_0xdfa0df,_0x924183){return _0x237a8f(_0xdfa0df,_0x924183);}};if(!_0x4abe83)return null;const _0x30d110=_0x4abe83[_0x2c765a(0x1b2)],_0x2c36c7=_0x4abe83[_0x2c765a(0x205)]||[],_0x5444dd=_0x2c36c7['filter'](_0x290bc0=>_0x290bc0['_side']==='L')[_0x2c765a(0x6ab)],_0x435be3=_0x2c36c7[_0x2c765a(0x427)](_0x2182ab=>_0x2182ab[_0x2c765a(0x6c1)]==='R')[_0x2c765a(0x6ab)],_0x33d012=_0x4abe83[_0x2c765a(0x1c0)]||(_0x5444dd>=_0x435be3?'L':'R'),_0x41aa3a=_0x33d012==='L'?'R':'L',_0x5afec4=snapAlignment[_0x57b3f6['id']]?.['x']??(_0x57b3f6['simX']??_0x57b3f6['x']),_0x27d690=_0x5afec4<=_0x30d110?'L':'R',_0x422034=_0x3b47e2===_0x1fd32b[_0x2c765a(0x2c1)]||_0x3b47e2===_0x2c765a(0x669)?'L':_0x1fd32b[_0x2c765a(0x407)](_0x3b47e2,_0x2c765a(0x238))||_0x1fd32b[_0x2c765a(0x72f)](_0x3b47e2,_0x2c765a(0x400))?'R':_0x27d690,_0x2b851e=_0x1fd32b['pzSjW'](_0x422034,_0x33d012),_0x312348=_0x1fd32b[_0x2c765a(0x72f)](_0x422034,_0x41aa3a);function _0x4ef35c(_0x22241b,_0x57c318){const _0xcd5159=_0x2c765a;return _0x2c36c7['find'](_0x56c471=>_0x56c471[_0xcd5159(0x6c1)]===_0x22241b&&_0x56c471['_receiverNumber']===_0x57c318)||null;}function _0x1c9d9c(_0xa1c3ef){return _0xa1c3ef?_0x425853[_0xa1c3ef['id']]:null;}function _0x1a3719(_0xb034ad){return isUnderRoute(_0xb034ad,_0x425853);}function _0x5cb7ef(_0x1cbaf2){const _0x206848=_0x2c765a;return _0x1fd32b[_0x206848(0x1c8)](isHitchRoute,_0x1cbaf2,_0x425853);}function _0x4155dd(_0x33791b){const _0x4f297c=_0x2c765a;return _0x1fd32b[_0x4f297c(0x42c)](isDeepVertical,_0x33791b,_0x425853);}const _0x202404=_0x33d012==='L'?_0x2c765a(0x3e8):_0x2c765a(0x4fb),_0x23747d=_0x1fd32b[_0x2c765a(0x16b)](_0x41aa3a,'L')?_0x1fd32b['vjjjS']:_0x2c765a(0x4fb),_0x1895e8=_0x1fd32b[_0x2c765a(0x72f)](_0x41aa3a,'L')?_0x1fd32b[_0x2c765a(0x5b4)]:_0x2c765a(0x1d1),_0x179d51=_0x1fd32b[_0x2c765a(0x16b)](_0x33d012,'L')?_0x1fd32b[_0x2c765a(0x2dd)]:'HOOK_CURL_R',_0x773ef0=_0x1fd32b['LDMTB'](_0x41aa3a,'L')?_0x1fd32b[_0x2c765a(0x746)]:'HOOK_R',_0x51a7ca=_0x33d012==='L'?_0x1fd32b['LMUOr']:_0x2c765a(0x2d8),_0x30c27b=_0x1fd32b['cAruB'](_0x33d012,'L')?_0x2c765a(0x18d):_0x2c765a(0x228),_0x388092=_0x1fd32b['qGaqu'](_0x4ef35c,_0x33d012,0x1),_0xf29bad=_0x4ef35c(_0x33d012,0x2),_0x130ecb=_0x1fd32b[_0x2c765a(0x219)](_0x4ef35c,_0x41aa3a,0x1),_0x2d7f7c=_0x4ef35c(_0x41aa3a,0x2);if(_0x3b47e2==='CB'&&_0x2b851e){if(_0xf29bad&&isFlatRoute(_0xf29bad,_0x33d012,_0x425853,_0x4abe83))return manCover(_0xf29bad['id']);if(_0x388092&&isFlatRoute(_0x388092,_0x33d012,_0x425853,_0x4abe83))return _0x1fd32b[_0x2c765a(0x1e2)](manCover,_0x388092['id']);return zoneDrop(_0x30c27b);}if((_0x1fd32b[_0x2c765a(0x16b)](_0x3b47e2,_0x1fd32b[_0x2c765a(0x2c1)])||_0x3b47e2===_0x2c765a(0x238))&&_0x2b851e){if(_0xf29bad&&isFlatRoute(_0xf29bad,_0x33d012,_0x425853,_0x4abe83))return zoneDrop(_0x179d51);return _0xf29bad?_0x1fd32b['JRwlL'](manCover,_0xf29bad['id']):_0x1fd32b[_0x2c765a(0x1e2)](zoneDrop,_0x179d51);}if(_0x3b47e2===_0x1fd32b[_0x2c765a(0x5e5)]){if(_0x388092&&_0x4155dd(_0x388092))return manCover(_0x388092['id']);return _0x1fd32b[_0x2c765a(0x3e0)](zoneDrop,_0x202404);}if(_0x1fd32b[_0x2c765a(0x57d)](_0x3b47e2,'CB')&&_0x312348){if(stickyOnce(_0x1fd32b[_0x2c765a(0x613)],!!(_0x130ecb&&_0x1fd32b[_0x2c765a(0x349)](_0x1a3719,_0x130ecb)))){if(isStickyLocked('csb_underW_cb'))persistentCovCalls[_0x2c765a(0x2c8)]=!![];return zoneDrop(_0x23747d);}if(stickyOnce(_0x1fd32b['MRjdm'],!!(_0x130ecb&&_0x5cb7ef(_0x130ecb)))){if(_0x1fd32b[_0x2c765a(0x3e0)](isStickyLocked,_0x2c765a(0x689)))persistentCovCalls[_0x2c765a(0x5ee)]=!![];return zoneDrop(_0x23747d);}return _0x130ecb?_0x1fd32b[_0x2c765a(0x219)](manCover,_0x130ecb['id'],YARD_PX*0.5):_0x1fd32b[_0x2c765a(0x677)](zoneDrop,_0x23747d);}if((_0x3b47e2===_0x2c765a(0x3e5)||_0x3b47e2==='APEX-R')&&_0x312348){if(_0x1fd32b['qGaqu'](stickyOnce,_0x1fd32b[_0x2c765a(0x28e)],!!(_0x2d7f7c&&_0x1a3719(_0x2d7f7c)))){if(isStickyLocked(_0x2c765a(0x604)))persistentCovCalls[_0x2c765a(0x2c8)]=!![];return _0x1fd32b[_0x2c765a(0x3e0)](zoneDrop,_0x1895e8);}if(persistentCovCalls['csb_smashWeak'])return _0x130ecb?manCover(_0x130ecb['id'],_0x1fd32b[_0x2c765a(0x38e)](YARD_PX,0.5)):zoneDrop(_0x1895e8);return _0x2d7f7c?manCover(_0x2d7f7c['id']):_0x1fd32b[_0x2c765a(0x677)](zoneDrop,_0x1895e8);}if(_0x1fd32b[_0x2c765a(0x6be)](_0x3b47e2,'HOOK-L')||_0x3b47e2===_0x1fd32b[_0x2c765a(0x40f)]||_0x1fd32b['LDMTB'](_0x3b47e2,_0x2c765a(0x722))){if(persistentCovCalls[_0x2c765a(0x2c8)]){const _0x16702f=getStickyTarget(_0x1fd32b['IfIJd']);if(_0x16702f)return manCover(_0x16702f);const _0x2846f0=[_0x130ecb,_0x2d7f7c]['filter'](_0x2d2b6c=>_0x2d2b6c&&_0x1a3719(_0x2d2b6c));if(_0x2846f0[_0x2c765a(0x6ab)]>0x0){const _0x33ffad=_0x2846f0[_0x2c765a(0x760)]((_0x23a73d,_0x30cfe0)=>(_0x1c9d9c(_0x23a73d)?.[_0x2c765a(0x65e)]??0x0)>=(_0x1c9d9c(_0x30cfe0)?.[_0x2c765a(0x65e)]??0x0)?_0x23a73d:_0x30cfe0);return lockStickyTarget('csb_hook_crosser',_0x33ffad['id']),manCover(_0x33ffad['id']);}}return zoneDrop(_0x773ef0);}if(_0x1fd32b[_0x2c765a(0x3ef)](_0x3b47e2,_0x1fd32b['ixBKh'])){const _0x3206dc=_0x1fd32b[_0x2c765a(0x380)](_0x1c9d9c,_0xf29bad)?.[_0x2c765a(0x65e)]??0x0,_0x1d6b75=_0x1c9d9c(_0x2d7f7c)?.[_0x2c765a(0x65e)]??0x0,_0xe3903=_0xf29bad&&_0x3206dc>=0x9,_0x10ee0c=_0x2d7f7c&&_0x1fd32b[_0x2c765a(0x34e)](_0x1d6b75,0x9);if(_0x1fd32b[_0x2c765a(0x6dc)](_0xe3903,_0x10ee0c))return _0x1fd32b[_0x2c765a(0x621)](zoneDrop,_0x1fd32b['pdfXU']);if(_0xe3903)return _0x1fd32b[_0x2c765a(0x2b2)](manCover,_0xf29bad['id']);if(_0x10ee0c)return manCover(_0x2d7f7c['id']);if(_0x388092&&isVertInsideRoute(_0x388092,_0x425853))return _0x1fd32b['kCidl'](manCover,_0x388092['id']);if(_0x130ecb&&_0x1fd32b[_0x2c765a(0x1f1)](isVertInsideRoute,_0x130ecb,_0x425853))return _0x1fd32b[_0x2c765a(0x3e0)](manCover,_0x130ecb['id']);return zoneDrop(_0x2c765a(0x259));}return null;}},'cover3-cloud-weak-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x377),'cbShade':_0x2e24de(0x377)}},'decide'(_0x42ffd0,_0x457897,_0x565e58){const _0x4d1f8b=_0x2e24de,_0x37cf57={'phFob':function(_0x114c98,_0xe12d96){return _0x114c98<=_0xe12d96;},'AOuXK':_0x4d1f8b(0x3e5),'zsChX':_0x4d1f8b(0x400),'EDXvr':function(_0x38bd5d,_0x4ed230){return _0x38bd5d===_0x4ed230;},'GHqlB':function(_0x46bee9){return _0x46bee9();},'jYoTD':function(_0x16afc1,_0x577de1){return _0x16afc1(_0x577de1);},'JqtwJ':_0x4d1f8b(0x238),'JZGyz':function(_0x20bf75,_0x25bb63){return _0x20bf75(_0x25bb63);},'AlkTw':_0x4d1f8b(0x669),'lmgZk':_0x4d1f8b(0x722),'lWWiE':_0x4d1f8b(0x259),'sxLCo':_0x4d1f8b(0x23b),'mrwcW':function(_0x40e8ef,_0x4f8622){return _0x40e8ef(_0x4f8622);},'dPAkp':function(_0x2d8e89,_0x1648c5){return _0x2d8e89>=_0x1648c5;},'uimHm':function(_0x10143e,_0x49a690){return _0x10143e===_0x49a690;},'RnFYY':_0x4d1f8b(0x3e8),'KBmtU':_0x4d1f8b(0x1d1),'KzYov':_0x4d1f8b(0x226),'XDclW':function(_0x58e8ff,_0x5da00f){return _0x58e8ff===_0x5da00f;},'qnFJv':_0x4d1f8b(0x620),'AfwfX':'FLAT_R','jAvEh':function(_0xd14dc,_0x3b1459,_0x115429){return _0xd14dc(_0x3b1459,_0x115429);},'WxvAG':function(_0x4908d7,_0x1aa7b5,_0x3fa832){return _0x4908d7(_0x1aa7b5,_0x3fa832);},'YcSyg':function(_0x31524f,_0x3732b9,_0x7a8301){return _0x31524f(_0x3732b9,_0x7a8301);}},_0x15d460=new Map();if(!_0x565e58)return _0x15d460;const _0x82f837=_0x565e58[_0x4d1f8b(0x1b2)],_0x1ff1df=_0x565e58[_0x4d1f8b(0x205)]||[],_0x3dc278=_0x565e58[_0x4d1f8b(0x479)]||null,_0x467d75=_0x1ff1df[_0x4d1f8b(0x427)](_0x457b09=>_0x457b09[_0x4d1f8b(0x6c1)]==='L')['length'],_0x20f020=_0x1ff1df['filter'](_0x156a9d=>_0x156a9d['_side']==='R')['length'],_0x416070=_0x565e58['coverageStrongSide']||(_0x37cf57[_0x4d1f8b(0x769)](_0x467d75,_0x20f020)?'L':'R'),_0x57db9c=_0x37cf57['EDXvr'](_0x416070,'L')?'R':'L',_0x3b91f6=_0x37cf57[_0x4d1f8b(0x76c)](_0x416070,'L')?'DEEP_L':_0x4d1f8b(0x4fb),_0x480440=_0x37cf57[_0x4d1f8b(0x674)](_0x57db9c,'L')?_0x37cf57[_0x4d1f8b(0x542)]:_0x4d1f8b(0x4fb),_0x4352bc=_0x416070==='L'?_0x4d1f8b(0x647):_0x37cf57['KBmtU'],_0x4db736=_0x57db9c==='L'?_0x37cf57[_0x4d1f8b(0x70f)]:_0x4d1f8b(0x198),_0x20f9c3=_0x37cf57[_0x4d1f8b(0x185)](_0x416070,'L')?_0x37cf57[_0x4d1f8b(0x767)]:'HOOK_R',_0x261481=_0x57db9c==='L'?_0x4d1f8b(0x425):_0x37cf57['AfwfX'];function _0x29908f(_0x9407ba,_0x41473b){const _0x4d2c77=_0x4d1f8b;return _0x1ff1df['find'](_0x27ad91=>_0x27ad91[_0x4d2c77(0x6c1)]===_0x9407ba&&_0x27ad91[_0x4d2c77(0x4df)]===_0x41473b)||null;}const _0x5bed77=_0x37cf57[_0x4d1f8b(0x63d)](_0x29908f,_0x416070,0x1),_0x457559=_0x37cf57[_0x4d1f8b(0x499)](_0x29908f,_0x416070,0x2),_0x2a3b03=_0x37cf57[_0x4d1f8b(0x499)](_0x29908f,_0x57db9c,0x1),_0x562070=_0x37cf57[_0x4d1f8b(0x6d4)](_0x29908f,_0x57db9c,0x2);return _0x42ffd0[_0x4d1f8b(0x29e)]((_0x95c635,_0x4d01c2)=>{const _0x57ad12=_0x4d1f8b,_0x3e696c=_0x457897[_0x57ad12(0x331)](_0x4d01c2);if(!_0x3e696c)return;const _0x435e38=_0x37cf57[_0x57ad12(0x791)](_0x3e696c['x'],_0x82f837)?'L':'R',_0xa62629=_0x95c635===_0x37cf57['AOuXK']||_0x95c635===_0x57ad12(0x669)?'L':_0x95c635==='APEX-R'||_0x95c635===_0x37cf57[_0x57ad12(0x1d2)]?'R':_0x435e38,_0x18a673=_0x37cf57[_0x57ad12(0x674)](_0xa62629,_0x416070),_0x57a061=_0xa62629===_0x57db9c;switch(_0x95c635){case _0x57ad12(0x25f):case _0x57ad12(0x4ef):_0x15d460['set'](_0x4d01c2,_0x37cf57['GHqlB'](rushDec));break;case'CB':if(_0x57a061)_0x15d460[_0x57ad12(0x590)](_0x4d01c2,_0x37cf57['jYoTD'](zoneDrop,_0x261481));if(_0x18a673)_0x15d460[_0x57ad12(0x590)](_0x4d01c2,_0x5bed77?manCover(_0x5bed77['id'],YARD_PX*0.5):zoneDrop(_0x3b91f6));break;case'APEX-L':case _0x37cf57[_0x57ad12(0x2cf)]:if(_0x57a061)_0x15d460[_0x57ad12(0x590)](_0x4d01c2,_0x562070?manCover(_0x562070['id']):_0x37cf57[_0x57ad12(0x49b)](zoneDrop,_0x4db736));if(_0x18a673)_0x15d460[_0x57ad12(0x590)](_0x4d01c2,_0x457559?manCover(_0x457559['id']):_0x37cf57[_0x57ad12(0x1de)](zoneDrop,_0x4352bc));break;case _0x37cf57[_0x57ad12(0x34f)]:case _0x57ad12(0x400):case _0x37cf57['lmgZk']:_0x15d460[_0x57ad12(0x590)](_0x4d01c2,_0x37cf57[_0x57ad12(0x1de)](zoneDrop,_0x20f9c3));break;case _0x57ad12(0x2ac):_0x15d460[_0x57ad12(0x590)](_0x4d01c2,_0x37cf57[_0x57ad12(0x1de)](zoneDrop,_0x37cf57[_0x57ad12(0x291)]));break;case _0x37cf57[_0x57ad12(0x376)]:_0x15d460[_0x57ad12(0x590)](_0x4d01c2,_0x37cf57['mrwcW'](zoneDrop,_0x480440));break;}}),_0x15d460;},'react'(_0x2527f5,_0x2b2388,_0x5ec08a,_0x195ee4){const _0x5037a6=_0x2e24de,_0x5a85c7={'oSGwE':function(_0x3f2a56,_0x201d9d,_0x39d87e){return _0x3f2a56(_0x201d9d,_0x39d87e);},'LkXpp':function(_0x276db2,_0x4018d8,_0x75016b){return _0x276db2(_0x4018d8,_0x75016b);},'dbtZA':function(_0x4e3673,_0x4ed33b){return _0x4e3673>_0x4ed33b;},'KeDnG':function(_0x29dbb1,_0x8d03ea,_0x1bef52,_0x36f641,_0x48935e){return _0x29dbb1(_0x8d03ea,_0x1bef52,_0x36f641,_0x48935e);},'tZPUp':function(_0x311048,_0x40b979,_0x1f4549){return _0x311048(_0x40b979,_0x1f4549);},'xmWUH':function(_0x2ce1d4,_0x6827a5){return _0x2ce1d4===_0x6827a5;},'YsZvw':_0x5037a6(0x3e5),'quVpf':'HOOK-L','EHblo':function(_0x4b5a36,_0x47abcd){return _0x4b5a36===_0x47abcd;},'fGsqv':_0x5037a6(0x238),'ckLXl':_0x5037a6(0x400),'hXhas':_0x5037a6(0x3e8),'vGoWZ':'DEEP_R','whdHj':function(_0x21e998,_0x34e28b){return _0x21e998===_0x34e28b;},'PBxmk':_0x5037a6(0x647),'sAYYZ':_0x5037a6(0x1d1),'HjnGE':_0x5037a6(0x226),'aQnJO':_0x5037a6(0x74b),'tydTj':_0x5037a6(0x425),'EjgXK':function(_0x592d09,_0x5df9bd,_0x6c7467){return _0x592d09(_0x5df9bd,_0x6c7467);},'uksDC':function(_0x1e82ab,_0x5cc0d3,_0x335499){return _0x1e82ab(_0x5cc0d3,_0x335499);},'mEazD':function(_0x5731c6,_0x2d46b8,_0x11d282){return _0x5731c6(_0x2d46b8,_0x11d282);},'nYAFa':function(_0x50b824,_0x3ebfb6){return _0x50b824===_0x3ebfb6;},'wnrdq':function(_0x24cd9c,_0x4a4b10){return _0x24cd9c(_0x4a4b10);},'omERd':function(_0x1bee3e,_0x3b6e14){return _0x1bee3e>_0x3b6e14;},'eGCPX':function(_0x57aca2,_0x40fd55,_0x113a10){return _0x57aca2(_0x40fd55,_0x113a10);},'EgBnu':'cw_rbWeak_wa','MndGa':function(_0x4bb4d,_0x4b7e7b){return _0x4bb4d(_0x4b7e7b);},'jKLIJ':function(_0x371bab,_0xba1d15){return _0x371bab(_0xba1d15);},'PTQZR':function(_0x17a457,_0x408794){return _0x17a457(_0x408794);},'QAnRA':function(_0x4b5786,_0x43a4fb){return _0x4b5786===_0x43a4fb;},'hAoIa':function(_0x215207,_0x180331){return _0x215207(_0x180331);},'IniSY':_0x5037a6(0x668),'JCIJR':function(_0x2a55c2,_0x564c45){return _0x2a55c2(_0x564c45);},'IsvtX':_0x5037a6(0x4a3),'EYvtx':function(_0x5c314a,_0x2be616){return _0x5c314a*_0x2be616;},'zVAjS':function(_0x5823dc,_0x41351a){return _0x5823dc(_0x41351a);},'iTVtG':function(_0x22391e,_0x3c28ec){return _0x22391e(_0x3c28ec);},'mXIru':'stopped','NOeGk':function(_0x5e70d7,_0x36cd5e){return _0x5e70d7>=_0x36cd5e;},'eVKfn':_0x5037a6(0x485),'UZtCc':function(_0x88a163,_0x232973){return _0x88a163===_0x232973;},'ELiHs':_0x5037a6(0x4c1),'oWhSw':function(_0x112c25,_0x328c3c,_0x49f6b7){return _0x112c25(_0x328c3c,_0x49f6b7);},'vtThg':function(_0xba1aaf,_0x4960db){return _0xba1aaf===_0x4960db;},'QQRfm':function(_0x593128,_0x4a29dc){return _0x593128&&_0x4a29dc;},'BdLaj':function(_0x29488f,_0x2ecced){return _0x29488f&&_0x2ecced;},'JyLvS':function(_0x417271,_0x2cddbd){return _0x417271(_0x2cddbd);},'YhtcC':'DEEP_MIDDLE'};if(!_0x5ec08a)return null;const _0xa79070=_0x5ec08a['ballX'],_0x1546e3=_0x5ec08a['eligiblePlayers']||[],_0x1d45bb=_0x5ec08a[_0x5037a6(0x479)]||null,_0x1a203c=_0x1546e3[_0x5037a6(0x427)](_0x297f32=>_0x297f32[_0x5037a6(0x6c1)]==='L')[_0x5037a6(0x6ab)],_0x2c69ae=_0x1546e3[_0x5037a6(0x427)](_0x41530a=>_0x41530a[_0x5037a6(0x6c1)]==='R')[_0x5037a6(0x6ab)],_0x1f9b97=_0x5ec08a[_0x5037a6(0x1c0)]||(_0x1a203c>=_0x2c69ae?'L':'R'),_0x54fb24=_0x5a85c7[_0x5037a6(0x745)](_0x1f9b97,'L')?'R':'L',_0x4d5aa2=snapAlignment[_0x2527f5['id']]?.['x']??(_0x2527f5[_0x5037a6(0x79d)]??_0x2527f5['x']),_0x1f6bbb=_0x4d5aa2<=_0xa79070?'L':'R',_0x9cafd3=_0x2b2388===_0x5a85c7[_0x5037a6(0x67e)]||_0x5a85c7[_0x5037a6(0x745)](_0x2b2388,_0x5a85c7[_0x5037a6(0x68a)])?'L':_0x5a85c7[_0x5037a6(0x20a)](_0x2b2388,_0x5a85c7[_0x5037a6(0x158)])||_0x2b2388===_0x5a85c7[_0x5037a6(0x23c)]?'R':_0x1f6bbb,_0xe6f0b6=_0x5a85c7[_0x5037a6(0x20a)](_0x9cafd3,_0x1f9b97),_0x534ab4=_0x5a85c7[_0x5037a6(0x745)](_0x9cafd3,_0x54fb24);function _0x4deb0f(_0x34bbf8,_0x45cfaa){const _0x804d51=_0x5037a6;return _0x1546e3[_0x804d51(0x1b9)](_0x6b26aa=>_0x6b26aa[_0x804d51(0x6c1)]===_0x34bbf8&&_0x6b26aa[_0x804d51(0x4df)]===_0x45cfaa)||null;}function _0x589543(_0x41cb24){return _0x41cb24?_0x195ee4[_0x41cb24['id']]:null;}function _0x473ddf(_0x21e9b7){const _0x5da7b6=_0x5037a6;return _0x5a85c7[_0x5da7b6(0x282)](isUnderRoute,_0x21e9b7,_0x195ee4);}function _0x589fad(_0x3a43ad){return isHitchRoute(_0x3a43ad,_0x195ee4);}function _0x102373(_0x3adc09){const _0xb20a02=_0x5037a6;return _0x5a85c7[_0xb20a02(0x32e)](isDeepVertical,_0x3adc09,_0x195ee4);}function _0x20b1d2(_0x66bf74,_0x38596d){return canReachRoute(_0x66bf74,_0x38596d,_0x195ee4);}const _0x3322f2=_0x5a85c7[_0x5037a6(0x20a)](_0x1f9b97,'L')?_0x5a85c7[_0x5037a6(0x34c)]:_0x5037a6(0x4fb),_0x3aa3ed=_0x54fb24==='L'?_0x5037a6(0x3e8):_0x5a85c7[_0x5037a6(0x14c)],_0x4944a4=_0x5a85c7[_0x5037a6(0x37e)](_0x1f9b97,'L')?_0x5a85c7['PBxmk']:_0x5a85c7[_0x5037a6(0x3c7)],_0x40cf03=_0x54fb24==='L'?_0x5a85c7['HjnGE']:_0x5037a6(0x198),_0x5beb46=_0x5a85c7[_0x5037a6(0x37e)](_0x1f9b97,'L')?_0x5037a6(0x620):_0x5a85c7[_0x5037a6(0x2f4)],_0x41e5e3=_0x54fb24==='L'?_0x5a85c7['tydTj']:'FLAT_R',_0x2e4806=_0x4deb0f(_0x1f9b97,0x1),_0x527d71=_0x4deb0f(_0x1f9b97,0x2),_0x455d18=_0x5a85c7[_0x5037a6(0x498)](_0x4deb0f,_0x54fb24,0x1),_0x21e159=_0x5a85c7[_0x5037a6(0x4ab)](_0x4deb0f,_0x54fb24,0x2),_0x35989e=_0x1d45bb?[..._0x1546e3,_0x1d45bb]:_0x1546e3;function _0x365207(_0xc0da08,_0x5d763a,_0x578646){const _0x2e2274=_0x5037a6,_0x26fc59=_0x589543(_0x1d45bb),_0x2d6042=_0x26fc59?.[_0x2e2274(0x6ae)]?.['x']??0x0,_0x584974=_0x1d45bb&&_0x26fc59?.['moveType']!=='stopped'&&!isDeepVertical(_0x1d45bb,_0x195ee4)&&(_0xc0da08==='L'?_0x2d6042<0x0:_0x5a85c7[_0x2e2274(0x732)](_0x2d6042,0x0)),_0x1bd0fd=_0x5d763a&&_0x5a85c7[_0x2e2274(0x4ae)](isFlatRoute,_0x5d763a,_0xc0da08,_0x195ee4,_0x5ec08a)&&!isDeepVertical(_0x5d763a,_0x195ee4),_0x2aef5a=_0x578646&&_0x5a85c7[_0x2e2274(0x4ae)](isFlatRoute,_0x578646,_0xc0da08,_0x195ee4,_0x5ec08a),_0x328116=_0x1d45bb&&(isFlatRoute(_0x1d45bb,_0xc0da08,_0x195ee4,_0x5ec08a)||_0x584974)&&_0x5a85c7[_0x2e2274(0x333)](_0x20b1d2,_0x2527f5,_0x1d45bb);if(_0x1bd0fd)return _0x5d763a;if(_0x2aef5a)return _0x578646;if(_0x328116)return _0x1d45bb;return null;}if(_0x2b2388==='CB'&&_0x534ab4){const _0x2d17f9=_0x365207(_0x54fb24,_0x455d18,_0x21e159);if(_0x2d17f9)return manCover(_0x2d17f9['id']);if(_0x455d18&&!_0x5a85c7[_0x5037a6(0x465)](isUnderRoute,_0x455d18,_0x195ee4))return manCover(_0x455d18['id']);return zoneDrop(_0x41e5e3);}if((_0x2b2388===_0x5037a6(0x3e5)||_0x5a85c7['nYAFa'](_0x2b2388,_0x5a85c7['fGsqv']))&&_0x534ab4){if(_0x21e159&&isFlatRoute(_0x21e159,_0x54fb24,_0x195ee4,_0x5ec08a)){if(_0x1d45bb){const _0x219a31=defensePlayers[_0x5037a6(0x57b)](_0xc8b78d=>_0xc8b78d['id']!==_0x2527f5['id']&&_0xc8b78d[_0x5037a6(0x239)]?.[_0x5037a6(0x5bb)]===_0x1d45bb['id']);if(!_0x219a31)return manCover(_0x1d45bb['id']);}return _0x5a85c7['wnrdq'](zoneDrop,_0x40cf03);}const _0x440fc5=_0x589543(_0x21e159)?.[_0x5037a6(0x65e)]??0x0,_0x2a3ff6=_0x589543(_0x1d45bb),_0x2f0686=_0x2a3ff6?.[_0x5037a6(0x6ae)]?.['x']??0x0,_0x1e7625=_0x2a3ff6?.[_0x5037a6(0x71b)]!==_0x5037a6(0x1d8),_0x33bce0=!!(_0x1d45bb&&_0x1e7625&&(_0x5a85c7[_0x5037a6(0x745)](_0x54fb24,'L')?_0x2f0686<0x0:_0x5a85c7[_0x5037a6(0x2a1)](_0x2f0686,0x0)));if(_0x21e159&&_0x440fc5>=0x9&&_0x1d45bb&&_0x5a85c7[_0x5037a6(0x2bd)](stickyOnce,_0x5a85c7[_0x5037a6(0x3f7)],_0x33bce0))return _0x5a85c7['MndGa'](manCover,_0x1d45bb['id']);if(!_0x21e159){if(_0x1d45bb){const _0x4df819=defensePlayers[_0x5037a6(0x57b)](_0x86e348=>_0x86e348['id']!==_0x2527f5['id']&&_0x86e348[_0x5037a6(0x239)]?.[_0x5037a6(0x5bb)]===_0x1d45bb['id']);if(!_0x4df819)return _0x5a85c7['wnrdq'](manCover,_0x1d45bb['id']);}return _0x5a85c7[_0x5037a6(0x232)](zoneDrop,_0x40cf03);}return manCover(_0x21e159['id']);}if(_0x2b2388===_0x5037a6(0x23b)){if(_0x455d18&&_0x5a85c7[_0x5037a6(0x19b)](_0x102373,_0x455d18))return _0x5a85c7[_0x5037a6(0x1d0)](manCover,_0x455d18['id']);return _0x5a85c7[_0x5037a6(0x36d)](zoneDrop,_0x3aa3ed);}if(_0x5a85c7[_0x5037a6(0x618)](_0x2b2388,'CB')&&_0xe6f0b6){if(stickyOnce('cw_underS_cb',!!(_0x2e4806&&_0x5a85c7[_0x5037a6(0x65a)](_0x473ddf,_0x2e4806)))){if(_0x5a85c7[_0x5037a6(0x19b)](isStickyLocked,_0x5a85c7[_0x5037a6(0x4d6)]))persistentCovCalls[_0x5037a6(0x31a)]=!![];return _0x5a85c7[_0x5037a6(0x3cc)](zoneDrop,_0x3322f2);}if(stickyOnce(_0x5a85c7[_0x5037a6(0x36f)],!!(_0x2e4806&&_0x589fad(_0x2e4806)))){if(isStickyLocked(_0x5a85c7[_0x5037a6(0x36f)]))persistentCovCalls['cw_smashStrong']=!![];return zoneDrop(_0x3322f2);}return _0x2e4806?_0x5a85c7[_0x5037a6(0x282)](manCover,_0x2e4806['id'],_0x5a85c7[_0x5037a6(0x3f0)](YARD_PX,0.5)):zoneDrop(_0x3322f2);}if((_0x2b2388===_0x5a85c7[_0x5037a6(0x67e)]||_0x5a85c7[_0x5037a6(0x37e)](_0x2b2388,_0x5037a6(0x238)))&&_0xe6f0b6){if(_0x5a85c7['mEazD'](stickyOnce,_0x5037a6(0x2b4),!!(_0x527d71&&_0x5a85c7[_0x5037a6(0x5a2)](_0x473ddf,_0x527d71)))){if(isStickyLocked('cw_underS_sa'))persistentCovCalls[_0x5037a6(0x31a)]=!![];return zoneDrop(_0x4944a4);}if(persistentCovCalls[_0x5037a6(0x213)])return _0x2e4806?manCover(_0x2e4806['id'],YARD_PX*0.5):_0x5a85c7[_0x5037a6(0x65a)](zoneDrop,_0x4944a4);const _0x3bbc80=_0x5a85c7[_0x5037a6(0x19b)](_0x589543,_0x527d71)?.[_0x5037a6(0x65e)]??0x0,_0x62f58a=_0x5a85c7[_0x5037a6(0x4bd)](_0x589543,_0x1d45bb),_0x36ed41=_0x62f58a?.['vel']?.['x']??0x0,_0x40dec4=_0x62f58a?.[_0x5037a6(0x71b)]!==_0x5a85c7['mXIru'],_0x50f12d=!!(_0x1d45bb&&_0x40dec4&&(_0x5a85c7[_0x5037a6(0x745)](_0x1f9b97,'L')?_0x36ed41<0x0:_0x36ed41>0x0));if(_0x527d71&&_0x5a85c7[_0x5037a6(0x3ad)](_0x3bbc80,0x9)&&_0x1d45bb&&stickyOnce(_0x5a85c7[_0x5037a6(0x5e6)],_0x50f12d))return manCover(_0x1d45bb['id']);return _0x527d71?manCover(_0x527d71['id']):zoneDrop(_0x4944a4);}if(_0x5a85c7[_0x5037a6(0x42b)](_0x2b2388,_0x5a85c7['quVpf'])||_0x2b2388===_0x5a85c7['ckLXl']||_0x5a85c7[_0x5037a6(0x20a)](_0x2b2388,'HOOK-M')){if(persistentCovCalls[_0x5037a6(0x31a)]){const _0x162fe2=getStickyTarget(_0x5a85c7[_0x5037a6(0x29b)]);if(_0x162fe2)return manCover(_0x162fe2);const _0x4a5c84=[_0x2e4806,_0x527d71][_0x5037a6(0x427)](_0x2bd01d=>_0x2bd01d&&_0x473ddf(_0x2bd01d));if(_0x5a85c7['omERd'](_0x4a5c84['length'],0x0)){const _0x313fc5=_0x4a5c84['reduce']((_0x39deb5,_0x532335)=>(_0x589543(_0x39deb5)?.[_0x5037a6(0x65e)]??0x0)>=(_0x589543(_0x532335)?.[_0x5037a6(0x65e)]??0x0)?_0x39deb5:_0x532335);return _0x5a85c7['oWhSw'](lockStickyTarget,_0x5a85c7['ELiHs'],_0x313fc5['id']),_0x5a85c7['jKLIJ'](manCover,_0x313fc5['id']);}}return _0x5a85c7[_0x5037a6(0x3cc)](zoneDrop,_0x5beb46);}if(_0x5a85c7[_0x5037a6(0x4ed)](_0x2b2388,_0x5037a6(0x2ac))){const _0x40f083=_0x589543(_0x527d71)?.[_0x5037a6(0x65e)]??0x0,_0x4333ca=_0x5a85c7[_0x5037a6(0x65a)](_0x589543,_0x21e159)?.['depthYards']??0x0,_0x37dbbb=_0x527d71&&_0x40f083>=0x9,_0x2233f3=_0x21e159&&_0x4333ca>=0x9;if(_0x5a85c7['QQRfm'](_0x37dbbb,_0x2233f3)){const _0xe22134=defensePlayers['some'](_0x23bd07=>_0x23bd07['id']!==_0x2527f5['id']&&_0x23bd07[_0x5037a6(0x239)]?.[_0x5037a6(0x5bb)]===_0x527d71['id']),_0x1930f0=defensePlayers[_0x5037a6(0x57b)](_0x5dda6d=>_0x5dda6d['id']!==_0x2527f5['id']&&_0x5dda6d[_0x5037a6(0x239)]?.[_0x5037a6(0x5bb)]===_0x21e159['id']);if(_0x5a85c7['BdLaj'](_0xe22134,!_0x1930f0))return _0x5a85c7[_0x5037a6(0x184)](manCover,_0x21e159['id']);if(!_0xe22134&&_0x1930f0)return _0x5a85c7[_0x5037a6(0x184)](manCover,_0x527d71['id']);return{...zoneDrop(_0x5a85c7['YhtcC']),'_midpointPlayers':[_0x527d71['id'],_0x21e159['id']]};}if(_0x37dbbb)return _0x5a85c7[_0x5037a6(0x3cc)](manCover,_0x527d71['id']);if(_0x2233f3)return _0x5a85c7[_0x5037a6(0x65a)](manCover,_0x21e159['id']);return zoneDrop(_0x5037a6(0x259));}return null;}},'tampa2-match-3x1-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x377),'cbShade':'normal'}},'decide'(_0x1c794a,_0x2c3f3d,_0xb32e27){const _0x1857fb=_0x2e24de,_0x5743b8={'KWxmv':function(_0x6cd453,_0x2c12a5){return _0x6cd453<=_0x2c12a5;},'nxxwp':'APEX-L','iaxyV':'HOOK-L','DCjtn':_0x1857fb(0x238),'KZomZ':function(_0x545e87,_0xd91200){return _0x545e87===_0xd91200;},'cDdEZ':'RUSH','ALyLl':'UNDER','pXDKl':function(_0x437e12){return _0x437e12();},'UJstk':function(_0x908a32,_0x11b8b4){return _0x908a32(_0x11b8b4);},'uJrRZ':function(_0x5d1563,_0x33ca1c){return _0x5d1563(_0x33ca1c);},'qtAFm':function(_0x4faf7b,_0x1b7a2c){return _0x4faf7b(_0x1b7a2c);},'PBiPG':_0x1857fb(0x722),'VKojK':function(_0xd84419,_0x4b0c5a){return _0xd84419(_0x4b0c5a);},'cXXIO':_0x1857fb(0x2ac),'MvxUs':function(_0x43848b,_0x11f163){return _0x43848b(_0x11f163);},'tsZJw':function(_0x38e80b,_0x24cc64){return _0x38e80b(_0x24cc64);},'hYqQc':_0x1857fb(0x2d8),'dLWLy':_0x1857fb(0x425),'ZkbLL':'HOOK_CURL_R','aGhfe':_0x1857fb(0x19e)},_0x1bd0c9=new Map();if(!_0xb32e27)return _0x1bd0c9;const _0x9da66e=_0xb32e27[_0x1857fb(0x1b2)],_0x23a8cb=_0xb32e27[_0x1857fb(0x205)]||[],_0x13ff8a=_0xb32e27['primaryBackfield']||null,_0x115a74=_0x23a8cb[_0x1857fb(0x427)](_0x3905fe=>_0x3905fe[_0x1857fb(0x6c1)]==='L')['length'],_0x22f650=_0x23a8cb['filter'](_0x181f13=>_0x181f13[_0x1857fb(0x6c1)]==='R')[_0x1857fb(0x6ab)],_0x190859=_0xb32e27[_0x1857fb(0x1c0)]||(_0x115a74>=_0x22f650?'L':'R'),_0x30dc63=_0x190859==='L'?'R':'L',_0x3d8510=_0x190859==='L'?_0x1857fb(0x425):_0x5743b8[_0x1857fb(0x338)],_0x3b7a1b=_0x30dc63==='L'?_0x5743b8[_0x1857fb(0x2c7)]:_0x5743b8[_0x1857fb(0x338)],_0x3469d4=_0x190859==='L'?_0x1857fb(0x226):_0x1857fb(0x198),_0xd3981d=_0x30dc63==='L'?_0x1857fb(0x226):_0x5743b8[_0x1857fb(0x6d2)],_0x32e768=_0x190859==='L'?_0x5743b8['aGhfe']:'DEEP_HALF_R',_0x5f1b15=_0x5743b8[_0x1857fb(0x6b9)](_0x30dc63,'L')?_0x1857fb(0x19e):_0x1857fb(0x4bb);function _0x4fc530(_0x3decfb,_0x47f8d1){const _0x525cf9=_0x1857fb;return _0x23a8cb[_0x525cf9(0x1b9)](_0x4ca1a4=>_0x4ca1a4[_0x525cf9(0x6c1)]===_0x3decfb&&_0x4ca1a4['_receiverNumber']===_0x47f8d1)||null;}const _0x545761=_0x4fc530(_0x190859,0x2);return _0x1c794a['forEach']((_0x48b2a6,_0x34a19f)=>{const _0x5449f0=_0x1857fb,_0x3c3b96=_0x2c3f3d[_0x5449f0(0x331)](_0x34a19f);if(!_0x3c3b96)return;const _0x1f5593=_0x5743b8['KWxmv'](_0x3c3b96['x'],_0x9da66e)?'L':'R',_0x32c881=_0x48b2a6===_0x5743b8['nxxwp']||_0x48b2a6===_0x5743b8[_0x5449f0(0x703)]?'L':_0x48b2a6===_0x5743b8[_0x5449f0(0x593)]||_0x5743b8['KZomZ'](_0x48b2a6,_0x5449f0(0x400))?'R':_0x1f5593,_0x383fe9=_0x32c881===_0x190859,_0x26f7c1=_0x32c881===_0x30dc63;switch(_0x48b2a6){case _0x5743b8['cDdEZ']:case _0x5743b8[_0x5449f0(0x782)]:_0x1bd0c9[_0x5449f0(0x590)](_0x34a19f,_0x5743b8[_0x5449f0(0x38f)](rushDec));break;case'CB':_0x1bd0c9[_0x5449f0(0x590)](_0x34a19f,_0x5743b8[_0x5449f0(0x4b8)](zoneDrop,_0x383fe9?_0x3d8510:_0x3b7a1b));break;case _0x5743b8[_0x5449f0(0x39e)]:case _0x5449f0(0x238):if(_0x383fe9)_0x1bd0c9[_0x5449f0(0x590)](_0x34a19f,_0x545761?manCover(_0x545761['id']):_0x5743b8['uJrRZ'](zoneDrop,_0x3469d4));if(_0x26f7c1)_0x1bd0c9[_0x5449f0(0x590)](_0x34a19f,_0x13ff8a?_0x5743b8[_0x5449f0(0x3a9)](manCover,_0x13ff8a['id']):zoneDrop(_0xd3981d));break;case _0x5743b8[_0x5449f0(0x703)]:case _0x5449f0(0x400):case _0x5743b8['PBiPG']:_0x1bd0c9[_0x5449f0(0x590)](_0x34a19f,_0x5743b8[_0x5449f0(0x181)](zoneDrop,_0x5449f0(0x259)));break;case _0x5743b8[_0x5449f0(0x268)]:_0x1bd0c9['set'](_0x34a19f,_0x5743b8[_0x5449f0(0x310)](zoneDrop,_0x32e768));break;case'SAF_W':_0x1bd0c9[_0x5449f0(0x590)](_0x34a19f,_0x5743b8['tsZJw'](zoneDrop,_0x5f1b15));break;}}),_0x1bd0c9;},'react'(_0x294b5,_0x266128,_0x37d125,_0xe9c94b){const _0x108eda=_0x2e24de,_0x172df8={'pMDXF':function(_0x2ce60d,_0x11c43f,_0x507260){return _0x2ce60d(_0x11c43f,_0x507260);},'QiDFP':function(_0xcbd944,_0x165385){return _0xcbd944===_0x165385;},'xalEr':function(_0x134047,_0x1e8417){return _0x134047===_0x1e8417;},'VaZNK':_0x108eda(0x238),'mLxid':_0x108eda(0x400),'FrAhS':function(_0x3d2869,_0x14b248){return _0x3d2869===_0x14b248;},'wdPnh':function(_0xfcf403,_0x4f1c7a){return _0xfcf403===_0x4f1c7a;},'LgjRT':_0x108eda(0x2d8),'IPqRV':_0x108eda(0x198),'MDBIL':_0x108eda(0x226),'dOqet':_0x108eda(0x19e),'lChKu':function(_0x5964e3,_0x3b00b8,_0x11fa08){return _0x5964e3(_0x3b00b8,_0x11fa08);},'PlcFW':function(_0xe6ffd7,_0x54992c,_0x4eb63c){return _0xe6ffd7(_0x54992c,_0x4eb63c);},'WSnOs':function(_0x13c8c,_0x4c9960){return _0x13c8c(_0x4c9960);},'TaFjx':function(_0x1a7c3b,_0x5ef393){return _0x1a7c3b(_0x5ef393);},'mPCau':function(_0xf4b9d7,_0x56c717,_0x33cf7c,_0x51d1f9,_0x395a76){return _0xf4b9d7(_0x56c717,_0x33cf7c,_0x51d1f9,_0x395a76);},'Ddjyo':'APEX-L','SUcuj':function(_0x4720ae,_0x31564f){return _0x4720ae(_0x31564f);},'QMVPe':function(_0x4a6382,_0x9f4d4){return _0x4a6382===_0x9f4d4;},'ODtuB':function(_0x5cdda0,_0x2aa78a){return _0x5cdda0(_0x2aa78a);},'mPPZg':function(_0x15f3cd,_0x3cea8b){return _0x15f3cd(_0x3cea8b);},'mmNOc':_0x108eda(0x259),'PtbUZ':_0x108eda(0x2ac),'mdfxV':function(_0x4f6eec,_0x35bd8d){return _0x4f6eec(_0x35bd8d);},'WZLJn':function(_0x42df51,_0xeed086){return _0x42df51(_0xeed086);},'GZjml':function(_0x5e5f1d,_0x5588c0){return _0x5e5f1d===_0x5588c0;},'sVjFJ':'SAF_W','tpXWF':function(_0x23b048,_0x3435ee){return _0x23b048(_0x3435ee);}};if(!_0x37d125)return null;const _0x1eb4f6=_0x37d125['ballX'],_0x1feb2f=_0x37d125[_0x108eda(0x205)]||[],_0x2163d9=_0x37d125[_0x108eda(0x479)]||null,_0x5aa230=_0x1feb2f[_0x108eda(0x427)](_0x54e33e=>_0x54e33e[_0x108eda(0x6c1)]==='L')[_0x108eda(0x6ab)],_0x4fc1d4=_0x1feb2f[_0x108eda(0x427)](_0x55ed7e=>_0x55ed7e['_side']==='R')[_0x108eda(0x6ab)],_0x2e6ccb=_0x37d125[_0x108eda(0x1c0)]||(_0x5aa230>=_0x4fc1d4?'L':'R'),_0x5c97b2=_0x2e6ccb==='L'?'R':'L',_0x40d401=snapAlignment[_0x294b5['id']]?.['x']??(_0x294b5[_0x108eda(0x79d)]??_0x294b5['x']),_0x1fc02f=_0x40d401<=_0x1eb4f6?'L':'R',_0x5a1fd7=_0x172df8['QiDFP'](_0x266128,_0x108eda(0x3e5))||_0x172df8['xalEr'](_0x266128,_0x108eda(0x669))?'L':_0x266128===_0x172df8[_0x108eda(0x18b)]||_0x266128===_0x172df8[_0x108eda(0x4b2)]?'R':_0x1fc02f,_0x10cd19=_0x172df8['xalEr'](_0x5a1fd7,_0x2e6ccb),_0x3ba603=_0x172df8[_0x108eda(0x635)](_0x5a1fd7,_0x5c97b2);function _0x581e88(_0x5dd5b6,_0x12a68a){const _0x17af57=_0x108eda;return _0x1feb2f[_0x17af57(0x1b9)](_0x567c7b=>_0x567c7b[_0x17af57(0x6c1)]===_0x5dd5b6&&_0x567c7b[_0x17af57(0x4df)]===_0x12a68a)||null;}function _0x16b5d9(_0xfe3976){return _0xfe3976?_0xe9c94b[_0xfe3976['id']]:null;}function _0x1ef433(_0x14129d){return _0x172df8['pMDXF'](isDeepVertical,_0x14129d,_0xe9c94b);}const _0x2c6777=_0x2e6ccb==='L'?_0x108eda(0x425):_0x108eda(0x2d8),_0x1ccbd8=_0x172df8['wdPnh'](_0x5c97b2,'L')?_0x108eda(0x425):_0x172df8['LgjRT'],_0x56d52b=_0x2e6ccb==='L'?_0x108eda(0x226):_0x172df8[_0x108eda(0x68b)],_0x9c1af4=_0x172df8[_0x108eda(0x3e3)](_0x5c97b2,'L')?_0x172df8[_0x108eda(0x24b)]:_0x172df8[_0x108eda(0x68b)],_0x3f71fa=_0x172df8['xalEr'](_0x2e6ccb,'L')?_0x108eda(0x19e):_0x108eda(0x4bb),_0x5ab482=_0x5c97b2==='L'?_0x172df8[_0x108eda(0x73d)]:_0x108eda(0x4bb),_0x5d5f18=_0x581e88(_0x2e6ccb,0x1),_0xc57bfa=_0x172df8[_0x108eda(0x430)](_0x581e88,_0x2e6ccb,0x2),_0x3649a0=_0x172df8[_0x108eda(0x162)](_0x581e88,_0x2e6ccb,0x3),_0x4f44b9=_0x172df8[_0x108eda(0x49f)](_0x581e88,_0x5c97b2,0x1),_0x24240a=_0x1feb2f;if(_0x266128==='CB'&&_0x10cd19){const _0x3e41dc=getFlatReceiver(_0x2e6ccb,_0x24240a,_0x37d125,_0xe9c94b);if(_0x3e41dc)return _0x172df8[_0x108eda(0x6ca)](manCover,_0x3e41dc['id']);return _0x172df8[_0x108eda(0x622)](zoneDrop,_0x2c6777);}if(_0x266128==='CB'&&_0x3ba603){const _0x23cc94=_0x172df8[_0x108eda(0x517)](getFlatReceiver,_0x5c97b2,_0x24240a,_0x37d125,_0xe9c94b);if(_0x23cc94)return manCover(_0x23cc94['id']);return zoneDrop(_0x1ccbd8);}if((_0x266128===_0x172df8[_0x108eda(0x605)]||_0x266128===_0x108eda(0x238))&&_0x10cd19){if(_0xc57bfa&&isFlatRoute(_0xc57bfa,_0x2e6ccb,_0xe9c94b,_0x37d125))return zoneDrop(_0x56d52b);return _0xc57bfa?_0x172df8[_0x108eda(0x6ca)](manCover,_0xc57bfa['id']):_0x172df8['SUcuj'](zoneDrop,_0x56d52b);}if((_0x172df8[_0x108eda(0x3e3)](_0x266128,_0x172df8['Ddjyo'])||_0x172df8[_0x108eda(0x47b)](_0x266128,_0x108eda(0x238)))&&_0x3ba603){if(_0x2163d9&&isFlatRoute(_0x2163d9,_0x5c97b2,_0xe9c94b,_0x37d125))return zoneDrop(_0x9c1af4);return _0x2163d9?_0x172df8[_0x108eda(0x71a)](manCover,_0x2163d9['id']):zoneDrop(_0x9c1af4);}if(_0x266128==='HOOK-L'||_0x266128===_0x172df8['mLxid']||_0x266128===_0x108eda(0x722)){if(_0x3649a0&&_0x1ef433(_0x3649a0))return _0x172df8[_0x108eda(0x287)](manCover,_0x3649a0['id']);return zoneDrop(_0x172df8[_0x108eda(0x409)]);}if(_0x172df8[_0x108eda(0x3e3)](_0x266128,_0x172df8[_0x108eda(0x55f)])){if(persistentCovCalls['t2m3x1_ssTookId']){const _0x408bdd=[..._0x1feb2f,..._0x2163d9?[_0x2163d9]:[]][_0x108eda(0x1b9)](_0xa4ca3f=>_0xa4ca3f['id']===persistentCovCalls[_0x108eda(0x405)]);return _0x408bdd?manCover(_0x408bdd['id']):_0x172df8[_0x108eda(0x794)](zoneDrop,_0x3f71fa);}if(_0x5d5f18&&_0x1ef433(_0x5d5f18))return persistentCovCalls[_0x108eda(0x405)]=_0x5d5f18['id'],_0x172df8['ODtuB'](manCover,_0x5d5f18['id']);if(_0xc57bfa&&_0x172df8['WZLJn'](_0x1ef433,_0xc57bfa))return persistentCovCalls[_0x108eda(0x405)]=_0xc57bfa['id'],_0x172df8[_0x108eda(0x6ca)](ottDec,_0xc57bfa['id']);if(_0x3649a0&&_0x1ef433(_0x3649a0))return persistentCovCalls[_0x108eda(0x405)]=_0x3649a0['id'],_0x172df8[_0x108eda(0x287)](ottDec,_0x3649a0['id']);return _0x172df8['SUcuj'](zoneDrop,_0x3f71fa);}if(_0x172df8[_0x108eda(0x64b)](_0x266128,_0x172df8[_0x108eda(0x160)])){if(persistentCovCalls['t2m3x1_fsTookId']){const _0x48fc0c=[..._0x1feb2f,..._0x2163d9?[_0x2163d9]:[]][_0x108eda(0x1b9)](_0x84bbd=>_0x84bbd['id']===persistentCovCalls[_0x108eda(0x366)]);return _0x48fc0c?_0x172df8[_0x108eda(0x794)](manCover,_0x48fc0c['id']):_0x172df8['WZLJn'](zoneDrop,_0x5ab482);}if(_0x4f44b9&&_0x172df8[_0x108eda(0x671)](_0x1ef433,_0x4f44b9))return persistentCovCalls['t2m3x1_fsTookId']=_0x4f44b9['id'],manCover(_0x4f44b9['id']);return zoneDrop(_0x5ab482);}return null;}},'tampa2-match-3x1':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x377),'cbShade':_0x2e24de(0x377)}},'decide'(_0x357f27,_0x4e1a63,_0x44a829){const _0x1f56e7=_0x2e24de,_0x54044d={'CiFXv':'APEX-L','uWcFR':'HOOK-L','jayBR':_0x1f56e7(0x400),'DhmFW':function(_0x4dbc00,_0x1c1a50){return _0x4dbc00===_0x1c1a50;},'uGbHj':'RUSH','fEAFk':function(_0x444f2a){return _0x444f2a();},'oGSrd':function(_0x33430e,_0x44ee38){return _0x33430e(_0x44ee38);},'HOmVK':function(_0x53bf90,_0x591184){return _0x53bf90(_0x591184);},'NHGYa':'HOOK-M','bmcLC':_0x1f56e7(0x259),'sMQjL':'SAF_S','XVSfl':_0x1f56e7(0x23b),'Gvarr':function(_0x4c3367,_0x4d7ec2){return _0x4c3367>=_0x4d7ec2;},'HHNDB':_0x1f56e7(0x425),'JIwPe':_0x1f56e7(0x2d8),'XBXVO':'HOOK_CURL_L','ncdhP':'HOOK_CURL_R','MZtym':_0x1f56e7(0x19e),'qObfZ':function(_0x58465d,_0x38cd17,_0x1e6890){return _0x58465d(_0x38cd17,_0x1e6890);}},_0x4ca639=new Map();if(!_0x44a829)return _0x4ca639;const _0x431d07=_0x44a829[_0x1f56e7(0x1b2)],_0x1783d5=_0x44a829['eligiblePlayers']||[],_0x8fdede=_0x44a829[_0x1f56e7(0x479)]||null,_0x249ad4=_0x1783d5['filter'](_0x26d48a=>_0x26d48a['_side']==='L')[_0x1f56e7(0x6ab)],_0xd1eaa1=_0x1783d5[_0x1f56e7(0x427)](_0x3fb83e=>_0x3fb83e[_0x1f56e7(0x6c1)]==='R')[_0x1f56e7(0x6ab)],_0x57ae27=_0x44a829['coverageStrongSide']||(_0x54044d[_0x1f56e7(0x3e4)](_0x249ad4,_0xd1eaa1)?'L':'R'),_0x356fbf=_0x57ae27==='L'?'R':'L',_0x20d348=_0x54044d[_0x1f56e7(0x46c)](_0x57ae27,'L')?_0x54044d[_0x1f56e7(0x25b)]:_0x54044d[_0x1f56e7(0x64f)],_0x2d6ed6=_0x356fbf==='L'?_0x1f56e7(0x425):_0x54044d[_0x1f56e7(0x64f)],_0x2c2225=_0x54044d[_0x1f56e7(0x46c)](_0x57ae27,'L')?_0x54044d[_0x1f56e7(0x314)]:_0x54044d['ncdhP'],_0x4be3f9=_0x356fbf==='L'?'HOOK_CURL_L':_0x54044d[_0x1f56e7(0x3b4)],_0x1358ac=_0x57ae27==='L'?_0x1f56e7(0x19e):_0x1f56e7(0x4bb),_0x292452=_0x356fbf==='L'?_0x54044d[_0x1f56e7(0x5f7)]:_0x1f56e7(0x4bb);function _0x65bf97(_0x575ab4,_0x12227b){const _0xb52f9a=_0x1f56e7;return _0x1783d5[_0xb52f9a(0x1b9)](_0x1f3f3a=>_0x1f3f3a[_0xb52f9a(0x6c1)]===_0x575ab4&&_0x1f3f3a[_0xb52f9a(0x4df)]===_0x12227b)||null;}const _0x464b26=_0x54044d[_0x1f56e7(0x197)](_0x65bf97,_0x57ae27,0x2);return _0x357f27[_0x1f56e7(0x29e)]((_0x1d6022,_0x6f0056)=>{const _0x17857f=_0x1f56e7,_0x801b7c=_0x4e1a63['get'](_0x6f0056);if(!_0x801b7c)return;const _0x131af9=_0x801b7c['x']<=_0x431d07?'L':'R',_0x47bc17=_0x1d6022===_0x54044d['CiFXv']||_0x1d6022===_0x54044d[_0x17857f(0x6a8)]?'L':_0x1d6022===_0x17857f(0x238)||_0x1d6022===_0x54044d['jayBR']?'R':_0x131af9,_0xa46f43=_0x54044d[_0x17857f(0x46c)](_0x47bc17,_0x57ae27),_0x242baa=_0x47bc17===_0x356fbf;switch(_0x1d6022){case _0x54044d[_0x17857f(0x374)]:case'UNDER':_0x4ca639[_0x17857f(0x590)](_0x6f0056,_0x54044d[_0x17857f(0x6b4)](rushDec));break;case'CB':_0x4ca639['set'](_0x6f0056,zoneDrop(_0xa46f43?_0x20d348:_0x2d6ed6));break;case _0x17857f(0x3e5):case _0x17857f(0x238):if(_0xa46f43)_0x4ca639['set'](_0x6f0056,_0x464b26?manCover(_0x464b26['id']):_0x54044d[_0x17857f(0x6e2)](zoneDrop,_0x2c2225));if(_0x242baa)_0x4ca639[_0x17857f(0x590)](_0x6f0056,_0x8fdede?manCover(_0x8fdede['id']):_0x54044d[_0x17857f(0x25c)](zoneDrop,_0x4be3f9));break;case _0x54044d['uWcFR']:case _0x54044d[_0x17857f(0x3bf)]:case _0x54044d[_0x17857f(0x2bb)]:_0x4ca639[_0x17857f(0x590)](_0x6f0056,_0x54044d[_0x17857f(0x25c)](zoneDrop,_0x54044d['bmcLC']));break;case _0x54044d['sMQjL']:_0x4ca639[_0x17857f(0x590)](_0x6f0056,zoneDrop(_0x1358ac));break;case _0x54044d[_0x17857f(0x660)]:_0x4ca639['set'](_0x6f0056,zoneDrop(_0x292452));break;}}),_0x4ca639;},'react'(_0x2282a3,_0x5a3157,_0x3eba2e,_0x1d2548){const _0x4838df=_0x2e24de,_0x73d081={'GTkOl':function(_0xbd45d8,_0x320dd1){return _0xbd45d8||_0x320dd1;},'uZepg':function(_0x3b2aa1,_0x430671){return _0x3b2aa1-_0x430671;},'jYidr':function(_0x324991,_0x519998){return _0x324991>=_0x519998;},'DediV':function(_0x266892,_0x559961){return _0x266892===_0x559961;},'euAld':_0x4838df(0x3e5),'tecZS':'HOOK-L','howdX':function(_0x2c16ff,_0x4234a2){return _0x2c16ff===_0x4234a2;},'kqrDe':_0x4838df(0x425),'bkASa':_0x4838df(0x2d8),'ryVWw':function(_0x2418ea,_0x5a022c){return _0x2418ea===_0x5a022c;},'IgzGc':_0x4838df(0x4bb),'iRAHv':function(_0x41f7cf,_0x2ba4c7,_0x3869bf){return _0x41f7cf(_0x2ba4c7,_0x3869bf);},'jxfGk':function(_0x28e086,_0x992aaa,_0x388bc5){return _0x28e086(_0x992aaa,_0x388bc5);},'Zyovy':function(_0x4c37e8,_0x699d09){return _0x4c37e8===_0x699d09;},'tYUWd':function(_0x23caaa,_0x3c76f2){return _0x23caaa(_0x3c76f2);},'BnGDt':function(_0x3c7325,_0x1c8b3c,_0x143e19,_0x111ab6,_0x8e76fe){return _0x3c7325(_0x1c8b3c,_0x143e19,_0x111ab6,_0x8e76fe);},'wWJhx':function(_0x2a079a,_0x4b9020){return _0x2a079a===_0x4b9020;},'Hjnxc':_0x4838df(0x238),'uYpII':function(_0x41fc9a,_0x35efae){return _0x41fc9a===_0x35efae;},'XHbSL':_0x4838df(0x722),'BKSTk':'t2m3_hookR3Vert','pCUDl':'DEEP_MIDDLE','llOmv':function(_0x26e98a,_0x46e805){return _0x26e98a===_0x46e805;},'fAWCm':_0x4838df(0x2ac),'CEzrj':function(_0x560977,_0x5663b8){return _0x560977(_0x5663b8);},'RAzWP':_0x4838df(0x3a2),'pCiLt':_0x4838df(0x624),'yktfM':function(_0x5e698e,_0xa8084a){return _0x5e698e(_0xa8084a);},'hkpYN':function(_0x3cd896,_0x56e1b8){return _0x3cd896(_0x56e1b8);},'UKiOU':function(_0x3b7e0e,_0x25d0f7){return _0x3b7e0e(_0x25d0f7);},'CGafQ':function(_0x4897a6,_0x55ae68,_0x4ac936){return _0x4897a6(_0x55ae68,_0x4ac936);},'nITFj':_0x4838df(0x59e),'IRkLp':function(_0x37290e,_0x5d08af){return _0x37290e(_0x5d08af);},'nmANd':function(_0x2d71f8,_0x489db1){return _0x2d71f8(_0x489db1);},'nlHsr':function(_0x53322e,_0xe47de,_0x584659){return _0x53322e(_0xe47de,_0x584659);},'UhalM':function(_0x47a9f2,_0x3c3ea9){return _0x47a9f2(_0x3c3ea9);},'ahaha':function(_0x4e99d7,_0x5d6fd3){return _0x4e99d7(_0x5d6fd3);}};if(!_0x3eba2e)return null;const _0x498f82=_0x3eba2e[_0x4838df(0x1b2)],_0x3612aa=_0x3eba2e[_0x4838df(0x205)]||[],_0x5a008d=_0x3eba2e['primaryBackfield']||null,_0x2439c5=_0x3612aa[_0x4838df(0x427)](_0x3f633f=>_0x3f633f['_side']==='L')[_0x4838df(0x6ab)],_0x28e9b2=_0x3612aa[_0x4838df(0x427)](_0x557fb4=>_0x557fb4[_0x4838df(0x6c1)]==='R')[_0x4838df(0x6ab)],_0x48c826=_0x3eba2e[_0x4838df(0x1c0)]||(_0x73d081[_0x4838df(0x359)](_0x2439c5,_0x28e9b2)?'L':'R'),_0x9eeddf=_0x73d081[_0x4838df(0x2db)](_0x48c826,'L')?'R':'L',_0x30e653=snapAlignment[_0x2282a3['id']]?.['x']??(_0x2282a3[_0x4838df(0x79d)]??_0x2282a3['x']),_0x55b164=_0x30e653<=_0x498f82?'L':'R',_0x479d34=_0x73d081[_0x4838df(0x2db)](_0x5a3157,_0x73d081[_0x4838df(0x340)])||_0x5a3157===_0x73d081[_0x4838df(0x784)]?'L':_0x73d081[_0x4838df(0x2db)](_0x5a3157,_0x4838df(0x238))||_0x5a3157===_0x4838df(0x400)?'R':_0x55b164,_0x5e3eb3=_0x73d081['howdX'](_0x479d34,_0x48c826),_0x171be2=_0x479d34===_0x9eeddf;function _0x3ab5b6(_0x4bd0b8,_0x50d6fa){const _0xb9d3ef=_0x4838df;return _0x3612aa['find'](_0x5666d5=>_0x5666d5[_0xb9d3ef(0x6c1)]===_0x4bd0b8&&_0x5666d5['_receiverNumber']===_0x50d6fa)||null;}function _0x1d8487(_0xd84c1c){return _0xd84c1c?_0x1d2548[_0xd84c1c['id']]:null;}function _0x4f03f2(_0x3fae7a){return isDeepVertical(_0x3fae7a,_0x1d2548);}const _0x3015a4=0x6;function _0x519793(_0x3e0c28,_0xfb6c43){const _0x40a67a=_0x4838df;if(_0x73d081[_0x40a67a(0x659)](!_0x3e0c28,!_0xfb6c43))return![];const _0x3805fd=_0x3e0c28[_0x40a67a(0x79d)]??_0x3e0c28['x'],_0xb432c9=_0xfb6c43[_0x40a67a(0x79d)]??_0xfb6c43['x'],_0x126ab9=Math['abs'](_0x73d081[_0x40a67a(0x1d6)](_0x3805fd,_0xb432c9))/YARD_PX;return _0x126ab9<_0x3015a4;}const _0x48c4ae=_0x48c826==='L'?_0x73d081[_0x4838df(0x43b)]:_0x73d081['bkASa'],_0x363f5b=_0x9eeddf==='L'?_0x73d081[_0x4838df(0x43b)]:_0x73d081['bkASa'],_0x38c3f7=_0x73d081['ryVWw'](_0x48c826,'L')?_0x4838df(0x226):_0x4838df(0x198),_0x1eb0af=_0x73d081[_0x4838df(0x1e0)](_0x9eeddf,'L')?_0x4838df(0x226):_0x4838df(0x198),_0x182ee4=_0x48c826==='L'?_0x4838df(0x19e):_0x73d081[_0x4838df(0x524)],_0x3eea62=_0x9eeddf==='L'?_0x4838df(0x19e):_0x73d081['IgzGc'],_0x3efc6e=_0x3ab5b6(_0x48c826,0x1),_0x314e0a=_0x73d081[_0x4838df(0x37a)](_0x3ab5b6,_0x48c826,0x2),_0x441c20=_0x73d081['jxfGk'](_0x3ab5b6,_0x48c826,0x3),_0x30b0f6=_0x3ab5b6(_0x9eeddf,0x1),_0x192136=_0x3612aa;if(_0x73d081[_0x4838df(0x32d)](_0x5a3157,'CB')&&_0x5e3eb3){const _0x55cc2f=getFlatReceiver(_0x48c826,_0x192136,_0x3eba2e,_0x1d2548);if(_0x55cc2f)return _0x73d081[_0x4838df(0x5c7)](manCover,_0x55cc2f['id']);return zoneDrop(_0x48c4ae);}if(_0x5a3157==='CB'&&_0x171be2){const _0x292157=_0x73d081[_0x4838df(0x72b)](getFlatReceiver,_0x9eeddf,_0x192136,_0x3eba2e,_0x1d2548);if(_0x292157)return manCover(_0x292157['id']);return zoneDrop(_0x363f5b);}if((_0x73d081[_0x4838df(0x510)](_0x5a3157,_0x73d081[_0x4838df(0x340)])||_0x73d081[_0x4838df(0x1e0)](_0x5a3157,_0x73d081[_0x4838df(0x6ec)]))&&_0x5e3eb3){if(_0x314e0a&&isFlatRoute(_0x314e0a,_0x48c826,_0x1d2548,_0x3eba2e))return _0x73d081['tYUWd'](zoneDrop,_0x38c3f7);return _0x314e0a?manCover(_0x314e0a['id']):_0x73d081['tYUWd'](zoneDrop,_0x38c3f7);}if((_0x5a3157===_0x73d081['euAld']||_0x5a3157===_0x73d081['Hjnxc'])&&_0x171be2){if(_0x5a008d&&_0x73d081['BnGDt'](isFlatRoute,_0x5a008d,_0x9eeddf,_0x1d2548,_0x3eba2e))return zoneDrop(_0x1eb0af);return _0x5a008d?_0x73d081[_0x4838df(0x5c7)](manCover,_0x5a008d['id']):_0x73d081[_0x4838df(0x5c7)](zoneDrop,_0x1eb0af);}if(_0x73d081[_0x4838df(0x6b2)](_0x5a3157,_0x4838df(0x669))||_0x73d081[_0x4838df(0x4b7)](_0x5a3157,_0x4838df(0x400))||_0x73d081[_0x4838df(0x6b2)](_0x5a3157,_0x73d081[_0x4838df(0x30b)])){if(persistentCovCalls[_0x4838df(0x4f2)]){const _0x18c4b0=[..._0x3612aa,..._0x5a008d?[_0x5a008d]:[]]['find'](_0x2c1aa4=>_0x2c1aa4['id']===persistentCovCalls['t2m3_hookTookId']);if(_0x18c4b0)return manCover(_0x18c4b0['id']);persistentCovCalls[_0x4838df(0x4f2)]=null;}const _0x32af6a=!!(_0x441c20&&_0x4f03f2(_0x441c20));if(stickyOnce(_0x73d081[_0x4838df(0x1e7)],_0x32af6a)&&(isStickyLocked(_0x4838df(0x1c4))||_0x32af6a)&&_0x73d081[_0x4838df(0x37a)](_0x519793,_0x2282a3,_0x441c20))return persistentCovCalls['t2m3_hookTookId']=_0x441c20['id'],manCover(_0x441c20['id']);return _0x73d081['tYUWd'](zoneDrop,_0x73d081[_0x4838df(0x507)]);}if(_0x73d081[_0x4838df(0x40e)](_0x5a3157,_0x73d081[_0x4838df(0x265)])){if(persistentCovCalls[_0x4838df(0x592)]){const _0x1a83e3=[..._0x3612aa,..._0x5a008d?[_0x5a008d]:[]][_0x4838df(0x1b9)](_0x554e0f=>_0x554e0f['id']===persistentCovCalls[_0x4838df(0x592)]);if(_0x1a83e3){if(_0x73d081[_0x4838df(0x2db)](persistentCovCalls[_0x4838df(0x583)],_0x4838df(0x172)))return _0x73d081[_0x4838df(0x58d)](ottDec,_0x1a83e3['id']);return manCover(_0x1a83e3['id']);}persistentCovCalls[_0x4838df(0x592)]=null,persistentCovCalls['t2m3_ssTookKind']=null;}const _0x3fe4e4=!!(_0x3efc6e&&_0x73d081['CEzrj'](_0x4f03f2,_0x3efc6e));if(stickyOnce(_0x4838df(0x3a2),_0x3fe4e4)&&(isStickyLocked(_0x73d081['RAzWP'])||_0x3fe4e4)&&_0x519793(_0x2282a3,_0x3efc6e))return persistentCovCalls[_0x4838df(0x592)]=_0x3efc6e['id'],persistentCovCalls[_0x4838df(0x583)]=_0x73d081['pCiLt'],manCover(_0x3efc6e['id']);const _0x8625e6=!!(_0x314e0a&&_0x73d081['yktfM'](_0x4f03f2,_0x314e0a)&&!_0x3fe4e4);if(stickyOnce(_0x4838df(0x2fe),_0x8625e6)&&(_0x73d081[_0x4838df(0x6cd)](isStickyLocked,_0x4838df(0x2fe))||_0x8625e6)&&_0x519793(_0x2282a3,_0x314e0a))return persistentCovCalls[_0x4838df(0x592)]=_0x314e0a['id'],persistentCovCalls['t2m3_ssTookKind']=_0x4838df(0x172),ottDec(_0x314e0a['id']);const _0x3fb8e0=!!(_0x441c20&&_0x73d081['UKiOU'](_0x4f03f2,_0x441c20)&&!_0x3fe4e4&&!(_0x314e0a&&_0x4f03f2(_0x314e0a)));if(_0x73d081['CGafQ'](stickyOnce,'t2m3_ssR3OTT',_0x3fb8e0)&&(isStickyLocked(_0x73d081[_0x4838df(0x1ff)])||_0x3fb8e0)&&_0x519793(_0x2282a3,_0x441c20))return persistentCovCalls['t2m3_ssTookId']=_0x441c20['id'],persistentCovCalls[_0x4838df(0x583)]=_0x4838df(0x172),_0x73d081[_0x4838df(0x2c5)](ottDec,_0x441c20['id']);return _0x73d081[_0x4838df(0x706)](zoneDrop,_0x182ee4);}if(_0x5a3157==='SAF_W'){if(persistentCovCalls[_0x4838df(0x651)]){const _0x53a13a=[..._0x3612aa,..._0x5a008d?[_0x5a008d]:[]][_0x4838df(0x1b9)](_0x2dd65c=>_0x2dd65c['id']===persistentCovCalls[_0x4838df(0x651)]);if(_0x53a13a)return manCover(_0x53a13a['id']);persistentCovCalls[_0x4838df(0x651)]=null;}const _0x1ea350=!!(_0x30b0f6&&_0x4f03f2(_0x30b0f6));if(_0x73d081[_0x4838df(0x2f2)](stickyOnce,_0x4838df(0x26f),_0x1ea350)&&(_0x73d081[_0x4838df(0x706)](isStickyLocked,'t2m3_fsR1Vert')||_0x1ea350)&&_0x73d081['CGafQ'](_0x519793,_0x2282a3,_0x30b0f6))return persistentCovCalls[_0x4838df(0x651)]=_0x30b0f6['id'],_0x73d081[_0x4838df(0x21d)](manCover,_0x30b0f6['id']);return _0x73d081[_0x4838df(0x45e)](zoneDrop,_0x3eea62);}return null;}},'invert2-2x2':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x39e392,_0x471ff3,_0x3c6567){const _0x5392fb=_0x2e24de,_0x3f7dc5={'whHfG':function(_0x28b99b,_0x445296){return _0x28b99b<=_0x445296;},'dbRyp':function(_0x2c10ac,_0x1f6494){return _0x2c10ac===_0x1f6494;},'BxLpO':_0x5392fb(0x3e5),'QnmCX':'HOOK-L','khIpj':function(_0x544e67,_0x43efc5){return _0x544e67===_0x43efc5;},'inKiS':_0x5392fb(0x238),'ugyyE':'RUSH','hjoxv':function(_0x1a103e){return _0x1a103e();},'nXCtU':function(_0x180d7c,_0x318c27){return _0x180d7c(_0x318c27);},'okMZk':function(_0x65f95a,_0x1b2c1b){return _0x65f95a(_0x1b2c1b);},'XkzoQ':function(_0xed0efc,_0x2cc6f4){return _0xed0efc(_0x2cc6f4);},'WJpSL':_0x5392fb(0x722),'NKyFi':function(_0x27bac7,_0x33035c){return _0x27bac7(_0x33035c);},'bHuOj':_0x5392fb(0x23b),'ckeBl':'DEEP_HALF_R','fjUQt':_0x5392fb(0x2d8),'cUISg':_0x5392fb(0x425),'qcPQJ':function(_0x39c5b7,_0xc3ba2,_0x423f00){return _0x39c5b7(_0xc3ba2,_0x423f00);}},_0x3ff9cc=new Map();if(!_0x3c6567)return _0x3ff9cc;const _0x725189=_0x3c6567['ballX'],_0x25b3d5=_0x3c6567[_0x5392fb(0x205)]||[],_0x634f21=_0x25b3d5[_0x5392fb(0x427)](_0x1461da=>_0x1461da[_0x5392fb(0x6c1)]==='L')[_0x5392fb(0x6ab)],_0x1adaaa=_0x25b3d5[_0x5392fb(0x427)](_0x25342d=>_0x25342d[_0x5392fb(0x6c1)]==='R')[_0x5392fb(0x6ab)],_0x14c234=_0x3c6567[_0x5392fb(0x1c0)]||(_0x634f21>=_0x1adaaa?'L':'R'),_0x5958ac=_0x14c234==='L'?'R':'L',_0x49af98=_0x3f7dc5[_0x5392fb(0x711)](_0x14c234,'L')?_0x5392fb(0x19e):_0x3f7dc5[_0x5392fb(0x724)],_0x4689d2=_0x3f7dc5['khIpj'](_0x5958ac,'L')?'DEEP_HALF_L':_0x3f7dc5[_0x5392fb(0x724)],_0x31450c=_0x14c234==='L'?_0x5392fb(0x425):_0x3f7dc5[_0x5392fb(0x285)],_0x42ad2a=_0x3f7dc5['khIpj'](_0x5958ac,'L')?_0x3f7dc5[_0x5392fb(0x2aa)]:_0x5392fb(0x2d8),_0x55c89f=_0x14c234==='L'?_0x5392fb(0x226):_0x5392fb(0x198),_0x3efa3a=_0x5958ac==='L'?'HOOK_CURL_L':_0x5392fb(0x198);function _0x40ce43(_0x5a01ba,_0x3518a2){const _0x3ea297=_0x5392fb;return _0x25b3d5[_0x3ea297(0x1b9)](_0x23f201=>_0x23f201[_0x3ea297(0x6c1)]===_0x5a01ba&&_0x23f201[_0x3ea297(0x4df)]===_0x3518a2)||null;}const _0x1f4f66=_0x3f7dc5[_0x5392fb(0x58f)](_0x40ce43,_0x14c234,0x2),_0x4019c5=_0x40ce43(_0x5958ac,0x2);return _0x39e392['forEach']((_0x5515d4,_0x1e7034)=>{const _0x59fbc2=_0x5392fb,_0x249bce=_0x471ff3[_0x59fbc2(0x331)](_0x1e7034);if(!_0x249bce)return;const _0xbe045c=_0x3f7dc5[_0x59fbc2(0x564)](_0x249bce['x'],_0x725189)?'L':'R',_0x4ce3bd=_0x3f7dc5['dbRyp'](_0x5515d4,_0x3f7dc5['BxLpO'])||_0x5515d4===_0x3f7dc5[_0x59fbc2(0x743)]?'L':_0x3f7dc5[_0x59fbc2(0x227)](_0x5515d4,_0x3f7dc5[_0x59fbc2(0x6d5)])||_0x3f7dc5['dbRyp'](_0x5515d4,_0x59fbc2(0x400))?'R':_0xbe045c,_0x568c50=_0x4ce3bd===_0x14c234;switch(_0x5515d4){case _0x3f7dc5[_0x59fbc2(0x2af)]:case _0x59fbc2(0x4ef):_0x3ff9cc['set'](_0x1e7034,_0x3f7dc5[_0x59fbc2(0x4ce)](rushDec));break;case'CB':_0x3ff9cc[_0x59fbc2(0x590)](_0x1e7034,_0x3f7dc5[_0x59fbc2(0x41c)](zoneDrop,_0x568c50?_0x49af98:_0x4689d2));break;case _0x59fbc2(0x3e5):case _0x3f7dc5['inKiS']:if(_0x568c50)_0x3ff9cc[_0x59fbc2(0x590)](_0x1e7034,_0x1f4f66?manCover(_0x1f4f66['id']):_0x3f7dc5[_0x59fbc2(0x4e9)](zoneDrop,_0x55c89f));else _0x3ff9cc['set'](_0x1e7034,_0x4019c5?manCover(_0x4019c5['id']):_0x3f7dc5[_0x59fbc2(0x199)](zoneDrop,_0x3efa3a));break;case _0x3f7dc5[_0x59fbc2(0x743)]:case _0x59fbc2(0x400):case _0x3f7dc5[_0x59fbc2(0x177)]:_0x3ff9cc[_0x59fbc2(0x590)](_0x1e7034,zoneDrop(_0x59fbc2(0x259)));break;case _0x59fbc2(0x2ac):_0x3ff9cc[_0x59fbc2(0x590)](_0x1e7034,_0x3f7dc5['NKyFi'](zoneDrop,_0x31450c));break;case _0x3f7dc5[_0x59fbc2(0x175)]:_0x3ff9cc[_0x59fbc2(0x590)](_0x1e7034,zoneDrop(_0x42ad2a));break;}}),_0x3ff9cc;},'react'(_0x24ecb2,_0x311dd2,_0x4e692f,_0x23fe60){const _0x444b07=_0x2e24de,_0x3c9951={'gcDjR':function(_0x4468fe,_0x414615){return _0x4468fe>=_0x414615;},'sPrOZ':function(_0x32f153,_0x53c0ce){return _0x32f153<=_0x53c0ce;},'sTyii':function(_0x5c58d8,_0x19d1f2){return _0x5c58d8===_0x19d1f2;},'amHir':function(_0x33f84d,_0x5e8eda){return _0x33f84d===_0x5e8eda;},'LuyYD':_0x444b07(0x400),'PJgzP':_0x444b07(0x4bb),'LJbrS':_0x444b07(0x19e),'VElYL':function(_0x49aaa5,_0x443bef){return _0x49aaa5===_0x443bef;},'PtEyJ':_0x444b07(0x2d8),'cfrhd':_0x444b07(0x425),'YiIFK':_0x444b07(0x226),'kpjpL':_0x444b07(0x198),'LdxFZ':function(_0x200434,_0x5542c6,_0x5c632b){return _0x200434(_0x5542c6,_0x5c632b);},'iylyI':function(_0xc325ad,_0x455540){return _0xc325ad===_0x455540;},'zbjKZ':function(_0x36e071,_0x22d567){return _0x36e071(_0x22d567);},'RTKLU':function(_0x3fff65,_0x3746a4){return _0x3fff65===_0x3746a4;},'ZWedB':function(_0x591f8d,_0xd31d6){return _0x591f8d===_0xd31d6;},'qKRlh':function(_0x4e8876,_0x2e8e2e){return _0x4e8876(_0x2e8e2e);},'wJZnq':function(_0x54a15a,_0x49ea38){return _0x54a15a(_0x49ea38);},'MuYRD':function(_0x1fdee0,_0x26af0f){return _0x1fdee0(_0x26af0f);},'UVhQW':function(_0x5882ba,_0x52b922){return _0x5882ba===_0x52b922;},'ccNhE':_0x444b07(0x3e5),'RLOMC':_0x444b07(0x238),'KgKjw':'HOOK-M','aqqkG':function(_0x5a28fd,_0x26c6be){return _0x5a28fd===_0x26c6be;},'XxhTN':_0x444b07(0x2ac),'NGIKt':function(_0x4a9eee,_0x369c9e,_0x39a447,_0x30a994,_0x288d75){return _0x4a9eee(_0x369c9e,_0x39a447,_0x30a994,_0x288d75);},'sebSs':function(_0x5398b7,_0x51bd87){return _0x5398b7(_0x51bd87);},'errJk':_0x444b07(0x23b)};if(!_0x4e692f)return null;const _0x3e21a8=_0x4e692f[_0x444b07(0x1b2)],_0x27325c=_0x4e692f[_0x444b07(0x205)]||[],_0x1d4395=_0x27325c[_0x444b07(0x427)](_0x215190=>_0x215190[_0x444b07(0x6c1)]==='L')[_0x444b07(0x6ab)],_0x355df4=_0x27325c[_0x444b07(0x427)](_0x543d2c=>_0x543d2c['_side']==='R')[_0x444b07(0x6ab)],_0x2a53f6=_0x4e692f[_0x444b07(0x1c0)]||(_0x3c9951['gcDjR'](_0x1d4395,_0x355df4)?'L':'R'),_0x445b75=_0x2a53f6==='L'?'R':'L',_0x326dd3=snapAlignment[_0x24ecb2['id']]?.['x']??(_0x24ecb2['simX']??_0x24ecb2['x']),_0x170870=_0x3c9951[_0x444b07(0x3ee)](_0x326dd3,_0x3e21a8)?'L':'R',_0x188842=_0x3c9951[_0x444b07(0x4e7)](_0x311dd2,'APEX-L')||_0x311dd2===_0x444b07(0x669)?'L':_0x3c9951[_0x444b07(0x4d2)](_0x311dd2,_0x444b07(0x238))||_0x311dd2===_0x3c9951[_0x444b07(0x2d7)]?'R':_0x170870,_0x4a1db0=_0x188842===_0x2a53f6,_0x4ee677=_0x188842===_0x445b75;function _0x52703e(_0x502171,_0x50c65c){const _0x43ee31=_0x444b07;return _0x27325c[_0x43ee31(0x1b9)](_0x573477=>_0x573477['_side']===_0x502171&&_0x573477[_0x43ee31(0x4df)]===_0x50c65c)||null;}function _0x70c823(_0x6765d7){return _0x6765d7?_0x23fe60[_0x6765d7['id']]:null;}function _0x2be3f7(_0x5727ac){return isDeepVertical(_0x5727ac,_0x23fe60);}const _0x37c802=_0x3c9951[_0x444b07(0x4d2)](_0x2a53f6,'L')?_0x444b07(0x19e):_0x3c9951[_0x444b07(0x4fd)],_0x5b87d4=_0x3c9951[_0x444b07(0x4d2)](_0x445b75,'L')?_0x3c9951['LJbrS']:_0x444b07(0x4bb),_0x4ec837=_0x3c9951['VElYL'](_0x2a53f6,'L')?'FLAT_L':_0x3c9951[_0x444b07(0x316)],_0xb38402=_0x3c9951[_0x444b07(0x4d2)](_0x445b75,'L')?_0x3c9951[_0x444b07(0x17f)]:_0x3c9951['PtEyJ'],_0x393e84=_0x2a53f6==='L'?_0x444b07(0x226):_0x444b07(0x198),_0x2a1f1e=_0x445b75==='L'?_0x3c9951[_0x444b07(0x649)]:_0x3c9951[_0x444b07(0x5ce)],_0x29495f=_0x52703e(_0x2a53f6,0x1),_0xb254ba=_0x3c9951[_0x444b07(0x5d1)](_0x52703e,_0x2a53f6,0x2),_0x49c63b=_0x52703e(_0x445b75,0x1),_0x27e587=_0x3c9951[_0x444b07(0x5d1)](_0x52703e,_0x445b75,0x2),_0xe56202=_0x27325c;if(_0x3c9951[_0x444b07(0x29d)](_0x311dd2,'CB')&&_0x4a1db0){if(_0x29495f&&_0x3c9951[_0x444b07(0x740)](_0x2be3f7,_0x29495f))return _0x3c9951[_0x444b07(0x740)](manCover,_0x29495f['id']);if(_0xb254ba&&_0x2be3f7(_0xb254ba))return ottDec(_0xb254ba['id']);return _0x3c9951[_0x444b07(0x740)](zoneDrop,_0x37c802);}if(_0x3c9951[_0x444b07(0x275)](_0x311dd2,'CB')&&_0x4ee677){if(_0x49c63b&&_0x3c9951['zbjKZ'](_0x2be3f7,_0x49c63b))return manCover(_0x49c63b['id']);if(_0x27e587&&_0x2be3f7(_0x27e587))return ottDec(_0x27e587['id']);return zoneDrop(_0x5b87d4);}if((_0x311dd2===_0x444b07(0x3e5)||_0x3c9951[_0x444b07(0x1aa)](_0x311dd2,_0x444b07(0x238)))&&_0x4a1db0){if(_0xb254ba&&isFlatRoute(_0xb254ba,_0x2a53f6,_0x23fe60,_0x4e692f))return _0x3c9951[_0x444b07(0x368)](zoneDrop,_0x393e84);return _0xb254ba?_0x3c9951[_0x444b07(0x4cb)](manCover,_0xb254ba['id']):_0x3c9951[_0x444b07(0x2ad)](zoneDrop,_0x393e84);}if((_0x3c9951[_0x444b07(0x75e)](_0x311dd2,_0x3c9951[_0x444b07(0x26e)])||_0x311dd2===_0x3c9951[_0x444b07(0x38d)])&&_0x4ee677){if(_0x27e587&&isFlatRoute(_0x27e587,_0x445b75,_0x23fe60,_0x4e692f))return zoneDrop(_0x2a1f1e);return _0x27e587?manCover(_0x27e587['id']):zoneDrop(_0x2a1f1e);}if(_0x311dd2===_0x444b07(0x669)||_0x311dd2===_0x444b07(0x400)||_0x311dd2===_0x3c9951[_0x444b07(0x1cf)])return zoneDrop(_0x444b07(0x259));if(_0x3c9951['aqqkG'](_0x311dd2,_0x3c9951['XxhTN'])){const _0x21c6e0=_0x3c9951[_0x444b07(0x27d)](getFlatReceiver,_0x2a53f6,_0xe56202,_0x4e692f,_0x23fe60);if(_0x21c6e0)return manCover(_0x21c6e0['id']);return _0x3c9951['sebSs'](zoneDrop,_0x4ec837);}if(_0x311dd2===_0x3c9951[_0x444b07(0x50e)]){const _0x582c7e=_0x3c9951['NGIKt'](getFlatReceiver,_0x445b75,_0xe56202,_0x4e692f,_0x23fe60);if(_0x582c7e)return _0x3c9951[_0x444b07(0x1ce)](manCover,_0x582c7e['id']);return zoneDrop(_0xb38402);}return null;}},'invert2-3x1':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':'normal'}},'decide'(_0x46fa05,_0x4fc89a,_0x4ee5b6){const _0x1c3fff=_0x2e24de,_0x8c3f0e={'QIusR':function(_0x35a2b8,_0x486ae5){return _0x35a2b8<=_0x486ae5;},'PrKtQ':_0x1c3fff(0x3e5),'pNflF':function(_0x9ccb1e,_0x56ec83){return _0x9ccb1e===_0x56ec83;},'yUbqc':_0x1c3fff(0x669),'FsDiE':'APEX-R','YaiXR':function(_0x4554a3,_0xf57c26){return _0x4554a3===_0xf57c26;},'eSEJW':_0x1c3fff(0x400),'VcDZp':function(_0x313a0e){return _0x313a0e();},'HHQOb':function(_0x1e0765,_0x4fcb4d){return _0x1e0765(_0x4fcb4d);},'SOnXV':function(_0x563303,_0x4f0501){return _0x563303(_0x4f0501);},'qYGLu':'SAF_W','kwTcV':function(_0x173216,_0x3109d1){return _0x173216>=_0x3109d1;},'PymFj':_0x1c3fff(0x19e),'ROWEb':function(_0x104f70,_0x3eea68){return _0x104f70===_0x3eea68;},'NRUZG':function(_0xbff6c7,_0x4e9736){return _0xbff6c7===_0x4e9736;},'LuPma':_0x1c3fff(0x425),'bllwY':function(_0x1fcc80,_0x2867e9){return _0x1fcc80===_0x2867e9;},'htuMo':_0x1c3fff(0x226),'kVSQj':_0x1c3fff(0x198)},_0x4421b8=new Map();if(!_0x4ee5b6)return _0x4421b8;const _0x27663f=_0x4ee5b6[_0x1c3fff(0x1b2)],_0x541b70=_0x4ee5b6[_0x1c3fff(0x205)]||[],_0x52bec9=_0x4ee5b6[_0x1c3fff(0x479)]||null,_0x162ea5=_0x541b70[_0x1c3fff(0x427)](_0x23c1f5=>_0x23c1f5['_side']==='L')[_0x1c3fff(0x6ab)],_0x4a30ca=_0x541b70[_0x1c3fff(0x427)](_0x338bb3=>_0x338bb3[_0x1c3fff(0x6c1)]==='R')[_0x1c3fff(0x6ab)],_0x230238=_0x4ee5b6[_0x1c3fff(0x1c0)]||(_0x8c3f0e['kwTcV'](_0x162ea5,_0x4a30ca)?'L':'R'),_0x696bb0=_0x230238==='L'?'R':'L',_0x45af98=_0x230238==='L'?_0x8c3f0e[_0x1c3fff(0x360)]:_0x1c3fff(0x4bb),_0x4fe093=_0x8c3f0e[_0x1c3fff(0x22a)](_0x696bb0,'L')?_0x1c3fff(0x19e):_0x1c3fff(0x4bb),_0x5b70df=_0x8c3f0e[_0x1c3fff(0x2de)](_0x230238,'L')?_0x8c3f0e[_0x1c3fff(0x256)]:_0x1c3fff(0x2d8),_0x4a9469=_0x8c3f0e[_0x1c3fff(0x6d9)](_0x696bb0,'L')?_0x8c3f0e[_0x1c3fff(0x256)]:_0x1c3fff(0x2d8),_0x4165b4=_0x230238==='L'?_0x8c3f0e[_0x1c3fff(0x2cd)]:_0x8c3f0e[_0x1c3fff(0x65d)],_0x36b68d=_0x696bb0==='L'?'HOOK_CURL_L':_0x1c3fff(0x198);function _0x59a71e(_0x12c648,_0x4d5068){const _0x36b7de=_0x1c3fff;return _0x541b70[_0x36b7de(0x1b9)](_0x35c55d=>_0x35c55d[_0x36b7de(0x6c1)]===_0x12c648&&_0x35c55d[_0x36b7de(0x4df)]===_0x4d5068)||null;}const _0x458d08=_0x59a71e(_0x230238,0x2);return _0x46fa05[_0x1c3fff(0x29e)]((_0x2b8007,_0xad2d15)=>{const _0x508162=_0x1c3fff,_0x22d4e5=_0x4fc89a[_0x508162(0x331)](_0xad2d15);if(!_0x22d4e5)return;const _0x1d2883=_0x8c3f0e[_0x508162(0x61e)](_0x22d4e5['x'],_0x27663f)?'L':'R',_0x4894ce=_0x2b8007===_0x8c3f0e[_0x508162(0x50d)]||_0x8c3f0e[_0x508162(0x5a6)](_0x2b8007,_0x8c3f0e[_0x508162(0x776)])?'L':_0x2b8007===_0x8c3f0e[_0x508162(0x34a)]||_0x8c3f0e[_0x508162(0x603)](_0x2b8007,_0x8c3f0e[_0x508162(0x594)])?'R':_0x1d2883,_0x598535=_0x8c3f0e[_0x508162(0x603)](_0x4894ce,_0x230238);switch(_0x2b8007){case _0x508162(0x25f):case _0x508162(0x4ef):_0x4421b8[_0x508162(0x590)](_0xad2d15,_0x8c3f0e[_0x508162(0x5a3)](rushDec));break;case'CB':_0x4421b8[_0x508162(0x590)](_0xad2d15,_0x8c3f0e[_0x508162(0x544)](zoneDrop,_0x598535?_0x45af98:_0x4fe093));break;case _0x8c3f0e['PrKtQ']:case _0x508162(0x238):if(_0x598535)_0x4421b8[_0x508162(0x590)](_0xad2d15,_0x458d08?_0x8c3f0e[_0x508162(0x544)](manCover,_0x458d08['id']):_0x8c3f0e[_0x508162(0x544)](zoneDrop,_0x4165b4));else _0x4421b8[_0x508162(0x590)](_0xad2d15,_0x52bec9?_0x8c3f0e['SOnXV'](manCover,_0x52bec9['id']):zoneDrop(_0x36b68d));break;case _0x508162(0x669):case _0x8c3f0e[_0x508162(0x594)]:case _0x508162(0x722):_0x4421b8['set'](_0xad2d15,zoneDrop('DEEP_MIDDLE'));break;case _0x508162(0x2ac):_0x4421b8[_0x508162(0x590)](_0xad2d15,zoneDrop(_0x5b70df));break;case _0x8c3f0e[_0x508162(0x5ec)]:_0x4421b8[_0x508162(0x590)](_0xad2d15,zoneDrop(_0x4a9469));break;}}),_0x4421b8;},'react'(_0x302833,_0x1b2c49,_0x52fdc4,_0x492ff){const _0x568aa5=_0x2e24de,_0x96ba7e={'hxDzs':function(_0x1583a9,_0x1eaac5){return _0x1583a9>=_0x1eaac5;},'iYfkO':function(_0x2ab452,_0x353d01){return _0x2ab452===_0x353d01;},'japbk':'HOOK-L','aRFVp':_0x568aa5(0x238),'WqRdh':function(_0x35b2e8,_0x108bd3){return _0x35b2e8===_0x108bd3;},'YYoOJ':_0x568aa5(0x400),'untuW':function(_0x4c3a40,_0x409bcf){return _0x4c3a40===_0x409bcf;},'TCZCf':'DEEP_HALF_R','AzcVU':'DEEP_HALF_L','UQBYL':function(_0x3dee19,_0x79e57d){return _0x3dee19===_0x79e57d;},'xgRRi':_0x568aa5(0x425),'zVxrH':_0x568aa5(0x2d8),'aQLSl':function(_0x29e3ae,_0x2691fa){return _0x29e3ae===_0x2691fa;},'aNnBu':_0x568aa5(0x226),'bAFfR':_0x568aa5(0x198),'Onvyg':function(_0x4e251b,_0x3f12da,_0x32e7d2){return _0x4e251b(_0x3f12da,_0x32e7d2);},'GjzaW':function(_0x3c9593,_0x538d35){return _0x3c9593(_0x538d35);},'FcHRZ':function(_0x38c758,_0x4e8483){return _0x38c758(_0x4e8483);},'rTtZj':function(_0x1f5d55,_0x3c43a6){return _0x1f5d55(_0x3c43a6);},'zxWdO':function(_0xc9caf5,_0x4a2366){return _0xc9caf5===_0x4a2366;},'vCNdN':_0x568aa5(0x3e5),'RNEHn':function(_0x5ed945,_0x134e82){return _0x5ed945(_0x134e82);},'aMsSs':function(_0x206323,_0x3e53b5){return _0x206323===_0x3e53b5;},'aiaGv':function(_0x5381b4,_0x88af11,_0x1f080f,_0x1f3f9d,_0x7c2245){return _0x5381b4(_0x88af11,_0x1f080f,_0x1f3f9d,_0x7c2245);},'gOMPy':function(_0x4b878c,_0x5b3ad2){return _0x4b878c(_0x5b3ad2);},'fxguX':_0x568aa5(0x259),'MNpfO':_0x568aa5(0x2ac),'zagZU':function(_0x473e57,_0x4f2f45){return _0x473e57(_0x4f2f45);},'BYMru':function(_0x300a3f,_0x50e736){return _0x300a3f===_0x50e736;},'euqOp':_0x568aa5(0x23b),'AKRhH':function(_0x14752d,_0x4e749f){return _0x14752d(_0x4e749f);}};if(!_0x52fdc4)return null;const _0x1ebee7=_0x52fdc4[_0x568aa5(0x1b2)],_0xa8bf7=_0x52fdc4['eligiblePlayers']||[],_0x314d34=_0x52fdc4[_0x568aa5(0x479)]||null,_0x876ab7=_0xa8bf7[_0x568aa5(0x427)](_0x56f9d0=>_0x56f9d0[_0x568aa5(0x6c1)]==='L')['length'],_0xfc03ff=_0xa8bf7[_0x568aa5(0x427)](_0x37fee1=>_0x37fee1[_0x568aa5(0x6c1)]==='R')[_0x568aa5(0x6ab)],_0x26caa1=_0x52fdc4[_0x568aa5(0x1c0)]||(_0x96ba7e[_0x568aa5(0x697)](_0x876ab7,_0xfc03ff)?'L':'R'),_0x41a362=_0x26caa1==='L'?'R':'L',_0x4173e3=snapAlignment[_0x302833['id']]?.['x']??(_0x302833[_0x568aa5(0x79d)]??_0x302833['x']),_0x3e8307=_0x4173e3<=_0x1ebee7?'L':'R',_0x34037d=_0x96ba7e[_0x568aa5(0x14f)](_0x1b2c49,_0x568aa5(0x3e5))||_0x1b2c49===_0x96ba7e[_0x568aa5(0x2e3)]?'L':_0x96ba7e[_0x568aa5(0x14f)](_0x1b2c49,_0x96ba7e[_0x568aa5(0x41d)])||_0x96ba7e[_0x568aa5(0x276)](_0x1b2c49,_0x96ba7e['YYoOJ'])?'R':_0x3e8307,_0x4785c3=_0x96ba7e[_0x568aa5(0x276)](_0x34037d,_0x26caa1),_0x2f41e0=_0x96ba7e[_0x568aa5(0x449)](_0x34037d,_0x41a362);function _0x20cac1(_0x543839,_0x9a791f){const _0x2ca3ae=_0x568aa5;return _0xa8bf7['find'](_0x35d004=>_0x35d004[_0x2ca3ae(0x6c1)]===_0x543839&&_0x35d004[_0x2ca3ae(0x4df)]===_0x9a791f)||null;}function _0x3ae6e4(_0xd2020e){return _0xd2020e?_0x492ff[_0xd2020e['id']]:null;}function _0x4acf45(_0x5effef){return isDeepVertical(_0x5effef,_0x492ff);}const _0x487ce8=_0x26caa1==='L'?_0x568aa5(0x19e):_0x96ba7e[_0x568aa5(0x534)],_0x3e17a1=_0x41a362==='L'?_0x96ba7e[_0x568aa5(0x63e)]:_0x568aa5(0x4bb),_0x221640=_0x96ba7e[_0x568aa5(0x645)](_0x26caa1,'L')?_0x96ba7e[_0x568aa5(0x279)]:_0x96ba7e['zVxrH'],_0x2fad08=_0x96ba7e['aQLSl'](_0x41a362,'L')?_0x96ba7e[_0x568aa5(0x279)]:'FLAT_R',_0x14099a=_0x26caa1==='L'?_0x96ba7e['aNnBu']:_0x568aa5(0x198),_0x429af4=_0x41a362==='L'?_0x96ba7e[_0x568aa5(0x46b)]:_0x96ba7e[_0x568aa5(0x653)],_0x166a41=_0x96ba7e[_0x568aa5(0x69e)](_0x20cac1,_0x26caa1,0x1),_0x1b3766=_0x96ba7e[_0x568aa5(0x69e)](_0x20cac1,_0x26caa1,0x2),_0x50525d=_0x20cac1(_0x26caa1,0x3),_0x4acc24=_0x96ba7e[_0x568aa5(0x69e)](_0x20cac1,_0x41a362,0x1),_0x253a54=_0xa8bf7;if(_0x1b2c49==='CB'&&_0x4785c3){if(_0x166a41&&_0x96ba7e[_0x568aa5(0x723)](_0x4acf45,_0x166a41))return _0x96ba7e[_0x568aa5(0x6f9)](manCover,_0x166a41['id']);if(_0x1b3766&&_0x4acf45(_0x1b3766))return ottDec(_0x1b3766['id']);if(_0x50525d&&_0x4acf45(_0x50525d))return ottDec(_0x50525d['id']);return zoneDrop(_0x487ce8);}if(_0x96ba7e['UQBYL'](_0x1b2c49,'CB')&&_0x2f41e0){if(_0x4acc24&&_0x96ba7e[_0x568aa5(0x311)](_0x4acf45,_0x4acc24))return manCover(_0x4acc24['id']);return zoneDrop(_0x3e17a1);}if((_0x96ba7e[_0x568aa5(0x77c)](_0x1b2c49,_0x96ba7e[_0x568aa5(0x456)])||_0x1b2c49===_0x96ba7e[_0x568aa5(0x41d)])&&_0x4785c3){if(_0x1b3766&&isFlatRoute(_0x1b3766,_0x26caa1,_0x492ff,_0x52fdc4))return zoneDrop(_0x14099a);return _0x1b3766?_0x96ba7e[_0x568aa5(0x6f9)](manCover,_0x1b3766['id']):_0x96ba7e[_0x568aa5(0x3ac)](zoneDrop,_0x14099a);}if((_0x1b2c49===_0x96ba7e[_0x568aa5(0x456)]||_0x96ba7e['aMsSs'](_0x1b2c49,_0x96ba7e[_0x568aa5(0x41d)]))&&_0x2f41e0){if(_0x314d34&&_0x96ba7e[_0x568aa5(0x4c6)](isFlatRoute,_0x314d34,_0x41a362,_0x492ff,_0x52fdc4))return zoneDrop(_0x429af4);return _0x314d34?manCover(_0x314d34['id']):_0x96ba7e['gOMPy'](zoneDrop,_0x429af4);}if(_0x1b2c49===_0x96ba7e[_0x568aa5(0x2e3)]||_0x96ba7e[_0x568aa5(0x77c)](_0x1b2c49,_0x96ba7e[_0x568aa5(0x31b)])||_0x1b2c49==='HOOK-M'){if(_0x50525d&&_0x4acf45(_0x50525d))return manCover(_0x50525d['id']);return _0x96ba7e[_0x568aa5(0x723)](zoneDrop,_0x96ba7e[_0x568aa5(0x292)]);}if(_0x96ba7e['WqRdh'](_0x1b2c49,_0x96ba7e[_0x568aa5(0x52d)])){const _0x1966f6=_0x96ba7e[_0x568aa5(0x4c6)](getFlatReceiver,_0x26caa1,_0x253a54,_0x52fdc4,_0x492ff);if(_0x1966f6)return manCover(_0x1966f6['id']);return _0x96ba7e[_0x568aa5(0x420)](zoneDrop,_0x221640);}if(_0x96ba7e[_0x568aa5(0x59f)](_0x1b2c49,_0x96ba7e[_0x568aa5(0x1f8)])){const _0x498325=_0x96ba7e[_0x568aa5(0x4c6)](getFlatReceiver,_0x41a362,_0x253a54,_0x52fdc4,_0x492ff);if(_0x498325)return _0x96ba7e[_0x568aa5(0x5ac)](manCover,_0x498325['id']);return zoneDrop(_0x2fad08);}return null;}},'poach-3x1':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x377),'cbShade':_0x2e24de(0x377)}},'decide'(_0x5a6eda,_0x4b69b8,_0x30abaf){const _0x297c47=_0x2e24de,_0x2ae09c={'Zskbq':function(_0x302ed6,_0x273cc1){return _0x302ed6<=_0x273cc1;},'IgJJq':function(_0x526b12,_0x20c266){return _0x526b12===_0x20c266;},'jsBzj':_0x297c47(0x669),'yePkI':function(_0xe977df,_0x30ad6e){return _0xe977df===_0x30ad6e;},'rXmul':_0x297c47(0x25f),'qfPZe':_0x297c47(0x4ef),'qlFoE':function(_0x4f2fd1,_0x48577c){return _0x4f2fd1(_0x48577c);},'SnCSS':_0x297c47(0x3e5),'RrcUY':_0x297c47(0x400),'cGLjQ':_0x297c47(0x722),'sYPhu':_0x297c47(0x23b),'vvrya':function(_0x257e54,_0xe016cd){return _0x257e54>=_0xe016cd;},'ArCqc':function(_0x1ad763,_0x463ac8){return _0x1ad763===_0x463ac8;},'hrzCw':'DEEP_HALF_L','BvgrH':'DEEP_HALF_R','YCSRC':function(_0x50696c,_0x92537a){return _0x50696c===_0x92537a;},'kVIVx':_0x297c47(0x226),'aguqj':function(_0x22445,_0x31fbfa,_0x1bbf9b){return _0x22445(_0x31fbfa,_0x1bbf9b);}},_0x52b54a=new Map();if(!_0x30abaf)return _0x52b54a;const _0x2a9735=_0x30abaf[_0x297c47(0x1b2)],_0xa7a67a=_0x30abaf[_0x297c47(0x205)]||[],_0xd92abd=_0x30abaf[_0x297c47(0x479)]||null,_0x3c74d1=_0xa7a67a[_0x297c47(0x427)](_0x5d65bb=>_0x5d65bb[_0x297c47(0x6c1)]==='L')[_0x297c47(0x6ab)],_0x12962d=_0xa7a67a[_0x297c47(0x427)](_0xd4c6d2=>_0xd4c6d2[_0x297c47(0x6c1)]==='R')[_0x297c47(0x6ab)],_0x478d2a=_0x30abaf[_0x297c47(0x1c0)]||(_0x2ae09c[_0x297c47(0x502)](_0x3c74d1,_0x12962d)?'L':'R'),_0x3ce350=_0x478d2a==='L'?'R':'L',_0x3808df=_0x2ae09c[_0x297c47(0x5a9)](_0x478d2a,'L')?_0x297c47(0x425):'FLAT_R',_0x955fcc=_0x478d2a==='L'?_0x2ae09c[_0x297c47(0x388)]:_0x2ae09c[_0x297c47(0x1a5)],_0x1bd246=_0x2ae09c[_0x297c47(0x759)](_0x3ce350,'L')?_0x2ae09c[_0x297c47(0x388)]:_0x297c47(0x4bb),_0x54500d=_0x3ce350==='L'?_0x2ae09c[_0x297c47(0x389)]:_0x297c47(0x198);function _0x3c0b17(_0x5e9e10,_0x725b58){const _0x135cb1=_0x297c47;return _0xa7a67a[_0x135cb1(0x1b9)](_0x44da96=>_0x44da96[_0x135cb1(0x6c1)]===_0x5e9e10&&_0x44da96[_0x135cb1(0x4df)]===_0x725b58)||null;}const _0x1d82ca=_0x3c0b17(_0x478d2a,0x1),_0x2e0277=_0x2ae09c['aguqj'](_0x3c0b17,_0x478d2a,0x2),_0x189225=_0x3c0b17(_0x478d2a,0x3),_0x30bb1c=_0x3c0b17(_0x3ce350,0x1);return _0x5a6eda['forEach']((_0x278c94,_0x294644)=>{const _0x4629f0=_0x297c47,_0x38a1af=_0x4b69b8[_0x4629f0(0x331)](_0x294644);if(!_0x38a1af)return;const _0x341f94=_0x2ae09c[_0x4629f0(0x2f3)](_0x38a1af['x'],_0x2a9735)?'L':'R',_0x178add=_0x278c94===_0x4629f0(0x3e5)||_0x2ae09c[_0x4629f0(0x6bb)](_0x278c94,_0x2ae09c[_0x4629f0(0x2ca)])?'L':_0x2ae09c['yePkI'](_0x278c94,'APEX-R')||_0x278c94==='HOOK-R'?'R':_0x341f94,_0xff85b3=_0x2ae09c[_0x4629f0(0x585)](_0x178add,_0x478d2a),_0x55e686=_0x178add===_0x3ce350;switch(_0x278c94){case _0x2ae09c['rXmul']:case _0x2ae09c['qfPZe']:_0x52b54a['set'](_0x294644,rushDec());break;case'CB':if(_0xff85b3)_0x52b54a['set'](_0x294644,_0x1d82ca?_0x2ae09c[_0x4629f0(0x785)](manCover,_0x1d82ca['id']):zoneDrop(_0x955fcc));if(_0x55e686)_0x52b54a[_0x4629f0(0x590)](_0x294644,_0x30bb1c?manCover(_0x30bb1c['id']):_0x2ae09c['qlFoE'](zoneDrop,_0x1bd246));break;case _0x2ae09c[_0x4629f0(0x751)]:case _0x4629f0(0x238):if(_0xff85b3)_0x52b54a[_0x4629f0(0x590)](_0x294644,zoneDrop(_0x3808df));if(_0x55e686)_0x52b54a['set'](_0x294644,zoneDrop(_0x54500d));break;case _0x2ae09c['jsBzj']:case _0x2ae09c[_0x4629f0(0x72c)]:case _0x2ae09c['cGLjQ']:_0x52b54a[_0x4629f0(0x590)](_0x294644,_0x189225?manCover(_0x189225['id']):_0x2ae09c[_0x4629f0(0x785)](zoneDrop,_0x4629f0(0x434)));break;case _0x4629f0(0x2ac):_0x52b54a[_0x4629f0(0x590)](_0x294644,_0x2e0277?manCover(_0x2e0277['id']):_0x2ae09c['qlFoE'](zoneDrop,_0x955fcc));break;case _0x2ae09c[_0x4629f0(0x174)]:_0x52b54a[_0x4629f0(0x590)](_0x294644,zoneDrop(_0x1bd246));break;}}),_0x52b54a;},'react'(_0x47b7ef,_0x17ae44,_0x2ccfc6,_0x1b87c9){const _0x22974b=_0x2e24de,_0x47854e={'tIxtW':function(_0x4f9e47,_0x2b9245,_0x1d9e9d){return _0x4f9e47(_0x2b9245,_0x1d9e9d);},'wfHms':function(_0x2a14e6,_0x3b9fd3,_0x1ca185){return _0x2a14e6(_0x3b9fd3,_0x1ca185);},'PxHEs':_0x22974b(0x3e5),'KQcNn':_0x22974b(0x669),'ZMdLW':function(_0x44898f,_0x5186fe){return _0x44898f===_0x5186fe;},'imdSp':function(_0x286a93,_0x13876f){return _0x286a93===_0x13876f;},'NFyKM':_0x22974b(0x19e),'qHQHq':_0x22974b(0x4bb),'RvaTN':function(_0x398981,_0x73cec1){return _0x398981===_0x73cec1;},'LVdli':_0x22974b(0x198),'QWSWh':function(_0xf8f4dd,_0x12f88d,_0x182f7b){return _0xf8f4dd(_0x12f88d,_0x182f7b);},'WkabD':function(_0x289736,_0x2235cc){return _0x289736(_0x2235cc);},'UpHTT':function(_0x24defb,_0x4c3aad,_0x2cf8d2,_0x18f665,_0x56655e){return _0x24defb(_0x4c3aad,_0x2cf8d2,_0x18f665,_0x56655e);},'FvJqx':function(_0x1f6e45,_0x447907){return _0x1f6e45(_0x447907);},'uUOmx':function(_0x19eadd,_0x401d52){return _0x19eadd===_0x401d52;},'PLpAk':_0x22974b(0x238),'SbPSh':function(_0x402e42,_0x5f0817){return _0x402e42(_0x5f0817);},'jwrMZ':function(_0x40352,_0x585ca0){return _0x40352===_0x585ca0;},'HYElA':function(_0x4a27b3,_0x4f31b3){return _0x4a27b3>_0x4f31b3;},'aZQuS':function(_0x39c9d6,_0x4174b5){return _0x39c9d6===_0x4174b5;},'paUZL':'HOOK-R','wgeOe':function(_0x4c0ede,_0x3c2c3a,_0x42f987,_0x2d1f39,_0x5468cc){return _0x4c0ede(_0x3c2c3a,_0x42f987,_0x2d1f39,_0x5468cc);},'mTDsJ':_0x22974b(0x434),'eUwSq':function(_0x4284e8,_0x5d1071){return _0x4284e8(_0x5d1071);},'ExJuC':function(_0x59fb9e,_0x16b1d1){return _0x59fb9e(_0x16b1d1);},'qSuAs':_0x22974b(0x23b),'qukkV':function(_0x156674,_0x490e11){return _0x156674(_0x490e11);}};if(!_0x2ccfc6)return null;const _0x3d7cee=_0x2ccfc6['ballX'],_0x3b11e1=_0x2ccfc6[_0x22974b(0x205)]||[],_0x1b9d24=_0x2ccfc6[_0x22974b(0x479)]||null,_0x1718ed=_0x3b11e1[_0x22974b(0x427)](_0x44abb5=>_0x44abb5[_0x22974b(0x6c1)]==='L')['length'],_0x16482c=_0x3b11e1[_0x22974b(0x427)](_0x2f052a=>_0x2f052a[_0x22974b(0x6c1)]==='R')['length'],_0x3a4b3a=_0x2ccfc6[_0x22974b(0x1c0)]||(_0x1718ed>=_0x16482c?'L':'R'),_0x4f33dc=_0x3a4b3a==='L'?'R':'L',_0x4e04e0=snapAlignment[_0x47b7ef['id']]?.['x']??(_0x47b7ef[_0x22974b(0x79d)]??_0x47b7ef['x']),_0x360664=_0x4e04e0<=_0x3d7cee?'L':'R',_0x22208b=_0x17ae44===_0x47854e[_0x22974b(0x35a)]||_0x17ae44===_0x47854e[_0x22974b(0x530)]?'L':_0x47854e['ZMdLW'](_0x17ae44,_0x22974b(0x238))||_0x47854e[_0x22974b(0x615)](_0x17ae44,'HOOK-R')?'R':_0x360664,_0x4de307=_0x22208b===_0x3a4b3a,_0x2bc411=_0x47854e['imdSp'](_0x22208b,_0x4f33dc);function _0x803693(_0x96b552,_0x2d9df6){const _0x43f379=_0x22974b;return _0x3b11e1[_0x43f379(0x1b9)](_0x3538bc=>_0x3538bc[_0x43f379(0x6c1)]===_0x96b552&&_0x3538bc['_receiverNumber']===_0x2d9df6)||null;}function _0x173681(_0x2d515a){return _0x2d515a?_0x1b87c9[_0x2d515a['id']]:null;}function _0x91dde(_0x44a44a){return isDeepVertical(_0x44a44a,_0x1b87c9);}function _0x8e909f(_0x2b00c0){const _0xcfa4db=_0x22974b;return _0x47854e[_0xcfa4db(0x337)](isUnderRoute,_0x2b00c0,_0x1b87c9);}function _0x21b916(_0x5abc39){const _0x1a4942=_0x22974b;return _0x47854e[_0x1a4942(0x4d1)](isReleasedRoute,_0x5abc39,_0x1b87c9);}const _0x51c855=_0x47854e[_0x22974b(0x615)](_0x3a4b3a,'L')?_0x22974b(0x425):_0x22974b(0x2d8),_0x34ba0e=_0x47854e[_0x22974b(0x615)](_0x3a4b3a,'L')?_0x22974b(0x19e):_0x22974b(0x4bb),_0x3e8003=_0x4f33dc==='L'?_0x47854e['NFyKM']:_0x47854e[_0x22974b(0x2d4)],_0x29f106=_0x47854e[_0x22974b(0x146)](_0x4f33dc,'L')?_0x22974b(0x226):_0x47854e['LVdli'],_0x22e52d=_0x803693(_0x3a4b3a,0x1),_0x5aa2de=_0x803693(_0x3a4b3a,0x2),_0x25dc4d=_0x803693(_0x3a4b3a,0x3),_0x68653c=_0x47854e['QWSWh'](_0x803693,_0x4f33dc,0x1),_0x22a035=_0x3b11e1;if(_0x47854e[_0x22974b(0x146)](_0x17ae44,'CB')&&_0x4de307)return _0x22e52d?_0x47854e[_0x22974b(0x5eb)](manCover,_0x22e52d['id']):null;if(_0x17ae44==='CB'&&_0x2bc411)return _0x68653c?manCover(_0x68653c['id']):null;if((_0x17ae44===_0x47854e['PxHEs']||_0x47854e['ZMdLW'](_0x17ae44,_0x22974b(0x238)))&&_0x4de307){const _0x23190e=_0x47854e[_0x22974b(0x3b2)](getFlatReceiver,_0x3a4b3a,_0x22a035,_0x2ccfc6,_0x1b87c9);if(_0x23190e)return manCover(_0x23190e['id']);return _0x47854e[_0x22974b(0x66c)](zoneDrop,_0x51c855);}if((_0x47854e[_0x22974b(0x404)](_0x17ae44,_0x22974b(0x3e5))||_0x47854e['uUOmx'](_0x17ae44,_0x47854e[_0x22974b(0x5a1)]))&&_0x2bc411){if(_0x1b9d24&&_0x47854e['SbPSh'](_0x21b916,_0x1b9d24)){const _0x552ce7=_0x173681(_0x1b9d24)?.[_0x22974b(0x6ae)]?.['x']??0x0,_0x562eaf=_0x47854e['jwrMZ'](_0x4f33dc,'L')?_0x552ce7<0x0:_0x47854e[_0x22974b(0x406)](_0x552ce7,0x0);if(_0x562eaf)return manCover(_0x1b9d24['id']);}const _0x2af48=_0x3b11e1['filter'](_0x25af8e=>_0x25af8e[_0x22974b(0x6c1)]===_0x3a4b3a),_0x61cbd1=_0x2af48[_0x22974b(0x1b9)](_0x2650d6=>_0x8e909f(_0x2650d6));if(_0x61cbd1)return manCover(_0x61cbd1['id']);return _0x47854e[_0x22974b(0x66c)](zoneDrop,_0x29f106);}if(_0x47854e[_0x22974b(0x4fc)](_0x17ae44,'HOOK-L')||_0x17ae44===_0x47854e[_0x22974b(0x354)]||_0x47854e['imdSp'](_0x17ae44,_0x22974b(0x722))){if(_0x25dc4d&&_0x47854e[_0x22974b(0x60e)](isFlatRoute,_0x25dc4d,_0x3a4b3a,_0x1b87c9,_0x2ccfc6))return _0x5aa2de?manCover(_0x5aa2de['id']):zoneDrop(_0x47854e['mTDsJ']);return _0x25dc4d?_0x47854e[_0x22974b(0x341)](manCover,_0x25dc4d['id']):zoneDrop(_0x22974b(0x434));}if(_0x47854e['jwrMZ'](_0x17ae44,'SAF_S')){if(_0x5aa2de&&_0x91dde(_0x5aa2de))return _0x47854e[_0x22974b(0x558)](manCover,_0x5aa2de['id']);return zoneDrop(_0x34ba0e);}if(_0x17ae44===_0x47854e[_0x22974b(0x304)]){if(_0x25dc4d&&_0x91dde(_0x25dc4d))return _0x47854e['WkabD'](ottDec,_0x25dc4d['id']);if(_0x68653c&&playPhaseTime>=0x2)return _0x47854e[_0x22974b(0x66c)](ottDec,_0x68653c['id']);return _0x47854e[_0x22974b(0x6e6)](zoneDrop,_0x3e8003);}return null;}},'cover3-sky-2x2-match-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':'normal'}},'decide'(_0x3c6ee5,_0x1b0098,_0x363577){const _0x515413=_0x2e24de,_0x311a08={'mgMVb':function(_0x2456e5,_0x28a0a0){return _0x2456e5<=_0x28a0a0;},'GCYtM':function(_0x23fdd2,_0x4265c5){return _0x23fdd2===_0x4265c5;},'MCVcr':function(_0x271347,_0x1c607f){return _0x271347===_0x1c607f;},'IgEeY':function(_0x386a6f,_0x35ac96){return _0x386a6f===_0x35ac96;},'uqqgo':_0x515413(0x25f),'kNTuL':_0x515413(0x4ef),'GVswd':function(_0x37544d,_0x2c8809){return _0x37544d(_0x2c8809);},'PRvrc':function(_0x3cd68c,_0x1f872e){return _0x3cd68c(_0x1f872e);},'Dyzit':_0x515413(0x2ac),'LolvH':function(_0x295a9d,_0x2e4cb2){return _0x295a9d(_0x2e4cb2);},'daYWP':'APEX-R','Pwwlt':function(_0x56599a,_0x2a1e8f){return _0x56599a(_0x2a1e8f);},'DsWtz':_0x515413(0x669),'PqEds':function(_0x15ae1b,_0xbea07b){return _0x15ae1b(_0xbea07b);},'gDLhC':'DEEP_MIDDLE','nmYHs':_0x515413(0x3e8),'hVenK':_0x515413(0x647),'OtCxx':_0x515413(0x226),'aXUwz':'HOOK_CURL_R','ijXkk':function(_0x27c150,_0x2c09e3,_0x4c0ba0){return _0x27c150(_0x2c09e3,_0x4c0ba0);}},_0x2e31ca=new Map();if(!_0x363577)return _0x2e31ca;const _0xb6aa62=_0x363577['ballX'],_0x2dd4a3=_0x363577[_0x515413(0x205)]||[],_0x64e1c6=_0x363577[_0x515413(0x479)]||null,_0x5c57e8=_0x2dd4a3['filter'](_0x3d73ea=>_0x3d73ea[_0x515413(0x6c1)]==='L')[_0x515413(0x6ab)],_0x449043=_0x2dd4a3[_0x515413(0x427)](_0x55fdef=>_0x55fdef[_0x515413(0x6c1)]==='R')['length'],_0x4cc724=_0x363577[_0x515413(0x1c0)]||(_0x5c57e8>=_0x449043?'L':'R'),_0x39cc7c=_0x4cc724==='L'?'R':'L',_0x590c81=_0x4cc724==='L'?_0x311a08[_0x515413(0x493)]:_0x515413(0x4fb),_0x10dc01=_0x39cc7c==='L'?_0x515413(0x3e8):_0x515413(0x4fb),_0x4228a3=_0x4cc724==='L'?_0x311a08['hVenK']:_0x515413(0x1d1),_0x4a1840=_0x39cc7c==='L'?_0x311a08[_0x515413(0x408)]:_0x515413(0x1d1),_0x3d416f=_0x311a08['MCVcr'](_0x4cc724,'L')?_0x311a08[_0x515413(0x690)]:_0x311a08['aXUwz'],_0x4aae41=_0x39cc7c==='L'?_0x311a08['OtCxx']:_0x515413(0x198);function _0x322c83(_0x58e9c2,_0xa4bc91){const _0x4a0a05=_0x515413;return _0x2dd4a3['find'](_0x5020c4=>_0x5020c4[_0x4a0a05(0x6c1)]===_0x58e9c2&&_0x5020c4[_0x4a0a05(0x4df)]===_0xa4bc91)||null;}const _0x37bae9=_0x311a08[_0x515413(0x545)](_0x322c83,_0x4cc724,0x1),_0x3f3166=_0x322c83(_0x4cc724,0x2),_0x38a720=_0x322c83(_0x39cc7c,0x1),_0x520dc8=_0x311a08[_0x515413(0x545)](_0x322c83,_0x39cc7c,0x2);return _0x3c6ee5[_0x515413(0x29e)]((_0x43b2fe,_0x24bdc4)=>{const _0x30f8b7=_0x515413,_0x243d41=_0x1b0098[_0x30f8b7(0x331)](_0x24bdc4);if(!_0x243d41)return;const _0x3022ed=_0x311a08['mgMVb'](_0x243d41['x'],_0xb6aa62)?'L':'R',_0x4ffba3=_0x43b2fe===_0x30f8b7(0x3e5)||_0x311a08[_0x30f8b7(0x2e5)](_0x43b2fe,_0x30f8b7(0x669))?'L':_0x43b2fe===_0x30f8b7(0x238)||_0x311a08[_0x30f8b7(0x1c1)](_0x43b2fe,_0x30f8b7(0x400))?'R':_0x3022ed,_0x399b5b=_0x4ffba3===_0x4cc724,_0xaa617=_0x311a08[_0x30f8b7(0x4de)](_0x4ffba3,_0x39cc7c);switch(_0x43b2fe){case _0x311a08['uqqgo']:case _0x311a08[_0x30f8b7(0x28f)]:_0x2e31ca[_0x30f8b7(0x590)](_0x24bdc4,rushDec());break;case'CB':if(_0x399b5b)_0x2e31ca[_0x30f8b7(0x590)](_0x24bdc4,_0x37bae9?_0x311a08[_0x30f8b7(0x672)](manCover,_0x37bae9['id']):_0x311a08[_0x30f8b7(0x73c)](zoneDrop,_0x590c81));if(_0xaa617)_0x2e31ca[_0x30f8b7(0x590)](_0x24bdc4,_0x38a720?_0x311a08[_0x30f8b7(0x672)](manCover,_0x38a720['id']):_0x311a08[_0x30f8b7(0x73c)](zoneDrop,_0x10dc01));break;case _0x311a08[_0x30f8b7(0x170)]:_0x2e31ca[_0x30f8b7(0x590)](_0x24bdc4,_0x3f3166?manCover(_0x3f3166['id']):_0x311a08[_0x30f8b7(0x5b7)](zoneDrop,_0x4228a3));break;case'APEX-L':case _0x311a08[_0x30f8b7(0x315)]:if(_0x399b5b)_0x2e31ca[_0x30f8b7(0x590)](_0x24bdc4,_0x311a08['Pwwlt'](zoneDrop,_0x3d416f));if(_0xaa617)_0x2e31ca[_0x30f8b7(0x590)](_0x24bdc4,_0x520dc8?manCover(_0x520dc8['id']):_0x311a08[_0x30f8b7(0x5b7)](zoneDrop,_0x4a1840));break;case _0x311a08[_0x30f8b7(0x5a8)]:case _0x30f8b7(0x400):case _0x30f8b7(0x722):_0x2e31ca['set'](_0x24bdc4,_0x311a08[_0x30f8b7(0x15d)](zoneDrop,_0x4aae41));break;case _0x30f8b7(0x23b):_0x2e31ca[_0x30f8b7(0x590)](_0x24bdc4,zoneDrop(_0x311a08['gDLhC']));break;}}),_0x2e31ca;},'react'(_0x54e51b,_0x5d7d38,_0x496ecb,_0x13ede4){const _0x462b4d=_0x2e24de,_0x32ad7c={'nussw':function(_0x3fe8b0,_0x2da1b5){return _0x3fe8b0===_0x2da1b5;},'KcSEZ':function(_0x4eac6e,_0x4e9490){return _0x4eac6e<=_0x4e9490;},'BndhZ':_0x462b4d(0x238),'RhpPc':function(_0xc07f58,_0x4ab806){return _0xc07f58===_0x4ab806;},'iaSkO':_0x462b4d(0x647),'LgMUZ':_0x462b4d(0x1d1),'GRgCe':_0x462b4d(0x198),'zrsPW':_0x462b4d(0x226),'EYdUu':function(_0x581db2,_0x35f906,_0x38619a){return _0x581db2(_0x35f906,_0x38619a);},'XQwKG':function(_0x299a42,_0x576b63){return _0x299a42(_0x576b63);},'cLckv':function(_0x5a8354,_0x29d324){return _0x5a8354(_0x29d324);},'thNpT':'nsk2_smashS','lYTPB':function(_0x3228ef,_0x3b8a62){return _0x3228ef(_0x3b8a62);},'MiBEl':function(_0x8ad744,_0x2739ea){return _0x8ad744(_0x2739ea);},'HHaTp':'SAF_S','EIpmQ':function(_0x3e14c7,_0xe184b0){return _0x3e14c7!==_0xe184b0;},'WdfBi':'stopped','zHXTd':function(_0x3a011c,_0x3d8c90){return _0x3a011c&&_0x3d8c90;},'uApWU':function(_0x5eeffd,_0x3ffde9){return _0x5eeffd<_0x3ffde9;},'NCLLx':function(_0x17aa76,_0x365fe3){return _0x17aa76(_0x365fe3);},'lfUMI':function(_0x201e03,_0x2bf3bb){return _0x201e03(_0x2bf3bb);},'JFGcN':function(_0x5943ba,_0x3b3f05){return _0x5943ba>_0x3b3f05;},'SzJsY':function(_0x12049b,_0x4d3fb8){return _0x12049b(_0x4d3fb8);},'fIgys':'HOOK-R','JlENq':_0x462b4d(0x722),'qSoZU':function(_0x4f1cd5,_0x1bc1e5){return _0x4f1cd5===_0x1bc1e5;},'XLQob':function(_0x32180d,_0x313106){return _0x32180d<_0x313106;},'oPAqB':function(_0x250c0b,_0x4e123b){return _0x250c0b(_0x4e123b);},'wjucm':function(_0x7b529a,_0xcbd31c){return _0x7b529a===_0xcbd31c;},'HuNBn':'nsk2_underW_wa','LlOAz':function(_0x51e843,_0x5d4eae){return _0x51e843(_0x5d4eae);},'fvrsq':function(_0x201da1,_0x8f4cd1,_0x2317eb){return _0x201da1(_0x8f4cd1,_0x2317eb);},'lceYT':'nsk2_smashW','BdQEu':function(_0x27a817,_0x1b01cd){return _0x27a817(_0x1b01cd);},'PRBNX':_0x462b4d(0x259)};if(!_0x496ecb)return null;const _0x2b47fb=_0x496ecb[_0x462b4d(0x1b2)],_0x435c0d=_0x496ecb[_0x462b4d(0x205)]||[],_0x3b1cfe=_0x496ecb[_0x462b4d(0x479)]||null,_0x1d2692=_0x435c0d[_0x462b4d(0x427)](_0x22e610=>_0x22e610['_side']==='L')[_0x462b4d(0x6ab)],_0x1e12ed=_0x435c0d[_0x462b4d(0x427)](_0x51f17b=>_0x51f17b[_0x462b4d(0x6c1)]==='R')[_0x462b4d(0x6ab)],_0x2cd3e0=_0x496ecb[_0x462b4d(0x1c0)]||(_0x1d2692>=_0x1e12ed?'L':'R'),_0x5626b3=_0x32ad7c[_0x462b4d(0x5ea)](_0x2cd3e0,'L')?'R':'L',_0x23dc2e=snapAlignment[_0x54e51b['id']]?.['x']??(_0x54e51b[_0x462b4d(0x79d)]??_0x54e51b['x']),_0xadd4f0=_0x32ad7c[_0x462b4d(0x467)](_0x23dc2e,_0x2b47fb)?'L':'R',_0x1c2ae1=_0x32ad7c[_0x462b4d(0x5ea)](_0x5d7d38,'APEX-L')||_0x5d7d38===_0x462b4d(0x669)?'L':_0x5d7d38===_0x32ad7c['BndhZ']||_0x5d7d38===_0x462b4d(0x400)?'R':_0xadd4f0,_0xdf87db=_0x1c2ae1===_0x2cd3e0,_0x1a0edf=_0x32ad7c[_0x462b4d(0x574)](_0x1c2ae1,_0x5626b3);function _0x2e2d0b(_0x50a4d8,_0x158914){const _0x137ee7=_0x462b4d;return _0x435c0d[_0x137ee7(0x1b9)](_0x569c12=>_0x569c12[_0x137ee7(0x6c1)]===_0x50a4d8&&_0x569c12[_0x137ee7(0x4df)]===_0x158914)||null;}function _0x4beb99(_0x2f39dd){return _0x2f39dd?_0x13ede4[_0x2f39dd['id']]:null;}function _0x15b4d4(_0x47072f){return isUnderRoute(_0x47072f,_0x13ede4);}function _0x267c64(_0x462951){return isHitchRoute(_0x462951,_0x13ede4);}const _0x5ecd3d=_0x32ad7c[_0x462b4d(0x5ea)](_0x2cd3e0,'L')?_0x462b4d(0x3e8):_0x462b4d(0x4fb),_0x29ec5d=_0x5626b3==='L'?_0x462b4d(0x3e8):_0x462b4d(0x4fb),_0x283d02=_0x32ad7c[_0x462b4d(0x574)](_0x2cd3e0,'L')?_0x32ad7c['iaSkO']:'CURL_FLAT_R',_0x428e3a=_0x32ad7c[_0x462b4d(0x5ea)](_0x5626b3,'L')?_0x462b4d(0x647):_0x32ad7c[_0x462b4d(0x3be)],_0x30a7dd=_0x2cd3e0==='L'?_0x462b4d(0x226):_0x32ad7c[_0x462b4d(0x1b8)],_0x345a34=_0x5626b3==='L'?_0x32ad7c[_0x462b4d(0x4ee)]:_0x32ad7c[_0x462b4d(0x1b8)],_0xa9f2f4=_0x32ad7c[_0x462b4d(0x2a6)](_0x2e2d0b,_0x2cd3e0,0x1),_0x5212a2=_0x2e2d0b(_0x2cd3e0,0x2),_0x253caa=_0x2e2d0b(_0x5626b3,0x1),_0x26efcc=_0x2e2d0b(_0x5626b3,0x2);if(_0x5d7d38==='CB'&&_0xdf87db){if(_0x32ad7c[_0x462b4d(0x2a6)](stickyOnce,_0x462b4d(0x2f5),!!(_0xa9f2f4&&_0x32ad7c['XQwKG'](_0x15b4d4,_0xa9f2f4)))){if(_0x32ad7c[_0x462b4d(0x607)](isStickyLocked,'nsk2_underS_cb'))persistentCovCalls['nsk2_underS']=!![];return zoneDrop(_0x5ecd3d);}if(stickyOnce(_0x32ad7c['thNpT'],!!(_0xa9f2f4&&_0x32ad7c[_0x462b4d(0x607)](_0x267c64,_0xa9f2f4)))){if(_0x32ad7c['lYTPB'](isStickyLocked,_0x32ad7c[_0x462b4d(0x756)]))persistentCovCalls['nsk2_smashS']=!![];return _0x32ad7c['XQwKG'](zoneDrop,_0x5ecd3d);}return _0xa9f2f4?manCover(_0xa9f2f4['id']):_0x32ad7c[_0x462b4d(0x27a)](zoneDrop,_0x5ecd3d);}if(_0x32ad7c['nussw'](_0x5d7d38,_0x32ad7c[_0x462b4d(0x6b8)])){if(stickyOnce('nsk2_underS_ss',!!(_0x5212a2&&_0x15b4d4(_0x5212a2)))){if(isStickyLocked('nsk2_underS_ss'))persistentCovCalls[_0x462b4d(0x588)]=!![];const _0x53db9c=_0x32ad7c[_0x462b4d(0x27a)](_0x4beb99,_0x3b1cfe),_0x4bcdf3=_0x53db9c?.[_0x462b4d(0x6ae)]?.['x']??0x0,_0x2a58e9=_0x32ad7c[_0x462b4d(0x609)](_0x53db9c?.[_0x462b4d(0x71b)],_0x32ad7c[_0x462b4d(0x2c9)]),_0x1eb01e=!!(_0x32ad7c[_0x462b4d(0x233)](_0x3b1cfe,_0x2a58e9)&&(_0x32ad7c[_0x462b4d(0x574)](_0x2cd3e0,'L')?_0x32ad7c['uApWU'](_0x4bcdf3,0x0):_0x4bcdf3>0x0));if(stickyOnce(_0x462b4d(0x666),_0x1eb01e)){if(persistentCovCalls['nsk2_smashS'])return _0x32ad7c[_0x462b4d(0x5ab)](zoneDrop,_0x283d02);return manCover(_0x3b1cfe['id']);}return zoneDrop(_0x283d02);}if(persistentCovCalls[_0x462b4d(0x5d2)])return _0xa9f2f4?manCover(_0xa9f2f4['id']):_0x32ad7c[_0x462b4d(0x529)](zoneDrop,_0x5ecd3d);return _0x5212a2?manCover(_0x5212a2['id']):zoneDrop(_0x283d02);}if((_0x32ad7c[_0x462b4d(0x574)](_0x5d7d38,'APEX-L')||_0x32ad7c['RhpPc'](_0x5d7d38,_0x32ad7c[_0x462b4d(0x1ee)]))&&_0xdf87db){const _0x501f83=_0x4beb99(_0x3b1cfe),_0xaacff6=_0x501f83?.[_0x462b4d(0x6ae)]?.['x']??0x0,_0x5a7084=_0x501f83?.[_0x462b4d(0x71b)]!==_0x462b4d(0x1d8),_0x43b4a1=!!(_0x32ad7c[_0x462b4d(0x233)](_0x3b1cfe,_0x5a7084)&&(_0x2cd3e0==='L'?_0xaacff6<0x0:_0x32ad7c[_0x462b4d(0x55e)](_0xaacff6,0x0)));if(persistentCovCalls[_0x462b4d(0x385)]){const _0x4ebb25=[_0x26efcc,_0x253caa][_0x462b4d(0x427)](Boolean)[_0x462b4d(0x1b9)](_0xbe7cda=>_0x15b4d4(_0xbe7cda)&&!defensePlayers[_0x462b4d(0x57b)](_0x20b228=>_0x20b228['id']!==_0x54e51b['id']&&_0x20b228[_0x462b4d(0x239)]?.[_0x462b4d(0x5bb)]===_0xbe7cda['id']));if(_0x4ebb25)return manCover(_0x4ebb25['id']);}if(_0x43b4a1&&_0x3b1cfe&&_0x5212a2&&defensePlayers[_0x462b4d(0x57b)](_0xf18b76=>_0xf18b76['id']!==_0x54e51b['id']&&frozenRoleMap?.[_0x462b4d(0x331)](_0xf18b76['id'])===_0x462b4d(0x2ac)&&_0xf18b76['decision']?.[_0x462b4d(0x6f4)]==='follow'&&_0xf18b76['decision']?.[_0x462b4d(0x5bb)]===_0x5212a2['id']))return manCover(_0x3b1cfe['id']);return _0x32ad7c[_0x462b4d(0x52f)](zoneDrop,_0x30a7dd);}if(_0x5d7d38===_0x462b4d(0x669)||_0x32ad7c[_0x462b4d(0x5ea)](_0x5d7d38,_0x32ad7c[_0x462b4d(0x1a3)])||_0x32ad7c[_0x462b4d(0x574)](_0x5d7d38,_0x32ad7c[_0x462b4d(0x5c0)])){const _0x4cdb7e=_0x4beb99(_0x3b1cfe),_0x1ebecc=_0x4cdb7e?.[_0x462b4d(0x6ae)]?.['x']??0x0,_0x21030c=_0x32ad7c['EIpmQ'](_0x4cdb7e?.[_0x462b4d(0x71b)],_0x462b4d(0x1d8)),_0x1bc549=!!(_0x3b1cfe&&_0x21030c&&(_0x32ad7c[_0x462b4d(0x3fb)](_0x5626b3,'L')?_0x32ad7c['XLQob'](_0x1ebecc,0x0):_0x1ebecc>0x0));if(persistentCovCalls[_0x462b4d(0x588)]){const _0x4a48f7=[_0x5212a2,_0xa9f2f4]['filter'](Boolean)[_0x462b4d(0x1b9)](_0x1ed99e=>_0x15b4d4(_0x1ed99e)&&!defensePlayers['some'](_0x408c43=>_0x408c43['id']!==_0x54e51b['id']&&_0x408c43[_0x462b4d(0x239)]?.['focusTargetId']===_0x1ed99e['id']));if(_0x4a48f7)return _0x32ad7c[_0x462b4d(0x607)](manCover,_0x4a48f7['id']);}if(_0x1bc549&&_0x3b1cfe&&_0x26efcc&&defensePlayers[_0x462b4d(0x57b)](_0x3b1d27=>_0x3b1d27['id']!==_0x54e51b['id']&&_0x3b1d27['decision']?.[_0x462b4d(0x6f4)]==='follow'&&_0x3b1d27[_0x462b4d(0x239)]?.['focusTargetId']===_0x26efcc['id']))return manCover(_0x3b1cfe['id']);return _0x32ad7c[_0x462b4d(0x6f7)](zoneDrop,_0x345a34);}if((_0x32ad7c[_0x462b4d(0x5fb)](_0x5d7d38,_0x462b4d(0x3e5))||_0x5d7d38===_0x32ad7c[_0x462b4d(0x1ee)])&&_0x1a0edf){if(stickyOnce(_0x32ad7c[_0x462b4d(0x48f)],!!(_0x26efcc&&_0x15b4d4(_0x26efcc)))){if(_0x32ad7c['NCLLx'](isStickyLocked,_0x32ad7c[_0x462b4d(0x48f)]))persistentCovCalls[_0x462b4d(0x385)]=!![];const _0x32ef5b=_0x32ad7c['MiBEl'](_0x4beb99,_0x3b1cfe),_0x77735b=_0x32ef5b?.[_0x462b4d(0x6ae)]?.['x']??0x0,_0x33b775=_0x32ef5b?.['moveType']!==_0x32ad7c[_0x462b4d(0x2c9)],_0x3dee30=!!(_0x3b1cfe&&_0x33b775&&(_0x5626b3==='L'?_0x77735b<0x0:_0x32ad7c['JFGcN'](_0x77735b,0x0)));if(!persistentCovCalls['nsk2_rbGlobal_strong']&&_0x3dee30){if(persistentCovCalls[_0x462b4d(0x497)])return zoneDrop(_0x428e3a);return manCover(_0x3b1cfe['id']);}return zoneDrop(_0x428e3a);}if(persistentCovCalls[_0x462b4d(0x497)])return _0x253caa?_0x32ad7c[_0x462b4d(0x5ab)](manCover,_0x253caa['id']):zoneDrop(_0x29ec5d);return _0x26efcc?manCover(_0x26efcc['id']):_0x32ad7c[_0x462b4d(0x778)](zoneDrop,_0x428e3a);}if(_0x5d7d38==='CB'&&_0x1a0edf){if(_0x32ad7c['fvrsq'](stickyOnce,_0x462b4d(0x461),!!(_0x253caa&&_0x32ad7c[_0x462b4d(0x25a)](_0x15b4d4,_0x253caa)))){if(isStickyLocked(_0x462b4d(0x461)))persistentCovCalls['nsk2_underW']=!![];return zoneDrop(_0x29ec5d);}if(_0x32ad7c[_0x462b4d(0x447)](stickyOnce,'nsk2_smashW',!!(_0x253caa&&_0x32ad7c['oPAqB'](_0x267c64,_0x253caa)))){if(_0x32ad7c['oPAqB'](isStickyLocked,_0x32ad7c[_0x462b4d(0x695)]))persistentCovCalls[_0x462b4d(0x497)]=!![];return _0x32ad7c[_0x462b4d(0x5ab)](zoneDrop,_0x29ec5d);}return _0x253caa?manCover(_0x253caa['id']):_0x32ad7c[_0x462b4d(0x416)](zoneDrop,_0x29ec5d);}if(_0x5d7d38===_0x462b4d(0x23b))return _0x32ad7c[_0x462b4d(0x778)](zoneDrop,_0x32ad7c[_0x462b4d(0x297)]);return null;}},'cover3-sky-2x2-match-new-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x298ec6,_0x3fb758,_0xd4194a){const _0x5a7e62=_0x2e24de,_0x41b120={'NxAAl':function(_0x2d43fb,_0x9e8aad){return _0x2d43fb<=_0x9e8aad;},'wiIaz':'HOOK-L','JTlSP':_0x5a7e62(0x238),'Ufmcd':_0x5a7e62(0x400),'QVsHC':function(_0x587c5e,_0xeaf6e0){return _0x587c5e===_0xeaf6e0;},'ZvYZM':_0x5a7e62(0x25f),'YJuHC':_0x5a7e62(0x4ef),'yIHsb':function(_0x3be266,_0x4de983){return _0x3be266(_0x4de983);},'sYycS':_0x5a7e62(0x3e5),'JWRiK':function(_0x557252,_0x21a073){return _0x557252(_0x21a073);},'KinrM':_0x5a7e62(0x23b),'VmitE':function(_0x70f5d,_0x4aa030){return _0x70f5d>=_0x4aa030;},'JIJHO':_0x5a7e62(0x3e8),'UEBGc':_0x5a7e62(0x4fb),'zzXXy':function(_0x253473,_0x98cf00){return _0x253473===_0x98cf00;},'NobTl':'CURL_FLAT_L','NssdE':_0x5a7e62(0x1d1),'VlPVy':_0x5a7e62(0x226),'avTEI':function(_0x4cc1fd,_0x574e40,_0x4c7ddf){return _0x4cc1fd(_0x574e40,_0x4c7ddf);}},_0x548841=new Map();if(!_0xd4194a)return _0x548841;const _0x56b821=_0xd4194a[_0x5a7e62(0x1b2)],_0x36cd77=_0xd4194a[_0x5a7e62(0x205)]||[],_0x477c7d=_0xd4194a[_0x5a7e62(0x479)]||null,_0x517088=_0x36cd77[_0x5a7e62(0x427)](_0x51d082=>_0x51d082[_0x5a7e62(0x6c1)]==='L')[_0x5a7e62(0x6ab)],_0x460ca4=_0x36cd77[_0x5a7e62(0x427)](_0x27ed84=>_0x27ed84['_side']==='R')['length'],_0xba12f4=_0xd4194a[_0x5a7e62(0x1c0)]||(_0x41b120[_0x5a7e62(0x589)](_0x517088,_0x460ca4)?'L':'R'),_0x52ac33=_0x41b120[_0x5a7e62(0x6d1)](_0xba12f4,'L')?'R':'L',_0x230f04=_0x41b120[_0x5a7e62(0x6d1)](_0xba12f4,'L')?_0x41b120['JIJHO']:_0x41b120['UEBGc'],_0x1dcc34=_0x52ac33==='L'?_0x41b120[_0x5a7e62(0x53f)]:_0x5a7e62(0x4fb),_0x40f7b5=_0x41b120[_0x5a7e62(0x1ef)](_0xba12f4,'L')?_0x41b120[_0x5a7e62(0x6f1)]:_0x41b120['NssdE'],_0x31c257=_0x52ac33==='L'?'CURL_FLAT_L':_0x5a7e62(0x1d1),_0x1a5b83=_0xba12f4==='L'?_0x41b120[_0x5a7e62(0x440)]:_0x5a7e62(0x198),_0x3d5b3c=_0x52ac33==='L'?_0x5a7e62(0x226):_0x5a7e62(0x198);function _0xc34af5(_0x383b7f,_0x38658e){const _0x2b9e81=_0x5a7e62;return _0x36cd77[_0x2b9e81(0x1b9)](_0x2130d1=>_0x2130d1[_0x2b9e81(0x6c1)]===_0x383b7f&&_0x2130d1[_0x2b9e81(0x4df)]===_0x38658e)||null;}const _0x5f25dc=_0xc34af5(_0xba12f4,0x1),_0x172190=_0x41b120[_0x5a7e62(0x1e8)](_0xc34af5,_0xba12f4,0x2),_0x2c5a29=_0xc34af5(_0x52ac33,0x1),_0x50d361=_0xc34af5(_0x52ac33,0x2);return _0x298ec6[_0x5a7e62(0x29e)]((_0x5f46d0,_0xdb3b46)=>{const _0x249358=_0x5a7e62,_0x21d0d1=_0x3fb758[_0x249358(0x331)](_0xdb3b46);if(!_0x21d0d1)return;const _0x1d9d42=_0x41b120[_0x249358(0x648)](_0x21d0d1['x'],_0x56b821)?'L':'R',_0x2ac073=_0x5f46d0===_0x249358(0x3e5)||_0x5f46d0===_0x41b120[_0x249358(0x1ed)]?'L':_0x5f46d0===_0x41b120[_0x249358(0x577)]||_0x5f46d0===_0x41b120[_0x249358(0x5da)]?'R':_0x1d9d42,_0x2b7ca1=_0x2ac073===_0xba12f4,_0x23840e=_0x41b120[_0x249358(0x6d1)](_0x2ac073,_0x52ac33);switch(_0x5f46d0){case _0x41b120[_0x249358(0x1f2)]:case _0x41b120[_0x249358(0x484)]:_0x548841[_0x249358(0x590)](_0xdb3b46,rushDec());break;case'CB':if(_0x2b7ca1)_0x548841[_0x249358(0x590)](_0xdb3b46,_0x5f25dc?manCover(_0x5f25dc['id']):zoneDrop(_0x230f04));if(_0x23840e)_0x548841[_0x249358(0x590)](_0xdb3b46,_0x2c5a29?manCover(_0x2c5a29['id']):_0x41b120[_0x249358(0x29c)](zoneDrop,_0x1dcc34));break;case _0x249358(0x2ac):_0x548841[_0x249358(0x590)](_0xdb3b46,_0x172190?_0x41b120['yIHsb'](manCover,_0x172190['id']):_0x41b120[_0x249358(0x29c)](zoneDrop,_0x40f7b5));break;case _0x41b120[_0x249358(0x33e)]:case _0x41b120[_0x249358(0x577)]:if(_0x2b7ca1)_0x548841[_0x249358(0x590)](_0xdb3b46,_0x41b120['JWRiK'](zoneDrop,_0x1a5b83));if(_0x23840e)_0x548841[_0x249358(0x590)](_0xdb3b46,_0x50d361?manCover(_0x50d361['id']):zoneDrop(_0x31c257));break;case _0x41b120[_0x249358(0x1ed)]:case _0x249358(0x400):case'HOOK-M':_0x548841[_0x249358(0x590)](_0xdb3b46,zoneDrop(_0x3d5b3c));break;case _0x41b120[_0x249358(0x4f1)]:_0x548841[_0x249358(0x590)](_0xdb3b46,zoneDrop(_0x249358(0x259)));break;}}),_0x548841;},'react'(_0x277093,_0x16d3d1,_0x46a962,_0x211804){const _0x2a56d7=_0x2e24de,_0x497faf={'FQmyp':function(_0x3e2a52,_0xdc496f){return _0x3e2a52===_0xdc496f;},'xTegM':'APEX-L','MSUUB':_0x2a56d7(0x238),'xDeol':function(_0x1c2c9a,_0x30df41){return _0x1c2c9a===_0x30df41;},'inBZZ':function(_0x46dc05,_0x268118){return _0x46dc05===_0x268118;},'XlHHt':_0x2a56d7(0x722),'YOCZQ':function(_0x3fa974,_0x3ed8c8){return _0x3fa974<=_0x3ed8c8;},'DtzOC':function(_0x4950f8,_0x58218a){return _0x4950f8===_0x58218a;},'TzRVV':_0x2a56d7(0x669),'xIkpR':function(_0xfb1249,_0x5c2a1d){return _0xfb1249===_0x5c2a1d;},'iCYyT':function(_0x4bab82,_0x5a320f){return _0x4bab82===_0x5a320f;},'SGfVc':'DEEP_R','utcvX':function(_0x1fce54,_0x3244a7){return _0x1fce54===_0x3244a7;},'xTfXl':_0x2a56d7(0x647),'AGbIg':_0x2a56d7(0x226),'WZcQC':'HOOK_CURL_R','zWOtU':function(_0x19bf5b,_0x17d6f9,_0x17e17d){return _0x19bf5b(_0x17d6f9,_0x17e17d);},'LUsej':function(_0x18f414,_0x5364ff){return _0x18f414(_0x5364ff);},'AzNAb':function(_0x2d56b4,_0x21f6dd){return _0x2d56b4(_0x21f6dd);},'oBsIS':function(_0x4af64b,_0x5cd72b,_0x3c68d4){return _0x4af64b(_0x5cd72b,_0x3c68d4);},'PhExv':_0x2a56d7(0x5ed),'uVMeS':function(_0x4f0cb0,_0x2f3b69){return _0x4f0cb0(_0x2f3b69);},'KzQqW':function(_0x5cadb1,_0x3355c7){return _0x5cadb1!==_0x3355c7;},'iSudY':_0x2a56d7(0x1d8),'hpsoU':function(_0x375638,_0x4d193d){return _0x375638&&_0x4d193d;},'McsHz':function(_0x56048a,_0x122158){return _0x56048a<_0x122158;},'hMSDQ':function(_0x11e1d4,_0x31e900){return _0x11e1d4>_0x31e900;},'gUnlB':function(_0x26de08,_0x5d551a){return _0x26de08(_0x5d551a);},'ScXXY':function(_0x43e51e,_0x5c809f){return _0x43e51e<_0x5c809f;},'QXVRg':function(_0x4c9ab8,_0x2a4143){return _0x4c9ab8-_0x2a4143;},'kPBVj':function(_0x250ee5,_0x360708){return _0x250ee5-_0x360708;},'TnFmf':function(_0x8f521f,_0x4a6c78){return _0x8f521f===_0x4a6c78;},'qdHdb':function(_0x4e733c,_0xecf9f8){return _0x4e733c===_0xecf9f8;},'JqOsS':function(_0x2605df,_0x3eb516){return _0x2605df(_0x3eb516);},'IDOiJ':function(_0x1c2d2e,_0x375db8){return _0x1c2d2e(_0x375db8);},'lMDQx':function(_0x2447f8,_0x3799b5){return _0x2447f8(_0x3799b5);},'scgdP':function(_0x3b8b00,_0x4b562f){return _0x3b8b00&&_0x4b562f;},'zhxoG':function(_0x12f8e7,_0x54f344){return _0x12f8e7<_0x54f344;},'ptyRu':function(_0x10d43c,_0x11ba32){return _0x10d43c-_0x11ba32;},'IPbfA':function(_0x5157cf,_0x36043f){return _0x5157cf&&_0x36043f;},'uIOkh':function(_0x2c6870,_0x2efe72){return _0x2c6870<_0x2efe72;},'syDhf':function(_0x35ceea,_0x496b74){return _0x35ceea-_0x496b74;},'KslCv':function(_0x298b16,_0x506b89){return _0x298b16-_0x506b89;},'rvDwA':function(_0x7faebf,_0x12fdcb){return _0x7faebf-_0x12fdcb;},'McuYC':function(_0x304b3e,_0xae40b6){return _0x304b3e(_0xae40b6);},'GHzhs':function(_0x4aa80f,_0x51f038,_0xb9124d){return _0x4aa80f(_0x51f038,_0xb9124d);},'mPrHV':_0x2a56d7(0x1c9),'Ujcyg':function(_0x4a6092,_0x3aea39){return _0x4a6092(_0x3aea39);},'pLqKm':_0x2a56d7(0x2f7),'JiZgE':function(_0x2f1fa4,_0x744b3a){return _0x2f1fa4(_0x744b3a);},'Yfpjm':'DEEP_MIDDLE'};if(!_0x46a962)return null;const _0x3d899d=_0x46a962[_0x2a56d7(0x1b2)],_0x167d71=_0x46a962[_0x2a56d7(0x205)]||[],_0x4f7a03=_0x46a962[_0x2a56d7(0x479)]||null,_0x31a316=_0x167d71['filter'](_0x278b05=>_0x278b05[_0x2a56d7(0x6c1)]==='L')[_0x2a56d7(0x6ab)],_0x31e05f=_0x167d71['filter'](_0x259ea3=>_0x259ea3[_0x2a56d7(0x6c1)]==='R')[_0x2a56d7(0x6ab)],_0x1344d5=_0x46a962[_0x2a56d7(0x1c0)]||(_0x31a316>=_0x31e05f?'L':'R'),_0x432967=_0x1344d5==='L'?'R':'L',_0x3983bd=snapAlignment[_0x277093['id']]?.['x']??(_0x277093[_0x2a56d7(0x79d)]??_0x277093['x']),_0x1b1693=_0x497faf['YOCZQ'](_0x3983bd,_0x3d899d)?'L':'R',_0x312fb4=_0x497faf[_0x2a56d7(0x62d)](_0x16d3d1,_0x2a56d7(0x3e5))||_0x16d3d1===_0x497faf['TzRVV']?'L':_0x16d3d1==='APEX-R'||_0x497faf[_0x2a56d7(0x799)](_0x16d3d1,_0x2a56d7(0x400))?'R':_0x1b1693,_0x22ac04=_0x497faf[_0x2a56d7(0x62d)](_0x312fb4,_0x1344d5),_0x359d93=_0x497faf[_0x2a56d7(0x176)](_0x312fb4,_0x432967);function _0x385b80(_0x17334a,_0x175a20){const _0x1914ee=_0x2a56d7;return _0x167d71[_0x1914ee(0x1b9)](_0x1c9be3=>_0x1c9be3['_side']===_0x17334a&&_0x1c9be3[_0x1914ee(0x4df)]===_0x175a20)||null;}function _0x5ac4ab(_0x40f034){return _0x40f034?_0x211804[_0x40f034['id']]:null;}function _0x5b3f72(_0x2fa9a5){return isUnderRoute(_0x2fa9a5,_0x211804);}function _0x5b50aa(_0x4514b4){return isHitchRoute(_0x4514b4,_0x211804);}const _0x4f264b=_0x497faf[_0x2a56d7(0x698)](_0x1344d5,'L')?_0x2a56d7(0x3e8):_0x497faf[_0x2a56d7(0x186)],_0x2e18a7=_0x497faf[_0x2a56d7(0x19f)](_0x432967,'L')?_0x2a56d7(0x3e8):_0x2a56d7(0x4fb),_0x4f8ea4=_0x1344d5==='L'?_0x2a56d7(0x647):_0x2a56d7(0x1d1),_0x21f4ff=_0x432967==='L'?_0x497faf[_0x2a56d7(0x262)]:_0x2a56d7(0x1d1),_0x5b03cf=_0x1344d5==='L'?_0x497faf['AGbIg']:_0x497faf[_0x2a56d7(0x277)],_0x4e2ea7=_0x432967==='L'?_0x497faf[_0x2a56d7(0x44c)]:_0x497faf[_0x2a56d7(0x277)],_0xdbc4f1=_0x385b80(_0x1344d5,0x1),_0x31e30d=_0x497faf['zWOtU'](_0x385b80,_0x1344d5,0x2),_0x454293=_0x385b80(_0x432967,0x1),_0x25e1d3=_0x385b80(_0x432967,0x2);if(_0x16d3d1==='CB'&&_0x22ac04){if(stickyOnce(_0x2a56d7(0x319),!!(_0xdbc4f1&&_0x5b3f72(_0xdbc4f1)))){if(_0x497faf[_0x2a56d7(0x70d)](isStickyLocked,_0x2a56d7(0x319)))persistentCovCalls['nsk2new_underS']=!![];return _0x497faf[_0x2a56d7(0x445)](zoneDrop,_0x4f264b);}if(_0x497faf[_0x2a56d7(0x6cc)](stickyOnce,_0x497faf['PhExv'],!!(_0xdbc4f1&&_0x5b50aa(_0xdbc4f1)))){if(isStickyLocked(_0x497faf[_0x2a56d7(0x30f)]))persistentCovCalls['nsk2new_smashS']=!![];return _0x497faf[_0x2a56d7(0x70d)](zoneDrop,_0x4f264b);}return _0xdbc4f1?manCover(_0xdbc4f1['id']):zoneDrop(_0x4f264b);}if(_0x16d3d1==='SAF_S'){if(stickyOnce('nsk2new_underS_ss',!!(_0x31e30d&&_0x497faf['uVMeS'](_0x5b3f72,_0x31e30d)))){if(isStickyLocked(_0x2a56d7(0x36b)))persistentCovCalls[_0x2a56d7(0x5dd)]=!![];const _0x3a2f7e=_0x5ac4ab(_0x4f7a03),_0x2f8af5=_0x3a2f7e?.[_0x2a56d7(0x6ae)]?.['x']??0x0,_0x3f8347=_0x497faf[_0x2a56d7(0x600)](_0x3a2f7e?.[_0x2a56d7(0x71b)],_0x497faf[_0x2a56d7(0x4c9)]),_0x2c8445=!!(_0x497faf['hpsoU'](_0x4f7a03,_0x3f8347)&&(_0x497faf[_0x2a56d7(0x33a)](_0x1344d5,'L')?_0x497faf[_0x2a56d7(0x18f)](_0x2f8af5,0x0):_0x497faf[_0x2a56d7(0x62b)](_0x2f8af5,0x0)));if(_0x497faf['oBsIS'](stickyOnce,_0x2a56d7(0x5e1),_0x2c8445)){if(persistentCovCalls[_0x2a56d7(0x5ed)])return zoneDrop(_0x4f8ea4);return manCover(_0x4f7a03['id']);}return zoneDrop(_0x4f8ea4);}if(persistentCovCalls[_0x2a56d7(0x5ed)])return _0xdbc4f1?manCover(_0xdbc4f1['id']):zoneDrop(_0x4f264b);{const _0x31f880=_0x497faf[_0x2a56d7(0x2eb)](_0x5ac4ab,_0x4f7a03),_0x197cfa=_0x31f880?.[_0x2a56d7(0x6ae)]?.['x']??0x0,_0x3eda5c=_0x497faf['KzQqW'](_0x31f880?.['moveType'],'stopped'),_0x318db8=!!(_0x497faf[_0x2a56d7(0x1a7)](_0x4f7a03,_0x3eda5c)&&(_0x497faf[_0x2a56d7(0x176)](_0x1344d5,'L')?_0x197cfa<0x0:_0x497faf[_0x2a56d7(0x62b)](_0x197cfa,0x0)));if(_0x318db8){if(!persistentCovCalls['nsk2new_rbStrongDecided']){const _0x27fd2c=defensePlayers[_0x2a56d7(0x1b9)](_0x3dec83=>{const _0x95a5f4=_0x2a56d7,_0x540045=frozenRoleMap?.['get'](_0x3dec83['id']);if(_0x540045!==_0x95a5f4(0x3e5)&&_0x540045!=='APEX-R')return![];const _0x4b56fb=snapAlignment[_0x3dec83['id']]?.['x']??(_0x3dec83['simX']??_0x3dec83['x']);return _0x497faf[_0x95a5f4(0x33a)](_0x4b56fb<=_0x3d899d?'L':'R',_0x1344d5);});if(_0x27fd2c){const _0x4d08fd=_0x277093[_0x2a56d7(0x79d)]??_0x277093['x'],_0x270b77=_0x277093['simY']??_0x277093['y'],_0x4ec8fa=_0x27fd2c[_0x2a56d7(0x79d)]??_0x27fd2c['x'],_0x2d0d75=_0x27fd2c[_0x2a56d7(0x5be)]??_0x27fd2c['y'],_0x376d3c=_0x4f7a03[_0x2a56d7(0x79d)]??_0x4f7a03['x'],_0x160323=_0x4f7a03['simY']??_0x4f7a03['y'];persistentCovCalls[_0x2a56d7(0x3b8)]=!![],persistentCovCalls[_0x2a56d7(0x3f9)]=_0x497faf[_0x2a56d7(0x3fd)](Math['hypot'](_0x4d08fd-_0x376d3c,_0x497faf[_0x2a56d7(0x40b)](_0x270b77,_0x160323)),Math[_0x2a56d7(0x68f)](_0x497faf[_0x2a56d7(0x798)](_0x4ec8fa,_0x376d3c),_0x497faf['kPBVj'](_0x2d0d75,_0x160323)));}}if(persistentCovCalls[_0x2a56d7(0x3f9)])return manCover(_0x4f7a03['id']);}}return _0x31e30d?manCover(_0x31e30d['id']):zoneDrop(_0x4f8ea4);}if((_0x497faf[_0x2a56d7(0x35b)](_0x16d3d1,_0x497faf[_0x2a56d7(0x35c)])||_0x497faf['DtzOC'](_0x16d3d1,'APEX-R'))&&_0x22ac04){const _0x4e38a3=_0x5ac4ab(_0x4f7a03),_0x21e266=_0x4e38a3?.[_0x2a56d7(0x6ae)]?.['x']??0x0,_0x4b2835=_0x4e38a3?.[_0x2a56d7(0x71b)]!==_0x497faf['iSudY'],_0x17845f=!!(_0x497faf[_0x2a56d7(0x1a7)](_0x4f7a03,_0x4b2835)&&(_0x497faf['qdHdb'](_0x1344d5,'L')?_0x21e266<0x0:_0x21e266>0x0));if(persistentCovCalls[_0x2a56d7(0x365)]){const _0x143c0e=[_0x25e1d3,_0x454293][_0x2a56d7(0x427)](Boolean)[_0x2a56d7(0x1b9)](_0x3722b3=>_0x5b3f72(_0x3722b3)&&!defensePlayers[_0x2a56d7(0x57b)](_0x21d7e4=>_0x21d7e4['id']!==_0x277093['id']&&_0x21d7e4['decision']?.[_0x2a56d7(0x5bb)]===_0x3722b3['id']));if(_0x143c0e)return _0x497faf[_0x2a56d7(0x67a)](manCover,_0x143c0e['id']);}if(_0x17845f&&_0x4f7a03){if(!persistentCovCalls[_0x2a56d7(0x3b8)]){const _0xb2ee4d=defensePlayers['find'](_0x512183=>frozenRoleMap?.[_0x2a56d7(0x331)](_0x512183['id'])==='SAF_S');if(_0xb2ee4d){const _0x5b7feb=_0xb2ee4d[_0x2a56d7(0x79d)]??_0xb2ee4d['x'],_0x3d0982=_0xb2ee4d[_0x2a56d7(0x5be)]??_0xb2ee4d['y'],_0x2d5ce5=_0x277093[_0x2a56d7(0x79d)]??_0x277093['x'],_0xf63fc0=_0x277093[_0x2a56d7(0x5be)]??_0x277093['y'],_0x12afbf=_0x4f7a03[_0x2a56d7(0x79d)]??_0x4f7a03['x'],_0x9cf6c5=_0x4f7a03[_0x2a56d7(0x5be)]??_0x4f7a03['y'];persistentCovCalls[_0x2a56d7(0x3b8)]=!![],persistentCovCalls[_0x2a56d7(0x3f9)]=_0x497faf['ScXXY'](Math[_0x2a56d7(0x68f)](_0x5b7feb-_0x12afbf,_0x3d0982-_0x9cf6c5),Math[_0x2a56d7(0x68f)](_0x2d5ce5-_0x12afbf,_0xf63fc0-_0x9cf6c5));}}if(persistentCovCalls['nsk2new_pushStrong']&&_0x31e30d)return _0x497faf[_0x2a56d7(0x70d)](manCover,_0x31e30d['id']);if(persistentCovCalls[_0x2a56d7(0x3b8)]&&!persistentCovCalls['nsk2new_pushStrong'])return _0x497faf[_0x2a56d7(0x78e)](manCover,_0x4f7a03['id']);}return zoneDrop(_0x5b03cf);}if(_0x16d3d1===_0x497faf[_0x2a56d7(0x535)]||_0x16d3d1==='HOOK-R'||_0x497faf['qdHdb'](_0x16d3d1,_0x2a56d7(0x722))){const _0x3a71e5=_0x497faf[_0x2a56d7(0x662)](_0x5ac4ab,_0x4f7a03),_0x24c6ff=_0x3a71e5?.[_0x2a56d7(0x6ae)]?.['x']??0x0,_0x3b84a4=_0x497faf[_0x2a56d7(0x600)](_0x3a71e5?.[_0x2a56d7(0x71b)],_0x497faf[_0x2a56d7(0x4c9)]),_0x1b8bdc=!!(_0x497faf[_0x2a56d7(0x53d)](_0x4f7a03,_0x3b84a4)&&(_0x432967==='L'?_0x497faf[_0x2a56d7(0x3fd)](_0x24c6ff,0x0):_0x497faf[_0x2a56d7(0x62b)](_0x24c6ff,0x0)));if(persistentCovCalls[_0x2a56d7(0x5dd)]){const _0x2b2b8f=[_0x31e30d,_0xdbc4f1]['filter'](Boolean)[_0x2a56d7(0x1b9)](_0x27c7a6=>_0x5b3f72(_0x27c7a6)&&!defensePlayers[_0x2a56d7(0x57b)](_0xd4d260=>_0xd4d260['id']!==_0x277093['id']&&_0xd4d260[_0x2a56d7(0x239)]?.['focusTargetId']===_0x27c7a6['id']));if(_0x2b2b8f)return _0x497faf[_0x2a56d7(0x445)](manCover,_0x2b2b8f['id']);}if(_0x1b8bdc&&_0x4f7a03){if(!persistentCovCalls[_0x2a56d7(0x75b)]){const _0x35c6e1=defensePlayers[_0x2a56d7(0x1b9)](_0x5099b7=>{const _0x12ae04=_0x2a56d7,_0x31a0aa=frozenRoleMap?.[_0x12ae04(0x331)](_0x5099b7['id']);if(_0x31a0aa!==_0x497faf[_0x12ae04(0x35c)]&&_0x31a0aa!==_0x497faf[_0x12ae04(0x6ba)])return![];const _0x56e365=snapAlignment[_0x5099b7['id']]?.['x']??(_0x5099b7[_0x12ae04(0x79d)]??_0x5099b7['x']);return _0x497faf['xDeol'](_0x56e365<=_0x3d899d?'L':'R',_0x432967);});if(_0x35c6e1){const _0x57c7a5=_0x35c6e1[_0x2a56d7(0x79d)]??_0x35c6e1['x'],_0x4d5a33=_0x35c6e1['simY']??_0x35c6e1['y'],_0x42e410=_0x277093[_0x2a56d7(0x79d)]??_0x277093['x'],_0x12ffd9=_0x277093[_0x2a56d7(0x5be)]??_0x277093['y'],_0xc43f74=_0x4f7a03[_0x2a56d7(0x79d)]??_0x4f7a03['x'],_0x531940=_0x4f7a03['simY']??_0x4f7a03['y'];persistentCovCalls[_0x2a56d7(0x75b)]=!![],persistentCovCalls[_0x2a56d7(0x41b)]=_0x497faf[_0x2a56d7(0x20e)](Math[_0x2a56d7(0x68f)](_0x57c7a5-_0xc43f74,_0x4d5a33-_0x531940),Math[_0x2a56d7(0x68f)](_0x497faf[_0x2a56d7(0x5b6)](_0x42e410,_0xc43f74),_0x12ffd9-_0x531940));}}if(persistentCovCalls[_0x2a56d7(0x41b)]&&_0x25e1d3)return _0x497faf['gUnlB'](manCover,_0x25e1d3['id']);if(persistentCovCalls[_0x2a56d7(0x75b)]&&!persistentCovCalls[_0x2a56d7(0x41b)])return manCover(_0x4f7a03['id']);}return zoneDrop(_0x4e2ea7);}if((_0x16d3d1===_0x497faf['xTegM']||_0x16d3d1===_0x2a56d7(0x238))&&_0x359d93){if(stickyOnce(_0x2a56d7(0x3a5),!!(_0x25e1d3&&_0x5b3f72(_0x25e1d3)))){if(isStickyLocked('nsk2new_underW_wa'))persistentCovCalls[_0x2a56d7(0x365)]=!![];const _0x6c37ea=_0x5ac4ab(_0x4f7a03),_0x3cb9a7=_0x6c37ea?.[_0x2a56d7(0x6ae)]?.['x']??0x0,_0x352d22=_0x6c37ea?.[_0x2a56d7(0x71b)]!==_0x2a56d7(0x1d8),_0x5aa24b=!!(_0x4f7a03&&_0x352d22&&(_0x432967==='L'?_0x497faf['ScXXY'](_0x3cb9a7,0x0):_0x3cb9a7>0x0));if(!persistentCovCalls[_0x2a56d7(0x5e1)]&&_0x5aa24b){if(persistentCovCalls[_0x2a56d7(0x2f7)])return _0x497faf['IDOiJ'](zoneDrop,_0x21f4ff);return manCover(_0x4f7a03['id']);}return zoneDrop(_0x21f4ff);}if(persistentCovCalls[_0x2a56d7(0x2f7)])return _0x454293?manCover(_0x454293['id']):_0x497faf[_0x2a56d7(0x3b7)](zoneDrop,_0x2e18a7);{const _0x3e13a8=_0x5ac4ab(_0x4f7a03),_0x532821=_0x3e13a8?.['vel']?.['x']??0x0,_0x33478d=_0x3e13a8?.['moveType']!==_0x497faf['iSudY'],_0x5bd8f8=!!(_0x497faf[_0x2a56d7(0x345)](_0x4f7a03,_0x33478d)&&(_0x432967==='L'?_0x497faf[_0x2a56d7(0x3c2)](_0x532821,0x0):_0x532821>0x0));if(_0x5bd8f8){if(!persistentCovCalls[_0x2a56d7(0x75b)]){const _0x13065c=defensePlayers['find'](_0x42aa57=>{const _0xdad4ed=_0x2a56d7,_0x204e70=frozenRoleMap?.[_0xdad4ed(0x331)](_0x42aa57['id']);return _0x497faf[_0xdad4ed(0x33a)](_0x204e70,_0xdad4ed(0x669))||_0x204e70===_0xdad4ed(0x400)||_0x497faf[_0xdad4ed(0x755)](_0x204e70,_0x497faf[_0xdad4ed(0x348)]);});if(_0x13065c){const _0x4818e7=_0x277093[_0x2a56d7(0x79d)]??_0x277093['x'],_0x4da56e=_0x277093[_0x2a56d7(0x5be)]??_0x277093['y'],_0x54d580=_0x13065c[_0x2a56d7(0x79d)]??_0x13065c['x'],_0x4fd776=_0x13065c['simY']??_0x13065c['y'],_0x20590d=_0x4f7a03['simX']??_0x4f7a03['x'],_0x3d253a=_0x4f7a03[_0x2a56d7(0x5be)]??_0x4f7a03['y'];persistentCovCalls[_0x2a56d7(0x75b)]=!![],persistentCovCalls['nsk2new_pushWeak']=Math[_0x2a56d7(0x68f)](_0x497faf[_0x2a56d7(0x475)](_0x4818e7,_0x20590d),_0x4da56e-_0x3d253a)<Math[_0x2a56d7(0x68f)](_0x497faf['KslCv'](_0x54d580,_0x20590d),_0x497faf[_0x2a56d7(0x424)](_0x4fd776,_0x3d253a));}}if(persistentCovCalls['nsk2new_pushWeak'])return manCover(_0x4f7a03['id']);}}return _0x25e1d3?_0x497faf[_0x2a56d7(0x445)](manCover,_0x25e1d3['id']):_0x497faf[_0x2a56d7(0x46e)](zoneDrop,_0x21f4ff);}if(_0x16d3d1==='CB'&&_0x359d93){if(_0x497faf[_0x2a56d7(0x261)](stickyOnce,_0x497faf['mPrHV'],!!(_0x454293&&_0x5b3f72(_0x454293)))){if(_0x497faf[_0x2a56d7(0x464)](isStickyLocked,_0x497faf[_0x2a56d7(0x708)]))persistentCovCalls['nsk2new_underW']=!![];return _0x497faf[_0x2a56d7(0x464)](zoneDrop,_0x2e18a7);}if(_0x497faf['oBsIS'](stickyOnce,_0x497faf[_0x2a56d7(0x358)],!!(_0x454293&&_0x5b50aa(_0x454293)))){if(_0x497faf[_0x2a56d7(0x464)](isStickyLocked,_0x497faf[_0x2a56d7(0x358)]))persistentCovCalls['nsk2new_smashW']=!![];return _0x497faf[_0x2a56d7(0x67a)](zoneDrop,_0x2e18a7);}return _0x454293?_0x497faf[_0x2a56d7(0x46e)](manCover,_0x454293['id']):_0x497faf[_0x2a56d7(0x74a)](zoneDrop,_0x2e18a7);}if(_0x16d3d1===_0x2a56d7(0x23b))return zoneDrop(_0x497faf[_0x2a56d7(0x652)]);return null;}},'cover3-sky-2x2-match':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x5e4ef2,_0x473e5f,_0x14703f){const _0x3e35c1=_0x2e24de,_0x519bda={'UBbak':function(_0x23a8c9,_0x3feb49){return _0x23a8c9<=_0x3feb49;},'pQxON':function(_0x54e61e,_0x1888c7){return _0x54e61e===_0x1888c7;},'vujSO':_0x3e35c1(0x3e5),'VlXOg':_0x3e35c1(0x4ef),'KtPnp':function(_0x265c02,_0x4167d8){return _0x265c02(_0x4167d8);},'AhVjw':_0x3e35c1(0x238),'vCSiR':function(_0x11b522,_0x256739){return _0x11b522(_0x256739);},'KJboN':_0x3e35c1(0x400),'nOVQx':_0x3e35c1(0x23b),'vvnBM':_0x3e35c1(0x259),'IawDV':function(_0x78b54,_0x51345b){return _0x78b54===_0x51345b;},'kuvTR':_0x3e35c1(0x4fb),'AobcZ':function(_0x278bce,_0x3f54ad){return _0x278bce===_0x3f54ad;},'bUJZi':function(_0x2c0be4,_0x59d4e6){return _0x2c0be4===_0x59d4e6;},'XMmWF':_0x3e35c1(0x647),'iQnhl':'CURL_FLAT_R','YxSfe':'HOOK_CURL_L','uoUtI':_0x3e35c1(0x198),'QmDjn':function(_0x13ca9b,_0x5e9267,_0x5c15a0){return _0x13ca9b(_0x5e9267,_0x5c15a0);}},_0x322245=new Map();if(!_0x14703f)return _0x322245;const _0x5802a3=_0x14703f[_0x3e35c1(0x1b2)],_0x346db7=_0x14703f[_0x3e35c1(0x205)]||[],_0x27984e=_0x14703f[_0x3e35c1(0x479)]||null,_0x8b1762=_0x346db7[_0x3e35c1(0x427)](_0x520122=>_0x520122['_side']==='L')[_0x3e35c1(0x6ab)],_0x3060c2=_0x346db7[_0x3e35c1(0x427)](_0x51c600=>_0x51c600[_0x3e35c1(0x6c1)]==='R')[_0x3e35c1(0x6ab)],_0x1ee0b4=_0x14703f['coverageStrongSide']||(_0x8b1762>=_0x3060c2?'L':'R'),_0xcf7b0f=_0x519bda['pQxON'](_0x1ee0b4,'L')?'R':'L',_0x5788da=_0x1ee0b4==='L'?'DEEP_L':'DEEP_R',_0x593718=_0x519bda[_0x3e35c1(0x550)](_0xcf7b0f,'L')?_0x3e35c1(0x3e8):_0x519bda['kuvTR'],_0x4ab04e=_0x519bda[_0x3e35c1(0x675)](_0x1ee0b4,'L')?_0x3e35c1(0x647):_0x3e35c1(0x1d1),_0x18060e=_0x519bda['bUJZi'](_0xcf7b0f,'L')?_0x519bda[_0x3e35c1(0x663)]:_0x519bda[_0x3e35c1(0x3e2)],_0x1ce198=_0x1ee0b4==='L'?_0x3e35c1(0x226):_0x3e35c1(0x198),_0x2f9be3=_0xcf7b0f==='L'?_0x519bda['YxSfe']:_0x519bda[_0x3e35c1(0x56d)];function _0x421e8e(_0x3d6d8a,_0x2d82c7){const _0x11f659=_0x3e35c1;return _0x346db7[_0x11f659(0x1b9)](_0x20a258=>_0x20a258[_0x11f659(0x6c1)]===_0x3d6d8a&&_0x20a258[_0x11f659(0x4df)]===_0x2d82c7)||null;}const _0x5d5c42=_0x421e8e(_0x1ee0b4,0x1),_0x449fa3=_0x421e8e(_0x1ee0b4,0x2),_0x6a27c9=_0x519bda[_0x3e35c1(0x2b7)](_0x421e8e,_0xcf7b0f,0x1),_0x2db5f8=_0x421e8e(_0xcf7b0f,0x2);return _0x5e4ef2[_0x3e35c1(0x29e)]((_0x1ef186,_0x3c9d94)=>{const _0x512da9=_0x3e35c1,_0x13685f=_0x473e5f[_0x512da9(0x331)](_0x3c9d94);if(!_0x13685f)return;const _0xab3236=_0x519bda[_0x512da9(0x241)](_0x13685f['x'],_0x5802a3)?'L':'R',_0x2471b1=_0x519bda[_0x512da9(0x704)](_0x1ef186,_0x519bda['vujSO'])||_0x1ef186===_0x512da9(0x669)?'L':_0x1ef186===_0x512da9(0x238)||_0x1ef186===_0x512da9(0x400)?'R':_0xab3236,_0x2dd082=_0x2471b1===_0x1ee0b4,_0x42fe01=_0x2471b1===_0xcf7b0f;switch(_0x1ef186){case _0x512da9(0x25f):case _0x519bda[_0x512da9(0x4d3)]:_0x322245[_0x512da9(0x590)](_0x3c9d94,rushDec());break;case'CB':if(_0x2dd082)_0x322245[_0x512da9(0x590)](_0x3c9d94,_0x5d5c42?manCover(_0x5d5c42['id']):_0x519bda[_0x512da9(0x1cb)](zoneDrop,_0x5788da));if(_0x42fe01)_0x322245[_0x512da9(0x590)](_0x3c9d94,_0x6a27c9?manCover(_0x6a27c9['id']):zoneDrop(_0x593718));break;case _0x512da9(0x2ac):_0x322245[_0x512da9(0x590)](_0x3c9d94,_0x449fa3?manCover(_0x449fa3['id']):zoneDrop(_0x4ab04e));break;case _0x519bda[_0x512da9(0x644)]:case _0x519bda['AhVjw']:if(_0x2dd082)_0x322245[_0x512da9(0x590)](_0x3c9d94,_0x519bda['vCSiR'](zoneDrop,_0x1ce198));if(_0x42fe01)_0x322245[_0x512da9(0x590)](_0x3c9d94,_0x2db5f8?_0x519bda[_0x512da9(0x1cb)](manCover,_0x2db5f8['id']):zoneDrop(_0x18060e));break;case _0x512da9(0x669):case _0x519bda[_0x512da9(0x6ac)]:case _0x512da9(0x722):_0x322245[_0x512da9(0x590)](_0x3c9d94,zoneDrop(_0x2f9be3));break;case _0x519bda[_0x512da9(0x15b)]:_0x322245['set'](_0x3c9d94,_0x519bda[_0x512da9(0x1cb)](zoneDrop,_0x519bda[_0x512da9(0x598)]));break;}}),_0x322245;},'react'(_0x3e1f66,_0x51ca2c,_0x52000b,_0x40e186){const _0x48a68f=_0x2e24de,_0x4fab56={'nzFNe':function(_0x6c74fe,_0x23a3e1,_0x318bfc){return _0x6c74fe(_0x23a3e1,_0x318bfc);},'fVbey':function(_0x27bcff,_0x1289ab){return _0x27bcff===_0x1289ab;},'THSWJ':function(_0x3fd11f,_0x477698){return _0x3fd11f>_0x477698;},'YTpJu':function(_0x4cb662,_0xb5be29){return _0x4cb662-_0xb5be29;},'oipot':function(_0x1b2efd,_0x1763de){return _0x1b2efd-_0x1763de;},'HYMiW':function(_0x143604,_0x577a66){return _0x143604(_0x577a66);},'nfoER':function(_0x38b659,_0xfe35d6){return _0x38b659>=_0xfe35d6;},'nbUHz':function(_0x14baa6,_0x2631c5){return _0x14baa6-_0x2631c5;},'OqzrY':function(_0x34b90a,_0x29e597){return _0x34b90a*_0x29e597;},'vcPBc':function(_0x3b53f7,_0x3d9c02){return _0x3b53f7!==_0x3d9c02;},'IfQwK':_0x48a68f(0x3e5),'xKMti':function(_0x5f1423,_0x2c6e48){return _0x5f1423!==_0x2c6e48;},'ZVakY':function(_0x3fbb70,_0x5a8348){return _0x3fbb70===_0x5a8348;},'jegXf':function(_0x3c3897,_0x59d1f4){return _0x3c3897===_0x59d1f4;},'Pqsak':function(_0xc278,_0x3972f3){return _0xc278===_0x3972f3;},'TJnTG':function(_0x526e66,_0x21bc4a){return _0x526e66===_0x21bc4a;},'FUITQ':'APEX-R','xLONP':_0x48a68f(0x400),'LNAos':function(_0x37bc6d,_0x3076f9){return _0x37bc6d!==_0x3076f9;},'EPGwS':_0x48a68f(0x371),'WkHAi':function(_0x300005,_0x584687){return _0x300005!==_0x584687;},'bRIXT':function(_0x2b5b27,_0x450c1b){return _0x2b5b27===_0x450c1b;},'jgiHw':_0x48a68f(0x3e8),'QHMWm':_0x48a68f(0x4fb),'VeVWR':_0x48a68f(0x647),'plhBJ':_0x48a68f(0x226),'TzXlM':'HOOK_CURL_R','SbvAY':function(_0x1670c2,_0x364692,_0x1fca5b){return _0x1670c2(_0x364692,_0x1fca5b);},'wtTdA':function(_0x1b99b0,_0x560db2,_0x480216){return _0x1b99b0(_0x560db2,_0x480216);},'FgcLC':function(_0x7999a8,_0x2f61f0,_0x1208a2){return _0x7999a8(_0x2f61f0,_0x1208a2);},'rtSDo':'mufm_underS_cb','CeFlH':_0x48a68f(0x2ac),'icBeq':function(_0x5a9118,_0x5aaec8,_0x1cbca1){return _0x5a9118(_0x5aaec8,_0x1cbca1);},'PLnzt':function(_0x121e1d,_0x12ec79){return _0x121e1d(_0x12ec79);},'ZDyRD':_0x48a68f(0x1e5),'HgTED':function(_0x101bc0,_0x1aa5ca){return _0x101bc0-_0x1aa5ca;},'xelsS':function(_0xbff9ab,_0x3a6d35){return _0xbff9ab(_0x3a6d35);},'nFSvL':function(_0x426f60,_0x33fa0a){return _0x426f60<_0x33fa0a;},'Ilgms':function(_0x2a3648,_0x4ae4ff){return _0x2a3648&&_0x4ae4ff;},'XfRNp':function(_0x27b7d8,_0x128736){return _0x27b7d8(_0x128736);},'Uzjbd':function(_0x30e7c6,_0x5f25de){return _0x30e7c6===_0x5f25de;},'bQXaV':function(_0x32e83c,_0x25c1f9){return _0x32e83c===_0x25c1f9;},'VmXnk':'mufm_underW_wa','YoyNZ':function(_0x17a1f2,_0x5b184c){return _0x17a1f2(_0x5b184c);},'SuQLD':function(_0x240a39,_0x3c0268){return _0x240a39(_0x3c0268);},'CpXoF':function(_0x28c97e,_0x3d7806){return _0x28c97e-_0x3d7806;},'ZhCFt':function(_0x4cb80a,_0x501f5a){return _0x4cb80a-_0x501f5a;},'gRqNH':function(_0x2c89c6,_0x4fad69){return _0x2c89c6-_0x4fad69;},'oIMcd':function(_0x5cbbbc,_0x2ed425){return _0x5cbbbc(_0x2ed425);},'OuHUc':function(_0x1afedf,_0x56d351){return _0x1afedf(_0x56d351);},'ASDvD':function(_0x5d2dc4,_0x48337e){return _0x5d2dc4(_0x48337e);},'Pvslb':function(_0x2c6712,_0x5972a0){return _0x2c6712(_0x5972a0);},'qKHIJ':_0x48a68f(0x54e),'XgEuC':function(_0x42e08f,_0x185812){return _0x42e08f(_0x185812);},'JJReS':function(_0x2a2490,_0x29a9d1){return _0x2a2490(_0x29a9d1);},'Gaeyz':_0x48a68f(0x23b)};if(!_0x52000b)return null;const _0x2b30e2=_0x52000b[_0x48a68f(0x1b2)],_0x3fd428=_0x52000b['eligiblePlayers']||[],_0x4f8755=_0x52000b['primaryBackfield']||null,_0x45a09d=_0x3fd428[_0x48a68f(0x427)](_0x4dbc34=>_0x4dbc34[_0x48a68f(0x6c1)]==='L')[_0x48a68f(0x6ab)],_0x2e90e3=_0x3fd428[_0x48a68f(0x427)](_0x45cd66=>_0x45cd66['_side']==='R')[_0x48a68f(0x6ab)],_0x32e9ed=_0x52000b['coverageStrongSide']||(_0x45a09d>=_0x2e90e3?'L':'R'),_0x2758c2=_0x4fab56[_0x48a68f(0x283)](_0x32e9ed,'L')?'R':'L',_0xb2ceab=snapAlignment[_0x3e1f66['id']]?.['x']??(_0x3e1f66['simX']??_0x3e1f66['x']),_0x37d86f=_0xb2ceab<=_0x2b30e2?'L':'R',_0x3a1dbf=_0x4fab56['Pqsak'](_0x51ca2c,_0x48a68f(0x3e5))||_0x4fab56['TJnTG'](_0x51ca2c,_0x48a68f(0x669))?'L':_0x51ca2c===_0x4fab56[_0x48a68f(0x787)]||_0x51ca2c===_0x4fab56[_0x48a68f(0x70c)]?'R':_0x37d86f,_0x37a8d7=_0x4fab56['Pqsak'](_0x3a1dbf,_0x32e9ed),_0x4925e3=_0x4fab56[_0x48a68f(0x614)](_0x3a1dbf,_0x2758c2);function _0x41f5ce(_0x1f257e,_0x5d8397){const _0x3e7329=_0x48a68f;return _0x3fd428[_0x3e7329(0x1b9)](_0x387c9b=>_0x387c9b[_0x3e7329(0x6c1)]===_0x1f257e&&_0x387c9b[_0x3e7329(0x4df)]===_0x5d8397)||null;}function _0xc35320(_0x421ccb){return _0x421ccb?_0x40e186[_0x421ccb['id']]:null;}function _0x2d0da2(_0x2ed7da){const _0x2ea2a8=_0x48a68f;return _0x4fab56[_0x2ea2a8(0x16c)](isUnderRoute,_0x2ed7da,_0x40e186);}function _0x1b982f(_0x53cc5d){const _0x2373a0=_0x48a68f;return _0x4fab56[_0x2373a0(0x16c)](isHitchRoute,_0x53cc5d,_0x40e186);}const _0x2cdb8a=_0x4fab56[_0x48a68f(0x51e)](typeof YARD_PX,_0x4fab56['EPGwS'])?YARD_PX:0x14,_0x46dcd9=0x5,_0x40fe04=0.5,_0x5bd258=0x1,_0x4a9bcf=0x2,_0xe7307a=0x6,_0xaa4a50=0x2,_0x5a278e=_0x4fab56[_0x48a68f(0x58a)](typeof playPhaseTime,_0x4fab56['EPGwS'])?playPhaseTime:0x0;function _0x5da71d(_0x9b5e0e){const _0x280262=_0x48a68f;if(!_0x4f8755)return![];if(_0x5a278e<_0x5bd258)return![];const _0x3614d7=_0xc35320(_0x4f8755);if(!_0x3614d7)return![];if(_0x4fab56[_0x280262(0x519)](_0x3614d7[_0x280262(0x71b)],_0x280262(0x1d8)))return![];const _0x555db9=Math[_0x280262(0x78a)](_0x3614d7[_0x280262(0x65e)]??0x0);if(_0x4fab56['THSWJ'](_0x555db9,_0x4a9bcf))return![];const _0x59cbc2=_0x3614d7[_0x280262(0x6ae)]?.['x']??0x0,_0xf26992=_0x4fab56[_0x280262(0x519)](_0x9b5e0e,'L')?_0x59cbc2<0x0:_0x4fab56['THSWJ'](_0x59cbc2,0x0);if(!_0xf26992)return![];const _0xa8aeca=_0x3614d7['initPos']?.['x']??_0x3614d7['pos']?.['x']??0x0,_0x2af93c=_0x3614d7['pos']?.['x']??0x0;if(Math['abs'](_0x4fab56[_0x280262(0x444)](_0x2af93c,_0xa8aeca))<_0x46dcd9*_0x2cdb8a)return![];const _0x240e75=_0x4fab56[_0x280262(0x610)](_0x5a278e,_0x3614d7['lastDecisionChangeAt']??0x0);if(_0x240e75<_0x40fe04)return![];return!![];}function _0x347cab(_0x55d5cd,_0x8522c1){const _0x3a83e0=_0x48a68f,_0x1dce1a=_0x4fab56['HYMiW'](_0xc35320,_0x55d5cd);if(!_0x1dce1a)return![];const _0x40ee56=_0x1dce1a[_0x3a83e0(0x757)]?.['x']??_0x1dce1a[_0x3a83e0(0x254)]?.['x']??0x0,_0x4e58f7=_0x1dce1a[_0x3a83e0(0x254)]?.['x']??0x0;return _0x4fab56[_0x3a83e0(0x321)](Math['abs'](_0x4fab56[_0x3a83e0(0x6ce)](_0x4e58f7,_0x40ee56)),_0x4fab56[_0x3a83e0(0x3d8)](_0x8522c1,_0x2cdb8a));}function _0x119323(_0x388573,_0x2808b9){const _0x4d1ee4=_0x48a68f;if(!_0x388573||!_0x2808b9)return![];const _0xf798c5=_0x4fab56[_0x4d1ee4(0x27e)](_0xc35320,_0x2808b9),_0x100b58=_0x388573['simX']??_0x388573['x'],_0x329b5e=_0x2808b9[_0x4d1ee4(0x79d)]??_0x2808b9['x'],_0x357e8a=!!(_0xf798c5&&_0xf798c5[_0x4d1ee4(0x2d9)]),_0x40b436=Math['abs'](_0x100b58-_0x329b5e),_0x1ca37f=_0x40b436<_0xe7307a*_0x2cdb8a;return _0x357e8a||_0x1ca37f;}const _0x269c2b=_0x4fab56[_0x48a68f(0x143)](_0x32e9ed,'L')?_0x4fab56['jgiHw']:_0x48a68f(0x4fb),_0x10dda2=_0x2758c2==='L'?_0x48a68f(0x3e8):_0x4fab56['QHMWm'],_0x5c02a8=_0x4fab56['ZVakY'](_0x32e9ed,'L')?'CURL_FLAT_L':_0x48a68f(0x1d1),_0x5175b9=_0x2758c2==='L'?_0x4fab56[_0x48a68f(0x320)]:_0x48a68f(0x1d1),_0x53d78c=_0x4fab56[_0x48a68f(0x283)](_0x32e9ed,'L')?_0x4fab56[_0x48a68f(0x3a4)]:_0x4fab56[_0x48a68f(0x1d7)],_0x21c377=_0x4fab56[_0x48a68f(0x421)](_0x2758c2,'L')?_0x48a68f(0x226):_0x48a68f(0x198),_0x4b18ba=_0x41f5ce(_0x32e9ed,0x1),_0x2de0fa=_0x4fab56[_0x48a68f(0x167)](_0x41f5ce,_0x32e9ed,0x2),_0x3b6834=_0x4fab56[_0x48a68f(0x16c)](_0x41f5ce,_0x2758c2,0x1),_0x2d22de=_0x4fab56[_0x48a68f(0x2ee)](_0x41f5ce,_0x2758c2,0x2);if(_0x51ca2c==='CB'&&_0x37a8d7){if(_0x4fab56[_0x48a68f(0x207)](stickyOnce,_0x4fab56[_0x48a68f(0x433)],!!(_0x4b18ba&&_0x2d0da2(_0x4b18ba)))){if(isStickyLocked(_0x48a68f(0x6b3)))persistentCovCalls[_0x48a68f(0x4c5)]=!![];return _0x4fab56[_0x48a68f(0x27e)](zoneDrop,_0x269c2b);}if(stickyOnce(_0x48a68f(0x5ae),!!(_0x4b18ba&&_0x4fab56[_0x48a68f(0x27e)](_0x1b982f,_0x4b18ba)))){if(_0x4fab56[_0x48a68f(0x27e)](isStickyLocked,'mufm_smashS'))persistentCovCalls['mufm_smashS']=!![];return _0x4fab56[_0x48a68f(0x27e)](zoneDrop,_0x269c2b);}return _0x4b18ba?manCover(_0x4b18ba['id']):_0x4fab56[_0x48a68f(0x27e)](zoneDrop,_0x269c2b);}if(_0x51ca2c===_0x4fab56[_0x48a68f(0x50a)]){const _0x353ac9=_0x4fab56[_0x48a68f(0x436)](stickyOnce,_0x48a68f(0x59a),!!(_0x2de0fa&&_0x2d0da2(_0x2de0fa)));_0x353ac9&&isStickyLocked('mufm_underS_ss')&&(persistentCovCalls[_0x48a68f(0x4c5)]=!![]);if(persistentCovCalls[_0x48a68f(0x5ae)])return _0x4b18ba?manCover(_0x4b18ba['id']):zoneDrop(_0x269c2b);if(_0x353ac9){const _0x1d3037=_0x4fab56[_0x48a68f(0x21e)](_0x5da71d,_0x32e9ed);if(_0x4fab56[_0x48a68f(0x2ee)](stickyOnce,_0x4fab56[_0x48a68f(0x5d3)],_0x1d3037))return manCover(_0x4f8755['id']);return zoneDrop(_0x5c02a8);}{const _0x12cff4=_0x5da71d(_0x32e9ed);if(_0x12cff4){if(!persistentCovCalls[_0x48a68f(0x230)]){const _0x175b2c=defensePlayers[_0x48a68f(0x1b9)](_0x4087ba=>{const _0x38e01a=_0x48a68f,_0x349957=frozenRoleMap?.[_0x38e01a(0x331)](_0x4087ba['id']);if(_0x349957!==_0x38e01a(0x3e5)&&_0x349957!==_0x38e01a(0x238))return![];const _0x5d911a=snapAlignment[_0x4087ba['id']]?.['x']??(_0x4087ba[_0x38e01a(0x79d)]??_0x4087ba['x']);return(_0x5d911a<=_0x2b30e2?'L':'R')===_0x32e9ed;});if(_0x175b2c){const _0x462016=_0x3e1f66[_0x48a68f(0x79d)]??_0x3e1f66['x'],_0x25648c=_0x3e1f66[_0x48a68f(0x5be)]??_0x3e1f66['y'],_0x431b7b=_0x175b2c[_0x48a68f(0x79d)]??_0x175b2c['x'],_0x3a3fc8=_0x175b2c[_0x48a68f(0x5be)]??_0x175b2c['y'],_0x4a83c9=_0x4f8755[_0x48a68f(0x79d)]??_0x4f8755['x'],_0x2c4e35=_0x4f8755[_0x48a68f(0x5be)]??_0x4f8755['y'];persistentCovCalls[_0x48a68f(0x230)]=!![],persistentCovCalls['mufm_pushStrong']=Math[_0x48a68f(0x68f)](_0x4fab56[_0x48a68f(0x6ce)](_0x462016,_0x4a83c9),_0x4fab56[_0x48a68f(0x142)](_0x25648c,_0x2c4e35))<Math[_0x48a68f(0x68f)](_0x4fab56[_0x48a68f(0x6ce)](_0x431b7b,_0x4a83c9),_0x4fab56['YTpJu'](_0x3a3fc8,_0x2c4e35));}}if(persistentCovCalls[_0x48a68f(0x60f)])return manCover(_0x4f8755['id']);}}return _0x2de0fa?_0x4fab56[_0x48a68f(0x1b6)](manCover,_0x2de0fa['id']):zoneDrop(_0x5c02a8);}if((_0x4fab56[_0x48a68f(0x519)](_0x51ca2c,_0x48a68f(0x3e5))||_0x51ca2c===_0x48a68f(0x238))&&_0x37a8d7){const _0x11be88=_0x5da71d(_0x32e9ed);if(persistentCovCalls['mufm_underW']){const _0x406f31=persistentCovCalls['mufm_apexCrosserId'];if(_0x406f31){const _0x2ab9d4=[_0x2d22de,_0x3b6834][_0x48a68f(0x1b9)](_0x3e2fb5=>_0x3e2fb5&&_0x3e2fb5['id']===_0x406f31);if(_0x2ab9d4)return manCover(_0x2ab9d4['id']);persistentCovCalls[_0x48a68f(0x307)]=null;}const _0x55797d=[_0x2d22de,_0x3b6834][_0x48a68f(0x427)](Boolean)[_0x48a68f(0x1b9)](_0x1b8769=>_0x2d0da2(_0x1b8769)&&!defensePlayers[_0x48a68f(0x57b)](_0xf7946e=>_0xf7946e['id']!==_0x3e1f66['id']&&_0xf7946e[_0x48a68f(0x239)]?.[_0x48a68f(0x5bb)]===_0x1b8769['id']));if(_0x55797d&&_0x119323(_0x3e1f66,_0x55797d))return persistentCovCalls['mufm_apexCrosserId']=_0x55797d['id'],manCover(_0x55797d['id']);}if(_0x11be88&&_0x4f8755&&!persistentCovCalls['mufm_underS']){if(!persistentCovCalls[_0x48a68f(0x230)]){const _0x1a865b=defensePlayers[_0x48a68f(0x1b9)](_0x277332=>frozenRoleMap?.[_0x48a68f(0x331)](_0x277332['id'])==='SAF_S');if(_0x1a865b){const _0xb20229=_0x1a865b[_0x48a68f(0x79d)]??_0x1a865b['x'],_0x9e67e7=_0x1a865b[_0x48a68f(0x5be)]??_0x1a865b['y'],_0x11c78a=_0x3e1f66['simX']??_0x3e1f66['x'],_0x16ad3a=_0x3e1f66[_0x48a68f(0x5be)]??_0x3e1f66['y'],_0x35a37a=_0x4f8755[_0x48a68f(0x79d)]??_0x4f8755['x'],_0x434de5=_0x4f8755[_0x48a68f(0x5be)]??_0x4f8755['y'];persistentCovCalls[_0x48a68f(0x230)]=!![],persistentCovCalls[_0x48a68f(0x60f)]=_0x4fab56['nFSvL'](Math['hypot'](_0xb20229-_0x35a37a,_0x9e67e7-_0x434de5),Math[_0x48a68f(0x68f)](_0x4fab56['HgTED'](_0x11c78a,_0x35a37a),_0x16ad3a-_0x434de5));}}if(persistentCovCalls['mufm_pushStrong']&&_0x2de0fa)return _0x4fab56[_0x48a68f(0x1b6)](manCover,_0x2de0fa['id']);if(persistentCovCalls['mufm_rbStrongDecided']&&!persistentCovCalls[_0x48a68f(0x60f)])return manCover(_0x4f8755['id']);}return zoneDrop(_0x53d78c);}if(_0x4fab56[_0x48a68f(0x201)](_0x51ca2c,_0x48a68f(0x669))||_0x4fab56[_0x48a68f(0x201)](_0x51ca2c,_0x4fab56[_0x48a68f(0x70c)])||_0x51ca2c===_0x48a68f(0x722)){const _0x29862f=_0x5da71d(_0x2758c2);if(persistentCovCalls['mufm_underS']){const _0x173533=persistentCovCalls[_0x48a68f(0x2d0)];if(_0x173533){const _0x9360e8=[_0x2de0fa,_0x4b18ba]['find'](_0x336200=>_0x336200&&_0x336200['id']===_0x173533);if(_0x9360e8)return manCover(_0x9360e8['id']);persistentCovCalls[_0x48a68f(0x2d0)]=null;}const _0x2a8785=[_0x2de0fa,_0x4b18ba][_0x48a68f(0x427)](Boolean)[_0x48a68f(0x1b9)](_0x56b729=>_0x2d0da2(_0x56b729)&&!defensePlayers[_0x48a68f(0x57b)](_0x3c4875=>_0x3c4875['id']!==_0x3e1f66['id']&&_0x3c4875[_0x48a68f(0x239)]?.[_0x48a68f(0x5bb)]===_0x56b729['id']));if(_0x2a8785&&_0x4fab56[_0x48a68f(0x2ee)](_0x119323,_0x3e1f66,_0x2a8785))return persistentCovCalls[_0x48a68f(0x2d0)]=_0x2a8785['id'],manCover(_0x2a8785['id']);}if(_0x4fab56[_0x48a68f(0x224)](_0x29862f,_0x4f8755)&&!persistentCovCalls[_0x48a68f(0x237)]){if(!persistentCovCalls['mufm_rbWeakDecided']){const _0x1701f3=defensePlayers[_0x48a68f(0x1b9)](_0x34ed7d=>{const _0x20d917=_0x48a68f,_0x3cc5bc=frozenRoleMap?.[_0x20d917(0x331)](_0x34ed7d['id']);if(_0x4fab56[_0x20d917(0x748)](_0x3cc5bc,_0x4fab56[_0x20d917(0x678)])&&_0x4fab56[_0x20d917(0x6ee)](_0x3cc5bc,'APEX-R'))return![];const _0x91276b=snapAlignment[_0x34ed7d['id']]?.['x']??(_0x34ed7d['simX']??_0x34ed7d['x']);return(_0x91276b<=_0x2b30e2?'L':'R')===_0x2758c2;});if(_0x1701f3){const _0x50d8d8=_0x1701f3['simX']??_0x1701f3['x'],_0x4c2fc0=_0x1701f3[_0x48a68f(0x5be)]??_0x1701f3['y'],_0x2839ed=_0x3e1f66[_0x48a68f(0x79d)]??_0x3e1f66['x'],_0x134feb=_0x3e1f66[_0x48a68f(0x5be)]??_0x3e1f66['y'],_0x23ca5b=_0x4f8755['simX']??_0x4f8755['x'],_0x481e44=_0x4f8755[_0x48a68f(0x5be)]??_0x4f8755['y'];persistentCovCalls[_0x48a68f(0x471)]=!![],persistentCovCalls[_0x48a68f(0x2e2)]=Math['hypot'](_0x50d8d8-_0x23ca5b,_0x4c2fc0-_0x481e44)<Math[_0x48a68f(0x68f)](_0x2839ed-_0x23ca5b,_0x4fab56['oipot'](_0x134feb,_0x481e44));}}if(persistentCovCalls['mufm_pushWeak']&&_0x2d22de)return _0x4fab56[_0x48a68f(0x322)](manCover,_0x2d22de['id']);if(persistentCovCalls[_0x48a68f(0x471)]&&!persistentCovCalls[_0x48a68f(0x2e2)])return manCover(_0x4f8755['id']);}return _0x4fab56[_0x48a68f(0x27e)](zoneDrop,_0x21c377);}if((_0x4fab56[_0x48a68f(0x6e3)](_0x51ca2c,_0x4fab56['IfQwK'])||_0x4fab56[_0x48a68f(0x24f)](_0x51ca2c,_0x4fab56[_0x48a68f(0x787)]))&&_0x4925e3){const _0x4d9271=stickyOnce(_0x4fab56['VmXnk'],!!(_0x2d22de&&_0x2d0da2(_0x2d22de)));_0x4d9271&&_0x4fab56['YoyNZ'](isStickyLocked,_0x48a68f(0x4dc))&&(persistentCovCalls[_0x48a68f(0x237)]=!![]);if(persistentCovCalls[_0x48a68f(0x670)])return _0x3b6834?manCover(_0x3b6834['id']):zoneDrop(_0x10dda2);if(_0x4d9271){const _0x5bc586=_0x5da71d(_0x2758c2);if(!persistentCovCalls[_0x48a68f(0x1e5)]&&_0x5bc586)return _0x4fab56[_0x48a68f(0x322)](manCover,_0x4f8755['id']);return _0x4fab56[_0x48a68f(0x342)](zoneDrop,_0x5175b9);}{const _0x20ee47=_0x4fab56[_0x48a68f(0x21e)](_0x5da71d,_0x2758c2);if(_0x20ee47){if(!persistentCovCalls[_0x48a68f(0x471)]){const _0x5df1dd=defensePlayers[_0x48a68f(0x1b9)](_0x360853=>{const _0x11a778=_0x48a68f,_0x3e0b15=frozenRoleMap?.[_0x11a778(0x331)](_0x360853['id']);return _0x3e0b15==='HOOK-L'||_0x3e0b15==='HOOK-R'||_0x4fab56['ZVakY'](_0x3e0b15,_0x11a778(0x722));});if(_0x5df1dd){const _0x2073ef=_0x3e1f66[_0x48a68f(0x79d)]??_0x3e1f66['x'],_0x1d124b=_0x3e1f66[_0x48a68f(0x5be)]??_0x3e1f66['y'],_0x41a187=_0x5df1dd['simX']??_0x5df1dd['x'],_0x5d0028=_0x5df1dd[_0x48a68f(0x5be)]??_0x5df1dd['y'],_0x5213fd=_0x4f8755[_0x48a68f(0x79d)]??_0x4f8755['x'],_0x1f433f=_0x4f8755['simY']??_0x4f8755['y'];persistentCovCalls[_0x48a68f(0x471)]=!![],persistentCovCalls[_0x48a68f(0x2e2)]=_0x4fab56[_0x48a68f(0x423)](Math['hypot'](_0x4fab56['CpXoF'](_0x2073ef,_0x5213fd),_0x4fab56[_0x48a68f(0x562)](_0x1d124b,_0x1f433f)),Math[_0x48a68f(0x68f)](_0x41a187-_0x5213fd,_0x4fab56[_0x48a68f(0x6e9)](_0x5d0028,_0x1f433f)));}}if(persistentCovCalls['mufm_pushWeak'])return _0x4fab56[_0x48a68f(0x470)](manCover,_0x4f8755['id']);}}return _0x2d22de?_0x4fab56['OuHUc'](manCover,_0x2d22de['id']):_0x4fab56[_0x48a68f(0x1cc)](zoneDrop,_0x5175b9);}if(_0x51ca2c==='CB'&&_0x4925e3){if(_0x4fab56[_0x48a68f(0x2ee)](stickyOnce,_0x48a68f(0x54e),!!(_0x3b6834&&_0x2d0da2(_0x3b6834)))){if(_0x4fab56[_0x48a68f(0x169)](isStickyLocked,_0x4fab56['qKHIJ']))persistentCovCalls[_0x48a68f(0x237)]=!![];return _0x4fab56[_0x48a68f(0x2ed)](zoneDrop,_0x10dda2);}if(stickyOnce(_0x48a68f(0x670),!!(_0x3b6834&&_0x1b982f(_0x3b6834)))){if(isStickyLocked(_0x48a68f(0x670)))persistentCovCalls[_0x48a68f(0x670)]=!![];return _0x4fab56[_0x48a68f(0x2fc)](zoneDrop,_0x10dda2);}return _0x3b6834?_0x4fab56[_0x48a68f(0x2ed)](manCover,_0x3b6834['id']):zoneDrop(_0x10dda2);}if(_0x4fab56[_0x48a68f(0x614)](_0x51ca2c,_0x4fab56[_0x48a68f(0x42a)]))return zoneDrop(_0x48a68f(0x259));return null;}},'cover3-buzz-2x2-match':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x290f39,_0x2ea3e9,_0x2086f2){const _0x6832fa=_0x2e24de,_0x13ea92={'DssYj':function(_0x4db2f7,_0x2c68b7){return _0x4db2f7===_0x2c68b7;},'cGchS':_0x6832fa(0x669),'eQOxz':function(_0x30b0fe,_0x4a5746){return _0x30b0fe===_0x4a5746;},'RaKOJ':function(_0x24d617,_0x12387a){return _0x24d617===_0x12387a;},'JQjRb':_0x6832fa(0x400),'oWFPR':_0x6832fa(0x25f),'tadFQ':function(_0x28be95){return _0x28be95();},'mskKh':function(_0x3704ed,_0x2e0a26){return _0x3704ed(_0x2e0a26);},'xecib':_0x6832fa(0x2ac),'rgqGY':function(_0x22ba75,_0x29b9ad){return _0x22ba75(_0x29b9ad);},'XwQjV':_0x6832fa(0x3e5),'uaAZK':function(_0x553d16,_0x35a3eb){return _0x553d16(_0x35a3eb);},'qqKvJ':_0x6832fa(0x722),'EfTmc':function(_0x468556,_0x135e49){return _0x468556(_0x135e49);},'yXAvm':function(_0x5907a8,_0x34f45e){return _0x5907a8>=_0x34f45e;},'YIuTI':function(_0x247e80,_0x388972){return _0x247e80===_0x388972;},'jYtzi':_0x6832fa(0x3e8),'HIJFp':function(_0xab09f6,_0x583c54){return _0xab09f6===_0x583c54;},'lNFHs':_0x6832fa(0x647),'TIXty':function(_0x577a93,_0x256349){return _0x577a93===_0x256349;},'sySOU':_0x6832fa(0x226),'pTqFf':_0x6832fa(0x198)},_0x5356fc=new Map();if(!_0x2086f2)return _0x5356fc;const _0x1cce10=_0x2086f2[_0x6832fa(0x1b2)],_0x121acb=_0x2086f2[_0x6832fa(0x205)]||[],_0x1a8428=_0x2086f2[_0x6832fa(0x479)]||null,_0x251494=_0x121acb[_0x6832fa(0x427)](_0x3ac88f=>_0x3ac88f[_0x6832fa(0x6c1)]==='L')[_0x6832fa(0x6ab)],_0x4e4e06=_0x121acb[_0x6832fa(0x427)](_0x59993b=>_0x59993b['_side']==='R')[_0x6832fa(0x6ab)],_0x5e7855=_0x2086f2[_0x6832fa(0x1c0)]||(_0x13ea92[_0x6832fa(0x271)](_0x251494,_0x4e4e06)?'L':'R'),_0x1f1206=_0x5e7855==='L'?'R':'L',_0x1bb486=_0x13ea92[_0x6832fa(0x3f1)](_0x5e7855,'L')?_0x6832fa(0x3e8):'DEEP_R',_0x15b9bf=_0x1f1206==='L'?_0x13ea92[_0x6832fa(0x289)]:'DEEP_R',_0x79f0bd=_0x13ea92[_0x6832fa(0x67b)](_0x5e7855,'L')?_0x13ea92[_0x6832fa(0x40a)]:_0x6832fa(0x1d1),_0x3ff05c=_0x13ea92[_0x6832fa(0x68c)](_0x1f1206,'L')?_0x6832fa(0x647):_0x6832fa(0x1d1),_0x3dd529=_0x5e7855==='L'?_0x6832fa(0x226):_0x6832fa(0x198),_0x121fb4=_0x1f1206==='L'?_0x13ea92['sySOU']:_0x13ea92[_0x6832fa(0x4f0)];function _0x2ec423(_0x4e885f,_0x3793e7){const _0x44c20d=_0x6832fa;return _0x121acb[_0x44c20d(0x1b9)](_0x344c42=>_0x344c42[_0x44c20d(0x6c1)]===_0x4e885f&&_0x344c42[_0x44c20d(0x4df)]===_0x3793e7)||null;}const _0x13be32=_0x2ec423(_0x5e7855,0x1),_0x402a77=_0x2ec423(_0x5e7855,0x2),_0x4a4522=_0x2ec423(_0x1f1206,0x1),_0xa2b702=_0x2ec423(_0x1f1206,0x2);return _0x290f39['forEach']((_0x44b213,_0xe9a68d)=>{const _0x22edef=_0x6832fa,_0xa3f61e=_0x2ea3e9['get'](_0xe9a68d);if(!_0xa3f61e)return;const _0x4d8b7a=_0xa3f61e['x']<=_0x1cce10?'L':'R',_0x2a7e56=_0x13ea92[_0x22edef(0x4f9)](_0x44b213,_0x22edef(0x3e5))||_0x44b213===_0x13ea92['cGchS']?'L':_0x13ea92[_0x22edef(0x739)](_0x44b213,_0x22edef(0x238))||_0x13ea92[_0x22edef(0x4d4)](_0x44b213,_0x13ea92[_0x22edef(0x27f)])?'R':_0x4d8b7a,_0x3f94d5=_0x2a7e56===_0x5e7855,_0x59a23f=_0x2a7e56===_0x1f1206;switch(_0x44b213){case _0x13ea92[_0x22edef(0x62c)]:case'UNDER':_0x5356fc[_0x22edef(0x590)](_0xe9a68d,_0x13ea92[_0x22edef(0x478)](rushDec));break;case'CB':if(_0x3f94d5)_0x5356fc['set'](_0xe9a68d,_0x13be32?manCover(_0x13be32['id']):_0x13ea92[_0x22edef(0x252)](zoneDrop,_0x1bb486));if(_0x59a23f)_0x5356fc[_0x22edef(0x590)](_0xe9a68d,_0x4a4522?manCover(_0x4a4522['id']):zoneDrop(_0x15b9bf));break;case _0x13ea92['xecib']:_0x5356fc[_0x22edef(0x590)](_0xe9a68d,_0x13ea92[_0x22edef(0x453)](zoneDrop,_0x3dd529));break;case _0x13ea92[_0x22edef(0x633)]:case _0x22edef(0x238):if(_0x3f94d5)_0x5356fc[_0x22edef(0x590)](_0xe9a68d,_0x402a77?manCover(_0x402a77['id']):zoneDrop(_0x79f0bd));if(_0x59a23f)_0x5356fc['set'](_0xe9a68d,_0xa2b702?manCover(_0xa2b702['id']):_0x13ea92[_0x22edef(0x717)](zoneDrop,_0x3ff05c));break;case _0x13ea92[_0x22edef(0x32f)]:case'HOOK-R':case _0x13ea92['qqKvJ']:_0x5356fc[_0x22edef(0x590)](_0xe9a68d,_0x13ea92[_0x22edef(0x4b4)](zoneDrop,_0x121fb4));break;case _0x22edef(0x23b):_0x5356fc[_0x22edef(0x590)](_0xe9a68d,_0x13ea92[_0x22edef(0x252)](zoneDrop,'DEEP_MIDDLE'));break;}}),_0x5356fc;},'react'(_0x4c7c43,_0x3c75d0,_0x550213,_0x5af85c){const _0x3a7782=_0x2e24de,_0xf296d5={'GxxYg':function(_0x36d6d3,_0x10430f,_0x2b4196){return _0x36d6d3(_0x10430f,_0x2b4196);},'uWzBT':function(_0x2f880a,_0x57ee7f){return _0x2f880a<_0x57ee7f;},'jGtEE':function(_0x333b18,_0x30adb5){return _0x333b18===_0x30adb5;},'DgYDt':function(_0x58aa26,_0x57dfb1){return _0x58aa26>_0x57dfb1;},'IAHEc':function(_0x562b48,_0x431a8a){return _0x562b48-_0x431a8a;},'YwBbx':function(_0x35802c,_0x1cfbf0){return _0x35802c-_0x1cfbf0;},'PHvnj':function(_0x2d0722,_0x4f9aa1){return _0x2d0722(_0x4f9aa1);},'cQtNt':function(_0x25d2e3,_0x175b1f){return _0x25d2e3||_0x175b1f;},'LufOc':function(_0x365d24,_0xf6cacb){return _0x365d24!==_0xf6cacb;},'dXfrS':_0x3a7782(0x238),'ZsafY':function(_0x14a9e0,_0x44ca3e){return _0x14a9e0!==_0x44ca3e;},'AbIyh':_0x3a7782(0x3e5),'vXOmq':function(_0x2dc9c4,_0x51cfc5){return _0x2dc9c4!==_0x51cfc5;},'huMBz':function(_0x149330,_0xdd4c88){return _0x149330===_0xdd4c88;},'vqQbu':function(_0x5c7348,_0x3556fd){return _0x5c7348===_0x3556fd;},'DYYVv':_0x3a7782(0x722),'HwLuk':function(_0x430115,_0xd20470){return _0x430115>=_0xd20470;},'gtefR':function(_0x556e1b,_0x34e4dc){return _0x556e1b<=_0x34e4dc;},'qsrjP':function(_0x354e2f,_0x2fc55c){return _0x354e2f===_0x2fc55c;},'ZLfJG':_0x3a7782(0x400),'RqLOE':function(_0x56f212,_0x5d366d){return _0x56f212!==_0x5d366d;},'kdpbC':_0x3a7782(0x371),'Bjiis':_0x3a7782(0x3e8),'NOzNz':_0x3a7782(0x4fb),'DUHIj':_0x3a7782(0x1d1),'KhGYF':_0x3a7782(0x226),'fEjvM':_0x3a7782(0x198),'SJuij':function(_0x4cbdce,_0x2b31a1,_0x1847cc){return _0x4cbdce(_0x2b31a1,_0x1847cc);},'KJqGb':function(_0x4ce810,_0xd3915c){return _0x4ce810(_0xd3915c);},'fJJhm':function(_0x79bd86,_0xe13944,_0x33b521){return _0x79bd86(_0xe13944,_0x33b521);},'CbOky':'cbz2_smashS','BVHVj':function(_0x191c7d,_0x2f82f4){return _0x191c7d(_0x2f82f4);},'zWAOa':'SAF_S','KbARn':function(_0x1aa31c,_0x589b39){return _0x1aa31c(_0x589b39);},'fCCBE':function(_0x423a23,_0x4da35f){return _0x423a23&&_0x4da35f;},'aXoko':function(_0x21fce1,_0x182c95){return _0x21fce1-_0x182c95;},'cSrih':function(_0x597ea6,_0x22981c){return _0x597ea6(_0x22981c);},'nrWus':function(_0x195c60,_0x5ce065){return _0x195c60(_0x5ce065);},'cSjpK':function(_0x1a0981,_0xced834){return _0x1a0981===_0xced834;},'vIKoc':function(_0x428514,_0x58fcca){return _0x428514===_0x58fcca;},'vwgBB':'cbz2_underS_sa','diuVi':function(_0x2c8df1,_0x1ec44f){return _0x2c8df1(_0x1ec44f);},'KgyrQ':_0x3a7782(0x4ff),'ZWxQK':_0x3a7782(0x669),'GFhUC':function(_0x22189d,_0x550a38){return _0x22189d(_0x550a38);},'Gcnvl':function(_0x359fb5,_0x1dcd66){return _0x359fb5&&_0x1dcd66;},'QeyBu':function(_0x4a809f,_0x3924cf){return _0x4a809f<_0x3924cf;},'XmgtL':function(_0x11d0af,_0x5bf5de){return _0x11d0af-_0x5bf5de;},'jNRIk':function(_0x168cb8,_0x32524e){return _0x168cb8-_0x32524e;},'lzqOx':function(_0xa7b455,_0x7430,_0x250b1a){return _0xa7b455(_0x7430,_0x250b1a);},'WgDPA':function(_0xdbef6c,_0x21b694){return _0xdbef6c(_0x21b694);},'uTcgE':_0x3a7782(0x516),'gVsjl':function(_0xbe221,_0x2bbf21){return _0xbe221(_0x2bbf21);},'NNKZr':function(_0x1601c6,_0x116748){return _0x1601c6(_0x116748);},'ITTJW':'cbz2_smashW','NgEzo':function(_0x127aaf,_0x1810b3){return _0x127aaf(_0x1810b3);},'zgkvP':function(_0x1a778a,_0x195345){return _0x1a778a(_0x195345);},'OZiff':function(_0x2bd0a4,_0x46afd5){return _0x2bd0a4(_0x46afd5);},'MDyVx':'DEEP_MIDDLE'};if(!_0x550213)return null;const _0x34ec97=_0x550213['ballX'],_0x42e106=_0x550213[_0x3a7782(0x205)]||[],_0x38c32a=_0x550213[_0x3a7782(0x479)]||null,_0xf84cf0=_0x42e106['filter'](_0x11d52a=>_0x11d52a[_0x3a7782(0x6c1)]==='L')[_0x3a7782(0x6ab)],_0x14b107=_0x42e106['filter'](_0x49a666=>_0x49a666['_side']==='R')[_0x3a7782(0x6ab)],_0x4cc34c=_0x550213[_0x3a7782(0x1c0)]||(_0xf296d5['HwLuk'](_0xf84cf0,_0x14b107)?'L':'R'),_0x14967a=_0x4cc34c==='L'?'R':'L',_0x221089=snapAlignment[_0x4c7c43['id']]?.['x']??(_0x4c7c43[_0x3a7782(0x79d)]??_0x4c7c43['x']),_0x49d58e=_0xf296d5[_0x3a7782(0x6c5)](_0x221089,_0x34ec97)?'L':'R',_0x97a7be=_0xf296d5[_0x3a7782(0x65f)](_0x3c75d0,_0x3a7782(0x3e5))||_0x3c75d0===_0x3a7782(0x669)?'L':_0xf296d5[_0x3a7782(0x540)](_0x3c75d0,_0xf296d5['dXfrS'])||_0xf296d5[_0x3a7782(0x770)](_0x3c75d0,_0xf296d5[_0x3a7782(0x64e)])?'R':_0x49d58e,_0x19d798=_0x97a7be===_0x4cc34c,_0x12e48d=_0x97a7be===_0x14967a;function _0x3be67d(_0x26f085,_0x4e5b52){const _0x984233=_0x3a7782;return _0x42e106[_0x984233(0x1b9)](_0x579d9f=>_0x579d9f[_0x984233(0x6c1)]===_0x26f085&&_0x579d9f[_0x984233(0x4df)]===_0x4e5b52)||null;}function _0x55fce8(_0x553146){return _0x553146?_0x5af85c[_0x553146['id']]:null;}function _0x13f8e1(_0x5dc990){return isUnderRoute(_0x5dc990,_0x5af85c);}function _0x3b9916(_0x1e756a){return _0xf296d5['GxxYg'](isHitchRoute,_0x1e756a,_0x5af85c);}const _0x302615=_0xf296d5[_0x3a7782(0x32b)](typeof YARD_PX,_0x3a7782(0x371))?YARD_PX:0x14,_0x124314=0x5,_0x174821=0.5,_0x193a73=0x1,_0x1046d9=0x2,_0x29db1f=0x6,_0x3bb945=typeof playPhaseTime!==_0xf296d5[_0x3a7782(0x55c)]?playPhaseTime:0x0;function _0x24390f(_0x315819){const _0x329a8d=_0x3a7782;if(!_0x38c32a)return![];if(_0xf296d5[_0x329a8d(0x643)](_0x3bb945,_0x193a73))return![];const _0x175275=_0x55fce8(_0x38c32a);if(!_0x175275)return![];if(_0x175275[_0x329a8d(0x71b)]==='stopped')return![];const _0x592862=Math[_0x329a8d(0x78a)](_0x175275[_0x329a8d(0x65e)]??0x0);if(_0x592862>_0x1046d9)return![];const _0x2e41ad=_0x175275[_0x329a8d(0x6ae)]?.['x']??0x0,_0x178f13=_0xf296d5[_0x329a8d(0x540)](_0x315819,'L')?_0x2e41ad<0x0:_0xf296d5['DgYDt'](_0x2e41ad,0x0);if(!_0x178f13)return![];const _0x6584a3=_0x175275[_0x329a8d(0x757)]?.['x']??_0x175275[_0x329a8d(0x254)]?.['x']??0x0,_0x1c64e5=_0x175275['pos']?.['x']??0x0;if(Math[_0x329a8d(0x78a)](_0xf296d5[_0x329a8d(0x4aa)](_0x1c64e5,_0x6584a3))<_0x124314*_0x302615)return![];const _0x4ec4b4=_0xf296d5[_0x329a8d(0x48c)](_0x3bb945,_0x175275[_0x329a8d(0x2ae)]??0x0);if(_0xf296d5[_0x329a8d(0x643)](_0x4ec4b4,_0x174821))return![];return!![];}function _0x896d81(_0x18037f,_0x348c0b){const _0x45ef66=_0x3a7782;if(!_0x18037f||!_0x348c0b)return![];const _0x222360=_0xf296d5['PHvnj'](_0x55fce8,_0x348c0b),_0x10546b=_0x18037f[_0x45ef66(0x79d)]??_0x18037f['x'],_0x34e4a4=_0x348c0b['simX']??_0x348c0b['x'],_0x5140aa=!!(_0x222360&&_0x222360['crossedMiddleNow']),_0x150bce=Math[_0x45ef66(0x78a)](_0x10546b-_0x34e4a4),_0x18a65e=_0x150bce<_0x29db1f*_0x302615;return _0xf296d5['cQtNt'](_0x5140aa,_0x18a65e);}const _0x142c4a=_0x4cc34c==='L'?_0xf296d5[_0x3a7782(0x251)]:_0xf296d5['NOzNz'],_0x2d7282=_0x14967a==='L'?_0xf296d5[_0x3a7782(0x251)]:_0x3a7782(0x4fb),_0x2e5240=_0x4cc34c==='L'?_0x3a7782(0x647):_0xf296d5['DUHIj'],_0x5b9448=_0xf296d5[_0x3a7782(0x540)](_0x14967a,'L')?_0x3a7782(0x647):_0xf296d5[_0x3a7782(0x494)],_0x19ffa8=_0x4cc34c==='L'?_0xf296d5[_0x3a7782(0x6e8)]:_0xf296d5[_0x3a7782(0x1e6)],_0x1c0834=_0x14967a==='L'?_0xf296d5[_0x3a7782(0x6e8)]:_0xf296d5[_0x3a7782(0x1e6)],_0x47477e=_0x3be67d(_0x4cc34c,0x1),_0x275697=_0x3be67d(_0x4cc34c,0x2),_0x6762ef=_0xf296d5[_0x3a7782(0x488)](_0x3be67d,_0x14967a,0x1),_0x28f5a1=_0x3be67d(_0x14967a,0x2);if(_0xf296d5[_0x3a7782(0x305)](_0x3c75d0,'CB')&&_0x19d798){if(_0xf296d5['SJuij'](stickyOnce,'cbz2_underS_cb',!!(_0x47477e&&_0x13f8e1(_0x47477e)))){if(isStickyLocked(_0x3a7782(0x344)))persistentCovCalls['cbz2_underS']=!![];return _0xf296d5[_0x3a7782(0x720)](zoneDrop,_0x142c4a);}if(_0xf296d5['fJJhm'](stickyOnce,_0xf296d5[_0x3a7782(0x466)],!!(_0x47477e&&_0x3b9916(_0x47477e)))){if(isStickyLocked(_0xf296d5['CbOky']))persistentCovCalls[_0x3a7782(0x4e8)]=!![];return _0xf296d5[_0x3a7782(0x152)](zoneDrop,_0x142c4a);}return _0x47477e?_0xf296d5['KJqGb'](manCover,_0x47477e['id']):_0xf296d5['BVHVj'](zoneDrop,_0x142c4a);}if(_0x3c75d0===_0xf296d5[_0x3a7782(0x492)]){const _0x10e8da=_0xf296d5[_0x3a7782(0x335)](_0x24390f,_0x4cc34c);if(persistentCovCalls['cbz2_underW']){const _0x233deb=persistentCovCalls['cbz2_ssCrosserId'];if(_0x233deb){const _0x2a2546=[_0x28f5a1,_0x6762ef]['find'](_0x53f4b7=>_0x53f4b7&&_0x53f4b7['id']===_0x233deb);if(_0x2a2546)return manCover(_0x2a2546['id']);persistentCovCalls[_0x3a7782(0x2bf)]=null;}const _0x4a4a77=[_0x28f5a1,_0x6762ef]['filter'](Boolean)[_0x3a7782(0x1b9)](_0x16f1ff=>_0x13f8e1(_0x16f1ff)&&!defensePlayers[_0x3a7782(0x57b)](_0x38dc51=>_0x38dc51['id']!==_0x4c7c43['id']&&_0x38dc51['decision']?.[_0x3a7782(0x5bb)]===_0x16f1ff['id']));if(_0x4a4a77&&_0x896d81(_0x4c7c43,_0x4a4a77))return persistentCovCalls['cbz2_ssCrosserId']=_0x4a4a77['id'],manCover(_0x4a4a77['id']);}if(_0xf296d5[_0x3a7782(0x71e)](_0x10e8da,_0x38c32a)&&!persistentCovCalls[_0x3a7782(0x3d0)]){if(!persistentCovCalls['cbz2_rbStrongDecided']){const _0x16374e=defensePlayers[_0x3a7782(0x1b9)](_0x448b70=>{const _0x41281c=_0x3a7782,_0x52daef=frozenRoleMap?.[_0x41281c(0x331)](_0x448b70['id']);if(_0xf296d5[_0x41281c(0x736)](_0x52daef,_0x41281c(0x3e5))&&_0x52daef!==_0xf296d5[_0x41281c(0x31d)])return![];const _0xf8379f=snapAlignment[_0x448b70['id']]?.['x']??(_0x448b70[_0x41281c(0x79d)]??_0x448b70['x']);return _0xf296d5[_0x41281c(0x540)](_0xf8379f<=_0x34ec97?'L':'R',_0x4cc34c);});if(_0x16374e){const _0x5415f7=_0x16374e[_0x3a7782(0x79d)]??_0x16374e['x'],_0x6f5f9c=_0x16374e['simY']??_0x16374e['y'],_0x3ff0fb=_0x4c7c43[_0x3a7782(0x79d)]??_0x4c7c43['x'],_0x5fcf98=_0x4c7c43['simY']??_0x4c7c43['y'],_0x4dcbe3=_0x38c32a[_0x3a7782(0x79d)]??_0x38c32a['x'],_0x543dc1=_0x38c32a['simY']??_0x38c32a['y'];persistentCovCalls[_0x3a7782(0x1db)]=!![],persistentCovCalls[_0x3a7782(0x3f5)]=_0xf296d5['uWzBT'](Math['hypot'](_0xf296d5['aXoko'](_0x5415f7,_0x4dcbe3),_0x6f5f9c-_0x543dc1),Math[_0x3a7782(0x68f)](_0x3ff0fb-_0x4dcbe3,_0x5fcf98-_0x543dc1));}}if(persistentCovCalls[_0x3a7782(0x3f5)]&&_0x275697)return manCover(_0x275697['id']);if(persistentCovCalls[_0x3a7782(0x1db)]&&!persistentCovCalls['cbz2_pushStrong'])return _0xf296d5[_0x3a7782(0x151)](manCover,_0x38c32a['id']);}return _0xf296d5['nrWus'](zoneDrop,_0x19ffa8);}if((_0xf296d5['cSjpK'](_0x3c75d0,'APEX-L')||_0xf296d5[_0x3a7782(0x245)](_0x3c75d0,_0xf296d5['dXfrS']))&&_0x19d798){const _0x237483=stickyOnce(_0xf296d5['vwgBB'],!!(_0x275697&&_0xf296d5[_0x3a7782(0x33f)](_0x13f8e1,_0x275697)));_0x237483&&_0xf296d5['nrWus'](isStickyLocked,_0x3a7782(0x64d))&&(persistentCovCalls[_0x3a7782(0x3d0)]=!![]);if(persistentCovCalls[_0x3a7782(0x4e8)])return _0x47477e?_0xf296d5[_0x3a7782(0x1ba)](manCover,_0x47477e['id']):_0xf296d5[_0x3a7782(0x151)](zoneDrop,_0x142c4a);if(_0x237483){const _0x4abbaa=_0x24390f(_0x4cc34c);if(stickyOnce(_0xf296d5[_0x3a7782(0x1f9)],_0x4abbaa))return _0xf296d5[_0x3a7782(0x152)](manCover,_0x38c32a['id']);return _0xf296d5[_0x3a7782(0x151)](zoneDrop,_0x2e5240);}{const _0xffe157=_0x24390f(_0x4cc34c);if(_0xffe157){if(!persistentCovCalls[_0x3a7782(0x1db)]){const _0x42b4e6=defensePlayers[_0x3a7782(0x1b9)](_0x127f02=>frozenRoleMap?.[_0x3a7782(0x331)](_0x127f02['id'])===_0x3a7782(0x2ac));if(_0x42b4e6){const _0x8833d0=_0x4c7c43[_0x3a7782(0x79d)]??_0x4c7c43['x'],_0x8191e6=_0x4c7c43[_0x3a7782(0x5be)]??_0x4c7c43['y'],_0x2109e7=_0x42b4e6['simX']??_0x42b4e6['x'],_0x51d94e=_0x42b4e6[_0x3a7782(0x5be)]??_0x42b4e6['y'],_0x9dbd3f=_0x38c32a[_0x3a7782(0x79d)]??_0x38c32a['x'],_0x5a872d=_0x38c32a['simY']??_0x38c32a['y'];persistentCovCalls[_0x3a7782(0x1db)]=!![],persistentCovCalls[_0x3a7782(0x3f5)]=_0xf296d5[_0x3a7782(0x643)](Math[_0x3a7782(0x68f)](_0xf296d5[_0x3a7782(0x48c)](_0x8833d0,_0x9dbd3f),_0x8191e6-_0x5a872d),Math[_0x3a7782(0x68f)](_0x2109e7-_0x9dbd3f,_0x51d94e-_0x5a872d));}}if(persistentCovCalls[_0x3a7782(0x3f5)])return manCover(_0x38c32a['id']);}}return _0x275697?manCover(_0x275697['id']):_0xf296d5[_0x3a7782(0x33f)](zoneDrop,_0x2e5240);}if(_0x3c75d0===_0xf296d5['ZWxQK']||_0x3c75d0===_0xf296d5[_0x3a7782(0x64e)]||_0x3c75d0===_0x3a7782(0x722)){const _0x5318d0=_0xf296d5[_0x3a7782(0x3da)](_0x24390f,_0x14967a);if(persistentCovCalls[_0x3a7782(0x3d0)]){const _0x55150c=persistentCovCalls[_0x3a7782(0x6bf)];if(_0x55150c){const _0x10af25=[_0x275697,_0x47477e][_0x3a7782(0x1b9)](_0x10ea54=>_0x10ea54&&_0x10ea54['id']===_0x55150c);if(_0x10af25)return manCover(_0x10af25['id']);persistentCovCalls[_0x3a7782(0x6bf)]=null;}const _0x13adf6=[_0x275697,_0x47477e]['filter'](Boolean)[_0x3a7782(0x1b9)](_0x4b84d2=>_0x13f8e1(_0x4b84d2)&&!defensePlayers['some'](_0x27a3ba=>_0x27a3ba['id']!==_0x4c7c43['id']&&_0x27a3ba[_0x3a7782(0x239)]?.['focusTargetId']===_0x4b84d2['id']));if(_0x13adf6&&_0xf296d5['GxxYg'](_0x896d81,_0x4c7c43,_0x13adf6))return persistentCovCalls[_0x3a7782(0x6bf)]=_0x13adf6['id'],_0xf296d5[_0x3a7782(0x720)](manCover,_0x13adf6['id']);}if(_0xf296d5[_0x3a7782(0x393)](_0x5318d0,_0x38c32a)&&!persistentCovCalls[_0x3a7782(0x343)]){if(!persistentCovCalls[_0x3a7782(0x144)]){const _0x272db9=defensePlayers[_0x3a7782(0x1b9)](_0x5dac4c=>{const _0x54f6bd=_0x3a7782,_0x28bb23=frozenRoleMap?.[_0x54f6bd(0x331)](_0x5dac4c['id']);if(_0xf296d5[_0x54f6bd(0x5b5)](_0x28bb23,_0xf296d5['AbIyh'])&&_0xf296d5[_0x54f6bd(0x189)](_0x28bb23,_0x54f6bd(0x238)))return![];const _0xdc7fdb=snapAlignment[_0x5dac4c['id']]?.['x']??(_0x5dac4c[_0x54f6bd(0x79d)]??_0x5dac4c['x']);return(_0xdc7fdb<=_0x34ec97?'L':'R')===_0x14967a;});if(_0x272db9){const _0x42cc9c=_0x272db9['simX']??_0x272db9['x'],_0x33958c=_0x272db9['simY']??_0x272db9['y'],_0x599ddf=_0x4c7c43[_0x3a7782(0x79d)]??_0x4c7c43['x'],_0x15473b=_0x4c7c43[_0x3a7782(0x5be)]??_0x4c7c43['y'],_0x576fea=_0x38c32a[_0x3a7782(0x79d)]??_0x38c32a['x'],_0x48258c=_0x38c32a[_0x3a7782(0x5be)]??_0x38c32a['y'];persistentCovCalls[_0x3a7782(0x144)]=!![],persistentCovCalls[_0x3a7782(0x71c)]=_0xf296d5[_0x3a7782(0x63a)](Math[_0x3a7782(0x68f)](_0xf296d5['XmgtL'](_0x42cc9c,_0x576fea),_0xf296d5[_0x3a7782(0x1b4)](_0x33958c,_0x48258c)),Math[_0x3a7782(0x68f)](_0xf296d5[_0x3a7782(0x48c)](_0x599ddf,_0x576fea),_0x15473b-_0x48258c));}}if(persistentCovCalls[_0x3a7782(0x71c)]&&_0x28f5a1)return manCover(_0x28f5a1['id']);if(persistentCovCalls[_0x3a7782(0x144)]&&!persistentCovCalls[_0x3a7782(0x71c)])return manCover(_0x38c32a['id']);}return zoneDrop(_0x1c0834);}if((_0x3c75d0===_0xf296d5[_0x3a7782(0x56c)]||_0x3c75d0===_0xf296d5[_0x3a7782(0x31d)])&&_0x12e48d){const _0x12f043=_0xf296d5[_0x3a7782(0x1f4)](stickyOnce,_0x3a7782(0x516),!!(_0x28f5a1&&_0xf296d5[_0x3a7782(0x579)](_0x13f8e1,_0x28f5a1)));_0x12f043&&isStickyLocked(_0xf296d5[_0x3a7782(0x272)])&&(persistentCovCalls['cbz2_underW']=!![]);if(persistentCovCalls[_0x3a7782(0x4ba)])return _0x6762ef?manCover(_0x6762ef['id']):zoneDrop(_0x2d7282);if(_0x12f043){const _0x4e12e0=_0x24390f(_0x14967a);if(!persistentCovCalls['cbz2_rbGlobal_strong']&&_0x4e12e0)return manCover(_0x38c32a['id']);return zoneDrop(_0x5b9448);}{const _0x38906d=_0x24390f(_0x14967a);if(_0x38906d){if(!persistentCovCalls[_0x3a7782(0x144)]){const _0x457937=defensePlayers[_0x3a7782(0x1b9)](_0x92a02b=>{const _0x1b35b8=_0x3a7782,_0x4c42b3=frozenRoleMap?.[_0x1b35b8(0x331)](_0x92a02b['id']);return _0x4c42b3===_0x1b35b8(0x669)||_0xf296d5['huMBz'](_0x4c42b3,_0x1b35b8(0x400))||_0xf296d5['vqQbu'](_0x4c42b3,_0xf296d5[_0x1b35b8(0x3ae)]);});if(_0x457937){const _0x8468ca=_0x4c7c43[_0x3a7782(0x79d)]??_0x4c7c43['x'],_0x5c9d02=_0x4c7c43[_0x3a7782(0x5be)]??_0x4c7c43['y'],_0xff5690=_0x457937[_0x3a7782(0x79d)]??_0x457937['x'],_0x51eab1=_0x457937['simY']??_0x457937['y'],_0x125def=_0x38c32a[_0x3a7782(0x79d)]??_0x38c32a['x'],_0xe4c75a=_0x38c32a[_0x3a7782(0x5be)]??_0x38c32a['y'];persistentCovCalls[_0x3a7782(0x144)]=!![],persistentCovCalls[_0x3a7782(0x71c)]=_0xf296d5['uWzBT'](Math[_0x3a7782(0x68f)](_0x8468ca-_0x125def,_0x5c9d02-_0xe4c75a),Math[_0x3a7782(0x68f)](_0xf296d5['IAHEc'](_0xff5690,_0x125def),_0x51eab1-_0xe4c75a));}}if(persistentCovCalls[_0x3a7782(0x71c)])return manCover(_0x38c32a['id']);}}return _0x28f5a1?_0xf296d5['WgDPA'](manCover,_0x28f5a1['id']):_0xf296d5[_0x3a7782(0x1d4)](zoneDrop,_0x5b9448);}if(_0x3c75d0==='CB'&&_0x12e48d){if(stickyOnce(_0x3a7782(0x500),!!(_0x6762ef&&_0x13f8e1(_0x6762ef)))){if(_0xf296d5[_0x3a7782(0x54a)](isStickyLocked,_0x3a7782(0x500)))persistentCovCalls[_0x3a7782(0x343)]=!![];return zoneDrop(_0x2d7282);}if(stickyOnce(_0xf296d5['ITTJW'],!!(_0x6762ef&&_0xf296d5['BVHVj'](_0x3b9916,_0x6762ef)))){if(_0xf296d5[_0x3a7782(0x410)](isStickyLocked,_0x3a7782(0x4ba)))persistentCovCalls['cbz2_smashW']=!![];return _0xf296d5['zgkvP'](zoneDrop,_0x2d7282);}return _0x6762ef?_0xf296d5[_0x3a7782(0x1d4)](manCover,_0x6762ef['id']):zoneDrop(_0x2d7282);}if(_0x3c75d0===_0x3a7782(0x23b))return _0xf296d5[_0x3a7782(0x247)](zoneDrop,_0xf296d5[_0x3a7782(0x325)]);return null;}},'cover3-buzz-m':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x4f4eb7,_0x230104,_0x2ab7ed){const _0x1f68e1=_0x2e24de,_0x4d4867={'tQKAs':function(_0x22bec0,_0x4a5813){return _0x22bec0<=_0x4a5813;},'SXQZP':function(_0x64cd38,_0x314479){return _0x64cd38===_0x314479;},'OGwzn':_0x1f68e1(0x669),'GGmUA':_0x1f68e1(0x238),'nomld':_0x1f68e1(0x400),'TsNuQ':_0x1f68e1(0x25f),'aglaY':function(_0xa12968,_0x5936f1){return _0xa12968(_0x5936f1);},'kXEPG':function(_0x544fc7,_0x4d3e77){return _0x544fc7(_0x4d3e77);},'KGSYL':_0x1f68e1(0x3e5),'WalGB':function(_0x454ccb,_0x528ce7){return _0x454ccb(_0x528ce7);},'hKmXa':function(_0x4fca7b,_0x4de672){return _0x4fca7b(_0x4de672);},'MFuYU':_0x1f68e1(0x722),'YaEPl':_0x1f68e1(0x23b),'QjcAa':function(_0x498279,_0x1474a9){return _0x498279>=_0x1474a9;},'zmaOZ':function(_0x2c2b81,_0x36782e){return _0x2c2b81===_0x36782e;},'eTgvL':_0x1f68e1(0x3e8),'pjrXl':_0x1f68e1(0x4fb),'zfcBt':_0x1f68e1(0x647),'BJUSB':'HOOK_CURL_R','UXUqi':function(_0x18409b,_0x562a42,_0x47aa40){return _0x18409b(_0x562a42,_0x47aa40);}},_0x5d003f=new Map();if(!_0x2ab7ed)return _0x5d003f;const _0x4b9f2d=_0x2ab7ed['ballX'],_0xb395fd=_0x2ab7ed[_0x1f68e1(0x205)]||[],_0x58c755=_0x2ab7ed[_0x1f68e1(0x479)]||null,_0x5da316=_0xb395fd[_0x1f68e1(0x427)](_0x1f281b=>_0x1f281b['_side']==='L')['length'],_0x2752af=_0xb395fd['filter'](_0x46319f=>_0x46319f[_0x1f68e1(0x6c1)]==='R')[_0x1f68e1(0x6ab)],_0x155fa8=_0x2ab7ed['coverageStrongSide']||(_0x4d4867[_0x1f68e1(0x222)](_0x5da316,_0x2752af)?'L':'R'),_0x3d951c=_0x155fa8==='L'?'R':'L',_0x805c5c=_0x155fa8==='L'?_0x1f68e1(0x3e8):'DEEP_R',_0x5a5990=_0x4d4867[_0x1f68e1(0x4b6)](_0x3d951c,'L')?_0x4d4867[_0x1f68e1(0x4c2)]:_0x4d4867['pjrXl'],_0x4305a1=_0x155fa8==='L'?_0x1f68e1(0x647):_0x1f68e1(0x1d1),_0x529f89=_0x3d951c==='L'?_0x4d4867[_0x1f68e1(0x382)]:_0x1f68e1(0x1d1),_0x53e5ab=_0x4d4867[_0x1f68e1(0x43d)](_0x155fa8,'L')?_0x1f68e1(0x226):_0x4d4867['BJUSB'],_0x38f338=_0x4d4867[_0x1f68e1(0x43d)](_0x3d951c,'L')?'HOOK_CURL_L':'HOOK_CURL_R';function _0x40689d(_0x3613eb,_0x2b3951){const _0x2d7cd7=_0x1f68e1;return _0xb395fd[_0x2d7cd7(0x1b9)](_0xa9bfc=>_0xa9bfc[_0x2d7cd7(0x6c1)]===_0x3613eb&&_0xa9bfc[_0x2d7cd7(0x4df)]===_0x2b3951)||null;}const _0x4ceecf=_0x4d4867[_0x1f68e1(0x3cb)](_0x40689d,_0x155fa8,0x1),_0x31484e=_0x4d4867[_0x1f68e1(0x3cb)](_0x40689d,_0x155fa8,0x2),_0x4e12cb=_0x40689d(_0x3d951c,0x1),_0xeff322=_0x4d4867[_0x1f68e1(0x3cb)](_0x40689d,_0x3d951c,0x2);return _0x4f4eb7[_0x1f68e1(0x29e)]((_0x221701,_0x205c7)=>{const _0x430d88=_0x1f68e1,_0x5eaa54=_0x230104[_0x430d88(0x331)](_0x205c7);if(!_0x5eaa54)return;const _0xe7db9f=_0x4d4867[_0x430d88(0x3c0)](_0x5eaa54['x'],_0x4b9f2d)?'L':'R',_0x4f4b2b=_0x4d4867['SXQZP'](_0x221701,'APEX-L')||_0x221701===_0x4d4867['OGwzn']?'L':_0x221701===_0x4d4867[_0x430d88(0x4c7)]||_0x4d4867[_0x430d88(0x43d)](_0x221701,_0x4d4867[_0x430d88(0x3aa)])?'R':_0xe7db9f,_0x4a027a=_0x4d4867[_0x430d88(0x43d)](_0x4f4b2b,_0x155fa8),_0x6112ac=_0x4f4b2b===_0x3d951c;switch(_0x221701){case _0x4d4867[_0x430d88(0x5bc)]:case'UNDER':_0x5d003f[_0x430d88(0x590)](_0x205c7,rushDec());break;case'CB':if(_0x4a027a)_0x5d003f[_0x430d88(0x590)](_0x205c7,_0x4ceecf?_0x4d4867[_0x430d88(0x3fa)](manCover,_0x4ceecf['id']):_0x4d4867[_0x430d88(0x4a0)](zoneDrop,_0x805c5c));if(_0x6112ac)_0x5d003f[_0x430d88(0x590)](_0x205c7,_0x4e12cb?_0x4d4867['kXEPG'](manCover,_0x4e12cb['id']):_0x4d4867[_0x430d88(0x4a0)](zoneDrop,_0x5a5990));break;case _0x430d88(0x2ac):_0x5d003f[_0x430d88(0x590)](_0x205c7,zoneDrop(_0x53e5ab));break;case _0x4d4867[_0x430d88(0x20c)]:case _0x430d88(0x238):if(_0x4a027a)_0x5d003f[_0x430d88(0x590)](_0x205c7,_0x31484e?manCover(_0x31484e['id']):_0x4d4867[_0x430d88(0x217)](zoneDrop,_0x4305a1));if(_0x6112ac)_0x5d003f['set'](_0x205c7,_0xeff322?_0x4d4867[_0x430d88(0x4a0)](manCover,_0xeff322['id']):_0x4d4867[_0x430d88(0x37f)](zoneDrop,_0x529f89));break;case _0x4d4867['OGwzn']:case _0x4d4867[_0x430d88(0x3aa)]:case _0x4d4867[_0x430d88(0x2ff)]:_0x5d003f[_0x430d88(0x590)](_0x205c7,zoneDrop(_0x38f338));break;case _0x4d4867[_0x430d88(0x55b)]:_0x5d003f[_0x430d88(0x590)](_0x205c7,zoneDrop(_0x430d88(0x259)));break;}}),_0x5d003f;},'react'(_0x58305c,_0xd33f22,_0x346336,_0x5df2bc){const _0x58dbab=_0x2e24de,_0xc6355={'SpeNQ':function(_0x42ed7f,_0x2241e3){return _0x42ed7f(_0x2241e3);},'yACvL':_0x58dbab(0x1d8),'wKTEn':function(_0x3ba88e,_0x5ce006){return _0x3ba88e>_0x5ce006;},'DZrul':function(_0x182dec,_0x443665){return _0x182dec-_0x443665;},'ABpMp':function(_0x2f1618,_0x5699a3){return _0x2f1618*_0x5699a3;},'vsTKc':function(_0x22a299,_0x277cf1){return _0x22a299||_0x277cf1;},'vLXAp':function(_0x4bd42f,_0x1037a3){return _0x4bd42f*_0x1037a3;},'yFWcR':function(_0x2b6e6b,_0x15e379,_0x4bb67f,_0x5e64bb,_0x25f93b){return _0x2b6e6b(_0x15e379,_0x4bb67f,_0x5e64bb,_0x25f93b);},'stEBD':function(_0x4b6c88,_0x139548){return _0x4b6c88<=_0x139548;},'Hcwmb':function(_0x298864,_0x264baa){return _0x298864===_0x264baa;},'BGHqB':function(_0x1afd48,_0x3900d1){return _0x1afd48(_0x3900d1);},'qEdPR':function(_0x22754d,_0x29c057){return _0x22754d(_0x29c057);},'dKsYo':_0x58dbab(0x41a),'YEgly':function(_0x658cdd,_0x2d9f33){return _0x658cdd!==_0x2d9f33;},'mgKQj':function(_0xd5d5e5,_0x2d0fe0){return _0xd5d5e5!==_0x2d0fe0;},'JSRAq':function(_0x536c93,_0xd7fc6e){return _0x536c93===_0xd7fc6e;},'eziUZ':function(_0x540322,_0x1c9f67){return _0x540322!==_0x1c9f67;},'cjxBy':'APEX-R','dqipe':function(_0x120b4a,_0x4d5baf){return _0x120b4a===_0x4d5baf;},'yHBhs':function(_0x2c5c74,_0x49a50a){return _0x2c5c74===_0x49a50a;},'RAwbR':'HOOK-R','tGitX':function(_0x18f81f,_0x1310e8){return _0x18f81f===_0x1310e8;},'NwLqX':'DEEP_R','Fkitp':function(_0x286034,_0x24940c){return _0x286034===_0x24940c;},'VSxNk':_0x58dbab(0x647),'vlDut':_0x58dbab(0x1d1),'dSSDa':function(_0x2c12ab,_0x3fa6ba){return _0x2c12ab===_0x3fa6ba;},'EXVZt':_0x58dbab(0x226),'JlkZX':_0x58dbab(0x198),'eKIrM':function(_0x1f3c75,_0x29aa6b,_0x3d910d){return _0x1f3c75(_0x29aa6b,_0x3d910d);},'SWJpg':function(_0x567f40,_0x58d280,_0x1a5924){return _0x567f40(_0x58d280,_0x1a5924);},'rEKpv':function(_0x1c41a7,_0x398405,_0x86cbc6){return _0x1c41a7(_0x398405,_0x86cbc6);},'iibAM':function(_0xac667d,_0x7aba0){return _0xac667d===_0x7aba0;},'soZgM':function(_0x279943,_0x437ced,_0x585cf2){return _0x279943(_0x437ced,_0x585cf2);},'boiGb':'bzm_underS_cb','PkAYH':function(_0x1a8c1d,_0x4cac74){return _0x1a8c1d(_0x4cac74);},'KUrKH':function(_0x152bfa,_0x469bc7){return _0x152bfa(_0x469bc7);},'YyzdW':_0x58dbab(0x5e7),'NAonh':function(_0x50fdad,_0x3c60e){return _0x50fdad(_0x3c60e);},'DjsXt':function(_0x5a5f3b,_0x20d4b4){return _0x5a5f3b===_0x20d4b4;},'LCAOc':function(_0x2c5b07,_0x30ce01){return _0x2c5b07<_0x30ce01;},'nTTbL':function(_0x38e7ec,_0x1677a3){return _0x38e7ec(_0x1677a3);},'OSSMX':function(_0xd4e948,_0x3ae82e){return _0xd4e948===_0x3ae82e;},'edCcq':_0x58dbab(0x3e5),'CAHYZ':function(_0x233001,_0x47e8f3,_0x2a51d0){return _0x233001(_0x47e8f3,_0x2a51d0);},'LUCLv':_0x58dbab(0x685),'eaCHp':function(_0x1eefcc,_0x569b90,_0x355a9d){return _0x1eefcc(_0x569b90,_0x355a9d);},'RMoBL':function(_0x1b1880,_0xc1bc86){return _0x1b1880(_0xc1bc86);},'JxPRC':function(_0x3a0219,_0x1d627d){return _0x3a0219(_0x1d627d);},'UtVlG':function(_0x6f5b8d,_0x1e1899){return _0x6f5b8d===_0x1e1899;},'WYJME':function(_0x27e076,_0x451c08){return _0x27e076(_0x451c08);},'Rvxgl':function(_0xf34622,_0x2ac2ea){return _0xf34622&&_0x2ac2ea;},'oAjYC':function(_0x407abc,_0x61309){return _0x407abc<_0x61309;},'gawoP':function(_0x54e6ab,_0x7e6d71){return _0x54e6ab-_0x7e6d71;},'hLamd':function(_0x3cdaea,_0xcb2519){return _0x3cdaea===_0xcb2519;},'ArcwU':function(_0x134811,_0x655f63){return _0x134811(_0x655f63);},'RbUkx':_0x58dbab(0x263),'WArhH':function(_0x102e6d,_0x3af52b){return _0x102e6d(_0x3af52b);},'DmmPD':function(_0x2750be,_0x34334e){return _0x2750be(_0x34334e);},'mXMzQ':function(_0x4f6d40,_0x5543b3){return _0x4f6d40-_0x5543b3;},'hEfnE':_0x58dbab(0x571),'YjFvG':function(_0x31df55,_0x9ae53c){return _0x31df55(_0x9ae53c);},'QLgvR':_0x58dbab(0x259)};if(!_0x346336)return null;const _0x5b8080=_0x346336[_0x58dbab(0x1b2)],_0x145fc3=_0x346336[_0x58dbab(0x205)]||[],_0x330717=_0x346336[_0x58dbab(0x479)]||null,_0x190b61=_0x145fc3[_0x58dbab(0x427)](_0x34a420=>_0x34a420['_side']==='L')[_0x58dbab(0x6ab)],_0xad8fb1=_0x145fc3[_0x58dbab(0x427)](_0x40e058=>_0x40e058[_0x58dbab(0x6c1)]==='R')[_0x58dbab(0x6ab)],_0x110fbd=_0x346336[_0x58dbab(0x1c0)]||(_0x190b61>=_0xad8fb1?'L':'R'),_0x233f08=_0x110fbd==='L'?'R':'L',_0x29732d=snapAlignment[_0x58305c['id']]?.['x']??(_0x58305c['simX']??_0x58305c['x']),_0x12de17=_0xc6355['stEBD'](_0x29732d,_0x5b8080)?'L':'R',_0x2c6fd2=_0xd33f22===_0x58dbab(0x3e5)||_0xc6355[_0x58dbab(0x30a)](_0xd33f22,'HOOK-L')?'L':_0xd33f22===_0xc6355['cjxBy']||_0xd33f22===_0xc6355['RAwbR']?'R':_0x12de17,_0x5b524f=_0xc6355['tGitX'](_0x2c6fd2,_0x110fbd),_0x598be7=_0xc6355[_0x58dbab(0x30a)](_0x2c6fd2,_0x233f08);function _0x25b378(_0x7af428,_0x34725d){const _0x276a0e=_0x58dbab;return _0x145fc3[_0x276a0e(0x1b9)](_0x36e118=>_0x36e118[_0x276a0e(0x6c1)]===_0x7af428&&_0x36e118[_0x276a0e(0x4df)]===_0x34725d)||null;}function _0x4c15ff(_0x4cd91e){return _0x4cd91e?_0x5df2bc[_0x4cd91e['id']]:null;}function _0x11fcf5(_0x2b6f05){return isUnderRoute(_0x2b6f05,_0x5df2bc);}function _0x4c29ef(_0x2e7af8){return isHitchRoute(_0x2e7af8,_0x5df2bc);}const _0x117d37=typeof YARD_PX!==_0x58dbab(0x371)?YARD_PX:0x14,_0x4551a0=0x5,_0x59d59a=0.5,_0x4376ea=0x1,_0x22a5f5=0x2,_0x1fb6e5=0x6,_0x217584=typeof playPhaseTime!==_0x58dbab(0x371)?playPhaseTime:0x0;function _0x735df7(_0x12e248){const _0x55f0d9=_0x58dbab;if(!_0x330717)return![];if(_0x217584<_0x4376ea)return![];const _0x382c0f=_0xc6355['SpeNQ'](_0x4c15ff,_0x330717);if(!_0x382c0f)return![];if(_0x382c0f[_0x55f0d9(0x71b)]===_0xc6355[_0x55f0d9(0x3ea)])return![];const _0x4e75d8=Math[_0x55f0d9(0x78a)](_0x382c0f[_0x55f0d9(0x65e)]??0x0);if(_0xc6355[_0x55f0d9(0x617)](_0x4e75d8,_0x22a5f5))return![];const _0x1432ec=_0x382c0f[_0x55f0d9(0x6ae)]?.['x']??0x0,_0x2ac2af=_0x12e248==='L'?_0x1432ec<0x0:_0x1432ec>0x0;if(!_0x2ac2af)return![];const _0x1e4556=_0x382c0f['initPos']?.['x']??_0x382c0f['pos']?.['x']??0x0,_0x496c47=_0x382c0f[_0x55f0d9(0x254)]?.['x']??0x0;if(Math[_0x55f0d9(0x78a)](_0xc6355[_0x55f0d9(0x679)](_0x496c47,_0x1e4556))<_0xc6355[_0x55f0d9(0x66f)](_0x4551a0,_0x117d37))return![];const _0x5f1e92=_0xc6355[_0x55f0d9(0x679)](_0x217584,_0x382c0f[_0x55f0d9(0x2ae)]??0x0);if(_0x5f1e92<_0x59d59a)return![];return!![];}function _0x35630b(_0x580f44,_0x57bb5f){const _0x15734c=_0x58dbab;if(_0xc6355['vsTKc'](!_0x580f44,!_0x57bb5f))return![];const _0x3d8fd1=_0x4c15ff(_0x57bb5f),_0xb8cfc8=_0x580f44[_0x15734c(0x79d)]??_0x580f44['x'],_0x5db16d=_0x57bb5f[_0x15734c(0x79d)]??_0x57bb5f['x'],_0x5eff28=!!(_0x3d8fd1&&_0x3d8fd1[_0x15734c(0x2d9)]),_0x5cd7d7=Math[_0x15734c(0x78a)](_0xb8cfc8-_0x5db16d),_0x2e817f=_0x5cd7d7<_0xc6355[_0x15734c(0x257)](_0x1fb6e5,_0x117d37);return _0x5eff28||_0x2e817f;}function _0x3c10be(_0x334da7,_0x2cd7b6){return _0xc6355['yFWcR'](isFlatRoute,_0x334da7,_0x2cd7b6,_0x5df2bc,_0x346336);}const _0x551e8b=1.5;function _0x27cac5(_0x21af3f,_0x45c8e4){const _0xa33069=_0x58dbab;if(!_0x21af3f||!_0x45c8e4)return![];const _0x28919e=_0x21af3f[_0xa33069(0x79d)]??_0x21af3f['x'],_0x5d6c7a=_0x45c8e4[_0xa33069(0x79d)]??_0x45c8e4['x'];return _0xc6355[_0xa33069(0x646)](Math[_0xa33069(0x78a)](_0x28919e-_0x5d6c7a),_0xc6355[_0xa33069(0x257)](_0x551e8b,_0x117d37));}function _0x11dd83(_0x5ee38a){const _0x235db7=_0x58dbab,_0x14bb35=_0xc6355[_0x235db7(0x3e7)](_0x5ee38a,_0x110fbd)?'bzm_final3Strong':_0x235db7(0x22b),_0x23d9a3=persistentCovCalls[_0x14bb35];if(_0x23d9a3){if(_0x330717&&_0x330717['id']===_0x23d9a3)return _0x330717;const _0x52d889=_0x145fc3[_0x235db7(0x1b9)](_0x16dca0=>_0x16dca0['id']===_0x23d9a3);if(_0x52d889)return _0x52d889;persistentCovCalls[_0x14bb35]=null;}if(_0x330717&&_0xc6355[_0x235db7(0x586)](_0x735df7,_0x5ee38a))return persistentCovCalls[_0x14bb35]=_0x330717['id'],_0x330717;const _0x5cde71=_0xc6355['Hcwmb'](_0x5ee38a,_0x110fbd)?_0x46f413:_0x5ab5f0,_0x2eb456=_0x5ee38a===_0x110fbd?_0x3fc1de:_0x31edd7;for(const _0xec14f9 of[_0x2eb456,_0x5cde71]){if(!_0xec14f9)continue;const _0x490f14=_0xc6355[_0x235db7(0x661)](_0x4c15ff,_0xec14f9);if(!_0x490f14)continue;if(!_0x490f14[_0x235db7(0x2d9)])continue;const _0x137bf1=_0x490f14[_0x235db7(0x254)]?.['x']??_0xec14f9[_0x235db7(0x79d)]??_0xec14f9['x'],_0x51e6d9=_0x137bf1<=_0x5b8080?'L':'R';if(_0x51e6d9!==_0x5ee38a)continue;return persistentCovCalls[_0x14bb35]=_0xec14f9['id'],_0xec14f9;}return null;}function _0x402e14(_0x250748,_0x11b1b9,_0x4b56d1,_0x7529c3){const _0x31fa68=_0x58dbab,_0x422844=_0xc6355[_0x31fa68(0x58e)](zoneDrop,_0x250748);if(_0x11b1b9&&typeof getLandmarkPos===_0xc6355['dKsYo']){const _0xa5b062=getLandmarkPos(_0x250748);if(_0xa5b062){const _0x376dd6=_0x11b1b9['simX']??_0x11b1b9['x'],_0x3ae0b7=Math[_0x31fa68(0x255)](_0x4b56d1,Math[_0x31fa68(0x473)](_0x7529c3,_0x376dd6));_0x422844[_0x31fa68(0x37d)]={'x':_0x3ae0b7,'y':_0xa5b062['y']};}}return _0x422844;}const _0x2d3f59=_0x110fbd==='L'?_0x58dbab(0x3e8):_0xc6355['NwLqX'],_0x573a34=_0xc6355[_0x58dbab(0x5d7)](_0x233f08,'L')?_0x58dbab(0x3e8):_0xc6355[_0x58dbab(0x1ae)],_0x2a0942=_0x110fbd==='L'?_0x58dbab(0x647):_0x58dbab(0x1d1),_0x56032e=_0x233f08==='L'?_0xc6355[_0x58dbab(0x4b9)]:_0xc6355['vlDut'],_0x190f79=_0xc6355['dSSDa'](_0x110fbd,'L')?_0xc6355[_0x58dbab(0x4c8)]:'HOOK_CURL_R',_0x3b2e69=_0xc6355['dSSDa'](_0x233f08,'L')?_0xc6355[_0x58dbab(0x4c8)]:_0xc6355[_0x58dbab(0x5d6)],_0x5ab5f0=_0x25b378(_0x110fbd,0x1),_0x31edd7=_0xc6355['eKIrM'](_0x25b378,_0x110fbd,0x2),_0x46f413=_0xc6355['SWJpg'](_0x25b378,_0x233f08,0x1),_0x3fc1de=_0xc6355['rEKpv'](_0x25b378,_0x233f08,0x2);if(_0xc6355[_0x58dbab(0x378)](_0xd33f22,'CB')&&_0x5b524f){if(_0xc6355[_0x58dbab(0x187)](stickyOnce,_0xc6355[_0x58dbab(0x4c4)],!!(_0x5ab5f0&&_0xc6355['PkAYH'](_0x11fcf5,_0x5ab5f0)))){if(_0xc6355[_0x58dbab(0x50b)](isStickyLocked,_0xc6355[_0x58dbab(0x4c4)]))persistentCovCalls[_0x58dbab(0x1f5)]=!![];return zoneDrop(_0x2d3f59);}if(_0xc6355['soZgM'](stickyOnce,_0xc6355[_0x58dbab(0x294)],!!(_0x5ab5f0&&_0xc6355['NAonh'](_0x4c29ef,_0x5ab5f0)))){if(isStickyLocked(_0xc6355[_0x58dbab(0x294)]))persistentCovCalls[_0x58dbab(0x5e7)]=!![];return _0xc6355[_0x58dbab(0x586)](zoneDrop,_0x2d3f59);}return _0x5ab5f0?_0xc6355[_0x58dbab(0x51a)](manCover,_0x5ab5f0['id']):zoneDrop(_0x2d3f59);}if(_0xc6355['DjsXt'](_0xd33f22,_0x58dbab(0x2ac))){const _0x2aecfa=_0xc6355[_0x58dbab(0x6a2)](_0x735df7,_0x110fbd);if(persistentCovCalls[_0x58dbab(0x419)]&&_0x2aecfa)return zoneDrop(_0x190f79);if(persistentCovCalls[_0x58dbab(0x419)]){const _0x25e426=persistentCovCalls['bzm_ssCrosserId'];if(_0x25e426){const _0x5bc5ba=[_0x3fc1de,_0x46f413]['find'](_0x23e570=>_0x23e570&&_0x23e570['id']===_0x25e426);if(_0x5bc5ba)return _0xc6355['NAonh'](manCover,_0x5bc5ba['id']);persistentCovCalls[_0x58dbab(0x641)]=null;}const _0x2d3444=[_0x3fc1de,_0x46f413][_0x58dbab(0x427)](Boolean)[_0x58dbab(0x1b9)](_0x11d1a7=>_0x11fcf5(_0x11d1a7)&&!defensePlayers[_0x58dbab(0x57b)](_0x22a539=>_0x22a539['id']!==_0x58305c['id']&&_0x22a539['decision']?.[_0x58dbab(0x5bb)]===_0x11d1a7['id']));if(_0x2d3444&&_0x35630b(_0x58305c,_0x2d3444))return persistentCovCalls[_0x58dbab(0x641)]=_0x2d3444['id'],_0xc6355[_0x58dbab(0x586)](manCover,_0x2d3444['id']);}if(_0x2aecfa&&_0x330717&&!persistentCovCalls[_0x58dbab(0x1f5)]){if(!persistentCovCalls[_0x58dbab(0x1bb)]){const _0x5a7863=defensePlayers[_0x58dbab(0x1b9)](_0x49a8a2=>{const _0x8d39ad=_0x58dbab,_0x213a2e=frozenRoleMap?.[_0x8d39ad(0x331)](_0x49a8a2['id']);if(_0xc6355[_0x8d39ad(0x231)](_0x213a2e,'APEX-L')&&_0xc6355[_0x8d39ad(0x712)](_0x213a2e,'APEX-R'))return![];const _0x13660b=snapAlignment[_0x49a8a2['id']]?.['x']??(_0x49a8a2['simX']??_0x49a8a2['x']);return _0xc6355[_0x8d39ad(0x753)](_0x13660b<=_0x5b8080?'L':'R',_0x110fbd);});if(_0x5a7863){const _0x55ebba=_0x5a7863['simX']??_0x5a7863['x'],_0x1e1d49=_0x5a7863[_0x58dbab(0x5be)]??_0x5a7863['y'],_0x8a2f8e=_0x58305c[_0x58dbab(0x79d)]??_0x58305c['x'],_0xfd19d8=_0x58305c[_0x58dbab(0x5be)]??_0x58305c['y'],_0xf67dff=_0x330717[_0x58dbab(0x79d)]??_0x330717['x'],_0x5d6389=_0x330717[_0x58dbab(0x5be)]??_0x330717['y'];persistentCovCalls[_0x58dbab(0x1bb)]=!![],persistentCovCalls[_0x58dbab(0x52b)]=_0xc6355[_0x58dbab(0x39c)](Math[_0x58dbab(0x68f)](_0xc6355['DZrul'](_0x55ebba,_0xf67dff),_0x1e1d49-_0x5d6389),Math[_0x58dbab(0x68f)](_0xc6355[_0x58dbab(0x679)](_0x8a2f8e,_0xf67dff),_0xfd19d8-_0x5d6389));}}if(persistentCovCalls[_0x58dbab(0x52b)]&&_0x31edd7)return _0xc6355[_0x58dbab(0x200)](manCover,_0x31edd7['id']);if(persistentCovCalls[_0x58dbab(0x1bb)]&&!persistentCovCalls[_0x58dbab(0x52b)])return manCover(_0x330717['id']);}return zoneDrop(_0x190f79);}if((_0xc6355['OSSMX'](_0xd33f22,_0xc6355[_0x58dbab(0x372)])||_0xd33f22===_0x58dbab(0x238))&&_0x5b524f){const _0x7a8026=_0xc6355[_0x58dbab(0x584)](stickyOnce,_0xc6355[_0x58dbab(0x569)],!!(_0x31edd7&&_0xc6355[_0x58dbab(0x200)](_0x11fcf5,_0x31edd7)));_0x7a8026&&_0xc6355[_0x58dbab(0x6a2)](isStickyLocked,_0x58dbab(0x685))&&(persistentCovCalls[_0x58dbab(0x1f5)]=!![]);if(persistentCovCalls[_0x58dbab(0x5e7)])return _0x5ab5f0?manCover(_0x5ab5f0['id']):_0xc6355[_0x58dbab(0x661)](zoneDrop,_0x2d3f59);if(_0x7a8026){const _0x1dea54=_0x735df7(_0x110fbd);if(_0xc6355[_0x58dbab(0x37b)](stickyOnce,_0x58dbab(0x3b6),_0x1dea54))return _0xc6355[_0x58dbab(0x632)](manCover,_0x330717['id']);return zoneDrop(_0x2a0942);}{const _0x1c1894=_0xc6355[_0x58dbab(0x61a)](_0x735df7,_0x110fbd);if(_0x1c1894){if(!persistentCovCalls[_0x58dbab(0x1bb)]){const _0x2dccd1=defensePlayers[_0x58dbab(0x1b9)](_0xcd3c22=>frozenRoleMap?.[_0x58dbab(0x331)](_0xcd3c22['id'])===_0x58dbab(0x2ac));if(_0x2dccd1){const _0x3e1db0=_0x58305c['simX']??_0x58305c['x'],_0x5823b7=_0x58305c['simY']??_0x58305c['y'],_0x248d42=_0x2dccd1[_0x58dbab(0x79d)]??_0x2dccd1['x'],_0x4c9d58=_0x2dccd1[_0x58dbab(0x5be)]??_0x2dccd1['y'],_0x5e26e3=_0x330717[_0x58dbab(0x79d)]??_0x330717['x'],_0x4925a8=_0x330717['simY']??_0x330717['y'];persistentCovCalls['bzm_rbStrongDecided']=!![],persistentCovCalls[_0x58dbab(0x52b)]=_0xc6355[_0x58dbab(0x39c)](Math[_0x58dbab(0x68f)](_0xc6355[_0x58dbab(0x679)](_0x3e1db0,_0x5e26e3),_0xc6355[_0x58dbab(0x679)](_0x5823b7,_0x4925a8)),Math[_0x58dbab(0x68f)](_0xc6355[_0x58dbab(0x679)](_0x248d42,_0x5e26e3),_0xc6355[_0x58dbab(0x679)](_0x4c9d58,_0x4925a8)));}}if(persistentCovCalls[_0x58dbab(0x52b)])return manCover(_0x330717['id']);}}return _0x31edd7?_0xc6355[_0x58dbab(0x661)](manCover,_0x31edd7['id']):_0xc6355[_0x58dbab(0x61a)](zoneDrop,_0x2a0942);}if(_0xd33f22==='HOOK-L'||_0xc6355[_0x58dbab(0x5af)](_0xd33f22,_0x58dbab(0x400))||_0xd33f22===_0x58dbab(0x722)){const _0x270d0d=_0x735df7(_0x233f08);if(persistentCovCalls[_0x58dbab(0x1f5)]&&_0x270d0d)return zoneDrop(_0x3b2e69);if(persistentCovCalls[_0x58dbab(0x1f5)]){const _0x484ac0=persistentCovCalls[_0x58dbab(0x70a)];if(_0x484ac0){const _0x268c42=[_0x31edd7,_0x5ab5f0]['find'](_0x32448f=>_0x32448f&&_0x32448f['id']===_0x484ac0);if(_0x268c42)return _0xc6355[_0x58dbab(0x781)](manCover,_0x268c42['id']);persistentCovCalls[_0x58dbab(0x70a)]=null;}const _0xd04178=[_0x31edd7,_0x5ab5f0][_0x58dbab(0x427)](Boolean)[_0x58dbab(0x1b9)](_0x1cf5d7=>_0x11fcf5(_0x1cf5d7)&&!defensePlayers[_0x58dbab(0x57b)](_0x1ae59d=>_0x1ae59d['id']!==_0x58305c['id']&&_0x1ae59d[_0x58dbab(0x239)]?.[_0x58dbab(0x5bb)]===_0x1cf5d7['id']));if(_0xd04178&&_0x35630b(_0x58305c,_0xd04178))return persistentCovCalls[_0x58dbab(0x70a)]=_0xd04178['id'],_0xc6355[_0x58dbab(0x50b)](manCover,_0xd04178['id']);}if(_0xc6355['Rvxgl'](_0x270d0d,_0x330717)&&!persistentCovCalls[_0x58dbab(0x419)]){if(!persistentCovCalls[_0x58dbab(0x299)]){const _0x386908=defensePlayers[_0x58dbab(0x1b9)](_0x1308b2=>{const _0xb26ed8=_0x58dbab,_0x286916=frozenRoleMap?.[_0xb26ed8(0x331)](_0x1308b2['id']);if(_0xc6355[_0xb26ed8(0x145)](_0x286916,'APEX-L')&&_0xc6355[_0xb26ed8(0x145)](_0x286916,_0xc6355[_0xb26ed8(0x34d)]))return![];const _0x379b35=snapAlignment[_0x1308b2['id']]?.['x']??(_0x1308b2['simX']??_0x1308b2['x']);return _0xc6355[_0xb26ed8(0x3e7)](_0x379b35<=_0x5b8080?'L':'R',_0x233f08);});if(_0x386908){const _0x109b1e=_0x386908[_0x58dbab(0x79d)]??_0x386908['x'],_0x1964b8=_0x386908[_0x58dbab(0x5be)]??_0x386908['y'],_0x28ea54=_0x58305c[_0x58dbab(0x79d)]??_0x58305c['x'],_0x397cb3=_0x58305c[_0x58dbab(0x5be)]??_0x58305c['y'],_0x428d1d=_0x330717['simX']??_0x330717['x'],_0x579764=_0x330717[_0x58dbab(0x5be)]??_0x330717['y'];persistentCovCalls[_0x58dbab(0x299)]=!![],persistentCovCalls[_0x58dbab(0x71d)]=_0xc6355[_0x58dbab(0x3d9)](Math[_0x58dbab(0x68f)](_0x109b1e-_0x428d1d,_0xc6355[_0x58dbab(0x679)](_0x1964b8,_0x579764)),Math[_0x58dbab(0x68f)](_0xc6355['gawoP'](_0x28ea54,_0x428d1d),_0x397cb3-_0x579764));}}if(persistentCovCalls[_0x58dbab(0x71d)]&&_0x3fc1de)return manCover(_0x3fc1de['id']);if(persistentCovCalls[_0x58dbab(0x299)]&&!persistentCovCalls[_0x58dbab(0x71d)])return manCover(_0x330717['id']);}return zoneDrop(_0x3b2e69);}if((_0xc6355[_0x58dbab(0x775)](_0xd33f22,_0xc6355[_0x58dbab(0x372)])||_0xc6355['JSRAq'](_0xd33f22,_0xc6355[_0x58dbab(0x34d)]))&&_0x598be7){const _0x43a934=stickyOnce('bzm_underW_wa',!!(_0x3fc1de&&_0xc6355[_0x58dbab(0x4cd)](_0x11fcf5,_0x3fc1de)));_0x43a934&&_0xc6355[_0x58dbab(0x200)](isStickyLocked,_0xc6355[_0x58dbab(0x4a2)])&&(persistentCovCalls[_0x58dbab(0x419)]=!![]);if(persistentCovCalls[_0x58dbab(0x18c)])return _0x46f413?_0xc6355[_0x58dbab(0x495)](manCover,_0x46f413['id']):zoneDrop(_0x573a34);if(_0x43a934){const _0x25574f=_0xc6355['DmmPD'](_0x735df7,_0x233f08);if(!persistentCovCalls['bzm_rbGlobal_strong']&&_0x25574f)return _0xc6355[_0x58dbab(0x586)](manCover,_0x330717['id']);return zoneDrop(_0x56032e);}{const _0x3bec63=_0x735df7(_0x233f08);if(_0x3bec63){if(!persistentCovCalls['bzm_rbWeakDecided']){const _0x27ea98=defensePlayers[_0x58dbab(0x1b9)](_0x429cbe=>{const _0x2e13d3=_0x58dbab,_0x1b7f00=frozenRoleMap?.[_0x2e13d3(0x331)](_0x429cbe['id']);return _0xc6355['Hcwmb'](_0x1b7f00,_0x2e13d3(0x669))||_0x1b7f00===_0x2e13d3(0x400)||_0xc6355['dqipe'](_0x1b7f00,_0x2e13d3(0x722));});if(_0x27ea98){const _0x41f4e7=_0x58305c[_0x58dbab(0x79d)]??_0x58305c['x'],_0x3c5bae=_0x58305c['simY']??_0x58305c['y'],_0xcf0e94=_0x27ea98[_0x58dbab(0x79d)]??_0x27ea98['x'],_0x387e2d=_0x27ea98[_0x58dbab(0x5be)]??_0x27ea98['y'],_0x3c6c1b=_0x330717[_0x58dbab(0x79d)]??_0x330717['x'],_0x30830c=_0x330717[_0x58dbab(0x5be)]??_0x330717['y'];persistentCovCalls['bzm_rbWeakDecided']=!![],persistentCovCalls[_0x58dbab(0x71d)]=_0xc6355['LCAOc'](Math[_0x58dbab(0x68f)](_0xc6355['mXMzQ'](_0x41f4e7,_0x3c6c1b),_0xc6355[_0x58dbab(0x31c)](_0x3c5bae,_0x30830c)),Math[_0x58dbab(0x68f)](_0xcf0e94-_0x3c6c1b,_0x387e2d-_0x30830c));}}if(persistentCovCalls[_0x58dbab(0x71d)])return _0xc6355['SpeNQ'](manCover,_0x330717['id']);}}return _0x3fc1de?_0xc6355[_0x58dbab(0x2b1)](manCover,_0x3fc1de['id']):_0xc6355[_0x58dbab(0x50b)](zoneDrop,_0x56032e);}if(_0xc6355[_0x58dbab(0x30a)](_0xd33f22,'CB')&&_0x598be7){if(stickyOnce(_0xc6355[_0x58dbab(0x762)],!!(_0x46f413&&_0x11fcf5(_0x46f413)))){if(isStickyLocked('bzm_underW_cb'))persistentCovCalls[_0x58dbab(0x419)]=!![];return _0xc6355['WArhH'](zoneDrop,_0x573a34);}if(_0xc6355[_0x58dbab(0x584)](stickyOnce,_0x58dbab(0x18c),!!(_0x46f413&&_0x4c29ef(_0x46f413)))){if(_0xc6355[_0x58dbab(0x204)](isStickyLocked,'bzm_smashW'))persistentCovCalls[_0x58dbab(0x18c)]=!![];return zoneDrop(_0x573a34);}return _0x46f413?manCover(_0x46f413['id']):zoneDrop(_0x573a34);}if(_0xd33f22==='SAF_W')return _0xc6355[_0x58dbab(0x6a2)](zoneDrop,_0xc6355[_0x58dbab(0x6e0)]);return null;}},'cover3-robber-2x2-match':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x20dd52,_0x3551a3,_0xff557f){const _0x57f28e=_0x2e24de,_0x5ce46d={'PYvTH':function(_0xf3e0fe,_0x8f66f9){return _0xf3e0fe===_0x8f66f9;},'ksTeA':function(_0x4a95a8,_0x51bf15){return _0x4a95a8===_0x51bf15;},'IpYKg':_0x57f28e(0x4ef),'iFGlu':function(_0x4ecaca){return _0x4ecaca();},'RDdpv':function(_0x2ee230,_0x3673d2){return _0x2ee230(_0x3673d2);},'dBNFS':function(_0x240579,_0x37f724){return _0x240579(_0x37f724);},'CzcVO':function(_0x284d10,_0x5972ca){return _0x284d10(_0x5972ca);},'KPgpl':'DEEP_MIDDLE','ePbEQ':_0x57f28e(0x3e5),'abJhX':_0x57f28e(0x238),'SQvEQ':function(_0x18a111,_0x4f39c8){return _0x18a111(_0x4f39c8);},'FpJBZ':function(_0x486061,_0x12bc8e){return _0x486061(_0x12bc8e);},'ycAxO':_0x57f28e(0x400),'BWMGj':_0x57f28e(0x23b),'HQdda':_0x57f28e(0x3e8),'LnBDy':_0x57f28e(0x4fb),'cbmue':function(_0xe374f9,_0x72b0a){return _0xe374f9===_0x72b0a;},'MkUzx':'CURL_FLAT_L','mieKS':_0x57f28e(0x1d1),'XLHJi':_0x57f28e(0x226),'NMWll':_0x57f28e(0x198),'pxFvS':function(_0xa439f8,_0x5175d5,_0x294f56){return _0xa439f8(_0x5175d5,_0x294f56);},'llSYC':function(_0x108c88,_0x365ab0,_0x4bb644){return _0x108c88(_0x365ab0,_0x4bb644);},'UBgyp':function(_0x1b047b,_0x1e79eb,_0x21e72b){return _0x1b047b(_0x1e79eb,_0x21e72b);}},_0x13ce1b=new Map();if(!_0xff557f)return _0x13ce1b;const _0x531cb7=_0xff557f[_0x57f28e(0x1b2)],_0x25ceeb=_0xff557f[_0x57f28e(0x205)]||[],_0x2dec8c=_0xff557f[_0x57f28e(0x479)]||null,_0x58a151=_0x25ceeb['filter'](_0x3a23d4=>_0x3a23d4[_0x57f28e(0x6c1)]==='L')[_0x57f28e(0x6ab)],_0x1b260f=_0x25ceeb[_0x57f28e(0x427)](_0x2d84a2=>_0x2d84a2[_0x57f28e(0x6c1)]==='R')['length'],_0x1c8f3e=_0xff557f[_0x57f28e(0x1c0)]||(_0x58a151>=_0x1b260f?'L':'R'),_0x3e8a39=_0x1c8f3e==='L'?'R':'L',_0x23012a=_0x5ce46d['PYvTH'](_0x1c8f3e,'L')?_0x5ce46d['HQdda']:'DEEP_R',_0x1817d4=_0x3e8a39==='L'?_0x5ce46d[_0x57f28e(0x69f)]:_0x5ce46d['LnBDy'],_0x45a1e2=_0x5ce46d['cbmue'](_0x1c8f3e,'L')?_0x5ce46d[_0x57f28e(0x346)]:_0x5ce46d[_0x57f28e(0x3a7)],_0x90bb42=_0x3e8a39==='L'?_0x57f28e(0x647):_0x5ce46d['mieKS'],_0x1460ad=_0x5ce46d[_0x57f28e(0x21a)](_0x1c8f3e,'L')?_0x5ce46d[_0x57f28e(0x161)]:_0x5ce46d[_0x57f28e(0x3eb)],_0x45777b=_0x5ce46d[_0x57f28e(0x21a)](_0x3e8a39,'L')?_0x57f28e(0x226):_0x5ce46d['NMWll'];function _0x25a2e4(_0x13742d,_0x1bdf5f){const _0x19bd80=_0x57f28e;return _0x25ceeb[_0x19bd80(0x1b9)](_0xd19d4=>_0xd19d4[_0x19bd80(0x6c1)]===_0x13742d&&_0xd19d4['_receiverNumber']===_0x1bdf5f)||null;}const _0x31456f=_0x5ce46d['pxFvS'](_0x25a2e4,_0x1c8f3e,0x1),_0x56493a=_0x5ce46d[_0x57f28e(0x44f)](_0x25a2e4,_0x1c8f3e,0x2),_0x3e86ba=_0x5ce46d[_0x57f28e(0x56b)](_0x25a2e4,_0x3e8a39,0x1),_0x204cd3=_0x25a2e4(_0x3e8a39,0x2);return _0x20dd52[_0x57f28e(0x29e)]((_0x659206,_0x5befe0)=>{const _0x4becbf=_0x57f28e,_0xe54798=_0x3551a3['get'](_0x5befe0);if(!_0xe54798)return;const _0x1e8764=_0xe54798['x']<=_0x531cb7?'L':'R',_0x443cab=_0x659206===_0x4becbf(0x3e5)||_0x659206===_0x4becbf(0x669)?'L':_0x659206==='APEX-R'||_0x5ce46d[_0x4becbf(0x686)](_0x659206,_0x4becbf(0x400))?'R':_0x1e8764,_0xac7f6f=_0x5ce46d[_0x4becbf(0x17e)](_0x443cab,_0x1c8f3e),_0x9af8e6=_0x5ce46d['ksTeA'](_0x443cab,_0x3e8a39);switch(_0x659206){case _0x4becbf(0x25f):case _0x5ce46d[_0x4becbf(0x4b1)]:_0x13ce1b['set'](_0x5befe0,_0x5ce46d[_0x4becbf(0x1e3)](rushDec));break;case'CB':if(_0xac7f6f)_0x13ce1b[_0x4becbf(0x590)](_0x5befe0,_0x31456f?_0x5ce46d[_0x4becbf(0x573)](manCover,_0x31456f['id']):_0x5ce46d['RDdpv'](zoneDrop,_0x23012a));if(_0x9af8e6)_0x13ce1b[_0x4becbf(0x590)](_0x5befe0,_0x3e86ba?manCover(_0x3e86ba['id']):_0x5ce46d[_0x4becbf(0x567)](zoneDrop,_0x1817d4));break;case _0x4becbf(0x2ac):_0x13ce1b[_0x4becbf(0x590)](_0x5befe0,_0x5ce46d[_0x4becbf(0x76f)](zoneDrop,_0x5ce46d['KPgpl']));break;case _0x5ce46d['ePbEQ']:case _0x5ce46d[_0x4becbf(0x370)]:if(_0xac7f6f)_0x13ce1b[_0x4becbf(0x590)](_0x5befe0,_0x56493a?_0x5ce46d[_0x4becbf(0x5b0)](manCover,_0x56493a['id']):zoneDrop(_0x45a1e2));if(_0x9af8e6)_0x13ce1b[_0x4becbf(0x590)](_0x5befe0,_0x204cd3?manCover(_0x204cd3['id']):_0x5ce46d['FpJBZ'](zoneDrop,_0x90bb42));break;case _0x4becbf(0x669):case _0x5ce46d['ycAxO']:case _0x4becbf(0x722):_0x13ce1b[_0x4becbf(0x590)](_0x5befe0,zoneDrop(_0x1460ad));break;case _0x5ce46d[_0x4becbf(0x392)]:_0x13ce1b[_0x4becbf(0x590)](_0x5befe0,zoneDrop(_0x45777b));break;}}),_0x13ce1b;},'react'(_0x5cfa37,_0x3ee51c,_0x133411,_0x395ba4){const _0xc8ff5=_0x2e24de,_0x7c8e72={'lcefT':function(_0x3ffa0f,_0x13bf8c,_0x326dcd){return _0x3ffa0f(_0x13bf8c,_0x326dcd);},'bMuEY':function(_0x23a6ea,_0x42669a,_0x4c83c3){return _0x23a6ea(_0x42669a,_0x4c83c3);},'FAcnB':function(_0x22ad8d,_0x399dff){return _0x22ad8d<_0x399dff;},'GbTFz':function(_0x28dbff,_0x4f4229){return _0x28dbff(_0x4f4229);},'qaCOP':_0xc8ff5(0x1d8),'Lytka':function(_0x33e7ee,_0x56a0a6){return _0x33e7ee>_0x56a0a6;},'tnjRS':function(_0x309fda,_0x452918){return _0x309fda>_0x452918;},'RnDEO':function(_0x4e37f4,_0x15ddc8){return _0x4e37f4*_0x15ddc8;},'GYvtw':function(_0x456ff7,_0x5d357a){return _0x456ff7-_0x5d357a;},'oTEQL':function(_0x547f19,_0x33e804){return _0x547f19||_0x33e804;},'itsRv':function(_0x4e5a8e,_0x422660){return _0x4e5a8e(_0x422660);},'LPaZe':'HOOK-L','EfQpp':function(_0x1286a2,_0x5b2024){return _0x1286a2===_0x5b2024;},'KhwNR':_0xc8ff5(0x722),'RWgfm':function(_0x32b204,_0x1b6d63){return _0x32b204!==_0x1b6d63;},'zuhSC':'APEX-L','rUSUX':_0xc8ff5(0x238),'Rqakr':function(_0x13190f,_0x276b86){return _0x13190f>=_0x276b86;},'nDXPg':function(_0x4f12e4,_0x2c4b80){return _0x4f12e4===_0x2c4b80;},'vZcML':function(_0x33a921,_0x458128){return _0x33a921===_0x458128;},'zasqO':'undefined','apSgt':'DEEP_L','uCHKw':_0xc8ff5(0x4fb),'SMecV':_0xc8ff5(0x647),'mdDRh':_0xc8ff5(0x226),'WxCrI':_0xc8ff5(0x17b),'iQQAZ':function(_0x39fc3f,_0x376725){return _0x39fc3f(_0x376725);},'UltzT':function(_0x436bd0,_0x23424e){return _0x436bd0(_0x23424e);},'klCji':_0xc8ff5(0x3f4),'bIHpc':function(_0x1afbb5,_0x465061){return _0x1afbb5===_0x465061;},'dYWfG':'SAF_S','QmGtg':_0xc8ff5(0x259),'FVCck':function(_0x5e8699,_0x52339c){return _0x5e8699===_0x52339c;},'teuXS':function(_0xaaaa9,_0x3fea3f,_0x5c6182){return _0xaaaa9(_0x3fea3f,_0x5c6182);},'QPKKX':'crob_underS_sa','XNPdp':function(_0x451b2e,_0x43ea84){return _0x451b2e(_0x43ea84);},'WKZPi':_0xc8ff5(0x235),'PJOzq':function(_0x5f26a3,_0x53efd4){return _0x5f26a3(_0x53efd4);},'dxLrB':function(_0x50afb6,_0xf1ccfc){return _0x50afb6-_0xf1ccfc;},'IrWoU':function(_0x1a0571,_0x41470e){return _0x1a0571===_0x41470e;},'FnYTF':function(_0x3f7237,_0x2d1570){return _0x3f7237(_0x2d1570);},'VhZuq':function(_0x33006d,_0x16f910){return _0x33006d&&_0x16f910;},'bsqKv':function(_0x5b51ce,_0x288e16){return _0x5b51ce-_0x288e16;},'WMtYG':'crob_underW_wa','CpqUJ':function(_0x47ff03,_0x5217fb){return _0x47ff03(_0x5217fb);},'sLgvU':function(_0x4e24b1,_0x5e7dac){return _0x4e24b1(_0x5e7dac);},'mmmeS':function(_0x5d6cd8,_0x3d56b7){return _0x5d6cd8(_0x3d56b7);},'eaXNy':function(_0x129088,_0x399887){return _0x129088(_0x399887);},'fsZkG':function(_0x12defa,_0x2cf5f8){return _0x12defa-_0x2cf5f8;},'qJzFd':function(_0x14014d,_0x4a2200){return _0x14014d(_0x4a2200);},'jMBzY':'crob_underW_cb','wNDGO':_0xc8ff5(0x25d),'REise':_0xc8ff5(0x23b),'ynhVm':function(_0x602095,_0xee8479){return _0x602095(_0xee8479);},'uDxsy':function(_0x58c77d,_0x33d2b){return _0x58c77d&&_0x33d2b;},'xITJo':function(_0x317455,_0x3c734b){return _0x317455-_0x3c734b;},'WOrjO':function(_0x775731,_0x9791e1){return _0x775731-_0x9791e1;},'zhanO':function(_0x3001a2,_0x3124eb){return _0x3001a2(_0x3124eb);}};if(!_0x133411)return null;const _0x6a8140=_0x133411[_0xc8ff5(0x1b2)],_0x4d535d=_0x133411['eligiblePlayers']||[],_0x2b5551=_0x133411[_0xc8ff5(0x479)]||null,_0x1e6226=_0x4d535d['filter'](_0x36b0f9=>_0x36b0f9['_side']==='L')[_0xc8ff5(0x6ab)],_0x153a7a=_0x4d535d[_0xc8ff5(0x427)](_0x41eefd=>_0x41eefd['_side']==='R')[_0xc8ff5(0x6ab)],_0x418af4=_0x133411['coverageStrongSide']||(_0x7c8e72[_0xc8ff5(0x3c8)](_0x1e6226,_0x153a7a)?'L':'R'),_0x228c2c=_0x418af4==='L'?'R':'L',_0x310d01=snapAlignment[_0x5cfa37['id']]?.['x']??(_0x5cfa37[_0xc8ff5(0x79d)]??_0x5cfa37['x']),_0x369320=_0x310d01<=_0x6a8140?'L':'R',_0x5e7a19=_0x3ee51c===_0xc8ff5(0x3e5)||_0x7c8e72[_0xc8ff5(0x4c0)](_0x3ee51c,_0x7c8e72[_0xc8ff5(0x658)])?'L':_0x7c8e72[_0xc8ff5(0x6d0)](_0x3ee51c,_0xc8ff5(0x238))||_0x7c8e72[_0xc8ff5(0x48a)](_0x3ee51c,'HOOK-R')?'R':_0x369320,_0x5e15b3=_0x7c8e72[_0xc8ff5(0x48a)](_0x5e7a19,_0x418af4),_0x475a49=_0x5e7a19===_0x228c2c;function _0xc7e3f2(_0x2dea3f,_0x588c9b){const _0x101c01=_0xc8ff5;return _0x4d535d[_0x101c01(0x1b9)](_0x1b9627=>_0x1b9627[_0x101c01(0x6c1)]===_0x2dea3f&&_0x1b9627[_0x101c01(0x4df)]===_0x588c9b)||null;}function _0xa37eab(_0x40eeee){return _0x40eeee?_0x395ba4[_0x40eeee['id']]:null;}function _0x6d8110(_0x4d780e){const _0x2b0089=_0xc8ff5;return _0x7c8e72[_0x2b0089(0x216)](isUnderRoute,_0x4d780e,_0x395ba4);}function _0x11778d(_0x44b0fd){return _0x7c8e72['bMuEY'](isHitchRoute,_0x44b0fd,_0x395ba4);}const _0x42f8bd=typeof YARD_PX!==_0xc8ff5(0x371)?YARD_PX:0x14,_0x273886=0x5,_0x47896d=0.5,_0x1494c8=0x1,_0x2e4312=0x2,_0x23d2cb=0x6,_0x5cc149=_0x7c8e72[_0xc8ff5(0x741)](typeof playPhaseTime,_0x7c8e72[_0xc8ff5(0x29f)])?playPhaseTime:0x0;function _0xfb9ada(_0x46cf67){const _0x5d8229=_0xc8ff5;if(!_0x2b5551)return![];if(_0x7c8e72['FAcnB'](_0x5cc149,_0x1494c8))return![];const _0x49f44a=_0x7c8e72[_0x5d8229(0x6c6)](_0xa37eab,_0x2b5551);if(!_0x49f44a)return![];if(_0x49f44a['moveType']===_0x7c8e72[_0x5d8229(0x278)])return![];const _0x301b4f=Math[_0x5d8229(0x78a)](_0x49f44a[_0x5d8229(0x65e)]??0x0);if(_0x7c8e72[_0x5d8229(0x4ec)](_0x301b4f,_0x2e4312))return![];const _0x2e7e77=_0x49f44a[_0x5d8229(0x6ae)]?.['x']??0x0,_0x325678=_0x46cf67==='L'?_0x2e7e77<0x0:_0x7c8e72[_0x5d8229(0x681)](_0x2e7e77,0x0);if(!_0x325678)return![];const _0x26a174=_0x49f44a[_0x5d8229(0x757)]?.['x']??_0x49f44a[_0x5d8229(0x254)]?.['x']??0x0,_0x28ee06=_0x49f44a[_0x5d8229(0x254)]?.['x']??0x0;if(Math['abs'](_0x28ee06-_0x26a174)<_0x7c8e72[_0x5d8229(0x15a)](_0x273886,_0x42f8bd))return![];const _0x35b6a2=_0x7c8e72['GYvtw'](_0x5cc149,_0x49f44a[_0x5d8229(0x2ae)]??0x0);if(_0x35b6a2<_0x47896d)return![];return!![];}function _0x59b46d(_0x4bec54,_0x5155c3){const _0x4264be=_0xc8ff5;if(_0x7c8e72[_0x4264be(0x1b1)](!_0x4bec54,!_0x5155c3))return![];const _0x521084=_0x7c8e72[_0x4264be(0x355)](_0xa37eab,_0x5155c3),_0x1bd9f8=_0x4bec54['simX']??_0x4bec54['x'],_0x5da9fc=_0x5155c3[_0x4264be(0x79d)]??_0x5155c3['x'],_0x2aa9fe=!!(_0x521084&&_0x521084['crossedMiddleNow']),_0xa62c86=Math[_0x4264be(0x78a)](_0x1bd9f8-_0x5da9fc),_0x88d32b=_0x7c8e72[_0x4264be(0x487)](_0xa62c86,_0x7c8e72['RnDEO'](_0x23d2cb,_0x42f8bd));return _0x7c8e72[_0x4264be(0x1b1)](_0x2aa9fe,_0x88d32b);}const _0x15da5e=_0x7c8e72[_0xc8ff5(0x4c0)](_0x418af4,'L')?_0x7c8e72[_0xc8ff5(0x367)]:_0xc8ff5(0x4fb),_0x1e260d=_0x228c2c==='L'?'DEEP_L':_0x7c8e72[_0xc8ff5(0x4ca)],_0x2efd7f=_0x7c8e72[_0xc8ff5(0x6d0)](_0x418af4,'L')?_0x7c8e72[_0xc8ff5(0x6f3)]:_0xc8ff5(0x1d1),_0x4bc3fe=_0x7c8e72[_0xc8ff5(0x6d0)](_0x228c2c,'L')?'CURL_FLAT_L':_0xc8ff5(0x1d1),_0x17d66b=_0x418af4==='L'?_0x7c8e72[_0xc8ff5(0x561)]:_0xc8ff5(0x198),_0x22140f=_0x228c2c==='L'?_0x7c8e72[_0xc8ff5(0x561)]:_0xc8ff5(0x198),_0x2f7c18=_0xc7e3f2(_0x418af4,0x1),_0x500bfe=_0xc7e3f2(_0x418af4,0x2),_0x4f778c=_0xc7e3f2(_0x228c2c,0x1),_0x79697c=_0x7c8e72['bMuEY'](_0xc7e3f2,_0x228c2c,0x2);if(_0x3ee51c==='CB'&&_0x5e15b3){if(stickyOnce(_0x7c8e72[_0xc8ff5(0x796)],!!(_0x2f7c18&&_0x6d8110(_0x2f7c18)))){if(isStickyLocked(_0x7c8e72['WxCrI']))persistentCovCalls['crob_underS']=!![];return _0x7c8e72[_0xc8ff5(0x548)](zoneDrop,_0x15da5e);}if(stickyOnce(_0xc8ff5(0x3f4),!!(_0x2f7c18&&_0x7c8e72['UltzT'](_0x11778d,_0x2f7c18)))){if(_0x7c8e72['itsRv'](isStickyLocked,_0x7c8e72[_0xc8ff5(0x5db)]))persistentCovCalls[_0xc8ff5(0x3f4)]=!![];return zoneDrop(_0x15da5e);}return _0x2f7c18?_0x7c8e72[_0xc8ff5(0x6c6)](manCover,_0x2f7c18['id']):_0x7c8e72[_0xc8ff5(0x6c6)](zoneDrop,_0x15da5e);}if(_0x7c8e72[_0xc8ff5(0x38c)](_0x3ee51c,_0x7c8e72[_0xc8ff5(0x463)]))return _0x7c8e72[_0xc8ff5(0x73f)](zoneDrop,_0x7c8e72[_0xc8ff5(0x391)]);if((_0x3ee51c===_0x7c8e72[_0xc8ff5(0x637)]||_0x7c8e72[_0xc8ff5(0x56a)](_0x3ee51c,_0xc8ff5(0x238)))&&_0x5e15b3){const _0x3789ec=_0x7c8e72[_0xc8ff5(0x250)](stickyOnce,_0x7c8e72[_0xc8ff5(0x17d)],!!(_0x500bfe&&_0x6d8110(_0x500bfe)));_0x3789ec&&_0x7c8e72[_0xc8ff5(0x2fd)](isStickyLocked,_0xc8ff5(0x5dc))&&(persistentCovCalls[_0xc8ff5(0x727)]=!![]);if(persistentCovCalls[_0xc8ff5(0x3f4)])return _0x2f7c18?manCover(_0x2f7c18['id']):_0x7c8e72['itsRv'](zoneDrop,_0x15da5e);if(_0x3789ec){const _0x3b0e94=_0xfb9ada(_0x418af4);if(stickyOnce(_0x7c8e72[_0xc8ff5(0x267)],_0x3b0e94))return _0x7c8e72[_0xc8ff5(0x539)](manCover,_0x2b5551['id']);return zoneDrop(_0x2efd7f);}{const _0x52ee27=_0xfb9ada(_0x418af4);if(_0x52ee27){if(!persistentCovCalls[_0xc8ff5(0x1a9)]){const _0x427d5c=defensePlayers[_0xc8ff5(0x1b9)](_0x108a59=>{const _0x1c513d=_0xc8ff5,_0x2077db=frozenRoleMap?.['get'](_0x108a59['id']);return _0x2077db===_0x7c8e72[_0x1c513d(0x658)]||_0x7c8e72[_0x1c513d(0x48a)](_0x2077db,_0x1c513d(0x400))||_0x2077db===_0x7c8e72[_0x1c513d(0x691)];});if(_0x427d5c){const _0x467ddf=_0x5cfa37[_0xc8ff5(0x79d)]??_0x5cfa37['x'],_0x55382d=_0x5cfa37[_0xc8ff5(0x5be)]??_0x5cfa37['y'],_0x512386=_0x427d5c['simX']??_0x427d5c['x'],_0x217082=_0x427d5c[_0xc8ff5(0x5be)]??_0x427d5c['y'],_0x130854=_0x2b5551['simX']??_0x2b5551['x'],_0x34427f=_0x2b5551[_0xc8ff5(0x5be)]??_0x2b5551['y'];persistentCovCalls['crob_rbStrongDecided']=!![],persistentCovCalls[_0xc8ff5(0x3d3)]=Math[_0xc8ff5(0x68f)](_0x467ddf-_0x130854,_0x55382d-_0x34427f)<Math['hypot'](_0x512386-_0x130854,_0x7c8e72[_0xc8ff5(0x1c2)](_0x217082,_0x34427f));}}if(persistentCovCalls[_0xc8ff5(0x3d3)])return manCover(_0x2b5551['id']);}}return _0x500bfe?_0x7c8e72[_0xc8ff5(0x355)](manCover,_0x500bfe['id']):zoneDrop(_0x2efd7f);}if(_0x7c8e72['bIHpc'](_0x3ee51c,_0xc8ff5(0x669))||_0x3ee51c===_0xc8ff5(0x400)||_0x7c8e72[_0xc8ff5(0x1ad)](_0x3ee51c,_0xc8ff5(0x722))){const _0x1fe48a=_0x7c8e72[_0xc8ff5(0x548)](_0xfb9ada,_0x418af4);if(persistentCovCalls[_0xc8ff5(0x4fe)]){const _0x278fe3=persistentCovCalls['crob_hookCrosserId'];if(_0x278fe3){const _0x3b8999=[_0x79697c,_0x4f778c][_0xc8ff5(0x1b9)](_0x4cf776=>_0x4cf776&&_0x4cf776['id']===_0x278fe3);if(_0x3b8999)return _0x7c8e72[_0xc8ff5(0x179)](manCover,_0x3b8999['id']);persistentCovCalls['crob_hookCrosserId']=null;}const _0x353d70=[_0x79697c,_0x4f778c][_0xc8ff5(0x427)](Boolean)['find'](_0x3e9ddf=>_0x6d8110(_0x3e9ddf)&&!defensePlayers[_0xc8ff5(0x57b)](_0x336021=>_0x336021['id']!==_0x5cfa37['id']&&_0x336021['decision']?.[_0xc8ff5(0x5bb)]===_0x3e9ddf['id']));if(_0x353d70&&_0x7c8e72[_0xc8ff5(0x216)](_0x59b46d,_0x5cfa37,_0x353d70))return persistentCovCalls['crob_hookCrosserId']=_0x353d70['id'],_0x7c8e72[_0xc8ff5(0x6c6)](manCover,_0x353d70['id']);}if(_0x7c8e72[_0xc8ff5(0x5ba)](_0x1fe48a,_0x2b5551)&&!persistentCovCalls[_0xc8ff5(0x727)]){if(!persistentCovCalls['crob_rbStrongDecided']){const _0x48a38b=defensePlayers[_0xc8ff5(0x1b9)](_0xed762d=>{const _0x11dc3c=_0xc8ff5,_0x502457=frozenRoleMap?.[_0x11dc3c(0x331)](_0xed762d['id']);if(_0x7c8e72[_0x11dc3c(0x741)](_0x502457,_0x11dc3c(0x3e5))&&_0x502457!==_0x11dc3c(0x238))return![];const _0x3ab18f=snapAlignment[_0xed762d['id']]?.['x']??(_0xed762d[_0x11dc3c(0x79d)]??_0xed762d['x']);return _0x7c8e72['EfQpp'](_0x3ab18f<=_0x6a8140?'L':'R',_0x418af4);});if(_0x48a38b){const _0x33bb68=_0x48a38b[_0xc8ff5(0x79d)]??_0x48a38b['x'],_0x3e0233=_0x48a38b['simY']??_0x48a38b['y'],_0x20205f=_0x5cfa37['simX']??_0x5cfa37['x'],_0x33934f=_0x5cfa37['simY']??_0x5cfa37['y'],_0x200db8=_0x2b5551['simX']??_0x2b5551['x'],_0x555f17=_0x2b5551[_0xc8ff5(0x5be)]??_0x2b5551['y'];persistentCovCalls['crob_rbStrongDecided']=!![],persistentCovCalls[_0xc8ff5(0x3d3)]=_0x7c8e72[_0xc8ff5(0x487)](Math[_0xc8ff5(0x68f)](_0x7c8e72[_0xc8ff5(0x353)](_0x33bb68,_0x200db8),_0x3e0233-_0x555f17),Math[_0xc8ff5(0x68f)](_0x20205f-_0x200db8,_0x7c8e72[_0xc8ff5(0x1df)](_0x33934f,_0x555f17)));}}if(persistentCovCalls[_0xc8ff5(0x3d3)]&&_0x500bfe)return manCover(_0x500bfe['id']);if(persistentCovCalls['crob_rbStrongDecided']&&!persistentCovCalls[_0xc8ff5(0x3d3)])return manCover(_0x2b5551['id']);}return zoneDrop(_0x17d66b);}if((_0x3ee51c===_0x7c8e72[_0xc8ff5(0x637)]||_0x7c8e72[_0xc8ff5(0x6d0)](_0x3ee51c,_0x7c8e72[_0xc8ff5(0x28a)]))&&_0x475a49){const _0x5d8739=_0x7c8e72['bMuEY'](stickyOnce,_0x7c8e72[_0xc8ff5(0x6c2)],!!(_0x79697c&&_0x7c8e72[_0xc8ff5(0x4cf)](_0x6d8110,_0x79697c)));_0x5d8739&&isStickyLocked(_0xc8ff5(0x511))&&(persistentCovCalls[_0xc8ff5(0x4fe)]=!![]);if(persistentCovCalls[_0xc8ff5(0x25d)])return _0x4f778c?_0x7c8e72[_0xc8ff5(0x539)](manCover,_0x4f778c['id']):zoneDrop(_0x1e260d);if(_0x5d8739){const _0x3b4075=_0x7c8e72['sLgvU'](_0xfb9ada,_0x228c2c);if(!persistentCovCalls[_0xc8ff5(0x235)]&&_0x3b4075)return _0x7c8e72[_0xc8ff5(0x2dc)](manCover,_0x2b5551['id']);return _0x7c8e72[_0xc8ff5(0x6c6)](zoneDrop,_0x4bc3fe);}{const _0x3c6a3d=_0x7c8e72[_0xc8ff5(0x1be)](_0xfb9ada,_0x228c2c);if(_0x3c6a3d){if(!persistentCovCalls['crob_rbWeakDecided']){const _0xe1d3aa=defensePlayers[_0xc8ff5(0x1b9)](_0x4c1c95=>frozenRoleMap?.[_0xc8ff5(0x331)](_0x4c1c95['id'])===_0xc8ff5(0x23b));if(_0xe1d3aa){const _0x1c5156=_0x5cfa37[_0xc8ff5(0x79d)]??_0x5cfa37['x'],_0x205176=_0x5cfa37['simY']??_0x5cfa37['y'],_0x575244=_0xe1d3aa[_0xc8ff5(0x79d)]??_0xe1d3aa['x'],_0x4e50bf=_0xe1d3aa[_0xc8ff5(0x5be)]??_0xe1d3aa['y'],_0x2aba84=_0x2b5551[_0xc8ff5(0x79d)]??_0x2b5551['x'],_0x39cfc8=_0x2b5551[_0xc8ff5(0x5be)]??_0x2b5551['y'];persistentCovCalls['crob_rbWeakDecided']=!![],persistentCovCalls['crob_pushWeak']=_0x7c8e72[_0xc8ff5(0x487)](Math['hypot'](_0x1c5156-_0x2aba84,_0x7c8e72[_0xc8ff5(0x353)](_0x205176,_0x39cfc8)),Math[_0xc8ff5(0x68f)](_0x575244-_0x2aba84,_0x7c8e72[_0xc8ff5(0x6e1)](_0x4e50bf,_0x39cfc8)));}}if(persistentCovCalls[_0xc8ff5(0x768)])return manCover(_0x2b5551['id']);}}return _0x79697c?manCover(_0x79697c['id']):_0x7c8e72[_0xc8ff5(0x2dc)](zoneDrop,_0x4bc3fe);}if(_0x3ee51c==='CB'&&_0x475a49){if(stickyOnce('crob_underW_cb',!!(_0x4f778c&&_0x6d8110(_0x4f778c)))){if(_0x7c8e72[_0xc8ff5(0x223)](isStickyLocked,_0x7c8e72[_0xc8ff5(0x4ac)]))persistentCovCalls[_0xc8ff5(0x4fe)]=!![];return _0x7c8e72[_0xc8ff5(0x223)](zoneDrop,_0x1e260d);}if(_0x7c8e72[_0xc8ff5(0x250)](stickyOnce,_0x7c8e72[_0xc8ff5(0x47c)],!!(_0x4f778c&&_0x11778d(_0x4f778c)))){if(isStickyLocked(_0x7c8e72[_0xc8ff5(0x47c)]))persistentCovCalls[_0xc8ff5(0x25d)]=!![];return zoneDrop(_0x1e260d);}return _0x4f778c?_0x7c8e72[_0xc8ff5(0x797)](manCover,_0x4f778c['id']):zoneDrop(_0x1e260d);}if(_0x3ee51c===_0x7c8e72['REise']){const _0x1712df=_0x7c8e72[_0xc8ff5(0x355)](_0xfb9ada,_0x228c2c);if(persistentCovCalls[_0xc8ff5(0x727)]){const _0x29024a=persistentCovCalls[_0xc8ff5(0x1cd)];if(_0x29024a){const _0x18e343=[_0x500bfe,_0x2f7c18][_0xc8ff5(0x1b9)](_0x135789=>_0x135789&&_0x135789['id']===_0x29024a);if(_0x18e343)return manCover(_0x18e343['id']);persistentCovCalls[_0xc8ff5(0x1cd)]=null;}const _0x1b13cb=[_0x500bfe,_0x2f7c18][_0xc8ff5(0x427)](Boolean)[_0xc8ff5(0x1b9)](_0x15168c=>_0x6d8110(_0x15168c)&&!defensePlayers[_0xc8ff5(0x57b)](_0x4ca2e1=>_0x4ca2e1['id']!==_0x5cfa37['id']&&_0x4ca2e1[_0xc8ff5(0x239)]?.['focusTargetId']===_0x15168c['id']));if(_0x1b13cb&&_0x7c8e72['teuXS'](_0x59b46d,_0x5cfa37,_0x1b13cb))return persistentCovCalls[_0xc8ff5(0x1cd)]=_0x1b13cb['id'],_0x7c8e72[_0xc8ff5(0x330)](manCover,_0x1b13cb['id']);}if(_0x7c8e72['uDxsy'](_0x1712df,_0x2b5551)&&!persistentCovCalls[_0xc8ff5(0x4fe)]){if(!persistentCovCalls[_0xc8ff5(0x14d)]){const _0x251218=defensePlayers[_0xc8ff5(0x1b9)](_0x2f60f7=>{const _0x31eb77=_0xc8ff5,_0x602fb9=frozenRoleMap?.['get'](_0x2f60f7['id']);if(_0x602fb9!==_0x7c8e72[_0x31eb77(0x637)]&&_0x602fb9!==_0x7c8e72[_0x31eb77(0x28a)])return![];const _0x5481b2=snapAlignment[_0x2f60f7['id']]?.['x']??(_0x2f60f7[_0x31eb77(0x79d)]??_0x2f60f7['x']);return(_0x5481b2<=_0x6a8140?'L':'R')===_0x228c2c;});if(_0x251218){const _0x408bf1=_0x251218[_0xc8ff5(0x79d)]??_0x251218['x'],_0x5488b4=_0x251218[_0xc8ff5(0x5be)]??_0x251218['y'],_0x3fb8af=_0x5cfa37[_0xc8ff5(0x79d)]??_0x5cfa37['x'],_0x6c0f12=_0x5cfa37[_0xc8ff5(0x5be)]??_0x5cfa37['y'],_0x18645b=_0x2b5551[_0xc8ff5(0x79d)]??_0x2b5551['x'],_0x1fb5ae=_0x2b5551[_0xc8ff5(0x5be)]??_0x2b5551['y'];persistentCovCalls['crob_rbWeakDecided']=!![],persistentCovCalls[_0xc8ff5(0x768)]=Math[_0xc8ff5(0x68f)](_0x7c8e72[_0xc8ff5(0x546)](_0x408bf1,_0x18645b),_0x5488b4-_0x1fb5ae)<Math[_0xc8ff5(0x68f)](_0x7c8e72['WOrjO'](_0x3fb8af,_0x18645b),_0x6c0f12-_0x1fb5ae);}}if(persistentCovCalls[_0xc8ff5(0x768)]&&_0x79697c)return _0x7c8e72[_0xc8ff5(0x5bd)](manCover,_0x79697c['id']);if(persistentCovCalls[_0xc8ff5(0x14d)]&&!persistentCovCalls[_0xc8ff5(0x768)])return manCover(_0x2b5551['id']);}return zoneDrop(_0x22140f);}return null;}},'cover3-weak-2x2-match':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x56aa7c,_0x21374c,_0x373c03){const _0xce163b=_0x2e24de,_0xf23d01={'IKDEE':_0xce163b(0x3e5),'adfkZ':function(_0x2367b8,_0xf6fb83){return _0x2367b8===_0xf6fb83;},'jrIQO':'HOOK-L','vlUeV':'APEX-R','orzXT':_0xce163b(0x400),'EVEjn':_0xce163b(0x25f),'UhbLT':'UNDER','PWrbk':function(_0x43e9f4,_0x6e023a){return _0x43e9f4(_0x6e023a);},'fwUny':function(_0x4cd557,_0x3dc990){return _0x4cd557(_0x3dc990);},'XGFTP':function(_0x4c5713,_0xa48371){return _0x4c5713(_0xa48371);},'YcNlW':'DEEP_R','EikSE':function(_0x47cb4d,_0x1b19bc){return _0x47cb4d===_0x1b19bc;},'PiIfi':function(_0x1017e3,_0x56250c){return _0x1017e3===_0x56250c;},'ebedl':_0xce163b(0x647),'ZnOCP':_0xce163b(0x1d1),'lbmaE':'HOOK_CURL_L','hnpyT':function(_0x1074da,_0x3dbb1b,_0xdd73a8){return _0x1074da(_0x3dbb1b,_0xdd73a8);}},_0x2270f3=new Map();if(!_0x373c03)return _0x2270f3;const _0x3d98a3=_0x373c03['ballX'],_0x4e0a72=_0x373c03[_0xce163b(0x205)]||[],_0x58a2b6=_0x373c03[_0xce163b(0x479)]||null,_0x386df0=_0x4e0a72[_0xce163b(0x427)](_0x38f011=>_0x38f011[_0xce163b(0x6c1)]==='L')[_0xce163b(0x6ab)],_0x42bcb6=_0x4e0a72[_0xce163b(0x427)](_0x1a7c37=>_0x1a7c37[_0xce163b(0x6c1)]==='R')[_0xce163b(0x6ab)],_0x471a6a=_0x373c03[_0xce163b(0x1c0)]||(_0x386df0>=_0x42bcb6?'L':'R'),_0xf6f0b9=_0x471a6a==='L'?'R':'L',_0x42f606=_0xf23d01['adfkZ'](_0x471a6a,'L')?'DEEP_L':_0xf23d01[_0xce163b(0x3bb)],_0x4cff87=_0xf23d01['EikSE'](_0xf6f0b9,'L')?_0xce163b(0x3e8):_0xce163b(0x4fb),_0x329bf1=_0xf23d01[_0xce163b(0x20b)](_0x471a6a,'L')?_0xf23d01['ebedl']:_0xf23d01[_0xce163b(0x636)],_0x54f78c=_0xf6f0b9==='L'?_0xf23d01['ebedl']:_0xf23d01['ZnOCP'],_0x229526=_0x471a6a==='L'?_0xf23d01[_0xce163b(0x5e9)]:_0xce163b(0x198),_0x3cbbc1=_0xf23d01[_0xce163b(0x20b)](_0xf6f0b9,'L')?_0xf23d01[_0xce163b(0x5e9)]:_0xce163b(0x198);function _0x498ad7(_0x2180b4,_0x36bf95){const _0x5adc6d=_0xce163b;return _0x4e0a72[_0x5adc6d(0x1b9)](_0x4fd385=>_0x4fd385[_0x5adc6d(0x6c1)]===_0x2180b4&&_0x4fd385[_0x5adc6d(0x4df)]===_0x36bf95)||null;}const _0x4ece49=_0x498ad7(_0x471a6a,0x1),_0x4abd77=_0x498ad7(_0x471a6a,0x2),_0x1df497=_0x498ad7(_0xf6f0b9,0x1),_0x176b1a=_0xf23d01['hnpyT'](_0x498ad7,_0xf6f0b9,0x2);return _0x56aa7c['forEach']((_0xb956af,_0x137d53)=>{const _0x4a74d7=_0xce163b,_0x5dd682=_0x21374c[_0x4a74d7(0x331)](_0x137d53);if(!_0x5dd682)return;const _0xff0029=_0x5dd682['x']<=_0x3d98a3?'L':'R',_0x107066=_0xb956af===_0xf23d01['IKDEE']||_0xf23d01['adfkZ'](_0xb956af,_0xf23d01[_0x4a74d7(0x14b)])?'L':_0xf23d01['adfkZ'](_0xb956af,_0xf23d01[_0x4a74d7(0x33d)])||_0xf23d01[_0x4a74d7(0x6c3)](_0xb956af,_0xf23d01[_0x4a74d7(0x387)])?'R':_0xff0029,_0x275fc3=_0xf23d01[_0x4a74d7(0x6c3)](_0x107066,_0x471a6a),_0x4e0617=_0x107066===_0xf6f0b9;switch(_0xb956af){case _0xf23d01[_0x4a74d7(0x2d5)]:case _0xf23d01[_0x4a74d7(0x667)]:_0x2270f3[_0x4a74d7(0x590)](_0x137d53,rushDec());break;case'CB':if(_0x275fc3)_0x2270f3['set'](_0x137d53,_0x4ece49?manCover(_0x4ece49['id']):zoneDrop(_0x42f606));if(_0x4e0617)_0x2270f3[_0x4a74d7(0x590)](_0x137d53,_0x1df497?manCover(_0x1df497['id']):_0xf23d01[_0x4a74d7(0x65c)](zoneDrop,_0x4cff87));break;case _0x4a74d7(0x2ac):_0x2270f3['set'](_0x137d53,zoneDrop(_0x4a74d7(0x259)));break;case _0xf23d01[_0x4a74d7(0x3d1)]:case'APEX-R':if(_0x275fc3)_0x2270f3[_0x4a74d7(0x590)](_0x137d53,_0x4abd77?manCover(_0x4abd77['id']):_0xf23d01['PWrbk'](zoneDrop,_0x329bf1));if(_0x4e0617)_0x2270f3[_0x4a74d7(0x590)](_0x137d53,_0xf23d01[_0x4a74d7(0x2cb)](zoneDrop,_0x3cbbc1));break;case'HOOK-L':case _0xf23d01[_0x4a74d7(0x387)]:case _0x4a74d7(0x722):_0x2270f3['set'](_0x137d53,zoneDrop(_0x229526));break;case _0x4a74d7(0x23b):_0x2270f3[_0x4a74d7(0x590)](_0x137d53,_0x176b1a?_0xf23d01[_0x4a74d7(0x552)](manCover,_0x176b1a['id']):_0xf23d01[_0x4a74d7(0x552)](zoneDrop,_0x54f78c));break;}}),_0x2270f3;},'react'(_0x4cb46b,_0x2dfd66,_0x4d4fc3,_0x2fae67){const _0x53d22a=_0x2e24de,_0x1e95ee={'GIgjW':function(_0x44d953,_0x2439f0,_0x127d91){return _0x44d953(_0x2439f0,_0x127d91);},'lddTC':function(_0x35e4bc,_0x2ba18b){return _0x35e4bc<_0x2ba18b;},'GjpHA':function(_0x256502,_0x5975e6){return _0x256502===_0x5975e6;},'EGliE':function(_0x39a88d,_0x4ad9c8){return _0x39a88d>_0x4ad9c8;},'IRGRS':function(_0xb3e1a6,_0x27c1a7){return _0xb3e1a6<_0x27c1a7;},'RwRmJ':function(_0x115964,_0x4216ed){return _0x115964<_0x4216ed;},'xgnXY':function(_0x1f0ea4,_0x1286c2){return _0x1f0ea4-_0x1286c2;},'QiUdL':function(_0x256db8,_0x1b8bdf){return _0x256db8*_0x1b8bdf;},'rsxll':function(_0x4736e1,_0x282080){return _0x4736e1===_0x282080;},'ECSnr':_0x53d22a(0x669),'zjVVh':_0x53d22a(0x722),'XHRUb':function(_0x5aeca7,_0x28ef6d){return _0x5aeca7!==_0x28ef6d;},'JJJyS':_0x53d22a(0x238),'uFxJh':function(_0x5629f9,_0x190ec1){return _0x5629f9<=_0x190ec1;},'ZbFhE':_0x53d22a(0x3e5),'tKFjB':function(_0x47ee3a,_0x2d05db){return _0x47ee3a===_0x2d05db;},'ezgMN':_0x53d22a(0x400),'BHEBx':function(_0x17f405,_0x25ca9d){return _0x17f405===_0x25ca9d;},'uAfLb':function(_0x315b7e,_0x2464bb){return _0x315b7e!==_0x2464bb;},'DwGoj':_0x53d22a(0x371),'SBNjt':function(_0x1fa88a,_0x17f08a){return _0x1fa88a===_0x17f08a;},'MVWwH':_0x53d22a(0x4fb),'jwySL':_0x53d22a(0x3e8),'ZKruN':_0x53d22a(0x647),'GCehd':function(_0x530910,_0x56d87c){return _0x530910===_0x56d87c;},'kbtxO':'CURL_FLAT_R','DtrOV':_0x53d22a(0x198),'OwCSK':function(_0xaac51,_0x29d486,_0x3062b6){return _0xaac51(_0x29d486,_0x3062b6);},'xAbjh':function(_0x499a28,_0x49bb0f,_0x4d1050){return _0x499a28(_0x49bb0f,_0x4d1050);},'XIdID':_0x53d22a(0x23e),'nbNhS':function(_0x41d6a5,_0x101bd3){return _0x41d6a5(_0x101bd3);},'tOsVa':_0x53d22a(0x55d),'iQZEK':function(_0xd369d3,_0x1a98dd){return _0xd369d3(_0x1a98dd);},'AaMZS':function(_0x374611,_0x425059){return _0x374611(_0x425059);},'KVUAp':function(_0x292fca,_0x3e758e){return _0x292fca-_0x3e758e;},'aaCUd':function(_0x44006a,_0x21e6d3){return _0x44006a(_0x21e6d3);},'Koszn':function(_0x392643,_0x598a74){return _0x392643(_0x598a74);},'yKzhY':function(_0x5b7a9c,_0x3571b5,_0x2a6c4d){return _0x5b7a9c(_0x3571b5,_0x2a6c4d);},'ciiUE':function(_0x5a863c,_0x485687){return _0x5a863c-_0x485687;},'lQqbO':function(_0x377e75,_0x2f458a){return _0x377e75-_0x2f458a;},'NzeMw':function(_0x51baea,_0x275534){return _0x51baea(_0x275534);},'LgKZU':function(_0x3918c6,_0x40ea4d,_0x1a3611){return _0x3918c6(_0x40ea4d,_0x1a3611);},'UYdDn':function(_0xd485fc,_0x5156c1){return _0xd485fc(_0x5156c1);},'CWrQB':function(_0x4b8b5d,_0x198bb0){return _0x4b8b5d&&_0x198bb0;},'Kqgky':function(_0x1f4a51,_0x21703c){return _0x1f4a51(_0x21703c);},'svSCY':function(_0xc0c4d0,_0x1504ce){return _0xc0c4d0(_0x1504ce);},'VjOcm':_0x53d22a(0x36e),'CbyeO':function(_0x50c4ea,_0x37d410){return _0x50c4ea(_0x37d410);},'OuuPX':'SAF_W','aLAqp':_0x53d22a(0x6de),'MCULj':function(_0x418198,_0x5602f7){return _0x418198(_0x5602f7);},'oIydM':function(_0x3b017e,_0x4585bd){return _0x3b017e(_0x4585bd);},'SBTEG':function(_0x1d81f5,_0x724bb1){return _0x1d81f5-_0x724bb1;},'lJxjY':function(_0x3bc781,_0x173152){return _0x3bc781-_0x173152;}};if(!_0x4d4fc3)return null;const _0x2c8802=_0x4d4fc3[_0x53d22a(0x1b2)],_0x380b61=_0x4d4fc3['eligiblePlayers']||[],_0x15bff9=_0x4d4fc3['primaryBackfield']||null,_0x4ba6dd=_0x380b61['filter'](_0x9987cf=>_0x9987cf[_0x53d22a(0x6c1)]==='L')['length'],_0x44e7f1=_0x380b61['filter'](_0x34f6cb=>_0x34f6cb[_0x53d22a(0x6c1)]==='R')[_0x53d22a(0x6ab)],_0x34a03d=_0x4d4fc3[_0x53d22a(0x1c0)]||(_0x4ba6dd>=_0x44e7f1?'L':'R'),_0xa60482=_0x1e95ee[_0x53d22a(0x212)](_0x34a03d,'L')?'R':'L',_0x161651=snapAlignment[_0x4cb46b['id']]?.['x']??(_0x4cb46b[_0x53d22a(0x79d)]??_0x4cb46b['x']),_0x1f35d6=_0x1e95ee[_0x53d22a(0x59d)](_0x161651,_0x2c8802)?'L':'R',_0x2ae153=_0x2dfd66===_0x1e95ee[_0x53d22a(0x394)]||_0x1e95ee[_0x53d22a(0x4e3)](_0x2dfd66,_0x1e95ee[_0x53d22a(0x5de)])?'L':_0x2dfd66===_0x53d22a(0x238)||_0x1e95ee[_0x53d22a(0x212)](_0x2dfd66,_0x1e95ee[_0x53d22a(0x77e)])?'R':_0x1f35d6,_0x14d2a1=_0x2ae153===_0x34a03d,_0x1dd2e3=_0x1e95ee['BHEBx'](_0x2ae153,_0xa60482);function _0x24961c(_0x5d55a9,_0x2075a7){const _0x5441ac=_0x53d22a;return _0x380b61[_0x5441ac(0x1b9)](_0x5f4f99=>_0x5f4f99[_0x5441ac(0x6c1)]===_0x5d55a9&&_0x5f4f99[_0x5441ac(0x4df)]===_0x2075a7)||null;}function _0x5ab977(_0x43de37){return _0x43de37?_0x2fae67[_0x43de37['id']]:null;}function _0x517fb0(_0x35b4a9){const _0x3eb678=_0x53d22a;return _0x1e95ee[_0x3eb678(0x234)](isUnderRoute,_0x35b4a9,_0x2fae67);}function _0x3769eb(_0x36bdfc){return isHitchRoute(_0x36bdfc,_0x2fae67);}const _0x275fa0=typeof YARD_PX!==_0x53d22a(0x371)?YARD_PX:0x14,_0x47f2df=0x5,_0x3ccc40=0.5,_0x1ec749=0x1,_0x3a852a=0x2,_0x54df83=0x6,_0x4904fe=_0x1e95ee[_0x53d22a(0x3d4)](typeof playPhaseTime,_0x1e95ee['DwGoj'])?playPhaseTime:0x0;function _0x23e2a2(_0x5762e8){const _0x219035=_0x53d22a;if(!_0x15bff9)return![];if(_0x1e95ee[_0x219035(0x2da)](_0x4904fe,_0x1ec749))return![];const _0x7df522=_0x5ab977(_0x15bff9);if(!_0x7df522)return![];if(_0x1e95ee[_0x219035(0x56f)](_0x7df522['moveType'],_0x219035(0x1d8)))return![];const _0x1b9e26=Math[_0x219035(0x78a)](_0x7df522[_0x219035(0x65e)]??0x0);if(_0x1e95ee['EGliE'](_0x1b9e26,_0x3a852a))return![];const _0x1a5c1a=_0x7df522[_0x219035(0x6ae)]?.['x']??0x0,_0x3573ea=_0x5762e8==='L'?_0x1e95ee['IRGRS'](_0x1a5c1a,0x0):_0x1a5c1a>0x0;if(!_0x3573ea)return![];const _0x380006=_0x7df522[_0x219035(0x757)]?.['x']??_0x7df522[_0x219035(0x254)]?.['x']??0x0,_0x1bf55f=_0x7df522[_0x219035(0x254)]?.['x']??0x0;if(_0x1e95ee[_0x219035(0x165)](Math[_0x219035(0x78a)](_0x1e95ee['xgnXY'](_0x1bf55f,_0x380006)),_0x47f2df*_0x275fa0))return![];const _0x59aad0=_0x4904fe-(_0x7df522[_0x219035(0x2ae)]??0x0);if(_0x59aad0<_0x3ccc40)return![];return!![];}function _0x56bb70(_0xc6e977,_0xb4c3e1){const _0x5425d0=_0x53d22a;if(!_0xc6e977||!_0xb4c3e1)return![];const _0x1456f2=_0x5ab977(_0xb4c3e1),_0x73bc3c=_0xc6e977[_0x5425d0(0x79d)]??_0xc6e977['x'],_0x50aa95=_0xb4c3e1[_0x5425d0(0x79d)]??_0xb4c3e1['x'],_0x236c3a=!!(_0x1456f2&&_0x1456f2[_0x5425d0(0x2d9)]),_0x1b80d8=Math[_0x5425d0(0x78a)](_0x1e95ee[_0x5425d0(0x260)](_0x73bc3c,_0x50aa95)),_0x482c2e=_0x1b80d8<_0x1e95ee['QiUdL'](_0x54df83,_0x275fa0);return _0x236c3a||_0x482c2e;}const _0x340125=_0x1e95ee[_0x53d22a(0x752)](_0x34a03d,'L')?_0x53d22a(0x3e8):_0x1e95ee['MVWwH'],_0x1c6947=_0xa60482==='L'?_0x1e95ee[_0x53d22a(0x3bc)]:_0x1e95ee[_0x53d22a(0x4f5)],_0x26ac1c=_0x34a03d==='L'?_0x1e95ee[_0x53d22a(0x699)]:_0x53d22a(0x1d1),_0x5a24e6=_0x1e95ee['GCehd'](_0xa60482,'L')?_0x53d22a(0x647):_0x1e95ee[_0x53d22a(0x31f)],_0x36cffc=_0x1e95ee[_0x53d22a(0x752)](_0x34a03d,'L')?'HOOK_CURL_L':_0x1e95ee['DtrOV'],_0x2f0259=_0xa60482==='L'?_0x53d22a(0x226):'HOOK_CURL_R',_0x52f5d2=_0x24961c(_0x34a03d,0x1),_0x6dc5cc=_0x1e95ee['GIgjW'](_0x24961c,_0x34a03d,0x2),_0x5e5e5a=_0x1e95ee[_0x53d22a(0x234)](_0x24961c,_0xa60482,0x1),_0x3e4089=_0x1e95ee[_0x53d22a(0x525)](_0x24961c,_0xa60482,0x2);if(_0x2dfd66==='CB'&&_0x14d2a1){if(_0x1e95ee['xAbjh'](stickyOnce,_0x53d22a(0x23e),!!(_0x52f5d2&&_0x517fb0(_0x52f5d2)))){if(isStickyLocked(_0x1e95ee[_0x53d22a(0x687)]))persistentCovCalls['cwm_underS']=!![];return _0x1e95ee[_0x53d22a(0x351)](zoneDrop,_0x340125);}if(stickyOnce(_0x53d22a(0x55d),!!(_0x52f5d2&&_0x1e95ee['nbNhS'](_0x3769eb,_0x52f5d2)))){if(isStickyLocked(_0x1e95ee[_0x53d22a(0x5d9)]))persistentCovCalls[_0x53d22a(0x55d)]=!![];return zoneDrop(_0x340125);}return _0x52f5d2?manCover(_0x52f5d2['id']):zoneDrop(_0x340125);}if(_0x1e95ee[_0x53d22a(0x212)](_0x2dfd66,_0x53d22a(0x2ac)))return zoneDrop(_0x53d22a(0x259));if((_0x1e95ee[_0x53d22a(0x3de)](_0x2dfd66,_0x53d22a(0x3e5))||_0x2dfd66===_0x1e95ee['JJJyS'])&&_0x14d2a1){const _0x5c49d4=stickyOnce(_0x53d22a(0x3af),!!(_0x6dc5cc&&_0x1e95ee[_0x53d22a(0x3c3)](_0x517fb0,_0x6dc5cc)));_0x5c49d4&&isStickyLocked(_0x53d22a(0x3af))&&(persistentCovCalls[_0x53d22a(0x15f)]=!![]);if(persistentCovCalls[_0x53d22a(0x55d)])return _0x52f5d2?_0x1e95ee[_0x53d22a(0x3c3)](manCover,_0x52f5d2['id']):_0x1e95ee[_0x53d22a(0x75a)](zoneDrop,_0x340125);if(_0x5c49d4){const _0x7ff6a9=_0x1e95ee[_0x53d22a(0x3c3)](_0x23e2a2,_0x34a03d);if(_0x1e95ee['xAbjh'](stickyOnce,_0x53d22a(0x70b),_0x7ff6a9))return manCover(_0x15bff9['id']);return zoneDrop(_0x26ac1c);}{const _0x2b7f6c=_0x23e2a2(_0x34a03d);if(_0x2b7f6c){if(!persistentCovCalls[_0x53d22a(0x3ca)]){const _0x1f6761=defensePlayers[_0x53d22a(0x1b9)](_0x2a480a=>{const _0x136513=_0x53d22a,_0xb5b39=frozenRoleMap?.['get'](_0x2a480a['id']);return _0x1e95ee['rsxll'](_0xb5b39,_0x1e95ee['ECSnr'])||_0xb5b39===_0x136513(0x400)||_0xb5b39===_0x1e95ee[_0x136513(0x4a9)];});if(_0x1f6761){const _0x15e947=_0x4cb46b['simX']??_0x4cb46b['x'],_0x3bd317=_0x4cb46b[_0x53d22a(0x5be)]??_0x4cb46b['y'],_0x2e011d=_0x1f6761[_0x53d22a(0x79d)]??_0x1f6761['x'],_0x35f7f9=_0x1f6761[_0x53d22a(0x5be)]??_0x1f6761['y'],_0x280e9f=_0x15bff9[_0x53d22a(0x79d)]??_0x15bff9['x'],_0x5529be=_0x15bff9[_0x53d22a(0x5be)]??_0x15bff9['y'];persistentCovCalls[_0x53d22a(0x3ca)]=!![],persistentCovCalls[_0x53d22a(0x1ab)]=_0x1e95ee[_0x53d22a(0x2da)](Math[_0x53d22a(0x68f)](_0x15e947-_0x280e9f,_0x1e95ee[_0x53d22a(0x576)](_0x3bd317,_0x5529be)),Math[_0x53d22a(0x68f)](_0x2e011d-_0x280e9f,_0x1e95ee['xgnXY'](_0x35f7f9,_0x5529be)));}}if(persistentCovCalls['cwm_pushStrong'])return manCover(_0x15bff9['id']);}}return _0x6dc5cc?_0x1e95ee[_0x53d22a(0x538)](manCover,_0x6dc5cc['id']):zoneDrop(_0x26ac1c);}if(_0x1e95ee[_0x53d22a(0x212)](_0x2dfd66,_0x53d22a(0x669))||_0x1e95ee[_0x53d22a(0x752)](_0x2dfd66,_0x53d22a(0x400))||_0x2dfd66===_0x1e95ee[_0x53d22a(0x4a9)]){const _0x229efc=_0x23e2a2(_0x34a03d);if(persistentCovCalls[_0x53d22a(0x601)]){const _0x2b3c1a=persistentCovCalls[_0x53d22a(0x4d7)];if(_0x2b3c1a){const _0x242a17=[_0x3e4089,_0x5e5e5a][_0x53d22a(0x1b9)](_0x52473b=>_0x52473b&&_0x52473b['id']===_0x2b3c1a);if(_0x242a17)return _0x1e95ee[_0x53d22a(0x650)](manCover,_0x242a17['id']);persistentCovCalls[_0x53d22a(0x4d7)]=null;}const _0xf5ba39=[_0x3e4089,_0x5e5e5a][_0x53d22a(0x427)](Boolean)[_0x53d22a(0x1b9)](_0x3ce692=>_0x517fb0(_0x3ce692)&&!defensePlayers[_0x53d22a(0x57b)](_0x2f8ebf=>_0x2f8ebf['id']!==_0x4cb46b['id']&&_0x2f8ebf['decision']?.[_0x53d22a(0x5bb)]===_0x3ce692['id']));if(_0xf5ba39&&_0x1e95ee[_0x53d22a(0x6a3)](_0x56bb70,_0x4cb46b,_0xf5ba39))return persistentCovCalls[_0x53d22a(0x4d7)]=_0xf5ba39['id'],manCover(_0xf5ba39['id']);}if(_0x229efc&&_0x15bff9&&!persistentCovCalls[_0x53d22a(0x15f)]){if(!persistentCovCalls[_0x53d22a(0x3ca)]){const _0x5f1592=defensePlayers[_0x53d22a(0x1b9)](_0x49b8bc=>{const _0x51cf85=_0x53d22a,_0x169690=frozenRoleMap?.[_0x51cf85(0x331)](_0x49b8bc['id']);if(_0x169690!==_0x51cf85(0x3e5)&&_0x1e95ee[_0x51cf85(0x69d)](_0x169690,_0x1e95ee[_0x51cf85(0x5b9)]))return![];const _0x114a81=snapAlignment[_0x49b8bc['id']]?.['x']??(_0x49b8bc[_0x51cf85(0x79d)]??_0x49b8bc['x']);return _0x1e95ee['GjpHA'](_0x114a81<=_0x2c8802?'L':'R',_0x34a03d);});if(_0x5f1592){const _0x3823f1=_0x5f1592[_0x53d22a(0x79d)]??_0x5f1592['x'],_0x455e8f=_0x5f1592[_0x53d22a(0x5be)]??_0x5f1592['y'],_0x53d890=_0x4cb46b[_0x53d22a(0x79d)]??_0x4cb46b['x'],_0x28ad66=_0x4cb46b[_0x53d22a(0x5be)]??_0x4cb46b['y'],_0x2dcfb3=_0x15bff9[_0x53d22a(0x79d)]??_0x15bff9['x'],_0x2673d5=_0x15bff9[_0x53d22a(0x5be)]??_0x15bff9['y'];persistentCovCalls[_0x53d22a(0x3ca)]=!![],persistentCovCalls[_0x53d22a(0x1ab)]=_0x1e95ee[_0x53d22a(0x2da)](Math[_0x53d22a(0x68f)](_0x1e95ee[_0x53d22a(0x737)](_0x3823f1,_0x2dcfb3),_0x455e8f-_0x2673d5),Math[_0x53d22a(0x68f)](_0x1e95ee[_0x53d22a(0x52e)](_0x53d890,_0x2dcfb3),_0x1e95ee['KVUAp'](_0x28ad66,_0x2673d5)));}}if(persistentCovCalls['cwm_pushStrong']&&_0x6dc5cc)return _0x1e95ee[_0x53d22a(0x381)](manCover,_0x6dc5cc['id']);if(persistentCovCalls[_0x53d22a(0x3ca)]&&!persistentCovCalls['cwm_pushStrong'])return _0x1e95ee['AaMZS'](manCover,_0x15bff9['id']);}return zoneDrop(_0x36cffc);}if((_0x2dfd66===_0x1e95ee[_0x53d22a(0x394)]||_0x2dfd66===_0x1e95ee[_0x53d22a(0x5b9)])&&_0x1dd2e3){const _0x5e4def=_0x1e95ee[_0x53d22a(0x3c3)](_0x23e2a2,_0xa60482);if(persistentCovCalls[_0x53d22a(0x15f)]){const _0x1389c2=persistentCovCalls[_0x53d22a(0x6c7)];if(_0x1389c2){const _0x195387=[_0x6dc5cc,_0x52f5d2][_0x53d22a(0x1b9)](_0x27c612=>_0x27c612&&_0x27c612['id']===_0x1389c2);if(_0x195387)return manCover(_0x195387['id']);persistentCovCalls[_0x53d22a(0x6c7)]=null;}const _0x1890cc=[_0x6dc5cc,_0x52f5d2][_0x53d22a(0x427)](Boolean)['find'](_0x40e029=>_0x517fb0(_0x40e029)&&!defensePlayers[_0x53d22a(0x57b)](_0x27deb3=>_0x27deb3['id']!==_0x4cb46b['id']&&_0x27deb3[_0x53d22a(0x239)]?.['focusTargetId']===_0x40e029['id']));if(_0x1890cc&&_0x1e95ee[_0x53d22a(0x602)](_0x56bb70,_0x4cb46b,_0x1890cc))return persistentCovCalls[_0x53d22a(0x6c7)]=_0x1890cc['id'],_0x1e95ee[_0x53d22a(0x521)](manCover,_0x1890cc['id']);}if(_0x1e95ee['CWrQB'](_0x5e4def,_0x15bff9)&&!persistentCovCalls[_0x53d22a(0x601)]){if(!persistentCovCalls['cwm_rbWeakDecided']){const _0xecb7c0=defensePlayers[_0x53d22a(0x1b9)](_0x47e031=>frozenRoleMap?.['get'](_0x47e031['id'])===_0x53d22a(0x23b));if(_0xecb7c0){const _0x4303ea=_0xecb7c0['simX']??_0xecb7c0['x'],_0x1d65a6=_0xecb7c0['simY']??_0xecb7c0['y'],_0x167a12=_0x4cb46b['simX']??_0x4cb46b['x'],_0x9f700=_0x4cb46b[_0x53d22a(0x5be)]??_0x4cb46b['y'],_0x514e28=_0x15bff9[_0x53d22a(0x79d)]??_0x15bff9['x'],_0x1c858b=_0x15bff9[_0x53d22a(0x5be)]??_0x15bff9['y'];persistentCovCalls[_0x53d22a(0x22f)]=!![],persistentCovCalls['cwm_pushWeak']=Math['hypot'](_0x4303ea-_0x514e28,_0x1d65a6-_0x1c858b)<Math[_0x53d22a(0x68f)](_0x167a12-_0x514e28,_0x1e95ee[_0x53d22a(0x737)](_0x9f700,_0x1c858b));}}if(persistentCovCalls[_0x53d22a(0x183)]&&_0x3e4089)return _0x1e95ee[_0x53d22a(0x472)](manCover,_0x3e4089['id']);if(persistentCovCalls[_0x53d22a(0x22f)]&&!persistentCovCalls['cwm_pushWeak'])return _0x1e95ee[_0x53d22a(0x472)](manCover,_0x15bff9['id']);}return _0x1e95ee['svSCY'](zoneDrop,_0x2f0259);}if(_0x2dfd66==='CB'&&_0x1dd2e3){if(stickyOnce(_0x53d22a(0x36e),!!(_0x5e5e5a&&_0x1e95ee['nbNhS'](_0x517fb0,_0x5e5e5a)))){if(isStickyLocked(_0x1e95ee[_0x53d22a(0x69a)]))persistentCovCalls['cwm_underW']=!![];return zoneDrop(_0x1c6947);}if(_0x1e95ee[_0x53d22a(0x234)](stickyOnce,_0x53d22a(0x4cc),!!(_0x5e5e5a&&_0x3769eb(_0x5e5e5a)))){if(_0x1e95ee['svSCY'](isStickyLocked,_0x53d22a(0x4cc)))persistentCovCalls[_0x53d22a(0x4cc)]=!![];return _0x1e95ee[_0x53d22a(0x6dd)](zoneDrop,_0x1c6947);}return _0x5e5e5a?_0x1e95ee[_0x53d22a(0x489)](manCover,_0x5e5e5a['id']):zoneDrop(_0x1c6947);}if(_0x1e95ee[_0x53d22a(0x212)](_0x2dfd66,_0x1e95ee[_0x53d22a(0x2d3)])){const _0x42c65d=stickyOnce(_0x1e95ee[_0x53d22a(0x4da)],!!(_0x3e4089&&_0x517fb0(_0x3e4089)));_0x42c65d&&isStickyLocked(_0x53d22a(0x6de))&&(persistentCovCalls[_0x53d22a(0x601)]=!![]);if(persistentCovCalls['cwm_smashW'])return _0x5e5e5a?manCover(_0x5e5e5a['id']):zoneDrop(_0x1c6947);if(_0x42c65d){const _0x1ae979=_0x23e2a2(_0xa60482);if(!persistentCovCalls[_0x53d22a(0x70b)]&&_0x1ae979)return manCover(_0x15bff9['id']);return _0x1e95ee[_0x53d22a(0x5cb)](zoneDrop,_0x5a24e6);}{const _0x218365=_0x1e95ee[_0x53d22a(0x3df)](_0x23e2a2,_0xa60482);if(_0x218365){if(!persistentCovCalls[_0x53d22a(0x22f)]){const _0x313f60=defensePlayers['find'](_0x42c79c=>{const _0x9b5276=_0x53d22a,_0x412d4d=frozenRoleMap?.[_0x9b5276(0x331)](_0x42c79c['id']);if(_0x412d4d!==_0x9b5276(0x3e5)&&_0x412d4d!==_0x1e95ee[_0x9b5276(0x5b9)])return![];const _0x240218=snapAlignment[_0x42c79c['id']]?.['x']??(_0x42c79c[_0x9b5276(0x79d)]??_0x42c79c['x']);return(_0x1e95ee[_0x9b5276(0x59d)](_0x240218,_0x2c8802)?'L':'R')===_0xa60482;});if(_0x313f60){const _0x1f153a=_0x4cb46b[_0x53d22a(0x79d)]??_0x4cb46b['x'],_0x3f7801=_0x4cb46b[_0x53d22a(0x5be)]??_0x4cb46b['y'],_0x3371dd=_0x313f60['simX']??_0x313f60['x'],_0x31ed04=_0x313f60['simY']??_0x313f60['y'],_0x47b97=_0x15bff9[_0x53d22a(0x79d)]??_0x15bff9['x'],_0x255146=_0x15bff9['simY']??_0x15bff9['y'];persistentCovCalls['cwm_rbWeakDecided']=!![],persistentCovCalls[_0x53d22a(0x183)]=Math[_0x53d22a(0x68f)](_0x1f153a-_0x47b97,_0x1e95ee[_0x53d22a(0x221)](_0x3f7801,_0x255146))<Math['hypot'](_0x1e95ee[_0x53d22a(0x52e)](_0x3371dd,_0x47b97),_0x1e95ee[_0x53d22a(0x1ca)](_0x31ed04,_0x255146));}}if(persistentCovCalls[_0x53d22a(0x183)])return manCover(_0x15bff9['id']);}}return _0x3e4089?manCover(_0x3e4089['id']):_0x1e95ee['nbNhS'](zoneDrop,_0x5a24e6);}return null;}},'cover3-buzz-2x2-match-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x47eca7,_0x1bf35b,_0x4730ee){const _0x1e895d=_0x2e24de,_0x20ca64={'IJAbM':function(_0x129edf,_0x109182){return _0x129edf<=_0x109182;},'aBwpo':function(_0x5331bf,_0x3c78eb){return _0x5331bf===_0x3c78eb;},'WyfAu':_0x1e895d(0x3e5),'HslIx':_0x1e895d(0x669),'dfjKI':_0x1e895d(0x400),'QBYVC':function(_0x1a67b4){return _0x1a67b4();},'EFkoZ':function(_0x1eccb9,_0x58ed89){return _0x1eccb9(_0x58ed89);},'vqGoo':function(_0x2ce07b,_0x7c7f71){return _0x2ce07b(_0x7c7f71);},'gQbib':function(_0x1a3f1d,_0xb4ae66){return _0x1a3f1d(_0xb4ae66);},'aigVp':_0x1e895d(0x23b),'fJPWQ':_0x1e895d(0x259),'fDVqw':function(_0x56f97c,_0x39783c){return _0x56f97c>=_0x39783c;},'MEAcC':_0x1e895d(0x4fb),'Brbfa':_0x1e895d(0x3e8),'yMYjj':function(_0x2a8b42,_0x3b3064){return _0x2a8b42===_0x3b3064;},'ITvPm':_0x1e895d(0x1d1),'aReeT':_0x1e895d(0x647),'WbofR':'HOOK_CURL_L','GlFaD':function(_0x3eec2e,_0x21ed6b,_0x4be56c){return _0x3eec2e(_0x21ed6b,_0x4be56c);}},_0x342825=new Map();if(!_0x4730ee)return _0x342825;const _0x5556f9=_0x4730ee[_0x1e895d(0x1b2)],_0x320066=_0x4730ee[_0x1e895d(0x205)]||[],_0x3af039=_0x4730ee[_0x1e895d(0x479)]||null,_0x427ad9=_0x320066[_0x1e895d(0x427)](_0x1669dc=>_0x1669dc[_0x1e895d(0x6c1)]==='L')[_0x1e895d(0x6ab)],_0x16c8a0=_0x320066[_0x1e895d(0x427)](_0x50002d=>_0x50002d[_0x1e895d(0x6c1)]==='R')[_0x1e895d(0x6ab)],_0x416216=_0x4730ee['coverageStrongSide']||(_0x20ca64[_0x1e895d(0x595)](_0x427ad9,_0x16c8a0)?'L':'R'),_0x3d845e=_0x416216==='L'?'R':'L',_0x5c9959=_0x416216==='L'?'DEEP_L':_0x20ca64[_0x1e895d(0x79a)],_0xbc370c=_0x3d845e==='L'?_0x20ca64[_0x1e895d(0x596)]:_0x1e895d(0x4fb),_0x11d4e7=_0x20ca64[_0x1e895d(0x665)](_0x416216,'L')?'CURL_FLAT_L':_0x20ca64[_0x1e895d(0x2a8)],_0x22cd23=_0x3d845e==='L'?_0x20ca64[_0x1e895d(0x771)]:_0x20ca64['ITvPm'],_0x3866da=_0x20ca64[_0x1e895d(0x1d3)](_0x416216,'L')?_0x20ca64[_0x1e895d(0x6b7)]:_0x1e895d(0x198),_0x5b28a1=_0x3d845e==='L'?_0x1e895d(0x226):_0x1e895d(0x198);function _0x3188cf(_0x5f55e7,_0x219c06){const _0x171403=_0x1e895d;return _0x320066[_0x171403(0x1b9)](_0x4e1f6d=>_0x4e1f6d[_0x171403(0x6c1)]===_0x5f55e7&&_0x4e1f6d[_0x171403(0x4df)]===_0x219c06)||null;}const _0x26055a=_0x3188cf(_0x416216,0x1),_0x3a2114=_0x3188cf(_0x416216,0x2),_0x2a128d=_0x20ca64[_0x1e895d(0x764)](_0x3188cf,_0x3d845e,0x1),_0x4b5c0e=_0x3188cf(_0x3d845e,0x2);return _0x47eca7[_0x1e895d(0x29e)]((_0x43e67c,_0x3982b4)=>{const _0x18e68d=_0x1e895d,_0x3dc5ab=_0x1bf35b[_0x18e68d(0x331)](_0x3982b4);if(!_0x3dc5ab)return;const _0x7485fa=_0x20ca64[_0x18e68d(0x1fa)](_0x3dc5ab['x'],_0x5556f9)?'L':'R',_0xc86d=_0x20ca64[_0x18e68d(0x1d3)](_0x43e67c,_0x20ca64[_0x18e68d(0x6a5)])||_0x43e67c===_0x20ca64[_0x18e68d(0x45d)]?'L':_0x43e67c===_0x18e68d(0x238)||_0x43e67c===_0x20ca64[_0x18e68d(0x4c3)]?'R':_0x7485fa,_0x3fcdbc=_0xc86d===_0x416216,_0x3b7853=_0xc86d===_0x3d845e;switch(_0x43e67c){case _0x18e68d(0x25f):case _0x18e68d(0x4ef):_0x342825['set'](_0x3982b4,_0x20ca64['QBYVC'](rushDec));break;case'CB':if(_0x3fcdbc)_0x342825[_0x18e68d(0x590)](_0x3982b4,_0x26055a?manCover(_0x26055a['id']):_0x20ca64[_0x18e68d(0x5d4)](zoneDrop,_0x5c9959));if(_0x3b7853)_0x342825[_0x18e68d(0x590)](_0x3982b4,_0x2a128d?manCover(_0x2a128d['id']):_0x20ca64['vqGoo'](zoneDrop,_0xbc370c));break;case _0x18e68d(0x2ac):_0x342825[_0x18e68d(0x590)](_0x3982b4,_0x20ca64[_0x18e68d(0x33c)](zoneDrop,_0x3866da));break;case'APEX-L':case _0x18e68d(0x238):if(_0x3fcdbc)_0x342825[_0x18e68d(0x590)](_0x3982b4,_0x3a2114?_0x20ca64[_0x18e68d(0x5d4)](manCover,_0x3a2114['id']):zoneDrop(_0x11d4e7));if(_0x3b7853)_0x342825['set'](_0x3982b4,_0x4b5c0e?manCover(_0x4b5c0e['id']):_0x20ca64[_0x18e68d(0x3e9)](zoneDrop,_0x22cd23));break;case _0x20ca64[_0x18e68d(0x45d)]:case _0x18e68d(0x400):case'HOOK-M':_0x342825[_0x18e68d(0x590)](_0x3982b4,zoneDrop(_0x5b28a1));break;case _0x20ca64['aigVp']:_0x342825['set'](_0x3982b4,_0x20ca64[_0x18e68d(0x5d4)](zoneDrop,_0x20ca64['fJPWQ']));break;}}),_0x342825;},'react'(_0x57ac5c,_0x1bc685,_0x1efafe,_0x19f4ca){const _0x2ab408=_0x2e24de,_0xa4c3dd={'EWZxS':function(_0x1fae95,_0x15e8aa){return _0x1fae95!==_0x15e8aa;},'fUZBV':function(_0x5f182b,_0x3c046){return _0x5f182b===_0x3c046;},'LWoJz':_0x2ab408(0x238),'jnvlc':function(_0xdc3c69,_0x17730e){return _0xdc3c69===_0x17730e;},'IFmwz':_0x2ab408(0x5fc),'hEISa':function(_0x31f044,_0x341445){return _0x31f044>=_0x341445;},'HhVmz':function(_0x3395e1,_0x55c643){return _0x3395e1===_0x55c643;},'crtSE':function(_0x3be9f0,_0x373596){return _0x3be9f0<=_0x373596;},'cPUCT':_0x2ab408(0x3e5),'zhkAE':_0x2ab408(0x669),'BDEHR':function(_0x358e0c,_0x16d4ec){return _0x358e0c===_0x16d4ec;},'gouHa':_0x2ab408(0x3e8),'AVouS':function(_0x41b1e0,_0x11db55){return _0x41b1e0===_0x11db55;},'VHvHo':function(_0x1280d6,_0xa4f8d8){return _0x1280d6===_0xa4f8d8;},'KmXgN':'CURL_FLAT_L','zLssz':_0x2ab408(0x1d1),'xGfCn':_0x2ab408(0x226),'HxASG':'HOOK_CURL_R','FJmtd':function(_0x11a020,_0x5ecda6,_0x1730ed){return _0x11a020(_0x5ecda6,_0x1730ed);},'EeOoX':function(_0x4cdd7a,_0x4db61f,_0x410507){return _0x4cdd7a(_0x4db61f,_0x410507);},'OrkeV':function(_0xccf080,_0x2c191d){return _0xccf080===_0x2c191d;},'dclUX':_0x2ab408(0x692),'aImuT':function(_0x1ae85e,_0x495943){return _0x1ae85e(_0x495943);},'oRFJz':function(_0x579fd4,_0x2d9e9e,_0x9c45b5){return _0x579fd4(_0x2d9e9e,_0x9c45b5);},'xAfHg':function(_0x28138e,_0x24361d){return _0x28138e(_0x24361d);},'qRlRw':'SAF_S','Squfw':_0x2ab408(0x1d8),'MMDwA':function(_0x3340cc,_0x5bfb62){return _0x3340cc<_0x5bfb62;},'QryHf':function(_0x294c1b,_0x57493f){return _0x294c1b>_0x57493f;},'CEIMF':function(_0x526b13,_0x139f88){return _0x526b13(_0x139f88);},'QFrvl':function(_0x7a9697,_0x3dd533){return _0x7a9697(_0x3dd533);},'xdfRv':function(_0x510b40,_0x118906){return _0x510b40(_0x118906);},'cpebR':function(_0x25d88b,_0x2187e0){return _0x25d88b(_0x2187e0);},'kPdqI':function(_0x33eb0b,_0x273ef0){return _0x33eb0b(_0x273ef0);},'RcThK':function(_0x485f74,_0x452d4d){return _0x485f74(_0x452d4d);},'AxoNZ':function(_0x1a5526,_0x51272d){return _0x1a5526(_0x51272d);},'vyNMW':function(_0x6bc506,_0x3de357){return _0x6bc506===_0x3de357;},'VHQHz':function(_0x266849,_0xca903b){return _0x266849===_0xca903b;},'OvLex':function(_0x272d88,_0xe11524){return _0x272d88!==_0xe11524;},'JETzB':function(_0x46e053,_0x3f481f){return _0x46e053>_0x3f481f;},'OEZJC':function(_0x52adf6,_0x5ef4c7){return _0x52adf6(_0x5ef4c7);},'nWvsM':function(_0x478f79,_0x236ed2){return _0x478f79&&_0x236ed2;},'HFuJa':function(_0x34cca6,_0x364a29){return _0x34cca6(_0x364a29);},'GIday':function(_0x47b9db,_0xe3bac4){return _0x47b9db(_0xe3bac4);},'KFhKD':function(_0x7353d9,_0x12df29){return _0x7353d9===_0x12df29;},'CXTAC':function(_0x313f80,_0x41ae06){return _0x313f80(_0x41ae06);},'WhNMt':function(_0x226dde,_0x34bd9e){return _0x226dde(_0x34bd9e);},'Okmgl':function(_0x49124d,_0x3aa2e5){return _0x49124d===_0x3aa2e5;},'Bkrna':_0x2ab408(0x23b)};if(!_0x1efafe)return null;const _0x475a06=_0x1efafe[_0x2ab408(0x1b2)],_0x2d191b=_0x1efafe[_0x2ab408(0x205)]||[],_0x443107=_0x1efafe[_0x2ab408(0x479)]||null,_0x3936be=_0x2d191b[_0x2ab408(0x427)](_0xcaba93=>_0xcaba93[_0x2ab408(0x6c1)]==='L')['length'],_0x13cf80=_0x2d191b[_0x2ab408(0x427)](_0x51e8f3=>_0x51e8f3['_side']==='R')['length'],_0x110f2a=_0x1efafe['coverageStrongSide']||(_0xa4c3dd['hEISa'](_0x3936be,_0x13cf80)?'L':'R'),_0x5b892f=_0xa4c3dd['HhVmz'](_0x110f2a,'L')?'R':'L',_0x1003fc=snapAlignment[_0x57ac5c['id']]?.['x']??(_0x57ac5c[_0x2ab408(0x79d)]??_0x57ac5c['x']),_0x455a6f=_0xa4c3dd['crtSE'](_0x1003fc,_0x475a06)?'L':'R',_0x4230d0=_0xa4c3dd[_0x2ab408(0x33b)](_0x1bc685,_0xa4c3dd[_0x2ab408(0x2d2)])||_0xa4c3dd['fUZBV'](_0x1bc685,_0xa4c3dd[_0x2ab408(0x5c2)])?'L':_0xa4c3dd['BDEHR'](_0x1bc685,_0xa4c3dd['LWoJz'])||_0x1bc685===_0x2ab408(0x400)?'R':_0x455a6f,_0x50c626=_0xa4c3dd[_0x2ab408(0x563)](_0x4230d0,_0x110f2a),_0x5a5874=_0x4230d0===_0x5b892f;function _0x5ee96b(_0x199b56,_0x4115b5){const _0x2d830b=_0x2ab408;return _0x2d191b[_0x2d830b(0x1b9)](_0x2a6d9d=>_0x2a6d9d['_side']===_0x199b56&&_0x2a6d9d[_0x2d830b(0x4df)]===_0x4115b5)||null;}function _0x4fa44f(_0xe926ba){return _0xe926ba?_0x19f4ca[_0xe926ba['id']]:null;}function _0x20e013(_0x1a0689){return isUnderRoute(_0x1a0689,_0x19f4ca);}function _0x5e7545(_0x8b5481){return isHitchRoute(_0x8b5481,_0x19f4ca);}const _0x3b343a=_0x110f2a==='L'?_0xa4c3dd['gouHa']:_0x2ab408(0x4fb),_0x179ad5=_0xa4c3dd['AVouS'](_0x5b892f,'L')?_0xa4c3dd['gouHa']:_0x2ab408(0x4fb),_0x5d9db5=_0xa4c3dd[_0x2ab408(0x1a2)](_0x110f2a,'L')?_0xa4c3dd['KmXgN']:_0xa4c3dd[_0x2ab408(0x6f2)],_0xa94928=_0x5b892f==='L'?_0xa4c3dd['KmXgN']:'CURL_FLAT_R',_0x35ec51=_0x110f2a==='L'?_0xa4c3dd[_0x2ab408(0x3cd)]:_0x2ab408(0x198),_0x3f1e56=_0xa4c3dd[_0x2ab408(0x1a2)](_0x5b892f,'L')?_0xa4c3dd[_0x2ab408(0x3cd)]:_0xa4c3dd[_0x2ab408(0x67c)],_0x1aeb26=_0x5ee96b(_0x110f2a,0x1),_0x452527=_0xa4c3dd['FJmtd'](_0x5ee96b,_0x110f2a,0x2),_0x277aab=_0xa4c3dd[_0x2ab408(0x582)](_0x5ee96b,_0x5b892f,0x1),_0x2cfeb7=_0xa4c3dd['FJmtd'](_0x5ee96b,_0x5b892f,0x2);if(_0xa4c3dd['OrkeV'](_0x1bc685,'CB')&&_0x50c626){if(stickyOnce(_0xa4c3dd[_0x2ab408(0x6d3)],!!(_0x1aeb26&&_0xa4c3dd[_0x2ab408(0x6eb)](_0x20e013,_0x1aeb26)))){if(isStickyLocked(_0xa4c3dd[_0x2ab408(0x6d3)]))persistentCovCalls[_0x2ab408(0x713)]=!![];return zoneDrop(_0x3b343a);}if(_0xa4c3dd[_0x2ab408(0x68e)](stickyOnce,_0x2ab408(0x655),!!(_0x1aeb26&&_0x5e7545(_0x1aeb26)))){if(_0xa4c3dd['xAfHg'](isStickyLocked,_0x2ab408(0x655)))persistentCovCalls[_0x2ab408(0x655)]=!![];return zoneDrop(_0x3b343a);}return _0x1aeb26?_0xa4c3dd['xAfHg'](manCover,_0x1aeb26['id']):zoneDrop(_0x3b343a);}if(_0xa4c3dd[_0x2ab408(0x63c)](_0x1bc685,_0xa4c3dd['qRlRw'])){const _0x51ea42=_0xa4c3dd[_0x2ab408(0x6eb)](_0x4fa44f,_0x443107),_0x2e4dd0=_0x51ea42?.[_0x2ab408(0x6ae)]?.['x']??0x0,_0x14c331=_0xa4c3dd[_0x2ab408(0x32a)](_0x51ea42?.['moveType'],_0xa4c3dd[_0x2ab408(0x6c8)]),_0x430527=!!(_0x443107&&_0x14c331&&(_0x110f2a==='L'?_0xa4c3dd['MMDwA'](_0x2e4dd0,0x0):_0xa4c3dd[_0x2ab408(0x557)](_0x2e4dd0,0x0)));if(persistentCovCalls['nbz2_underW']){const _0x52cd6c=[_0x2cfeb7,_0x277aab][_0x2ab408(0x427)](Boolean)[_0x2ab408(0x1b9)](_0x357cc0=>_0x20e013(_0x357cc0)&&!defensePlayers[_0x2ab408(0x57b)](_0x2ea108=>_0x2ea108['id']!==_0x57ac5c['id']&&_0x2ea108['decision']?.[_0x2ab408(0x5bb)]===_0x357cc0['id']));if(_0x52cd6c)return _0xa4c3dd['CEIMF'](manCover,_0x52cd6c['id']);}if(_0x430527&&_0x443107&&_0x452527&&defensePlayers[_0x2ab408(0x57b)](_0x1fe5a1=>{const _0x633678=_0x2ab408,_0x158b69=frozenRoleMap?.['get'](_0x1fe5a1['id']),_0x528529=snapAlignment[_0x1fe5a1['id']]?.['x']??(_0x1fe5a1[_0x633678(0x79d)]??_0x1fe5a1['x']);return _0xa4c3dd[_0x633678(0x32a)](_0x1fe5a1['id'],_0x57ac5c['id'])&&(_0x158b69===_0x633678(0x3e5)||_0xa4c3dd['fUZBV'](_0x158b69,_0xa4c3dd['LWoJz']))&&_0xa4c3dd['fUZBV'](_0x528529<=_0x475a06?'L':'R',_0x110f2a)&&_0xa4c3dd[_0x633678(0x63c)](_0x1fe5a1[_0x633678(0x239)]?.[_0x633678(0x6f4)],_0xa4c3dd[_0x633678(0x4a6)])&&_0xa4c3dd[_0x633678(0x63c)](_0x1fe5a1['decision']?.[_0x633678(0x5bb)],_0x452527['id']);}))return _0xa4c3dd['QFrvl'](manCover,_0x443107['id']);return _0xa4c3dd['xdfRv'](zoneDrop,_0x35ec51);}if((_0xa4c3dd[_0x2ab408(0x26a)](_0x1bc685,_0xa4c3dd[_0x2ab408(0x2d2)])||_0x1bc685===_0x2ab408(0x238))&&_0x50c626){if(_0xa4c3dd[_0x2ab408(0x582)](stickyOnce,_0x2ab408(0x396),!!(_0x452527&&_0xa4c3dd[_0x2ab408(0x23a)](_0x20e013,_0x452527)))){if(_0xa4c3dd[_0x2ab408(0x156)](isStickyLocked,'nbz2_underS_sa'))persistentCovCalls[_0x2ab408(0x713)]=!![];const _0x4642e0=_0xa4c3dd[_0x2ab408(0x639)](_0x4fa44f,_0x443107),_0x1f73b7=_0x4642e0?.[_0x2ab408(0x6ae)]?.['x']??0x0,_0x5167ad=_0xa4c3dd[_0x2ab408(0x32a)](_0x4642e0?.['moveType'],'stopped'),_0x11600f=!!(_0x443107&&_0x5167ad&&(_0x110f2a==='L'?_0x1f73b7<0x0:_0x1f73b7>0x0));if(stickyOnce(_0x2ab408(0x640),_0x11600f)){if(persistentCovCalls[_0x2ab408(0x655)])return zoneDrop(_0x5d9db5);return manCover(_0x443107['id']);}return zoneDrop(_0x5d9db5);}if(persistentCovCalls[_0x2ab408(0x655)])return _0x1aeb26?_0xa4c3dd[_0x2ab408(0x3b0)](manCover,_0x1aeb26['id']):_0xa4c3dd[_0x2ab408(0x2a4)](zoneDrop,_0x3b343a);return _0x452527?_0xa4c3dd[_0x2ab408(0x3dd)](manCover,_0x452527['id']):zoneDrop(_0x5d9db5);}if(_0x1bc685===_0xa4c3dd[_0x2ab408(0x5c2)]||_0xa4c3dd[_0x2ab408(0x153)](_0x1bc685,_0x2ab408(0x400))||_0xa4c3dd[_0x2ab408(0x6f6)](_0x1bc685,_0x2ab408(0x722))){const _0x42f2c6=_0x4fa44f(_0x443107),_0x3b296d=_0x42f2c6?.[_0x2ab408(0x6ae)]?.['x']??0x0,_0x480a91=_0xa4c3dd[_0x2ab408(0x324)](_0x42f2c6?.['moveType'],_0x2ab408(0x1d8)),_0x3a6bbc=!!(_0x443107&&_0x480a91&&(_0x5b892f==='L'?_0x3b296d<0x0:_0xa4c3dd['JETzB'](_0x3b296d,0x0)));if(persistentCovCalls[_0x2ab408(0x713)]){const _0x4a456d=[_0x452527,_0x1aeb26][_0x2ab408(0x427)](Boolean)[_0x2ab408(0x1b9)](_0x559a91=>_0x20e013(_0x559a91)&&!defensePlayers['some'](_0x4b8fe3=>_0x4b8fe3['id']!==_0x57ac5c['id']&&_0x4b8fe3['decision']?.[_0x2ab408(0x5bb)]===_0x559a91['id']));if(_0x4a456d)return _0xa4c3dd[_0x2ab408(0x694)](manCover,_0x4a456d['id']);}if(_0xa4c3dd['nWvsM'](_0x3a6bbc,_0x443107)&&_0x2cfeb7&&defensePlayers['some'](_0x36df42=>_0x36df42['id']!==_0x57ac5c['id']&&_0x36df42[_0x2ab408(0x239)]?.['mode']===_0x2ab408(0x5fc)&&_0x36df42[_0x2ab408(0x239)]?.[_0x2ab408(0x5bb)]===_0x2cfeb7['id']))return manCover(_0x443107['id']);return _0xa4c3dd[_0x2ab408(0x694)](zoneDrop,_0x3f1e56);}if((_0x1bc685===_0xa4c3dd['cPUCT']||_0x1bc685===_0xa4c3dd['LWoJz'])&&_0x5a5874){if(stickyOnce(_0x2ab408(0x163),!!(_0x2cfeb7&&_0xa4c3dd['kPdqI'](_0x20e013,_0x2cfeb7)))){if(_0xa4c3dd['HFuJa'](isStickyLocked,'nbz2_underW_wa'))persistentCovCalls[_0x2ab408(0x501)]=!![];const _0xeed1f=_0xa4c3dd[_0x2ab408(0x243)](_0x4fa44f,_0x443107),_0x3aaa96=_0xeed1f?.[_0x2ab408(0x6ae)]?.['x']??0x0,_0x4c6ef0=_0xa4c3dd['OvLex'](_0xeed1f?.['moveType'],_0x2ab408(0x1d8)),_0x789249=!!(_0xa4c3dd[_0x2ab408(0x734)](_0x443107,_0x4c6ef0)&&(_0xa4c3dd['KFhKD'](_0x5b892f,'L')?_0xa4c3dd[_0x2ab408(0x457)](_0x3aaa96,0x0):_0x3aaa96>0x0));if(!persistentCovCalls[_0x2ab408(0x640)]&&_0x789249){if(persistentCovCalls[_0x2ab408(0x5f3)])return zoneDrop(_0xa94928);return _0xa4c3dd[_0x2ab408(0x156)](manCover,_0x443107['id']);}return _0xa4c3dd[_0x2ab408(0x48b)](zoneDrop,_0xa94928);}if(persistentCovCalls[_0x2ab408(0x5f3)])return _0x277aab?manCover(_0x277aab['id']):_0xa4c3dd[_0x2ab408(0x61d)](zoneDrop,_0x179ad5);return _0x2cfeb7?manCover(_0x2cfeb7['id']):zoneDrop(_0xa94928);}if(_0xa4c3dd[_0x2ab408(0x153)](_0x1bc685,'CB')&&_0x5a5874){if(stickyOnce(_0x2ab408(0x4e5),!!(_0x277aab&&_0xa4c3dd['WhNMt'](_0x20e013,_0x277aab)))){if(isStickyLocked('nbz2_underW_cb'))persistentCovCalls[_0x2ab408(0x501)]=!![];return zoneDrop(_0x179ad5);}if(_0xa4c3dd[_0x2ab408(0x582)](stickyOnce,'nbz2_smashW',!!(_0x277aab&&_0x5e7545(_0x277aab)))){if(isStickyLocked(_0x2ab408(0x5f3)))persistentCovCalls['nbz2_smashW']=!![];return _0xa4c3dd['xdfRv'](zoneDrop,_0x179ad5);}return _0x277aab?_0xa4c3dd[_0x2ab408(0x694)](manCover,_0x277aab['id']):_0xa4c3dd[_0x2ab408(0x23a)](zoneDrop,_0x179ad5);}if(_0xa4c3dd['Okmgl'](_0x1bc685,_0xa4c3dd[_0x2ab408(0x3b9)]))return zoneDrop('DEEP_MIDDLE');return null;}},'cover3-robber-2x2-match-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':'off','cbShade':_0x2e24de(0x377)}},'decide'(_0x100f96,_0x38bf51,_0x2ae407){const _0x485f00=_0x2e24de,_0x1328a7={'llFpM':_0x485f00(0x3e5),'RYLUy':_0x485f00(0x669),'PznVG':function(_0x17c023,_0x464017){return _0x17c023===_0x464017;},'iHNIR':'APEX-R','LjmMI':_0x485f00(0x400),'nkvKR':'RUSH','UhfBa':_0x485f00(0x4ef),'owXNd':function(_0x13c1ec,_0x576bf3){return _0x13c1ec(_0x576bf3);},'ygwFW':function(_0x281e62,_0x20b11b){return _0x281e62(_0x20b11b);},'CQxmQ':function(_0x8a9d8c,_0x596907){return _0x8a9d8c(_0x596907);},'krTGk':_0x485f00(0x722),'nisLT':function(_0x3cc4fd,_0x30cad9){return _0x3cc4fd(_0x30cad9);},'OyLjL':function(_0x4a4718,_0x5142df){return _0x4a4718>=_0x5142df;},'JmoPi':function(_0xedd4c4,_0x3f412b){return _0xedd4c4===_0x3f412b;},'wpewL':_0x485f00(0x3e8),'waZOa':_0x485f00(0x4fb),'sbvau':'CURL_FLAT_R','uNCMP':_0x485f00(0x647),'LRHQr':_0x485f00(0x198),'YOeqP':'HOOK_CURL_L','OpDVf':function(_0x585696,_0xe61250,_0x543fba){return _0x585696(_0xe61250,_0x543fba);}},_0x3d683f=new Map();if(!_0x2ae407)return _0x3d683f;const _0x4971c5=_0x2ae407['ballX'],_0x103a6b=_0x2ae407[_0x485f00(0x205)]||[],_0x5cf935=_0x2ae407[_0x485f00(0x479)]||null,_0xa8aef8=_0x103a6b['filter'](_0x5c3c7d=>_0x5c3c7d[_0x485f00(0x6c1)]==='L')[_0x485f00(0x6ab)],_0x3e6fa7=_0x103a6b[_0x485f00(0x427)](_0x9b785e=>_0x9b785e[_0x485f00(0x6c1)]==='R')['length'],_0x572937=_0x2ae407[_0x485f00(0x1c0)]||(_0x1328a7['OyLjL'](_0xa8aef8,_0x3e6fa7)?'L':'R'),_0x4a9cda=_0x1328a7[_0x485f00(0x40c)](_0x572937,'L')?'R':'L',_0x1a986a=_0x572937==='L'?_0x1328a7[_0x485f00(0x56e)]:_0x1328a7[_0x485f00(0x1d5)],_0x1053fd=_0x1328a7[_0x485f00(0x40c)](_0x4a9cda,'L')?'DEEP_L':_0x485f00(0x4fb),_0x32e632=_0x572937==='L'?_0x485f00(0x647):_0x1328a7['sbvau'],_0x561ab9=_0x1328a7[_0x485f00(0x40c)](_0x4a9cda,'L')?_0x1328a7[_0x485f00(0x730)]:_0x485f00(0x1d1),_0x346250=_0x1328a7[_0x485f00(0x628)](_0x572937,'L')?_0x485f00(0x226):_0x1328a7[_0x485f00(0x42f)],_0x1129f2=_0x1328a7[_0x485f00(0x628)](_0x4a9cda,'L')?_0x1328a7[_0x485f00(0x6a6)]:_0x485f00(0x198);function _0x9fe33c(_0x128fab,_0x4a1f4a){const _0x4cbf50=_0x485f00;return _0x103a6b['find'](_0x343c0d=>_0x343c0d[_0x4cbf50(0x6c1)]===_0x128fab&&_0x343c0d[_0x4cbf50(0x4df)]===_0x4a1f4a)||null;}const _0x3f3641=_0x1328a7[_0x485f00(0x76a)](_0x9fe33c,_0x572937,0x1),_0x5228ef=_0x1328a7[_0x485f00(0x76a)](_0x9fe33c,_0x572937,0x2),_0x53d8f8=_0x1328a7[_0x485f00(0x76a)](_0x9fe33c,_0x4a9cda,0x1),_0x403e97=_0x9fe33c(_0x4a9cda,0x2);return _0x100f96[_0x485f00(0x29e)]((_0x5df917,_0x3bb3a6)=>{const _0x4bcf42=_0x485f00,_0x2ee616=_0x38bf51[_0x4bcf42(0x331)](_0x3bb3a6);if(!_0x2ee616)return;const _0x5a3f59=_0x2ee616['x']<=_0x4971c5?'L':'R',_0x5b7fc6=_0x5df917===_0x1328a7[_0x4bcf42(0x1a8)]||_0x5df917===_0x1328a7[_0x4bcf42(0x72a)]?'L':_0x1328a7[_0x4bcf42(0x628)](_0x5df917,_0x1328a7[_0x4bcf42(0x6fc)])||_0x1328a7[_0x4bcf42(0x628)](_0x5df917,_0x1328a7[_0x4bcf42(0x6b5)])?'R':_0x5a3f59,_0x4f81ac=_0x1328a7[_0x4bcf42(0x628)](_0x5b7fc6,_0x572937),_0xb479e2=_0x5b7fc6===_0x4a9cda;switch(_0x5df917){case _0x1328a7[_0x4bcf42(0x298)]:case _0x1328a7['UhfBa']:_0x3d683f[_0x4bcf42(0x590)](_0x3bb3a6,rushDec());break;case'CB':if(_0x4f81ac)_0x3d683f[_0x4bcf42(0x590)](_0x3bb3a6,_0x3f3641?_0x1328a7['owXNd'](manCover,_0x3f3641['id']):zoneDrop(_0x1a986a));if(_0xb479e2)_0x3d683f[_0x4bcf42(0x590)](_0x3bb3a6,_0x53d8f8?_0x1328a7['ygwFW'](manCover,_0x53d8f8['id']):_0x1328a7[_0x4bcf42(0x5e3)](zoneDrop,_0x1053fd));break;case'SAF_S':_0x3d683f[_0x4bcf42(0x590)](_0x3bb3a6,_0x1328a7['CQxmQ'](zoneDrop,_0x4bcf42(0x259)));break;case _0x1328a7[_0x4bcf42(0x1a8)]:case _0x4bcf42(0x238):if(_0x4f81ac)_0x3d683f[_0x4bcf42(0x590)](_0x3bb3a6,_0x5228ef?manCover(_0x5228ef['id']):_0x1328a7[_0x4bcf42(0x578)](zoneDrop,_0x32e632));if(_0xb479e2)_0x3d683f[_0x4bcf42(0x590)](_0x3bb3a6,_0x403e97?manCover(_0x403e97['id']):zoneDrop(_0x561ab9));break;case _0x4bcf42(0x669):case _0x1328a7[_0x4bcf42(0x6b5)]:case _0x1328a7[_0x4bcf42(0x258)]:_0x3d683f[_0x4bcf42(0x590)](_0x3bb3a6,zoneDrop(_0x346250));break;case _0x4bcf42(0x23b):_0x3d683f['set'](_0x3bb3a6,_0x1328a7['nisLT'](zoneDrop,_0x1129f2));break;}}),_0x3d683f;},'react'(_0x140df9,_0x365a2a,_0xea97a5,_0x582d1c){const _0x2baac4=_0x2e24de,_0x30e237={'dtxgC':function(_0x2bdf3e,_0x4e50c7,_0x41f68b){return _0x2bdf3e(_0x4e50c7,_0x41f68b);},'iCfjg':function(_0x49a693,_0x4349b9){return _0x49a693!==_0x4349b9;},'YVXAX':function(_0x329f26,_0x2359d8){return _0x329f26===_0x2359d8;},'XmEhR':_0x2baac4(0x3e5),'DZywI':function(_0x1c9a0e,_0x451d04){return _0x1c9a0e===_0x451d04;},'WvFYM':function(_0xb6d37,_0x259c67){return _0xb6d37<=_0x259c67;},'kaEBa':_0x2baac4(0x5fc),'hUDGJ':function(_0x249340,_0x3007c6){return _0x249340===_0x3007c6;},'wKoNQ':'HOOK-L','gOBhV':_0x2baac4(0x238),'DMDAG':function(_0x6de18d,_0x210f08){return _0x6de18d===_0x210f08;},'LvcPF':function(_0x3598e6,_0x299a35){return _0x3598e6===_0x299a35;},'UPAIm':function(_0x14035b,_0x2905fb){return _0x14035b===_0x2905fb;},'sFXvU':'DEEP_R','DPmFo':function(_0x55c8c0,_0x539588){return _0x55c8c0===_0x539588;},'JNRdJ':_0x2baac4(0x1d1),'DqiMM':function(_0x1b22e8,_0x3adbc1){return _0x1b22e8===_0x3adbc1;},'FfIwW':_0x2baac4(0x226),'JPicg':_0x2baac4(0x198),'DKafl':function(_0x2298e8,_0x157a71,_0x3b3148){return _0x2298e8(_0x157a71,_0x3b3148);},'fYoRq':_0x2baac4(0x6a7),'CDYQd':function(_0x522907,_0x221c6b){return _0x522907(_0x221c6b);},'KSfPF':function(_0x27544e,_0x44554f){return _0x27544e(_0x44554f);},'gmczY':function(_0x390486,_0x575c4c){return _0x390486(_0x575c4c);},'kiGDR':function(_0x4fb5ab,_0x17458e){return _0x4fb5ab(_0x17458e);},'YdVmI':function(_0x5697fe,_0x3934dd){return _0x5697fe(_0x3934dd);},'BYipT':function(_0x4660f2,_0xf72cbd){return _0x4660f2(_0xf72cbd);},'volQH':function(_0xaf2599,_0x4f8080){return _0xaf2599===_0x4f8080;},'QzYep':_0x2baac4(0x2ac),'Cwpxy':function(_0x1ffd2f,_0x3b26e5){return _0x1ffd2f===_0x3b26e5;},'CKGOK':_0x2baac4(0x46d),'blgxd':function(_0x2e26b0,_0x3a087a){return _0x2e26b0!==_0x3a087a;},'SSlDU':function(_0x2c08d9,_0x523357){return _0x2c08d9&&_0x523357;},'KFiAj':function(_0x1a4cb0,_0x1f250d){return _0x1a4cb0===_0x1f250d;},'aaLMw':function(_0x29d594,_0x683c0d){return _0x29d594(_0x683c0d);},'BarhW':function(_0x3281e8,_0x2c5a76){return _0x3281e8(_0x2c5a76);},'qVQTH':function(_0x3f63f6,_0x43c42d){return _0x3f63f6(_0x43c42d);},'xLxTp':function(_0x133710,_0x51f01b){return _0x133710(_0x51f01b);},'qaooE':_0x2baac4(0x400),'oOmJg':function(_0x52918d,_0x48c55f){return _0x52918d===_0x48c55f;},'LCpYd':_0x2baac4(0x722),'HgMri':function(_0x1ff37f,_0x4f7414){return _0x1ff37f<_0x4f7414;},'LnrHw':function(_0x1a08d0,_0x31704a){return _0x1a08d0>_0x31704a;},'DPwqT':_0x2baac4(0x2d6),'pLmKh':function(_0x5bf247,_0x2a33b4){return _0x5bf247===_0x2a33b4;},'qYfYT':function(_0x211d4d,_0x4f9531){return _0x211d4d(_0x4f9531);},'lehBL':function(_0xa0489f,_0x498137){return _0xa0489f(_0x498137);},'ClZGT':_0x2baac4(0x777),'ZyIQv':function(_0xf7b869,_0x5bf5a9){return _0xf7b869(_0x5bf5a9);},'pMaqn':function(_0x503c2a,_0x2d1061,_0x4d4812){return _0x503c2a(_0x2d1061,_0x4d4812);},'uzRqw':_0x2baac4(0x6a4),'YXlIa':_0x2baac4(0x23b),'zrCxZ':_0x2baac4(0x1d8),'APixr':function(_0x5868dd,_0x4980b9){return _0x5868dd<_0x4980b9;},'JLjzJ':function(_0x461e5e,_0x2bce6d){return _0x461e5e>_0x2bce6d;},'DIQez':function(_0x3fccd4,_0x4119e3){return _0x3fccd4(_0x4119e3);}};if(!_0xea97a5)return null;const _0x2ddba9=_0xea97a5[_0x2baac4(0x1b2)],_0x401af1=_0xea97a5['eligiblePlayers']||[],_0xfee09=_0xea97a5['primaryBackfield']||null,_0x3aaca9=_0x401af1[_0x2baac4(0x427)](_0x1df1ec=>_0x1df1ec[_0x2baac4(0x6c1)]==='L')[_0x2baac4(0x6ab)],_0x3fe307=_0x401af1['filter'](_0x1c0aa8=>_0x1c0aa8[_0x2baac4(0x6c1)]==='R')[_0x2baac4(0x6ab)],_0x80e859=_0xea97a5['coverageStrongSide']||(_0x3aaca9>=_0x3fe307?'L':'R'),_0x16bd8a=_0x30e237[_0x2baac4(0x2fa)](_0x80e859,'L')?'R':'L',_0x58acb2=snapAlignment[_0x140df9['id']]?.['x']??(_0x140df9['simX']??_0x140df9['x']),_0x1e484f=_0x58acb2<=_0x2ddba9?'L':'R',_0x2f3cd7=_0x365a2a===_0x30e237[_0x2baac4(0x5f1)]||_0x365a2a===_0x30e237[_0x2baac4(0x766)]?'L':_0x365a2a===_0x30e237[_0x2baac4(0x57e)]||_0x365a2a===_0x2baac4(0x400)?'R':_0x1e484f,_0x2c0d43=_0x30e237[_0x2baac4(0x2cc)](_0x2f3cd7,_0x80e859),_0x457005=_0x30e237[_0x2baac4(0x4a4)](_0x2f3cd7,_0x16bd8a);function _0x49d034(_0xe90f0f,_0x3c138f){const _0x2a3f12=_0x2baac4;return _0x401af1[_0x2a3f12(0x1b9)](_0xa7f68d=>_0xa7f68d[_0x2a3f12(0x6c1)]===_0xe90f0f&&_0xa7f68d[_0x2a3f12(0x4df)]===_0x3c138f)||null;}function _0x1898e5(_0x438a8e){return _0x438a8e?_0x582d1c[_0x438a8e['id']]:null;}function _0x3e3d5b(_0xb23d3){const _0x5bd43f=_0x2baac4;return _0x30e237[_0x5bd43f(0x5cc)](isUnderRoute,_0xb23d3,_0x582d1c);}function _0x31ae54(_0x509d19){const _0x1ae791=_0x2baac4;return _0x30e237[_0x1ae791(0x5cc)](isHitchRoute,_0x509d19,_0x582d1c);}const _0x484302=_0x80e859==='L'?_0x2baac4(0x3e8):_0x2baac4(0x4fb),_0x295f5b=_0x30e237[_0x2baac4(0x5b1)](_0x16bd8a,'L')?_0x2baac4(0x3e8):_0x30e237['sFXvU'],_0x64748a=_0x30e237[_0x2baac4(0x4dd)](_0x80e859,'L')?_0x2baac4(0x647):_0x30e237[_0x2baac4(0x326)],_0x53bbae=_0x16bd8a==='L'?_0x2baac4(0x647):_0x2baac4(0x1d1),_0x3fd606=_0x30e237[_0x2baac4(0x4fa)](_0x80e859,'L')?_0x30e237[_0x2baac4(0x210)]:_0x30e237[_0x2baac4(0x4a5)],_0x432852=_0x16bd8a==='L'?_0x30e237['FfIwW']:_0x2baac4(0x198),_0x226f4e=_0x30e237[_0x2baac4(0x23f)](_0x49d034,_0x80e859,0x1),_0x42e70e=_0x30e237['DKafl'](_0x49d034,_0x80e859,0x2),_0x36e6a9=_0x49d034(_0x16bd8a,0x1),_0x24ad88=_0x49d034(_0x16bd8a,0x2);if(_0x365a2a==='CB'&&_0x2c0d43){if(_0x30e237['DKafl'](stickyOnce,_0x30e237['fYoRq'],!!(_0x226f4e&&_0x30e237[_0x2baac4(0x211)](_0x3e3d5b,_0x226f4e)))){if(_0x30e237['CDYQd'](isStickyLocked,'nrob_underS_cb'))persistentCovCalls[_0x2baac4(0x157)]=!![];return _0x30e237[_0x2baac4(0x211)](zoneDrop,_0x484302);}if(stickyOnce(_0x2baac4(0x738),!!(_0x226f4e&&_0x30e237[_0x2baac4(0x5f9)](_0x31ae54,_0x226f4e)))){if(_0x30e237['gmczY'](isStickyLocked,'nrob_smashS'))persistentCovCalls[_0x2baac4(0x738)]=!![];return _0x30e237[_0x2baac4(0x246)](zoneDrop,_0x484302);}return _0x226f4e?_0x30e237['YdVmI'](manCover,_0x226f4e['id']):_0x30e237[_0x2baac4(0x1f3)](zoneDrop,_0x484302);}if(_0x30e237[_0x2baac4(0x44e)](_0x365a2a,_0x30e237[_0x2baac4(0x1e1)]))return _0x30e237['CDYQd'](zoneDrop,_0x2baac4(0x259));if((_0x30e237[_0x2baac4(0x52c)](_0x365a2a,_0x30e237[_0x2baac4(0x5f1)])||_0x30e237[_0x2baac4(0x44e)](_0x365a2a,_0x2baac4(0x238)))&&_0x2c0d43){if(stickyOnce(_0x2baac4(0x46d),!!(_0x42e70e&&_0x30e237[_0x2baac4(0x34b)](_0x3e3d5b,_0x42e70e)))){if(_0x30e237[_0x2baac4(0x43c)](isStickyLocked,_0x30e237[_0x2baac4(0x520)]))persistentCovCalls[_0x2baac4(0x157)]=!![];const _0x3f95d7=_0x1898e5(_0xfee09),_0x44d89e=_0x3f95d7?.['vel']?.['x']??0x0,_0x1dc1b2=_0x30e237['blgxd'](_0x3f95d7?.['moveType'],'stopped'),_0x5c31cd=!!(_0x30e237[_0x2baac4(0x1f7)](_0xfee09,_0x1dc1b2)&&(_0x30e237[_0x2baac4(0x71f)](_0x80e859,'L')?_0x44d89e<0x0:_0x44d89e>0x0));if(stickyOnce(_0x2baac4(0x248),_0x5c31cd)){if(persistentCovCalls[_0x2baac4(0x738)])return _0x30e237['aaLMw'](zoneDrop,_0x64748a);return _0x30e237[_0x2baac4(0x3c6)](manCover,_0xfee09['id']);}return zoneDrop(_0x64748a);}if(persistentCovCalls['nrob_smashS'])return _0x226f4e?_0x30e237[_0x2baac4(0x5ca)](manCover,_0x226f4e['id']):_0x30e237[_0x2baac4(0x5ca)](zoneDrop,_0x484302);return _0x42e70e?_0x30e237['xLxTp'](manCover,_0x42e70e['id']):zoneDrop(_0x64748a);}if(_0x30e237[_0x2baac4(0x5b1)](_0x365a2a,_0x30e237['wKoNQ'])||_0x365a2a===_0x30e237[_0x2baac4(0x1af)]||_0x30e237[_0x2baac4(0x455)](_0x365a2a,_0x30e237['LCpYd'])){const _0x274efe=_0x30e237['kiGDR'](_0x1898e5,_0xfee09),_0x463e14=_0x274efe?.[_0x2baac4(0x6ae)]?.['x']??0x0,_0x1b8f0a=_0x30e237[_0x2baac4(0x611)](_0x274efe?.[_0x2baac4(0x71b)],'stopped'),_0x3b0b8c=!!(_0xfee09&&_0x1b8f0a&&(_0x80e859==='L'?_0x30e237[_0x2baac4(0x300)](_0x463e14,0x0):_0x30e237['LnrHw'](_0x463e14,0x0)));if(persistentCovCalls[_0x2baac4(0x431)]){const _0x86253=[_0x24ad88,_0x36e6a9][_0x2baac4(0x427)](Boolean)[_0x2baac4(0x1b9)](_0x3735cb=>_0x3e3d5b(_0x3735cb)&&!defensePlayers['some'](_0x1a97b1=>_0x1a97b1['id']!==_0x140df9['id']&&_0x1a97b1[_0x2baac4(0x239)]?.[_0x2baac4(0x5bb)]===_0x3735cb['id']));if(_0x86253)return manCover(_0x86253['id']);}if(_0x30e237[_0x2baac4(0x1f7)](_0x3b0b8c,_0xfee09)&&_0x42e70e&&defensePlayers[_0x2baac4(0x57b)](_0x136d76=>{const _0x1dded8=_0x2baac4,_0x2dd0c0=frozenRoleMap?.['get'](_0x136d76['id']),_0x3cca84=snapAlignment[_0x136d76['id']]?.['x']??(_0x136d76[_0x1dded8(0x79d)]??_0x136d76['x']);return _0x30e237['iCfjg'](_0x136d76['id'],_0x140df9['id'])&&(_0x30e237[_0x1dded8(0x43a)](_0x2dd0c0,_0x30e237['XmEhR'])||_0x30e237[_0x1dded8(0x43a)](_0x2dd0c0,'APEX-R'))&&_0x30e237[_0x1dded8(0x6da)](_0x30e237[_0x1dded8(0x35d)](_0x3cca84,_0x2ddba9)?'L':'R',_0x80e859)&&_0x30e237[_0x1dded8(0x6da)](_0x136d76[_0x1dded8(0x239)]?.[_0x1dded8(0x6f4)],_0x30e237['kaEBa'])&&_0x30e237['YVXAX'](_0x136d76[_0x1dded8(0x239)]?.[_0x1dded8(0x5bb)],_0x42e70e['id']);}))return manCover(_0xfee09['id']);return zoneDrop(_0x3fd606);}if((_0x30e237[_0x2baac4(0x71f)](_0x365a2a,_0x2baac4(0x3e5))||_0x365a2a===_0x2baac4(0x238))&&_0x457005){if(_0x30e237['dtxgC'](stickyOnce,'nrob_underW_wa',!!(_0x24ad88&&_0x3e3d5b(_0x24ad88)))){if(_0x30e237[_0x2baac4(0x3c6)](isStickyLocked,_0x30e237[_0x2baac4(0x14e)]))persistentCovCalls['nrob_underW']=!![];const _0x50ee1b=_0x1898e5(_0xfee09),_0x468f83=_0x50ee1b?.[_0x2baac4(0x6ae)]?.['x']??0x0,_0x20f271=_0x30e237[_0x2baac4(0x611)](_0x50ee1b?.[_0x2baac4(0x71b)],_0x2baac4(0x1d8)),_0x50bd5e=!!(_0x30e237[_0x2baac4(0x1f7)](_0xfee09,_0x20f271)&&(_0x30e237[_0x2baac4(0x3b1)](_0x16bd8a,'L')?_0x30e237[_0x2baac4(0x300)](_0x468f83,0x0):_0x468f83>0x0));if(!persistentCovCalls[_0x2baac4(0x248)]&&_0x50bd5e){if(persistentCovCalls[_0x2baac4(0x6a4)])return _0x30e237['qYfYT'](zoneDrop,_0x53bbae);return manCover(_0xfee09['id']);}return _0x30e237[_0x2baac4(0x34b)](zoneDrop,_0x53bbae);}if(persistentCovCalls[_0x2baac4(0x6a4)])return _0x36e6a9?manCover(_0x36e6a9['id']):zoneDrop(_0x295f5b);return _0x24ad88?manCover(_0x24ad88['id']):_0x30e237[_0x2baac4(0x2c6)](zoneDrop,_0x53bbae);}if(_0x365a2a==='CB'&&_0x457005){if(stickyOnce(_0x30e237[_0x2baac4(0x1f0)],!!(_0x36e6a9&&_0x30e237[_0x2baac4(0x2c6)](_0x3e3d5b,_0x36e6a9)))){if(isStickyLocked(_0x2baac4(0x777)))persistentCovCalls[_0x2baac4(0x431)]=!![];return _0x30e237[_0x2baac4(0x50f)](zoneDrop,_0x295f5b);}if(_0x30e237[_0x2baac4(0x295)](stickyOnce,_0x30e237[_0x2baac4(0x206)],!!(_0x36e6a9&&_0x31ae54(_0x36e6a9)))){if(_0x30e237['lehBL'](isStickyLocked,_0x30e237[_0x2baac4(0x206)]))persistentCovCalls['nrob_smashW']=!![];return zoneDrop(_0x295f5b);}return _0x36e6a9?manCover(_0x36e6a9['id']):zoneDrop(_0x295f5b);}if(_0x365a2a===_0x30e237[_0x2baac4(0x788)]){const _0x4b5d47=_0x1898e5(_0xfee09),_0x49edf7=_0x4b5d47?.['vel']?.['x']??0x0,_0x2a064a=_0x30e237['blgxd'](_0x4b5d47?.[_0x2baac4(0x71b)],_0x30e237[_0x2baac4(0x773)]),_0x147037=!!(_0xfee09&&_0x2a064a&&(_0x16bd8a==='L'?_0x30e237['APixr'](_0x49edf7,0x0):_0x30e237[_0x2baac4(0x6a9)](_0x49edf7,0x0)));if(persistentCovCalls[_0x2baac4(0x157)]){const _0x436f47=[_0x42e70e,_0x226f4e][_0x2baac4(0x427)](Boolean)[_0x2baac4(0x1b9)](_0x5f5596=>_0x3e3d5b(_0x5f5596)&&!defensePlayers[_0x2baac4(0x57b)](_0x27bea1=>_0x27bea1['id']!==_0x140df9['id']&&_0x27bea1['decision']?.[_0x2baac4(0x5bb)]===_0x5f5596['id']));if(_0x436f47)return _0x30e237[_0x2baac4(0x5e4)](manCover,_0x436f47['id']);}if(_0x147037&&_0xfee09&&_0x24ad88&&defensePlayers[_0x2baac4(0x57b)](_0x6501b4=>_0x6501b4['id']!==_0x140df9['id']&&_0x6501b4['decision']?.[_0x2baac4(0x6f4)]===_0x2baac4(0x5fc)&&_0x6501b4['decision']?.[_0x2baac4(0x5bb)]===_0x24ad88['id']))return manCover(_0xfee09['id']);return _0x30e237[_0x2baac4(0x5f9)](zoneDrop,_0x432852);}return null;}},'cover3-weak-2x2-match-bugged':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':'normal'}},'decide'(_0x265e23,_0x44bdc5,_0x131873){const _0x537056=_0x2e24de,_0x25f5f9={'UWkjX':function(_0x3a70e2,_0xa7e69d){return _0x3a70e2<=_0xa7e69d;},'WOtrB':function(_0x5008eb,_0x5289ba){return _0x5008eb===_0x5289ba;},'DcFZT':_0x537056(0x3e5),'VzzuR':_0x537056(0x669),'QqTSc':function(_0x42ba72,_0x3102c2){return _0x42ba72===_0x3102c2;},'UWXJO':function(_0x5ed658,_0x5650aa){return _0x5ed658===_0x5650aa;},'bgfos':function(_0x225a03,_0x1f31cd){return _0x225a03===_0x1f31cd;},'mljEA':_0x537056(0x25f),'BudtJ':function(_0x359bdb,_0x4a265b){return _0x359bdb(_0x4a265b);},'CASZq':function(_0x49bf1f,_0x4c4e09){return _0x49bf1f(_0x4c4e09);},'JoMzO':_0x537056(0x238),'NNKdA':function(_0x34215f,_0x39da00){return _0x34215f(_0x39da00);},'vgphl':'HOOK-R','TOogM':_0x537056(0x23b),'gfUyW':function(_0xe5179f,_0x42c890){return _0xe5179f>=_0x42c890;},'VHjJR':_0x537056(0x4fb),'DLNYE':_0x537056(0x3e8),'jHcMX':'CURL_FLAT_L','UBSOt':_0x537056(0x1d1),'GqDHm':'HOOK_CURL_R','dKOPU':_0x537056(0x226),'LOpWI':function(_0x203a45,_0x451f01,_0x43473d){return _0x203a45(_0x451f01,_0x43473d);},'LlaNA':function(_0x33808d,_0x29901a,_0xa3a371){return _0x33808d(_0x29901a,_0xa3a371);}},_0x2d825a=new Map();if(!_0x131873)return _0x2d825a;const _0x2f5b5b=_0x131873[_0x537056(0x1b2)],_0x5d9475=_0x131873[_0x537056(0x205)]||[],_0x3557e3=_0x131873['primaryBackfield']||null,_0xba5e9e=_0x5d9475[_0x537056(0x427)](_0x20d583=>_0x20d583[_0x537056(0x6c1)]==='L')[_0x537056(0x6ab)],_0x45fe55=_0x5d9475[_0x537056(0x427)](_0x3f2e1a=>_0x3f2e1a['_side']==='R')[_0x537056(0x6ab)],_0x51063d=_0x131873['coverageStrongSide']||(_0x25f5f9['gfUyW'](_0xba5e9e,_0x45fe55)?'L':'R'),_0x23da9d=_0x51063d==='L'?'R':'L',_0x28340f=_0x51063d==='L'?'DEEP_L':_0x25f5f9['VHjJR'],_0x251bbf=_0x25f5f9[_0x537056(0x1b3)](_0x23da9d,'L')?_0x25f5f9[_0x537056(0x53b)]:_0x537056(0x4fb),_0x3a55d8=_0x25f5f9[_0x537056(0x269)](_0x51063d,'L')?_0x25f5f9[_0x537056(0x581)]:_0x25f5f9['UBSOt'],_0x40b7f7=_0x25f5f9[_0x537056(0x46a)](_0x23da9d,'L')?_0x537056(0x647):'CURL_FLAT_R',_0x5d3c6e=_0x51063d==='L'?_0x537056(0x226):_0x25f5f9[_0x537056(0x3ff)],_0x3daa28=_0x23da9d==='L'?_0x25f5f9[_0x537056(0x553)]:_0x25f5f9[_0x537056(0x3ff)];function _0x30ebdb(_0x4741f0,_0x363156){const _0x40e5bf=_0x537056;return _0x5d9475[_0x40e5bf(0x1b9)](_0x53e808=>_0x53e808[_0x40e5bf(0x6c1)]===_0x4741f0&&_0x53e808[_0x40e5bf(0x4df)]===_0x363156)||null;}const _0x4d73d5=_0x25f5f9[_0x537056(0x1a6)](_0x30ebdb,_0x51063d,0x1),_0x21a8a0=_0x25f5f9[_0x537056(0x20d)](_0x30ebdb,_0x51063d,0x2),_0x2a5ccf=_0x30ebdb(_0x23da9d,0x1),_0x546a32=_0x30ebdb(_0x23da9d,0x2);return _0x265e23[_0x537056(0x29e)]((_0x361fca,_0x4450c0)=>{const _0x1dd4c3=_0x537056,_0x380e61=_0x44bdc5[_0x1dd4c3(0x331)](_0x4450c0);if(!_0x380e61)return;const _0xed3c49=_0x25f5f9[_0x1dd4c3(0x411)](_0x380e61['x'],_0x2f5b5b)?'L':'R',_0x42487c=_0x25f5f9['WOtrB'](_0x361fca,_0x25f5f9['DcFZT'])||_0x361fca===_0x25f5f9['VzzuR']?'L':_0x25f5f9[_0x1dd4c3(0x46a)](_0x361fca,_0x1dd4c3(0x238))||_0x361fca===_0x1dd4c3(0x400)?'R':_0xed3c49,_0x104184=_0x25f5f9[_0x1dd4c3(0x269)](_0x42487c,_0x51063d),_0x5d0cbd=_0x25f5f9['bgfos'](_0x42487c,_0x23da9d);switch(_0x361fca){case _0x25f5f9[_0x1dd4c3(0x758)]:case _0x1dd4c3(0x4ef):_0x2d825a[_0x1dd4c3(0x590)](_0x4450c0,rushDec());break;case'CB':if(_0x104184)_0x2d825a[_0x1dd4c3(0x590)](_0x4450c0,_0x4d73d5?_0x25f5f9['BudtJ'](manCover,_0x4d73d5['id']):zoneDrop(_0x28340f));if(_0x5d0cbd)_0x2d825a[_0x1dd4c3(0x590)](_0x4450c0,_0x2a5ccf?manCover(_0x2a5ccf['id']):_0x25f5f9[_0x1dd4c3(0x62e)](zoneDrop,_0x251bbf));break;case _0x1dd4c3(0x2ac):_0x2d825a[_0x1dd4c3(0x590)](_0x4450c0,_0x25f5f9['CASZq'](zoneDrop,_0x1dd4c3(0x259)));break;case _0x25f5f9[_0x1dd4c3(0x483)]:case _0x25f5f9[_0x1dd4c3(0x6d8)]:if(_0x104184)_0x2d825a['set'](_0x4450c0,_0x21a8a0?_0x25f5f9[_0x1dd4c3(0x51b)](manCover,_0x21a8a0['id']):zoneDrop(_0x3a55d8));if(_0x5d0cbd)_0x2d825a[_0x1dd4c3(0x590)](_0x4450c0,_0x25f5f9[_0x1dd4c3(0x51b)](zoneDrop,_0x3daa28));break;case _0x1dd4c3(0x669):case _0x25f5f9[_0x1dd4c3(0x147)]:case'HOOK-M':_0x2d825a[_0x1dd4c3(0x590)](_0x4450c0,_0x25f5f9[_0x1dd4c3(0x2b6)](zoneDrop,_0x5d3c6e));break;case _0x25f5f9['TOogM']:_0x2d825a[_0x1dd4c3(0x590)](_0x4450c0,_0x546a32?manCover(_0x546a32['id']):_0x25f5f9[_0x1dd4c3(0x2b6)](zoneDrop,_0x40b7f7));break;}}),_0x2d825a;},'react'(_0x462d3f,_0x4dd1fa,_0x18dd13,_0xe2ad01){const _0x2a32b8=_0x2e24de,_0x434a52={'pPyyj':function(_0xc3ed0b,_0x389734,_0x32acee){return _0xc3ed0b(_0x389734,_0x32acee);},'gYGHY':function(_0x441332,_0x20f540){return _0x441332===_0x20f540;},'PrYvb':function(_0x399138,_0x67c7b8){return _0x399138<=_0x67c7b8;},'XBVHt':function(_0x55a5e3,_0x464814){return _0x55a5e3===_0x464814;},'itWSJ':function(_0x5b4676,_0x1accea){return _0x5b4676>=_0x1accea;},'zLqYl':_0x2a32b8(0x3e5),'xMiYG':_0x2a32b8(0x669),'sIQpF':function(_0x50a132,_0x5246fd){return _0x50a132===_0x5246fd;},'eFeqk':function(_0x470eb3,_0x1fe151){return _0x470eb3===_0x1fe151;},'KsQAZ':function(_0x285903,_0x4c975d){return _0x285903===_0x4c975d;},'iaZwG':_0x2a32b8(0x3e8),'QlvdC':function(_0x189a87,_0x5e7253){return _0x189a87===_0x5e7253;},'eeBRH':_0x2a32b8(0x1d1),'DURVP':_0x2a32b8(0x226),'YjLre':function(_0x39313c,_0x832b9c){return _0x39313c===_0x832b9c;},'xMfmX':function(_0x4af9e1,_0xa8873,_0x3557a1){return _0x4af9e1(_0xa8873,_0x3557a1);},'HYtiJ':function(_0x1a3487,_0x196159,_0x5de5e7){return _0x1a3487(_0x196159,_0x5de5e7);},'pclNX':_0x2a32b8(0x528),'OqkdT':function(_0xe25b4c,_0x3688f9){return _0xe25b4c(_0x3688f9);},'agtjF':function(_0x5c9fc3,_0x13de45,_0x4de5e2){return _0x5c9fc3(_0x13de45,_0x4de5e2);},'fZHLF':'nwk2_smashS','qslGI':function(_0x4c5fce,_0x32b257){return _0x4c5fce(_0x32b257);},'GgjRS':function(_0x1ce25f,_0x135216){return _0x1ce25f(_0x135216);},'voCCW':'SAF_S','oxFzn':_0x2a32b8(0x259),'ndbZI':function(_0x442906,_0x4f042d){return _0x442906===_0x4f042d;},'VTTwy':function(_0x574de3,_0x155a6c){return _0x574de3(_0x155a6c);},'pIvUl':_0x2a32b8(0x1d8),'BnFHR':function(_0x1a9986,_0x184333){return _0x1a9986&&_0x184333;},'QrqDf':function(_0x4a0cfc,_0x55db09){return _0x4a0cfc===_0x55db09;},'pXzjE':function(_0x312d11,_0x37eeb5){return _0x312d11<_0x37eeb5;},'kTlrQ':function(_0x31605a,_0x2a46cc){return _0x31605a>_0x2a46cc;},'IDDwT':function(_0x3a53f0,_0x228893){return _0x3a53f0(_0x228893);},'UYCkZ':function(_0x22e2d8,_0x564c55){return _0x22e2d8(_0x564c55);},'VjqTw':function(_0x3c464b,_0x17cda2){return _0x3c464b===_0x17cda2;},'iVilb':_0x2a32b8(0x400),'abZvU':_0x2a32b8(0x722),'rDuvB':function(_0x44b117,_0x328bed){return _0x44b117!==_0x328bed;},'dIXyq':function(_0x5a4f21,_0x2c6b2c){return _0x5a4f21&&_0x2c6b2c;},'Weoxb':function(_0x3b997a,_0x5c6e73){return _0x3b997a(_0x5c6e73);},'CcigY':function(_0x5b39b4,_0x194113){return _0x5b39b4(_0x194113);},'ZBFTU':function(_0xbfd8b,_0x2b42bb){return _0xbfd8b===_0x2b42bb;},'iaQYs':function(_0xdf0768,_0x3bbd9c){return _0xdf0768(_0x3bbd9c);},'dRTMU':function(_0x45f674,_0x270514){return _0x45f674===_0x270514;},'LMUtq':_0x2a32b8(0x74c),'ObuVz':_0x2a32b8(0x676),'QHnyr':function(_0x289213,_0x4ab11f){return _0x289213(_0x4ab11f);},'CxPHn':function(_0x48937a,_0x29fed2){return _0x48937a===_0x29fed2;},'fnseF':'SAF_W','zSjtV':_0x2a32b8(0x6a0),'SAUxK':function(_0x27b9f3,_0xb3ad2d){return _0x27b9f3(_0xb3ad2d);},'JmtmL':function(_0xf040ab,_0x2d83dc){return _0xf040ab(_0x2d83dc);}};if(!_0x18dd13)return null;const _0x48ccd1=_0x18dd13['ballX'],_0x2e8531=_0x18dd13[_0x2a32b8(0x205)]||[],_0x117187=_0x18dd13[_0x2a32b8(0x479)]||null,_0x3d5631=_0x2e8531[_0x2a32b8(0x427)](_0xe2ddd0=>_0xe2ddd0[_0x2a32b8(0x6c1)]==='L')[_0x2a32b8(0x6ab)],_0x13e260=_0x2e8531[_0x2a32b8(0x427)](_0x2b9f20=>_0x2b9f20[_0x2a32b8(0x6c1)]==='R')[_0x2a32b8(0x6ab)],_0x4db0f6=_0x18dd13[_0x2a32b8(0x1c0)]||(_0x434a52[_0x2a32b8(0x454)](_0x3d5631,_0x13e260)?'L':'R'),_0x56ea17=_0x4db0f6==='L'?'R':'L',_0x4dabc0=snapAlignment[_0x462d3f['id']]?.['x']??(_0x462d3f[_0x2a32b8(0x79d)]??_0x462d3f['x']),_0x90c272=_0x4dabc0<=_0x48ccd1?'L':'R',_0x138a74=_0x4dd1fa===_0x434a52['zLqYl']||_0x434a52['XBVHt'](_0x4dd1fa,_0x434a52['xMiYG'])?'L':_0x434a52[_0x2a32b8(0x6ed)](_0x4dd1fa,_0x2a32b8(0x238))||_0x4dd1fa===_0x2a32b8(0x400)?'R':_0x90c272,_0x56d26b=_0x434a52[_0x2a32b8(0x526)](_0x138a74,_0x4db0f6),_0x15cef0=_0x434a52[_0x2a32b8(0x1da)](_0x138a74,_0x56ea17);function _0x3be6e2(_0x532c54,_0x35a3c4){const _0x49d9a3=_0x2a32b8;return _0x2e8531[_0x49d9a3(0x1b9)](_0x20b953=>_0x20b953[_0x49d9a3(0x6c1)]===_0x532c54&&_0x20b953['_receiverNumber']===_0x35a3c4)||null;}function _0x478d10(_0x22256d){return _0x22256d?_0xe2ad01[_0x22256d['id']]:null;}function _0x16bb76(_0x7e73da){const _0x248067=_0x2a32b8;return _0x434a52[_0x248067(0x5fd)](isUnderRoute,_0x7e73da,_0xe2ad01);}function _0x2d3e46(_0x47e8a2){const _0xd704e=_0x2a32b8;return _0x434a52[_0xd704e(0x5fd)](isHitchRoute,_0x47e8a2,_0xe2ad01);}const _0x2de069=_0x434a52[_0x2a32b8(0x638)](_0x4db0f6,'L')?'DEEP_L':_0x2a32b8(0x4fb),_0x214d47=_0x56ea17==='L'?_0x434a52[_0x2a32b8(0x2e0)]:_0x2a32b8(0x4fb),_0xc252bf=_0x434a52[_0x2a32b8(0x78f)](_0x4db0f6,'L')?_0x2a32b8(0x647):_0x2a32b8(0x1d1),_0x345f46=_0x56ea17==='L'?_0x2a32b8(0x647):_0x434a52[_0x2a32b8(0x2c2)],_0x207d60=_0x4db0f6==='L'?_0x434a52[_0x2a32b8(0x203)]:_0x2a32b8(0x198),_0x24ce45=_0x434a52[_0x2a32b8(0x72e)](_0x56ea17,'L')?_0x434a52[_0x2a32b8(0x203)]:_0x2a32b8(0x198),_0x5dee8e=_0x3be6e2(_0x4db0f6,0x1),_0x2c0b9d=_0x434a52[_0x2a32b8(0x5fd)](_0x3be6e2,_0x4db0f6,0x2),_0x3e5649=_0x434a52['xMfmX'](_0x3be6e2,_0x56ea17,0x1),_0x34fb2c=_0x434a52[_0x2a32b8(0x296)](_0x3be6e2,_0x56ea17,0x2);if(_0x4dd1fa==='CB'&&_0x56d26b){if(_0x434a52[_0x2a32b8(0x296)](stickyOnce,_0x434a52[_0x2a32b8(0x3ed)],!!(_0x5dee8e&&_0x434a52[_0x2a32b8(0x194)](_0x16bb76,_0x5dee8e)))){if(isStickyLocked(_0x434a52[_0x2a32b8(0x3ed)]))persistentCovCalls[_0x2a32b8(0x45c)]=!![];return _0x434a52[_0x2a32b8(0x194)](zoneDrop,_0x2de069);}if(_0x434a52[_0x2a32b8(0x547)](stickyOnce,_0x434a52[_0x2a32b8(0x24d)],!!(_0x5dee8e&&_0x2d3e46(_0x5dee8e)))){if(_0x434a52[_0x2a32b8(0x6fd)](isStickyLocked,_0x434a52[_0x2a32b8(0x24d)]))persistentCovCalls[_0x2a32b8(0x1a0)]=!![];return _0x434a52[_0x2a32b8(0x531)](zoneDrop,_0x2de069);}return _0x5dee8e?manCover(_0x5dee8e['id']):zoneDrop(_0x2de069);}if(_0x434a52[_0x2a32b8(0x72e)](_0x4dd1fa,_0x434a52[_0x2a32b8(0x350)]))return _0x434a52[_0x2a32b8(0x531)](zoneDrop,_0x434a52[_0x2a32b8(0x555)]);if((_0x434a52[_0x2a32b8(0x63f)](_0x4dd1fa,_0x434a52[_0x2a32b8(0x3b3)])||_0x4dd1fa===_0x2a32b8(0x238))&&_0x56d26b){if(stickyOnce('nwk2_underS_sa',!!(_0x2c0b9d&&_0x16bb76(_0x2c0b9d)))){if(_0x434a52[_0x2a32b8(0x46f)](isStickyLocked,_0x2a32b8(0x41e)))persistentCovCalls['nwk2_underS']=!![];const _0x240491=_0x478d10(_0x117187),_0x396579=_0x240491?.[_0x2a32b8(0x6ae)]?.['x']??0x0,_0x52ebed=_0x240491?.[_0x2a32b8(0x71b)]!==_0x434a52[_0x2a32b8(0x55a)],_0xc4acff=!!(_0x434a52[_0x2a32b8(0x3c9)](_0x117187,_0x52ebed)&&(_0x434a52[_0x2a32b8(0x24a)](_0x4db0f6,'L')?_0x434a52[_0x2a32b8(0x21f)](_0x396579,0x0):_0x434a52[_0x2a32b8(0x549)](_0x396579,0x0)));if(_0x434a52['xMfmX'](stickyOnce,_0x2a32b8(0x301),_0xc4acff)){if(persistentCovCalls[_0x2a32b8(0x1a0)])return zoneDrop(_0xc252bf);return _0x434a52[_0x2a32b8(0x6aa)](manCover,_0x117187['id']);}return zoneDrop(_0xc252bf);}if(persistentCovCalls[_0x2a32b8(0x1a0)])return _0x5dee8e?_0x434a52['qslGI'](manCover,_0x5dee8e['id']):_0x434a52[_0x2a32b8(0x4e1)](zoneDrop,_0x2de069);return _0x2c0b9d?manCover(_0x2c0b9d['id']):_0x434a52[_0x2a32b8(0x531)](zoneDrop,_0xc252bf);}if(_0x434a52[_0x2a32b8(0x518)](_0x4dd1fa,_0x434a52[_0x2a32b8(0x5f0)])||_0x434a52[_0x2a32b8(0x518)](_0x4dd1fa,_0x434a52[_0x2a32b8(0x54b)])||_0x4dd1fa===_0x434a52[_0x2a32b8(0x543)]){const _0x3b8063=_0x478d10(_0x117187),_0x3e4037=_0x3b8063?.['vel']?.['x']??0x0,_0x344107=_0x434a52[_0x2a32b8(0x6f0)](_0x3b8063?.[_0x2a32b8(0x71b)],'stopped'),_0x11974e=!!(_0x434a52[_0x2a32b8(0x537)](_0x117187,_0x344107)&&(_0x434a52[_0x2a32b8(0x518)](_0x4db0f6,'L')?_0x434a52['pXzjE'](_0x3e4037,0x0):_0x3e4037>0x0));if(persistentCovCalls[_0x2a32b8(0x30e)]){const _0x24e967=[_0x34fb2c,_0x3e5649][_0x2a32b8(0x427)](Boolean)[_0x2a32b8(0x1b9)](_0x2fcc3f=>_0x16bb76(_0x2fcc3f)&&!defensePlayers['some'](_0x5b4a7c=>_0x5b4a7c['id']!==_0x462d3f['id']&&_0x5b4a7c[_0x2a32b8(0x239)]?.[_0x2a32b8(0x5bb)]===_0x2fcc3f['id']));if(_0x24e967)return _0x434a52['UYCkZ'](manCover,_0x24e967['id']);}if(_0x11974e&&_0x117187&&_0x2c0b9d&&defensePlayers[_0x2a32b8(0x57b)](_0x1320eb=>{const _0x11bdfe=_0x2a32b8,_0x1446f8=frozenRoleMap?.[_0x11bdfe(0x331)](_0x1320eb['id']),_0x5815b6=snapAlignment[_0x1320eb['id']]?.['x']??(_0x1320eb[_0x11bdfe(0x79d)]??_0x1320eb['x']);return _0x1320eb['id']!==_0x462d3f['id']&&(_0x1446f8===_0x11bdfe(0x3e5)||_0x1446f8===_0x11bdfe(0x238))&&_0x434a52[_0x11bdfe(0x45f)](_0x434a52[_0x11bdfe(0x705)](_0x5815b6,_0x48ccd1)?'L':'R',_0x4db0f6)&&_0x434a52[_0x11bdfe(0x45f)](_0x1320eb[_0x11bdfe(0x239)]?.[_0x11bdfe(0x6f4)],_0x11bdfe(0x5fc))&&_0x434a52['XBVHt'](_0x1320eb[_0x11bdfe(0x239)]?.[_0x11bdfe(0x5bb)],_0x2c0b9d['id']);}))return _0x434a52['Weoxb'](manCover,_0x117187['id']);return _0x434a52['CcigY'](zoneDrop,_0x207d60);}if((_0x434a52[_0x2a32b8(0x45f)](_0x4dd1fa,_0x434a52[_0x2a32b8(0x3b3)])||_0x434a52[_0x2a32b8(0x779)](_0x4dd1fa,_0x2a32b8(0x238)))&&_0x15cef0){const _0x3fd3bf=_0x478d10(_0x117187),_0x23f68c=_0x3fd3bf?.[_0x2a32b8(0x6ae)]?.['x']??0x0,_0x504123=_0x434a52['rDuvB'](_0x3fd3bf?.[_0x2a32b8(0x71b)],_0x2a32b8(0x1d8)),_0x366936=!!(_0x434a52[_0x2a32b8(0x3c9)](_0x117187,_0x504123)&&(_0x56ea17==='L'?_0x434a52[_0x2a32b8(0x21f)](_0x23f68c,0x0):_0x434a52[_0x2a32b8(0x549)](_0x23f68c,0x0)));if(persistentCovCalls['nwk2_underS']){const _0x2dcb19=[_0x2c0b9d,_0x5dee8e][_0x2a32b8(0x427)](Boolean)[_0x2a32b8(0x1b9)](_0x22f640=>_0x16bb76(_0x22f640)&&!defensePlayers['some'](_0x4b2d2b=>_0x4b2d2b['id']!==_0x462d3f['id']&&_0x4b2d2b[_0x2a32b8(0x239)]?.[_0x2a32b8(0x5bb)]===_0x22f640['id']));if(_0x2dcb19)return _0x434a52[_0x2a32b8(0x693)](manCover,_0x2dcb19['id']);}if(_0x434a52['dIXyq'](_0x366936,_0x117187)&&_0x34fb2c&&defensePlayers[_0x2a32b8(0x57b)](_0x2f0f1a=>_0x2f0f1a['id']!==_0x462d3f['id']&&_0x2f0f1a[_0x2a32b8(0x239)]?.['mode']===_0x2a32b8(0x5fc)&&_0x2f0f1a[_0x2a32b8(0x239)]?.[_0x2a32b8(0x5bb)]===_0x34fb2c['id']))return manCover(_0x117187['id']);return zoneDrop(_0x24ce45);}if(_0x434a52[_0x2a32b8(0x608)](_0x4dd1fa,'CB')&&_0x15cef0){if(stickyOnce(_0x2a32b8(0x74c),!!(_0x3e5649&&_0x16bb76(_0x3e5649)))){if(isStickyLocked(_0x434a52[_0x2a32b8(0x5ff)]))persistentCovCalls['nwk2_underW']=!![];return zoneDrop(_0x214d47);}if(stickyOnce(_0x434a52['ObuVz'],!!(_0x3e5649&&_0x434a52['VTTwy'](_0x2d3e46,_0x3e5649)))){if(isStickyLocked('nwk2_smashW'))persistentCovCalls['nwk2_smashW']=!![];return _0x434a52['QHnyr'](zoneDrop,_0x214d47);}return _0x3e5649?_0x434a52[_0x2a32b8(0x6aa)](manCover,_0x3e5649['id']):_0x434a52[_0x2a32b8(0x46f)](zoneDrop,_0x214d47);}if(_0x434a52[_0x2a32b8(0x150)](_0x4dd1fa,_0x434a52['fnseF'])){if(stickyOnce('nwk2_underW_sw',!!(_0x34fb2c&&_0x16bb76(_0x34fb2c)))){if(_0x434a52[_0x2a32b8(0x6fd)](isStickyLocked,_0x434a52['zSjtV']))persistentCovCalls[_0x2a32b8(0x30e)]=!![];const _0x583a44=_0x434a52[_0x2a32b8(0x54f)](_0x478d10,_0x117187),_0x483227=_0x583a44?.[_0x2a32b8(0x6ae)]?.['x']??0x0,_0x2709ce=_0x434a52[_0x2a32b8(0x6f0)](_0x583a44?.[_0x2a32b8(0x71b)],_0x434a52[_0x2a32b8(0x55a)]),_0x21b570=!!(_0x117187&&_0x2709ce&&(_0x434a52[_0x2a32b8(0x526)](_0x56ea17,'L')?_0x483227<0x0:_0x434a52[_0x2a32b8(0x549)](_0x483227,0x0)));if(!persistentCovCalls['nwk2_rbGlobal_strong']&&_0x21b570){if(persistentCovCalls['nwk2_smashW'])return zoneDrop(_0x345f46);return manCover(_0x117187['id']);}return _0x434a52[_0x2a32b8(0x5ad)](zoneDrop,_0x345f46);}if(persistentCovCalls['nwk2_smashW'])return _0x3e5649?_0x434a52[_0x2a32b8(0x194)](manCover,_0x3e5649['id']):_0x434a52[_0x2a32b8(0x693)](zoneDrop,_0x214d47);return _0x34fb2c?manCover(_0x34fb2c['id']):zoneDrop(_0x345f46);}return null;}},'cover3-sky-match-3x1':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x7bcf9a,_0x5e655c,_0x4f9d58){const _0x37c555=_0x2e24de,_0x10aa19={'yqQJo':function(_0x2673a9,_0x6d7241){return _0x2673a9===_0x6d7241;},'PtoBY':_0x37c555(0x669),'QqODe':'HOOK-R','XsjiT':function(_0x1f3bd2,_0x392150){return _0x1f3bd2===_0x392150;},'lqfdV':function(_0x12de7f,_0x5efbd9){return _0x12de7f===_0x5efbd9;},'UJvIl':_0x37c555(0x25f),'DsYFv':_0x37c555(0x4ef),'iKSyy':function(_0x4abdb6,_0x3d541b){return _0x4abdb6(_0x3d541b);},'fewKg':function(_0x1a2808,_0x3236fb){return _0x1a2808(_0x3236fb);},'Sxaea':_0x37c555(0x3e5),'XIIAs':_0x37c555(0x238),'eIErH':function(_0x1466ef,_0x37fdf3){return _0x1466ef(_0x37fdf3);},'HEQec':function(_0x597309,_0x219588){return _0x597309(_0x219588);},'SEIOq':'HOOK-M','uDsSk':function(_0x51baa6,_0x1c1655){return _0x51baa6(_0x1c1655);},'wVrxx':_0x37c555(0x434),'RhlbE':_0x37c555(0x23b),'zGzfF':'DEEP_MIDDLE','GyrNP':function(_0x30e9b3,_0x48f622){return _0x30e9b3>=_0x48f622;},'KtAXM':_0x37c555(0x19e),'xGveM':_0x37c555(0x4bb),'OxEfo':'HOOK_CURL_R','jNeID':function(_0x4a4ab6,_0x42bebf,_0x2745ba){return _0x4a4ab6(_0x42bebf,_0x2745ba);},'yBJwv':function(_0x3760b3,_0x447499,_0x377796){return _0x3760b3(_0x447499,_0x377796);}},_0x5f9dc6=new Map();if(!_0x4f9d58)return _0x5f9dc6;const _0x3a2e9d=_0x4f9d58[_0x37c555(0x1b2)],_0x2fff15=_0x4f9d58['eligiblePlayers']||[],_0x319217=_0x4f9d58[_0x37c555(0x479)]||null,_0x3bdfb4=_0x2fff15[_0x37c555(0x427)](_0x3e5450=>_0x3e5450[_0x37c555(0x6c1)]==='L')[_0x37c555(0x6ab)],_0x4e1525=_0x2fff15['filter'](_0x2f051d=>_0x2f051d['_side']==='R')['length'],_0x2032b5=_0x4f9d58['coverageStrongSide']||(_0x10aa19['GyrNP'](_0x3bdfb4,_0x4e1525)?'L':'R'),_0x670522=_0x10aa19[_0x37c555(0x2ef)](_0x2032b5,'L')?'R':'L',_0x8d08e3=_0x2032b5==='L'?_0x37c555(0x3e8):'DEEP_R',_0x1c384e=_0x10aa19['XsjiT'](_0x670522,'L')?_0x10aa19[_0x37c555(0x361)]:_0x10aa19[_0x37c555(0x2c3)],_0x4feb71=_0x2032b5==='L'?_0x37c555(0x647):_0x37c555(0x1d1),_0x58538d=_0x10aa19['lqfdV'](_0x2032b5,'L')?_0x37c555(0x226):_0x10aa19[_0x37c555(0x6ef)];function _0xf9c228(_0x499220,_0xef30dc){const _0x233d66=_0x37c555;return _0x2fff15[_0x233d66(0x1b9)](_0x36a356=>_0x36a356['_side']===_0x499220&&_0x36a356[_0x233d66(0x4df)]===_0xef30dc)||null;}const _0x575746=_0xf9c228(_0x2032b5,0x1),_0x5e58a1=_0xf9c228(_0x2032b5,0x2),_0xffc876=_0x10aa19['jNeID'](_0xf9c228,_0x2032b5,0x3),_0x47303a=_0x10aa19[_0x37c555(0x28c)](_0xf9c228,_0x670522,0x1);return _0x7bcf9a[_0x37c555(0x29e)]((_0x362ef6,_0x25b207)=>{const _0x5ee942=_0x37c555,_0x337e97=_0x5e655c[_0x5ee942(0x331)](_0x25b207);if(!_0x337e97)return;const _0x359ca8=_0x337e97['x']<=_0x3a2e9d?'L':'R',_0x269513=_0x10aa19[_0x5ee942(0x2ef)](_0x362ef6,_0x5ee942(0x3e5))||_0x10aa19['yqQJo'](_0x362ef6,_0x10aa19[_0x5ee942(0x726)])?'L':_0x362ef6===_0x5ee942(0x238)||_0x10aa19[_0x5ee942(0x2ef)](_0x362ef6,_0x10aa19[_0x5ee942(0x6a1)])?'R':_0x359ca8,_0x34ba44=_0x10aa19['XsjiT'](_0x269513,_0x2032b5),_0x57dbc9=_0x10aa19[_0x5ee942(0x6c9)](_0x269513,_0x670522);switch(_0x362ef6){case _0x10aa19[_0x5ee942(0x2e6)]:case _0x10aa19[_0x5ee942(0x5a5)]:_0x5f9dc6[_0x5ee942(0x590)](_0x25b207,rushDec());break;case'CB':if(_0x34ba44)_0x5f9dc6['set'](_0x25b207,_0x575746?manCover(_0x575746['id']):_0x10aa19[_0x5ee942(0x2a2)](zoneDrop,_0x8d08e3));if(_0x57dbc9)_0x5f9dc6['set'](_0x25b207,_0x47303a?_0x10aa19[_0x5ee942(0x2a2)](manCover,_0x47303a['id']):_0x10aa19[_0x5ee942(0x2a2)](zoneDrop,_0x1c384e));break;case _0x5ee942(0x2ac):_0x5f9dc6['set'](_0x25b207,_0x5e58a1?manCover(_0x5e58a1['id']):_0x10aa19[_0x5ee942(0x236)](zoneDrop,_0x4feb71));break;case _0x10aa19[_0x5ee942(0x506)]:case _0x10aa19['XIIAs']:if(_0x34ba44)_0x5f9dc6['set'](_0x25b207,_0xffc876?manCover(_0xffc876['id']):_0x10aa19[_0x5ee942(0x286)](zoneDrop,_0x58538d));if(_0x57dbc9)_0x5f9dc6[_0x5ee942(0x590)](_0x25b207,_0x319217?_0x10aa19['HEQec'](manCover,_0x319217['id']):_0x10aa19[_0x5ee942(0x236)](zoneDrop,_0x5ee942(0x434)));break;case _0x10aa19[_0x5ee942(0x726)]:case _0x5ee942(0x400):case _0x10aa19[_0x5ee942(0x761)]:_0x5f9dc6['set'](_0x25b207,_0x10aa19[_0x5ee942(0x476)](zoneDrop,_0x10aa19[_0x5ee942(0x356)]));break;case _0x10aa19['RhlbE']:_0x5f9dc6[_0x5ee942(0x590)](_0x25b207,zoneDrop(_0x10aa19['zGzfF']));break;}}),_0x5f9dc6;},'react'(_0x56c4f8,_0xfc2c8c,_0x4c7aae,_0x5c6b4f){const _0x1cf6a8=_0x2e24de,_0x2fffc2={'aaqLh':function(_0x3cc6ca,_0x4d8762,_0x13e72f){return _0x3cc6ca(_0x4d8762,_0x13e72f);},'GbEGx':function(_0xea56f9,_0x281938){return _0xea56f9===_0x281938;},'HqGDK':_0x1cf6a8(0x3e5),'BwqJc':function(_0x3d221f,_0x235d50){return _0x3d221f===_0x235d50;},'NrBcD':'HOOK-L','FoIEc':_0x1cf6a8(0x238),'TTxED':_0x1cf6a8(0x400),'BPFrg':'DEEP_R','QWyve':function(_0xb9398b,_0x51c343){return _0xb9398b===_0x51c343;},'GUYam':_0x1cf6a8(0x19e),'VBiwe':'DEEP_HALF_R','ktPyy':function(_0x2675fc,_0x49b77a){return _0x2675fc===_0x49b77a;},'YbYSl':'CURL_FLAT_L','IIZBh':function(_0x5d11aa,_0x18b85a){return _0x5d11aa===_0x18b85a;},'iZGkp':_0x1cf6a8(0x198),'qYtUR':_0x1cf6a8(0x2d8),'sglGV':function(_0x3fec7f,_0x1275e7,_0x5b64f6){return _0x3fec7f(_0x1275e7,_0x5b64f6);},'jhiKQ':function(_0x576f6d,_0xd1c632,_0x1149e6){return _0x576f6d(_0xd1c632,_0x1149e6);},'dNsdL':function(_0x444670,_0xcccb32,_0x48123f){return _0x444670(_0xcccb32,_0x48123f);},'llBEE':_0x1cf6a8(0x5aa),'rnPUu':function(_0x592d3c,_0x26a684){return _0x592d3c(_0x26a684);},'SoNLJ':function(_0x384e14,_0x6a7e06){return _0x384e14(_0x6a7e06);},'HHvXy':function(_0x522f89,_0x47a72e){return _0x522f89(_0x47a72e);},'WJCEF':function(_0x18dcad,_0x2e5356){return _0x18dcad(_0x2e5356);},'GOMzP':function(_0x1edc29,_0x66a630){return _0x1edc29(_0x66a630);},'CQBTE':function(_0x520297,_0x574994){return _0x520297===_0x574994;},'onKDv':_0x1cf6a8(0x722),'hchsD':function(_0x2cc8d0,_0x4e7eca){return _0x2cc8d0&&_0x4e7eca;},'dAUrn':function(_0x1dbde9,_0x1b7586){return _0x1dbde9<_0x1b7586;},'yAghM':function(_0x4fc29f,_0x3fb8c1){return _0x4fc29f===_0x3fb8c1;},'GTKTu':function(_0x4bd9e1,_0x4da15f){return _0x4bd9e1<_0x4da15f;},'UImdV':function(_0x3f7721,_0x37dd1f){return _0x3f7721>_0x37dd1f;},'BFlTu':function(_0x37a00a,_0x1c7c8d){return _0x37a00a(_0x1c7c8d);},'adCYO':_0x1cf6a8(0x434),'yEZWD':function(_0x2165f5,_0x5d77dc){return _0x2165f5===_0x5d77dc;},'lrPQD':function(_0x285667,_0x32c9bb){return _0x285667(_0x32c9bb);},'xfLmi':function(_0x15d387,_0x6a49ab){return _0x15d387!==_0x6a49ab;},'YgdkW':function(_0x5340d2,_0x1d2789){return _0x5340d2(_0x1d2789);},'AGRZw':_0x1cf6a8(0x1d8),'Bllkd':function(_0x4a14d7,_0x20bb43,_0x167a2e){return _0x4a14d7(_0x20bb43,_0x167a2e);},'eeQkx':function(_0x1e0e73,_0x583af3){return _0x1e0e73===_0x583af3;},'jXIXL':function(_0x3402dd,_0xc4c4e0){return _0x3402dd(_0xc4c4e0);}};if(!_0x4c7aae)return null;const _0x13aeb7=_0x4c7aae[_0x1cf6a8(0x1b2)],_0x183610=_0x4c7aae['eligiblePlayers']||[],_0x38bbad=_0x4c7aae[_0x1cf6a8(0x479)]||null,_0x5dbf6a=_0x183610[_0x1cf6a8(0x427)](_0x4bdb7c=>_0x4bdb7c['_side']==='L')[_0x1cf6a8(0x6ab)],_0x28caa3=_0x183610[_0x1cf6a8(0x427)](_0x170808=>_0x170808[_0x1cf6a8(0x6c1)]==='R')['length'],_0x2e3eba=_0x4c7aae[_0x1cf6a8(0x1c0)]||(_0x5dbf6a>=_0x28caa3?'L':'R'),_0x11ec16=_0x2fffc2['GbEGx'](_0x2e3eba,'L')?'R':'L',_0x3d9106=snapAlignment[_0x56c4f8['id']]?.['x']??(_0x56c4f8[_0x1cf6a8(0x79d)]??_0x56c4f8['x']),_0x33c10b=_0x3d9106<=_0x13aeb7?'L':'R',_0x1d4bc8=_0xfc2c8c===_0x2fffc2['HqGDK']||_0x2fffc2[_0x1cf6a8(0x1fe)](_0xfc2c8c,_0x2fffc2[_0x1cf6a8(0x45b)])?'L':_0xfc2c8c===_0x2fffc2[_0x1cf6a8(0x3ec)]||_0x2fffc2[_0x1cf6a8(0x225)](_0xfc2c8c,_0x2fffc2[_0x1cf6a8(0x486)])?'R':_0x33c10b,_0x45cfc7=_0x2fffc2[_0x1cf6a8(0x225)](_0x1d4bc8,_0x2e3eba),_0x339c0a=_0x1d4bc8===_0x11ec16;function _0x1118f5(_0x414fe7,_0x2d7256){const _0xf45157=_0x1cf6a8;return _0x183610[_0xf45157(0x1b9)](_0x1d2da6=>_0x1d2da6[_0xf45157(0x6c1)]===_0x414fe7&&_0x1d2da6[_0xf45157(0x4df)]===_0x2d7256)||null;}function _0x4fb9a5(_0x3939ef){return _0x3939ef?_0x5c6b4f[_0x3939ef['id']]:null;}function _0x3326d5(_0x13f821){return isUnderRoute(_0x13f821,_0x5c6b4f);}function _0x4b1076(_0x3a4d1e){return isHitchRoute(_0x3a4d1e,_0x5c6b4f);}function _0x52adca(_0x12a6ff){return isOutRoute(_0x12a6ff,_0x5c6b4f);}function _0x237030(_0x5e2148){const _0x191c65=_0x1cf6a8;return _0x2fffc2[_0x191c65(0x73a)](isVerticalRoute,_0x5e2148,_0x5c6b4f);}const _0x4510d1=_0x2e3eba==='L'?_0x1cf6a8(0x3e8):_0x2fffc2[_0x1cf6a8(0x6bc)],_0x2079e2=_0x2fffc2[_0x1cf6a8(0x763)](_0x11ec16,'L')?_0x2fffc2[_0x1cf6a8(0x6e4)]:_0x2fffc2[_0x1cf6a8(0x721)],_0x29b90d=_0x2fffc2['ktPyy'](_0x2e3eba,'L')?_0x2fffc2['YbYSl']:_0x1cf6a8(0x1d1),_0x91b38b=_0x2fffc2['IIZBh'](_0x2e3eba,'L')?_0x1cf6a8(0x226):_0x2fffc2[_0x1cf6a8(0x6ad)],_0x30d477=_0x2e3eba==='L'?_0x1cf6a8(0x425):_0x2fffc2[_0x1cf6a8(0x414)],_0x166c61=_0x1118f5(_0x2e3eba,0x1),_0x2ea310=_0x2fffc2[_0x1cf6a8(0x73a)](_0x1118f5,_0x2e3eba,0x2),_0xe12e73=_0x2fffc2[_0x1cf6a8(0x565)](_0x1118f5,_0x2e3eba,0x3),_0x3d02cc=_0x2fffc2[_0x1cf6a8(0x626)](_0x1118f5,_0x11ec16,0x1),_0x71149=!!(_0xe12e73&&(_0x52adca(_0xe12e73)||isFlatRoute(_0xe12e73,_0x2e3eba,_0x5c6b4f,_0x4c7aae)));if(_0xfc2c8c==='CB'&&_0x45cfc7){if(_0x166c61&&_0x3326d5(_0x166c61))return persistentCovCalls[_0x1cf6a8(0x369)]=!![],zoneDrop(_0x4510d1);if(_0x2fffc2['dNsdL'](stickyOnce,_0x2fffc2['llBEE'],!!(_0x166c61&&_0x4b1076(_0x166c61)))){if(isStickyLocked(_0x2fffc2[_0x1cf6a8(0x718)]))persistentCovCalls[_0x1cf6a8(0x5aa)]=!![];return _0x2fffc2[_0x1cf6a8(0x51c)](zoneDrop,_0x4510d1);}return _0x166c61?manCover(_0x166c61['id']):_0x2fffc2[_0x1cf6a8(0x51c)](zoneDrop,_0x4510d1);}if(_0xfc2c8c===_0x1cf6a8(0x2ac)){if(_0x71149)return _0xe12e73?_0x2fffc2['SoNLJ'](manCover,_0xe12e73['id']):zoneDrop(_0x29b90d);if(persistentCovCalls[_0x1cf6a8(0x5aa)])return _0x166c61?manCover(_0x166c61['id']):zoneDrop(_0x4510d1);if(_0x2ea310&&_0x2fffc2[_0x1cf6a8(0x556)](_0x3326d5,_0x2ea310))return persistentCovCalls['nsky_under']=!![],zoneDrop(_0x30d477);return _0x2ea310?manCover(_0x2ea310['id']):zoneDrop(_0x29b90d);}if((_0xfc2c8c===_0x2fffc2[_0x1cf6a8(0x451)]||_0x2fffc2[_0x1cf6a8(0x763)](_0xfc2c8c,'APEX-R'))&&_0x45cfc7){if(_0x71149)return _0x2ea310?_0x2fffc2[_0x1cf6a8(0x504)](manCover,_0x2ea310['id']):_0x2fffc2[_0x1cf6a8(0x504)](zoneDrop,_0x91b38b);if(_0xe12e73&&_0x2fffc2[_0x1cf6a8(0x51c)](_0x3326d5,_0xe12e73)&&_0x166c61&&_0x2fffc2[_0x1cf6a8(0x386)](_0x3326d5,_0x166c61))return manCover(_0x166c61['id']);if(_0xe12e73&&_0x3326d5(_0xe12e73))return _0x2fffc2[_0x1cf6a8(0x386)](zoneDrop,_0x91b38b);return _0xe12e73?_0x2fffc2[_0x1cf6a8(0x556)](manCover,_0xe12e73['id']):_0x2fffc2['GOMzP'](zoneDrop,_0x91b38b);}if(_0x2fffc2['GbEGx'](_0xfc2c8c,_0x2fffc2[_0x1cf6a8(0x45b)])||_0x2fffc2['GbEGx'](_0xfc2c8c,_0x2fffc2[_0x1cf6a8(0x486)])||_0x2fffc2['CQBTE'](_0xfc2c8c,_0x2fffc2['onKDv'])){const _0x9a5cd2=_0x2fffc2[_0x1cf6a8(0x51c)](_0x4fb9a5,_0x38bbad),_0x2c91a1=_0x9a5cd2?.[_0x1cf6a8(0x6ae)]?.['x']??0x0,_0x24ad17=_0x9a5cd2?.['moveType']!==_0x1cf6a8(0x1d8),_0x4e970a=!!(_0x2fffc2['hchsD'](_0x38bbad,_0x24ad17)&&(_0x11ec16==='L'?_0x2fffc2[_0x1cf6a8(0x429)](_0x2c91a1,0x0):_0x2c91a1>0x0)),_0x38febe=!!(_0x38bbad&&_0x24ad17&&(_0x2fffc2['yAghM'](_0x2e3eba,'L')?_0x2fffc2[_0x1cf6a8(0x74d)](_0x2c91a1,0x0):_0x2fffc2['UImdV'](_0x2c91a1,0x0))),_0x565edb=!!(_0xe12e73&&_0x237030(_0xe12e73));if(_0x4e970a||persistentCovCalls[_0x1cf6a8(0x481)]){const _0x4a22d5=[_0x166c61,_0x2ea310,_0xe12e73][_0x1cf6a8(0x427)](Boolean),_0x15886c=_0x4a22d5[_0x1cf6a8(0x1b9)](_0x50ec92=>_0x3326d5(_0x50ec92)&&!defensePlayers[_0x1cf6a8(0x57b)](_0x58172a=>_0x58172a['id']!==_0x56c4f8['id']&&_0x58172a[_0x1cf6a8(0x239)]?.[_0x1cf6a8(0x5bb)]===_0x50ec92['id']));if(_0x15886c)return _0x2fffc2[_0x1cf6a8(0x556)](manCover,_0x15886c['id']);return _0x2fffc2[_0x1cf6a8(0x51c)](zoneDrop,'HOOK_MIDDLE');}if(!_0x565edb&&_0x38febe&&Math[_0x1cf6a8(0x78a)](_0x2c91a1)>0xa&&_0x38bbad)return _0x2fffc2['SoNLJ'](manCover,_0x38bbad['id']);if(persistentCovCalls[_0x1cf6a8(0x369)]){if(_0x2ea310&&_0x3326d5(_0x2ea310))return manCover(_0x2ea310['id']);}return _0x2fffc2[_0x1cf6a8(0x774)](zoneDrop,_0x2fffc2['adCYO']);}if((_0xfc2c8c===_0x2fffc2[_0x1cf6a8(0x451)]||_0x2fffc2[_0x1cf6a8(0x79c)](_0xfc2c8c,_0x1cf6a8(0x238)))&&_0x339c0a){if(_0x38bbad){const _0x3d187e=_0x2fffc2[_0x1cf6a8(0x312)](_0x4fb9a5,_0x38bbad)?.[_0x1cf6a8(0x6ae)]?.['x']??0x0,_0xd96028=_0x2fffc2[_0x1cf6a8(0x1fb)](_0x2fffc2['YgdkW'](_0x4fb9a5,_0x38bbad)?.[_0x1cf6a8(0x71b)],_0x2fffc2[_0x1cf6a8(0x352)]),_0x3db55d=_0xd96028&&(_0x11ec16==='L'?_0x3d187e<0x0:_0x3d187e>0x0);if(_0x2fffc2[_0x1cf6a8(0x17c)](stickyOnce,'nsky_rbLockWeak',_0x3db55d)){if(isStickyLocked('nsky_rbLockWeak'))persistentCovCalls[_0x1cf6a8(0x481)]=!![];return _0x2fffc2[_0x1cf6a8(0x386)](manCover,_0x38bbad['id']);}}if(persistentCovCalls[_0x1cf6a8(0x369)]){if(_0x166c61&&_0x3326d5(_0x166c61))return manCover(_0x166c61['id']);return _0x2fffc2[_0x1cf6a8(0x556)](zoneDrop,_0x1cf6a8(0x434));}const _0x1a2a52=[_0x166c61,_0x2ea310,_0xe12e73]['filter'](Boolean),_0x5cf8f5=_0x1a2a52[_0x1cf6a8(0x1b9)](_0x203fca=>_0x3326d5(_0x203fca)&&!defensePlayers[_0x1cf6a8(0x57b)](_0x259e9f=>_0x259e9f['id']!==_0x56c4f8['id']&&_0x259e9f[_0x1cf6a8(0x239)]?.[_0x1cf6a8(0x5bb)]===_0x203fca['id']));if(_0x5cf8f5)return manCover(_0x5cf8f5['id']);return zoneDrop('HOOK_MIDDLE');}if(_0xfc2c8c==='CB'&&_0x339c0a)return _0x3d02cc?_0x2fffc2[_0x1cf6a8(0x504)](manCover,_0x3d02cc['id']):zoneDrop(_0x2079e2);if(_0x2fffc2[_0x1cf6a8(0x290)](_0xfc2c8c,'SAF_W'))return _0x2fffc2[_0x1cf6a8(0x560)](zoneDrop,'DEEP_MIDDLE');return null;}},'cover3-buzz-match-3x1':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x5d42f5,_0x55a7f6,_0xe66c39){const _0x69fcb5=_0x2e24de,_0x54c488={'HlAyu':function(_0x5f2f4e,_0x10bcc5){return _0x5f2f4e===_0x10bcc5;},'nZiQa':'HOOK-L','tClbB':_0x69fcb5(0x238),'cCdIE':function(_0x1fb457,_0x205575){return _0x1fb457===_0x205575;},'DKopj':function(_0x527b9d,_0x558e6d){return _0x527b9d===_0x558e6d;},'pRDTZ':_0x69fcb5(0x4ef),'tWSMS':function(_0x49041a){return _0x49041a();},'dyNCN':function(_0x1898f2,_0x244fd5){return _0x1898f2(_0x244fd5);},'PREFJ':function(_0x3baeb1,_0x1c4ae9){return _0x3baeb1(_0x1c4ae9);},'nUFlx':'SAF_S','RtfSr':function(_0x1b8582,_0x115e07){return _0x1b8582(_0x115e07);},'VoAts':function(_0x3465f1,_0x39d5b9){return _0x3465f1(_0x39d5b9);},'TUuTt':function(_0x485b39,_0x4dc3ee){return _0x485b39(_0x4dc3ee);},'rdaym':_0x69fcb5(0x434),'MyeyB':_0x69fcb5(0x400),'jEiZJ':_0x69fcb5(0x722),'MRHJC':function(_0x46aebf,_0xf1db58){return _0x46aebf(_0xf1db58);},'VVOmw':function(_0x900f5d,_0x4c463b){return _0x900f5d>=_0x4c463b;},'SWNAU':_0x69fcb5(0x3e8),'naeZW':_0x69fcb5(0x19e),'lDBEw':_0x69fcb5(0x4bb),'DfBec':_0x69fcb5(0x647),'LdICR':'CURL_FLAT_R','aalLQ':_0x69fcb5(0x198),'cWXla':function(_0x1c3696,_0x51ab50,_0x5af58e){return _0x1c3696(_0x51ab50,_0x5af58e);},'VBeoE':function(_0x513356,_0x358e75,_0x11ac15){return _0x513356(_0x358e75,_0x11ac15);},'wDUfs':function(_0xa1ad23,_0x141923,_0x97680a){return _0xa1ad23(_0x141923,_0x97680a);}},_0x214bd2=new Map();if(!_0xe66c39)return _0x214bd2;const _0x534041=_0xe66c39[_0x69fcb5(0x1b2)],_0x4abf58=_0xe66c39[_0x69fcb5(0x205)]||[],_0x4c1954=_0xe66c39[_0x69fcb5(0x479)]||null,_0x247eb9=_0x4abf58[_0x69fcb5(0x427)](_0x571e61=>_0x571e61[_0x69fcb5(0x6c1)]==='L')[_0x69fcb5(0x6ab)],_0x579476=_0x4abf58[_0x69fcb5(0x427)](_0x2a8007=>_0x2a8007['_side']==='R')['length'],_0x1729bc=_0xe66c39[_0x69fcb5(0x1c0)]||(_0x54c488['VVOmw'](_0x247eb9,_0x579476)?'L':'R'),_0x3966c6=_0x1729bc==='L'?'R':'L',_0x4f4a8b=_0x1729bc==='L'?_0x54c488['SWNAU']:_0x69fcb5(0x4fb),_0x457ea3=_0x54c488[_0x69fcb5(0x1a4)](_0x3966c6,'L')?_0x54c488['naeZW']:_0x54c488[_0x69fcb5(0x5c8)],_0xe226c9=_0x1729bc==='L'?_0x54c488[_0x69fcb5(0x21c)]:_0x54c488[_0x69fcb5(0x566)],_0x1cfb01=_0x1729bc==='L'?_0x69fcb5(0x226):_0x54c488['aalLQ'];function _0x50216d(_0x57a28c,_0x26286b){const _0x59b750=_0x69fcb5;return _0x4abf58[_0x59b750(0x1b9)](_0x5b5f45=>_0x5b5f45[_0x59b750(0x6c1)]===_0x57a28c&&_0x5b5f45[_0x59b750(0x4df)]===_0x26286b)||null;}const _0x3a1e52=_0x54c488[_0x69fcb5(0x599)](_0x50216d,_0x1729bc,0x1),_0x291f07=_0x54c488[_0x69fcb5(0x438)](_0x50216d,_0x1729bc,0x2),_0x578cab=_0x54c488[_0x69fcb5(0x6f5)](_0x50216d,_0x1729bc,0x3),_0x5de3cc=_0x50216d(_0x3966c6,0x1);return _0x5d42f5[_0x69fcb5(0x29e)]((_0x72d8e0,_0x38a5d6)=>{const _0x354ddf=_0x69fcb5,_0x117f33=_0x55a7f6['get'](_0x38a5d6);if(!_0x117f33)return;const _0x4c68d1=_0x117f33['x']<=_0x534041?'L':'R',_0x3b31a7=_0x54c488['HlAyu'](_0x72d8e0,_0x354ddf(0x3e5))||_0x72d8e0===_0x54c488[_0x354ddf(0x3fe)]?'L':_0x72d8e0===_0x54c488[_0x354ddf(0x48d)]||_0x72d8e0===_0x354ddf(0x400)?'R':_0x4c68d1,_0x3af3b7=_0x54c488['cCdIE'](_0x3b31a7,_0x1729bc),_0x4c984c=_0x54c488[_0x354ddf(0x673)](_0x3b31a7,_0x3966c6);switch(_0x72d8e0){case _0x354ddf(0x25f):case _0x54c488[_0x354ddf(0x710)]:_0x214bd2[_0x354ddf(0x590)](_0x38a5d6,_0x54c488[_0x354ddf(0x616)](rushDec));break;case'CB':if(_0x3af3b7)_0x214bd2['set'](_0x38a5d6,_0x3a1e52?manCover(_0x3a1e52['id']):_0x54c488[_0x354ddf(0x47d)](zoneDrop,_0x4f4a8b));if(_0x4c984c)_0x214bd2['set'](_0x38a5d6,_0x5de3cc?manCover(_0x5de3cc['id']):_0x54c488[_0x354ddf(0x59b)](zoneDrop,_0x457ea3));break;case _0x54c488[_0x354ddf(0x446)]:_0x214bd2[_0x354ddf(0x590)](_0x38a5d6,_0x578cab?_0x54c488['RtfSr'](manCover,_0x578cab['id']):_0x54c488[_0x354ddf(0x6b0)](zoneDrop,_0x1cfb01));break;case _0x354ddf(0x3e5):case _0x354ddf(0x238):if(_0x3af3b7)_0x214bd2[_0x354ddf(0x590)](_0x38a5d6,_0x291f07?manCover(_0x291f07['id']):_0x54c488[_0x354ddf(0x15c)](zoneDrop,_0xe226c9));if(_0x4c984c)_0x214bd2[_0x354ddf(0x590)](_0x38a5d6,_0x4c1954?manCover(_0x4c1954['id']):_0x54c488[_0x354ddf(0x59b)](zoneDrop,_0x54c488[_0x354ddf(0x336)]));break;case _0x54c488[_0x354ddf(0x3fe)]:case _0x54c488['MyeyB']:case _0x54c488[_0x354ddf(0x1b5)]:_0x214bd2['set'](_0x38a5d6,_0x54c488[_0x354ddf(0x719)](zoneDrop,_0x354ddf(0x434)));break;case'SAF_W':_0x214bd2[_0x354ddf(0x590)](_0x38a5d6,zoneDrop(_0x354ddf(0x259)));break;}}),_0x214bd2;},'react'(_0x3170ee,_0x2d35c1,_0x3a9600,_0x48b733){const _0x16d246=_0x2e24de,_0x4c787e={'WQBxz':function(_0x2c2e55,_0x58cfc2){return _0x2c2e55===_0x58cfc2;},'hlFIx':function(_0x43d9c6,_0x4d64e9){return _0x43d9c6<=_0x4d64e9;},'FNTCP':function(_0x5db11b,_0x506cc5){return _0x5db11b===_0x506cc5;},'BGYst':function(_0x3bd182,_0x7c8f95){return _0x3bd182===_0x7c8f95;},'XPspg':_0x16d246(0x400),'doRWT':_0x16d246(0x4bb),'Sjfyb':_0x16d246(0x647),'Utmeh':_0x16d246(0x226),'zOJSc':function(_0x200b12,_0x30f89f){return _0x200b12===_0x30f89f;},'Sfwjd':function(_0x2fe6f4,_0x230106,_0x56fb84){return _0x2fe6f4(_0x230106,_0x56fb84);},'AysrH':function(_0x1eb2e7,_0x2fced5){return _0x1eb2e7(_0x2fced5);},'KDdWf':function(_0x278dc5,_0x4937f9,_0x252c16,_0x13def6,_0x2cb8cb){return _0x278dc5(_0x4937f9,_0x252c16,_0x13def6,_0x2cb8cb);},'yiKgj':function(_0x579edf,_0x2a2900){return _0x579edf===_0x2a2900;},'OIlyv':_0x16d246(0x459),'IYhYb':function(_0x43e063,_0x1d3f50){return _0x43e063(_0x1d3f50);},'rszNH':_0x16d246(0x2ac),'KvlSA':function(_0x365297,_0x29ba21){return _0x365297(_0x29ba21);},'yCQcx':function(_0x2b9799,_0x146ffc){return _0x2b9799(_0x146ffc);},'UeCRL':function(_0x25bd75,_0x148afd){return _0x25bd75(_0x148afd);},'LkrRm':_0x16d246(0x3e5),'fEIEr':function(_0x474d37,_0x2a132c){return _0x474d37(_0x2a132c);},'uHgaQ':function(_0x5595eb,_0x1ad5ba){return _0x5595eb(_0x1ad5ba);},'KBiKa':function(_0x5839ea,_0x1f2a5c){return _0x5839ea(_0x1f2a5c);},'XzFcR':function(_0x35bb6a,_0x150660){return _0x35bb6a(_0x150660);},'kQBMk':function(_0x53b260,_0x3b9bd4){return _0x53b260(_0x3b9bd4);},'trfmM':function(_0x4ab07c,_0x16bfe0){return _0x4ab07c(_0x16bfe0);},'vxFqM':function(_0x5ef386,_0x40df0a){return _0x5ef386!==_0x40df0a;},'kDihc':'stopped','OJyMN':function(_0x26eafc,_0x1a11e0){return _0x26eafc>_0x1a11e0;},'ssAdO':_0x16d246(0x434),'iHJvH':function(_0x166a8d,_0x37ff67){return _0x166a8d&&_0x37ff67;},'svdYx':function(_0x47b58c,_0x163821){return _0x47b58c>_0x163821;},'bdHwJ':function(_0x54aeff,_0x4509eb){return _0x54aeff(_0x4509eb);},'srtSt':function(_0xe14c6e,_0x166cc5){return _0xe14c6e===_0x166cc5;},'gnCtW':function(_0x28a8fc,_0x392104,_0x55a354){return _0x28a8fc(_0x392104,_0x55a354);},'zJiiP':_0x16d246(0x390),'McLmp':function(_0x3b4663,_0x24d026){return _0x3b4663(_0x24d026);},'YajOp':_0x16d246(0x259)};if(!_0x3a9600)return null;const _0x5be2f2=_0x3a9600['ballX'],_0x176621=_0x3a9600[_0x16d246(0x205)]||[],_0x8b9dc9=_0x3a9600[_0x16d246(0x479)]||null,_0x20fd8f=_0x176621['filter'](_0xe60d29=>_0xe60d29[_0x16d246(0x6c1)]==='L')[_0x16d246(0x6ab)],_0x561ddb=_0x176621['filter'](_0x298cfd=>_0x298cfd[_0x16d246(0x6c1)]==='R')[_0x16d246(0x6ab)],_0x5a9dad=_0x3a9600['coverageStrongSide']||(_0x20fd8f>=_0x561ddb?'L':'R'),_0x2afb1a=_0x4c787e['WQBxz'](_0x5a9dad,'L')?'R':'L',_0x30ce8c=snapAlignment[_0x3170ee['id']]?.['x']??(_0x3170ee[_0x16d246(0x79d)]??_0x3170ee['x']),_0x4f9fe2=_0x4c787e['hlFIx'](_0x30ce8c,_0x5be2f2)?'L':'R',_0x7f30e4=_0x2d35c1===_0x16d246(0x3e5)||_0x4c787e[_0x16d246(0x4db)](_0x2d35c1,_0x16d246(0x669))?'L':_0x4c787e[_0x16d246(0x5df)](_0x2d35c1,_0x16d246(0x238))||_0x2d35c1===_0x4c787e[_0x16d246(0x2ab)]?'R':_0x4f9fe2,_0x1fb94f=_0x4c787e[_0x16d246(0x5df)](_0x7f30e4,_0x5a9dad),_0x3daf92=_0x7f30e4===_0x2afb1a;function _0x213c40(_0x503194,_0xfe7c5c){const _0x1504c4=_0x16d246;return _0x176621['find'](_0x4058eb=>_0x4058eb[_0x1504c4(0x6c1)]===_0x503194&&_0x4058eb[_0x1504c4(0x4df)]===_0xfe7c5c)||null;}function _0x1c8b51(_0x4e8a92){return _0x4e8a92?_0x48b733[_0x4e8a92['id']]:null;}function _0xcaacfc(_0x55a7db){return isUnderRoute(_0x55a7db,_0x48b733);}function _0xc1dc26(_0x2da8e6){return isHitchRoute(_0x2da8e6,_0x48b733);}function _0x22cfad(_0x160967){return isOutRoute(_0x160967,_0x48b733);}function _0x4d39cd(_0x11ff6e){return isVerticalRoute(_0x11ff6e,_0x48b733);}const _0x123e52=_0x4c787e[_0x16d246(0x5df)](_0x5a9dad,'L')?'DEEP_L':_0x16d246(0x4fb),_0x3414fb=_0x4c787e[_0x16d246(0x364)](_0x2afb1a,'L')?_0x16d246(0x19e):_0x4c787e[_0x16d246(0x45a)],_0x20dff3=_0x5a9dad==='L'?_0x4c787e[_0x16d246(0x60d)]:_0x16d246(0x1d1),_0x449e9d=_0x5a9dad==='L'?_0x4c787e[_0x16d246(0x4f3)]:_0x16d246(0x198),_0x3edb87=_0x4c787e['zOJSc'](_0x5a9dad,'L')?_0x16d246(0x425):_0x16d246(0x2d8),_0x3a7a93=_0x4c787e[_0x16d246(0x1a1)](_0x213c40,_0x5a9dad,0x1),_0x1deda9=_0x213c40(_0x5a9dad,0x2),_0x23acf0=_0x213c40(_0x5a9dad,0x3),_0x3884be=_0x213c40(_0x2afb1a,0x1),_0x904e6c=!!(_0x23acf0&&(_0x4c787e[_0x16d246(0x67d)](_0x22cfad,_0x23acf0)||_0x4c787e['KDdWf'](isFlatRoute,_0x23acf0,_0x5a9dad,_0x48b733,_0x3a9600)));if(_0x4c787e[_0x16d246(0x4ad)](_0x2d35c1,'CB')&&_0x1fb94f){if(_0x3a7a93&&_0xcaacfc(_0x3a7a93))return persistentCovCalls[_0x16d246(0x274)]=!![],zoneDrop(_0x123e52);if(_0x4c787e['Sfwjd'](stickyOnce,_0x4c787e['OIlyv'],!!(_0x3a7a93&&_0xc1dc26(_0x3a7a93)))){if(_0x4c787e[_0x16d246(0x67d)](isStickyLocked,_0x16d246(0x459)))persistentCovCalls[_0x16d246(0x459)]=!![];return _0x4c787e[_0x16d246(0x395)](zoneDrop,_0x123e52);}return _0x3a7a93?_0x4c787e[_0x16d246(0x395)](manCover,_0x3a7a93['id']):zoneDrop(_0x123e52);}if(_0x2d35c1===_0x4c787e[_0x16d246(0x60b)]){if(_0x904e6c)return _0x1deda9?manCover(_0x1deda9['id']):_0x4c787e[_0x16d246(0x682)](zoneDrop,_0x449e9d);if(_0x23acf0&&_0xcaacfc(_0x23acf0)&&_0x3a7a93&&_0x4c787e[_0x16d246(0x42d)](_0xcaacfc,_0x3a7a93))return manCover(_0x3a7a93['id']);if(_0x23acf0&&_0xcaacfc(_0x23acf0))return zoneDrop(_0x449e9d);return _0x23acf0?_0x4c787e[_0x16d246(0x1eb)](manCover,_0x23acf0['id']):_0x4c787e['IYhYb'](zoneDrop,_0x449e9d);}if((_0x2d35c1===_0x4c787e[_0x16d246(0x4b3)]||_0x4c787e[_0x16d246(0x5df)](_0x2d35c1,_0x16d246(0x238)))&&_0x1fb94f){if(_0x904e6c)return _0x23acf0?_0x4c787e[_0x16d246(0x2b3)](manCover,_0x23acf0['id']):_0x4c787e[_0x16d246(0x714)](zoneDrop,_0x20dff3);if(persistentCovCalls[_0x16d246(0x459)])return _0x3a7a93?_0x4c787e[_0x16d246(0x437)](manCover,_0x3a7a93['id']):_0x4c787e['XzFcR'](zoneDrop,_0x123e52);if(_0x1deda9&&_0xcaacfc(_0x1deda9))return persistentCovCalls[_0x16d246(0x274)]=!![],zoneDrop(_0x3edb87);return _0x1deda9?manCover(_0x1deda9['id']):_0x4c787e[_0x16d246(0x2be)](zoneDrop,_0x20dff3);}if(_0x2d35c1==='HOOK-L'||_0x2d35c1===_0x16d246(0x400)||_0x2d35c1===_0x16d246(0x722)){const _0xa9d3ae=_0x4c787e[_0x16d246(0x73e)](_0x1c8b51,_0x8b9dc9),_0x306efb=_0xa9d3ae?.['vel']?.['x']??0x0,_0x3ed245=_0x4c787e[_0x16d246(0x3a8)](_0xa9d3ae?.[_0x16d246(0x71b)],_0x4c787e['kDihc']),_0x4be92e=!!(_0x8b9dc9&&_0x3ed245&&(_0x4c787e[_0x16d246(0x364)](_0x2afb1a,'L')?_0x306efb<0x0:_0x4c787e[_0x16d246(0x328)](_0x306efb,0x0))),_0x2ec3e7=!!(_0x8b9dc9&&_0x3ed245&&(_0x5a9dad==='L'?_0x306efb<0x0:_0x306efb>0x0)),_0x2b6cad=!!(_0x23acf0&&_0x4c787e[_0x16d246(0x714)](_0x4d39cd,_0x23acf0));if(_0x4be92e||persistentCovCalls[_0x16d246(0x390)]){const _0x49b6c0=[_0x3a7a93,_0x1deda9,_0x23acf0]['filter'](Boolean),_0x263528=_0x49b6c0['find'](_0x222fa6=>_0xcaacfc(_0x222fa6)&&!defensePlayers['some'](_0xab47bd=>_0xab47bd['id']!==_0x3170ee['id']&&_0xab47bd[_0x16d246(0x239)]?.[_0x16d246(0x5bb)]===_0x222fa6['id']));if(_0x263528)return _0x4c787e[_0x16d246(0x714)](manCover,_0x263528['id']);return _0x4c787e['trfmM'](zoneDrop,_0x4c787e[_0x16d246(0x6b1)]);}if(_0x4c787e[_0x16d246(0x474)](!_0x2b6cad,_0x2ec3e7)&&_0x4c787e[_0x16d246(0x208)](Math[_0x16d246(0x78a)](_0x306efb),0xa)&&_0x8b9dc9)return _0x4c787e[_0x16d246(0x16e)](manCover,_0x8b9dc9['id']);if(persistentCovCalls[_0x16d246(0x274)]){if(_0x1deda9&&_0xcaacfc(_0x1deda9))return manCover(_0x1deda9['id']);}return zoneDrop(_0x4c787e[_0x16d246(0x6b1)]);}if((_0x4c787e[_0x16d246(0x364)](_0x2d35c1,_0x16d246(0x3e5))||_0x4c787e[_0x16d246(0x327)](_0x2d35c1,_0x16d246(0x238)))&&_0x3daf92){if(_0x8b9dc9){const _0x1bf8c6=_0x1c8b51(_0x8b9dc9)?.[_0x16d246(0x6ae)]?.['x']??0x0,_0x1671a0=_0x4c787e[_0x16d246(0x3a8)](_0x1c8b51(_0x8b9dc9)?.['moveType'],_0x16d246(0x1d8)),_0x154529=_0x1671a0&&(_0x2afb1a==='L'?_0x1bf8c6<0x0:_0x4c787e[_0x16d246(0x328)](_0x1bf8c6,0x0));if(_0x4c787e[_0x16d246(0x3a6)](stickyOnce,_0x4c787e[_0x16d246(0x242)],_0x154529)){if(isStickyLocked(_0x4c787e['zJiiP']))persistentCovCalls['nbz3_rbLockWeak']=!![];return _0x4c787e[_0x16d246(0x42d)](manCover,_0x8b9dc9['id']);}}if(persistentCovCalls['nbz3_under']){if(_0x3a7a93&&_0xcaacfc(_0x3a7a93))return manCover(_0x3a7a93['id']);return zoneDrop(_0x4c787e['ssAdO']);}const _0x778b39=[_0x3a7a93,_0x1deda9,_0x23acf0]['filter'](Boolean),_0x4ebcbe=_0x778b39['find'](_0x4d32cf=>_0xcaacfc(_0x4d32cf)&&!defensePlayers[_0x16d246(0x57b)](_0x1c23f6=>_0x1c23f6['id']!==_0x3170ee['id']&&_0x1c23f6[_0x16d246(0x239)]?.[_0x16d246(0x5bb)]===_0x4d32cf['id']));if(_0x4ebcbe)return manCover(_0x4ebcbe['id']);return _0x4c787e['AysrH'](zoneDrop,_0x4c787e[_0x16d246(0x6b1)]);}if(_0x2d35c1==='CB'&&_0x3daf92)return _0x3884be?manCover(_0x3884be['id']):_0x4c787e[_0x16d246(0x5d5)](zoneDrop,_0x3414fb);if(_0x2d35c1==='SAF_W')return zoneDrop(_0x4c787e['YajOp']);return null;}},'cover3-robber-match-3x1':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x20be40,_0x15e5c4,_0x219971){const _0x47a4a7=_0x2e24de,_0x5686f3={'FLBvS':function(_0x17fcf,_0x419f16){return _0x17fcf===_0x419f16;},'hBOty':'HOOK-L','qNDuV':function(_0x339f3f,_0x2c44df){return _0x339f3f===_0x2c44df;},'nyLcb':function(_0x2bf2f9,_0x1644af){return _0x2bf2f9===_0x1644af;},'TGEIv':_0x47a4a7(0x400),'TAyXF':_0x47a4a7(0x25f),'RoFPT':function(_0x4199fb,_0xfec43c){return _0x4199fb(_0xfec43c);},'iICMN':function(_0x3110ec,_0x1883f8){return _0x3110ec(_0x1883f8);},'FlZFL':_0x47a4a7(0x2ac),'tBACx':_0x47a4a7(0x434),'rMjOI':_0x47a4a7(0x722),'beGmk':function(_0xe616b8,_0x33fc5c){return _0xe616b8(_0x33fc5c);},'wnWmL':function(_0x3822c4,_0x52a114){return _0x3822c4===_0x52a114;},'RVXtx':_0x47a4a7(0x3e8),'fzvoh':_0x47a4a7(0x4bb),'GHyQA':function(_0x40d4c1,_0x3cc01a){return _0x40d4c1===_0x3cc01a;},'vWtnr':function(_0x1d64ad,_0x2546a4,_0x1d5db6){return _0x1d64ad(_0x2546a4,_0x1d5db6);},'hNDIx':function(_0x22171c,_0x133e4f,_0x1a90c0){return _0x22171c(_0x133e4f,_0x1a90c0);}},_0x45a123=new Map();if(!_0x219971)return _0x45a123;const _0x10fb36=_0x219971[_0x47a4a7(0x1b2)],_0x1669fe=_0x219971[_0x47a4a7(0x205)]||[],_0x526da7=_0x219971[_0x47a4a7(0x479)]||null,_0x24d8e9=_0x1669fe[_0x47a4a7(0x427)](_0x142d1d=>_0x142d1d[_0x47a4a7(0x6c1)]==='L')[_0x47a4a7(0x6ab)],_0x8317a=_0x1669fe['filter'](_0x3e3aac=>_0x3e3aac[_0x47a4a7(0x6c1)]==='R')[_0x47a4a7(0x6ab)],_0x2fc42d=_0x219971[_0x47a4a7(0x1c0)]||(_0x24d8e9>=_0x8317a?'L':'R'),_0x8771e0=_0x2fc42d==='L'?'R':'L',_0x54a3ca=_0x5686f3['wnWmL'](_0x2fc42d,'L')?_0x5686f3[_0x47a4a7(0x2ea)]:'DEEP_R',_0x3504df=_0x8771e0==='L'?_0x47a4a7(0x19e):_0x5686f3[_0x47a4a7(0x642)],_0x80f1fe=_0x5686f3[_0x47a4a7(0x73b)](_0x2fc42d,'L')?_0x47a4a7(0x647):_0x47a4a7(0x1d1),_0x53e77b=_0x5686f3[_0x47a4a7(0x57a)](_0x2fc42d,'L')?_0x47a4a7(0x226):_0x47a4a7(0x198);function _0xffa2d5(_0x41b058,_0x55d937){const _0x20ffe3=_0x47a4a7;return _0x1669fe[_0x20ffe3(0x1b9)](_0x2f2147=>_0x2f2147[_0x20ffe3(0x6c1)]===_0x41b058&&_0x2f2147[_0x20ffe3(0x4df)]===_0x55d937)||null;}const _0x32175c=_0xffa2d5(_0x2fc42d,0x1),_0x472a7d=_0x5686f3[_0x47a4a7(0x536)](_0xffa2d5,_0x2fc42d,0x2),_0xcf8745=_0xffa2d5(_0x2fc42d,0x3),_0x503551=_0x5686f3[_0x47a4a7(0x450)](_0xffa2d5,_0x8771e0,0x1);return _0x20be40[_0x47a4a7(0x29e)]((_0x52b86a,_0x1980b9)=>{const _0x1ebe93=_0x47a4a7,_0x50e907=_0x15e5c4[_0x1ebe93(0x331)](_0x1980b9);if(!_0x50e907)return;const _0x1e57fe=_0x50e907['x']<=_0x10fb36?'L':'R',_0x171399=_0x52b86a===_0x1ebe93(0x3e5)||_0x5686f3['FLBvS'](_0x52b86a,_0x5686f3[_0x1ebe93(0x2a9)])?'L':_0x5686f3[_0x1ebe93(0x3d7)](_0x52b86a,'APEX-R')||_0x5686f3['nyLcb'](_0x52b86a,_0x5686f3['TGEIv'])?'R':_0x1e57fe,_0x13c0fa=_0x171399===_0x2fc42d,_0x18621e=_0x171399===_0x8771e0;switch(_0x52b86a){case _0x5686f3[_0x1ebe93(0x62f)]:case'UNDER':_0x45a123[_0x1ebe93(0x590)](_0x1980b9,rushDec());break;case'CB':if(_0x13c0fa)_0x45a123[_0x1ebe93(0x590)](_0x1980b9,_0x32175c?_0x5686f3['RoFPT'](manCover,_0x32175c['id']):zoneDrop(_0x54a3ca));if(_0x18621e)_0x45a123[_0x1ebe93(0x590)](_0x1980b9,_0x503551?_0x5686f3[_0x1ebe93(0x6af)](manCover,_0x503551['id']):_0x5686f3[_0x1ebe93(0x6af)](zoneDrop,_0x3504df));break;case _0x5686f3[_0x1ebe93(0x14a)]:_0x45a123[_0x1ebe93(0x590)](_0x1980b9,zoneDrop(_0x1ebe93(0x259)));break;case _0x1ebe93(0x3e5):case _0x1ebe93(0x238):if(_0x13c0fa)_0x45a123[_0x1ebe93(0x590)](_0x1980b9,_0x472a7d?_0x5686f3[_0x1ebe93(0x173)](manCover,_0x472a7d['id']):zoneDrop(_0x80f1fe));if(_0x18621e)_0x45a123[_0x1ebe93(0x590)](_0x1980b9,_0x526da7?_0x5686f3[_0x1ebe93(0x173)](manCover,_0x526da7['id']):zoneDrop(_0x5686f3[_0x1ebe93(0x4d8)]));break;case _0x5686f3[_0x1ebe93(0x2a9)]:case _0x1ebe93(0x400):case _0x5686f3['rMjOI']:_0x45a123[_0x1ebe93(0x590)](_0x1980b9,_0xcf8745?manCover(_0xcf8745['id']):zoneDrop(_0x53e77b));break;case'SAF_W':_0x45a123['set'](_0x1980b9,_0x5686f3['beGmk'](zoneDrop,_0x1ebe93(0x434)));break;}}),_0x45a123;},'react'(_0x544254,_0x32dc71,_0x3c127f,_0x54a362){const _0x45b41b=_0x2e24de,_0x28c300={'xsmWy':function(_0x145b32,_0x57466c){return _0x145b32>=_0x57466c;},'LzvTf':function(_0x19510a,_0x5b10f7){return _0x19510a===_0x5b10f7;},'KTTla':_0x45b41b(0x669),'YxxPg':_0x45b41b(0x238),'KtGvU':function(_0x10ac29,_0x26ce4a){return _0x10ac29===_0x26ce4a;},'mTXRd':_0x45b41b(0x400),'kgMtw':function(_0x532119,_0x3fb8d5){return _0x532119===_0x3fb8d5;},'OQiiy':_0x45b41b(0x4fb),'nVdbW':_0x45b41b(0x19e),'UeivW':_0x45b41b(0x4bb),'aINUb':function(_0x194da4,_0x2e09b5){return _0x194da4===_0x2e09b5;},'kMnAr':_0x45b41b(0x198),'kNecO':'FLAT_L','tEAnN':_0x45b41b(0x2d8),'IcWoy':function(_0x1bae24,_0x455b05,_0x9f771c){return _0x1bae24(_0x455b05,_0x9f771c);},'cpDcV':function(_0x51bf71,_0x1bd54f){return _0x51bf71(_0x1bd54f);},'Mceyy':_0x45b41b(0x1dc),'BorZo':function(_0x174426,_0x260081){return _0x174426(_0x260081);},'Zrqzi':function(_0x9134a7,_0x4faf9c){return _0x9134a7===_0x4faf9c;},'voZIg':_0x45b41b(0x722),'aHwKD':function(_0x99221d,_0x32f9a8){return _0x99221d(_0x32f9a8);},'ZiwSM':function(_0x4057de,_0x1276aa){return _0x4057de(_0x1276aa);},'tjZge':function(_0x33cf54,_0x5d05a9){return _0x33cf54(_0x5d05a9);},'PJaei':function(_0x99973d,_0x2eee54){return _0x99973d(_0x2eee54);},'SvVWw':function(_0x47a556,_0x3a92c3){return _0x47a556<_0x3a92c3;},'MindD':function(_0x50e52d,_0x53b434){return _0x50e52d>_0x53b434;},'yvKCq':function(_0x5bfdc6,_0x4886b1,_0x50c878){return _0x5bfdc6(_0x4886b1,_0x50c878);},'llenq':function(_0x502de9,_0x214ccf){return _0x502de9(_0x214ccf);},'MlryT':function(_0x391ae9,_0x5d0ecc){return _0x391ae9(_0x5d0ecc);},'ZdAsL':'HOOK_MIDDLE','Jfcfv':function(_0x3d5513,_0x1f894d){return _0x3d5513(_0x1f894d);},'RuxCm':function(_0x3cb15c,_0x5c70bb){return _0x3cb15c(_0x5c70bb);},'ZRaLT':function(_0x42bc24,_0x20e9d9){return _0x42bc24===_0x20e9d9;},'oIOLA':function(_0x29b0ee,_0x58e9ae){return _0x29b0ee(_0x58e9ae);},'IWtuJ':function(_0x52c146,_0x31d750){return _0x52c146!==_0x31d750;},'NYXJo':_0x45b41b(0x1d8),'wDWuF':function(_0x4504a4,_0x1fe4fa){return _0x4504a4&&_0x1fe4fa;},'kjePF':function(_0x40b5d8,_0x5af3bd){return _0x40b5d8<_0x5af3bd;},'qGNLR':function(_0x3b5962,_0x12453a){return _0x3b5962>_0x12453a;},'qxTzu':function(_0x519c23,_0x294cb4){return _0x519c23(_0x294cb4);},'eaQFd':function(_0x2478e0,_0x5d69f6){return _0x2478e0(_0x5d69f6);},'ogUjA':function(_0x1505c0,_0x582fa0){return _0x1505c0(_0x582fa0);}};if(!_0x3c127f)return null;const _0x4023b2=_0x3c127f[_0x45b41b(0x1b2)],_0x2ecb7=_0x3c127f[_0x45b41b(0x205)]||[],_0x249239=_0x3c127f[_0x45b41b(0x479)]||null,_0x497f8d=_0x2ecb7[_0x45b41b(0x427)](_0x4539bd=>_0x4539bd[_0x45b41b(0x6c1)]==='L')[_0x45b41b(0x6ab)],_0x52953e=_0x2ecb7[_0x45b41b(0x427)](_0x1dea3c=>_0x1dea3c[_0x45b41b(0x6c1)]==='R')['length'],_0x4beb22=_0x3c127f[_0x45b41b(0x1c0)]||(_0x28c300['xsmWy'](_0x497f8d,_0x52953e)?'L':'R'),_0x4d1265=_0x4beb22==='L'?'R':'L',_0x493bb2=snapAlignment[_0x544254['id']]?.['x']??(_0x544254[_0x45b41b(0x79d)]??_0x544254['x']),_0x41e8e3=_0x493bb2<=_0x4023b2?'L':'R',_0x431e90=_0x28c300[_0x45b41b(0x772)](_0x32dc71,_0x45b41b(0x3e5))||_0x32dc71===_0x28c300[_0x45b41b(0x6ff)]?'L':_0x32dc71===_0x28c300[_0x45b41b(0x253)]||_0x28c300['KtGvU'](_0x32dc71,_0x28c300[_0x45b41b(0x54d)])?'R':_0x41e8e3,_0x1a3799=_0x431e90===_0x4beb22,_0xf4cde3=_0x28c300[_0x45b41b(0x5c6)](_0x431e90,_0x4d1265);function _0x332e38(_0xf4cd6f,_0x5b03d1){const _0x3e5fa1=_0x45b41b;return _0x2ecb7[_0x3e5fa1(0x1b9)](_0x3f52f3=>_0x3f52f3[_0x3e5fa1(0x6c1)]===_0xf4cd6f&&_0x3f52f3['_receiverNumber']===_0x5b03d1)||null;}function _0x5823c1(_0x4e6f04){return _0x4e6f04?_0x54a362[_0x4e6f04['id']]:null;}function _0x361a73(_0x334859){return isUnderRoute(_0x334859,_0x54a362);}function _0x515748(_0x263de8){return isHitchRoute(_0x263de8,_0x54a362);}function _0x328659(_0x14e635){return isOutRoute(_0x14e635,_0x54a362);}function _0x4496a8(_0x154afd){return isVerticalRoute(_0x154afd,_0x54a362);}const _0x5177d6=_0x4beb22==='L'?'DEEP_L':_0x28c300[_0x45b41b(0x397)],_0x43db1b=_0x28c300['LzvTf'](_0x4d1265,'L')?_0x28c300[_0x45b41b(0x47f)]:_0x28c300[_0x45b41b(0x4f4)],_0x267613=_0x28c300['aINUb'](_0x4beb22,'L')?_0x45b41b(0x647):_0x45b41b(0x1d1),_0x421d53=_0x28c300['aINUb'](_0x4beb22,'L')?_0x45b41b(0x226):_0x28c300[_0x45b41b(0x3d5)],_0x4923c7=_0x28c300[_0x45b41b(0x249)](_0x4beb22,'L')?_0x28c300['kNecO']:_0x28c300['tEAnN'],_0x38e72d=_0x332e38(_0x4beb22,0x1),_0x56bdc1=_0x332e38(_0x4beb22,0x2),_0x1e9eb4=_0x28c300[_0x45b41b(0x28d)](_0x332e38,_0x4beb22,0x3),_0x3e25cb=_0x28c300[_0x45b41b(0x28d)](_0x332e38,_0x4d1265,0x1),_0x5f5cc6=!!(_0x1e9eb4&&(_0x328659(_0x1e9eb4)||isFlatRoute(_0x1e9eb4,_0x4beb22,_0x54a362,_0x3c127f)));if(_0x32dc71==='CB'&&_0x1a3799){if(_0x38e72d&&_0x28c300[_0x45b41b(0x266)](_0x361a73,_0x38e72d))return persistentCovCalls[_0x45b41b(0x634)]=!![],zoneDrop(_0x5177d6);if(stickyOnce(_0x28c300[_0x45b41b(0x439)],!!(_0x38e72d&&_0x28c300[_0x45b41b(0x266)](_0x515748,_0x38e72d)))){if(isStickyLocked(_0x28c300[_0x45b41b(0x439)]))persistentCovCalls['nrob3_smash']=!![];return zoneDrop(_0x5177d6);}return _0x38e72d?manCover(_0x38e72d['id']):zoneDrop(_0x5177d6);}if(_0x32dc71==='SAF_S')return _0x28c300[_0x45b41b(0x17a)](zoneDrop,'DEEP_MIDDLE');if((_0x28c300[_0x45b41b(0x513)](_0x32dc71,_0x45b41b(0x3e5))||_0x32dc71===_0x45b41b(0x238))&&_0x1a3799){if(_0x5f5cc6)return _0x1e9eb4?manCover(_0x1e9eb4['id']):zoneDrop(_0x267613);if(persistentCovCalls[_0x45b41b(0x1dc)])return _0x38e72d?manCover(_0x38e72d['id']):zoneDrop(_0x5177d6);if(_0x56bdc1&&_0x361a73(_0x56bdc1))return persistentCovCalls[_0x45b41b(0x634)]=!![],_0x28c300[_0x45b41b(0x266)](zoneDrop,_0x4923c7);return _0x56bdc1?_0x28c300['cpDcV'](manCover,_0x56bdc1['id']):zoneDrop(_0x267613);}if(_0x32dc71===_0x45b41b(0x669)||_0x32dc71===_0x28c300[_0x45b41b(0x54d)]||_0x32dc71===_0x28c300[_0x45b41b(0x2e1)]){if(_0x5f5cc6)return _0x56bdc1?_0x28c300['aHwKD'](manCover,_0x56bdc1['id']):zoneDrop(_0x421d53);if(_0x1e9eb4&&_0x361a73(_0x1e9eb4)&&_0x38e72d&&_0x28c300['ZiwSM'](_0x361a73,_0x38e72d))return manCover(_0x38e72d['id']);if(_0x1e9eb4&&_0x28c300[_0x45b41b(0x72d)](_0x361a73,_0x1e9eb4))return _0x28c300['tjZge'](zoneDrop,_0x421d53);return _0x1e9eb4?_0x28c300[_0x45b41b(0x53a)](manCover,_0x1e9eb4['id']):zoneDrop(_0x421d53);}if((_0x32dc71===_0x45b41b(0x3e5)||_0x32dc71===_0x45b41b(0x238))&&_0xf4cde3){if(_0x249239){const _0x1cdfc4=_0x28c300[_0x45b41b(0x72d)](_0x5823c1,_0x249239)?.['vel']?.['x']??0x0,_0x396f04=_0x5823c1(_0x249239)?.['moveType']!=='stopped',_0xeeaa0d=_0x396f04&&(_0x4d1265==='L'?_0x28c300[_0x45b41b(0x702)](_0x1cdfc4,0x0):_0x28c300[_0x45b41b(0x21b)](_0x1cdfc4,0x0));if(_0x28c300['yvKCq'](stickyOnce,_0x45b41b(0x308),_0xeeaa0d)){if(isStickyLocked(_0x45b41b(0x308)))persistentCovCalls['nrob3_rbLockWeak']=!![];return manCover(_0x249239['id']);}}if(persistentCovCalls['nrob3_under']){if(_0x38e72d&&_0x361a73(_0x38e72d))return _0x28c300['llenq'](manCover,_0x38e72d['id']);return _0x28c300[_0x45b41b(0x51f)](zoneDrop,_0x28c300[_0x45b41b(0x2e7)]);}const _0x257c89=[_0x38e72d,_0x56bdc1,_0x1e9eb4]['filter'](Boolean),_0x1d8433=_0x257c89[_0x45b41b(0x1b9)](_0x32900c=>_0x361a73(_0x32900c)&&!defensePlayers[_0x45b41b(0x57b)](_0x53da60=>_0x53da60['id']!==_0x544254['id']&&_0x53da60['decision']?.['focusTargetId']===_0x32900c['id']));if(_0x1d8433)return _0x28c300[_0x45b41b(0x2d1)](manCover,_0x1d8433['id']);return _0x28c300[_0x45b41b(0x5a0)](zoneDrop,_0x45b41b(0x434));}if(_0x28c300[_0x45b41b(0x270)](_0x32dc71,'CB')&&_0xf4cde3)return _0x3e25cb?_0x28c300['MlryT'](manCover,_0x3e25cb['id']):_0x28c300[_0x45b41b(0x148)](zoneDrop,_0x43db1b);if(_0x28c300['Zrqzi'](_0x32dc71,'SAF_W')){const _0x46b69c=_0x5823c1(_0x249239),_0x22db96=_0x46b69c?.[_0x45b41b(0x6ae)]?.['x']??0x0,_0x1f7fcb=_0x28c300[_0x45b41b(0x701)](_0x46b69c?.['moveType'],_0x28c300[_0x45b41b(0x3fc)]),_0x2913d3=!!(_0x28c300[_0x45b41b(0x215)](_0x249239,_0x1f7fcb)&&(_0x4d1265==='L'?_0x28c300['SvVWw'](_0x22db96,0x0):_0x28c300['MindD'](_0x22db96,0x0))),_0xe07fe=!!(_0x249239&&_0x1f7fcb&&(_0x4beb22==='L'?_0x28c300[_0x45b41b(0x77a)](_0x22db96,0x0):_0x28c300[_0x45b41b(0x1dd)](_0x22db96,0x0))),_0x46cb90=!!(_0x1e9eb4&&_0x4496a8(_0x1e9eb4));if(_0x2913d3||persistentCovCalls[_0x45b41b(0x308)]){const _0x390b4c=[_0x38e72d,_0x56bdc1,_0x1e9eb4][_0x45b41b(0x427)](Boolean),_0x232b44=_0x390b4c[_0x45b41b(0x1b9)](_0x25185f=>_0x361a73(_0x25185f)&&!defensePlayers[_0x45b41b(0x57b)](_0x205f38=>_0x205f38['id']!==_0x544254['id']&&_0x205f38[_0x45b41b(0x239)]?.[_0x45b41b(0x5bb)]===_0x25185f['id']));if(_0x232b44)return _0x28c300[_0x45b41b(0x587)](manCover,_0x232b44['id']);return _0x28c300['eaQFd'](zoneDrop,_0x28c300[_0x45b41b(0x2e7)]);}if(!_0x46cb90&&_0xe07fe&&_0x28c300[_0x45b41b(0x21b)](Math[_0x45b41b(0x78a)](_0x22db96),0xa)&&_0x249239)return manCover(_0x249239['id']);if(persistentCovCalls[_0x45b41b(0x634)]){if(_0x56bdc1&&_0x28c300[_0x45b41b(0x6ea)](_0x361a73,_0x56bdc1))return manCover(_0x56bdc1['id']);}return zoneDrop(_0x45b41b(0x434));}return null;}},'cover3-weak-match-3x1':{'fullField':!![],'isOneHigh':![],'alignment':{'CB':{'cbSpacing':_0x2e24de(0x4be),'cbShade':_0x2e24de(0x377)}},'decide'(_0x37f501,_0x294607,_0x7e9bc9){const _0x1d493f=_0x2e24de,_0x204e1d={'xnPVM':function(_0x5683be,_0x650742){return _0x5683be===_0x650742;},'LBruB':_0x1d493f(0x3e5),'yRzzU':_0x1d493f(0x669),'wJOfD':function(_0x37af05,_0x22e720){return _0x37af05===_0x22e720;},'LYLhP':_0x1d493f(0x238),'adHIS':_0x1d493f(0x400),'YOIwo':function(_0xc8a36b,_0x5582c6){return _0xc8a36b===_0x5582c6;},'ecwIL':_0x1d493f(0x25f),'EtWnS':'UNDER','laUvr':function(_0x91718d,_0x29efb6){return _0x91718d(_0x29efb6);},'NpeGK':_0x1d493f(0x2ac),'cxbmn':function(_0x12a455,_0x18eea2){return _0x12a455(_0x18eea2);},'ASrQu':_0x1d493f(0x434),'FKpaf':_0x1d493f(0x722),'ebkce':_0x1d493f(0x23b),'iuLBB':function(_0xaeca8d,_0x427a84){return _0xaeca8d===_0x427a84;},'wSoFD':function(_0x3e54ed,_0x388af8,_0x174c2c){return _0x3e54ed(_0x388af8,_0x174c2c);},'GBWuJ':function(_0x25f79a,_0x7ea4b9,_0x3d6492){return _0x25f79a(_0x7ea4b9,_0x3d6492);}},_0x289b40=new Map();if(!_0x7e9bc9)return _0x289b40;const _0x4f9c5a=_0x7e9bc9[_0x1d493f(0x1b2)],_0x1dc5a1=_0x7e9bc9['eligiblePlayers']||[],_0x522a7a=_0x7e9bc9[_0x1d493f(0x479)]||null,_0x218f3d=_0x1dc5a1[_0x1d493f(0x427)](_0x4ece6a=>_0x4ece6a[_0x1d493f(0x6c1)]==='L')[_0x1d493f(0x6ab)],_0x4d5fd2=_0x1dc5a1[_0x1d493f(0x427)](_0xd48b85=>_0xd48b85[_0x1d493f(0x6c1)]==='R')[_0x1d493f(0x6ab)],_0x324c86=_0x7e9bc9[_0x1d493f(0x1c0)]||(_0x218f3d>=_0x4d5fd2?'L':'R'),_0x5806b2=_0x324c86==='L'?'R':'L',_0x24e64d=_0x324c86==='L'?'DEEP_L':_0x1d493f(0x4fb),_0x54d74b=_0x204e1d[_0x1d493f(0x3ce)](_0x5806b2,'L')?_0x1d493f(0x19e):_0x1d493f(0x4bb),_0x4a0bea=_0x204e1d[_0x1d493f(0x19d)](_0x324c86,'L')?_0x1d493f(0x647):_0x1d493f(0x1d1),_0x80e6da=_0x324c86==='L'?_0x1d493f(0x226):'HOOK_CURL_R';function _0x47d647(_0x232b4a,_0x12aed7){const _0x193ead=_0x1d493f;return _0x1dc5a1['find'](_0x1bb0ad=>_0x1bb0ad[_0x193ead(0x6c1)]===_0x232b4a&&_0x1bb0ad[_0x193ead(0x4df)]===_0x12aed7)||null;}const _0x38c9bf=_0x47d647(_0x324c86,0x1),_0x3e4094=_0x204e1d[_0x1d493f(0x347)](_0x47d647,_0x324c86,0x2),_0x15f64c=_0x204e1d[_0x1d493f(0x631)](_0x47d647,_0x324c86,0x3),_0xf21444=_0x47d647(_0x5806b2,0x1);return _0x37f501[_0x1d493f(0x29e)]((_0x449940,_0x235226)=>{const _0x5bb6e8=_0x1d493f,_0x3ed40d=_0x294607[_0x5bb6e8(0x331)](_0x235226);if(!_0x3ed40d)return;const _0x4ac158=_0x3ed40d['x']<=_0x4f9c5a?'L':'R',_0x443415=_0x204e1d[_0x5bb6e8(0x66d)](_0x449940,_0x204e1d[_0x5bb6e8(0x4bf)])||_0x449940===_0x204e1d['yRzzU']?'L':_0x204e1d[_0x5bb6e8(0x5e2)](_0x449940,_0x204e1d['LYLhP'])||_0x449940===_0x204e1d[_0x5bb6e8(0x39a)]?'R':_0x4ac158,_0x33c829=_0x204e1d[_0x5bb6e8(0x19d)](_0x443415,_0x324c86),_0x5dd1c2=_0x204e1d[_0x5bb6e8(0x5e2)](_0x443415,_0x5806b2);switch(_0x449940){case _0x204e1d[_0x5bb6e8(0x6d6)]:case _0x204e1d[_0x5bb6e8(0x4d9)]:_0x289b40[_0x5bb6e8(0x590)](_0x235226,rushDec());break;case'CB':if(_0x33c829)_0x289b40['set'](_0x235226,_0x38c9bf?manCover(_0x38c9bf['id']):zoneDrop(_0x24e64d));if(_0x5dd1c2)_0x289b40[_0x5bb6e8(0x590)](_0x235226,_0xf21444?manCover(_0xf21444['id']):_0x204e1d[_0x5bb6e8(0x32c)](zoneDrop,_0x54d74b));break;case _0x204e1d[_0x5bb6e8(0x4b5)]:_0x289b40['set'](_0x235226,zoneDrop('DEEP_MIDDLE'));break;case _0x5bb6e8(0x3e5):case _0x204e1d[_0x5bb6e8(0x64c)]:if(_0x33c829)_0x289b40['set'](_0x235226,_0x3e4094?_0x204e1d[_0x5bb6e8(0x3f8)](manCover,_0x3e4094['id']):zoneDrop(_0x4a0bea));if(_0x5dd1c2)_0x289b40[_0x5bb6e8(0x590)](_0x235226,zoneDrop(_0x204e1d[_0x5bb6e8(0x435)]));break;case'HOOK-L':case'HOOK-R':case _0x204e1d[_0x5bb6e8(0x1b0)]:_0x289b40[_0x5bb6e8(0x590)](_0x235226,_0x15f64c?manCover(_0x15f64c['id']):zoneDrop(_0x80e6da));break;case _0x204e1d[_0x5bb6e8(0x3e1)]:_0x289b40[_0x5bb6e8(0x590)](_0x235226,_0x522a7a?manCover(_0x522a7a['id']):zoneDrop('HOOK_MIDDLE'));break;}}),_0x289b40;},'react'(_0x4c71b8,_0x3dd20f,_0x24a0e0,_0x24c453){const _0x1614cb=_0x2e24de,_0x242d60={'SnwDg':function(_0x4bddc3,_0x26e57e,_0x825d04){return _0x4bddc3(_0x26e57e,_0x825d04);},'KUnzf':function(_0x4c68aa,_0x144dc8,_0x21a14a){return _0x4c68aa(_0x144dc8,_0x21a14a);},'jaRfy':function(_0xe2ed57,_0x50fcfa,_0x23d4f4){return _0xe2ed57(_0x50fcfa,_0x23d4f4);},'zTets':function(_0x34e5a9,_0x43a81f){return _0x34e5a9===_0x43a81f;},'tWQNO':function(_0xe70e4e,_0x222f50){return _0xe70e4e===_0x222f50;},'RbvNs':_0x1614cb(0x238),'nKjEb':_0x1614cb(0x19e),'WBPVk':_0x1614cb(0x4bb),'JdESo':_0x1614cb(0x647),'ANyTM':_0x1614cb(0x1d1),'JAjTU':_0x1614cb(0x226),'jBtBk':'HOOK_CURL_R','aKsiV':_0x1614cb(0x425),'FffkV':_0x1614cb(0x2d8),'YBBaL':function(_0x41b558,_0x3051d9,_0x147ca6){return _0x41b558(_0x3051d9,_0x147ca6);},'iWwes':function(_0x474ed5,_0xac8a29){return _0x474ed5(_0xac8a29);},'goZXp':function(_0x4fc870,_0x1fe09c){return _0x4fc870(_0x1fe09c);},'alQus':function(_0x495d46,_0x4969e5,_0x50b2f4){return _0x495d46(_0x4969e5,_0x50b2f4);},'MzDDg':_0x1614cb(0x1f6),'kdsqP':'APEX-L','WauIN':function(_0x519afc,_0x531bb3){return _0x519afc(_0x531bb3);},'RNuHc':function(_0x8a175b,_0x110ee5){return _0x8a175b(_0x110ee5);},'ADHaA':_0x1614cb(0x669),'QRDfn':_0x1614cb(0x722),'qjmZz':function(_0x52ae6b,_0x27e2e9){return _0x52ae6b(_0x27e2e9);},'YgeSU':function(_0x1c8b7c,_0x23d0b9){return _0x1c8b7c(_0x23d0b9);},'FAOJO':_0x1614cb(0x1d8),'kLhqH':function(_0x39b649,_0x3eb215){return _0x39b649&&_0x3eb215;},'CJTsM':function(_0x198b44,_0x2e04ce){return _0x198b44<_0x2e04ce;},'XRsnP':function(_0xa160f7,_0x5a0943){return _0xa160f7(_0x5a0943);},'aORPw':function(_0x1a77ee,_0x233b34){return _0x1a77ee(_0x233b34);},'zRoKL':_0x1614cb(0x23b),'BNVbO':function(_0x19c0b8,_0x3da305){return _0x19c0b8(_0x3da305);}};if(!_0x24a0e0)return null;const _0x2be458=_0x24a0e0[_0x1614cb(0x1b2)],_0x4d31f8=_0x24a0e0[_0x1614cb(0x205)]||[],_0x4cd61c=_0x24a0e0[_0x1614cb(0x479)]||null,_0x5e51c4=_0x4d31f8[_0x1614cb(0x427)](_0x733cb4=>_0x733cb4[_0x1614cb(0x6c1)]==='L')[_0x1614cb(0x6ab)],_0x5da3e3=_0x4d31f8[_0x1614cb(0x427)](_0x530c4b=>_0x530c4b[_0x1614cb(0x6c1)]==='R')[_0x1614cb(0x6ab)],_0x3edc14=_0x24a0e0['coverageStrongSide']||(_0x5e51c4>=_0x5da3e3?'L':'R'),_0x390007=_0x242d60[_0x1614cb(0x36a)](_0x3edc14,'L')?'R':'L',_0x281c0a=snapAlignment[_0x4c71b8['id']]?.['x']??(_0x4c71b8[_0x1614cb(0x79d)]??_0x4c71b8['x']),_0x59cded=_0x281c0a<=_0x2be458?'L':'R',_0x5e50f4=_0x242d60[_0x1614cb(0x36a)](_0x3dd20f,_0x1614cb(0x3e5))||_0x242d60[_0x1614cb(0x36a)](_0x3dd20f,'HOOK-L')?'L':_0x242d60[_0x1614cb(0x735)](_0x3dd20f,_0x242d60['RbvNs'])||_0x3dd20f==='HOOK-R'?'R':_0x59cded,_0x3f3077=_0x5e50f4===_0x3edc14,_0x304755=_0x5e50f4===_0x390007;function _0x5165cd(_0x5164ed,_0x43eb8d){const _0x482ed2=_0x1614cb;return _0x4d31f8[_0x482ed2(0x1b9)](_0x1b8af0=>_0x1b8af0[_0x482ed2(0x6c1)]===_0x5164ed&&_0x1b8af0[_0x482ed2(0x4df)]===_0x43eb8d)||null;}function _0x59b344(_0x44f792){return _0x44f792?_0x24c453[_0x44f792['id']]:null;}function _0x322c10(_0x56fe07){const _0x47122d=_0x1614cb;return _0x242d60[_0x47122d(0x5c3)](isUnderRoute,_0x56fe07,_0x24c453);}function _0x3c7554(_0x2007a5){const _0x5f295c=_0x1614cb;return _0x242d60[_0x5f295c(0x52a)](isHitchRoute,_0x2007a5,_0x24c453);}function _0x495175(_0x3c5af3){const _0x3bbac5=_0x1614cb;return _0x242d60[_0x3bbac5(0x5c3)](isOutRoute,_0x3c5af3,_0x24c453);}function _0x414e25(_0x203287){const _0x59477b=_0x1614cb;return _0x242d60[_0x59477b(0x6b6)](isVerticalRoute,_0x203287,_0x24c453);}const _0x5e41e1=_0x242d60[_0x1614cb(0x36a)](_0x3edc14,'L')?_0x1614cb(0x3e8):_0x1614cb(0x4fb),_0x830376=_0x390007==='L'?_0x242d60['nKjEb']:_0x242d60['WBPVk'],_0x4ac64e=_0x242d60[_0x1614cb(0x36a)](_0x3edc14,'L')?_0x242d60['JdESo']:_0x242d60[_0x1614cb(0x178)],_0x4891cf=_0x242d60['tWQNO'](_0x3edc14,'L')?_0x242d60['JAjTU']:_0x242d60[_0x1614cb(0x2b8)],_0x1653e0=_0x3edc14==='L'?_0x242d60[_0x1614cb(0x362)]:_0x242d60[_0x1614cb(0x789)],_0x3594e1=_0x5165cd(_0x3edc14,0x1),_0x387744=_0x5165cd(_0x3edc14,0x2),_0x5c1225=_0x5165cd(_0x3edc14,0x3),_0x5c19e5=_0x242d60[_0x1614cb(0x1bc)](_0x5165cd,_0x390007,0x1),_0x1f1564=!!(_0x5c1225&&(_0x242d60[_0x1614cb(0x629)](_0x495175,_0x5c1225)||isFlatRoute(_0x5c1225,_0x3edc14,_0x24c453,_0x24a0e0)));if(_0x242d60[_0x1614cb(0x36a)](_0x3dd20f,'CB')&&_0x3f3077){if(_0x3594e1&&_0x242d60[_0x1614cb(0x214)](_0x322c10,_0x3594e1))return persistentCovCalls[_0x1614cb(0x426)]=!![],zoneDrop(_0x5e41e1);if(_0x242d60['alQus'](stickyOnce,_0x242d60[_0x1614cb(0x477)],!!(_0x3594e1&&_0x3c7554(_0x3594e1)))){if(_0x242d60['iWwes'](isStickyLocked,_0x1614cb(0x1f6)))persistentCovCalls[_0x1614cb(0x1f6)]=!![];return zoneDrop(_0x5e41e1);}return _0x3594e1?manCover(_0x3594e1['id']):_0x242d60[_0x1614cb(0x629)](zoneDrop,_0x5e41e1);}if(_0x242d60['zTets'](_0x3dd20f,_0x1614cb(0x2ac)))return zoneDrop('DEEP_MIDDLE');if((_0x3dd20f===_0x242d60['kdsqP']||_0x242d60[_0x1614cb(0x36a)](_0x3dd20f,'APEX-R'))&&_0x3f3077){if(_0x1f1564)return _0x5c1225?manCover(_0x5c1225['id']):zoneDrop(_0x4ac64e);if(persistentCovCalls[_0x1614cb(0x1f6)])return _0x3594e1?manCover(_0x3594e1['id']):zoneDrop(_0x5e41e1);if(_0x387744&&_0x242d60[_0x1614cb(0x193)](_0x322c10,_0x387744))return persistentCovCalls[_0x1614cb(0x426)]=!![],_0x242d60[_0x1614cb(0x214)](zoneDrop,_0x1653e0);return _0x387744?_0x242d60['RNuHc'](manCover,_0x387744['id']):zoneDrop(_0x4ac64e);}if(_0x3dd20f===_0x242d60[_0x1614cb(0x5d0)]||_0x3dd20f===_0x1614cb(0x400)||_0x3dd20f===_0x242d60[_0x1614cb(0x375)]){if(_0x1f1564)return _0x387744?_0x242d60[_0x1614cb(0x317)](manCover,_0x387744['id']):_0x242d60[_0x1614cb(0x629)](zoneDrop,_0x4891cf);if(_0x5c1225&&_0x322c10(_0x5c1225)&&_0x3594e1&&_0x242d60['WauIN'](_0x322c10,_0x3594e1))return manCover(_0x3594e1['id']);if(_0x5c1225&&_0x242d60[_0x1614cb(0x629)](_0x322c10,_0x5c1225))return _0x242d60[_0x1614cb(0x728)](zoneDrop,_0x4891cf);return _0x5c1225?manCover(_0x5c1225['id']):zoneDrop(_0x4891cf);}if((_0x3dd20f===_0x1614cb(0x3e5)||_0x3dd20f==='APEX-R')&&_0x304755){const _0x44abcc=_0x59b344(_0x4cd61c),_0x18f15a=_0x44abcc?.[_0x1614cb(0x6ae)]?.['x']??0x0,_0x2d60fb=_0x44abcc?.[_0x1614cb(0x71b)]!==_0x242d60[_0x1614cb(0x5b3)],_0x5198cf=!!(_0x242d60[_0x1614cb(0x49c)](_0x4cd61c,_0x2d60fb)&&(_0x390007==='L'?_0x18f15a<0x0:_0x18f15a>0x0)),_0x2069eb=!!(_0x4cd61c&&_0x2d60fb&&(_0x3edc14==='L'?_0x242d60[_0x1614cb(0x78c)](_0x18f15a,0x0):_0x18f15a>0x0)),_0x1c74b9=!!(_0x5c1225&&_0x414e25(_0x5c1225));if(_0x5198cf||persistentCovCalls[_0x1614cb(0x49d)]){const _0x14ecba=[_0x3594e1,_0x387744,_0x5c1225][_0x1614cb(0x427)](Boolean),_0x509ad0=_0x14ecba['find'](_0x54b024=>_0x322c10(_0x54b024)&&!defensePlayers['some'](_0x472009=>_0x472009['id']!==_0x4c71b8['id']&&_0x472009[_0x1614cb(0x239)]?.[_0x1614cb(0x5bb)]===_0x54b024['id']));if(_0x509ad0)return _0x242d60[_0x1614cb(0x214)](manCover,_0x509ad0['id']);return _0x242d60[_0x1614cb(0x193)](zoneDrop,_0x1614cb(0x434));}if(!_0x1c74b9&&_0x2069eb&&Math[_0x1614cb(0x78a)](_0x18f15a)>0xa&&_0x4cd61c)return _0x242d60[_0x1614cb(0x627)](manCover,_0x4cd61c['id']);if(persistentCovCalls[_0x1614cb(0x426)]){if(_0x387744&&_0x242d60[_0x1614cb(0x51d)](_0x322c10,_0x387744))return manCover(_0x387744['id']);}return zoneDrop(_0x1614cb(0x434));}if(_0x3dd20f==='CB'&&_0x304755)return _0x5c19e5?manCover(_0x5c19e5['id']):zoneDrop(_0x830376);if(_0x242d60['tWQNO'](_0x3dd20f,_0x242d60[_0x1614cb(0x47e)])){if(_0x4cd61c){const _0x32e756=_0x242d60[_0x1614cb(0x317)](_0x59b344,_0x4cd61c)?.[_0x1614cb(0x6ae)]?.['x']??0x0,_0x4c9288=_0x242d60['aORPw'](_0x59b344,_0x4cd61c)?.[_0x1614cb(0x71b)]!==_0x242d60[_0x1614cb(0x5b3)],_0x5c0e8c=_0x4c9288&&(_0x390007==='L'?_0x242d60[_0x1614cb(0x78c)](_0x32e756,0x0):_0x32e756>0x0);if(_0x242d60['alQus'](stickyOnce,'nwk3_rbLockWeak',_0x5c0e8c)){if(_0x242d60[_0x1614cb(0x193)](isStickyLocked,_0x1614cb(0x49d)))persistentCovCalls['nwk3_rbLockWeak']=!![];return _0x242d60[_0x1614cb(0x707)](manCover,_0x4cd61c['id']);}}if(persistentCovCalls['nwk3_under']){if(_0x3594e1&&_0x242d60[_0x1614cb(0x728)](_0x322c10,_0x3594e1))return _0x242d60[_0x1614cb(0x629)](manCover,_0x3594e1['id']);return _0x242d60[_0x1614cb(0x629)](zoneDrop,'HOOK_MIDDLE');}const _0x454112=[_0x3594e1,_0x387744,_0x5c1225]['filter'](Boolean),_0x54f70f=_0x454112[_0x1614cb(0x1b9)](_0x242964=>_0x322c10(_0x242964)&&!defensePlayers[_0x1614cb(0x57b)](_0x5decd6=>_0x5decd6['id']!==_0x4c71b8['id']&&_0x5decd6[_0x1614cb(0x239)]?.['focusTargetId']===_0x242964['id']));if(_0x54f70f)return manCover(_0x54f70f['id']);return _0x242d60['BNVbO'](zoneDrop,'HOOK_MIDDLE');}return null;}}},PRESET_REGISTRY={..._PR_BASE,..._PR_COVER3,..._PR_SIDE,..._PR_SIDE2,..._PR_FULLFIELD};function patchEmptySnapshot(_0x5bc4d0){const _0x3959ca=_0x2e24de,_0x4af8f5={'UCBQQ':function(_0x36f066,_0x3b452a){return _0x36f066(_0x3b452a);},'gnJSf':function(_0x3eea6,_0x9f3f2e){return _0x3eea6!==_0x9f3f2e;},'EyqSs':function(_0x3c91ca,_0x28c662){return _0x3c91ca===_0x28c662;}};if(!_0x5bc4d0)return _0x5bc4d0;if(_0x5bc4d0[_0x3959ca(0x479)])return _0x5bc4d0;const _0x115902=_0x4af8f5[_0x3959ca(0x2a0)](getFormationRead,_0x5bc4d0)['formation'];if(_0x4af8f5[_0x3959ca(0x4e2)](_0x115902,_0x3959ca(0x3f2)))return _0x5bc4d0;const _0x5104f3=_0x5bc4d0[_0x3959ca(0x1c0)]||'R',_0x3c2982=_0x4af8f5[_0x3959ca(0x709)](_0x5104f3,'L')?'R':'L',_0x545ba4=(_0x5bc4d0[_0x3959ca(0x205)]||[])[_0x3959ca(0x1b9)](_0x57ed25=>_0x57ed25[_0x3959ca(0x6c1)]===_0x3c2982&&_0x57ed25[_0x3959ca(0x4df)]===0x2);if(!_0x545ba4)return _0x5bc4d0;return Object[_0x3959ca(0x58b)]({},_0x5bc4d0,{'primaryBackfield':_0x545ba4});}function _0x3560(){const _0x9db260=['KFiAj','KJqGb','VBiwe','HOOK-M','GjzaW','ckeBl','cw3_underS_cb','PtoBY','crob_underS','YgeSU','yRTAt','RYLUy','BnGDt','RrcUY','aHwKD','YjLre','tqBtL','uNCMP','kJEHe','dbtZA','ObuuL','nWvsM','tWQNO','LufOc','ciiUE','nrob_smashS','eQOxz','aaqLh','GHyQA','PRvrc','dOqet','trfmM','UltzT','zbjKZ','RWgfm','WHzdl','QnmCX','fniaU','xmWUH','KgaXQ','BItBf','vcPBc','iiTbz','JiZgE','HOOK_R','nwk2_underW_cb','GTKTu','ALhZB','XnGFn','HDvVx','SnCSS','SBNjt','JSRAq','cw3_smashStrong','inBZZ','thNpT','initPos','mljEA','YCSRC','AaMZS','nsk2new_rbWeakDecided','Ysyzz','ngyUU','UVhQW','UMODZ','reduce','SEIOq','hEfnE','QWyve','GlFaD','UqJTv','wKoNQ','qnFJv','crob_pushWeak','dPAkp','OpDVf','nGweK','uimHm','vlPuo','qPjOb','CzcVO','qsrjP','aReeT','LzvTf','zrCxZ','BFlTu','hLamd','yUbqc','nrob_underW_cb','LlOAz','ZBFTU','kjePF','rdIoa','zxWdO','iPome','ezgMN','NVYwj','MdXDt','WYJME','ALyLl','qzhgV','tecZS','qlFoE','cw3_hook_r1w','FUITQ','YXlIa','FffkV','abs','KbYnt','CJTsM','gfBiC','IDOiJ','QlvdC','KXlJg','phFob','oLCiB','pLuss','mdfxV','ifLrC','WxCrI','sLgvU','kPBVj','xIkpR','MEAcC','cs_smashW','yEZWD','simX','iOSId','LkTrT','BOtXC','HgTED','bRIXT','cbz2_rbWeakDecided','eziUZ','RvaTN','vgphl','oIOLA','zzYes','FlZFL','jrIQO','vGoWZ','crob_rbWeakDecided','DPwqT','iYfkO','CxPHn','cSrih','BVHVj','vyNMW','fIpib','TuVMW','cpebR','nrob_underS','fGsqv','MKqzD','RnDEO','nOVQx','TUuTt','PqEds','XIkxi','cwm_underS','sVjFJ','XLHJi','PlcFW','nbz2_underW_wa','cs3_cross_r1s','RwRmJ','tCrTw','SbvAY','qDXgM','Pvslb','CSSAE','lUOBk','nzFNe','XDtAd','bdHwJ','mvswN','Dyzit','aiiRa','ott','RoFPT','sYPhu','bHuOj','iCYyT','WJpSL','ANyTM','FnYTF','BorZo','crob_underS_cb','Bllkd','QPKKX','ksTeA','cfrhd','sfsDW','VKojK','UEKQr','cwm_pushWeak','JyLvS','XDclW','SGfVc','soZgM','wVCpS','vXOmq','Arhrp','VaZNK','bzm_smashW','CURL_L','akmMg','McsHz','Inwsh','akiov','NYNHq','WauIN','OqkdT','lnwAY','OdETH','qObfZ','HOOK_CURL_R','XkzoQ','SUzpl','jKLIJ','NIULb','YOIwo','DEEP_HALF_L','utcvX','nwk2_smashS','Sfwjd','VHvHo','fIgys','HlAyu','BvgrH','LOpWI','hpsoU','llFpM','crob_rbStrongDecided','ZWedB','cwm_pushStrong','hiJdQ','IrWoU','NwLqX','qaooE','FKpaf','oTEQL','ballX','bgfos','jNRIk','jEiZJ','xelsS','imYcP','GRgCe','find','diuVi','bzm_rbStrongDecided','YBBaL','PCCqG','eaXNy','jjIPf','coverageStrongSide','MCVcr','dxLrB','lsUMJ','t2m3_hookR3Vert','cs_underW_cb','fZxUj','881936qAgdVe','qGaqu','nsk2new_underW_cb','lJxjY','KtPnp','ASDvD','crob_sfwCrosserId','sebSs','KgKjw','PTQZR','CURL_FLAT_R','zsChX','aBwpo','gVsjl','waZOa','uZepg','TzXlM','stopped','ZQWik','eFeqk','cbz2_rbStrongDecided','nrob3_smash','qGNLR','JZGyz','bsqKv','ryVWw','QzYep','JRwlL','iFGlu','dSzVr','mufm_rbGlobal_strong','fEjvM','BKSTk','avTEI','aCmfM','BImUg','UeCRL','NexJG','wiIaz','BndhZ','zzXXy','ClZGT','rujjo','ZvYZM','BYipT','lzqOx','bzm_underS','nwk3_smash','SSlDU','euqOp','KgyrQ','IJAbM','xfLmi','ByNLv','ojZRi','BwqJc','nITFj','nTTbL','TJnTG','JuTAy','DURVP','YjFvG','eligiblePlayers','uzRqw','FgcLC','svdYx','dkLZI','EHblo','PiIfi','KGSYL','LlaNA','zhxoG','ZIVot','FfIwW','CDYQd','rsxll','cw_smashStrong','goZXp','wDWuF','lcefT','WalGB','zygWK','CvoZW','cbmue','MindD','DfBec','UhalM','PLnzt','pXzjE','csb_underW_cb','SBTEG','QjcAa','qJzFd','Ilgms','GbEGx','HOOK_CURL_L','khIpj','CURL_R','FvDgv','ROWEb','bzm_final3Weak','KuOhG','WpnIa','UAPgd','cwm_rbWeakDecided','mufm_rbStrongDecided','YEgly','MndGa','zHXTd','GIgjW','crob_rbGlobal_strong','fewKg','mufm_underW','APEX-R','decision','xAfHg','SAF_W','ckLXl','jPyAJ','cwm_underS_cb','DKafl','CFpOB','UBbak','zJiiP','GIday','ohEcI','vIKoc','kiGDR','OZiff','nrob_rbGlobal_strong','KtGvU','QrqDf','MDBIL','mUxaX','fZHLF','PRsLB','bQXaV','teuXS','Bjiis','mskKh','YxxPg','pos','max','LuPma','vLXAp','krTGk','DEEP_MIDDLE','lYTPB','HHNDB','HOmVK','crob_smashW','wZlcu','RUSH','xgnXY','GHzhs','xTfXl','bzm_underW_wa','mSerx','fAWCm','cpDcV','WKZPi','cXXIO','UWXJO','AVouS','NXyMb','BIQbK','Hiqgg','ccNhE','t2m3_fsR1Vert','ZRaLT','yXAvm','uTcgE','cw3_rbWeak_wa','nbz3_under','RTKLU','WqRdh','WZcQC','qaCOP','xgRRi','MiBEl','DEEP_QRTR_L','HmNpe','NGIKt','HYMiW','JQjRb','MoTNJ','KaPGq','oSGwE','jegXf','YrtZP','fjUQt','eIErH','mPPZg','UFbLj','jYtzi','rUSUX','press','yBJwv','IcWoy','SGwDZ','kNTuL','eeQkx','lWWiE','fxguX','Vvxbt','YyzdW','pMaqn','HYtiJ','PRBNX','nkvKR','bzm_rbWeakDecided','yAEvg','ELiHs','yIHsb','iylyI','forEach','zasqO','UCBQQ','omERd','iKSyy','c2mb_rbReleased','RcThK','YTzpy','EYdUu','YauAo','ITvPm','hBOty','cUISg','XPspg','SAF_S','MuYRD','lastDecisionChangeAt','ugyyE','UIYWc','DmmPD','bXtHS','fEIEr','cw_underS_sa','aWDvO','CASZq','QmDjn','jBtBk','biksI','1133334HATLCI','NHGYa','jAyCD','eGCPX','kQBMk','cbz2_ssCrosserId','pZDTF','LQrsq','eeBRH','xGveM','4945OvjFCk','IRkLp','lehBL','dLWLy','csb_underWeak','WdfBi','jsBzj','fwUny','DMDAG','htuMo','GRUYr','JqtwJ','mufm_hookCrosserId','Jfcfv','cPUCT','OuuPX','qHQHq','EVEjn','nrob_underW_wa','LuyYD','FLAT_R','crossedMiddleNow','lddTC','DediV','mmmeS','vDlmf','NRUZG','eoZxP','iaZwG','voZIg','mufm_pushWeak','japbk','KMmXe','GCYtM','UJvIl','ZdAsL','oXcZK','hZJjC','RVXtx','gUnlB','KLpsZ','XgEuC','wtTdA','yqQJo','cw3_hook_r3u','thKpU','nlHsr','Zskbq','aQnJO','nsk2_underS_cb','eGmeo','nsk2new_smashW','SZPGI','ZOsvr','hUDGJ','cs_underW_wa','JJReS','XNPdp','t2m3_ssR2OTT','MFuYU','HgMri','nwk2_rbGlobal_strong','hSrVX','WAwNK','qSuAs','vqQbu','HVFcT','mufm_apexCrosserId','nrob3_rbLockWeak','cw3_smashS','yHBhs','XHbSL','YSWNK','JAYyF','nwk2_underW','PhExv','MvxUs','rTtZj','lrPQD','zDqcZ','XBXVO','daYWP','PtEyJ','qjmZz','jUGiG','nsk2new_underS_cb','cw_underStrong','YYoOJ','gawoP','dXfrS','fjayG','kbtxO','VeVWR','nfoER','XfRNp','CwVMC','OvLex','MDyVx','JNRdJ','srtSt','OJyMN','cXNlK','EWZxS','RqLOE','laUvr','Zyovy','LkXpp','cGchS','ynhVm','get','qVirG','tZPUp','UuOmI','KbARn','rdaym','tIxtW','hYqQc','QmYEs','FQmyp','fUZBV','gQbib','vlUeV','sYycS','PHvnj','euAld','eUwSq','SuQLD','cbz2_underW','cbz2_underS_cb','IPbfA','MkUzx','wSoFD','XlHHt','jGJlZ','FsDiE','gmczY','hXhas','cjxBy','VNzKd','AlkTw','voCCW','nbNhS','AGRZw','GYvtw','paUZL','itsRv','wVrxx','rEMCp','pLqKm','jYidr','PxHEs','TnFmf','xTegM','WvFYM','BdpCr','cvojd','PymFj','KtAXM','aKsiV','xlcXK','WQBxz','nsk2new_underW','t2m3x1_fsTookId','apSgt','qKRlh','nsky_under','zTets','nsk2new_underS_ss','KFTdr','wnrdq','cwm_underW_cb','IsvtX','abJhX','undefined','edCcq','ltxsE','uGbHj','QRDfn','sxLCo','normal','iibAM','3exVvjo','iRAHv','eaCHp','VdpLn','_shadedLandmarkPos','whdHj','hKmXa','zOCoN','NzeMw','zfcBt','1262910ijqiRx','cw3_push_hook','nsk2_underW','WJCEF','orzXT','hrzCw','kVIVx','hekzo','HvIJj','bIHpc','RLOMC','BqAYY','pXDKl','nbz3_rbLockWeak','QmGtg','BWMGj','Gcnvl','ZbFhE','IYhYb','nbz2_underS_sa','OQiiy','wmkIP','DEEP_QRTR_R','adHIS','yeIat','LCAOc','lQlZD','nxxwp','Xulxr','SuOtH','iaLrJ','t2m3_ssR1Vert','DHEzn','plhBJ','nsk2new_underW_wa','gnCtW','mieKS','vxFqM','qtAFm','nomld','ADOml','RNEHn','NOeGk','DYYVv','cwm_underS_sa','kPdqI','pLmKh','UpHTT','zLqYl','ncdhP','fqJSQ','bzm_rbGlobal_strong','uVMeS','nsk2new_rbStrongDecided','Bkrna','tiBSI','YcNlW','jwySL','BqNUC','LgMUZ','jayBR','tQKAs','mOpFz','uIOkh','iQZEK','xXSDZ','cs_hook_crosser','BarhW','sAYYZ','Rqakr','BnFHR','cwm_rbStrongDecided','UXUqi','JCIJR','xGfCn','iuLBB','nVvcQ','cbz2_underS','IKDEE','cw3_3up_wa','crob_pushStrong','uAfLb','kMnAr','DHjSY','qNDuV','OqzrY','oAjYC','GFhUC','UXbqz','5927250GEQhQt','AxoNZ','GCehd','oIydM','Rwvmh','ebkce','iQnhl','wdPnh','Gvarr','APEX-L','TQuvu','Hcwmb','DEEP_L','vqGoo','yACvL','NMWll','FoIEc','pclNX','sPrOZ','GhxIt','EYvtx','YIuTI','empty','kZecT','crob_smashS','cbz2_pushStrong','fEPZt','EgBnu','cxbmn','nsk2new_pushStrong','aglaY','qSoZU','NYXJo','ScXXY','nZiQa','GqDHm','HOOK-R','wZnEC','oDdHN','dhFAE','uUOmx','t2m3x1_ssTookId','HYElA','pzSjW','hVenK','mmNOc','lNFHs','QXVRg','JmoPi','nYulE','llOmv','KnfPG','NgEzo','UWkjX','xEPso','WgZoe','qYtUR','VbbuN','BdQEu','TUVsZ','PzWyI','bzm_underW','function','nsk2new_pushWeak','nXCtU','aRFVp','nwk2_underS_sa','pioQv','zagZU','ZVakY','cw3_hook_crosser','nFSvL','rvDwA','FLAT_L','nwk3_under','filter','VjYTB','dAUrn','Gaeyz','UZtCc','Bplpz','yCQcx','IvDgS','LRHQr','lChKu','nrob_underW','ApYjl','rtSDo','HOOK_MIDDLE','ASrQu','icBeq','KBiKa','VBeoE','Mceyy','YVXAX','kqrDe','YdVmI','SXQZP','RgeFS','SLJcF','VlPVy','GmQyc','WiLUc','MOyOd','YTpJu','AzNAb','nUFlx','fvrsq','FHihS','untuW','VeEqX','ADpyh','AGbIg','eUnuz','volQH','llSYC','hNDIx','HqGDK','cs3_fs_r2s','rgqGY','itWSJ','oOmJg','vCNdN','MMDwA','QzZpG','nbz3_smash','doRWT','NrBcD','nwk2_underS','HslIx','ahaha','gYGHY','9nXbqWR','nsk2_underW_cb','YTYHU','dYWfG','Ujcyg','mEazD','CbOky','KcSEZ','ArrlG','AykVw','QqTSc','aNnBu','DhmFW','nrob_underS_sa','McuYC','VTTwy','oIMcd','mufm_rbWeakDecided','Kqgky','min','iHJvH','syDhf','uDsSk','MzDDg','tadFQ','primaryBackfield','RKasK','QMVPe','wNDGO','dyNCN','zRoKL','nVdbW','oaLdQ','nsky_rbLockWeak','YEuJj','DcFZT','YJuHC','cw_rbStrong_sa','TTxED','FAcnB','SJuij','CbyeO','EfQpp','CXTAC','YwBbx','tClbB','JstBT','HuNBn','dqplF','gHZsw','zWAOa','nmYHs','DUHIj','WArhH','252123VIfSYK','nsk2_smashW','EjgXK','WxvAG','twzhG','jYoTD','kLhqH','nwk3_rbLockWeak','JiJbb','pMDXF','kXEPG','inside','RbUkx','cw_smashS','LvcPF','JPicg','IFmwz','NfsJY','cw3_hook_r3v','zjVVh','IAHEc','uksDC','jMBzY','yiKgj','KeDnG','ASPma','SVIip','IpYKg','mLxid','LkrRm','EfTmc','NpeGK','zmaOZ','uYpII','UJstk','VSxNk','cbz2_smashW','DEEP_HALF_R','reLct','iTVtG','off','LBruB','nDXPg','cw_hook_crosser','eTgvL','dfjKI','boiGb','mufm_underS','aiaGv','GGmUA','EXVZt','iSudY','uCHKw','wJZnq','cwm_smashW','ArcwU','hjoxv','CpqUJ','ortEO','wfHms','amHir','VlXOg','RaKOJ','IlZXQ','IniSY','cwm_hookCrosserId','tBACx','EtWnS','aLAqp','FNTCP','mufm_underW_wa','DPmFo','IgEeY','_receiverNumber','WhprJ','UYCkZ','gnJSf','tKFjB','gHjON','nbz2_underW_cb','VWCDU','sTyii','cbz2_smashS','okMZk','FsFRt','cw3_push_sa','Lytka','vtThg','zrsPW','UNDER','pTqFf','KinrM','t2m3_hookTookId','Utmeh','UeivW','MVWwH','tixQQ','UtPJm','OIvPQ','DssYj','DqiMM','DEEP_R','aZQuS','PJgzP','crob_underW','cbz2_rbGlobal_strong','cbz2_underW_cb','nbz2_underW','vvrya','rYFNx','HHvXy','TdUvA','Sxaea','pCUDl','PaNlp','xKHCy','CeFlH','KUrKH','cRXGQ','PrKtQ','errJk','ZyIQv','wWJhx','crob_underW_wa','BtwNs','Zrqzi','ZwrKz','QmcJy','cbz2_underW_wa','mPCau','VjqTw','fVbey','NAonh','NNKdA','rnPUu','aORPw','LNAos','MlryT','CKGOK','UYdDn','zOxOx','cs_smashWeak','IgzGc','OwCSK','XBVHt','xEuJx','nwk2_underS_cb','lfUMI','KUnzf','bzm_pushStrong','Cwpxy','MNpfO','lQqbO','SzJsY','KQcNn','GgjRS','oOceS','cs_underWeak','TCZCf','TzRVV','vWtnr','dIXyq','aaCUd','PJOzq','PJaei','DLNYE','cs3_under_r1s_sa','scgdP','JWRkE','JIJHO','jGtEE','NSoth','RnFYY','abZvU','HHQOb','ijXkk','xITJo','agtjF','iQQAZ','kTlrQ','NNKZr','iVilb','LxSpW','mTXRd','mufm_underW_cb','SAUxK','IawDV','WPNdo','XGFTP','dKOPU','JJYBk','oxFzn','SoNLJ','QryHf','ExJuC','WtbaR','pIvUl','YaEPl','kdpbC','cwm_smashS','JFGcN','PtbUZ','jXIXL','mdDRh','ZhCFt','BDEHR','whHfG','sglGV','LdICR','dBNFS','XfvDi','LUCLv','FVCck','UBgyp','AbIyh','uoUtI','wpewL','GjpHA','rNNBB','bzm_underW_cb','cs_rbStrong_sa','RDdpv','RhpPc','cw3_underS_sa','KVUAp','JTlSP','CQxmQ','WgDPA','FLBvS','some','jodRC','IIbwz','gOBhV','PbSne','uoiDF','jHcMX','EeOoX','t2m3_ssTookKind','CAHYZ','yePkI','SpeNQ','qxTzu','nsk2_underS','VmitE','WkHAi','assign','nNxhf','CEzrj','qEdPR','qcPQJ','set','lhdou','t2m3_ssTookId','DCjtn','eSEJW','fDVqw','Brbfa','4604OujTsx','vvnBM','cWXla','mufm_underS_ss','PREFJ','hUMwX','uFxJh','t2m3_ssR3OTT','BYMru','RuxCm','PLpAk','zVAjS','VcDZp','fvyOs','DsYFv','pNflF','kkxCa','DsWtz','ArCqc','nsky_smash','NCLLx','AKRhH','JmtmL','mufm_smashS','UtVlG','SQvEQ','UPAIm','QkiOv','FAOJO','DYKyT','ZsafY','ptyRu','LolvH','yVGQN','JJJyS','VhZuq','focusTargetId','TsNuQ','zhanO','simY','9219048DJexqX','JlENq','JRkdF','zhkAE','SnwDg','IeALd','woQPd','kgMtw','tYUWd','lDBEw','DmYVX','qVQTH','MCULj','dtxgC','tmeKo','kpjpL','xCPkI','ADHaA','LdxFZ','nsk2_smashS','ZDyRD','EFkoZ','McLmp','JlkZX','Fkitp','AGYMr','tOsVa','Ufmcd','klCji','crob_underS_sa','nsk2new_underS','ECSnr','BGYst','tGYuy','nsk2new_rbGlobal_strong','wJOfD','owXNd','DIQez','QDDRa','eVKfn','bzm_smashS','FFWtj','lbmaE','nussw','WkabD','qYGLu','nsk2new_smashS','csb_smashWeak','tqdpD','xMiYG','XmEhR','Tjsen','nbz2_smashW','CetOl','PwIyL','MbKKs','MZtym','QTVXJ','KSfPF','vkgOr','wjucm','follow','pPyyj','SXcSS','LMUtq','KzQqW','cwm_underW','LgKZU','YaiXR','csb_underW_wa','Ddjyo','VpJTA','cLckv','dRTMU','EIpmQ','rXHMs','rszNH','Cxzus','Sjfyb','wgeOe','mufm_pushStrong','oipot','blgxd','vJtZg','lQoUZ','Pqsak','ZMdLW','tWSMS','wKTEn','QAnRA','hzQxH','JxPRC','bcioV','ukSjc','HFuJa','QIusR','pYlVh','HOOK_L','tuYyM','TaFjx','cw3_underStrong','man','qbHjU','jhiKQ','XRsnP','PznVG','iWwes','YmCZe','hMSDQ','oWFPR','DtzOC','BudtJ','TAyXF','TrNwq','GBWuJ','RMoBL','XwQjV','nrob3_under','FrAhS','ZnOCP','zuhSC','KsQAZ','QFrvl','QeyBu','ZdjYu','jnvlc','jAvEh','AzcVU','ndbZI','nbz2_rbGlobal_strong','bzm_ssCrosserId','fzvoh','uWzBT','vujSO','UQBYL','stEBD','CURL_FLAT_L','NxAAl','YiIFK','pCUux','GZjml','LYLhP','cbz2_underS_sa','ZLfJG','JIwPe','Koszn','t2m3_fsTookId','Yfpjm','bAFfR','rNJPe','nbz2_smashS','yOeEf','nGups','LPaZe','GTkOl','hAoIa','TeOTa','PWrbk','kVSQj','depthYards','huMBz','XVSfl','BGHqB','lMDQx','XMmWF','uKQvV','yMYjj','nsk2_rbGlobal_strong','UhbLT','cw_underS_cb','HOOK-L','MueLP','UTulP','FvJqx','xnPVM','cYtHl','ABpMp','mufm_smashW','tpXWF','GVswd','DKopj','EDXvr','AobcZ','nwk2_smashW','WNsXw','IfQwK','DZrul','JqOsS','HIJFp','HxASG','AysrH','YsZvw','BDJXe','sGHoc','tnjRS','KvlSA','igRmO','gapLR','bzm_underS_sa','PYvTH','XIdID','GdwJc','csb_smashW','quVpf','IPqRV','TIXty','cone_backsideUnderSwitched','oRFJz','hypot','OtCxx','KhwNR','nbz2_underS_cb','iaQYs','OEZJC','lceYT','mKxYC','hxDzs','xDeol','ZKruN','VjOcm','xxKoy','WLtPZ','XHRUb','Onvyg','HQdda','nwk2_underW_sw','QqODe','PkAYH','yKzhY','nrob_smashW','WyfAu','YOeqP','nrob_underS_cb','uWcFR','JLjzJ','IDDwT','length','KJboN','iZGkp','vel','iICMN','VoAts','ssAdO','howdX','mufm_underS_cb','fEAFk','LjmMI','jaRfy','WbofR','HHaTp','KZomZ','MSUUB','IgJJq','BPFrg','FFIiR','LDMTB','cbz2_hookCrosserId','EVvFZ','_side','WMtYG','adfkZ','cs_rbWeak_wa','gtefR','GbTFz','cwm_waCrosserId','Squfw','lqfdV','WSnOs','hRzpz','oBsIS','hkpYN','nbUHz','dUdLM','vZcML','QVsHC','ZkbLL','dclUX','YcSyg','inKiS','ecwIL','bAUBQ','JoMzO','bllwY','DZywI','zZAuT','UEYzN','svSCY','cwm_underW_sw','gAGPD','QLgvR','fsZkG','oGSrd','Uzjbd','GUYam','yUOYj','qukkV','ANEfu','KhGYF','gRqNH','ogUjA','aImuT','Hjnxc','sIQpF','xKMti','OxEfo','rDuvB','NobTl','zLssz','SMecV','mode','wDUfs','VHQHz','oPAqB','cpohk','FcHRZ','kCvNv','VHGVI','iHNIR','qslGI','uIqPb','KTTla','vIHJu','IWtuJ','SvVWw','iaxyV','pQxON','PrYvb','nmANd','RNuHc','mPrHV','EyqSs','bzm_hookCrosserId','cwm_rbGlobal_strong','xLONP','LUsej','uMLWA','KzYov','pRDTZ','dbRyp','mgKQj','nbz2_underS','uHgaQ','gfIPj','qfyOH','uaAZK','llBEE','MRHJC','ODtuB','moveType','cbz2_pushWeak','bzm_pushWeak','fCCBE'];_0x3560=function(){return _0x9db260;};return _0x3560();}
+// ── PRESET REGISTRY PART D: Backside (3x1) + Full-Field Coverages ───
+// C2M-backside, Cover 3 Cloud variants
+// Also assembles the complete PRESET_REGISTRY from all parts.
+
+const _PR_FULLFIELD = {
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 2 Man — Backside (3x1 only) ──────────────────────────────
+  // Owns: Weak CB, Weak Apex, FS
+  // 2-high. No factory — direct RB reference.
+  // CB: man #1w
+  // Apex: man RB if released, else zone hook middle
+  // FS: deep half weak
+  'cover2man-backside': {
+    fullField: false,
+    isOneHigh: false,
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepHW     = weakSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1w = rec(weakSide, 1);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'CB':
+            if (isWeak) result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepHW));
+            break;
+          case 'APEX-L': case 'APEX-R':
+            if (isWeak) result.set(id, zoneDrop('HOOK_MIDDLE'));
+            break;
+          case 'SAF_W':
+            result.set(id, zoneDrop(deepHW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)      { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function isReleased(p)  { return isReleasedRoute(p, lrState); }
+
+      const deepHW = weakSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const r1w    = rec(weakSide, 1);
+
+      // ── a. Weak Corner — man #1 ───────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        return r1w ? manCover(r1w.id) : null;
+      }
+
+      // ── b. Weak Apex — RB released → man RB, else hook middle ─────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (!persistentCovCalls.c2mb_rbReleased && rb && isReleased(rb)) {
+          persistentCovCalls.c2mb_rbReleased = true;
+        }
+        if (persistentCovCalls.c2mb_rbReleased && rb) return manCover(rb.id);
+        return zoneDrop('HOOK_MIDDLE');
+      }
+
+      // ── c. FS — deep half weak ────────────────────────────────────
+      if (role === 'SAF_W') {
+        return zoneDrop(deepHW);
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cone — Backside (3x1 only) ─────────────────────────────────────
+  // Owns: Weak CB, Weak Apex, FS
+  // 2-high.
+  // CB: press inside man #1w; if #1 under → bail deep quarter
+  // Apex: man RB if released weak/vertical; else take strong-side under crosser
+  // FS: man #1w
+  'cone-backside': {
+    fullField: false,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'press', cbShade: 'inside' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepQW     = weakSide === 'L' ? 'DEEP_QRTR_L' : 'DEEP_QRTR_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1w = rec(weakSide, 1);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'CB':
+            if (isWeak) result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepQW));
+            break;
+          case 'APEX-L': case 'APEX-R':
+            if (isWeak) result.set(id, zoneDrop('HOOK_MIDDLE'));
+            break;
+          case 'SAF_W':
+            result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepQW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)      { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)          { return p ? lrState[p.id] : null; }
+      function isUnder(p)     { return isUnderRoute(p, lrState); }
+      function isReleased(p)  { return isReleasedRoute(p, lrState); }
+      function isVertical(p)  { return isVerticalRoute(p, lrState); }
+
+      const deepQW = weakSide === 'L' ? 'DEEP_QRTR_L' : 'DEEP_QRTR_R';
+      const r1w    = rec(weakSide, 1);
+
+      // ── a. Weak Corner — man #1; #1 under → bail deep quarter ─────
+      if (role === 'CB' && isWeak) {
+        if (stickyOnce('cone_backsideUnderSwitched', !!(r1w && isUnder(r1w)))) return zoneDrop(deepQW);
+        return r1w ? manCover(r1w.id) : zoneDrop(deepQW);
+      }
+
+      // ── b. Weak Apex — RB released weak/vert → man RB; else take strong under crosser ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (rb && isReleased(rb)) {
+          const rbLr = lr(rb);
+          const rbVx = rbLr?.vel?.x ?? 0;
+          const rbGoingWeak = weakSide === 'L' ? rbVx < 0 : rbVx > 0;
+          if (rbGoingWeak || isVertical(rb)) return manCover(rb.id);
+        }
+        // RB not going weak/vert — pick up strong-side under crosser
+        const strongRecs = eligible.filter(p => p._side === strongSide);
+        const crosser = strongRecs.find(p => isUnder(p));
+        if (crosser) return manCover(crosser.id);
+        return zoneDrop('HOOK_MIDDLE');
+      }
+
+      // ── c. FS — man #1w ───────────────────────────────────────────
+      if (role === 'SAF_W') {
+        return r1w ? manCover(r1w.id) : zoneDrop(deepQW);
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Cloud Strong 3×1 (Full Field, 3x1 only) ───────────────
+  // Cloud side = Strong (Trips). Corner plays flat, SS plays deep third strong.
+  // Weak side = simple man. FS = deep middle.
+  // No persistentCovCalls needed — all live reads.
+  'cover3-cloud-strong-3x1-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'normal', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const flatS      = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookS      = strongSide === 'L' ? 'HOOK_L' : 'HOOK_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: flat defender
+          case 'CB':
+            if (isStrong) result.set(id, zoneDrop(flatS));
+            // f. Weak Corner: man #1w
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(hookCurlW));
+            break;
+          // b. Strong Apex: man #2s
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(hookCurlS));
+            // e. Weak Apex: hook-curl zone (waits for RB)
+            if (isWeak)   result.set(id, zoneDrop(hookCurlW));
+            break;
+          // d. Hook: man #3s
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, r3s ? manCover(r3s.id) : zoneDrop(hookS));
+            break;
+          // c. Strong Safety: deep third strong
+          case 'SAF_S':
+            result.set(id, zoneDrop(deepTS));
+            break;
+          // g. Free Safety: deep middle
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)      { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)          { return p ? lrState[p.id] : null; }
+      function isVertical(p)  { return isDeepVertical(p, lrState); }
+      function isReleased(p)  { return isReleasedRoute(p, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const flatS     = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookS     = strongSide === 'L' ? 'HOOK_L' : 'HOOK_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+      const allRec = eligible;
+
+      // ── a. Strong Corner — first to flat; #1s not under → rob #1s; else flat zone ──
+      if (role === 'CB' && isStrong) {
+        const flatRec = getFlatReceiver(strongSide, allRec, snapshot, lrState);
+        if (flatRec) return manCover(flatRec.id);
+        if (r1s && !isUnderRoute(r1s, lrState)) return manCover(r1s.id);
+        return zoneDrop(flatS);
+      }
+
+      // ── b. Strong Apex — man #2s; #2s flat → hook-curl zone ───────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r2s && isFlatRoute(r2s, strongSide, lrState, snapshot)) {
+          return zoneDrop(hookCurlS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── c. Strong Safety — deep third strong; #1s vertical → man ──
+      if (role === 'SAF_S') {
+        if (r1s && isVertical(r1s)) return manCover(r1s.id);
+        return zoneDrop(deepTS);
+      }
+
+      // ── d. Hook — man #3s; #3s flat → hook zone; #3s vertical → hook zone ──
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        if (r3s && isFlatRoute(r3s, strongSide, lrState, snapshot)) return zoneDrop(hookS);
+        if (r3s && isVertical(r3s)) return zoneDrop(hookS);
+        return r3s ? manCover(r3s.id) : zoneDrop(hookS);
+      }
+
+      // ── e. Weak Apex — RB released weak → man RB; else hook-curl ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (rb && isReleased(rb)) {
+          const rbVx = lr(rb)?.vel?.x ?? 0;
+          const rbGoingWeak = weakSide === 'L' ? rbVx < 0 : rbVx > 0;
+          if (rbGoingWeak) return manCover(rb.id);
+        }
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── f. Weak Corner — man #1w ──────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        return r1w ? manCover(r1w.id) : null;
+      }
+
+      // ── g. Free Safety — deep middle; #2 depth; #1 in-breaking ────
+      if (role === 'SAF_W') {
+        const d2s = lr(r2s)?.depthYards ?? 0;
+        const d2w = lr(r2w)?.depthYards ?? 0;
+        const deep2s = r2s && d2s >= 9;
+        const deep2w = r2w && d2w >= 9;
+        if (deep2s && deep2w) return zoneDrop('DEEP_MIDDLE');
+        if (deep2s) return manCover(r2s.id);
+        if (deep2w) return manCover(r2w.id);
+        if (r1s && isVertInsideRoute(r1s, lrState)) return manCover(r1s.id);
+        if (r1w && isVertInsideRoute(r1w, lrState)) return manCover(r1w.id);
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Cloud Weak 3×1 (Full Field, 3x1 only) ─────────────────
+  // Mirror of Cloud Strong 3×1: Cloud side = Weak, Man side = Strong.
+  // Weak CB plays flat. SS plays deep third weak. Strong CB plays man #1s.
+  // No persistentCovCalls needed — all live reads.
+  'cover3-cloud-weak-3x1-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'normal', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const flatW      = weakSide   === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookS      = strongSide === 'L' ? 'HOOK_L' : 'HOOK_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Weak Corner: flat defender (cloud side)
+          case 'CB':
+            if (isWeak)   result.set(id, zoneDrop(flatW));
+            // f. Strong Corner: man #1s (man side)
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(hookCurlS));
+            break;
+          // b. Strong Apex: man #2s with flat read
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(hookCurlS));
+            // e. Weak Apex: hook-curl zone (waits for RB)
+            if (isWeak)   result.set(id, zoneDrop(hookCurlW));
+            break;
+          // d. Hook: man #3s
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, r3s ? manCover(r3s.id) : zoneDrop(hookS));
+            break;
+          // c. Strong Safety: deep middle
+          case 'SAF_S':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          // g. Weak Safety: deep third weak (cloud side)
+          case 'SAF_W':
+            result.set(id, zoneDrop(deepTW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)      { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)          { return p ? lrState[p.id] : null; }
+      function isVertical(p)  { return isDeepVertical(p, lrState); }
+      function isReleased(p)  { return isReleasedRoute(p, lrState); }
+
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const flatW     = weakSide   === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookS     = strongSide === 'L' ? 'HOOK_L' : 'HOOK_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+      const allRec = eligible;
+
+      // ── a. Weak Corner — flat defender; #1w not under → rob #1w; else flat zone ──
+      if (role === 'CB' && isWeak) {
+        const flatRec = getFlatReceiver(weakSide, allRec, snapshot, lrState);
+        if (flatRec) return manCover(flatRec.id);
+        if (r1w && !isUnderRoute(r1w, lrState)) return manCover(r1w.id);
+        return zoneDrop(flatW);
+      }
+
+      // ── b. Strong Apex — man #2s; #2s flat → hook-curl zone ───────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r2s && isFlatRoute(r2s, strongSide, lrState, snapshot)) {
+          return zoneDrop(hookCurlS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── c. Strong Safety — deep middle; #2 depth; #1 in-breaking ────
+      if (role === 'SAF_S') {
+        const d2s = lr(r2s)?.depthYards ?? 0;
+        const d2w = lr(r2w)?.depthYards ?? 0;
+        const deep2s = r2s && d2s >= 9;
+        const deep2w = r2w && d2w >= 9;
+        if (deep2s && deep2w) return zoneDrop('DEEP_MIDDLE');
+        if (deep2s) return manCover(r2s.id);
+        if (deep2w) return manCover(r2w.id);
+        if (r1s && isVertInsideRoute(r1s, lrState)) return manCover(r1s.id);
+        if (r1w && isVertInsideRoute(r1w, lrState)) return manCover(r1w.id);
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      // ── d. Hook — man #3s; flat → hook zone; vert → hook zone ─────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        if (r3s && isFlatRoute(r3s, strongSide, lrState, snapshot)) return zoneDrop(hookS);
+        if (r3s && isVertical(r3s)) return zoneDrop(hookS);
+        return r3s ? manCover(r3s.id) : zoneDrop(hookS);
+      }
+
+      // ── e. Weak Apex — RB released weak → man RB; else hook-curl ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (rb && isReleased(rb)) {
+          const rbVx = lr(rb)?.vel?.x ?? 0;
+          const rbGoingWeak = weakSide === 'L' ? rbVx < 0 : rbVx > 0;
+          if (rbGoingWeak) return manCover(rb.id);
+        }
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── f. Strong Corner — man #1s ────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        return r1s ? manCover(r1s.id) : null;
+      }
+
+      // ── g. Weak Safety — deep third weak; #1w vertical → man ──────
+      if (role === 'SAF_W') {
+        if (r1w && isVertical(r1w)) return manCover(r1w.id);
+        return zoneDrop(deepTW);
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Cloud Strong 3×1 NEW ──────────────────────────────────────
+  // Cloud side = Strong (Trips). Upgraded 3×1 with stickyOnce, getCloudFlatRec,
+  // under/smash calls on weak CB, RB direction lock, Hook crosser pickup.
+  // persistentCovCalls prefix: cs3_
+  'cover3-cloud-strong-3x1-new-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'normal', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const flatS      = strongSide === 'L' ? 'FLAT_L'       : 'FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookS      = strongSide === 'L' ? 'HOOK_L'       : 'HOOK_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide,   1);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          case 'CB':
+            if (isStrong) result.set(id, zoneDrop(flatS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id, YARD_PX * 0.5) : zoneDrop(deepTW));
+            break;
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(hookCurlS));
+            if (isWeak)   result.set(id, zoneDrop(hookCurlW));
+            break;
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, r3s ? manCover(r3s.id) : zoneDrop(hookS));
+            break;
+          case 'SAF_S':
+            result.set(id, zoneDrop(deepTS));
+            break;
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)          { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)              { return p ? lrState[p.id] : null; }
+      function isUnder(p)         { return isUnderRoute(p, lrState); }
+      function isHitch(p)         { return isHitchRoute(p, lrState); }
+      function isVertical(p)      { return isDeepVertical(p, lrState); }
+      function canReach(def, rec) { return canReachRoute(def, rec, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const flatS     = strongSide === 'L' ? 'FLAT_L'       : 'FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookS     = strongSide === 'L' ? 'HOOK_L'       : 'HOOK_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide,   1);
+      const allRec = rb ? [...eligible, rb] : eligible;
+
+      function getCloudFlatRec(cloudSide, rec1, rec2) {
+        const rbLr  = lr(rb);
+        const rbVx  = rbLr?.vel?.x ?? 0;
+        const rbMovingToFlat = rb && rbLr?.moveType !== 'stopped'
+          && !isDeepVertical(rb, lrState)
+          && (cloudSide === 'L' ? rbVx < 0 : rbVx > 0);
+        const r1flat = rec1 && isFlatRoute(rec1, cloudSide, lrState, snapshot) && !isDeepVertical(rec1, lrState);
+        const r2flat = rec2 && isFlatRoute(rec2, cloudSide, lrState, snapshot);
+        const rbFlat = rb   && (isFlatRoute(rb, cloudSide, lrState, snapshot) || rbMovingToFlat)
+                           && canReach(d, rb);
+        if (r1flat) return rec1;
+        if (r2flat) return rec2;
+        if (rbFlat) return rb;
+        return null;
+      }
+
+      // ── a. Strong Corner — cloud flat; rob #1s underneath (don't follow vertical); else flat zone ──
+      if (role === 'CB' && isStrong) {
+        const flatRec = getCloudFlatRec(strongSide, r1s, r2s);
+        if (flatRec) return manCover(flatRec.id);
+        if (r1s && !isVertical(r1s)) return manCover(r1s.id);
+        return zoneDrop(flatS);
+      }
+
+      // ── b. Strong Apex — man #2s; flat → hookCurlS; #2s ≥6y + #1s under → man #1s (not if WA locked) ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r2s && isFlatRoute(r2s, strongSide, lrState, snapshot)) return zoneDrop(hookCurlS);
+        const d2s = lr(r2s)?.depthYards ?? 0;
+        if (r2s && d2s >= 6 && r1s && isUnderRoute(r1s, lrState) && !isStickyLocked('cs3_cross_r1s') && stickyOnce('cs3_under_r1s_sa', true)) return manCover(r1s.id);
+        return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── c. SAF_S — deep third strong; #1s vertical → man ─────────────
+      if (role === 'SAF_S') {
+        if (r1s && isVertical(r1s)) return manCover(r1s.id);
+        return zoneDrop(deepTS);
+      }
+
+      // ── d. Hook — man #3s; flat → hookS; vertical → carry to FS (stay man) ──
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        if (r3s && isFlatRoute(r3s, strongSide, lrState, snapshot)) return zoneDrop(hookS);
+        return r3s ? manCover(r3s.id) : zoneDrop(hookS);
+      }
+
+      // ── e. Weak Corner — man #1w ─────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+      }
+
+      // ── f. Weak Apex — RB to weak side → man RB; else hookCurlW and rob #1 under (not if SA locked) ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (rb && isReleasedRoute(rb, lrState)) {
+          const rbVx     = lr(rb)?.vel?.x ?? 0;
+          const rbMoving = lr(rb)?.moveType !== 'stopped';
+          const rbGoingWeak = !!(rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (stickyOnce('cs3_rbWeak_wa', rbGoingWeak)) return manCover(rb.id);
+        }
+        if (r1s && isUnderRoute(r1s, lrState) && !isStickyLocked('cs3_under_r1s_sa') && stickyOnce('cs3_cross_r1s', true)) return manCover(r1s.id);
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── g. SAF_W (FS) — deep middle; read #2s seam/post → man; else deep middle ──
+      if (role === 'SAF_W') {
+        if (r2s && isVertical(r2s) && stickyOnce('cs3_fs_r2s', true)) return manCover(r2s.id);
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Cloud Weak 3×1 NEW ────────────────────────────────────────
+  // Cloud side = Weak (solo #1w). Man side = Strong (Trips).
+  // Weak CB plays flat. SAF_W plays deep third weak.
+  // Strong side has Cover 3 Match rules (Under/Smash).
+  // persistentCovCalls prefix: cw3_
+  'cover3-cloud-weak-3x1-new-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'normal', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookS      = strongSide === 'L' ? 'HOOK_L'       : 'HOOK_R';
+      const flatW      = weakSide   === 'L' ? 'FLAT_L'       : 'FLAT_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide,   1);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          case 'CB':
+            if (isWeak)   result.set(id, zoneDrop(flatW));
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id, YARD_PX * 0.5) : zoneDrop(deepTS));
+            break;
+          case 'APEX-L': case 'APEX-R':
+            if (isWeak)   result.set(id, zoneDrop(hookCurlW));
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            break;
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, r3s ? manCover(r3s.id) : zoneDrop(hookS));
+            break;
+          case 'SAF_S':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          case 'SAF_W':
+            result.set(id, zoneDrop(deepTW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)          { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)              { return p ? lrState[p.id] : null; }
+      function isUnder(p)         { return isUnderRoute(p, lrState); }
+      function isHitch(p)         { return isHitchRoute(p, lrState); }
+      function isVertical(p)      { return isDeepVertical(p, lrState); }
+      function canReach(def, rec) { return canReachRoute(def, rec, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookS     = strongSide === 'L' ? 'HOOK_L'       : 'HOOK_R';
+      const flatW     = weakSide   === 'L' ? 'FLAT_L'       : 'FLAT_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide,   1);
+      const allRec = rb ? [...eligible, rb] : eligible;
+
+      function getCloudFlatRec(cloudSide, rec1, rec2) {
+        const rbLr  = lr(rb);
+        const rbVx  = rbLr?.vel?.x ?? 0;
+        const rbMovingToFlat = rb && rbLr?.moveType !== 'stopped'
+          && !isDeepVertical(rb, lrState)
+          && (cloudSide === 'L' ? rbVx < 0 : rbVx > 0);
+        const r1flat = rec1 && isFlatRoute(rec1, cloudSide, lrState, snapshot) && !isDeepVertical(rec1, lrState);
+        const r2flat = rec2 && isFlatRoute(rec2, cloudSide, lrState, snapshot);
+        const rbFlat = rb   && (isFlatRoute(rb, cloudSide, lrState, snapshot) || rbMovingToFlat)
+                           && canReach(d, rb);
+        if (r1flat) return rec1;
+        if (r2flat) return rec2;
+        if (rbFlat) return rb;
+        return null;
+      }
+
+      // ════════════════════════════════════════════════════════════════
+      // WEAK SIDE — Cloud rules
+      // ════════════════════════════════════════════════════════════════
+
+      // ── a. Weak Corner — cloud flat; rob #1w if not under; else flat zone ──
+      if (role === 'CB' && isWeak) {
+        const flatRec = getCloudFlatRec(weakSide, r1w, null);
+        if (flatRec) return manCover(flatRec.id);
+        if (r1w && !isUnderRoute(r1w, lrState)) return manCover(r1w.id);
+        return zoneDrop(flatW);
+      }
+
+      // ── b. Weak Apex — "3 Up is 3"; RB weak → man RB; #3 not vert + RB fast strong → man RB; else hookCurlW ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        // d.i "3 Up is 3": #3 bends vertical inside → man #3
+        if (r3s && isVertical(r3s) && stickyOnce('cw3_3up_wa', true)) return manCover(r3s.id);
+        const rbLr     = lr(rb);
+        const rbVx     = rbLr?.vel?.x ?? 0;
+        const rbMoving = rbLr?.moveType !== 'stopped';
+        // d.ii: RB out weak → man RB
+        if (rb && isReleasedRoute(rb, lrState) && !isStickyLocked('cw3_rbStrong_sa')) {
+          const rbGoingWeak = !!(rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (stickyOnce('cw3_rbWeak_wa', rbGoingWeak)) return manCover(rb.id);
+        }
+        // d.iii: #3 not going vertical + RB fast strong → man RB
+        if (!r3s || !isVertical(r3s)) {
+          const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (rb && !isStickyLocked('cw3_rbWeak_wa') && stickyOnce('cw3_rbStrong_sa', rbGoingStrong)) return manCover(rb.id);
+        }
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── c. SAF_W — deep third weak; #1w vertical → man ───────────────
+      if (role === 'SAF_W') {
+        if (r1w && isVertical(r1w)) return manCover(r1w.id);
+        return zoneDrop(deepTW);
+      }
+
+      // ════════════════════════════════════════════════════════════════
+      // STRONG SIDE — Cover 3 Match rules
+      // ════════════════════════════════════════════════════════════════
+
+      // ── d. Hook — Push → man #2s; under call → crosser; #3 under/vert-inside → hookS + rob r1w; else man #3s ──
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        // c.i Push: #3 out flat → swap, take #2 man
+        if (r3s && isFlatRoute(r3s, strongSide, lrState, snapshot) && stickyOnce('cw3_push_hook', true)) {
+          return r2s ? manCover(r2s.id) : zoneDrop(hookS);
+        }
+        // Under-call crosser duty
+        if (persistentCovCalls.cw3_underStrong) {
+          const lockedId = getStickyTarget('cw3_hook_crosser');
+          if (lockedId) return manCover(lockedId);
+          const crossers = [r1s, r2s].filter(p => p && isUnder(p));
+          if (crossers.length > 0) {
+            const deepest = crossers.reduce((a, b) =>
+              (lr(a)?.depthYards ?? 0) >= (lr(b)?.depthYards ?? 0) ? a : b);
+            lockStickyTarget('cw3_hook_crosser', deepest.id);
+            return manCover(deepest.id);
+          }
+        }
+        // c.ii #3 under/shallow → hookS; rob weak #1 crosser
+        if (r3s && isUnderRoute(r3s, lrState) && stickyOnce('cw3_hook_r3u', true)) {
+          if (r1w && isUnderRoute(r1w, lrState) && stickyOnce('cw3_hook_r1w', true)) return manCover(r1w.id);
+          return zoneDrop(hookS);
+        }
+        // c.iii #3 vertical inside → release to Weak Hook, play hookS; rob weak #1 crosser
+        if (r3s && isVertical(r3s) && stickyOnce('cw3_hook_r3v', true)) {
+          if (r1w && isUnderRoute(r1w, lrState) && stickyOnce('cw3_hook_r1w', true)) return manCover(r1w.id);
+          return zoneDrop(hookS);
+        }
+        // Default: man #3s
+        return r3s ? manCover(r3s.id) : zoneDrop(hookS);
+      }
+
+      // ── e. Strong Corner — man #1s; under → deep third strong (sticky); smash → deep third strong (sticky) ──
+      if (role === 'CB' && isStrong) {
+        if (stickyOnce('cw3_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('cw3_underS_cb')) persistentCovCalls.cw3_underStrong = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('cw3_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('cw3_smashS')) persistentCovCalls.cw3_smashStrong = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id, YARD_PX * 0.5) : zoneDrop(deepTS);
+      }
+
+      // ── f. Strong Apex — Push → man #3s; under → curlFlatS; smash → man #1s; else man #2s ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        // b.i Push: #3 out flat → take #3 top-down
+        if (r3s && isFlatRoute(r3s, strongSide, lrState, snapshot) && stickyOnce('cw3_push_sa', true)) return manCover(r3s.id);
+        // b.iii Under: #2s shallow → buzz to flat
+        if (stickyOnce('cw3_underS_sa', !!(r2s && isUnder(r2s)))) {
+          if (isStickyLocked('cw3_underS_sa')) persistentCovCalls.cw3_underStrong = true;
+          return zoneDrop(curlFlatS);
+        }
+        // b.ii Smash: → man #1s hitch
+        if (persistentCovCalls.cw3_smashStrong) {
+          return r1s ? manCover(r1s.id, YARD_PX * 0.5) : zoneDrop(curlFlatS);
+        }
+        // Default: man #2s
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── g. SAF_S (FS) — scan strong side 3→2→1 at ≥6y; take uncovered; else deep middle ──
+      if (role === 'SAF_S') {
+        const d3s = lr(r3s)?.depthYards ?? 0;
+        const d2s = lr(r2s)?.depthYards ?? 0;
+        const d1s = lr(r1s)?.depthYards ?? 0;
+
+        // #3s: Hook has #3 by default; releases on Push/under/vert. SA gets #3 via Push. WA gets #3 via 3Up.
+        const hookHasR3 = !isStickyLocked('cw3_push_hook') && !isStickyLocked('cw3_hook_r3u') && !isStickyLocked('cw3_hook_r3v');
+        const saHasR3   = isStickyLocked('cw3_push_sa');
+        const waHasR3   = isStickyLocked('cw3_3up_wa');
+        if (r3s && d3s >= 6 && !hookHasR3 && !saHasR3 && !waHasR3) return manCover(r3s.id);
+
+        // #2s: SA has #2 by default; releases on Under/Push/Smash. Hook gets #2 via Push.
+        const saHasR2   = !isStickyLocked('cw3_underS_sa') && !isStickyLocked('cw3_push_sa') && !persistentCovCalls.cw3_smashStrong;
+        const hookHasR2 = isStickyLocked('cw3_push_hook');
+        if (r2s && d2s >= 6 && !saHasR2 && !hookHasR2) return manCover(r2s.id);
+
+        // #1s: CB has #1 by default; releases on Under/Smash. SA gets #1 via Smash.
+        const cbHasR1   = !isStickyLocked('cw3_underS_cb') && !isStickyLocked('cw3_smashS');
+        const saHasR1   = persistentCovCalls.cw3_smashStrong;
+        if (r1s && d1s >= 6 && !cbHasR1 && !saHasR1) return manCover(r1s.id);
+
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Cloud Strong 2×2 (Full Field, 2x2 only) ───────────────
+  // Mirror of Cloud Weak 2×2: Cloud side = Strong, Match side = Weak.
+  // Strong CB plays flat. SS plays deep third strong.
+  // Weak side has full Cover 3 Match rules (Under/Smash/Push).
+  // persistentCovCalls prefix: cs_
+  'cover3-cloud-strong-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'normal', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookW      = weakSide   === 'L' ? 'HOOK_L' : 'HOOK_R';
+      const flatS      = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: flat defender (cloud side)
+          case 'CB':
+            if (isStrong) result.set(id, zoneDrop(flatS));
+            // e. Weak Corner: man #1w (match side)
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id, YARD_PX * 0.5) : zoneDrop(deepTW));
+            break;
+          // b. Strong Apex: man #2s with flat read (cloud side)
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(hookCurlS));
+            // d. Weak Apex: man #2w (match side)
+            if (isWeak)   result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+          // c. Hook: hook zone weak (match side)
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookW));
+            break;
+          // f. SS: deep third strong (cloud side)
+          case 'SAF_S':
+            result.set(id, zoneDrop(deepTS));
+            break;
+          // g. Free Safety: deep middle
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)      { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)          { return p ? lrState[p.id] : null; }
+      function isUnder(p)     { return isUnderRoute(p, lrState); }
+      function isHitch(p)     { return isHitchRoute(p, lrState); }
+      function isVertical(p)  { return isDeepVertical(p, lrState); }
+      function isOut(p)       { return isOutRoute(p, lrState); }
+      function canReach(def, rec) { return canReachRoute(def, rec, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookW     = weakSide   === 'L' ? 'HOOK_L'       : 'HOOK_R';
+      const flatS     = strongSide === 'L' ? 'FLAT_L'       : 'FLAT_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+      const allRec = rb ? [...eligible, rb] : eligible;
+
+      // Local flat-receiver picker for the cloud side:
+      // – #1: only if in flat zone AND not going vertical
+      // – #2: only if in flat zone
+      // – RB: if in flat zone OR moving toward the cloud sideline (and not vertical)
+      // Priority: #1 > #2 > RB
+      function getCloudFlatRec(cloudSide, rec1, rec2) {
+        const rbLr  = lr(rb);
+        const rbVx  = rbLr?.vel?.x ?? 0;
+        const rbMovingToFlat = rb && rbLr?.moveType !== 'stopped'
+          && !isDeepVertical(rb, lrState)
+          && (cloudSide === 'L' ? rbVx < 0 : rbVx > 0);
+        const r1flat = rec1 && isFlatRoute(rec1, cloudSide, lrState, snapshot) && !isDeepVertical(rec1, lrState);
+        const r2flat = rec2 && isFlatRoute(rec2, cloudSide, lrState, snapshot);
+        const rbFlat = rb   && (isFlatRoute(rb, cloudSide, lrState, snapshot) || rbMovingToFlat)
+                           && canReach(d, rb);
+        if (r1flat) return rec1;
+        if (r2flat) return rec2;
+        if (rbFlat) return rb;
+        return null;
+      }
+
+      // ════════════════════════════════════════════════════════════════
+      // STRONG SIDE — Cloud rules
+      // ════════════════════════════════════════════════════════════════
+
+      // ── a. Strong Corner — first to flat; #1s not under → rob #1s; else flat zone ──
+      if (role === 'CB' && isStrong) {
+        const flatRec = getCloudFlatRec(strongSide, r1s, r2s);
+        if (flatRec) return manCover(flatRec.id);
+        if (r1s && !isUnderRoute(r1s, lrState)) return manCover(r1s.id);
+        return zoneDrop(flatS);
+      }
+
+      // ── b. Strong Apex — man #2s; #2s flat → hook-curl; #2s deep (FS takes) → man RB (dir locked) ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r2s && isFlatRoute(r2s, strongSide, lrState, snapshot)) {
+          if (rb) {
+            const rbCovered = defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === rb.id);
+            if (!rbCovered) return manCover(rb.id);
+          }
+          return zoneDrop(hookCurlS);
+        }
+        const d2s     = lr(r2s)?.depthYards ?? 0;
+        const rbLr    = lr(rb);
+        const rbVx    = rbLr?.vel?.x ?? 0;
+        const rbMoving = rbLr?.moveType !== 'stopped';
+        const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+        if (r2s && d2s >= 9 && rb && stickyOnce('cs_rbStrong_sa', rbGoingStrong)) return manCover(rb.id);
+        if (!r2s) {
+          if (rb) {
+            const rbCovered = defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === rb.id);
+            if (!rbCovered) return manCover(rb.id);
+          }
+          return zoneDrop(hookCurlS);
+        }
+        return manCover(r2s.id);
+      }
+
+      // ── f. SS — deep third strong; #1s vertical → man ──────────────
+      if (role === 'SAF_S') {
+        if (r1s && isVertical(r1s)) return manCover(r1s.id);
+        return zoneDrop(deepTS);
+      }
+
+      // ════════════════════════════════════════════════════════════════
+      // WEAK SIDE — Cover 3 Match rules
+      // ════════════════════════════════════════════════════════════════
+
+      // ── e. Weak Corner — man #1w; under → Under call (sticky); hitch → Smash (sticky) ──
+      if (role === 'CB' && isWeak) {
+        if (stickyOnce('cs_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('cs_underW_cb')) persistentCovCalls.cs_underWeak = true;
+          return zoneDrop(deepTW);
+        }
+        if (stickyOnce('cs_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('cs_smashW')) persistentCovCalls.cs_smashWeak = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id, YARD_PX * 0.5) : zoneDrop(deepTW);
+      }
+
+      // ── d. Weak Apex — man #2w; under → curl-flat (sticky); smash → #1w; #2w deep (FS takes) → man RB (dir locked) ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (stickyOnce('cs_underW_wa', !!(r2w && isUnder(r2w)))) {
+          if (isStickyLocked('cs_underW_wa')) persistentCovCalls.cs_underWeak = true;
+          return zoneDrop(curlFlatW);
+        }
+        if (persistentCovCalls.cs_smashWeak) {
+          return r1w ? manCover(r1w.id, YARD_PX * 0.5) : zoneDrop(curlFlatW);
+        }
+        const d2w      = lr(r2w)?.depthYards ?? 0;
+        const rbLr     = lr(rb);
+        const rbVx     = rbLr?.vel?.x ?? 0;
+        const rbMoving = rbLr?.moveType !== 'stopped';
+        const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+        if (r2w && d2w >= 9 && rb && stickyOnce('cs_rbWeak_wa', rbGoingWeak)) return manCover(rb.id);
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      // ── c. Hook — hook zone weak; under → crosser (sticky target) ──
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        if (persistentCovCalls.cs_underWeak) {
+          const lockedId = getStickyTarget('cs_hook_crosser');
+          if (lockedId) return manCover(lockedId);
+          const crossers = [r1w, r2w].filter(p => p && isUnder(p));
+          if (crossers.length > 0) {
+            const deepest = crossers.reduce((a, b) =>
+              (lr(a)?.depthYards ?? 0) >= (lr(b)?.depthYards ?? 0) ? a : b);
+            lockStickyTarget('cs_hook_crosser', deepest.id);
+            return manCover(deepest.id);
+          }
+        }
+        return zoneDrop(hookW);
+      }
+
+      // ── g. Free Safety — deep middle; #2 depth ──────────────────────
+      if (role === 'SAF_W') {
+        const d2s = lr(r2s)?.depthYards ?? 0;
+        const d2w = lr(r2w)?.depthYards ?? 0;
+        const deep2s = r2s && d2s >= 9;
+        const deep2w = r2w && d2w >= 9;
+        if (deep2s && deep2w) {
+          const r2sCov = defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === r2s.id);
+          const r2wCov = defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === r2w.id);
+          if ( r2sCov && !r2wCov) return manCover(r2w.id);
+          if (!r2sCov &&  r2wCov) return manCover(r2s.id);
+          return { ...zoneDrop('DEEP_MIDDLE'), _midpointPlayers: [r2s.id, r2w.id] };
+        }
+        if (deep2s) return manCover(r2s.id);
+        if (deep2w) return manCover(r2w.id);
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Cloud Strong 2×2 BOOK ─────────────────────────────────────
+  // Strict implementation of the book rules:
+  // a. Strong CB    — first to flat; else rob #1 underneath (curl zone)
+  // b. Strong Apex  — man #2s; #2s flat → hook-curl
+  // c. Strong Safety — deep third strong; #1s vertical → man
+  // d. Hook         — hook zone weak; under call → take crosser
+  // e. Weak Apex    — man #2w; #2w under → curl-flat (under call);
+  //                   smash call → man #1w (hitch)
+  // f. Weak CB (Mod) — man #1w; #1w under → deep third (under call);
+  //                    #1w hitch → deep third (smash call, look for #2 corner)
+  // g. Free Safety  — deep middle; #2 deep → man that #2;
+  //                   no #2 deep → deny #1 vertical in-breaking;
+  //                   else deep middle
+  // persistentCovCalls prefix: csb_
+  // ══════════════════════════════════════════════════════════════════════
+  'cover3-cloud-strong-book-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'normal', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L' : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookW      = weakSide   === 'L' ? 'HOOK_L'      : 'HOOK_R';
+      const flatS      = strongSide === 'L' ? 'FLAT_L'      : 'FLAT_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong CB: flat zone (will reactively pick first to flat / rob #1)
+          // f. Weak CB:   man #1w (Mod)
+          case 'CB':
+            if (isStrong) result.set(id, zoneDrop(flatS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id, YARD_PX * 0.5) : zoneDrop(deepTW));
+            break;
+          // b. Strong Apex: man #2s
+          // e. Weak Apex:   man #2w
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(hookCurlS));
+            if (isWeak)   result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+          // d. Hook: hook zone weak
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookW));
+            break;
+          // c. Strong Safety: deep third strong
+          case 'SAF_S':
+            result.set(id, zoneDrop(deepTS));
+            break;
+          // g. Free Safety: deep middle
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)     { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)         { return p ? lrState[p.id] : null; }
+      function isUnder(p)    { return isUnderRoute(p, lrState); }
+      function isHitch(p)    { return isHitchRoute(p, lrState); }
+      function isVertical(p) { return isDeepVertical(p, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L' : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookW     = weakSide   === 'L' ? 'HOOK_L'      : 'HOOK_R';
+      const flatS     = strongSide === 'L' ? 'FLAT_L'      : 'FLAT_R';
+      const curlS     = strongSide === 'L' ? 'CURL_L'      : 'CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      // ════════════════════════════════════════════════════════════════
+      // STRONG SIDE — Cloud rules
+      // ════════════════════════════════════════════════════════════════
+
+      // ── a. Strong CB — first to flat; else rob #1 underneath ────────
+      if (role === 'CB' && isStrong) {
+        // First receiver into the flat zone takes priority
+        if (r2s && isFlatRoute(r2s, strongSide, lrState, snapshot)) return manCover(r2s.id);
+        if (r1s && isFlatRoute(r1s, strongSide, lrState, snapshot)) return manCover(r1s.id);
+        // No flat threat → rob #1 underneath (curl zone, inside leverage)
+        return zoneDrop(curlS);
+      }
+
+      // ── b. Strong Apex — man #2s; #2s flat → hook-curl ──────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r2s && isFlatRoute(r2s, strongSide, lrState, snapshot)) return zoneDrop(hookCurlS);
+        return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── c. Strong Safety — deep third strong; #1s vertical → man ────
+      if (role === 'SAF_S') {
+        if (r1s && isVertical(r1s)) return manCover(r1s.id);
+        return zoneDrop(deepTS);
+      }
+
+      // ════════════════════════════════════════════════════════════════
+      // WEAK SIDE — Cover 3 Match rules
+      // ════════════════════════════════════════════════════════════════
+
+      // ── f. Weak CB (Mod) — man #1w; under → Under call (deep third);
+      //      hitch → Smash call (deep third) ─────────────────────────
+      if (role === 'CB' && isWeak) {
+        if (stickyOnce('csb_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('csb_underW_cb')) persistentCovCalls.csb_underWeak = true;
+          return zoneDrop(deepTW);
+        }
+        if (stickyOnce('csb_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('csb_smashW')) persistentCovCalls.csb_smashWeak = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id, YARD_PX * 0.5) : zoneDrop(deepTW);
+      }
+
+      // ── e. Weak Apex — man #2w; under → curl-flat (Under call);
+      //      smash call → man #1w hitch ────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (stickyOnce('csb_underW_wa', !!(r2w && isUnder(r2w)))) {
+          if (isStickyLocked('csb_underW_wa')) persistentCovCalls.csb_underWeak = true;
+          return zoneDrop(curlFlatW);
+        }
+        if (persistentCovCalls.csb_smashWeak) {
+          return r1w ? manCover(r1w.id, YARD_PX * 0.5) : zoneDrop(curlFlatW);
+        }
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      // ── d. Hook — hook zone weak; under call → take crosser ─────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        if (persistentCovCalls.csb_underWeak) {
+          const lockedId = getStickyTarget('csb_hook_crosser');
+          if (lockedId) return manCover(lockedId);
+          const crossers = [r1w, r2w].filter(p => p && isUnder(p));
+          if (crossers.length > 0) {
+            const deepest = crossers.reduce((a, b) =>
+              (lr(a)?.depthYards ?? 0) >= (lr(b)?.depthYards ?? 0) ? a : b);
+            lockStickyTarget('csb_hook_crosser', deepest.id);
+            return manCover(deepest.id);
+          }
+        }
+        return zoneDrop(hookW);
+      }
+
+      // ── g. Free Safety — deep middle; #2 deep → man;
+      //      else deny #1 vertical in-breaking; else deep middle ─────
+      if (role === 'SAF_W') {
+        const d2s = lr(r2s)?.depthYards ?? 0;
+        const d2w = lr(r2w)?.depthYards ?? 0;
+        const deep2s = r2s && d2s >= 9;
+        const deep2w = r2w && d2w >= 9;
+        if (deep2s && deep2w) return zoneDrop('DEEP_MIDDLE');
+        if (deep2s) return manCover(r2s.id);
+        if (deep2w) return manCover(r2w.id);
+        // No #2 deep → deny vertical in-breaking by #1
+        if (r1s && isVertInsideRoute(r1s, lrState)) return manCover(r1s.id);
+        if (r1w && isVertInsideRoute(r1w, lrState)) return manCover(r1w.id);
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ── Cover 3 Cloud Weak 2×2 (Full Field, 2x2 only) ────────────────────
+  // Mirror of Cloud Strong 2×2: Cloud side = Weak, Match side = Strong.
+  // Weak CB plays flat. SAF_W plays deep third weak.
+  // Strong side has full Cover 3 Match rules (Under/Smash).
+  // persistentCovCalls prefix: cw_
+  'cover3-cloud-weak-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'normal', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookS      = strongSide === 'L' ? 'HOOK_L'       : 'HOOK_R';
+      const flatW      = weakSide   === 'L' ? 'FLAT_L'       : 'FLAT_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Weak Corner: flat defender (cloud side)
+          case 'CB':
+            if (isWeak)   result.set(id, zoneDrop(flatW));
+            // e. Strong Corner: man #1s (match side)
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id, YARD_PX * 0.5) : zoneDrop(deepTS));
+            break;
+          // b. Weak Apex: man #2w (cloud side)
+          case 'APEX-L': case 'APEX-R':
+            if (isWeak)   result.set(id, r2w ? manCover(r2w.id) : zoneDrop(hookCurlW));
+            // d. Strong Apex: man #2s (match side)
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            break;
+          // c. Hook: hook zone strong (match side)
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookS));
+            break;
+          // g. SS: deep middle
+          case 'SAF_S':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          // f. Free Safety: deep third weak (cloud side)
+          case 'SAF_W':
+            result.set(id, zoneDrop(deepTW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)          { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)              { return p ? lrState[p.id] : null; }
+      function isUnder(p)         { return isUnderRoute(p, lrState); }
+      function isHitch(p)         { return isHitchRoute(p, lrState); }
+      function isVertical(p)      { return isDeepVertical(p, lrState); }
+      function canReach(def, rec) { return canReachRoute(def, rec, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookS     = strongSide === 'L' ? 'HOOK_L'       : 'HOOK_R';
+      const flatW     = weakSide   === 'L' ? 'FLAT_L'       : 'FLAT_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+      const allRec = rb ? [...eligible, rb] : eligible;
+
+      // Local flat-receiver picker for the cloud side:
+      // – #1: only if in flat zone AND not going vertical
+      // – #2: only if in flat zone
+      // – RB: if in flat zone OR moving toward the cloud sideline (and not vertical)
+      // Priority: #1 > #2 > RB
+      function getCloudFlatRec(cloudSide, rec1, rec2) {
+        const rbLr  = lr(rb);
+        const rbVx  = rbLr?.vel?.x ?? 0;
+        const rbMovingToFlat = rb && rbLr?.moveType !== 'stopped'
+          && !isDeepVertical(rb, lrState)
+          && (cloudSide === 'L' ? rbVx < 0 : rbVx > 0);
+        const r1flat = rec1 && isFlatRoute(rec1, cloudSide, lrState, snapshot) && !isDeepVertical(rec1, lrState);
+        const r2flat = rec2 && isFlatRoute(rec2, cloudSide, lrState, snapshot);
+        const rbFlat = rb   && (isFlatRoute(rb, cloudSide, lrState, snapshot) || rbMovingToFlat)
+                           && canReach(d, rb);
+        if (r1flat) return rec1;
+        if (r2flat) return rec2;
+        if (rbFlat) return rb;
+        return null;
+      }
+
+      // ════════════════════════════════════════════════════════════════
+      // WEAK SIDE — Cloud rules
+      // ════════════════════════════════════════════════════════════════
+
+      // ── a. Weak Corner — first to flat; #1w not under → rob #1w; else flat zone ──
+      if (role === 'CB' && isWeak) {
+        const flatRec = getCloudFlatRec(weakSide, r1w, r2w);
+        if (flatRec) return manCover(flatRec.id);
+        if (r1w && !isUnderRoute(r1w, lrState)) return manCover(r1w.id);
+        return zoneDrop(flatW);
+      }
+
+      // ── b. Weak Apex — man #2w; #2w flat → hook-curl; #2w deep (SS takes) → man RB (dir locked) ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (r2w && isFlatRoute(r2w, weakSide, lrState, snapshot)) {
+          if (rb) {
+            const rbCovered = defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === rb.id);
+            if (!rbCovered) return manCover(rb.id);
+          }
+          return zoneDrop(hookCurlW);
+        }
+        const d2w      = lr(r2w)?.depthYards ?? 0;
+        const rbLr     = lr(rb);
+        const rbVx     = rbLr?.vel?.x ?? 0;
+        const rbMoving = rbLr?.moveType !== 'stopped';
+        const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+        if (r2w && d2w >= 9 && rb && stickyOnce('cw_rbWeak_wa', rbGoingWeak)) return manCover(rb.id);
+        if (!r2w) {
+          if (rb) {
+            const rbCovered = defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === rb.id);
+            if (!rbCovered) return manCover(rb.id);
+          }
+          return zoneDrop(hookCurlW);
+        }
+        return manCover(r2w.id);
+      }
+
+      // ── f. Free Safety — deep third weak; #1w vertical → man ───────
+      if (role === 'SAF_W') {
+        if (r1w && isVertical(r1w)) return manCover(r1w.id);
+        return zoneDrop(deepTW);
+      }
+
+      // ════════════════════════════════════════════════════════════════
+      // STRONG SIDE — Cover 3 Match rules
+      // ════════════════════════════════════════════════════════════════
+
+      // ── e. Strong Corner — man #1s; under → Under call (sticky); hitch → Smash (sticky) ──
+      if (role === 'CB' && isStrong) {
+        if (stickyOnce('cw_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('cw_underS_cb')) persistentCovCalls.cw_underStrong = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('cw_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('cw_smashS')) persistentCovCalls.cw_smashStrong = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id, YARD_PX * 0.5) : zoneDrop(deepTS);
+      }
+
+      // ── d. Strong Apex — man #2s; under → curl-flat (sticky); smash → #1s; #2s deep (SS takes) → man RB (dir locked) ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (stickyOnce('cw_underS_sa', !!(r2s && isUnder(r2s)))) {
+          if (isStickyLocked('cw_underS_sa')) persistentCovCalls.cw_underStrong = true;
+          return zoneDrop(curlFlatS);
+        }
+        if (persistentCovCalls.cw_smashStrong) {
+          return r1s ? manCover(r1s.id, YARD_PX * 0.5) : zoneDrop(curlFlatS);
+        }
+        const d2s      = lr(r2s)?.depthYards ?? 0;
+        const rbLr     = lr(rb);
+        const rbVx     = rbLr?.vel?.x ?? 0;
+        const rbMoving = rbLr?.moveType !== 'stopped';
+        const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+        if (r2s && d2s >= 9 && rb && stickyOnce('cw_rbStrong_sa', rbGoingStrong)) return manCover(rb.id);
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── c. Hook — hook zone strong; under → crosser (sticky target) ──
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        if (persistentCovCalls.cw_underStrong) {
+          const lockedId = getStickyTarget('cw_hook_crosser');
+          if (lockedId) return manCover(lockedId);
+          const crossers = [r1s, r2s].filter(p => p && isUnder(p));
+          if (crossers.length > 0) {
+            const deepest = crossers.reduce((a, b) =>
+              (lr(a)?.depthYards ?? 0) >= (lr(b)?.depthYards ?? 0) ? a : b);
+            lockStickyTarget('cw_hook_crosser', deepest.id);
+            return manCover(deepest.id);
+          }
+        }
+        return zoneDrop(hookS);
+      }
+
+      // ── g. SS — deep middle; #2 depth ────────────────────────────────
+      if (role === 'SAF_S') {
+        const d2s = lr(r2s)?.depthYards ?? 0;
+        const d2w = lr(r2w)?.depthYards ?? 0;
+        const deep2s = r2s && d2s >= 9;
+        const deep2w = r2w && d2w >= 9;
+        if (deep2s && deep2w) {
+          const r2sCov = defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === r2s.id);
+          const r2wCov = defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === r2w.id);
+          if ( r2sCov && !r2wCov) return manCover(r2w.id);
+          if (!r2sCov &&  r2wCov) return manCover(r2s.id);
+          return { ...zoneDrop('DEEP_MIDDLE'), _midpointPlayers: [r2s.id, r2w.id] };
+        }
+        if (deep2s) return manCover(r2s.id);
+        if (deep2w) return manCover(r2w.id);
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Tampa 2 Match 3×1 (bugged) ────────────────────────────────────
+  // Old version — kept for A/B comparison.
+  // Issue: SS/FS/Hook commit to man as soon as vertical detection fires —
+  // no sticky confirm and no lateral engagement gate. Top-down can leave
+  // the half too early and chase WRs they can't reach.
+  // persistentCovCalls prefix: t2m3x1_
+  'tampa2-match-3x1-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'normal', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const flatS      = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const flatW      = weakSide   === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const deepHS     = strongSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const deepHW     = weakSide   === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r2s = rec(strongSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a/g. Corners: flat zone
+          case 'CB':
+            result.set(id, zoneDrop(isStrong ? flatS : flatW));
+            break;
+          // b. Strong Apex: man #2s
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(hookCurlS));
+            // e. Weak Apex: man RB (or hook-curl zone if no RB)
+            if (isWeak)   result.set(id, rb ? manCover(rb.id) : zoneDrop(hookCurlW));
+            break;
+          // c. Hook: deep middle
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          // d. SS: deep half strong
+          case 'SAF_S':
+            result.set(id, zoneDrop(deepHS));
+            break;
+          // f. FS: deep half weak
+          case 'SAF_W':
+            result.set(id, zoneDrop(deepHW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)      { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)          { return p ? lrState[p.id] : null; }
+      function isVertical(p)  { return isDeepVertical(p, lrState); }
+
+      const flatS     = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const flatW     = weakSide   === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const deepHS    = strongSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const deepHW    = weakSide   === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+      const allRec = eligible;
+
+      // ── a. Strong Corner — first to flat ──────────────────────────
+      if (role === 'CB' && isStrong) {
+        const flatRec = getFlatReceiver(strongSide, allRec, snapshot, lrState);
+        if (flatRec) return manCover(flatRec.id);
+        return zoneDrop(flatS);
+      }
+
+      // ── g. Weak Corner — first to flat ────────────────────────────
+      if (role === 'CB' && isWeak) {
+        const flatRec = getFlatReceiver(weakSide, allRec, snapshot, lrState);
+        if (flatRec) return manCover(flatRec.id);
+        return zoneDrop(flatW);
+      }
+
+      // ── b. Strong Apex — man #2s; flat → hook-curl ────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r2s && isFlatRoute(r2s, strongSide, lrState, snapshot)) {
+          return zoneDrop(hookCurlS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── e. Weak Apex — man RB; flat → hook-curl ───────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (rb && isFlatRoute(rb, weakSide, lrState, snapshot)) {
+          return zoneDrop(hookCurlW);
+        }
+        return rb ? manCover(rb.id) : zoneDrop(hookCurlW);
+      }
+
+      // ── c. Hook — Tampa-Mike deep middle; #3 vertical → man ───────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        if (r3s && isVertical(r3s)) return manCover(r3s.id);
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      // ── d. SS — deep half strong; #1s vert → man; else OTT #2/#3 ──
+      if (role === 'SAF_S') {
+        // Freeze once committed
+        if (persistentCovCalls.t2m3x1_ssTookId) {
+          const tgt = [...eligible, ...(rb ? [rb] : [])].find(p => p.id === persistentCovCalls.t2m3x1_ssTookId);
+          return tgt ? manCover(tgt.id) : zoneDrop(deepHS);
+        }
+        // #1s vertical → man (freeze)
+        if (r1s && isVertical(r1s)) {
+          persistentCovCalls.t2m3x1_ssTookId = r1s.id;
+          return manCover(r1s.id);
+        }
+        // #1s not vertical → OTT on deepest vertical #2s or #3s
+        if (r2s && isVertical(r2s)) {
+          persistentCovCalls.t2m3x1_ssTookId = r2s.id;
+          return ottDec(r2s.id);
+        }
+        if (r3s && isVertical(r3s)) {
+          persistentCovCalls.t2m3x1_ssTookId = r3s.id;
+          return ottDec(r3s.id);
+        }
+        return zoneDrop(deepHS);
+      }
+
+      // ── f. FS — deep half weak; #1w vert → man ────────────────────
+      if (role === 'SAF_W') {
+        if (persistentCovCalls.t2m3x1_fsTookId) {
+          const tgt = [...eligible, ...(rb ? [rb] : [])].find(p => p.id === persistentCovCalls.t2m3x1_fsTookId);
+          return tgt ? manCover(tgt.id) : zoneDrop(deepHW);
+        }
+        if (r1w && isVertical(r1w)) {
+          persistentCovCalls.t2m3x1_fsTookId = r1w.id;
+          return manCover(r1w.id);
+        }
+        return zoneDrop(deepHW);
+      }
+
+      return null;
+    },
+  },
+
+
+  // ── Tampa 2 Match 3×1 (Full Field, 3x1 only) ──────────────────────
+  // 2-high. Corners = flat. Safeties = deep half + vertical reads.
+  // Hook = Tampa-Mike deep middle, has #3 vertical.
+  // Weak Apex uses RB directly (no factory).
+  // Match version: sticky 0.5s + canMatchVertical (6yd lateral) before man.
+  // Pattern (analog to Cover 3 Match):
+  //   1) Maintenance — if tookId already locked, stay on target
+  //   2) Detection   — stickyOnce(0.5s) on vertical condition
+  //   3) Engagement  — canMatchVertical (6yd lateral) gate before commit
+  //   4) Default     — stay in deep half / DEEP_MIDDLE during wait
+  // persistentCovCalls prefix: t2m3_
+  'tampa2-match-3x1': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'normal', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const flatS      = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const flatW      = weakSide   === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const deepHS     = strongSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const deepHW     = weakSide   === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r2s = rec(strongSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          case 'CB':
+            result.set(id, zoneDrop(isStrong ? flatS : flatW));
+            break;
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(hookCurlS));
+            if (isWeak)   result.set(id, rb ? manCover(rb.id) : zoneDrop(hookCurlW));
+            break;
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          case 'SAF_S':
+            result.set(id, zoneDrop(deepHS));
+            break;
+          case 'SAF_W':
+            result.set(id, zoneDrop(deepHW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)      { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)          { return p ? lrState[p.id] : null; }
+      function isVertical(p)  { return isDeepVertical(p, lrState); }
+
+      // Engagement gate — defender only commits to a vertical match when WR
+      // is close enough laterally. Prevents top-down chasing across the field.
+      const VERT_MATCH_LATERAL_YDS = 6;
+      function canMatchVertical(def, wr) {
+        if (!def || !wr) return false;
+        const dx = def.simX ?? def.x;
+        const wx = wr.simX ?? wr.x;
+        const lateralGap = Math.abs(dx - wx) / YARD_PX;
+        return lateralGap < VERT_MATCH_LATERAL_YDS;
+      }
+
+      const flatS     = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const flatW     = weakSide   === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const deepHS    = strongSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const deepHW    = weakSide   === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+      const allRec = eligible;
+
+      // ── a. Strong Corner — first to flat ──────────────────────────
+      if (role === 'CB' && isStrong) {
+        const flatRec = getFlatReceiver(strongSide, allRec, snapshot, lrState);
+        if (flatRec) return manCover(flatRec.id);
+        return zoneDrop(flatS);
+      }
+
+      // ── g. Weak Corner — first to flat ────────────────────────────
+      if (role === 'CB' && isWeak) {
+        const flatRec = getFlatReceiver(weakSide, allRec, snapshot, lrState);
+        if (flatRec) return manCover(flatRec.id);
+        return zoneDrop(flatW);
+      }
+
+      // ── b. Strong Apex — man #2s; flat → hook-curl ────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r2s && isFlatRoute(r2s, strongSide, lrState, snapshot)) {
+          return zoneDrop(hookCurlS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── e. Weak Apex — man RB; flat → hook-curl ───────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (rb && isFlatRoute(rb, weakSide, lrState, snapshot)) {
+          return zoneDrop(hookCurlW);
+        }
+        return rb ? manCover(rb.id) : zoneDrop(hookCurlW);
+      }
+
+      // ── c. Hook — Tampa-Mike (sticky + engagement gate on #3 vert) ─
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        // (1) Maintenance
+        if (persistentCovCalls.t2m3_hookTookId) {
+          const tgt = [...eligible, ...(rb ? [rb] : [])].find(p => p.id === persistentCovCalls.t2m3_hookTookId);
+          if (tgt) return manCover(tgt.id);
+          persistentCovCalls.t2m3_hookTookId = null;
+        }
+        // (2+3) #3 vertical sticky + gate
+        const r3sVert = !!(r3s && isVertical(r3s));
+        if (stickyOnce('t2m3_hookR3Vert', r3sVert)
+            && (isStickyLocked('t2m3_hookR3Vert') || r3sVert)
+            && canMatchVertical(d, r3s)) {
+          persistentCovCalls.t2m3_hookTookId = r3s.id;
+          return manCover(r3s.id);
+        }
+        // (4) Default — Tampa-Mike deep middle
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      // ── d. SS — deep half strong (sticky + engagement gate) ───────
+      if (role === 'SAF_S') {
+        // (1) Maintenance
+        if (persistentCovCalls.t2m3_ssTookId) {
+          const tgt = [...eligible, ...(rb ? [rb] : [])].find(p => p.id === persistentCovCalls.t2m3_ssTookId);
+          if (tgt) {
+            // If the locked target was an OTT (#2s/#3s), maintain as ottDec
+            if (persistentCovCalls.t2m3_ssTookKind === 'ott') return ottDec(tgt.id);
+            return manCover(tgt.id);
+          }
+          persistentCovCalls.t2m3_ssTookId = null;
+          persistentCovCalls.t2m3_ssTookKind = null;
+        }
+        // (2+3) #1s vertical → man (sticky + gate)
+        const r1sVert = !!(r1s && isVertical(r1s));
+        if (stickyOnce('t2m3_ssR1Vert', r1sVert)
+            && (isStickyLocked('t2m3_ssR1Vert') || r1sVert)
+            && canMatchVertical(d, r1s)) {
+          persistentCovCalls.t2m3_ssTookId   = r1s.id;
+          persistentCovCalls.t2m3_ssTookKind = 'man';
+          return manCover(r1s.id);
+        }
+        // #1s not vertical → OTT on deepest vertical #2s/#3s (sticky + gate)
+        const r2sVert = !!(r2s && isVertical(r2s) && !r1sVert);
+        if (stickyOnce('t2m3_ssR2OTT', r2sVert)
+            && (isStickyLocked('t2m3_ssR2OTT') || r2sVert)
+            && canMatchVertical(d, r2s)) {
+          persistentCovCalls.t2m3_ssTookId   = r2s.id;
+          persistentCovCalls.t2m3_ssTookKind = 'ott';
+          return ottDec(r2s.id);
+        }
+        const r3sVertS = !!(r3s && isVertical(r3s) && !r1sVert && !(r2s && isVertical(r2s)));
+        if (stickyOnce('t2m3_ssR3OTT', r3sVertS)
+            && (isStickyLocked('t2m3_ssR3OTT') || r3sVertS)
+            && canMatchVertical(d, r3s)) {
+          persistentCovCalls.t2m3_ssTookId   = r3s.id;
+          persistentCovCalls.t2m3_ssTookKind = 'ott';
+          return ottDec(r3s.id);
+        }
+        // (4) Default — deep half
+        return zoneDrop(deepHS);
+      }
+
+      // ── f. FS — deep half weak (sticky + engagement gate) ─────────
+      if (role === 'SAF_W') {
+        if (persistentCovCalls.t2m3_fsTookId) {
+          const tgt = [...eligible, ...(rb ? [rb] : [])].find(p => p.id === persistentCovCalls.t2m3_fsTookId);
+          if (tgt) return manCover(tgt.id);
+          persistentCovCalls.t2m3_fsTookId = null;
+        }
+        const r1wVert = !!(r1w && isVertical(r1w));
+        if (stickyOnce('t2m3_fsR1Vert', r1wVert)
+            && (isStickyLocked('t2m3_fsR1Vert') || r1wVert)
+            && canMatchVertical(d, r1w)) {
+          persistentCovCalls.t2m3_fsTookId = r1w.id;
+          return manCover(r1w.id);
+        }
+        return zoneDrop(deepHW);
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Invert 2 — 2×2 (Full Field, 2x2 only) ─────────────────────────
+  // 2-high. Corners bail to deep half. Safeties crash to flat.
+  // No persistentCovCalls — all live reads.
+  'invert2-2x2': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepHS     = strongSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const deepHW     = weakSide   === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const flatS      = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const flatW      = weakSide   === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r2s = rec(strongSide, 2);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a/g. Corners: bail to deep half
+          case 'CB':
+            result.set(id, zoneDrop(isStrong ? deepHS : deepHW));
+            break;
+          // b. Strong Apex: man #2s
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(hookCurlS));
+            else          result.set(id, r2w ? manCover(r2w.id) : zoneDrop(hookCurlW));
+            break;
+          // c. Hook: deep middle
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          // d. SS: flat strong (crash)
+          case 'SAF_S':
+            result.set(id, zoneDrop(flatS));
+            break;
+          // f. FS: flat weak (crash)
+          case 'SAF_W':
+            result.set(id, zoneDrop(flatW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)      { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)          { return p ? lrState[p.id] : null; }
+      function isVertical(p)  { return isDeepVertical(p, lrState); }
+
+      const deepHS    = strongSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const deepHW    = weakSide   === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const flatS     = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const flatW     = weakSide   === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+      const allRec = eligible;
+
+      // ── a. Strong Corner — deep half; #1s vert → man; else OTT #2s ──
+      if (role === 'CB' && isStrong) {
+        if (r1s && isVertical(r1s)) return manCover(r1s.id);
+        if (r2s && isVertical(r2s)) return ottDec(r2s.id);
+        return zoneDrop(deepHS);
+      }
+
+      // ── g. Weak Corner — deep half; #1w vert → man; else OTT #2w ──
+      if (role === 'CB' && isWeak) {
+        if (r1w && isVertical(r1w)) return manCover(r1w.id);
+        if (r2w && isVertical(r2w)) return ottDec(r2w.id);
+        return zoneDrop(deepHW);
+      }
+
+      // ── b. Strong Apex — man #2s; flat → hook-curl ────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r2s && isFlatRoute(r2s, strongSide, lrState, snapshot)) return zoneDrop(hookCurlS);
+        return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── e. Weak Apex — man #2w; flat → hook-curl ──────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (r2w && isFlatRoute(r2w, weakSide, lrState, snapshot)) return zoneDrop(hookCurlW);
+        return r2w ? manCover(r2w.id) : zoneDrop(hookCurlW);
+      }
+
+      // ── c. Hook — deep middle (no #3 in 2x2) ─────────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      // ── d. SS — crash flat strong ─────────────────────────────────
+      if (role === 'SAF_S') {
+        const flatRec = getFlatReceiver(strongSide, allRec, snapshot, lrState);
+        if (flatRec) return manCover(flatRec.id);
+        return zoneDrop(flatS);
+      }
+
+      // ── f. FS — crash flat weak ───────────────────────────────────
+      if (role === 'SAF_W') {
+        const flatRec = getFlatReceiver(weakSide, allRec, snapshot, lrState);
+        if (flatRec) return manCover(flatRec.id);
+        return zoneDrop(flatW);
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Invert 2 — 3×1 (Full Field, 3x1 only) ─────────────────────────
+  // Same shell as 2×2 but:
+  //   Hook: deep middle + #3 vertical read
+  //   Weak Apex: man RB directly (no #2w in 3x1)
+  //   Weak Corner: only #1w vertical (no #2w to OTT)
+  // No persistentCovCalls — all live reads.
+  'invert2-3x1': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepHS     = strongSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const deepHW     = weakSide   === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const flatS      = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const flatW      = weakSide   === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r2s = rec(strongSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          case 'CB':
+            result.set(id, zoneDrop(isStrong ? deepHS : deepHW));
+            break;
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(hookCurlS));
+            else          result.set(id, rb ? manCover(rb.id) : zoneDrop(hookCurlW));
+            break;
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          case 'SAF_S':
+            result.set(id, zoneDrop(flatS));
+            break;
+          case 'SAF_W':
+            result.set(id, zoneDrop(flatW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)      { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)          { return p ? lrState[p.id] : null; }
+      function isVertical(p)  { return isDeepVertical(p, lrState); }
+
+      const deepHS    = strongSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const deepHW    = weakSide   === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const flatS     = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const flatW     = weakSide   === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+      const allRec = eligible;
+
+      // ── a. Strong Corner — deep half; #1s vert → man; else OTT #2s/#3s ──
+      if (role === 'CB' && isStrong) {
+        if (r1s && isVertical(r1s)) return manCover(r1s.id);
+        if (r2s && isVertical(r2s)) return ottDec(r2s.id);
+        if (r3s && isVertical(r3s)) return ottDec(r3s.id);
+        return zoneDrop(deepHS);
+      }
+
+      // ── g. Weak Corner — deep half; #1w vert → man; else deep half ──
+      if (role === 'CB' && isWeak) {
+        if (r1w && isVertical(r1w)) return manCover(r1w.id);
+        return zoneDrop(deepHW);
+      }
+
+      // ── b. Strong Apex — man #2s; flat → hook-curl ────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r2s && isFlatRoute(r2s, strongSide, lrState, snapshot)) return zoneDrop(hookCurlS);
+        return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── e. Weak Apex — man RB; flat → hook-curl ───────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (rb && isFlatRoute(rb, weakSide, lrState, snapshot)) return zoneDrop(hookCurlW);
+        return rb ? manCover(rb.id) : zoneDrop(hookCurlW);
+      }
+
+      // ── c. Hook — deep middle; #3s vertical → man ─────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        if (r3s && isVertical(r3s)) return manCover(r3s.id);
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      // ── d. SS — crash flat strong ─────────────────────────────────
+      if (role === 'SAF_S') {
+        const flatRec = getFlatReceiver(strongSide, allRec, snapshot, lrState);
+        if (flatRec) return manCover(flatRec.id);
+        return zoneDrop(flatS);
+      }
+
+      // ── f. FS — crash flat weak ───────────────────────────────────
+      if (role === 'SAF_W') {
+        const flatRec = getFlatReceiver(weakSide, allRec, snapshot, lrState);
+        if (flatRec) return manCover(flatRec.id);
+        return zoneDrop(flatW);
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Poach (Full Field, 3x1 only) ──────────────────────────────────
+  // 2-high. Strong side: Quarters shell (CB man #1, SS man #2 with release).
+  // Apex = flat defender. Hook = man #3, push to #2 if #3 flat.
+  // Weak side: CB man #1w. Apex = RB/crosser. FS = Poach (#3 vert / #1 bracket).
+  // No persistentCovCalls — all live reads.
+  'poach-3x1': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'normal', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const flatS      = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const deepHS     = strongSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const deepHW     = weakSide   === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: man #1s
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepHS));
+            // g. Weak Corner: man #1w
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepHW));
+            break;
+          // b. Strong Apex: flat defender
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, zoneDrop(flatS));
+            // e. Weak Apex: hook-curl (waits for RB/crosser)
+            if (isWeak)   result.set(id, zoneDrop(hookCurlW));
+            break;
+          // c. Hook: man #3s
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, r3s ? manCover(r3s.id) : zoneDrop('HOOK_MIDDLE'));
+            break;
+          // d. SS: man #2s (quarters read)
+          case 'SAF_S':
+            result.set(id, r2s ? manCover(r2s.id) : zoneDrop(deepHS));
+            break;
+          // f. FS: deep half weak (poach)
+          case 'SAF_W':
+            result.set(id, zoneDrop(deepHW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      // Use snap-time position for side — prevents CB flipping when crossing midfield
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)      { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)          { return p ? lrState[p.id] : null; }
+      function isVertical(p)  { return isDeepVertical(p, lrState); }
+      function isUnder(p)     { return isUnderRoute(p, lrState); }
+      function isReleased(p)  { return isReleasedRoute(p, lrState); }
+
+      const flatS     = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+      const deepHS    = strongSide === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const deepHW    = weakSide   === 'L' ? 'DEEP_HALF_L' : 'DEEP_HALF_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L' : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+      const allRec = eligible;
+
+      // ── a. Strong Corner — man #1s ────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        return r1s ? manCover(r1s.id) : null;
+      }
+
+      // ── g. Weak Corner — man #1w ──────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        return r1w ? manCover(r1w.id) : null;
+      }
+
+      // ── b. Strong Apex — flat defender ────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        const flatRec = getFlatReceiver(strongSide, allRec, snapshot, lrState);
+        if (flatRec) return manCover(flatRec.id);
+        return zoneDrop(flatS);
+      }
+
+      // ── e. Weak Apex — RB weak → man; else first crosser ─────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (rb && isReleased(rb)) {
+          const rbVx = lr(rb)?.vel?.x ?? 0;
+          const rbGoingWeak = weakSide === 'L' ? rbVx < 0 : rbVx > 0;
+          if (rbGoingWeak) return manCover(rb.id);
+        }
+        // First crosser from strong side
+        const strongRecs = eligible.filter(p => p._side === strongSide);
+        const crosser = strongRecs.find(p => isUnder(p));
+        if (crosser) return manCover(crosser.id);
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── c. Hook — man #3s; #3s flat → push man #2s ────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        if (r3s && isFlatRoute(r3s, strongSide, lrState, snapshot)) {
+          return r2s ? manCover(r2s.id) : zoneDrop('HOOK_MIDDLE');
+        }
+        return r3s ? manCover(r3s.id) : zoneDrop('HOOK_MIDDLE');
+      }
+
+      // ── d. SS — quarters read on #2s; not deep vert → deep half ───
+      if (role === 'SAF_S') {
+        if (r2s && isVertical(r2s)) return manCover(r2s.id);
+        return zoneDrop(deepHS);
+      }
+
+      // ── f. FS — poach: #3s vert → OTT; else bracket #1w after 2s ──
+      if (role === 'SAF_W') {
+        if (r3s && isVertical(r3s)) return ottDec(r3s.id);
+        if (r1w && playPhaseTime >= 2.0) return ottDec(r1w.id);
+        return zoneDrop(deepHW);
+      }
+
+      return null;
+    },
+  },
+
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── New Sky 2×2 (Full Field, 2x2 only) ────────────────────────────
+  // 2-high. Strong/Weak CBs: mod-man on #1 with Under + Smash reads.
+  // Strong Safety: man #2s; Under→curl-flat; Smash→#1s; Push call→RB (OTP shallow ≤5yd).
+  // Strong Apex: zone hook strong; RB fast strong+can't reach→push call (sticky); RB in strong flat→take RB; weak under→weak crosser.
+  // Hook: zone middle; RB flat weak→take RB; strong under→strong crosser.
+  // Weak Apex: man #2w; Under→curl-flat; Smash→#1w.
+  // Deep Safety (SAF_W): deep middle.
+  // All calls (under S/W, smash S/W, push) use stickyOnce 0.5s for full stickiness.
+  // persistentCovCalls prefix: nsk2_
+  'cover3-sky-2x2-match-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: man #1s  /  f. Weak Corner: man #1w
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepTW));
+            break;
+          // b. Strong Safety: man #2s
+          case 'SAF_S':
+            result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            break;
+          // c. Strong Apex: zone hook strong  /  e. Weak Apex: man #2w
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, zoneDrop(hookCurlS));
+            if (isWeak)   result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+          // d. Hook: zone hook curl weak
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookCurlW));
+            break;
+          // g. Deep Safety: deep middle
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        // i. #1s under → Under call strong (sticky 0.5s) + bail deep third
+        if (stickyOnce('nsk2_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('nsk2_underS_cb')) persistentCovCalls.nsk2_underS = true;
+          return zoneDrop(deepTS);
+        }
+        // ii. #1s hitch → Smash call strong (sticky 0.5s) + bail deep third
+        if (stickyOnce('nsk2_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('nsk2_smashS')) persistentCovCalls.nsk2_smashS = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety ──────────────────────────────────────────────
+      if (role === 'SAF_S') {
+        // i. #2s under → Under call strong (sticky 0.5s)
+        if (stickyOnce('nsk2_underS_ss', !!(r2s && isUnder(r2s)))) {
+          if (isStickyLocked('nsk2_underS_ss')) persistentCovCalls.nsk2_underS = true;
+          const rbLr = lr(rb); const rbVx = rbLr?.vel?.x ?? 0;
+          const rbMoving = rbLr?.moveType !== 'stopped';
+          const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (stickyOnce('nsk2_rbGlobal_strong', rbGoingStrong)) {
+            if (persistentCovCalls.nsk2_smashS) return zoneDrop(curlFlatS);
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatS);
+        }
+        // ii. Smash call strong (locked) → cover #1s on hitch
+        if (persistentCovCalls.nsk2_smashS) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── c. Strong Apex ────────────────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        const rbLr          = lr(rb);
+        const rbVx          = rbLr?.vel?.x ?? 0;
+        const rbMoving      = rbLr?.moveType !== 'stopped';
+        const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+
+        // c.i:   Under call from weak side (locked) → pick up uncovered weak crosser
+        if (persistentCovCalls.nsk2_underW) {
+          const crosser = [r2w, r1w].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+        }
+        // c.iii: RB releasing strong + SS still on #2s → take RB (live every tick)
+        if (rbGoingStrong && rb && r2s &&
+            defensePlayers.some(def => def.id !== d.id &&
+              frozenRoleMap?.get(def.id) === 'SAF_S' &&
+              def.decision?.mode === 'follow' &&
+              def.decision?.focusTargetId === r2s.id))
+          return manCover(rb.id);
+        // Default: hook curl strong
+        return zoneDrop(hookCurlS);
+      }
+
+      // ── d. Hook ──────────────────────────────────────────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        const rbLr        = lr(rb);
+        const rbVx        = rbLr?.vel?.x ?? 0;
+        const rbMoving    = rbLr?.moveType !== 'stopped';
+        const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+
+        // d.i:   Under call from strong side (locked) → pick up uncovered strong crosser
+        if (persistentCovCalls.nsk2_underS) {
+          const crosser = [r2s, r1s].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+        }
+        // d.iii: RB releasing weak + Weak Apex still on #2w → take RB (live every tick)
+        if (rbGoingWeak && rb && r2w &&
+            defensePlayers.some(def => def.id !== d.id &&
+              def.decision?.mode === 'follow' &&
+              def.decision?.focusTargetId === r2w.id))
+          return manCover(rb.id);
+        // Default: hook curl weak
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── e. Weak Apex ──────────────────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        // i. #2w under → Under call weak (sticky 0.5s)
+        if (stickyOnce('nsk2_underW_wa', !!(r2w && isUnder(r2w)))) {
+          if (isStickyLocked('nsk2_underW_wa')) persistentCovCalls.nsk2_underW = true;
+          const rbLr = lr(rb); const rbVx = rbLr?.vel?.x ?? 0;
+          const rbMoving = rbLr?.moveType !== 'stopped';
+          const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (!persistentCovCalls.nsk2_rbGlobal_strong && rbGoingWeak) {
+            if (persistentCovCalls.nsk2_smashW) return zoneDrop(curlFlatW);
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatW);
+        }
+        // ii. Smash call weak (locked) → cover #1w on hitch
+        if (persistentCovCalls.nsk2_smashW) {
+          return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+        }
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        // i. #1w under → Under call weak (sticky 0.5s) + bail deep third
+        if (stickyOnce('nsk2_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('nsk2_underW_cb')) persistentCovCalls.nsk2_underW = true;
+          return zoneDrop(deepTW);
+        }
+        // ii. #1w hitch → Smash call weak (sticky 0.5s) + bail deep third
+        if (stickyOnce('nsk2_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('nsk2_smashW')) persistentCovCalls.nsk2_smashW = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+      }
+
+      // ── g. Deep Safety ────────────────────────────────────────────────
+      if (role === 'SAF_W') {
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── New Sky 2×2 NEW (Full Field, 2x2 only) — TEST COPY ────────────
+  // Identical to cover3-sky-2x2-match-bugged — use for testing changes.
+  // persistentCovCalls prefix: nsk2new_  (separated from nsk2_ to avoid state collision)
+  'cover3-sky-2x2-match-new-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: man #1s  /  f. Weak Corner: man #1w
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepTW));
+            break;
+          // b. Strong Safety: man #2s
+          case 'SAF_S':
+            result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            break;
+          // c. Strong Apex: zone hook strong  /  e. Weak Apex: man #2w
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, zoneDrop(hookCurlS));
+            if (isWeak)   result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+          // d. Hook: zone hook curl weak
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookCurlW));
+            break;
+          // g. Deep Safety: deep middle
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        // i. #1s under → Under call strong (sticky 0.5s) + bail deep third
+        if (stickyOnce('nsk2new_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('nsk2new_underS_cb')) persistentCovCalls.nsk2new_underS = true;
+          return zoneDrop(deepTS);
+        }
+        // ii. #1s hitch → Smash call strong (sticky 0.5s) + bail deep third
+        if (stickyOnce('nsk2new_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('nsk2new_smashS')) persistentCovCalls.nsk2new_smashS = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety ──────────────────────────────────────────────
+      if (role === 'SAF_S') {
+        // i. #2s under → Under call strong (sticky 0.5s)
+        if (stickyOnce('nsk2new_underS_ss', !!(r2s && isUnder(r2s)))) {
+          if (isStickyLocked('nsk2new_underS_ss')) persistentCovCalls.nsk2new_underS = true;
+          const rbLr = lr(rb); const rbVx = rbLr?.vel?.x ?? 0;
+          const rbMoving = rbLr?.moveType !== 'stopped';
+          const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (stickyOnce('nsk2new_rbGlobal_strong', rbGoingStrong)) {
+            if (persistentCovCalls.nsk2new_smashS) return zoneDrop(curlFlatS);
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatS);
+        }
+        // ii. Smash call strong (locked) → cover #1s on hitch
+        if (persistentCovCalls.nsk2new_smashS) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        // iii. NEW: RB releases strong → distance-based decision (fast+late combined)
+        //      SS closer to RB than Strong Apex → Push call: SS takes RB, Apex takes #2s
+        //      Strong Apex closer → late scenario: Apex takes RB, SS stays on #2s
+        {
+          const rbLr2 = lr(rb); const rbVx2 = rbLr2?.vel?.x ?? 0;
+          const rbMoving2 = rbLr2?.moveType !== 'stopped';
+          const rbGoingStrong = !!(rb && rbMoving2 && (strongSide === 'L' ? rbVx2 < 0 : rbVx2 > 0));
+          if (rbGoingStrong) {
+            if (!persistentCovCalls.nsk2new_rbStrongDecided) {
+              const strongApex = defensePlayers.find(def => {
+                const rr = frozenRoleMap?.get(def.id);
+                if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+                const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+                return (dsx <= ballX ? 'L' : 'R') === strongSide;
+              });
+              if (strongApex) {
+                const ssX = d.simX ?? d.x, ssY = d.simY ?? d.y;
+                const apX = strongApex.simX ?? strongApex.x, apY = strongApex.simY ?? strongApex.y;
+                const rbX = rb.simX ?? rb.x, rbY = rb.simY ?? rb.y;
+                persistentCovCalls.nsk2new_rbStrongDecided = true;
+                persistentCovCalls.nsk2new_pushStrong =
+                  Math.hypot(ssX - rbX, ssY - rbY) < Math.hypot(apX - rbX, apY - rbY);
+              }
+            }
+            if (persistentCovCalls.nsk2new_pushStrong) return manCover(rb.id);
+          }
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── c. Strong Apex ────────────────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        const rbLr          = lr(rb);
+        const rbVx          = rbLr?.vel?.x ?? 0;
+        const rbMoving      = rbLr?.moveType !== 'stopped';
+        const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+
+        // c.i:   Under call from weak side (locked) → pick up uncovered weak crosser
+        if (persistentCovCalls.nsk2new_underW) {
+          const crosser = [r2w, r1w].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+        }
+        // c.iii: NEW — RB releases strong → distance-based decision (mirror SAF_S)
+        //        Push (SS closer) → I take #2s man
+        //        Late  (Apex closer) → I take RB man
+        if (rbGoingStrong && rb) {
+          if (!persistentCovCalls.nsk2new_rbStrongDecided) {
+            const ss = defensePlayers.find(def => frozenRoleMap?.get(def.id) === 'SAF_S');
+            if (ss) {
+              const ssX = ss.simX ?? ss.x, ssY = ss.simY ?? ss.y;
+              const apX = d.simX ?? d.x,   apY = d.simY ?? d.y;
+              const rbX = rb.simX ?? rb.x, rbY = rb.simY ?? rb.y;
+              persistentCovCalls.nsk2new_rbStrongDecided = true;
+              persistentCovCalls.nsk2new_pushStrong =
+                Math.hypot(ssX - rbX, ssY - rbY) < Math.hypot(apX - rbX, apY - rbY);
+            }
+          }
+          if (persistentCovCalls.nsk2new_pushStrong && r2s) return manCover(r2s.id);
+          if (persistentCovCalls.nsk2new_rbStrongDecided && !persistentCovCalls.nsk2new_pushStrong)
+            return manCover(rb.id);
+        }
+        // Default: hook curl strong
+        return zoneDrop(hookCurlS);
+      }
+
+      // ── d. Hook ──────────────────────────────────────────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        const rbLr        = lr(rb);
+        const rbVx        = rbLr?.vel?.x ?? 0;
+        const rbMoving    = rbLr?.moveType !== 'stopped';
+        const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+
+        // d.i:   Under call from strong side (locked) → pick up uncovered strong crosser
+        if (persistentCovCalls.nsk2new_underS) {
+          const crosser = [r2s, r1s].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+        }
+        // d.iii: NEW — RB releases weak → distance-based decision (mirror Weak Apex)
+        //        Push (WeakApex closer) → I take #2w man
+        //        Late  (Hook closer)     → I take RB man
+        if (rbGoingWeak && rb) {
+          if (!persistentCovCalls.nsk2new_rbWeakDecided) {
+            const wapex = defensePlayers.find(def => {
+              const rr = frozenRoleMap?.get(def.id);
+              if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+              const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return (dsx <= ballX ? 'L' : 'R') === weakSide;
+            });
+            if (wapex) {
+              const waX = wapex.simX ?? wapex.x, waY = wapex.simY ?? wapex.y;
+              const hkX = d.simX ?? d.x,         hkY = d.simY ?? d.y;
+              const rbX = rb.simX ?? rb.x,       rbY = rb.simY ?? rb.y;
+              persistentCovCalls.nsk2new_rbWeakDecided = true;
+              persistentCovCalls.nsk2new_pushWeak =
+                Math.hypot(waX - rbX, waY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+            }
+          }
+          if (persistentCovCalls.nsk2new_pushWeak && r2w) return manCover(r2w.id);
+          if (persistentCovCalls.nsk2new_rbWeakDecided && !persistentCovCalls.nsk2new_pushWeak)
+            return manCover(rb.id);
+        }
+        // Default: hook curl weak
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── e. Weak Apex ──────────────────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        // i. #2w under → Under call weak (sticky 0.5s)
+        if (stickyOnce('nsk2new_underW_wa', !!(r2w && isUnder(r2w)))) {
+          if (isStickyLocked('nsk2new_underW_wa')) persistentCovCalls.nsk2new_underW = true;
+          const rbLr = lr(rb); const rbVx = rbLr?.vel?.x ?? 0;
+          const rbMoving = rbLr?.moveType !== 'stopped';
+          const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (!persistentCovCalls.nsk2new_rbGlobal_strong && rbGoingWeak) {
+            if (persistentCovCalls.nsk2new_smashW) return zoneDrop(curlFlatW);
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatW);
+        }
+        // ii. Smash call weak (locked) → cover #1w on hitch
+        if (persistentCovCalls.nsk2new_smashW) {
+          return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+        }
+        // iii. NEW: RB releases weak → distance-based decision (fast+late combined)
+        //      Weak Apex closer to RB than Hook → Push call: I take RB, Hook takes #2w
+        //      Hook closer → late scenario: Hook takes RB, I stay on #2w
+        {
+          const rbLr3 = lr(rb); const rbVx3 = rbLr3?.vel?.x ?? 0;
+          const rbMoving3 = rbLr3?.moveType !== 'stopped';
+          const rbGoingWeak = !!(rb && rbMoving3 && (weakSide === 'L' ? rbVx3 < 0 : rbVx3 > 0));
+          if (rbGoingWeak) {
+            if (!persistentCovCalls.nsk2new_rbWeakDecided) {
+              const hook = defensePlayers.find(def => {
+                const rr = frozenRoleMap?.get(def.id);
+                return rr === 'HOOK-L' || rr === 'HOOK-R' || rr === 'HOOK-M';
+              });
+              if (hook) {
+                const waX = d.simX ?? d.x,       waY = d.simY ?? d.y;
+                const hkX = hook.simX ?? hook.x, hkY = hook.simY ?? hook.y;
+                const rbX = rb.simX ?? rb.x,     rbY = rb.simY ?? rb.y;
+                persistentCovCalls.nsk2new_rbWeakDecided = true;
+                persistentCovCalls.nsk2new_pushWeak =
+                  Math.hypot(waX - rbX, waY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+              }
+            }
+            if (persistentCovCalls.nsk2new_pushWeak) return manCover(rb.id);
+          }
+        }
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        // i. #1w under → Under call weak (sticky 0.5s) + bail deep third
+        if (stickyOnce('nsk2new_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('nsk2new_underW_cb')) persistentCovCalls.nsk2new_underW = true;
+          return zoneDrop(deepTW);
+        }
+        // ii. #1w hitch → Smash call weak (sticky 0.5s) + bail deep third
+        if (stickyOnce('nsk2new_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('nsk2new_smashW')) persistentCovCalls.nsk2new_smashW = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+      }
+
+      // ── g. Deep Safety ────────────────────────────────────────────────
+      if (role === 'SAF_W') {
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Muffin Match (Full Field, 2x2) — RELATE-FIRST EXPERIMENT
+  // Base copy of cover3-sky-2x2-match-new-bugged (with push-call distance heuristic).
+  // Will iteratively get relate-first / top-down logic on top.
+  // persistentCovCalls prefix: mufm_
+  'cover3-sky-2x2-match': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: man #1s  /  f. Weak Corner: man #1w
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepTW));
+            break;
+          // b. Strong Safety: man #2s
+          case 'SAF_S':
+            result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            break;
+          // c. Strong Apex: zone hook strong  /  e. Weak Apex: man #2w
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, zoneDrop(hookCurlS));
+            if (isWeak)   result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+          // d. Hook: zone hook curl weak
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookCurlW));
+            break;
+          // g. Deep Safety: deep middle
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+
+      // ── Phase-A helpers: Relate-First gating ─────────────────────────
+      // Y-convention in this codebase: smaller simY = more upfield ("deeper").
+      // So defender deeper than WR ⇔ d.simY < wr.simY.
+      const YPX = (typeof YARD_PX !== 'undefined') ? YARD_PX : 20;
+      const LATERAL_THRESH_YDS   = 5;   // RB must move ≥5yd laterally before match
+      const SUSTAINED_DIR_SECS   = 0.5; // RB direction must hold ≥0.5s before match
+      const RB_MATCH_MIN_TIME    = 1.0; // hard floor: no RB-match before 1.0s ("drop first")
+      const RB_FLAT_DEPTH_YDS    = 2;   // RB must be within 2yd of LOS (flat-route depth)
+      const CROSSER_LATERAL_YDS  = 6;   // crosser within 6yd LATERAL of defender → engage
+      const UNDER_DECLARE_YDS    = 2;   // #2 must move ≥2yd laterally before Under-call
+      const _pt = (typeof playPhaseTime !== 'undefined') ? playPhaseTime : 0;
+
+      // RB committed to a side: time-gated + flat-depth + lateral + sustained direction
+      function rbCommittedTo(side) {
+        if (!rb) return false;
+        // Hard floor: don't even consider RB-match before 1.0s (zone-drop first)
+        if (_pt < RB_MATCH_MIN_TIME) return false;
+        const rbLrX = lr(rb);
+        if (!rbLrX) return false;
+        if (rbLrX.moveType === 'stopped') return false;
+        // RB must be at/near LOS depth (real flat release, not still blocking in backfield)
+        const depthAbs = Math.abs(rbLrX.depthYards ?? 0);
+        if (depthAbs > RB_FLAT_DEPTH_YDS) return false;
+        const vx = rbLrX.vel?.x ?? 0;
+        const movingThatWay = side === 'L' ? vx < 0 : vx > 0;
+        if (!movingThatWay) return false;
+        const initX = rbLrX.initPos?.x ?? rbLrX.pos?.x ?? 0;
+        const curX  = rbLrX.pos?.x ?? 0;
+        if (Math.abs(curX - initX) < LATERAL_THRESH_YDS * YPX) return false;
+        const sinceChange = _pt - (rbLrX.lastDecisionChangeAt ?? 0);
+        if (sinceChange < SUSTAINED_DIR_SECS) return false;
+        return true;
+      }
+
+      // Receiver has truly declared a route (lateral commit beyond release noise)
+      function hasDeclared(p, minYds) {
+        const plr = lr(p);
+        if (!plr) return false;
+        const initX = plr.initPos?.x ?? plr.pos?.x ?? 0;
+        const curX  = plr.pos?.x ?? 0;
+        return Math.abs(curX - initX) >= (minYds * YPX);
+      }
+
+      // Defender can match a crosser. Engage when EITHER:
+      //   - WR has crossed midfield to defender's side (committed cross), OR
+      //   - WR is laterally close to defender (within CROSSER_LATERAL_YDS)
+      // NOTE: depth check removed — sticky lock now handles maintenance, so we
+      // no longer self-disqualify when the defender naturally moves to intercept.
+      // Top-down behavior emerges from zone snap position + sticky lock.
+      function canMatchCrosser(def, wr) {
+        if (!def || !wr) return false;
+        const wrLr = lr(wr);
+        const dx = def.simX ?? def.x;
+        const wx = wr.simX  ?? wr.x;
+        const hasCrossedMid = !!(wrLr && wrLr.crossedMiddleNow);
+        const lateralGap   = Math.abs(dx - wx);
+        const isLatClose   = lateralGap < CROSSER_LATERAL_YDS * YPX;
+        return hasCrossedMid || isLatClose;
+      }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        // i. #1s under → Under call strong (sticky 0.5s) + bail deep third
+        if (stickyOnce('mufm_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('mufm_underS_cb')) persistentCovCalls.mufm_underS = true;
+          return zoneDrop(deepTS);
+        }
+        // ii. #1s hitch → Smash call strong (sticky 0.5s) + bail deep third
+        if (stickyOnce('mufm_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('mufm_smashS')) persistentCovCalls.mufm_smashS = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety ──────────────────────────────────────────────
+      if (role === 'SAF_S') {
+        // STEP 1: Detect Under-call (sets persistent flag for Hook to read),
+        //         but DO NOT return yet — smash needs priority below.
+        const underTrigS = stickyOnce('mufm_underS_ss', !!(r2s && isUnder(r2s)));
+        if (underTrigS && isStickyLocked('mufm_underS_ss')) {
+          persistentCovCalls.mufm_underS = true;
+        }
+        // ii. Smash call PRIORITY: #1s hitch → cover #1 man, beats under-call action.
+        //     Even if #2 also went under, smash is the more urgent coverage call.
+        if (persistentCovCalls.mufm_smashS) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        // i. Under-call action (only reached if no smash): bail to curl-flat,
+        //    or take RB if RB is fully committed strong.
+        if (underTrigS) {
+          const rbGoingStrong = rbCommittedTo(strongSide);
+          if (stickyOnce('mufm_rbGlobal_strong', rbGoingStrong)) {
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatS);
+        }
+        // iii. RB releases strong → distance-based decision (fast+late combined)
+        //      PHASE-A: only fire once RB is COMMITTED (lateral + sustained), not on first step.
+        //      Below threshold → SS stays on #2s man (= relate to #2s).
+        //      SS closer to RB than Strong Apex → Push call: SS takes RB, Apex takes #2s
+        //      Strong Apex closer → late scenario: Apex takes RB, SS stays on #2s
+        {
+          const rbGoingStrong = rbCommittedTo(strongSide);
+          if (rbGoingStrong) {
+            if (!persistentCovCalls.mufm_rbStrongDecided) {
+              const strongApex = defensePlayers.find(def => {
+                const rr = frozenRoleMap?.get(def.id);
+                if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+                const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+                return (dsx <= ballX ? 'L' : 'R') === strongSide;
+              });
+              if (strongApex) {
+                const ssX = d.simX ?? d.x, ssY = d.simY ?? d.y;
+                const apX = strongApex.simX ?? strongApex.x, apY = strongApex.simY ?? strongApex.y;
+                const rbX = rb.simX ?? rb.x, rbY = rb.simY ?? rb.y;
+                persistentCovCalls.mufm_rbStrongDecided = true;
+                persistentCovCalls.mufm_pushStrong =
+                  Math.hypot(ssX - rbX, ssY - rbY) < Math.hypot(apX - rbX, apY - rbY);
+              }
+            }
+            if (persistentCovCalls.mufm_pushStrong) return manCover(rb.id);
+          }
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── c. Strong Apex ────────────────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        // PHASE-A: use committed-to-side instead of raw vel direction
+        const rbGoingStrong = rbCommittedTo(strongSide);
+
+        // c.i:   Under call from weak side (locked) → pick up uncovered weak crosser
+        //        PHASE-A: top-down gate ONLY for initial engagement.
+        //        Once engaged, sticky lock keeps Apex on the crosser even when geometry
+        //        flips (i.e. Apex moves to intercept and becomes shallower than WR).
+        if (persistentCovCalls.mufm_underW) {
+          // (a) Sticky maintenance: already locked onto a crosser → stay on him
+          const lockedId = persistentCovCalls.mufm_apexCrosserId;
+          if (lockedId) {
+            const lockedWr = [r2w, r1w].find(p => p && p.id === lockedId);
+            if (lockedWr) return manCover(lockedWr.id);
+            // locked target gone (rare) → clear and re-scan
+            persistentCovCalls.mufm_apexCrosserId = null;
+          }
+          // (b) Initial engagement: scan for uncovered crosser passing top-down gate
+          const crosser = [r2w, r1w].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser && canMatchCrosser(d, crosser)) {
+            persistentCovCalls.mufm_apexCrosserId = crosser.id; // LOCK
+            return manCover(crosser.id);
+          }
+        }
+        // c.iii: RB releases strong → distance-based decision (mirror SAF_S)
+        //        PHASE-A: only fire once RB is COMMITTED (lateral + sustained).
+        //        PHASE-A FIX: skip push entirely if Under-call from strong is active —
+        //                     #2s has gone under, Hook is the right defender for the crosser.
+        //                     Strong Apex stays in zone instead of stealing #2s.
+        //        Push (SS closer) → I take #2s man
+        //        Late  (Apex closer) → I take RB man
+        if (rbGoingStrong && rb && !persistentCovCalls.mufm_underS) {
+          if (!persistentCovCalls.mufm_rbStrongDecided) {
+            const ss = defensePlayers.find(def => frozenRoleMap?.get(def.id) === 'SAF_S');
+            if (ss) {
+              const ssX = ss.simX ?? ss.x, ssY = ss.simY ?? ss.y;
+              const apX = d.simX ?? d.x,   apY = d.simY ?? d.y;
+              const rbX = rb.simX ?? rb.x, rbY = rb.simY ?? rb.y;
+              persistentCovCalls.mufm_rbStrongDecided = true;
+              persistentCovCalls.mufm_pushStrong =
+                Math.hypot(ssX - rbX, ssY - rbY) < Math.hypot(apX - rbX, apY - rbY);
+            }
+          }
+          if (persistentCovCalls.mufm_pushStrong && r2s) return manCover(r2s.id);
+          if (persistentCovCalls.mufm_rbStrongDecided && !persistentCovCalls.mufm_pushStrong)
+            return manCover(rb.id);
+        }
+        // Default: hook curl strong
+        return zoneDrop(hookCurlS);
+      }
+
+      // ── d. Hook ──────────────────────────────────────────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        // PHASE-A: use committed-to-side instead of raw vel direction
+        const rbGoingWeak = rbCommittedTo(weakSide);
+
+        // d.i:   Under call from strong side (locked) → pick up uncovered strong crosser
+        //        PHASE-A: top-down gate ONLY for initial engagement.
+        //        Once engaged, sticky lock keeps Hook on the crosser even when geometry
+        //        flips (i.e. Hook moves to intercept and becomes shallower than WR).
+        if (persistentCovCalls.mufm_underS) {
+          // (a) Sticky maintenance: already locked onto a crosser → stay on him
+          const lockedId = persistentCovCalls.mufm_hookCrosserId;
+          if (lockedId) {
+            const lockedWr = [r2s, r1s].find(p => p && p.id === lockedId);
+            if (lockedWr) return manCover(lockedWr.id);
+            // locked target gone (rare) → clear and re-scan
+            persistentCovCalls.mufm_hookCrosserId = null;
+          }
+          // (b) Initial engagement: scan for uncovered crosser passing top-down gate
+          const crosser = [r2s, r1s].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser && canMatchCrosser(d, crosser)) {
+            persistentCovCalls.mufm_hookCrosserId = crosser.id; // LOCK
+            return manCover(crosser.id);
+          }
+        }
+        // d.iii: RB releases weak → distance-based decision (mirror Weak Apex)
+        //        PHASE-A: only fire once RB is COMMITTED (lateral + sustained).
+        //        PHASE-A FIX: skip push entirely if Under-call from weak is active —
+        //                     #2w has gone under, Strong Apex is the right defender for the crosser.
+        //                     Hook stays in zone instead of stealing #2w.
+        //        Push (WeakApex closer) → I take #2w man
+        //        Late  (Hook closer)     → I take RB man
+        if (rbGoingWeak && rb && !persistentCovCalls.mufm_underW) {
+          if (!persistentCovCalls.mufm_rbWeakDecided) {
+            const wapex = defensePlayers.find(def => {
+              const rr = frozenRoleMap?.get(def.id);
+              if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+              const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return (dsx <= ballX ? 'L' : 'R') === weakSide;
+            });
+            if (wapex) {
+              const waX = wapex.simX ?? wapex.x, waY = wapex.simY ?? wapex.y;
+              const hkX = d.simX ?? d.x,         hkY = d.simY ?? d.y;
+              const rbX = rb.simX ?? rb.x,       rbY = rb.simY ?? rb.y;
+              persistentCovCalls.mufm_rbWeakDecided = true;
+              persistentCovCalls.mufm_pushWeak =
+                Math.hypot(waX - rbX, waY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+            }
+          }
+          if (persistentCovCalls.mufm_pushWeak && r2w) return manCover(r2w.id);
+          if (persistentCovCalls.mufm_rbWeakDecided && !persistentCovCalls.mufm_pushWeak)
+            return manCover(rb.id);
+        }
+        // Default: hook curl weak
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── e. Weak Apex ──────────────────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        // STEP 1: Detect Under-call (sets flag for Strong Apex to read crosser).
+        //         Don't return — smash priority below.
+        const underTrigW = stickyOnce('mufm_underW_wa', !!(r2w && isUnder(r2w)));
+        if (underTrigW && isStickyLocked('mufm_underW_wa')) {
+          persistentCovCalls.mufm_underW = true;
+        }
+        // ii. Smash call PRIORITY: #1w hitch → cover #1w man, beats under-call action.
+        if (persistentCovCalls.mufm_smashW) {
+          return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+        }
+        // i. Under-call action (only reached if no smash): bail to curl-flat,
+        //    or take RB if RB is fully committed weak.
+        if (underTrigW) {
+          const rbGoingWeak = rbCommittedTo(weakSide);
+          if (!persistentCovCalls.mufm_rbGlobal_strong && rbGoingWeak) {
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatW);
+        }
+        // iii. RB releases weak → distance-based decision (fast+late combined)
+        //      PHASE-A: only fire once RB is COMMITTED (lateral + sustained).
+        //      Below threshold → I stay on #2w man (= relate).
+        //      Weak Apex closer to RB than Hook → Push call: I take RB, Hook takes #2w
+        //      Hook closer → late scenario: Hook takes RB, I stay on #2w
+        {
+          const rbGoingWeak = rbCommittedTo(weakSide);
+          if (rbGoingWeak) {
+            if (!persistentCovCalls.mufm_rbWeakDecided) {
+              const hook = defensePlayers.find(def => {
+                const rr = frozenRoleMap?.get(def.id);
+                return rr === 'HOOK-L' || rr === 'HOOK-R' || rr === 'HOOK-M';
+              });
+              if (hook) {
+                const waX = d.simX ?? d.x,       waY = d.simY ?? d.y;
+                const hkX = hook.simX ?? hook.x, hkY = hook.simY ?? hook.y;
+                const rbX = rb.simX ?? rb.x,     rbY = rb.simY ?? rb.y;
+                persistentCovCalls.mufm_rbWeakDecided = true;
+                persistentCovCalls.mufm_pushWeak =
+                  Math.hypot(waX - rbX, waY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+              }
+            }
+            if (persistentCovCalls.mufm_pushWeak) return manCover(rb.id);
+          }
+        }
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        // i. #1w under → Under call weak (sticky 0.5s) + bail deep third
+        if (stickyOnce('mufm_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('mufm_underW_cb')) persistentCovCalls.mufm_underW = true;
+          return zoneDrop(deepTW);
+        }
+        // ii. #1w hitch → Smash call weak (sticky 0.5s) + bail deep third
+        if (stickyOnce('mufm_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('mufm_smashW')) persistentCovCalls.mufm_smashW = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+      }
+
+      // ── g. Deep Safety ────────────────────────────────────────────────
+      if (role === 'SAF_W') {
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Buzz 2×2 Match (Full Field, 2x2) ──────────────────────
+  // Mirror of Cover 3 Sky 2×2 Match — SAF_S and Strong Apex swap jobs:
+  //   - SAF_S plays the zone hookCurlS role (Sky: Strong Apex's job).
+  //   - Strong Apex mans #2s (Sky: SAF_S's job).
+  //   - Cross-reads flipped: where Sky's SS partner lookup happened, Buzz
+  //     looks for Strong Apex (and vice versa). Push semantic preserved:
+  //     the MAN defender (now Strong Apex) takes RB when closer; the ZONE
+  //     defender (now SAF_S) takes #2s on push, or RB late.
+  // persistentCovCalls prefix: cbz2_
+  'cover3-buzz-2x2-match': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: man #1s  /  f. Weak Corner: man #1w
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepTW));
+            break;
+          // b. Strong Safety: zone hook curl strong  (BUZZ SWAP: was man #2s in Sky)
+          case 'SAF_S':
+            result.set(id, zoneDrop(hookCurlS));
+            break;
+          // c. Strong Apex: man #2s  (BUZZ SWAP: was zone hookCurlS in Sky)
+          //    Weak Apex: man #2w
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            if (isWeak)   result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+          // d. Hook: zone hook curl weak
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookCurlW));
+            break;
+          // g. Deep Safety: deep middle
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+
+      // ── Phase-A helpers (identical to Sky 2×2 Match) ─────────────────
+      const YPX = (typeof YARD_PX !== 'undefined') ? YARD_PX : 20;
+      const LATERAL_THRESH_YDS   = 5;
+      const SUSTAINED_DIR_SECS   = 0.5;
+      const RB_MATCH_MIN_TIME    = 1.0;
+      const RB_FLAT_DEPTH_YDS    = 2;
+      const CROSSER_LATERAL_YDS  = 6;
+      const _pt = (typeof playPhaseTime !== 'undefined') ? playPhaseTime : 0;
+
+      function rbCommittedTo(side) {
+        if (!rb) return false;
+        if (_pt < RB_MATCH_MIN_TIME) return false;
+        const rbLrX = lr(rb);
+        if (!rbLrX) return false;
+        if (rbLrX.moveType === 'stopped') return false;
+        const depthAbs = Math.abs(rbLrX.depthYards ?? 0);
+        if (depthAbs > RB_FLAT_DEPTH_YDS) return false;
+        const vx = rbLrX.vel?.x ?? 0;
+        const movingThatWay = side === 'L' ? vx < 0 : vx > 0;
+        if (!movingThatWay) return false;
+        const initX = rbLrX.initPos?.x ?? rbLrX.pos?.x ?? 0;
+        const curX  = rbLrX.pos?.x ?? 0;
+        if (Math.abs(curX - initX) < LATERAL_THRESH_YDS * YPX) return false;
+        const sinceChange = _pt - (rbLrX.lastDecisionChangeAt ?? 0);
+        if (sinceChange < SUSTAINED_DIR_SECS) return false;
+        return true;
+      }
+
+      function canMatchCrosser(def, wr) {
+        if (!def || !wr) return false;
+        const wrLr = lr(wr);
+        const dx = def.simX ?? def.x;
+        const wx = wr.simX  ?? wr.x;
+        const hasCrossedMid = !!(wrLr && wrLr.crossedMiddleNow);
+        const lateralGap   = Math.abs(dx - wx);
+        const isLatClose   = lateralGap < CROSSER_LATERAL_YDS * YPX;
+        return hasCrossedMid || isLatClose;
+      }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        if (stickyOnce('cbz2_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('cbz2_underS_cb')) persistentCovCalls.cbz2_underS = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('cbz2_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('cbz2_smashS')) persistentCovCalls.cbz2_smashS = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety  (BUZZ SWAP: plays Sky's Strong-Apex job) ────
+      //   Zone hookCurlS, weak-crosser pickup on Under-W, push decision
+      //   where the partner is now Strong Apex (the man defender on #2s).
+      if (role === 'SAF_S') {
+        const rbGoingStrong = rbCommittedTo(strongSide);
+
+        // i. Under call from weak side → pick up uncovered weak crosser
+        if (persistentCovCalls.cbz2_underW) {
+          const lockedId = persistentCovCalls.cbz2_ssCrosserId;
+          if (lockedId) {
+            const lockedWr = [r2w, r1w].find(p => p && p.id === lockedId);
+            if (lockedWr) return manCover(lockedWr.id);
+            persistentCovCalls.cbz2_ssCrosserId = null;
+          }
+          const crosser = [r2w, r1w].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser && canMatchCrosser(d, crosser)) {
+            persistentCovCalls.cbz2_ssCrosserId = crosser.id;
+            return manCover(crosser.id);
+          }
+        }
+        // ii. RB releases strong → distance push vs Strong Apex partner.
+        //     Skip if Under-S active (man defender already bailed; Hook owns crosser).
+        //     pushStrong = (Apex closer to RB than SS).
+        //     pushStrong true  → SS (me, zone) takes #2s (Apex pushed off to RB).
+        //     pushStrong false → SS takes RB late (Apex too far to chase).
+        if (rbGoingStrong && rb && !persistentCovCalls.cbz2_underS) {
+          if (!persistentCovCalls.cbz2_rbStrongDecided) {
+            const strongApex = defensePlayers.find(def => {
+              const rr = frozenRoleMap?.get(def.id);
+              if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+              const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return (dsx <= ballX ? 'L' : 'R') === strongSide;
+            });
+            if (strongApex) {
+              const apX = strongApex.simX ?? strongApex.x, apY = strongApex.simY ?? strongApex.y;
+              const ssX = d.simX ?? d.x,                   ssY = d.simY ?? d.y;
+              const rbX = rb.simX ?? rb.x, rbY = rb.simY ?? rb.y;
+              persistentCovCalls.cbz2_rbStrongDecided = true;
+              persistentCovCalls.cbz2_pushStrong =
+                Math.hypot(apX - rbX, apY - rbY) < Math.hypot(ssX - rbX, ssY - rbY);
+            }
+          }
+          if (persistentCovCalls.cbz2_pushStrong && r2s) return manCover(r2s.id);
+          if (persistentCovCalls.cbz2_rbStrongDecided && !persistentCovCalls.cbz2_pushStrong)
+            return manCover(rb.id);
+        }
+        return zoneDrop(hookCurlS);
+      }
+
+      // ── c. Strong Apex  (BUZZ SWAP: plays Sky's SAF_S job) ────────────
+      //   Mans #2s, writes Under-S, smash priority, push decision where
+      //   the partner is now SAF_S (the zone defender in hookCurlS).
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        // STEP 1: detect Under-call (sets flag for Hook to read crossers).
+        const underTrigS = stickyOnce('cbz2_underS_sa', !!(r2s && isUnder(r2s)));
+        if (underTrigS && isStickyLocked('cbz2_underS_sa')) {
+          persistentCovCalls.cbz2_underS = true;
+        }
+        // ii. Smash PRIORITY: #1s hitch → cover #1 man, beats under-call action.
+        if (persistentCovCalls.cbz2_smashS) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        // i. Under-call action: bail to curl-flat, or take RB if RB committed strong.
+        if (underTrigS) {
+          const rbGoingStrong = rbCommittedTo(strongSide);
+          if (stickyOnce('cbz2_rbGlobal_strong', rbGoingStrong)) {
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatS);
+        }
+        // iii. RB releases strong → distance push vs SAF_S partner.
+        //      pushStrong = (Apex closer to RB than SS).
+        //      pushStrong true → I (Apex, the man defender) push off #2s to take RB.
+        {
+          const rbGoingStrong = rbCommittedTo(strongSide);
+          if (rbGoingStrong) {
+            if (!persistentCovCalls.cbz2_rbStrongDecided) {
+              const ss = defensePlayers.find(def => frozenRoleMap?.get(def.id) === 'SAF_S');
+              if (ss) {
+                const apX = d.simX ?? d.x,   apY = d.simY ?? d.y;
+                const ssX = ss.simX ?? ss.x, ssY = ss.simY ?? ss.y;
+                const rbX = rb.simX ?? rb.x, rbY = rb.simY ?? rb.y;
+                persistentCovCalls.cbz2_rbStrongDecided = true;
+                persistentCovCalls.cbz2_pushStrong =
+                  Math.hypot(apX - rbX, apY - rbY) < Math.hypot(ssX - rbX, ssY - rbY);
+              }
+            }
+            if (persistentCovCalls.cbz2_pushStrong) return manCover(rb.id);
+          }
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── d. Hook (unchanged vs Sky) ───────────────────────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        const rbGoingWeak = rbCommittedTo(weakSide);
+
+        if (persistentCovCalls.cbz2_underS) {
+          const lockedId = persistentCovCalls.cbz2_hookCrosserId;
+          if (lockedId) {
+            const lockedWr = [r2s, r1s].find(p => p && p.id === lockedId);
+            if (lockedWr) return manCover(lockedWr.id);
+            persistentCovCalls.cbz2_hookCrosserId = null;
+          }
+          const crosser = [r2s, r1s].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser && canMatchCrosser(d, crosser)) {
+            persistentCovCalls.cbz2_hookCrosserId = crosser.id;
+            return manCover(crosser.id);
+          }
+        }
+        if (rbGoingWeak && rb && !persistentCovCalls.cbz2_underW) {
+          if (!persistentCovCalls.cbz2_rbWeakDecided) {
+            const wapex = defensePlayers.find(def => {
+              const rr = frozenRoleMap?.get(def.id);
+              if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+              const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return (dsx <= ballX ? 'L' : 'R') === weakSide;
+            });
+            if (wapex) {
+              const waX = wapex.simX ?? wapex.x, waY = wapex.simY ?? wapex.y;
+              const hkX = d.simX ?? d.x,         hkY = d.simY ?? d.y;
+              const rbX = rb.simX ?? rb.x,       rbY = rb.simY ?? rb.y;
+              persistentCovCalls.cbz2_rbWeakDecided = true;
+              persistentCovCalls.cbz2_pushWeak =
+                Math.hypot(waX - rbX, waY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+            }
+          }
+          if (persistentCovCalls.cbz2_pushWeak && r2w) return manCover(r2w.id);
+          if (persistentCovCalls.cbz2_rbWeakDecided && !persistentCovCalls.cbz2_pushWeak)
+            return manCover(rb.id);
+        }
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── e. Weak Apex (unchanged vs Sky) ──────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        const underTrigW = stickyOnce('cbz2_underW_wa', !!(r2w && isUnder(r2w)));
+        if (underTrigW && isStickyLocked('cbz2_underW_wa')) {
+          persistentCovCalls.cbz2_underW = true;
+        }
+        if (persistentCovCalls.cbz2_smashW) {
+          return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+        }
+        if (underTrigW) {
+          const rbGoingWeak = rbCommittedTo(weakSide);
+          if (!persistentCovCalls.cbz2_rbGlobal_strong && rbGoingWeak) {
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatW);
+        }
+        {
+          const rbGoingWeak = rbCommittedTo(weakSide);
+          if (rbGoingWeak) {
+            if (!persistentCovCalls.cbz2_rbWeakDecided) {
+              const hook = defensePlayers.find(def => {
+                const rr = frozenRoleMap?.get(def.id);
+                return rr === 'HOOK-L' || rr === 'HOOK-R' || rr === 'HOOK-M';
+              });
+              if (hook) {
+                const waX = d.simX ?? d.x,       waY = d.simY ?? d.y;
+                const hkX = hook.simX ?? hook.x, hkY = hook.simY ?? hook.y;
+                const rbX = rb.simX ?? rb.x,     rbY = rb.simY ?? rb.y;
+                persistentCovCalls.cbz2_rbWeakDecided = true;
+                persistentCovCalls.cbz2_pushWeak =
+                  Math.hypot(waX - rbX, waY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+              }
+            }
+            if (persistentCovCalls.cbz2_pushWeak) return manCover(rb.id);
+          }
+        }
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        if (stickyOnce('cbz2_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('cbz2_underW_cb')) persistentCovCalls.cbz2_underW = true;
+          return zoneDrop(deepTW);
+        }
+        if (stickyOnce('cbz2_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('cbz2_smashW')) persistentCovCalls.cbz2_smashW = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+      }
+
+      // ── g. Deep Safety ────────────────────────────────────────────────
+      if (role === 'SAF_W') return zoneDrop('DEEP_MIDDLE');
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 M (Buzz) — Hook-Code refactor experiment ─────────────
+  // Initial copy: identical to cover3-buzz-2x2-match with prefix renamed
+  // from cbz2_ to bzm_ to avoid state collision. Hook-Code refactor (Final 3
+  // detection, Mirror function, isFlatRoute-based Push) will be applied
+  // incrementally to SAF_S and Hook (the two zone-hook defenders in Buzz).
+  // persistentCovCalls prefix: bzm_
+  'cover3-buzz-m': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepTW));
+            break;
+          case 'SAF_S':
+            result.set(id, zoneDrop(hookCurlS));
+            break;
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            if (isWeak)   result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookCurlW));
+            break;
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+
+      const YPX = (typeof YARD_PX !== 'undefined') ? YARD_PX : 20;
+      const LATERAL_THRESH_YDS   = 5;
+      const SUSTAINED_DIR_SECS   = 0.5;
+      const RB_MATCH_MIN_TIME    = 1.0;
+      const RB_FLAT_DEPTH_YDS    = 2;
+      const CROSSER_LATERAL_YDS  = 6;
+      const _pt = (typeof playPhaseTime !== 'undefined') ? playPhaseTime : 0;
+
+      function rbCommittedTo(side) {
+        if (!rb) return false;
+        if (_pt < RB_MATCH_MIN_TIME) return false;
+        const rbLrX = lr(rb);
+        if (!rbLrX) return false;
+        if (rbLrX.moveType === 'stopped') return false;
+        const depthAbs = Math.abs(rbLrX.depthYards ?? 0);
+        if (depthAbs > RB_FLAT_DEPTH_YDS) return false;
+        const vx = rbLrX.vel?.x ?? 0;
+        const movingThatWay = side === 'L' ? vx < 0 : vx > 0;
+        if (!movingThatWay) return false;
+        const initX = rbLrX.initPos?.x ?? rbLrX.pos?.x ?? 0;
+        const curX  = rbLrX.pos?.x ?? 0;
+        if (Math.abs(curX - initX) < LATERAL_THRESH_YDS * YPX) return false;
+        const sinceChange = _pt - (rbLrX.lastDecisionChangeAt ?? 0);
+        if (sinceChange < SUSTAINED_DIR_SECS) return false;
+        return true;
+      }
+
+      function canMatchCrosser(def, wr) {
+        if (!def || !wr) return false;
+        const wrLr = lr(wr);
+        const dx = def.simX ?? def.x;
+        const wx = wr.simX  ?? wr.x;
+        const hasCrossedMid = !!(wrLr && wrLr.crossedMiddleNow);
+        const lateralGap   = Math.abs(dx - wx);
+        const isLatClose   = lateralGap < CROSSER_LATERAL_YDS * YPX;
+        return hasCrossedMid || isLatClose;
+      }
+
+      // ── Hook-Code helpers (Coach's Final-3 / Mirror framework) ──────
+      // isFlat: thin wrapper around existing isFlatRoute. Returns true if
+      // the player is in the flat zone (≤3yd-beyond / ≤5yd-behind LOS AND
+      // outside the curl-flat boundary toward the sideline).
+      function isFlat(p, side) {
+        return isFlatRoute(p, side, lrState, snapshot);
+      }
+
+      // xPositionsEqual: lateral proximity gate for Hook → Final 3 matching
+      // when an opposite-side under-call fires. Coach: "match sobald x-positions
+      // are equal" — we use a 1.5yd tolerance because exact equality is unrealistic.
+      const X_EQUAL_THRESH_YDS = 1.5;
+      function xPositionsEqual(def, wr) {
+        if (!def || !wr) return false;
+        const dx = def.simX ?? def.x;
+        const wx = wr.simX  ?? wr.x;
+        return Math.abs(dx - wx) <= X_EQUAL_THRESH_YDS * YPX;
+      }
+
+      // getFinalThree: dynamic "Number 3" on a given side.
+      // Priority: RB if released to this side, else first crosser arriving
+      // from opposite side. Returns null if neither applies.
+      // Sticky-locked once chosen via persistentCovCalls.bzm_final3<Side>
+      // so we don't flip-flop between candidates mid-play.
+      function getFinalThree(side) {
+        const stickyKey = side === strongSide ? 'bzm_final3Strong' : 'bzm_final3Weak';
+        const lockedId = persistentCovCalls[stickyKey];
+        if (lockedId) {
+          if (rb && rb.id === lockedId) return rb;
+          const found = eligible.find(p => p.id === lockedId);
+          if (found) return found;
+          persistentCovCalls[stickyKey] = null;
+        }
+        // Priority 1: RB committed to this side
+        if (rb && rbCommittedTo(side)) {
+          persistentCovCalls[stickyKey] = rb.id;
+          return rb;
+        }
+        // Priority 2: crosser from opposite side now on my side
+        const oppR1 = side === strongSide ? r1w : r1s;
+        const oppR2 = side === strongSide ? r2w : r2s;
+        for (const p of [oppR2, oppR1]) {
+          if (!p) continue;
+          const plr = lr(p);
+          if (!plr) continue;
+          if (!plr.crossedMiddleNow) continue;
+          const px = plr.pos?.x ?? p.simX ?? p.x;
+          const pCurSide = (px <= ballX) ? 'L' : 'R';
+          if (pCurSide !== side) continue;
+          persistentCovCalls[stickyKey] = p.id;
+          return p;
+        }
+        return null;
+      }
+
+      // zoneDropTrackingX: zoneDrop with X-coordinate shadowing the tracked
+      // player (Coach's Mirror function), clamped to hook-zone X-range.
+      // Y stays at landmark Y. Uses _shadedLandmarkPos like the safety-
+      // midpoint mechanism in run_pass.js.
+      function zoneDropTrackingX(landmarkId, trackPlayer, xMin, xMax) {
+        const dec = zoneDrop(landmarkId);
+        if (trackPlayer && typeof getLandmarkPos === 'function') {
+          const base = getLandmarkPos(landmarkId);
+          if (base) {
+            const tx = trackPlayer.simX ?? trackPlayer.x;
+            const shadedX = Math.max(xMin, Math.min(xMax, tx));
+            dec._shadedLandmarkPos = { x: shadedX, y: base.y };
+          }
+        }
+        return dec;
+      }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        if (stickyOnce('bzm_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('bzm_underS_cb')) persistentCovCalls.bzm_underS = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('bzm_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('bzm_smashS')) persistentCovCalls.bzm_smashS = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety (Buzz: zone hookCurlS) ──────────────────────
+      if (role === 'SAF_S') {
+        const rbGoingStrong = rbCommittedTo(strongSide);
+
+        // ── FLOOD RULE: weak-side crosser (under) + RB both flooding the
+        //    strong hook → spot-drop ZONE, never man-chase one of them.
+        //    Zone walls the deeper crosser; RB underneath is the lesser
+        //    (checkdown) threat. Push only makes sense with a SINGLE threat.
+        if (persistentCovCalls.bzm_underW && rbGoingStrong) {
+          return zoneDrop(hookCurlS);
+        }
+
+        if (persistentCovCalls.bzm_underW) {
+          const lockedId = persistentCovCalls.bzm_ssCrosserId;
+          if (lockedId) {
+            const lockedWr = [r2w, r1w].find(p => p && p.id === lockedId);
+            if (lockedWr) return manCover(lockedWr.id);
+            persistentCovCalls.bzm_ssCrosserId = null;
+          }
+          const crosser = [r2w, r1w].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser && canMatchCrosser(d, crosser)) {
+            persistentCovCalls.bzm_ssCrosserId = crosser.id;
+            return manCover(crosser.id);
+          }
+        }
+        if (rbGoingStrong && rb && !persistentCovCalls.bzm_underS) {
+          if (!persistentCovCalls.bzm_rbStrongDecided) {
+            const strongApex = defensePlayers.find(def => {
+              const rr = frozenRoleMap?.get(def.id);
+              if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+              const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return (dsx <= ballX ? 'L' : 'R') === strongSide;
+            });
+            if (strongApex) {
+              const apX = strongApex.simX ?? strongApex.x, apY = strongApex.simY ?? strongApex.y;
+              const ssX = d.simX ?? d.x,                   ssY = d.simY ?? d.y;
+              const rbX = rb.simX ?? rb.x, rbY = rb.simY ?? rb.y;
+              persistentCovCalls.bzm_rbStrongDecided = true;
+              persistentCovCalls.bzm_pushStrong =
+                Math.hypot(apX - rbX, apY - rbY) < Math.hypot(ssX - rbX, ssY - rbY);
+            }
+          }
+          if (persistentCovCalls.bzm_pushStrong && r2s) return manCover(r2s.id);
+          if (persistentCovCalls.bzm_rbStrongDecided && !persistentCovCalls.bzm_pushStrong)
+            return manCover(rb.id);
+        }
+        return zoneDrop(hookCurlS);
+      }
+
+      // ── c. Strong Apex (Buzz: man #2s) ───────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        const underTrigS = stickyOnce('bzm_underS_sa', !!(r2s && isUnder(r2s)));
+        if (underTrigS && isStickyLocked('bzm_underS_sa')) {
+          persistentCovCalls.bzm_underS = true;
+        }
+        if (persistentCovCalls.bzm_smashS) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        if (underTrigS) {
+          const rbGoingStrong = rbCommittedTo(strongSide);
+          if (stickyOnce('bzm_rbGlobal_strong', rbGoingStrong)) {
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatS);
+        }
+        {
+          const rbGoingStrong = rbCommittedTo(strongSide);
+          if (rbGoingStrong) {
+            if (!persistentCovCalls.bzm_rbStrongDecided) {
+              const ss = defensePlayers.find(def => frozenRoleMap?.get(def.id) === 'SAF_S');
+              if (ss) {
+                const apX = d.simX ?? d.x,   apY = d.simY ?? d.y;
+                const ssX = ss.simX ?? ss.x, ssY = ss.simY ?? ss.y;
+                const rbX = rb.simX ?? rb.x, rbY = rb.simY ?? rb.y;
+                persistentCovCalls.bzm_rbStrongDecided = true;
+                persistentCovCalls.bzm_pushStrong =
+                  Math.hypot(apX - rbX, apY - rbY) < Math.hypot(ssX - rbX, ssY - rbY);
+              }
+            }
+            if (persistentCovCalls.bzm_pushStrong) return manCover(rb.id);
+          }
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── d. Hook ──────────────────────────────────────────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        const rbGoingWeak = rbCommittedTo(weakSide);
+
+        // ── FLOOD RULE (mirror of SAF_S): strong-side crosser (under) + RB
+        //    both flooding the weak hook → spot-drop ZONE, never man-chase
+        //    one of them. Zone walls the deeper crosser; RB is the lesser
+        //    (checkdown) threat. Push only makes sense with a SINGLE threat.
+        if (persistentCovCalls.bzm_underS && rbGoingWeak) {
+          return zoneDrop(hookCurlW);
+        }
+
+        if (persistentCovCalls.bzm_underS) {
+          const lockedId = persistentCovCalls.bzm_hookCrosserId;
+          if (lockedId) {
+            const lockedWr = [r2s, r1s].find(p => p && p.id === lockedId);
+            if (lockedWr) return manCover(lockedWr.id);
+            persistentCovCalls.bzm_hookCrosserId = null;
+          }
+          const crosser = [r2s, r1s].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser && canMatchCrosser(d, crosser)) {
+            persistentCovCalls.bzm_hookCrosserId = crosser.id;
+            return manCover(crosser.id);
+          }
+        }
+        if (rbGoingWeak && rb && !persistentCovCalls.bzm_underW) {
+          if (!persistentCovCalls.bzm_rbWeakDecided) {
+            const wapex = defensePlayers.find(def => {
+              const rr = frozenRoleMap?.get(def.id);
+              if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+              const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return (dsx <= ballX ? 'L' : 'R') === weakSide;
+            });
+            if (wapex) {
+              const waX = wapex.simX ?? wapex.x, waY = wapex.simY ?? wapex.y;
+              const hkX = d.simX ?? d.x,         hkY = d.simY ?? d.y;
+              const rbX = rb.simX ?? rb.x,       rbY = rb.simY ?? rb.y;
+              persistentCovCalls.bzm_rbWeakDecided = true;
+              persistentCovCalls.bzm_pushWeak =
+                Math.hypot(waX - rbX, waY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+            }
+          }
+          if (persistentCovCalls.bzm_pushWeak && r2w) return manCover(r2w.id);
+          if (persistentCovCalls.bzm_rbWeakDecided && !persistentCovCalls.bzm_pushWeak)
+            return manCover(rb.id);
+        }
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── e. Weak Apex ─────────────────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        const underTrigW = stickyOnce('bzm_underW_wa', !!(r2w && isUnder(r2w)));
+        if (underTrigW && isStickyLocked('bzm_underW_wa')) {
+          persistentCovCalls.bzm_underW = true;
+        }
+        if (persistentCovCalls.bzm_smashW) {
+          return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+        }
+        if (underTrigW) {
+          const rbGoingWeak = rbCommittedTo(weakSide);
+          if (!persistentCovCalls.bzm_rbGlobal_strong && rbGoingWeak) {
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatW);
+        }
+        {
+          const rbGoingWeak = rbCommittedTo(weakSide);
+          if (rbGoingWeak) {
+            if (!persistentCovCalls.bzm_rbWeakDecided) {
+              const hook = defensePlayers.find(def => {
+                const rr = frozenRoleMap?.get(def.id);
+                return rr === 'HOOK-L' || rr === 'HOOK-R' || rr === 'HOOK-M';
+              });
+              if (hook) {
+                const waX = d.simX ?? d.x,       waY = d.simY ?? d.y;
+                const hkX = hook.simX ?? hook.x, hkY = hook.simY ?? hook.y;
+                const rbX = rb.simX ?? rb.x,     rbY = rb.simY ?? rb.y;
+                persistentCovCalls.bzm_rbWeakDecided = true;
+                persistentCovCalls.bzm_pushWeak =
+                  Math.hypot(waX - rbX, waY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+              }
+            }
+            if (persistentCovCalls.bzm_pushWeak) return manCover(rb.id);
+          }
+        }
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        if (stickyOnce('bzm_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('bzm_underW_cb')) persistentCovCalls.bzm_underW = true;
+          return zoneDrop(deepTW);
+        }
+        if (stickyOnce('bzm_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('bzm_smashW')) persistentCovCalls.bzm_smashW = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+      }
+
+      // ── g. Deep Safety ────────────────────────────────────────────────
+      if (role === 'SAF_W') return zoneDrop('DEEP_MIDDLE');
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Robber 2×2 Match (Full Field, 2x2) ────────────────────
+  // Based on Cover 3 Sky 2×2 Match with a 4-position rotation:
+  //   SAF_S      ← SAF_W's  job (deep middle)
+  //   Strong Apex ← SAF_S's  job (man #2s, writes Under-S, smash priority, push)
+  //   Hook       ← Strong Apex's job (zone hookCurlS, weak-crosser, push)
+  //   SAF_W      ← Hook's   job (zone hookCurlW, strong-crosser, push)
+  //   Weak Apex (and CBs) unchanged.
+  // Cross-read flips so each defender looks for the partner who now sits
+  // in the role they used to look for:
+  //   - Strong Apex's push partner (zone hookCurlS) was Strong Apex → now Hook.
+  //   - Hook's push partner (man on #2s) was SAF_S → now Strong Apex.
+  //   - SAF_W's push partner (man on #2w) was Weak Apex — unchanged.
+  //   - Weak Apex's push partner (zone hookCurlW) was Hook → now SAF_W.
+  // persistentCovCalls prefix: crob_
+  'cover3-robber-2x2-match': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: man #1s  /  f. Weak Corner: man #1w
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepTW));
+            break;
+          // b. Strong Safety: deep middle  (ROBBER ROT: was SAF_W's job in Sky)
+          case 'SAF_S':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          // c. Strong Apex: man #2s  (ROBBER ROT: was SAF_S's job in Sky)
+          //    Weak Apex: man #2w (unchanged)
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            if (isWeak)   result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+          // d. Hook: zone hookCurlS  (ROBBER ROT: was Strong Apex's job in Sky)
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookCurlS));
+            break;
+          // g. Weak Safety: zone hookCurlW  (ROBBER ROT: was Hook's job in Sky)
+          case 'SAF_W':
+            result.set(id, zoneDrop(hookCurlW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+
+      // ── Phase-A helpers (identical to Sky 2×2 Match) ─────────────────
+      const YPX = (typeof YARD_PX !== 'undefined') ? YARD_PX : 20;
+      const LATERAL_THRESH_YDS   = 5;
+      const SUSTAINED_DIR_SECS   = 0.5;
+      const RB_MATCH_MIN_TIME    = 1.0;
+      const RB_FLAT_DEPTH_YDS    = 2;
+      const CROSSER_LATERAL_YDS  = 6;
+      const _pt = (typeof playPhaseTime !== 'undefined') ? playPhaseTime : 0;
+
+      function rbCommittedTo(side) {
+        if (!rb) return false;
+        if (_pt < RB_MATCH_MIN_TIME) return false;
+        const rbLrX = lr(rb);
+        if (!rbLrX) return false;
+        if (rbLrX.moveType === 'stopped') return false;
+        const depthAbs = Math.abs(rbLrX.depthYards ?? 0);
+        if (depthAbs > RB_FLAT_DEPTH_YDS) return false;
+        const vx = rbLrX.vel?.x ?? 0;
+        const movingThatWay = side === 'L' ? vx < 0 : vx > 0;
+        if (!movingThatWay) return false;
+        const initX = rbLrX.initPos?.x ?? rbLrX.pos?.x ?? 0;
+        const curX  = rbLrX.pos?.x ?? 0;
+        if (Math.abs(curX - initX) < LATERAL_THRESH_YDS * YPX) return false;
+        const sinceChange = _pt - (rbLrX.lastDecisionChangeAt ?? 0);
+        if (sinceChange < SUSTAINED_DIR_SECS) return false;
+        return true;
+      }
+
+      function canMatchCrosser(def, wr) {
+        if (!def || !wr) return false;
+        const wrLr = lr(wr);
+        const dx = def.simX ?? def.x;
+        const wx = wr.simX  ?? wr.x;
+        const hasCrossedMid = !!(wrLr && wrLr.crossedMiddleNow);
+        const lateralGap   = Math.abs(dx - wx);
+        const isLatClose   = lateralGap < CROSSER_LATERAL_YDS * YPX;
+        return hasCrossedMid || isLatClose;
+      }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        if (stickyOnce('crob_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('crob_underS_cb')) persistentCovCalls.crob_underS = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('crob_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('crob_smashS')) persistentCovCalls.crob_smashS = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety  (ROBBER ROT: plays Sky's SAF_W job) ─────────
+      //   Deep middle only — no push lookups in SAF_W's Sky job.
+      if (role === 'SAF_S') {
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      // ── c. Strong Apex  (ROBBER ROT: plays Sky's SAF_S job) ───────────
+      //   Mans #2s, writes Under-S, smash priority, push decision.
+      //   Push partner is now HOOK (who plays the zone hookCurlS role).
+      //   pushStrong = (Strong Apex closer to RB than Hook).
+      //   pushStrong true → I (Apex, the man defender) push off #2s to take RB.
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        const underTrigS = stickyOnce('crob_underS_sa', !!(r2s && isUnder(r2s)));
+        if (underTrigS && isStickyLocked('crob_underS_sa')) {
+          persistentCovCalls.crob_underS = true;
+        }
+        // Smash PRIORITY: #1s hitch → man #1, beats under-call action.
+        if (persistentCovCalls.crob_smashS) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        // Under-call action: bail to curl-flat, or take RB if RB committed strong.
+        if (underTrigS) {
+          const rbGoingStrong = rbCommittedTo(strongSide);
+          if (stickyOnce('crob_rbGlobal_strong', rbGoingStrong)) {
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatS);
+        }
+        // Push decision: compare distances to Hook (the new zone partner).
+        {
+          const rbGoingStrong = rbCommittedTo(strongSide);
+          if (rbGoingStrong) {
+            if (!persistentCovCalls.crob_rbStrongDecided) {
+              const hook = defensePlayers.find(def => {
+                const rr = frozenRoleMap?.get(def.id);
+                return rr === 'HOOK-L' || rr === 'HOOK-R' || rr === 'HOOK-M';
+              });
+              if (hook) {
+                const apX = d.simX ?? d.x,       apY = d.simY ?? d.y;
+                const hkX = hook.simX ?? hook.x, hkY = hook.simY ?? hook.y;
+                const rbX = rb.simX ?? rb.x,     rbY = rb.simY ?? rb.y;
+                persistentCovCalls.crob_rbStrongDecided = true;
+                persistentCovCalls.crob_pushStrong =
+                  Math.hypot(apX - rbX, apY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+              }
+            }
+            if (persistentCovCalls.crob_pushStrong) return manCover(rb.id);
+          }
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── d. Hook  (ROBBER ROT: plays Sky's Strong Apex job) ────────────
+      //   Zone hookCurlS, weak-crosser pickup on Under-W, push decision.
+      //   Push partner is now STRONG APEX (who plays the man-on-#2s role).
+      //   pushStrong = (Strong Apex closer to RB than Hook).
+      //   pushStrong true → I (Hook, zone) take #2s; false+decided → I take RB late.
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        const rbGoingStrong = rbCommittedTo(strongSide);
+
+        // Under-W → pick up uncovered weak crosser
+        if (persistentCovCalls.crob_underW) {
+          const lockedId = persistentCovCalls.crob_hookCrosserId;
+          if (lockedId) {
+            const lockedWr = [r2w, r1w].find(p => p && p.id === lockedId);
+            if (lockedWr) return manCover(lockedWr.id);
+            persistentCovCalls.crob_hookCrosserId = null;
+          }
+          const crosser = [r2w, r1w].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser && canMatchCrosser(d, crosser)) {
+            persistentCovCalls.crob_hookCrosserId = crosser.id;
+            return manCover(crosser.id);
+          }
+        }
+        // Push decision (skip if Under-S active — Apex already bailed, SAF_W owns the crosser).
+        if (rbGoingStrong && rb && !persistentCovCalls.crob_underS) {
+          if (!persistentCovCalls.crob_rbStrongDecided) {
+            const strongApex = defensePlayers.find(def => {
+              const rr = frozenRoleMap?.get(def.id);
+              if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+              const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return (dsx <= ballX ? 'L' : 'R') === strongSide;
+            });
+            if (strongApex) {
+              const apX = strongApex.simX ?? strongApex.x, apY = strongApex.simY ?? strongApex.y;
+              const hkX = d.simX ?? d.x,                   hkY = d.simY ?? d.y;
+              const rbX = rb.simX ?? rb.x, rbY = rb.simY ?? rb.y;
+              persistentCovCalls.crob_rbStrongDecided = true;
+              persistentCovCalls.crob_pushStrong =
+                Math.hypot(apX - rbX, apY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+            }
+          }
+          if (persistentCovCalls.crob_pushStrong && r2s) return manCover(r2s.id);
+          if (persistentCovCalls.crob_rbStrongDecided && !persistentCovCalls.crob_pushStrong)
+            return manCover(rb.id);
+        }
+        return zoneDrop(hookCurlS);
+      }
+
+      // ── e. Weak Apex (unchanged role, push partner re-aimed) ──────────
+      //   Push partner is now SAF_W (who plays the zone hookCurlW role).
+      //   pushWeak = (Weak Apex closer to RB than SAF_W).
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        const underTrigW = stickyOnce('crob_underW_wa', !!(r2w && isUnder(r2w)));
+        if (underTrigW && isStickyLocked('crob_underW_wa')) {
+          persistentCovCalls.crob_underW = true;
+        }
+        if (persistentCovCalls.crob_smashW) {
+          return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+        }
+        if (underTrigW) {
+          const rbGoingWeak = rbCommittedTo(weakSide);
+          if (!persistentCovCalls.crob_rbGlobal_strong && rbGoingWeak) {
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatW);
+        }
+        {
+          const rbGoingWeak = rbCommittedTo(weakSide);
+          if (rbGoingWeak) {
+            if (!persistentCovCalls.crob_rbWeakDecided) {
+              const safW = defensePlayers.find(def => frozenRoleMap?.get(def.id) === 'SAF_W');
+              if (safW) {
+                const waX = d.simX ?? d.x,         waY = d.simY ?? d.y;
+                const sfX = safW.simX ?? safW.x,   sfY = safW.simY ?? safW.y;
+                const rbX = rb.simX ?? rb.x,       rbY = rb.simY ?? rb.y;
+                persistentCovCalls.crob_rbWeakDecided = true;
+                persistentCovCalls.crob_pushWeak =
+                  Math.hypot(waX - rbX, waY - rbY) < Math.hypot(sfX - rbX, sfY - rbY);
+              }
+            }
+            if (persistentCovCalls.crob_pushWeak) return manCover(rb.id);
+          }
+        }
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        if (stickyOnce('crob_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('crob_underW_cb')) persistentCovCalls.crob_underW = true;
+          return zoneDrop(deepTW);
+        }
+        if (stickyOnce('crob_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('crob_smashW')) persistentCovCalls.crob_smashW = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+      }
+
+      // ── g. Weak Safety  (ROBBER ROT: plays Sky's Hook job) ────────────
+      //   Zone hookCurlW, strong-crosser pickup on Under-S, push decision.
+      //   Push partner is WEAK APEX (unchanged — Weak Apex still mans #2w).
+      //   pushWeak = (Weak Apex closer to RB than SAF_W).
+      //   pushWeak true → I (SAF_W, zone) take #2w; false+decided → I take RB late.
+      if (role === 'SAF_W') {
+        const rbGoingWeak = rbCommittedTo(weakSide);
+
+        // Under-S → pick up uncovered strong crosser
+        if (persistentCovCalls.crob_underS) {
+          const lockedId = persistentCovCalls.crob_sfwCrosserId;
+          if (lockedId) {
+            const lockedWr = [r2s, r1s].find(p => p && p.id === lockedId);
+            if (lockedWr) return manCover(lockedWr.id);
+            persistentCovCalls.crob_sfwCrosserId = null;
+          }
+          const crosser = [r2s, r1s].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser && canMatchCrosser(d, crosser)) {
+            persistentCovCalls.crob_sfwCrosserId = crosser.id;
+            return manCover(crosser.id);
+          }
+        }
+        // Push decision (skip if Under-W active — WA already bailed, Hook owns crosser).
+        if (rbGoingWeak && rb && !persistentCovCalls.crob_underW) {
+          if (!persistentCovCalls.crob_rbWeakDecided) {
+            const wapex = defensePlayers.find(def => {
+              const rr = frozenRoleMap?.get(def.id);
+              if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+              const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return (dsx <= ballX ? 'L' : 'R') === weakSide;
+            });
+            if (wapex) {
+              const waX = wapex.simX ?? wapex.x, waY = wapex.simY ?? wapex.y;
+              const sfX = d.simX ?? d.x,         sfY = d.simY ?? d.y;
+              const rbX = rb.simX ?? rb.x,       rbY = rb.simY ?? rb.y;
+              persistentCovCalls.crob_rbWeakDecided = true;
+              persistentCovCalls.crob_pushWeak =
+                Math.hypot(waX - rbX, waY - rbY) < Math.hypot(sfX - rbX, sfY - rbY);
+            }
+          }
+          if (persistentCovCalls.crob_pushWeak && r2w) return manCover(r2w.id);
+          if (persistentCovCalls.crob_rbWeakDecided && !persistentCovCalls.crob_pushWeak)
+            return manCover(rb.id);
+        }
+        return zoneDrop(hookCurlW);
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Weak 2×2 Match (Full Field, 2x2) ──────────────────────
+  // Based on Cover 3 Robber 2×2 Match with one additional swap:
+  //   SAF_W      ← Weak Apex's Robber-job (man #2w, writes Under-W, smash, push)
+  //   Weak Apex  ← SAF_W's     Robber-job (zone hookCurlW, strong-crosser, push)
+  //   Everyone else identical to Robber (SAF_S deep middle, Strong Apex man #2s,
+  //   Hook zone hookCurlS, CBs man #1).
+  // Cross-read flips on the weak side:
+  //   - SAF_W's push partner (zone hookCurlW) is now Weak Apex (was SAF_W in Robber).
+  //   - Weak Apex's push partner (man on #2w) is now SAF_W (was Weak Apex in Robber).
+  //   - Hook's Under-W crosser-pickup still triggered by the under-W flag — now
+  //     written by SAF_W instead of Weak Apex (flag name unchanged).
+  // persistentCovCalls prefix: cwm_
+  'cover3-weak-2x2-match': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: man #1s  /  f. Weak Corner: man #1w
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepTW));
+            break;
+          // b. Strong Safety: deep middle (same as Robber)
+          case 'SAF_S':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          // c. Strong Apex: man #2s (same as Robber)
+          //    Weak Apex: zone hookCurlW (WEAK SWAP: was man #2w in Robber)
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            if (isWeak)   result.set(id, zoneDrop(hookCurlW));
+            break;
+          // d. Hook: zone hookCurlS (same as Robber)
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookCurlS));
+            break;
+          // g. Weak Safety: man #2w (WEAK SWAP: was zone hookCurlW in Robber)
+          case 'SAF_W':
+            result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+
+      // ── Phase-A helpers (identical to Sky/Robber 2×2 Match) ──────────
+      const YPX = (typeof YARD_PX !== 'undefined') ? YARD_PX : 20;
+      const LATERAL_THRESH_YDS   = 5;
+      const SUSTAINED_DIR_SECS   = 0.5;
+      const RB_MATCH_MIN_TIME    = 1.0;
+      const RB_FLAT_DEPTH_YDS    = 2;
+      const CROSSER_LATERAL_YDS  = 6;
+      const _pt = (typeof playPhaseTime !== 'undefined') ? playPhaseTime : 0;
+
+      function rbCommittedTo(side) {
+        if (!rb) return false;
+        if (_pt < RB_MATCH_MIN_TIME) return false;
+        const rbLrX = lr(rb);
+        if (!rbLrX) return false;
+        if (rbLrX.moveType === 'stopped') return false;
+        const depthAbs = Math.abs(rbLrX.depthYards ?? 0);
+        if (depthAbs > RB_FLAT_DEPTH_YDS) return false;
+        const vx = rbLrX.vel?.x ?? 0;
+        const movingThatWay = side === 'L' ? vx < 0 : vx > 0;
+        if (!movingThatWay) return false;
+        const initX = rbLrX.initPos?.x ?? rbLrX.pos?.x ?? 0;
+        const curX  = rbLrX.pos?.x ?? 0;
+        if (Math.abs(curX - initX) < LATERAL_THRESH_YDS * YPX) return false;
+        const sinceChange = _pt - (rbLrX.lastDecisionChangeAt ?? 0);
+        if (sinceChange < SUSTAINED_DIR_SECS) return false;
+        return true;
+      }
+
+      function canMatchCrosser(def, wr) {
+        if (!def || !wr) return false;
+        const wrLr = lr(wr);
+        const dx = def.simX ?? def.x;
+        const wx = wr.simX  ?? wr.x;
+        const hasCrossedMid = !!(wrLr && wrLr.crossedMiddleNow);
+        const lateralGap   = Math.abs(dx - wx);
+        const isLatClose   = lateralGap < CROSSER_LATERAL_YDS * YPX;
+        return hasCrossedMid || isLatClose;
+      }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        if (stickyOnce('cwm_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('cwm_underS_cb')) persistentCovCalls.cwm_underS = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('cwm_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('cwm_smashS')) persistentCovCalls.cwm_smashS = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety (same as Robber: deep middle only) ──────────
+      if (role === 'SAF_S') {
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      // ── c. Strong Apex (same as Robber: man #2s + push vs Hook) ──────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        const underTrigS = stickyOnce('cwm_underS_sa', !!(r2s && isUnder(r2s)));
+        if (underTrigS && isStickyLocked('cwm_underS_sa')) {
+          persistentCovCalls.cwm_underS = true;
+        }
+        if (persistentCovCalls.cwm_smashS) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        if (underTrigS) {
+          const rbGoingStrong = rbCommittedTo(strongSide);
+          if (stickyOnce('cwm_rbGlobal_strong', rbGoingStrong)) {
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatS);
+        }
+        {
+          const rbGoingStrong = rbCommittedTo(strongSide);
+          if (rbGoingStrong) {
+            if (!persistentCovCalls.cwm_rbStrongDecided) {
+              const hook = defensePlayers.find(def => {
+                const rr = frozenRoleMap?.get(def.id);
+                return rr === 'HOOK-L' || rr === 'HOOK-R' || rr === 'HOOK-M';
+              });
+              if (hook) {
+                const apX = d.simX ?? d.x,       apY = d.simY ?? d.y;
+                const hkX = hook.simX ?? hook.x, hkY = hook.simY ?? hook.y;
+                const rbX = rb.simX ?? rb.x,     rbY = rb.simY ?? rb.y;
+                persistentCovCalls.cwm_rbStrongDecided = true;
+                persistentCovCalls.cwm_pushStrong =
+                  Math.hypot(apX - rbX, apY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+              }
+            }
+            if (persistentCovCalls.cwm_pushStrong) return manCover(rb.id);
+          }
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── d. Hook (same as Robber: zone hookCurlS + weak-crosser + push) ─
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        const rbGoingStrong = rbCommittedTo(strongSide);
+
+        if (persistentCovCalls.cwm_underW) {
+          const lockedId = persistentCovCalls.cwm_hookCrosserId;
+          if (lockedId) {
+            const lockedWr = [r2w, r1w].find(p => p && p.id === lockedId);
+            if (lockedWr) return manCover(lockedWr.id);
+            persistentCovCalls.cwm_hookCrosserId = null;
+          }
+          const crosser = [r2w, r1w].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser && canMatchCrosser(d, crosser)) {
+            persistentCovCalls.cwm_hookCrosserId = crosser.id;
+            return manCover(crosser.id);
+          }
+        }
+        if (rbGoingStrong && rb && !persistentCovCalls.cwm_underS) {
+          if (!persistentCovCalls.cwm_rbStrongDecided) {
+            const strongApex = defensePlayers.find(def => {
+              const rr = frozenRoleMap?.get(def.id);
+              if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+              const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return (dsx <= ballX ? 'L' : 'R') === strongSide;
+            });
+            if (strongApex) {
+              const apX = strongApex.simX ?? strongApex.x, apY = strongApex.simY ?? strongApex.y;
+              const hkX = d.simX ?? d.x,                   hkY = d.simY ?? d.y;
+              const rbX = rb.simX ?? rb.x, rbY = rb.simY ?? rb.y;
+              persistentCovCalls.cwm_rbStrongDecided = true;
+              persistentCovCalls.cwm_pushStrong =
+                Math.hypot(apX - rbX, apY - rbY) < Math.hypot(hkX - rbX, hkY - rbY);
+            }
+          }
+          if (persistentCovCalls.cwm_pushStrong && r2s) return manCover(r2s.id);
+          if (persistentCovCalls.cwm_rbStrongDecided && !persistentCovCalls.cwm_pushStrong)
+            return manCover(rb.id);
+        }
+        return zoneDrop(hookCurlS);
+      }
+
+      // ── e. Weak Apex  (WEAK SWAP: plays Robber's SAF_W job) ───────────
+      //   Zone hookCurlW, strong-crosser pickup on Under-S, push decision.
+      //   Push partner is now SAF_W (the new man defender on #2w).
+      //   pushWeak = (SAF_W closer to RB than Weak Apex).
+      //   pushWeak true → I (Weak Apex, zone) take #2w; false+decided → I take RB late.
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        const rbGoingWeak = rbCommittedTo(weakSide);
+
+        // Under-S → pick up uncovered strong crosser
+        if (persistentCovCalls.cwm_underS) {
+          const lockedId = persistentCovCalls.cwm_waCrosserId;
+          if (lockedId) {
+            const lockedWr = [r2s, r1s].find(p => p && p.id === lockedId);
+            if (lockedWr) return manCover(lockedWr.id);
+            persistentCovCalls.cwm_waCrosserId = null;
+          }
+          const crosser = [r2s, r1s].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser && canMatchCrosser(d, crosser)) {
+            persistentCovCalls.cwm_waCrosserId = crosser.id;
+            return manCover(crosser.id);
+          }
+        }
+        // Push decision (skip if Under-W active — SAF_W already bailed, Hook owns crosser).
+        if (rbGoingWeak && rb && !persistentCovCalls.cwm_underW) {
+          if (!persistentCovCalls.cwm_rbWeakDecided) {
+            const safW = defensePlayers.find(def => frozenRoleMap?.get(def.id) === 'SAF_W');
+            if (safW) {
+              const sfX = safW.simX ?? safW.x, sfY = safW.simY ?? safW.y;
+              const waX = d.simX ?? d.x,       waY = d.simY ?? d.y;  // me = Weak Apex
+              const rbX = rb.simX ?? rb.x,     rbY = rb.simY ?? rb.y;
+              persistentCovCalls.cwm_rbWeakDecided = true;
+              persistentCovCalls.cwm_pushWeak =
+                Math.hypot(sfX - rbX, sfY - rbY) < Math.hypot(waX - rbX, waY - rbY);
+            }
+          }
+          if (persistentCovCalls.cwm_pushWeak && r2w) return manCover(r2w.id);
+          if (persistentCovCalls.cwm_rbWeakDecided && !persistentCovCalls.cwm_pushWeak)
+            return manCover(rb.id);
+        }
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        if (stickyOnce('cwm_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('cwm_underW_cb')) persistentCovCalls.cwm_underW = true;
+          return zoneDrop(deepTW);
+        }
+        if (stickyOnce('cwm_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('cwm_smashW')) persistentCovCalls.cwm_smashW = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+      }
+
+      // ── g. Weak Safety  (WEAK SWAP: plays Robber's Weak Apex job) ─────
+      //   Mans #2w, writes Under-W, smash priority, push decision.
+      //   Push partner is now WEAK APEX (the new zone defender in hookCurlW).
+      //   pushWeak = (SAF_W closer to RB than Weak Apex).
+      //   pushWeak true → I (SAF_W, the man defender) push off #2w to take RB.
+      if (role === 'SAF_W') {
+        const underTrigW = stickyOnce('cwm_underW_sw', !!(r2w && isUnder(r2w)));
+        if (underTrigW && isStickyLocked('cwm_underW_sw')) {
+          persistentCovCalls.cwm_underW = true;
+        }
+        if (persistentCovCalls.cwm_smashW) {
+          return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+        }
+        if (underTrigW) {
+          const rbGoingWeak = rbCommittedTo(weakSide);
+          if (!persistentCovCalls.cwm_rbGlobal_strong && rbGoingWeak) {
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatW);
+        }
+        {
+          const rbGoingWeak = rbCommittedTo(weakSide);
+          if (rbGoingWeak) {
+            if (!persistentCovCalls.cwm_rbWeakDecided) {
+              const wapex = defensePlayers.find(def => {
+                const rr = frozenRoleMap?.get(def.id);
+                if (rr !== 'APEX-L' && rr !== 'APEX-R') return false;
+                const dsx = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+                return (dsx <= ballX ? 'L' : 'R') === weakSide;
+              });
+              if (wapex) {
+                const sfX = d.simX ?? d.x,         sfY = d.simY ?? d.y;  // me = SAF_W
+                const waX = wapex.simX ?? wapex.x, waY = wapex.simY ?? wapex.y;
+                const rbX = rb.simX ?? rb.x,       rbY = rb.simY ?? rb.y;
+                persistentCovCalls.cwm_rbWeakDecided = true;
+                persistentCovCalls.cwm_pushWeak =
+                  Math.hypot(sfX - rbX, sfY - rbY) < Math.hypot(waX - rbX, waY - rbY);
+              }
+            }
+            if (persistentCovCalls.cwm_pushWeak) return manCover(rb.id);
+          }
+        }
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Buzz 2×2 Match — BUGGED legacy version ────────────────
+  // Old buzz preset, kept for reference/comparison.
+  // persistentCovCalls prefix: nbz2_
+  'cover3-buzz-2x2-match-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: man #1s  /  f. Weak Corner: man #1w
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepTW));
+            break;
+          // b. Strong Safety: zone hook strong (buzz: swapped from sky)
+          case 'SAF_S':
+            result.set(id, zoneDrop(hookCurlS));
+            break;
+          // c. Strong Apex: man #2s (buzz: swapped from sky)  /  e. Weak Apex: man #2w
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            if (isWeak)   result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+          // d. Hook: zone hook curl weak
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookCurlW));
+            break;
+          // g. Deep Safety: deep middle
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        // i. #1s under → Under call strong (sticky 0.5s) + bail deep third
+        if (stickyOnce('nbz2_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('nbz2_underS_cb')) persistentCovCalls.nbz2_underS = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('nbz2_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('nbz2_smashS')) persistentCovCalls.nbz2_smashS = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety (buzz: zone, swapped with Strong Apex from sky) ──
+      if (role === 'SAF_S') {
+        const rbLr          = lr(rb);
+        const rbVx          = rbLr?.vel?.x ?? 0;
+        const rbMoving      = rbLr?.moveType !== 'stopped';
+        const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+
+        // i:   Under call from weak side (locked) → pick up uncovered weak crosser
+        if (persistentCovCalls.nbz2_underW) {
+          const crosser = [r2w, r1w].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+        }
+        // ii:  RB releasing strong + Strong Apex still on #2s → take RB (live every tick)
+        if (rbGoingStrong && rb && r2s &&
+            defensePlayers.some(def => {
+              const defRole  = frozenRoleMap?.get(def.id);
+              const defSnapX = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return def.id !== d.id &&
+                     (defRole === 'APEX-L' || defRole === 'APEX-R') &&
+                     (defSnapX <= ballX ? 'L' : 'R') === strongSide &&
+                     def.decision?.mode === 'follow' &&
+                     def.decision?.focusTargetId === r2s.id;
+            }))
+          return manCover(rb.id);
+        // Default: hook curl strong
+        return zoneDrop(hookCurlS);
+      }
+
+      // ── c. Strong Apex (buzz: man #2s, swapped with SS from sky) ─────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        // i. #2s under → Under call strong (sticky 0.5s)
+        if (stickyOnce('nbz2_underS_sa', !!(r2s && isUnder(r2s)))) {
+          if (isStickyLocked('nbz2_underS_sa')) persistentCovCalls.nbz2_underS = true;
+          const rbLr = lr(rb); const rbVx = rbLr?.vel?.x ?? 0;
+          const rbMoving = rbLr?.moveType !== 'stopped';
+          const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (stickyOnce('nbz2_rbGlobal_strong', rbGoingStrong)) {
+            if (persistentCovCalls.nbz2_smashS) return zoneDrop(curlFlatS);
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatS);
+        }
+        // ii. Smash call strong (locked) → cover #1s on hitch
+        if (persistentCovCalls.nbz2_smashS) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── d. Hook ──────────────────────────────────────────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        const rbLr        = lr(rb);
+        const rbVx        = rbLr?.vel?.x ?? 0;
+        const rbMoving    = rbLr?.moveType !== 'stopped';
+        const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+
+        // d.i:   Under call from strong side (locked) → pick up uncovered strong crosser
+        if (persistentCovCalls.nbz2_underS) {
+          const crosser = [r2s, r1s].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+        }
+        // d.iii: RB releasing weak + Weak Apex still on #2w → take RB (live every tick)
+        if (rbGoingWeak && rb && r2w &&
+            defensePlayers.some(def => def.id !== d.id &&
+              def.decision?.mode === 'follow' &&
+              def.decision?.focusTargetId === r2w.id))
+          return manCover(rb.id);
+        // Default: hook curl weak
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── e. Weak Apex ──────────────────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        // i. #2w under → Under call weak (sticky 0.5s)
+        if (stickyOnce('nbz2_underW_wa', !!(r2w && isUnder(r2w)))) {
+          if (isStickyLocked('nbz2_underW_wa')) persistentCovCalls.nbz2_underW = true;
+          const rbLr = lr(rb); const rbVx = rbLr?.vel?.x ?? 0;
+          const rbMoving = rbLr?.moveType !== 'stopped';
+          const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (!persistentCovCalls.nbz2_rbGlobal_strong && rbGoingWeak) {
+            if (persistentCovCalls.nbz2_smashW) return zoneDrop(curlFlatW);
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatW);
+        }
+        // ii. Smash call weak (locked) → cover #1w on hitch
+        if (persistentCovCalls.nbz2_smashW) {
+          return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+        }
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        // i. #1w under → Under call weak (sticky 0.5s) + bail deep third
+        if (stickyOnce('nbz2_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('nbz2_underW_cb')) persistentCovCalls.nbz2_underW = true;
+          return zoneDrop(deepTW);
+        }
+        if (stickyOnce('nbz2_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('nbz2_smashW')) persistentCovCalls.nbz2_smashW = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+      }
+
+      // ── g. Deep Safety ────────────────────────────────────────────────
+      if (role === 'SAF_W') return zoneDrop('DEEP_MIDDLE');
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Robber Match (Full Field, 2x2) ────────────────────────
+  // Based on Sky 2×2 Match with role rotation:
+  // Strong Apex → man #2s (was SS)  |  Hook → zone hookCurlS (was Strong Apex)
+  // Strong Safety → deep middle (was SAF_W)  |  Weak Safety → zone hookCurlW (was Hook)
+  // persistentCovCalls prefix: nrob_
+  'cover3-robber-2x2-match-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: man #1s  /  f. Weak Corner: man #1w
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepTW));
+            break;
+          // b. Strong Safety: deep middle (robber: gets SAF_W role)
+          case 'SAF_S':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          // c. Strong Apex: man #2s (robber: gets SS role)  /  e. Weak Apex: man #2w
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            if (isWeak)   result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+          // d. Hook: zone hookCurlS (robber: gets Strong Apex role)
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookCurlS));
+            break;
+          // g. Weak Safety: zone hook curl weak (robber: gets Hook role)
+          case 'SAF_W':
+            result.set(id, zoneDrop(hookCurlW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        // i. #1s under → Under call strong (sticky 0.5s) + bail deep third
+        if (stickyOnce('nrob_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('nrob_underS_cb')) persistentCovCalls.nrob_underS = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('nrob_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('nrob_smashS')) persistentCovCalls.nrob_smashS = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety (robber: deep middle, gets SAF_W role) ──────────
+      if (role === 'SAF_S') return zoneDrop('DEEP_MIDDLE');
+
+      // ── c. Strong Apex (robber: man #2s, gets SS role) ───────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        // i. #2s under → Under call strong (sticky 0.5s)
+        if (stickyOnce('nrob_underS_sa', !!(r2s && isUnder(r2s)))) {
+          if (isStickyLocked('nrob_underS_sa')) persistentCovCalls.nrob_underS = true;
+          const rbLr = lr(rb); const rbVx = rbLr?.vel?.x ?? 0;
+          const rbMoving = rbLr?.moveType !== 'stopped';
+          const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (stickyOnce('nrob_rbGlobal_strong', rbGoingStrong)) {
+            if (persistentCovCalls.nrob_smashS) return zoneDrop(curlFlatS);
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatS);
+        }
+        // ii. Smash call strong (locked) → cover #1s on hitch
+        if (persistentCovCalls.nrob_smashS) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── d. Hook (robber: zone, gets Strong Apex role) ────────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        const rbLr          = lr(rb);
+        const rbVx          = rbLr?.vel?.x ?? 0;
+        const rbMoving      = rbLr?.moveType !== 'stopped';
+        const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+
+        // i:   Under call from weak side (locked) → pick up uncovered weak crosser
+        if (persistentCovCalls.nrob_underW) {
+          const crosser = [r2w, r1w].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+        }
+        // ii:  RB releasing strong + Strong Apex still on #2s → take RB (live every tick)
+        if (rbGoingStrong && rb && r2s &&
+            defensePlayers.some(def => {
+              const defRole  = frozenRoleMap?.get(def.id);
+              const defSnapX = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return def.id !== d.id &&
+                     (defRole === 'APEX-L' || defRole === 'APEX-R') &&
+                     (defSnapX <= ballX ? 'L' : 'R') === strongSide &&
+                     def.decision?.mode === 'follow' &&
+                     def.decision?.focusTargetId === r2s.id;
+            }))
+          return manCover(rb.id);
+        // Default: hook curl strong
+        return zoneDrop(hookCurlS);
+      }
+
+      // ── e. Weak Apex ──────────────────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        // i. #2w under → Under call weak (sticky 0.5s)
+        if (stickyOnce('nrob_underW_wa', !!(r2w && isUnder(r2w)))) {
+          if (isStickyLocked('nrob_underW_wa')) persistentCovCalls.nrob_underW = true;
+          const rbLr = lr(rb); const rbVx = rbLr?.vel?.x ?? 0;
+          const rbMoving = rbLr?.moveType !== 'stopped';
+          const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (!persistentCovCalls.nrob_rbGlobal_strong && rbGoingWeak) {
+            if (persistentCovCalls.nrob_smashW) return zoneDrop(curlFlatW);
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatW);
+        }
+        // ii. Smash call weak (locked) → cover #1w on hitch
+        if (persistentCovCalls.nrob_smashW) {
+          return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+        }
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        // i. #1w under → Under call weak (sticky 0.5s) + bail deep third
+        if (stickyOnce('nrob_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('nrob_underW_cb')) persistentCovCalls.nrob_underW = true;
+          return zoneDrop(deepTW);
+        }
+        if (stickyOnce('nrob_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('nrob_smashW')) persistentCovCalls.nrob_smashW = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+      }
+
+      // ── g. Weak Safety (robber: zone, gets Hook role) ────────────────────
+      if (role === 'SAF_W') {
+        const rbLr        = lr(rb);
+        const rbVx        = rbLr?.vel?.x ?? 0;
+        const rbMoving    = rbLr?.moveType !== 'stopped';
+        const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+
+        // i:   Under call from strong side (locked) → pick up uncovered strong crosser
+        if (persistentCovCalls.nrob_underS) {
+          const crosser = [r2s, r1s].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+        }
+        // ii:  RB releasing weak + Weak Apex still on #2w → take RB (live every tick)
+        if (rbGoingWeak && rb && r2w &&
+            defensePlayers.some(def => def.id !== d.id &&
+              def.decision?.mode === 'follow' &&
+              def.decision?.focusTargetId === r2w.id))
+          return manCover(rb.id);
+        // Default: hook curl weak
+        return zoneDrop(hookCurlW);
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Weak 2×2 Match (Full Field, 2x2) ─────────────────────
+  // Based on Cover 3 Robber Match — Weak Apex and Weak Safety roles swapped:
+  // Weak Apex → zone hookCurlW (gets SAF_W role)  |  SAF_W → man #2w (gets Weak Apex role)
+  // persistentCovCalls prefix: nwk2_
+  'cover3-weak-2x2-match-bugged': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW     = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW  = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW  = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepTW));
+            break;
+          case 'SAF_S':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            if (isWeak)   result.set(id, zoneDrop(hookCurlW));
+            break;
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop(hookCurlS));
+            break;
+          case 'SAF_W':
+            result.set(id, r2w ? manCover(r2w.id) : zoneDrop(curlFlatW));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepTW    = weakSide   === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const curlFlatW = weakSide   === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const hookCurlW = weakSide   === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r1w = rec(weakSide, 1);
+      const r2w = rec(weakSide, 2);
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        // i. #1s under → Under call strong (sticky 0.5s) + bail deep third
+        if (stickyOnce('nwk2_underS_cb', !!(r1s && isUnder(r1s)))) {
+          if (isStickyLocked('nwk2_underS_cb')) persistentCovCalls.nwk2_underS = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('nwk2_smashS', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('nwk2_smashS')) persistentCovCalls.nwk2_smashS = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety: deep middle ─────────────────────────────────
+      if (role === 'SAF_S') return zoneDrop('DEEP_MIDDLE');
+
+      // ── c. Strong Apex: man #2s ───────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        // i. #2s under → Under call strong (sticky 0.5s)
+        if (stickyOnce('nwk2_underS_sa', !!(r2s && isUnder(r2s)))) {
+          if (isStickyLocked('nwk2_underS_sa')) persistentCovCalls.nwk2_underS = true;
+          const rbLr = lr(rb); const rbVx = rbLr?.vel?.x ?? 0;
+          const rbMoving = rbLr?.moveType !== 'stopped';
+          const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (stickyOnce('nwk2_rbGlobal_strong', rbGoingStrong)) {
+            if (persistentCovCalls.nwk2_smashS) return zoneDrop(curlFlatS);
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatS);
+        }
+        if (persistentCovCalls.nwk2_smashS) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── d. Hook: zone hookCurlS (Strong Apex role) ───────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        const rbLr          = lr(rb);
+        const rbVx          = rbLr?.vel?.x ?? 0;
+        const rbMoving      = rbLr?.moveType !== 'stopped';
+        const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+
+        if (persistentCovCalls.nwk2_underW) {
+          const crosser = [r2w, r1w].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+        }
+        if (rbGoingStrong && rb && r2s &&
+            defensePlayers.some(def => {
+              const defRole  = frozenRoleMap?.get(def.id);
+              const defSnapX = snapAlignment[def.id]?.x ?? (def.simX ?? def.x);
+              return def.id !== d.id &&
+                     (defRole === 'APEX-L' || defRole === 'APEX-R') &&
+                     (defSnapX <= ballX ? 'L' : 'R') === strongSide &&
+                     def.decision?.mode === 'follow' &&
+                     def.decision?.focusTargetId === r2s.id;
+            }))
+          return manCover(rb.id);
+        // Default: hook curl strong
+        return zoneDrop(hookCurlS);
+      }
+
+      // ── e. Weak Apex: zone hook curl weak (gets SAF_W role from robber) ──
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        const rbLr        = lr(rb);
+        const rbVx        = rbLr?.vel?.x ?? 0;
+        const rbMoving    = rbLr?.moveType !== 'stopped';
+        const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+
+        if (persistentCovCalls.nwk2_underS) {
+          const crosser = [r2s, r1s].filter(Boolean).find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+        }
+        if (rbGoingWeak && rb && r2w &&
+            defensePlayers.some(def => def.id !== d.id &&
+              def.decision?.mode === 'follow' &&
+              def.decision?.focusTargetId === r2w.id))
+          return manCover(rb.id);
+        // Default: hook curl weak
+        return zoneDrop(hookCurlW);
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        // i. #1w under → Under call weak (sticky 0.5s) + bail deep third
+        if (stickyOnce('nwk2_underW_cb', !!(r1w && isUnder(r1w)))) {
+          if (isStickyLocked('nwk2_underW_cb')) persistentCovCalls.nwk2_underW = true;
+          return zoneDrop(deepTW);
+        }
+        if (stickyOnce('nwk2_smashW', !!(r1w && isHitch(r1w)))) {
+          if (isStickyLocked('nwk2_smashW')) persistentCovCalls.nwk2_smashW = true;
+          return zoneDrop(deepTW);
+        }
+        return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+      }
+
+      // ── g. Weak Safety: man #2w (gets Weak Apex role from robber) ────
+      if (role === 'SAF_W') {
+        // i. #2w under → Under call weak (sticky 0.5s)
+        if (stickyOnce('nwk2_underW_sw', !!(r2w && isUnder(r2w)))) {
+          if (isStickyLocked('nwk2_underW_sw')) persistentCovCalls.nwk2_underW = true;
+          const rbLr = lr(rb); const rbVx = rbLr?.vel?.x ?? 0;
+          const rbMoving = rbLr?.moveType !== 'stopped';
+          const rbGoingWeak = !!(rb && rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0));
+          if (!persistentCovCalls.nwk2_rbGlobal_strong && rbGoingWeak) {
+            if (persistentCovCalls.nwk2_smashW) return zoneDrop(curlFlatW);
+            return manCover(rb.id);
+          }
+          return zoneDrop(curlFlatW);
+        }
+        if (persistentCovCalls.nwk2_smashW) {
+          return r1w ? manCover(r1w.id) : zoneDrop(deepTW);
+        }
+        return r2w ? manCover(r2w.id) : zoneDrop(curlFlatW);
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── New Sky 3×1 (Full Field, 3x1 only) ────────────────────────────
+  // 2-high shell: SS man #2s, FS deep middle. 1-high look post-snap.
+  // Strong CB: man #1s; under → bail deep third (Under call); hitch → bail deep third (Smash call, sticky 0.5s).
+  // SS: man #2s; #3 out → take #3; Smash locked → cover #1s; #2 under → Under call + flat.
+  // Strong Apex: man #3s; #3 out → take #2s; #3 under+#1 under → #1s; #3 under → hook-curl.
+  // Hook: middle zone; RB weak → cover strong unders; #3 not vert + RB out fast strong → RB; Under call → crossers.
+  // Weak Apex: RB releasing weak (sticky 0.5s) → man RB; else strong crossers; else hook middle.
+  // Weak CB: man #1w.
+  // Deep Safety (SAF_W): deep middle.
+  // persistentCovCalls prefix: nsky_
+  'cover3-sky-match-3x1': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepHW     = weakSide   === 'L' ? 'DEEP_HALF_L'  : 'DEEP_HALF_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          // a. Strong Corner: man #1s  /  f. Weak Corner: man #1w
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepHW));
+            break;
+          // b. Strong Safety: man #2s
+          case 'SAF_S':
+            result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            break;
+          // c. Strong Apex: man #3s  /  e. Weak Apex: man RB
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r3s ? manCover(r3s.id) : zoneDrop(hookCurlS));
+            if (isWeak)   result.set(id, rb   ? manCover(rb.id)  : zoneDrop('HOOK_MIDDLE'));
+            break;
+          // d. Hook: middle hook zone
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop('HOOK_MIDDLE'));
+            break;
+          // g. Deep Safety: deep middle
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+      function isOut(p)    { return isOutRoute(p, lrState); }
+      function isVert(p)   { return isVerticalRoute(p, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepHW    = weakSide   === 'L' ? 'DEEP_HALF_L'  : 'DEEP_HALF_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const flatS     = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+
+      // #3 going out to the flat — detected by outward motion OR physical flat position
+      const r3IsOut = !!(r3s && (isOut(r3s) || isFlatRoute(r3s, strongSide, lrState, snapshot)));
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        // i. #1 under → Under call + bail deep third
+        if (r1s && isUnder(r1s)) {
+          persistentCovCalls.nsky_under = true;
+          return zoneDrop(deepTS);
+        }
+        // ii. #1 hitch → Smash call (sticky 0.5s) + bail deep third
+        if (stickyOnce('nsky_smash', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('nsky_smash')) persistentCovCalls.nsky_smash = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety ──────────────────────────────────────────────
+      if (role === 'SAF_S') {
+        // i. #3 out now → take #3
+        if (r3IsOut) return r3s ? manCover(r3s.id) : zoneDrop(curlFlatS);
+        // ii. Smash call locked → cover #1s on the hitch
+        if (persistentCovCalls.nsky_smash) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        // iii. #3 not out, no Smash, #2 under → Under call + take flat strong side
+        if (r2s && isUnder(r2s)) {
+          persistentCovCalls.nsky_under = true;
+          return zoneDrop(flatS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── c. Strong Apex ────────────────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        // i. #3 out now → work to take #2s
+        if (r3IsOut) return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+        // ii. #3 under AND #1 under → take #1s
+        if (r3s && isUnder(r3s) && r1s && isUnder(r1s)) return manCover(r1s.id);
+        // iii. #3 under → hook-curl strong (zone)
+        if (r3s && isUnder(r3s)) return zoneDrop(hookCurlS);
+        return r3s ? manCover(r3s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── d. Hook ──────────────────────────────────────────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        const rbLr          = lr(rb);
+        const rbVx          = rbLr?.vel?.x ?? 0;
+        const rbMoving      = rbLr?.moveType !== 'stopped';
+        const rbGoingWeak   = !!(rb && rbMoving && (weakSide   === 'L' ? rbVx < 0 : rbVx > 0));
+        const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+        const r3Vertical    = !!(r3s && isVert(r3s));
+
+        // d.i: RB out weak (or Weak Apex locked on RB) → cover strong-side unders
+        if (rbGoingWeak || persistentCovCalls.nsky_rbLockWeak) {
+          const strongRecs = [r1s, r2s, r3s].filter(Boolean);
+          const crosser = strongRecs.find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+          return zoneDrop('HOOK_MIDDLE');
+        }
+
+        // d.ii: #3 not going vertical + RB releasing fast to strong side → cover RB
+        if (!r3Vertical && rbGoingStrong && Math.abs(rbVx) > 10 && rb) {
+          return manCover(rb.id);
+        }
+
+        // Under call active → Hook owns #2s (SS abandoned him)
+        if (persistentCovCalls.nsky_under) {
+          if (r2s && isUnder(r2s)) return manCover(r2s.id);
+        }
+
+        return zoneDrop('HOOK_MIDDLE');
+      }
+
+      // ── e. Weak Apex ──────────────────────────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (rb) {
+          const rbVx        = lr(rb)?.vel?.x ?? 0;
+          const rbMoving    = lr(rb)?.moveType !== 'stopped';
+          const rbGoingWeak = rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0);
+          if (stickyOnce('nsky_rbLockWeak', rbGoingWeak)) {
+            if (isStickyLocked('nsky_rbLockWeak')) persistentCovCalls.nsky_rbLockWeak = true;
+            return manCover(rb.id);
+          }
+        }
+        // Under call active → Apex Weak owns #1s (CB abandoned him)
+        if (persistentCovCalls.nsky_under) {
+          if (r1s && isUnder(r1s)) return manCover(r1s.id);
+          return zoneDrop('HOOK_MIDDLE');
+        }
+        // No under call → pick up first uncovered shallow crosser from strong side
+        const strongRecs = [r1s, r2s, r3s].filter(Boolean);
+        const crosser = strongRecs.find(p =>
+          isUnder(p) &&
+          !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+        );
+        if (crosser) return manCover(crosser.id);
+        return zoneDrop('HOOK_MIDDLE');
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        return r1w ? manCover(r1w.id) : zoneDrop(deepHW);
+      }
+
+      // ── g. Deep Safety ────────────────────────────────────────────────
+      if (role === 'SAF_W') {
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Buzz Match 3×1 (Full Field, 3x1) ──────────────────────
+  // Mirror of Cover 3 Sky Match 3×1 — SAF_S and Strong Apex swap jobs:
+  //   - SAF_S      plays Sky's Strong Apex job (man #3s + #3-route reads).
+  //   - Strong Apex plays Sky's SAF_S       job (man #2s + Under-S writer + smash).
+  //   Hook, Weak Apex, SAF_W, CBs unchanged. Cross-reads via flags still flow
+  //   correctly: the Under-S flag is now written by Strong Apex (man on #2s)
+  //   instead of SAF_S, read by Hook & Weak Apex as before.
+  // persistentCovCalls prefix: nbz3_
+  'cover3-buzz-match-3x1': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepHW     = weakSide   === 'L' ? 'DEEP_HALF_L'  : 'DEEP_HALF_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepHW));
+            break;
+          // b. Strong Safety: man #3s (BUZZ SWAP)
+          case 'SAF_S':
+            result.set(id, r3s ? manCover(r3s.id) : zoneDrop(hookCurlS));
+            break;
+          // c. Strong Apex: man #2s (BUZZ SWAP)  /  e. Weak Apex: man RB
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            if (isWeak)   result.set(id, rb   ? manCover(rb.id)  : zoneDrop('HOOK_MIDDLE'));
+            break;
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, zoneDrop('HOOK_MIDDLE'));
+            break;
+          case 'SAF_W':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+      function isOut(p)    { return isOutRoute(p, lrState); }
+      function isVert(p)   { return isVerticalRoute(p, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepHW    = weakSide   === 'L' ? 'DEEP_HALF_L'  : 'DEEP_HALF_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const flatS     = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+      const r3IsOut = !!(r3s && (isOut(r3s) || isFlatRoute(r3s, strongSide, lrState, snapshot)));
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        if (r1s && isUnder(r1s)) {
+          persistentCovCalls.nbz3_under = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('nbz3_smash', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('nbz3_smash')) persistentCovCalls.nbz3_smash = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety (BUZZ SWAP: plays Sky Strong Apex's job) ────
+      if (role === 'SAF_S') {
+        if (r3IsOut) return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+        if (r3s && isUnder(r3s) && r1s && isUnder(r1s)) return manCover(r1s.id);
+        if (r3s && isUnder(r3s)) return zoneDrop(hookCurlS);
+        return r3s ? manCover(r3s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── c. Strong Apex (BUZZ SWAP: plays Sky SS's job) ───────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r3IsOut) return r3s ? manCover(r3s.id) : zoneDrop(curlFlatS);
+        if (persistentCovCalls.nbz3_smash) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        if (r2s && isUnder(r2s)) {
+          persistentCovCalls.nbz3_under = true;
+          return zoneDrop(flatS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── d. Hook (unchanged from Sky) ──────────────────────────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        const rbLr          = lr(rb);
+        const rbVx          = rbLr?.vel?.x ?? 0;
+        const rbMoving      = rbLr?.moveType !== 'stopped';
+        const rbGoingWeak   = !!(rb && rbMoving && (weakSide   === 'L' ? rbVx < 0 : rbVx > 0));
+        const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+        const r3Vertical    = !!(r3s && isVert(r3s));
+
+        if (rbGoingWeak || persistentCovCalls.nbz3_rbLockWeak) {
+          const strongRecs = [r1s, r2s, r3s].filter(Boolean);
+          const crosser = strongRecs.find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+          return zoneDrop('HOOK_MIDDLE');
+        }
+        if (!r3Vertical && rbGoingStrong && Math.abs(rbVx) > 10 && rb) {
+          return manCover(rb.id);
+        }
+        if (persistentCovCalls.nbz3_under) {
+          if (r2s && isUnder(r2s)) return manCover(r2s.id);
+        }
+        return zoneDrop('HOOK_MIDDLE');
+      }
+
+      // ── e. Weak Apex (unchanged from Sky) ─────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (rb) {
+          const rbVx        = lr(rb)?.vel?.x ?? 0;
+          const rbMoving    = lr(rb)?.moveType !== 'stopped';
+          const rbGoingWeak = rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0);
+          if (stickyOnce('nbz3_rbLockWeak', rbGoingWeak)) {
+            if (isStickyLocked('nbz3_rbLockWeak')) persistentCovCalls.nbz3_rbLockWeak = true;
+            return manCover(rb.id);
+          }
+        }
+        if (persistentCovCalls.nbz3_under) {
+          if (r1s && isUnder(r1s)) return manCover(r1s.id);
+          return zoneDrop('HOOK_MIDDLE');
+        }
+        const strongRecs = [r1s, r2s, r3s].filter(Boolean);
+        const crosser = strongRecs.find(p =>
+          isUnder(p) &&
+          !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+        );
+        if (crosser) return manCover(crosser.id);
+        return zoneDrop('HOOK_MIDDLE');
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        return r1w ? manCover(r1w.id) : zoneDrop(deepHW);
+      }
+
+      // ── g. Deep Safety ────────────────────────────────────────────────
+      if (role === 'SAF_W') {
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Robber Match 3×1 (Full Field, 3x1) ────────────────────
+  // 4-position rotation from Cover 3 Sky Match 3×1:
+  //   SAF_S      ← SAF_W's       job (deep middle)
+  //   Strong Apex ← Sky SAF_S's   job (man #2s + writes Under-S + smash)
+  //   Hook       ← Sky Strong Apex's job (man #3s + #3-route reads)
+  //   SAF_W      ← Sky Hook's     job (HOOK_MIDDLE + crosser pickup + RB-fast-strong + Under read)
+  //   Weak Apex + CBs unchanged.
+  // No defender-lookups in Sky 3×1's SS/Apex/Hook code → no partner-finding
+  // to flip; cross-flags (Under, RB-lock) still flow correctly through the new owners.
+  // persistentCovCalls prefix: nrob3_
+  'cover3-robber-match-3x1': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepHW     = weakSide   === 'L' ? 'DEEP_HALF_L'  : 'DEEP_HALF_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepHW));
+            break;
+          // b. Strong Safety: deep middle (ROBBER ROT)
+          case 'SAF_S':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          // c. Strong Apex: man #2s (ROBBER ROT — was SS's job)
+          //    Weak Apex: man RB (unchanged)
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            if (isWeak)   result.set(id, rb   ? manCover(rb.id)  : zoneDrop('HOOK_MIDDLE'));
+            break;
+          // d. Hook: man #3s (ROBBER ROT — was Strong Apex's job)
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, r3s ? manCover(r3s.id) : zoneDrop(hookCurlS));
+            break;
+          // g. Weak Safety: zone HOOK_MIDDLE (ROBBER ROT — was Hook's job)
+          case 'SAF_W':
+            result.set(id, zoneDrop('HOOK_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+      function isOut(p)    { return isOutRoute(p, lrState); }
+      function isVert(p)   { return isVerticalRoute(p, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepHW    = weakSide   === 'L' ? 'DEEP_HALF_L'  : 'DEEP_HALF_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const flatS     = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+      const r3IsOut = !!(r3s && (isOut(r3s) || isFlatRoute(r3s, strongSide, lrState, snapshot)));
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        if (r1s && isUnder(r1s)) {
+          persistentCovCalls.nrob3_under = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('nrob3_smash', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('nrob3_smash')) persistentCovCalls.nrob3_smash = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety (ROBBER ROT: deep middle only) ──────────────
+      if (role === 'SAF_S') {
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      // ── c. Strong Apex (ROBBER ROT: plays Sky SS's job) ──────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r3IsOut) return r3s ? manCover(r3s.id) : zoneDrop(curlFlatS);
+        if (persistentCovCalls.nrob3_smash) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        if (r2s && isUnder(r2s)) {
+          persistentCovCalls.nrob3_under = true;
+          return zoneDrop(flatS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── d. Hook (ROBBER ROT: plays Sky Strong Apex's job) ────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        if (r3IsOut) return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+        if (r3s && isUnder(r3s) && r1s && isUnder(r1s)) return manCover(r1s.id);
+        if (r3s && isUnder(r3s)) return zoneDrop(hookCurlS);
+        return r3s ? manCover(r3s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── e. Weak Apex (unchanged from Sky) ─────────────────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        if (rb) {
+          const rbVx        = lr(rb)?.vel?.x ?? 0;
+          const rbMoving    = lr(rb)?.moveType !== 'stopped';
+          const rbGoingWeak = rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0);
+          if (stickyOnce('nrob3_rbLockWeak', rbGoingWeak)) {
+            if (isStickyLocked('nrob3_rbLockWeak')) persistentCovCalls.nrob3_rbLockWeak = true;
+            return manCover(rb.id);
+          }
+        }
+        if (persistentCovCalls.nrob3_under) {
+          if (r1s && isUnder(r1s)) return manCover(r1s.id);
+          return zoneDrop('HOOK_MIDDLE');
+        }
+        const strongRecs = [r1s, r2s, r3s].filter(Boolean);
+        const crosser = strongRecs.find(p =>
+          isUnder(p) &&
+          !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+        );
+        if (crosser) return manCover(crosser.id);
+        return zoneDrop('HOOK_MIDDLE');
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        return r1w ? manCover(r1w.id) : zoneDrop(deepHW);
+      }
+
+      // ── g. Weak Safety (ROBBER ROT: plays Sky Hook's job) ────────────
+      if (role === 'SAF_W') {
+        const rbLr          = lr(rb);
+        const rbVx          = rbLr?.vel?.x ?? 0;
+        const rbMoving      = rbLr?.moveType !== 'stopped';
+        const rbGoingWeak   = !!(rb && rbMoving && (weakSide   === 'L' ? rbVx < 0 : rbVx > 0));
+        const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+        const r3Vertical    = !!(r3s && isVert(r3s));
+
+        if (rbGoingWeak || persistentCovCalls.nrob3_rbLockWeak) {
+          const strongRecs = [r1s, r2s, r3s].filter(Boolean);
+          const crosser = strongRecs.find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+          return zoneDrop('HOOK_MIDDLE');
+        }
+        if (!r3Vertical && rbGoingStrong && Math.abs(rbVx) > 10 && rb) {
+          return manCover(rb.id);
+        }
+        if (persistentCovCalls.nrob3_under) {
+          if (r2s && isUnder(r2s)) return manCover(r2s.id);
+        }
+        return zoneDrop('HOOK_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+
+  // ══════════════════════════════════════════════════════════════════════
+  // ── Cover 3 Weak Match 3×1 (Full Field, 3x1) ──────────────────────
+  // Robber 3×1 base + one extra swap on the weak side:
+  //   SAF_W     ← Weak Apex's Sky job (man RB + RB-weak sticky lock — writes rb-lock flag)
+  //   Weak Apex ← Sky Hook's   job (HOOK_MIDDLE + strong-crosser pickup + RB-fast-strong + Under read)
+  //   Strong-side identical to Robber (SAF_S deep middle, Strong Apex man #2s, Hook man #3s).
+  //   CBs unchanged.
+  // Cross-read on the weak side flips: the rb-lock flag is now written by SAF_W
+  // (the new RB defender) and read by Weak Apex (the new zone defender) — same
+  // flow direction, different owners.
+  // persistentCovCalls prefix: nwk3_
+  'cover3-weak-match-3x1': {
+    fullField: true,
+    isOneHigh: false,
+    alignment: { CB: { cbSpacing: 'off', cbShade: 'normal' } },
+
+    decide(roles, byId, snapshot) {
+      const result = new Map();
+      if (!snapshot) return result;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const deepTS     = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepHW     = weakSide   === 'L' ? 'DEEP_HALF_L'  : 'DEEP_HALF_R';
+      const curlFlatS  = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS  = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      function rec(s, n) { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+
+      roles.forEach((role, id) => {
+        const d = byId.get(id);
+        if (!d) return;
+        const dSide    = d.x <= ballX ? 'L' : 'R';
+        const roleSide = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+        const isStrong = roleSide === strongSide;
+        const isWeak   = roleSide === weakSide;
+
+        switch (role) {
+          case 'RUSH': case 'UNDER': result.set(id, rushDec()); break;
+          case 'CB':
+            if (isStrong) result.set(id, r1s ? manCover(r1s.id) : zoneDrop(deepTS));
+            if (isWeak)   result.set(id, r1w ? manCover(r1w.id) : zoneDrop(deepHW));
+            break;
+          case 'SAF_S':
+            result.set(id, zoneDrop('DEEP_MIDDLE'));
+            break;
+          // c. Strong Apex: man #2s (same as Robber)
+          //    e. Weak Apex: zone HOOK_MIDDLE (WEAK SWAP — was man RB in Robber)
+          case 'APEX-L': case 'APEX-R':
+            if (isStrong) result.set(id, r2s ? manCover(r2s.id) : zoneDrop(curlFlatS));
+            if (isWeak)   result.set(id, zoneDrop('HOOK_MIDDLE'));
+            break;
+          // d. Hook: man #3s (same as Robber)
+          case 'HOOK-L': case 'HOOK-R': case 'HOOK-M':
+            result.set(id, r3s ? manCover(r3s.id) : zoneDrop(hookCurlS));
+            break;
+          // g. Weak Safety: man RB (WEAK SWAP — was zone HOOK_MIDDLE in Robber)
+          case 'SAF_W':
+            result.set(id, rb ? manCover(rb.id) : zoneDrop('HOOK_MIDDLE'));
+            break;
+        }
+      });
+      return result;
+    },
+
+    react(d, role, snapshot, lrState) {
+      if (!snapshot) return null;
+      const ballX      = snapshot.ballX;
+      const eligible   = snapshot.eligiblePlayers || [];
+      const rb         = snapshot.primaryBackfield || null;
+      const leftCount  = eligible.filter(p => p._side === 'L').length;
+      const rightCount = eligible.filter(p => p._side === 'R').length;
+      const strongSide = snapshot.coverageStrongSide || (leftCount >= rightCount ? 'L' : 'R');
+      const weakSide   = strongSide === 'L' ? 'R' : 'L';
+      const snapX      = snapAlignment[d.id]?.x ?? (d.simX ?? d.x);
+      const dSide      = snapX <= ballX ? 'L' : 'R';
+      const roleSide   = (role === 'APEX-L' || role === 'HOOK-L') ? 'L'
+                       : (role === 'APEX-R' || role === 'HOOK-R') ? 'R'
+                       : dSide;
+      const isStrong   = roleSide === strongSide;
+      const isWeak     = roleSide === weakSide;
+
+      function rec(s, n)  { return eligible.find(p => p._side === s && p._receiverNumber === n) || null; }
+      function lr(p)       { return p ? lrState[p.id] : null; }
+      function isUnder(p)  { return isUnderRoute(p, lrState); }
+      function isHitch(p)  { return isHitchRoute(p, lrState); }
+      function isOut(p)    { return isOutRoute(p, lrState); }
+      function isVert(p)   { return isVerticalRoute(p, lrState); }
+
+      const deepTS    = strongSide === 'L' ? 'DEEP_L' : 'DEEP_R';
+      const deepHW    = weakSide   === 'L' ? 'DEEP_HALF_L'  : 'DEEP_HALF_R';
+      const curlFlatS = strongSide === 'L' ? 'CURL_FLAT_L'  : 'CURL_FLAT_R';
+      const hookCurlS = strongSide === 'L' ? 'HOOK_CURL_L'  : 'HOOK_CURL_R';
+      const flatS     = strongSide === 'L' ? 'FLAT_L' : 'FLAT_R';
+
+      const r1s = rec(strongSide, 1);
+      const r2s = rec(strongSide, 2);
+      const r3s = rec(strongSide, 3);
+      const r1w = rec(weakSide, 1);
+      const r3IsOut = !!(r3s && (isOut(r3s) || isFlatRoute(r3s, strongSide, lrState, snapshot)));
+
+      // ── a. Strong Corner ──────────────────────────────────────────────
+      if (role === 'CB' && isStrong) {
+        if (r1s && isUnder(r1s)) {
+          persistentCovCalls.nwk3_under = true;
+          return zoneDrop(deepTS);
+        }
+        if (stickyOnce('nwk3_smash', !!(r1s && isHitch(r1s)))) {
+          if (isStickyLocked('nwk3_smash')) persistentCovCalls.nwk3_smash = true;
+          return zoneDrop(deepTS);
+        }
+        return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+      }
+
+      // ── b. Strong Safety (deep middle, same as Robber) ───────────────
+      if (role === 'SAF_S') {
+        return zoneDrop('DEEP_MIDDLE');
+      }
+
+      // ── c. Strong Apex (same as Robber: Sky SS code) ─────────────────
+      if ((role === 'APEX-L' || role === 'APEX-R') && isStrong) {
+        if (r3IsOut) return r3s ? manCover(r3s.id) : zoneDrop(curlFlatS);
+        if (persistentCovCalls.nwk3_smash) {
+          return r1s ? manCover(r1s.id) : zoneDrop(deepTS);
+        }
+        if (r2s && isUnder(r2s)) {
+          persistentCovCalls.nwk3_under = true;
+          return zoneDrop(flatS);
+        }
+        return r2s ? manCover(r2s.id) : zoneDrop(curlFlatS);
+      }
+
+      // ── d. Hook (same as Robber: Sky Strong Apex code) ───────────────
+      if (role === 'HOOK-L' || role === 'HOOK-R' || role === 'HOOK-M') {
+        if (r3IsOut) return r2s ? manCover(r2s.id) : zoneDrop(hookCurlS);
+        if (r3s && isUnder(r3s) && r1s && isUnder(r1s)) return manCover(r1s.id);
+        if (r3s && isUnder(r3s)) return zoneDrop(hookCurlS);
+        return r3s ? manCover(r3s.id) : zoneDrop(hookCurlS);
+      }
+
+      // ── e. Weak Apex (WEAK SWAP: plays Sky Hook's job) ───────────────
+      //   Reads rb-lock flag written by SAF_W (the new RB defender).
+      if ((role === 'APEX-L' || role === 'APEX-R') && isWeak) {
+        const rbLr          = lr(rb);
+        const rbVx          = rbLr?.vel?.x ?? 0;
+        const rbMoving      = rbLr?.moveType !== 'stopped';
+        const rbGoingWeak   = !!(rb && rbMoving && (weakSide   === 'L' ? rbVx < 0 : rbVx > 0));
+        const rbGoingStrong = !!(rb && rbMoving && (strongSide === 'L' ? rbVx < 0 : rbVx > 0));
+        const r3Vertical    = !!(r3s && isVert(r3s));
+
+        if (rbGoingWeak || persistentCovCalls.nwk3_rbLockWeak) {
+          const strongRecs = [r1s, r2s, r3s].filter(Boolean);
+          const crosser = strongRecs.find(p =>
+            isUnder(p) &&
+            !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+          );
+          if (crosser) return manCover(crosser.id);
+          return zoneDrop('HOOK_MIDDLE');
+        }
+        if (!r3Vertical && rbGoingStrong && Math.abs(rbVx) > 10 && rb) {
+          return manCover(rb.id);
+        }
+        if (persistentCovCalls.nwk3_under) {
+          if (r2s && isUnder(r2s)) return manCover(r2s.id);
+        }
+        return zoneDrop('HOOK_MIDDLE');
+      }
+
+      // ── f. Weak Corner ────────────────────────────────────────────────
+      if (role === 'CB' && isWeak) {
+        return r1w ? manCover(r1w.id) : zoneDrop(deepHW);
+      }
+
+      // ── g. Weak Safety (WEAK SWAP: plays Sky Weak Apex's job) ────────
+      //   Mans RB, writes rb-lock flag for Weak Apex (new zone defender) to read.
+      if (role === 'SAF_W') {
+        if (rb) {
+          const rbVx        = lr(rb)?.vel?.x ?? 0;
+          const rbMoving    = lr(rb)?.moveType !== 'stopped';
+          const rbGoingWeak = rbMoving && (weakSide === 'L' ? rbVx < 0 : rbVx > 0);
+          if (stickyOnce('nwk3_rbLockWeak', rbGoingWeak)) {
+            if (isStickyLocked('nwk3_rbLockWeak')) persistentCovCalls.nwk3_rbLockWeak = true;
+            return manCover(rb.id);
+          }
+        }
+        if (persistentCovCalls.nwk3_under) {
+          if (r1s && isUnder(r1s)) return manCover(r1s.id);
+          return zoneDrop('HOOK_MIDDLE');
+        }
+        const strongRecs = [r1s, r2s, r3s].filter(Boolean);
+        const crosser = strongRecs.find(p =>
+          isUnder(p) &&
+          !defensePlayers.some(def => def.id !== d.id && def.decision?.focusTargetId === p.id)
+        );
+        if (crosser) return manCover(crosser.id);
+        return zoneDrop('HOOK_MIDDLE');
+      }
+
+      return null;
+    },
+  },
+
+};
+
+// ── Final merge ─────────────────────────────────────────────────────
+const PRESET_REGISTRY = {
+  ..._PR_BASE,
+  ..._PR_COVER3,
+  ..._PR_SIDE,
+  ..._PR_SIDE2,
+  ..._PR_FULLFIELD,
+};
+
+// ── Factory: 3x1 Backside from 2x2 Weak ─────────────────────────────
+// In 3x1, the weak side has only #1 (lone WR). The RB takes the role of
+// #2 weak. This factory wraps any 2x2-weak preset so that:
+//   - rec(weakSide, 2) finds the RB (injected as fake #2w eligible)
+//   - snapshot.primaryBackfield = null (no separate back — he IS #2)
+// RB-specific switch/flat logic in the original preset won't fire (rb=null).
+// ── Empty formation snapshot patch ──────────────────────────────────
+// In Empty there is no RB, but many presets reference primaryBackfield.
+// This patch maps #2 weak-side receiver as primaryBackfield so preset
+// logic ("RB man", RB reads etc.) targets #2w instead.
+function patchEmptySnapshot(snapshot) {
+  if (!snapshot) return snapshot;
+  if (snapshot.primaryBackfield) return snapshot; // has a real RB — no patch
+  const formation = getFormationRead(snapshot).formation;
+  if (formation !== 'empty') return snapshot;
+  const strongSide = snapshot.coverageStrongSide || 'R';
+  const weakSide   = strongSide === 'L' ? 'R' : 'L';
+  const w2 = (snapshot.eligiblePlayers || []).find(
+    p => p._side === weakSide && p._receiverNumber === 2
+  );
+  if (!w2) return snapshot; // no #2w exists (e.g. 4x1) — nothing to map
+  return Object.assign({}, snapshot, { primaryBackfield: w2 });
+}
+

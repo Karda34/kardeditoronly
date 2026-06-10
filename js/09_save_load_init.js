@@ -1,1 +1,677 @@
-const _0x451e6f=_0x5f05;(function(_0x530900,_0x4f314b){const _0x236074=_0x5f05,_0x25fd46=_0x530900();while(!![]){try{const _0x5afa19=parseInt(_0x236074(0x1b1))/0x1*(parseInt(_0x236074(0x1f8))/0x2)+parseInt(_0x236074(0x169))/0x3+-parseInt(_0x236074(0x1d9))/0x4+-parseInt(_0x236074(0x1c1))/0x5+-parseInt(_0x236074(0x186))/0x6*(parseInt(_0x236074(0x1ed))/0x7)+-parseInt(_0x236074(0x1c6))/0x8*(-parseInt(_0x236074(0x161))/0x9)+parseInt(_0x236074(0x16e))/0xa;if(_0x5afa19===_0x4f314b)break;else _0x25fd46['push'](_0x25fd46['shift']());}catch(_0xce21ce){_0x25fd46['push'](_0x25fd46['shift']());}}}(_0x5263,0xabf59),document['getElementById'](_0x451e6f(0x11a))[_0x451e6f(0x1ca)](_0x451e6f(0x1e6),()=>{const _0x5a89a6=_0x451e6f,_0x5be8e6={'bWpNb':function(_0x56338b){return _0x56338b();}};_0x5be8e6[_0x5a89a6(0x1ef)](savePlayAsJson);}),document['getElementById'](_0x451e6f(0x119))['addEventListener'](_0x451e6f(0x1e6),()=>{const _0x1f76b1=_0x451e6f,_0x309f53={'QDpWY':function(_0x2a6a2a,_0x4cbeb9){return _0x2a6a2a===_0x4cbeb9;},'tpvUV':function(_0x3d63e4){return _0x3d63e4();}};if(_0x309f53[_0x1f76b1(0x143)](typeof generateAndSavePlayGif,_0x1f76b1(0x1df)))_0x309f53[_0x1f76b1(0x15f)](generateAndSavePlayGif);}),document[_0x451e6f(0x120)]('savePngBtn')['addEventListener'](_0x451e6f(0x1e6),()=>{const _0x685ff0=_0x451e6f,_0xebbdf8={'YaWjF':function(_0x2365f5){return _0x2365f5();}};_0xebbdf8[_0x685ff0(0x1bf)](savePlayAsPng);}),document[_0x451e6f(0x120)](_0x451e6f(0x16f))[_0x451e6f(0x1ca)](_0x451e6f(0x1e6),()=>{const _0x39ecb6=_0x451e6f,_0xbbd8c8={'sKGpa':function(_0x2dacfd,_0x2a5a15){return _0x2dacfd===_0x2a5a15;},'QKwny':_0x39ecb6(0x1df),'RlNKF':function(_0x4e9431){return _0x4e9431();}};if(_0xbbd8c8[_0x39ecb6(0x1db)](typeof generateAndSavePlayMp4,_0xbbd8c8[_0x39ecb6(0x1f1)]))_0xbbd8c8[_0x39ecb6(0x1ab)](generateAndSavePlayMp4);}),document[_0x451e6f(0x120)](_0x451e6f(0x144))[_0x451e6f(0x1ca)](_0x451e6f(0x1e6),()=>{const _0xf2c262=_0x451e6f,_0x295dab={'abWMk':'fileInput'};document[_0xf2c262(0x120)](_0x295dab[_0xf2c262(0x19c)])[_0xf2c262(0x1e6)]();}),document[_0x451e6f(0x120)](_0x451e6f(0x1d8))['addEventListener'](_0x451e6f(0x17f),function(_0x433f55){const _0x582045=_0x451e6f,_0x4e3255={'pEdAC':function(_0x35c8f9,_0x39f233){return _0x35c8f9===_0x39f233;},'bWnOB':'⚠\x20No\x20play\x20data\x20found\x20in\x20this\x20GIF','qVvwR':function(_0x531a2d,_0x132d1a){return _0x531a2d(_0x132d1a);},'DSTCw':_0x582045(0x19e),'dxroL':function(_0x596c76,_0x4b49d8){return _0x596c76(_0x4b49d8);},'QeRNC':_0x582045(0x1df),'fOoSD':function(_0x50ce85,_0x98cf33){return _0x50ce85(_0x98cf33);},'sHHwl':'⚠\x20No\x20play\x20data\x20found\x20in\x20this\x20video\x20(WhatsApp\x20re-encoded?)','yskQZ':_0x582045(0x134),'sUsIC':'.gif','VHfdm':_0x582045(0x131),'PDIed':_0x582045(0x1c5)},_0x5bbf53=_0x433f55[_0x582045(0x1de)]['files'][0x0];if(!_0x5bbf53)return;const _0x3adadb=_0x5bbf53[_0x582045(0x19b)][_0x582045(0x11b)]();if(_0x3adadb['endsWith'](_0x4e3255[_0x582045(0x13c)])){const _0x18c2bf=new FileReader();_0x18c2bf[_0x582045(0x17a)]=_0x536648=>{const _0x37b6ff=_0x582045,_0x6f7899=_0x4e3255[_0x37b6ff(0x1e5)](typeof loadFromGif,'function')?loadFromGif(_0x536648[_0x37b6ff(0x1de)]['result']):null;if(!_0x6f7899){showToast(_0x4e3255['bWnOB']);return;}applyLoadedPlayData(_0x6f7899);},_0x18c2bf[_0x582045(0x1cc)](_0x5bbf53),this[_0x582045(0x167)]='';return;}if(_0x3adadb[_0x582045(0x128)](_0x4e3255['VHfdm'])){const _0x599aa3=new FileReader();_0x599aa3[_0x582045(0x17a)]=_0x558bc4=>{const _0x2bfd75=_0x582045,_0x45df73=loadFromPng(_0x558bc4[_0x2bfd75(0x1de)][_0x2bfd75(0x18b)]);if(!_0x45df73){_0x4e3255[_0x2bfd75(0x15c)](showToast,_0x4e3255[_0x2bfd75(0x193)]);return;}_0x4e3255['dxroL'](applyLoadedPlayData,_0x45df73);},_0x599aa3[_0x582045(0x1cc)](_0x5bbf53),this[_0x582045(0x167)]='';return;}if(_0x3adadb[_0x582045(0x128)](_0x4e3255[_0x582045(0x145)])||_0x3adadb['endsWith'](_0x582045(0x1b5))){const _0xa9d222=new FileReader();_0xa9d222[_0x582045(0x17a)]=_0x3e1290=>{const _0x43e041=_0x582045,_0x5d8073=_0x4e3255[_0x43e041(0x1e5)](typeof loadFromVideo,_0x4e3255[_0x43e041(0x17b)])?_0x4e3255[_0x43e041(0x1d4)](loadFromVideo,_0x3e1290[_0x43e041(0x1de)][_0x43e041(0x18b)]):null;if(!_0x5d8073){_0x4e3255[_0x43e041(0x12e)](showToast,_0x4e3255[_0x43e041(0x137)]);return;}applyLoadedPlayData(_0x5d8073);},_0xa9d222['readAsArrayBuffer'](_0x5bbf53),this['value']='';return;}const _0x437de1=new FileReader();_0x437de1[_0x582045(0x17a)]=_0x3c5341=>{const _0x5dd31f=_0x582045;try{const _0x3d0763=JSON[_0x5dd31f(0x1d1)](_0x3c5341[_0x5dd31f(0x1de)]['result']);_0x4e3255['dxroL'](applyLoadedPlayData,_0x3d0763);}catch(_0x270ed3){showToast(_0x4e3255[_0x5dd31f(0x11f)]);}},_0x437de1['readAsText'](_0x5bbf53),this[_0x582045(0x167)]='';}));function _0x5263(){const _0x5c0a28=['normal','ulxKe','HqtLX','ball','kWIJk','qVvwR','assignment','width','tpvUV','LqWiO','456723llbHyl','label','offensePanel','⚠\x20Add\x20offense\x20players\x20first','isEmpty','defensePanelOpenBtn','value','.canvas-wrap','588858DVpSIa','routePoints','cbShade','NZIFZ','sVxGa','17931920NzvYEc','saveMp4Btn','ChrSj','cos','vVwJq','ajpeO','ebLdA','Mfzab','collapsed','Cclsx','pTlwr','curl','onload','QeRNC','offense','\x20def','iBnZN','change','remove','eLfxV','mRrXq','eaHPo','IjXNB','map','3161064aqtVnM','jJNjD','isOline','IunSJ','ZBSMN','result','has','HzYTE','abs','10-out','QJsDT','xYEwo','removed','DSTCw','blockTarget','5-in','\x20off\x20+\x20','bSkfI','qqpDG','display','Full\x20Flood','name','abWMk','coverageStrongSide','⚠\x20No\x20play\x20data\x20found\x20in\x20this\x20PNG','pakTB','height','object','isFinite','strongSide','max','motionPoints','⚠\x20No\x20eligible\x20receivers\x20found','lceOs','bLepz','flat','length','RlNKF','baWFc','type','nextDefId','defensePlayers','resize','3HNJmdP','eNBxS','inLvQ','defensePanel','.webm','uQAfw','Sail\x20Dragon','ydngl','role','fRkQQ','backfieldPlayers','ZZEck','luFbh','wRuks','YaWjF','shiftPoints','6582520WvLEED','WBmNu','SeVrF','info','.mp4','136gCCBTb','offsetX','FXfwO','Bzkom','addEventListener','kkAtE','readAsArrayBuffer','nGFos','⚠\x20Unknown\x20play\x20preset','hMqHE','Full\x20Dragon\x20Curl\x20Flat','parse','gCKPA','ukVeC','fOoSD','uDGwS','mirroredWRId','IkQsP','fileInput','4949600iUnFgg','corner','sKGpa','CRxOJ','Lion\x20Hold\x20Double\x20Post','target','function','LbawW','ZAUJf','includes','STDUn','PDkUL','pEdAC','click','nDBpy','manual','IUzhI','clientWidth','losY','\x20applied','7CPUNEq','sort','bWpNb','olineBlocks','QKwny','active','querySelector','nYeDj','origY','fly','add','621944EGmRPo','flat-strong','BppEY','find','saveBtn','saveJsonBtn','toLowerCase','Dagger\x20Mesh\x20Post','ballX','offsetY','yskQZ','getElementById','blockPoints','QADrB','tkstm','HIFOI','voXzE','important','gMzIM','endsWith','none','motionOwnerId','SQRT1_2','OpszN','slant','dxroL','cbSpacing','drag','.png','style','OHEXU','⚠\x20Invalid\x20or\x20corrupted\x20play\x20file','HUrYh','HucUp','sHHwl','lGMYs','forEach','sgvfx','TdRnF','sUsIC','isArray','pfypw','mLDdS','origX','PIdrH','EwjTe','QDpWY','loadBtn','PDIed','routes','✓\x20Play\x20loaded\x20—\x20','post','playPresetSelect','PZNwJ','ItQYA','WXUVB','QAQBS','players','sin','ezCVo','pkTpS','offensePanelOpenBtn','⚠\x20LOAD\x20ABORTED\x20—\x20','classList','10-in','round'];_0x5263=function(){return _0x5c0a28;};return _0x5263();}function applyLoadedPlayData(_0x2a683b){const _0x3882a7=_0x451e6f,_0x20ccf1={'luFbh':function(_0x3f1998,_0x489fda){return _0x3f1998===_0x489fda;},'nYeDj':_0x3882a7(0x1a1),'hMqHE':_0x3882a7(0x121),'gCKPA':function(_0x363393,_0x10098b){return _0x363393 in _0x10098b;},'NZIFZ':function(_0x8f51b5,_0x4be7c5){return _0x8f51b5>_0x4be7c5;},'ebLdA':function(_0x376a88,_0x317aef){return _0x376a88!==_0x317aef;},'TSPmF':function(_0x2bf069,_0x2b2d08){return _0x2bf069+_0x2b2d08;},'lceOs':function(_0x494eb0){return _0x494eb0();},'PDkUL':function(_0x713359){return _0x713359();},'MXSsm':function(_0x2f06dd){return _0x2f06dd();},'ZAUJf':function(_0x312883,_0x391d24,_0x25f408){return _0x312883(_0x391d24,_0x25f408);}},_0x268241=(_0x2a683b[_0x3882a7(0x14e)]||[])['filter'](_0x10ff1a=>SKILL_TYPES[_0x3882a7(0x1e2)](_0x10ff1a[_0x3882a7(0x1ad)]));if(_0x20ccf1[_0x3882a7(0x16c)](_0x268241[_0x3882a7(0x1aa)],SKILL_LIMIT)){showToast(_0x3882a7(0x153)+_0x268241[_0x3882a7(0x1aa)]+'\x20skill\x20players\x20(max\x20'+SKILL_LIMIT+')');return;}const _0x73cd30=document['getElementById']('playNameInput');if(_0x73cd30)_0x73cd30['value']=_0x2a683b[_0x3882a7(0x19b)]||'';ball['x']=_0x2a683b[_0x3882a7(0x15a)]['x'],ball['y']=_0x2a683b[_0x3882a7(0x15a)]['y'];_0x2a683b['olineBlocks']?OLINE_IDS[_0x3882a7(0x139)](_0x1e5588=>{const _0x2826b7=_0x3882a7,_0x459796=_0x2a683b[_0x2826b7(0x1f0)][_0x1e5588];olineData[_0x1e5588][_0x2826b7(0x1c7)]=_0x459796&&_0x20ccf1['luFbh'](typeof _0x459796,_0x2826b7(0x1a1))&&Number[_0x2826b7(0x1a2)](_0x459796['offsetX'])?_0x459796[_0x2826b7(0x1c7)]:0x0,olineData[_0x1e5588][_0x2826b7(0x11e)]=_0x459796&&typeof _0x459796===_0x20ccf1[_0x2826b7(0x1f4)]&&Number[_0x2826b7(0x1a2)](_0x459796[_0x2826b7(0x11e)])?_0x459796['offsetY']:0x0,olineData[_0x1e5588][_0x2826b7(0x192)]=!!(_0x459796&&typeof _0x459796===_0x2826b7(0x1a1)&&_0x459796[_0x2826b7(0x192)]);if(Array[_0x2826b7(0x13d)](_0x459796))olineData[_0x1e5588][_0x2826b7(0x121)]=_0x459796['map'](_0x3da3cd=>({'x':_0x3da3cd['x'],'y':_0x3da3cd['y']})),olineData[_0x1e5588][_0x2826b7(0x126)]=![];else{if(_0x459796&&_0x20ccf1[_0x2826b7(0x1bd)](typeof _0x459796,_0x2826b7(0x1a1))&&_0x20ccf1[_0x2826b7(0x1cf)]in _0x459796)olineData[_0x1e5588]['blockPoints']=(_0x459796[_0x2826b7(0x121)]||[])['map'](_0x4ad25f=>({'x':_0x4ad25f['x'],'y':_0x4ad25f['y']})),olineData[_0x1e5588][_0x2826b7(0x126)]=_0x459796[_0x2826b7(0x126)]??![];else _0x459796&&_0x20ccf1['luFbh'](typeof _0x459796,_0x20ccf1[_0x2826b7(0x1f4)])&&_0x20ccf1[_0x2826b7(0x1d2)]('x',_0x459796)?(olineData[_0x1e5588][_0x2826b7(0x121)]=[{'x':_0x459796['x'],'y':_0x459796['y']}],olineData[_0x1e5588]['important']=![]):(olineData[_0x1e5588]['blockPoints']=[],olineData[_0x1e5588][_0x2826b7(0x126)]=![]);}}):OLINE_IDS[_0x3882a7(0x139)](_0x44543c=>{const _0x19be95=_0x3882a7;olineData[_0x44543c][_0x19be95(0x121)]=[],olineData[_0x44543c]['important']=![],olineData[_0x44543c][_0x19be95(0x1c7)]=0x0,olineData[_0x44543c]['offsetY']=0x0,olineData[_0x44543c]['removed']=![];});players=(_0x2a683b[_0x3882a7(0x14e)]||[])['map'](_0x535ddd=>{const _0x38858f=_0x3882a7,_0x14d4e6=clampToLOS(_0x535ddd['x'],_0x535ddd['y']),_0x422b8b=makePlayer(_0x535ddd['type'],_0x14d4e6['x'],_0x14d4e6['y']);_0x422b8b['id']=_0x535ddd['id'],_0x422b8b[_0x38858f(0x162)]=_0x535ddd['label'],_0x422b8b['origX']=_0x14d4e6['x'],_0x422b8b[_0x38858f(0x1f5)]=_0x14d4e6['y'],_0x422b8b['important']=_0x535ddd[_0x38858f(0x126)]??![],_0x422b8b[_0x38858f(0x16a)]=(_0x535ddd['routePoints']||_0x535ddd[_0x38858f(0x146)]||[])[_0x38858f(0x185)](_0x47b9fa=>({'x':_0x47b9fa['x'],'y':_0x47b9fa['y']})),_0x422b8b[_0x38858f(0x1a5)]=(_0x535ddd[_0x38858f(0x1a5)]||[])['map'](_0xd7dfb2=>({'x':_0xd7dfb2['x'],'y':_0xd7dfb2['y']})),_0x422b8b[_0x38858f(0x1c0)]=(_0x535ddd[_0x38858f(0x1c0)]||[])['map'](_0x67ee25=>({'x':_0x67ee25['x'],'y':_0x67ee25['y']}));if(Array[_0x38858f(0x13d)](_0x535ddd[_0x38858f(0x121)]))_0x422b8b['blockPoints']=_0x535ddd[_0x38858f(0x121)][_0x38858f(0x185)](_0x3513d5=>({'x':_0x3513d5['x'],'y':_0x3513d5['y']}));else _0x535ddd[_0x38858f(0x194)]&&typeof _0x535ddd[_0x38858f(0x194)]===_0x20ccf1[_0x38858f(0x1f4)]?_0x422b8b[_0x38858f(0x121)]=[{'x':_0x535ddd['blockTarget']['x'],'y':_0x535ddd[_0x38858f(0x194)]['y']}]:_0x422b8b['blockPoints']=[];return _0x422b8b;});let _0x6d0c76=![];motionOwnerId=null,players[_0x3882a7(0x139)](_0x66ea5c=>{const _0x2c2f9f=_0x3882a7;_0x66ea5c['motionPoints'][_0x2c2f9f(0x1aa)]>0x0&&(!_0x6d0c76?(motionOwnerId=_0x66ea5c['id'],_0x6d0c76=!![]):_0x66ea5c[_0x2c2f9f(0x1a5)]=[]);});if(_0x20ccf1[_0x3882a7(0x174)](_0x2a683b[_0x3882a7(0x12a)],undefined)){const _0x32676e=players[_0x3882a7(0x1fb)](_0x103192=>_0x103192['id']===_0x2a683b['motionOwnerId']&&_0x103192[_0x3882a7(0x1a5)][_0x3882a7(0x1aa)]>0x0);if(_0x32676e)motionOwnerId=_0x32676e['id'];}nextId=_0x20ccf1['TSPmF'](Math[_0x3882a7(0x1a4)](...players['map'](_0x1b6783=>_0x1b6783['id']),0x0),0x1),selectedPlayerId=null,defensePlayers=(_0x2a683b[_0x3882a7(0x1af)]||[])[_0x3882a7(0x185)](_0x1e90b4=>{const _0x495ea5=_0x3882a7,_0x2265da=_0x1e90b4[_0x495ea5(0x15d)]?{..._0x1e90b4[_0x495ea5(0x15d)]}:{'type':'none'};return{'id':_0x1e90b4['id'],'team':'D','role':_0x1e90b4[_0x495ea5(0x1b9)]||'CB','x':_0x1e90b4['x'],'y':_0x1e90b4['y'],'origX':_0x1e90b4[_0x495ea5(0x140)]??_0x1e90b4['x'],'origY':_0x1e90b4[_0x495ea5(0x1f5)]??_0x1e90b4['y'],'simX':_0x1e90b4['x'],'simY':_0x1e90b4['y'],'assignment':_0x2265da,'speedMultiplier':_0x1e90b4['speedMultiplier']??0x1,'isDefender':!![],'simZoneDone':![],'cbSpacing':_0x1e90b4[_0x495ea5(0x12f)]||_0x495ea5(0x157),'cbShade':_0x1e90b4[_0x495ea5(0x16b)]||_0x495ea5(0x157),'mirroredWRId':_0x1e90b4[_0x495ea5(0x1d6)]??null,'decision':assignmentToDecision(_0x2265da)};}),nextDefId=_0x2a683b[_0x3882a7(0x1ae)]??(_0x20ccf1['NZIFZ'](defensePlayers['length'],0x0)?Math[_0x3882a7(0x1a4)](...defensePlayers[_0x3882a7(0x185)](_0x5ec765=>_0x5ec765['id']))+0x1:0x1),selectedDefId=null,refreshDefPlayerList(),refreshDefAssignBox(),refreshPlayerList(),_0x20ccf1[_0x3882a7(0x1a7)](refreshSkillCounter),_0x20ccf1[_0x3882a7(0x1e4)](updateMotionBadge),_0x20ccf1[_0x3882a7(0x1a7)](draw);if(_0x20ccf1[_0x3882a7(0x174)](activePreset,_0x3882a7(0x1e8)))_0x20ccf1['MXSsm'](refreshPresetMatchList);updateFormationBadge(),_0x20ccf1[_0x3882a7(0x1e1)](showToast,_0x3882a7(0x147)+players['length']+_0x3882a7(0x196)+defensePlayers[_0x3882a7(0x1aa)]+_0x3882a7(0x17d),_0x3882a7(0x1c4));}addPlayer('QB'),selectedPlayerId=null,refreshPlayerList(),refreshSkillCounter(),updateMotionBadge(),updateInfoBar(),draw(),updateFormationBadge(),refreshDefPlayerList(),refreshDefAssignBox(),document[_0x451e6f(0x120)]('reactiveFormationBtn')?.[_0x451e6f(0x154)][_0x451e6f(0x1f7)](_0x451e6f(0x1f2));function collapsePanel(_0x2a8ce4){const _0x4d5bba=_0x451e6f,_0x49d18a={'ItQYA':_0x4d5bba(0x17c),'xzcUb':_0x4d5bba(0x166)};_0x2a8ce4===_0x49d18a[_0x4d5bba(0x14b)]?(document['getElementById'](_0x4d5bba(0x163))[_0x4d5bba(0x154)][_0x4d5bba(0x1f7)](_0x4d5bba(0x176)),document[_0x4d5bba(0x120)](_0x4d5bba(0x152))[_0x4d5bba(0x132)][_0x4d5bba(0x199)]=''):(document['getElementById']('defensePanel')[_0x4d5bba(0x154)][_0x4d5bba(0x1f7)](_0x4d5bba(0x176)),document[_0x4d5bba(0x120)](_0x49d18a['xzcUb'])[_0x4d5bba(0x132)]['display']=''),resizeCanvas();}function expandPanel(_0x4c5adf){const _0x16b1c6=_0x451e6f,_0x331296={'eNBxS':_0x16b1c6(0x17c),'LqWiO':_0x16b1c6(0x166),'HqtLX':'none'};_0x4c5adf===_0x331296[_0x16b1c6(0x1b2)]?(document[_0x16b1c6(0x120)](_0x16b1c6(0x163))['classList'][_0x16b1c6(0x180)](_0x16b1c6(0x176)),document[_0x16b1c6(0x120)](_0x16b1c6(0x152))[_0x16b1c6(0x132)][_0x16b1c6(0x199)]=_0x16b1c6(0x129)):(document[_0x16b1c6(0x120)](_0x16b1c6(0x1b4))[_0x16b1c6(0x154)]['remove'](_0x16b1c6(0x176)),document[_0x16b1c6(0x120)](_0x331296[_0x16b1c6(0x160)])[_0x16b1c6(0x132)]['display']=_0x331296[_0x16b1c6(0x159)]),resizeCanvas();}function resizeCanvas(){const _0x1716b6=_0x451e6f,_0x5ea600={'IkQsP':function(_0x1abee6,_0x5ca4f0){return _0x1abee6<=_0x5ca4f0;},'OPEQK':function(_0x52b558,_0x4f8889){return _0x52b558/_0x4f8889;},'CRmvf':function(_0x48c880,_0x5d75e8){return _0x48c880*_0x5d75e8;},'uQAfw':function(_0x4b4a61,_0x382f02){return _0x4b4a61+_0x382f02;},'nJiwJ':function(_0x3efefe,_0x49fe88){return _0x3efefe+_0x49fe88;}},_0x32cb00=document[_0x1716b6(0x1f3)](_0x1716b6(0x168));if(!_0x32cb00)return;const _0x349a7c=_0x32cb00[_0x1716b6(0x1ea)],_0x280b60=_0x32cb00['clientHeight'];if(_0x349a7c<=0x0||_0x5ea600[_0x1716b6(0x1d7)](_0x280b60,0x0))return;const _0x4e5a80=_0x5ea600['OPEQK'](FIELD_W,FIELD_H);let _0x15f09d,_0x467d7a;_0x349a7c/_0x280b60>_0x4e5a80?(_0x467d7a=_0x280b60,_0x15f09d=_0x5ea600['CRmvf'](_0x467d7a,_0x4e5a80)):(_0x15f09d=_0x349a7c,_0x467d7a=_0x15f09d/_0x4e5a80),canvas['style'][_0x1716b6(0x15e)]=_0x5ea600[_0x1716b6(0x1b6)](Math[_0x1716b6(0x156)](_0x15f09d),'px'),canvas[_0x1716b6(0x132)][_0x1716b6(0x1a0)]=_0x5ea600['nJiwJ'](Math[_0x1716b6(0x156)](_0x467d7a),'px');}window['addEventListener'](_0x451e6f(0x1b0),resizeCanvas),setTimeout(resizeCanvas,0x32);function _0x5f05(_0x37de6b,_0x58ab27){_0x37de6b=_0x37de6b-0x119;const _0x52636c=_0x5263();let _0x5f056a=_0x52636c[_0x37de6b];return _0x5f056a;}function onDefChangePosition(){const _0x21e846=_0x451e6f,_0x2bb5d0={'fusJo':'defChangePosition','Whlco':function(_0x2c50c0){return _0x2c50c0();}},_0x420096=document[_0x21e846(0x120)](_0x2bb5d0['fusJo']);if(!_0x420096||!_0x420096['value'])return;const _0x10d5bb=defensePlayers['find'](_0x457c52=>_0x457c52['id']===selectedDefId);if(!_0x10d5bb)return;_0x10d5bb['role']=_0x420096[_0x21e846(0x167)],_0x420096['value']='',_0x2bb5d0['Whlco'](refreshDefPlayerList),refreshDefAssignBox(),draw();}function getPlayEligibles(){const _0x32ecdd=_0x451e6f,_0x26e396={'xLorU':function(_0x325803,_0x4ad554){return _0x325803(_0x4ad554);},'IjXNB':function(_0xb957,_0x32604e){return _0xb957(_0x32604e);},'nDBpy':function(_0x20c66e,_0x40998c){return _0x20c66e-_0x40998c;}};if(!offenseStructureSnapshot)rebuildOffenseStructureSnapshot();const _0x301704=offenseStructureSnapshot;if(!_0x301704)return[];const _0x59c228=_0x301704['strongSide']||'R',_0x104f30=players['filter'](_0x14ac3a=>!_0x14ac3a[_0x32ecdd(0x188)]&&_0x14ac3a[_0x32ecdd(0x1ad)]!=='QB'),_0x4df185=_0x59c228==='R'?FIELD_RIGHT:FIELD_LEFT;return _0x104f30[_0x32ecdd(0x1ee)]((_0x48f38f,_0x4c6eeb)=>{const _0x1f2785=_0x32ecdd,_0x1937af=_0x26e396['xLorU'](getSnapPos,_0x48f38f)['x'],_0x5e0abd=_0x26e396[_0x1f2785(0x184)](getSnapPos,_0x4c6eeb)['x'];return _0x26e396[_0x1f2785(0x1e7)](Math[_0x1f2785(0x18e)](_0x26e396[_0x1f2785(0x1e7)](_0x1937af,_0x4df185)),Math[_0x1f2785(0x18e)](_0x5e0abd-_0x4df185));}),_0x104f30;}function _routeToCenter(_0xce90f8,_0x3cdea9){const _0x2d7e18=_0x451e6f;if(Math[_0x2d7e18(0x18e)](_0xce90f8-_0x3cdea9['ballX'])<YARD_PX*0.5)return _0x3cdea9[_0x2d7e18(0x19d)]==='R'?-0x1:0x1;return _0xce90f8>_0x3cdea9[_0x2d7e18(0x11d)]?-0x1:0x1;}function _routeToSide(_0x1f93b2,_0x50bf5f){const _0x1ae731=_0x451e6f,_0x1a529f={'ukVeC':function(_0x1bb133,_0x42ff07,_0x685025){return _0x1bb133(_0x42ff07,_0x685025);}};return-_0x1a529f[_0x1ae731(0x1d3)](_routeToCenter,_0x1f93b2,_0x50bf5f);}const ROUTE_LIBRARY={'hitch':(_0x55f9e6,_0x49a527)=>{const _0x5b9405=_0x451e6f,_0x4f3025={'HucUp':function(_0x256441,_0x2a9d6f,_0x247bc7){return _0x256441(_0x2a9d6f,_0x247bc7);},'ZZEck':function(_0x6492c2,_0x369e66){return _0x6492c2-_0x369e66;},'CRxOJ':function(_0x428da6,_0x1601ad){return _0x428da6*_0x1601ad;},'nGFos':function(_0x37a5ea,_0x4d1c3c){return _0x37a5ea+_0x4d1c3c;},'tkstm':function(_0x5dddc5,_0x462fd4){return _0x5dddc5+_0x462fd4;}},_0x40eacc=getSnapPos(_0x55f9e6)['x'],_0x35b490=_0x49a527['losY'],_0x59bc1e=_0x4f3025[_0x5b9405(0x136)](_routeToCenter,_0x40eacc,_0x49a527),_0x4b8085=_0x4f3025[_0x5b9405(0x1bc)](_0x35b490,_0x4f3025[_0x5b9405(0x1dc)](0x2,YARD_PX)),_0x236b8a=_0x4f3025[_0x5b9405(0x1dc)](0x28,Math['PI'])/0xb4;return[{'x':_0x40eacc,'y':_0x4b8085},{'x':_0x4f3025[_0x5b9405(0x1cd)](_0x40eacc,_0x59bc1e*Math[_0x5b9405(0x14f)](_0x236b8a)*YARD_PX),'y':_0x4f3025[_0x5b9405(0x123)](_0x4b8085,Math[_0x5b9405(0x171)](_0x236b8a)*YARD_PX)}];},'slant':(_0x2059af,_0x1cf5e7)=>{const _0x6a1a4f=_0x451e6f,_0x23bc23={'ydngl':function(_0x1360ea,_0x2258a6){return _0x1360ea(_0x2258a6);},'OHEXU':function(_0x387168,_0x5ac87f){return _0x387168-_0x5ac87f;},'Iflgn':function(_0x1b8ee3,_0x51c9bd){return _0x1b8ee3+_0x51c9bd;}},_0xc617b7=_0x23bc23[_0x6a1a4f(0x1b8)](getSnapPos,_0x2059af)['x'],_0x1a043f=_0x1cf5e7[_0x6a1a4f(0x1eb)],_0xf4a56f=_routeToCenter(_0xc617b7,_0x1cf5e7),_0xb59425=_0x23bc23[_0x6a1a4f(0x133)](_0x1a043f,YARD_PX),_0x9f8742=0x8*YARD_PX,_0x168b75=Math['sqrt'](0x3)/0x2,_0xac2257=0.5;return[{'x':_0xc617b7,'y':_0xb59425},{'x':_0x23bc23['Iflgn'](_0xc617b7,_0xf4a56f*_0x9f8742*_0x168b75),'y':_0xb59425-_0x9f8742*_0xac2257}];},'5-in':(_0x4dd1ab,_0xc1fb32)=>{const _0x124530=_0x451e6f,_0x2c8095={'cEvNC':function(_0x282035,_0x1aa651){return _0x282035*_0x1aa651;}},_0x5c4d73=getSnapPos(_0x4dd1ab)['x'],_0x4db942=_0xc1fb32[_0x124530(0x1eb)],_0x160d0d=_0x4db942-_0x2c8095['cEvNC'](0x5,YARD_PX);return[{'x':_0x5c4d73,'y':_0x160d0d},{'x':_0xc1fb32['ballX'],'y':_0x160d0d}];},'5-out':(_0x5158c9,_0x5c3ac1)=>{const _0x17908f=_0x451e6f,_0x10ac2f=getSnapPos(_0x5158c9)['x'],_0x49664c=_0x5c3ac1[_0x17908f(0x1eb)],_0xfa291b=_routeToSide(_0x10ac2f,_0x5c3ac1),_0x341448=_0x49664c-0x5*YARD_PX,_0x370e04=_0xfa291b>0x0?FIELD_RIGHT:FIELD_LEFT;return[{'x':_0x10ac2f,'y':_0x341448},{'x':_0x370e04,'y':_0x341448}];},'curl':(_0x3c0aec,_0x2c1bb7)=>{const _0xdc03ee=_0x451e6f,_0x19b6f0={'pkTpS':function(_0x12db90,_0x24228c){return _0x12db90(_0x24228c);},'BppEY':function(_0x4622c8,_0x227c21){return _0x4622c8*_0x227c21;},'pTlwr':function(_0x34ad0e,_0x4b881a){return _0x34ad0e+_0x4b881a;}},_0xf9466a=_0x19b6f0[_0xdc03ee(0x151)](getSnapPos,_0x3c0aec)['x'],_0x1b9851=_0x2c1bb7['losY'],_0x535888=_routeToCenter(_0xf9466a,_0x2c1bb7),_0x39cbc1=_0x1b9851-_0x19b6f0[_0xdc03ee(0x1fa)](0xa,YARD_PX),_0x3d5622=_0x19b6f0[_0xdc03ee(0x1fa)](0x28,Math['PI'])/0xb4;return[{'x':_0xf9466a,'y':_0x39cbc1},{'x':_0x19b6f0[_0xdc03ee(0x178)](_0xf9466a,_0x19b6f0['BppEY'](_0x19b6f0[_0xdc03ee(0x1fa)](_0x535888,Math['sin'](_0x3d5622)),YARD_PX)),'y':_0x19b6f0[_0xdc03ee(0x178)](_0x39cbc1,_0x19b6f0['BppEY'](Math[_0xdc03ee(0x171)](_0x3d5622),YARD_PX))}];},'10-in':(_0x4fc606,_0xf26b60)=>{const _0x42a31e=_0x451e6f,_0x2734b7={'LbawW':function(_0x4f7df7,_0x730ecc){return _0x4f7df7(_0x730ecc);},'sVxGa':function(_0x498ab5,_0x3ccd34){return _0x498ab5*_0x3ccd34;}},_0x2df9a4=_0x2734b7[_0x42a31e(0x1e0)](getSnapPos,_0x4fc606)['x'],_0x262fd9=_0xf26b60[_0x42a31e(0x1eb)],_0x141224=_0x262fd9-_0x2734b7[_0x42a31e(0x16d)](0xa,YARD_PX);return[{'x':_0x2df9a4,'y':_0x141224},{'x':_0xf26b60[_0x42a31e(0x11d)],'y':_0x141224}];},'10-out':(_0xed800c,_0x190a3d)=>{const _0x22c5ff=_0x451e6f,_0x587f30={'EwjTe':function(_0x3010cd,_0x579528){return _0x3010cd*_0x579528;},'Bzkom':function(_0xaec973,_0x4d60ae){return _0xaec973>_0x4d60ae;}},_0x2d579d=getSnapPos(_0xed800c)['x'],_0x466af5=_0x190a3d[_0x22c5ff(0x1eb)],_0x27b4ff=_routeToSide(_0x2d579d,_0x190a3d),_0x53600b=_0x466af5-_0x587f30[_0x22c5ff(0x142)](0xa,YARD_PX),_0x9491c2=_0x587f30[_0x22c5ff(0x1c9)](_0x27b4ff,0x0)?FIELD_RIGHT:FIELD_LEFT;return[{'x':_0x2d579d,'y':_0x53600b},{'x':_0x9491c2,'y':_0x53600b}];},'post':(_0x31970,_0x175b64)=>{const _0x1e80d0=_0x451e6f,_0x256e3f={'ACmUR':function(_0x22f1db,_0x2beb36){return _0x22f1db(_0x2beb36);},'eLfxV':function(_0x30ede0,_0x167d58){return _0x30ede0*_0x167d58;},'fRkQQ':function(_0x41221a,_0x3d82fd){return _0x41221a*_0x3d82fd;},'PIdrH':function(_0x45bf17,_0x2edb63){return _0x45bf17-_0x2edb63;}},_0x2ef002=_0x256e3f['ACmUR'](getSnapPos,_0x31970)['x'],_0x552e9d=_0x175b64[_0x1e80d0(0x1eb)],_0x39569d=_routeToCenter(_0x2ef002,_0x175b64),_0x255107=_0x552e9d-_0x256e3f['eLfxV'](0xa,YARD_PX),_0x2b9eea=0x8*YARD_PX;return[{'x':_0x2ef002,'y':_0x255107},{'x':_0x2ef002+_0x256e3f[_0x1e80d0(0x181)](_0x256e3f[_0x1e80d0(0x1ba)](_0x39569d,_0x2b9eea),Math[_0x1e80d0(0x12b)]),'y':_0x256e3f[_0x1e80d0(0x141)](_0x255107,_0x2b9eea*Math[_0x1e80d0(0x12b)])}];},'corner':(_0x4bef9b,_0x58bb1c)=>{const _0x122e13=_0x451e6f,_0x49c850={'Mfzab':function(_0x5555ee,_0x29f887){return _0x5555ee-_0x29f887;},'PQIEn':function(_0x4ca9c7,_0x5b9c69){return _0x4ca9c7*_0x5b9c69;},'STDUn':function(_0x283364,_0x490e15){return _0x283364*_0x490e15;},'BkGEk':function(_0x3e0c79,_0x2b841b){return _0x3e0c79*_0x2b841b;},'voXzE':function(_0x58e012,_0x2ac499){return _0x58e012-_0x2ac499;},'OpszN':function(_0x52c93c,_0x5797db){return _0x52c93c*_0x5797db;}},_0x45d6be=getSnapPos(_0x4bef9b)['x'],_0x37aea5=_0x58bb1c[_0x122e13(0x1eb)],_0x77e763=_routeToSide(_0x45d6be,_0x58bb1c),_0x389b88=_0x49c850[_0x122e13(0x175)](_0x37aea5,_0x49c850['PQIEn'](0xa,YARD_PX)),_0x34084c=0x8*YARD_PX;return[{'x':_0x45d6be,'y':_0x389b88},{'x':_0x45d6be+_0x49c850[_0x122e13(0x1e3)](_0x49c850['BkGEk'](_0x77e763,_0x34084c),Math[_0x122e13(0x12b)]),'y':_0x49c850[_0x122e13(0x125)](_0x389b88,_0x49c850[_0x122e13(0x12c)](_0x34084c,Math[_0x122e13(0x12b)]))}];},'fly':(_0x301a6d,_0x734bc0)=>{const _0x100c2=_0x451e6f,_0x3473df={'bSkfI':function(_0x18648c,_0x2034c7){return _0x18648c(_0x2034c7);},'HIFOI':function(_0x5cc833,_0x91ab76){return _0x5cc833-_0x91ab76;},'QADrB':function(_0x20541a,_0xbfbbe2){return _0x20541a*_0xbfbbe2;}},_0x597b8c=_0x3473df[_0x100c2(0x197)](getSnapPos,_0x301a6d)['x'],_0x4410c5=_0x734bc0[_0x100c2(0x1eb)];return[{'x':_0x597b8c,'y':_0x3473df[_0x100c2(0x124)](_0x4410c5,_0x3473df[_0x100c2(0x122)](0x19,YARD_PX))}];},'drag':(_0x56d78a,_0x44d688)=>{const _0x59dcaa=_0x451e6f,_0x4199f3={'IunSJ':function(_0x5106be,_0x81a571){return _0x5106be(_0x81a571);},'HUrYh':function(_0x2f267b,_0x30dbf6){return _0x2f267b-_0x30dbf6;},'uDGwS':function(_0x447c2b,_0x40f90d){return _0x447c2b*_0x40f90d;}},_0x4afcb2=_0x4199f3[_0x59dcaa(0x189)](getSnapPos,_0x56d78a)['x'],_0x46105b=_0x44d688['losY'],_0x2d2b64=_routeToCenter(_0x4afcb2,_0x44d688),_0x371260=_0x4199f3[_0x59dcaa(0x135)](_0x46105b,YARD_PX);return[{'x':_0x4afcb2+_0x4199f3[_0x59dcaa(0x1d5)](_0x2d2b64,YARD_PX),'y':_0x371260},{'x':_0x4afcb2+_0x2d2b64*0x9*YARD_PX,'y':_0x371260}];},'flat':(_0x5962c0,_0x1153d8)=>{const _0x3b8f97=_0x451e6f,_0x4a3cec={'oHJPJ':function(_0x49356d,_0x2cac7f){return _0x49356d(_0x2cac7f);},'vVwJq':function(_0x51cb7c,_0xf66483,_0x39f82b){return _0x51cb7c(_0xf66483,_0x39f82b);},'HewRP':function(_0x489e8d,_0x10ab87){return _0x489e8d+_0x10ab87;}},_0x38f3ad=_0x4a3cec['oHJPJ'](getSnapPos,_0x5962c0)['x'],_0x5de9c2=_0x1153d8['losY'],_0x261902=_0x4a3cec[_0x3b8f97(0x172)](_routeToSide,_0x38f3ad,_0x1153d8),_0x366512=_0x4a3cec['HewRP'](_0x1153d8[_0x3b8f97(0x11d)],_0x261902*0x12*YARD_PX);return[{'x':_0x366512,'y':_0x5de9c2-YARD_PX}];},'flat-strong':(_0x2e7be6,_0x45ea9f)=>{const _0x4f14b7=_0x451e6f,_0x26d855={'sgvfx':function(_0x185f21,_0x43366e){return _0x185f21===_0x43366e;},'xYEwo':function(_0x9ce22e,_0x24c296){return _0x9ce22e*_0x24c296;}},_0x5065e5=_0x45ea9f[_0x4f14b7(0x1eb)],_0x2e6173=_0x26d855[_0x4f14b7(0x13a)](_0x45ea9f[_0x4f14b7(0x19d)],'R')?0x1:-0x1,_0x26fda7=_0x45ea9f['ballX']+_0x26d855[_0x4f14b7(0x191)](_0x2e6173*0x12,YARD_PX);return[{'x':_0x26fda7,'y':_0x5065e5-YARD_PX}];}};function _applyRoute(_0x3f2b14,_0x74b865,_0x2269b1){const _0x119a4a=_0x451e6f,_0x4b0039={'ulxKe':function(_0x5e10f9,_0x3517b4,_0x2d956e){return _0x5e10f9(_0x3517b4,_0x2d956e);}},_0x32c565=ROUTE_LIBRARY[_0x3f2b14];if(!_0x32c565)return console['warn']('ROUTE_LIBRARY:\x20unknown\x20route',_0x3f2b14),null;return _0x4b0039[_0x119a4a(0x158)](_0x32c565,_0x74b865,_0x2269b1);}const PLAY_PRESETS={'sail-dragon':{'label':_0x451e6f(0x1b7),'routes'(_0x1e65a,_0x23d670){const _0x1e3627=_0x451e6f,_0xfae384={'WXUVB':function(_0x28d5d5,_0x32712b){return _0x28d5d5===_0x32712b;},'pfypw':_0x1e3627(0x1f6),'ezCVo':function(_0x461dba,_0xcb002e){return _0x461dba(_0xcb002e);},'wRuks':function(_0x69b9f0,_0x57ffa0){return _0x69b9f0*_0x57ffa0;},'iBnZN':function(_0x426e0a,_0x3c2351){return _0x426e0a+_0x3c2351;},'TdRnF':function(_0x5d40e3,_0x13dc04){return _0x5d40e3*_0x13dc04;},'hPzhV':function(_0x40dd39,_0x53ee60){return _0x40dd39*_0x53ee60;},'kWIJk':function(_0x42a90f,_0x31d6f1){return _0x42a90f*_0x31d6f1;},'AGesv':_0x1e3627(0x1a9),'HzYTE':function(_0x531ccf,_0x4de3c6){return _0x531ccf(_0x4de3c6);},'yVMvy':function(_0x23169c,_0x49d935){return _0x23169c-_0x49d935;},'QAQBS':function(_0x35d2ee,_0x43889d){return _0x35d2ee-_0x43889d;}},_0x35ab14=_0x23d670['losY'],_0x397d36=_0x23d670[_0x1e3627(0x11d)],_0x5980ca=_0x23d670[_0x1e3627(0x1a3)]||'R',_0x416561=_0xfae384[_0x1e3627(0x14c)](_0x5980ca,'R')?0x1:-0x1,_0x453822=-_0x416561,_0x43556b={};if(_0x1e65a[0x0])_0x43556b[_0x1e65a[0x0]['id']]=_applyRoute(_0xfae384[_0x1e3627(0x13e)],_0x1e65a[0x0],_0x23d670);if(_0x1e65a[0x1]){const _0x1169d7=_0x1e65a[0x1],_0x405a35=_0xfae384[_0x1e3627(0x150)](getSnapPos,_0x1169d7)['x'];_0x43556b[_0x1169d7['id']]=[{'x':_0x405a35,'y':_0x35ab14-_0xfae384[_0x1e3627(0x1be)](YARD_PX,0xa)},{'x':_0xfae384[_0x1e3627(0x17e)](_0x405a35,_0xfae384[_0x1e3627(0x13b)](_0xfae384['hPzhV'](_0x416561,YARD_PX),0x8)),'y':_0x35ab14-_0xfae384[_0x1e3627(0x15b)](YARD_PX,0xa)}];}if(_0x1e65a[0x2])_0x43556b[_0x1e65a[0x2]['id']]=_applyRoute(_0x1e3627(0x1a9),_0x1e65a[0x2],_0x23d670);if(_0x1e65a[0x3])_0x43556b[_0x1e65a[0x3]['id']]=_applyRoute(_0xfae384['AGesv'],_0x1e65a[0x3],_0x23d670);if(_0x1e65a[0x4]){const _0x184c4c=_0x1e65a[0x4],_0x574a28=_0xfae384[_0x1e3627(0x18d)](getSnapPos,_0x184c4c)['x'],_0x442fff=_routeToCenter(_0x574a28,_0x23d670),_0x499c78=_0x35ab14-0x2*YARD_PX,_0xfbe154=_0xfae384['yVMvy'](_0x35ab14,0x7*YARD_PX),_0xf84617=Math[_0x1e3627(0x18e)](_0xfae384[_0x1e3627(0x14d)](_0xfbe154,_0x499c78));_0x43556b[_0x184c4c['id']]=[{'x':_0x574a28,'y':_0x499c78},{'x':_0xfae384[_0x1e3627(0x17e)](_0x574a28,_0xfae384[_0x1e3627(0x1be)](_0x442fff,_0xf84617)),'y':_0xfbe154}];}return _0x43556b;}},'dagger-mesh-post':{'label':_0x451e6f(0x11c),'routes'(_0x2b2898,_0x49f5d2){const _0x2a5e97=_0x451e6f,_0x31e32e={'baWFc':function(_0x59c2a9,_0x36e371){return _0x59c2a9===_0x36e371;},'ZBSMN':function(_0x4f2598,_0x219387,_0x2dd1b0,_0x399d44){return _0x4f2598(_0x219387,_0x2dd1b0,_0x399d44);},'WBmNu':function(_0x2c0962,_0x5c01c4){return _0x2c0962(_0x5c01c4);},'IUzhI':function(_0x4a3e14,_0x8e3a53){return _0x4a3e14+_0x8e3a53;},'ChrSj':function(_0x188872,_0x2c5f64){return _0x188872*_0x2c5f64;},'mRrXq':function(_0x4f374f,_0x162e23){return _0x4f374f*_0x162e23;}},_0x20e492=_0x49f5d2['losY'],_0x29ebac=_0x49f5d2[_0x2a5e97(0x11d)],_0x2a21f8=_0x31e32e[_0x2a5e97(0x1ac)](_0x49f5d2['coverageStrongSide'],'R')?0x1:-0x1,_0x54a7b5=-_0x2a21f8,_0x4a816c={};if(_0x2b2898[0x0])_0x4a816c[_0x2b2898[0x0]['id']]=_applyRoute(_0x2a5e97(0x155),_0x2b2898[0x0],_0x49f5d2);if(_0x2b2898[0x1])_0x4a816c[_0x2b2898[0x1]['id']]=_0x31e32e[_0x2a5e97(0x18a)](_applyRoute,_0x2a5e97(0x148),_0x2b2898[0x1],_0x49f5d2);if(_0x2b2898[0x2]){const _0x5a3a65=_0x2b2898[0x2],_0x5e5351=_0x31e32e[_0x2a5e97(0x1c2)](getSnapPos,_0x5a3a65)['x'],_0x3b99b5=_0x20e492-0x3*YARD_PX;_0x4a816c[_0x5a3a65['id']]=[{'x':_0x5e5351,'y':_0x3b99b5},{'x':_0x31e32e[_0x2a5e97(0x1e9)](_0x29ebac,_0x31e32e[_0x2a5e97(0x170)](_0x54a7b5,0xf)*YARD_PX),'y':_0x3b99b5}];}if(_0x2b2898[0x3]){const _0x288e45=_0x2b2898[0x3],_0x2f8d3e=getSnapPos(_0x288e45)['x'],_0x2345b7=_0x20e492-YARD_PX;_0x4a816c[_0x288e45['id']]=[{'x':_0x2f8d3e,'y':_0x2345b7},{'x':_0x29ebac+_0x31e32e[_0x2a5e97(0x182)](_0x31e32e[_0x2a5e97(0x170)](_0x2a21f8,0xf),YARD_PX),'y':_0x2345b7}];}if(_0x2b2898[0x4])_0x4a816c[_0x2b2898[0x4]['id']]=_0x31e32e[_0x2a5e97(0x18a)](_applyRoute,_0x2a5e97(0x148),_0x2b2898[0x4],_0x49f5d2);return _0x4a816c;}},'lion-hold-double-post':{'label':_0x451e6f(0x1dd),'routes'(_0x4c3a6b,_0x59435e){const _0x3eea3c=_0x451e6f,_0x383b7f={'eaHPo':function(_0xef42f3,_0x3a7104,_0x5bd32b,_0x5bebee){return _0xef42f3(_0x3a7104,_0x5bd32b,_0x5bebee);},'PZNwJ':_0x3eea3c(0x12d),'FXfwO':_0x3eea3c(0x130),'inLvQ':_0x3eea3c(0x148)},_0x3d0ae7={},_0x3325d4=new Set(_0x59435e['backfieldPlayers'][_0x3eea3c(0x185)](_0x50dfb8=>_0x50dfb8['id'])),_0x398778=_0x4c3a6b['filter'](_0x2dd8ba=>!_0x3325d4[_0x3eea3c(0x18c)](_0x2dd8ba['id'])),_0x29bc32=_0x59435e[_0x3eea3c(0x165)]?[_0x383b7f[_0x3eea3c(0x14a)],_0x3eea3c(0x12d),_0x383b7f[_0x3eea3c(0x1c8)],_0x383b7f['inLvQ'],_0x3eea3c(0x148)]:[_0x383b7f[_0x3eea3c(0x14a)],_0x3eea3c(0x12d),_0x383b7f[_0x3eea3c(0x1b3)],_0x383b7f['inLvQ']];return _0x398778['forEach']((_0x1b84e8,_0x2d7b18)=>{const _0x2d15e8=_0x3eea3c;if(_0x29bc32[_0x2d7b18])_0x3d0ae7[_0x1b84e8['id']]=_0x383b7f[_0x2d15e8(0x183)](_applyRoute,_0x29bc32[_0x2d7b18],_0x1b84e8,_0x59435e);}),_0x3d0ae7;}},'full-dragon-curl-flat':{'label':_0x451e6f(0x1d0),'routes'(_0x22269b,_0x4c0e60){const _0x22763c=_0x451e6f,_0x5cf62b={'QJsDT':function(_0x85f3a8,_0x2c6be4,_0x5335db,_0x9cf584){return _0x85f3a8(_0x2c6be4,_0x5335db,_0x9cf584);},'gMzIM':_0x22763c(0x12d),'jJNjD':'flat','rQgnZ':_0x22763c(0x179)},_0x423683={},_0x262bd4=['slant',_0x5cf62b[_0x22763c(0x127)],_0x5cf62b[_0x22763c(0x187)],_0x5cf62b[_0x22763c(0x187)],_0x5cf62b['rQgnZ']];return _0x22269b[_0x22763c(0x139)]((_0x1394fa,_0x16ecb8)=>{const _0x1789c6=_0x22763c;if(_0x262bd4[_0x16ecb8])_0x423683[_0x1394fa['id']]=_0x5cf62b[_0x1789c6(0x190)](_applyRoute,_0x262bd4[_0x16ecb8],_0x1394fa,_0x4c0e60);}),_0x423683;}},'full-flood':{'label':_0x451e6f(0x19a),'routes'(_0x3ce4b2,_0x1ea1d0){const _0x190697=_0x451e6f,_0x12aee8={'SeVrF':'fly','Cclsx':function(_0x27b473,_0x33e941,_0xf224f7,_0x455e29){return _0x27b473(_0x33e941,_0xf224f7,_0x455e29);},'roPNi':_0x190697(0x1da),'FPQWc':_0x190697(0x1f9),'lGMYs':_0x190697(0x18f)},_0x278314={},_0x5d4535=new Set(_0x1ea1d0[_0x190697(0x1bb)][_0x190697(0x185)](_0x2a92f1=>_0x2a92f1['id']));if(_0x3ce4b2[0x0])_0x278314[_0x3ce4b2[0x0]['id']]=_applyRoute(_0x12aee8[_0x190697(0x1c3)],_0x3ce4b2[0x0],_0x1ea1d0);if(_0x3ce4b2[0x1])_0x278314[_0x3ce4b2[0x1]['id']]=_0x12aee8[_0x190697(0x177)](_applyRoute,_0x12aee8['roPNi'],_0x3ce4b2[0x1],_0x1ea1d0);if(_0x3ce4b2[0x2]){const _0x751eea=_0x5d4535[_0x190697(0x18c)](_0x3ce4b2[0x2]['id'])?_0x12aee8['FPQWc']:_0x12aee8[_0x190697(0x138)];_0x278314[_0x3ce4b2[0x2]['id']]=_applyRoute(_0x751eea,_0x3ce4b2[0x2],_0x1ea1d0);}if(_0x3ce4b2[0x3]){const _0x3ea5c8=_0x5d4535[_0x190697(0x18c)](_0x3ce4b2[0x3]['id'])?_0x190697(0x1f9):_0x190697(0x130);_0x278314[_0x3ce4b2[0x3]['id']]=_applyRoute(_0x3ea5c8,_0x3ce4b2[0x3],_0x1ea1d0);}if(_0x3ce4b2[0x4])_0x278314[_0x3ce4b2[0x4]['id']]=_applyRoute(_0x190697(0x195),_0x3ce4b2[0x4],_0x1ea1d0);return _0x278314;}}};function applyPlayPreset(){const _0xcf0529=_0x451e6f,_0x196c75={'qqpDG':_0xcf0529(0x149),'bLepz':_0xcf0529(0x1e8),'ajpeO':function(_0x453b0f,_0x2a9507){return _0x453b0f(_0x2a9507);},'pakTB':function(_0x4cdc47){return _0x4cdc47();},'mLDdS':function(_0x4ea6aa,_0x16e012){return _0x4ea6aa(_0x16e012);},'kkAtE':function(_0x1f736f,_0x4631af){return _0x1f736f+_0x4631af;}},_0x1e8a55=document[_0xcf0529(0x120)](_0x196c75[_0xcf0529(0x198)]);if(!_0x1e8a55||_0x1e8a55[_0xcf0529(0x167)]===_0x196c75[_0xcf0529(0x1a8)])return;const _0x2e5964=PLAY_PRESETS[_0x1e8a55['value']];if(!_0x2e5964){_0x196c75['ajpeO'](showToast,_0xcf0529(0x1ce));return;}_0x196c75[_0xcf0529(0x19f)](rebuildOffenseStructureSnapshot);const _0x542ff3=offenseStructureSnapshot;if(!_0x542ff3){_0x196c75[_0xcf0529(0x173)](showToast,_0xcf0529(0x164));return;}const _0x1330c3=getPlayEligibles();if(_0x1330c3[_0xcf0529(0x1aa)]===0x0){showToast(_0xcf0529(0x1a6));return;}const _0x1033fe=_0x2e5964[_0xcf0529(0x146)](_0x1330c3,_0x542ff3);players[_0xcf0529(0x139)](_0x3d63d7=>{const _0x47e877=_0xcf0529;_0x1033fe[_0x3d63d7['id']]&&(_0x3d63d7[_0x47e877(0x16a)]=_0x1033fe[_0x3d63d7['id']][_0x47e877(0x185)](_0x3ca247=>({'x':_0x3ca247['x'],'y':_0x3ca247['y']})),_0x3d63d7[_0x47e877(0x121)]=[]);}),_0x196c75[_0xcf0529(0x13f)](showToast,_0x196c75[_0xcf0529(0x1cb)]('✓\x20',_0x2e5964[_0xcf0529(0x162)])+_0xcf0529(0x1ec)),_0x196c75[_0xcf0529(0x19f)](draw);}
+// ─────────────────────────────────────────────
+// SAVE / LOAD
+// ─────────────────────────────────────────────
+document.getElementById('saveJsonBtn').addEventListener('click', () => {
+  savePlayAsJson();
+});
+
+document.getElementById('saveBtn').addEventListener('click', () => {
+  if (typeof generateAndSavePlayGif === 'function') generateAndSavePlayGif();
+});
+
+document.getElementById('savePngBtn').addEventListener('click', () => {
+  savePlayAsPng();
+});
+
+document.getElementById('saveMp4Btn').addEventListener('click', () => {
+  if (typeof generateAndSavePlayMp4 === 'function') generateAndSavePlayMp4();
+});
+
+document.getElementById('loadBtn').addEventListener('click', () => {
+  document.getElementById('fileInput').click();
+});
+
+document.getElementById('fileInput').addEventListener('change', function(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  const name = file.name.toLowerCase();
+
+  // GIF: JSON aus Comment-Extension
+  if (name.endsWith('.gif')) {
+    const r = new FileReader();
+    r.onload = ev => {
+      const data = typeof loadFromGif === 'function' ? loadFromGif(ev.target.result) : null;
+      if (!data) { showToast('⚠ No play data found in this GIF'); return; }
+      applyLoadedPlayData(data);
+    };
+    r.readAsArrayBuffer(file);
+    this.value = '';
+    return;
+  }
+
+  // PNG: JSON nach IEND-Chunk
+  if (name.endsWith('.png')) {
+    const r = new FileReader();
+    r.onload = ev => {
+      const data = loadFromPng(ev.target.result);
+      if (!data) { showToast('⚠ No play data found in this PNG'); return; }
+      applyLoadedPlayData(data);
+    };
+    r.readAsArrayBuffer(file);
+    this.value = '';
+    return;
+  }
+
+  // MP4 / WebM: JSON ans Datei-Ende angehängt (gleicher Marker wie PNG)
+  if (name.endsWith('.mp4') || name.endsWith('.webm')) {
+    const r = new FileReader();
+    r.onload = ev => {
+      const data = typeof loadFromVideo === 'function' ? loadFromVideo(ev.target.result) : null;
+      if (!data) { showToast('⚠ No play data found in this video (WhatsApp re-encoded?)'); return; }
+      applyLoadedPlayData(data);
+    };
+    r.readAsArrayBuffer(file);
+    this.value = '';
+    return;
+  }
+
+  // JSON
+  const reader = new FileReader();
+  reader.onload = ev => {
+    try {
+      const data = JSON.parse(ev.target.result);
+      applyLoadedPlayData(data);
+    } catch(err) { showToast('⚠ Invalid or corrupted play file'); }
+  };
+  reader.readAsText(file); this.value = '';
+});
+
+function applyLoadedPlayData(data) {
+  const skillInFile = (data.players||[]).filter(p => SKILL_TYPES.includes(p.type));
+  if (skillInFile.length > SKILL_LIMIT) {
+    showToast(`⚠ LOAD ABORTED — ${skillInFile.length} skill players (max ${SKILL_LIMIT})`); return;
+  }
+
+  // Play-Name wiederherstellen
+  const nameInput = document.getElementById('playNameInput');
+  if (nameInput) nameInput.value = data.name || '';
+
+  ball.x = data.ball.x; ball.y = data.ball.y;
+
+  // Restore O-Line block points (+ important flag)
+  if (data.olineBlocks) {
+    OLINE_IDS.forEach(id => {
+      const raw = data.olineBlocks[id];
+      // O-Line manual nudge (default 0 for older saves without offsets)
+      olineData[id].offsetX = (raw && typeof raw === 'object' && Number.isFinite(raw.offsetX)) ? raw.offsetX : 0;
+      olineData[id].offsetY = (raw && typeof raw === 'object' && Number.isFinite(raw.offsetY)) ? raw.offsetY : 0;
+      olineData[id].removed = !!(raw && typeof raw === 'object' && raw.removed);
+      if (Array.isArray(raw)) {
+        olineData[id].blockPoints = raw.map(w => ({x:w.x, y:w.y}));
+        olineData[id].important   = false;
+      } else if (raw && typeof raw === 'object' && 'blockPoints' in raw) {
+        olineData[id].blockPoints = (raw.blockPoints || []).map(w => ({x:w.x, y:w.y}));
+        olineData[id].important   = raw.important ?? false;
+      } else if (raw && typeof raw === 'object' && 'x' in raw) {
+        olineData[id].blockPoints = [{x:raw.x, y:raw.y}];
+        olineData[id].important   = false;
+      } else {
+        olineData[id].blockPoints = [];
+        olineData[id].important   = false;
+      }
+    });
+  } else {
+    OLINE_IDS.forEach(id => { olineData[id].blockPoints = []; olineData[id].important = false; olineData[id].offsetX = 0; olineData[id].offsetY = 0; olineData[id].removed = false; });
+  }
+
+  players = (data.players||[]).map(p => {
+    const cpos = clampToLOS(p.x, p.y);
+    const np = makePlayer(p.type, cpos.x, cpos.y);
+    np.id    = p.id;
+    np.label = p.label;
+    np.origX = cpos.x;
+    np.origY = cpos.y;
+    np.important    = p.important ?? false;
+    np.routePoints  = (p.routePoints  || p.routes || []).map(w=>({x:w.x,y:w.y}));
+    np.motionPoints = (p.motionPoints || []).map(w=>({x:w.x,y:w.y}));
+    np.shiftPoints  = (p.shiftPoints  || []).map(w=>({x:w.x,y:w.y}));
+    if (Array.isArray(p.blockPoints)) {
+      np.blockPoints = p.blockPoints.map(w=>({x:w.x,y:w.y}));
+    } else if (p.blockTarget && typeof p.blockTarget === 'object') {
+      np.blockPoints = [{x:p.blockTarget.x, y:p.blockTarget.y}];
+    } else {
+      np.blockPoints = [];
+    }
+    return np;
+  });
+
+  let foundMotion = false;
+  motionOwnerId = null;
+  players.forEach(p => {
+    if (p.motionPoints.length > 0) {
+      if (!foundMotion) { motionOwnerId = p.id; foundMotion = true; }
+      else { p.motionPoints = []; }
+    }
+  });
+  if (data.motionOwnerId !== undefined) {
+    const savedOwner = players.find(p => p.id === data.motionOwnerId && p.motionPoints.length > 0);
+    if (savedOwner) motionOwnerId = savedOwner.id;
+  }
+
+  nextId = Math.max(...players.map(p=>p.id), 0) + 1;
+  selectedPlayerId = null;
+
+  defensePlayers = (data.defensePlayers || []).map(d => {
+    const asg = d.assignment ? { ...d.assignment } : { type: 'none' };
+    return {
+      id: d.id, team: 'D', role: d.role || 'CB',
+      x: d.x, y: d.y, origX: d.origX ?? d.x, origY: d.origY ?? d.y,
+      simX: d.x, simY: d.y,
+      assignment: asg,
+      speedMultiplier: d.speedMultiplier ?? 1.0,
+      isDefender: true,
+      simZoneDone: false,
+      cbSpacing: d.cbSpacing || 'normal',
+      cbShade:   d.cbShade   || 'normal',
+      mirroredWRId: d.mirroredWRId ?? null,
+      decision: assignmentToDecision(asg),
+    };
+  });
+  nextDefId = data.nextDefId ?? (defensePlayers.length > 0 ? Math.max(...defensePlayers.map(d=>d.id)) + 1 : 1);
+  selectedDefId = null;
+  refreshDefPlayerList();
+  refreshDefAssignBox();
+
+  // ── Restore play type + run carrier ──────────────────────────────────
+  // Older saves omit these → default to 'pass' (legacy behavior). Set the
+  // carrier first so setPlayType's dropdown refresh picks it up.
+  runCarrierId = (data.runCarrierId != null) ? data.runCarrierId : null;
+  if (typeof setPlayType === 'function') setPlayType(data.playType || 'pass');
+
+  refreshPlayerList(); refreshSkillCounter(); updateMotionBadge(); draw();
+  if (activePreset !== 'manual') refreshPresetMatchList();
+  updateFormationBadge();
+  showToast(`✓ Play loaded — ${players.length} off + ${defensePlayers.length} def`, 'info');
+}
+
+// ─────────────────────────────────────────────
+// INIT
+// ─────────────────────────────────────────────
+addPlayer('QB');         // always start with a QB on the field
+selectedPlayerId = null; // deselect after auto-add
+refreshPlayerList();
+refreshSkillCounter();
+updateMotionBadge();
+updateInfoBar();
+draw();
+updateFormationBadge();
+refreshDefPlayerList();
+refreshDefAssignBox();
+// Reactive formation: pre-snap active by default
+document.getElementById('reactiveFormationBtn')?.classList.add('active');
+
+// ── Collapsible panels ───────────────────────────────────────
+function collapsePanel(side) {
+  if (side === 'offense') {
+    document.getElementById('offensePanel').classList.add('collapsed');
+    document.getElementById('offensePanelOpenBtn').style.display = '';
+  } else {
+    document.getElementById('defensePanel').classList.add('collapsed');
+    document.getElementById('defensePanelOpenBtn').style.display = '';
+  }
+  resizeCanvas();
+}
+function expandPanel(side) {
+  if (side === 'offense') {
+    document.getElementById('offensePanel').classList.remove('collapsed');
+    document.getElementById('offensePanelOpenBtn').style.display = 'none';
+  } else {
+    document.getElementById('defensePanel').classList.remove('collapsed');
+    document.getElementById('defensePanelOpenBtn').style.display = 'none';
+  }
+  resizeCanvas();
+}
+
+// ── Responsive canvas — sidelines anchored to panel edges ─────
+function resizeCanvas() {
+  const wrap = document.querySelector('.canvas-wrap');
+  if (!wrap) return;
+  const wrapW = wrap.clientWidth;
+  const wrapH = wrap.clientHeight;
+  if (wrapW <= 0 || wrapH <= 0) return;
+
+  const fieldAR = FIELD_W / FIELD_H;
+  let cssW, cssH;
+  if (wrapW / wrapH > fieldAR) {
+    cssH = wrapH;
+    cssW = cssH * fieldAR;
+  } else {
+    cssW = wrapW;
+    cssH = cssW / fieldAR;
+  }
+
+  canvas.style.width  = Math.round(cssW) + 'px';
+  canvas.style.height = Math.round(cssH) + 'px';
+}
+window.addEventListener('resize', resizeCanvas);
+setTimeout(resizeCanvas, 50);
+
+// ── Change Position handler ──────────────────────────────────
+function onDefChangePosition() {
+  const sel = document.getElementById('defChangePosition');
+  if (!sel || !sel.value) return;
+  const d = defensePlayers.find(dd => dd.id === selectedDefId);
+  if (!d) return;
+  d.role = sel.value;
+  sel.value = ''; // reset dropdown
+  refreshDefPlayerList();
+  refreshDefAssignBox();
+  draw();
+}
+
+
+// ═══════════════════════════════════════════════════════════════════
+// OFFENSE PLAY PRESETS
+// Eligible receivers numbered 1-5 from strong side to weak side.
+// #1 = widest strong, ... , #5 = widest weak / backfield last.
+// ═══════════════════════════════════════════════════════════════════
+
+function getPlayEligibles() {
+  // Build snapshot if needed
+  if (!offenseStructureSnapshot) rebuildOffenseStructureSnapshot();
+  const snap = offenseStructureSnapshot;
+  if (!snap) return [];
+
+  const strong = snap.strongSide || 'R';
+
+  // Collect all non-OL, non-QB players
+  const elig = players.filter(p => !p.isOline && p.type !== 'QB');
+
+  // Strong side sideline X
+  const strongSidelineX = strong === 'R' ? FIELD_RIGHT : FIELD_LEFT;
+
+  // Sort ALL eligible players by distance from the strong side sideline (closest = #1)
+  elig.sort((a, b) => {
+    const aX = getSnapPos(a).x;
+    const bX = getSnapPos(b).x;
+    return Math.abs(aX - strongSidelineX) - Math.abs(bX - strongSidelineX);
+  });
+
+  return elig;
+}
+
+// ── Route direction helpers ───────────────────────────────────────────────
+// Returns ±1: direction from player toward center of field.
+// Center player (directly behind QB) → toward coverage weak side.
+function _routeToCenter(px, snap) {
+  if (Math.abs(px - snap.ballX) < YARD_PX * 0.5) {
+    // Center player → weak side
+    return snap.coverageStrongSide === 'R' ? -1 : 1;
+  }
+  return px > snap.ballX ? -1 : 1; // right player → left, left player → right
+}
+function _routeToSide(px, snap) { return -_routeToCenter(px, snap); }
+
+// ── ROUTE_LIBRARY ─────────────────────────────────────────────────────────
+// Each entry: (player, snap) → waypoint array [{x, y}, ...]
+// Uses snap.losY, snap.ballX, snap.coverageStrongSide.
+const ROUTE_LIBRARY = {
+
+  // 1. Hitch — 2yd stem, 140° break toward center, 1yd back
+  'hitch': (p, snap) => {
+    const px     = getSnapPos(p).x;
+    const losY   = snap.losY;
+    const toCtr  = _routeToCenter(px, snap);
+    const stemY  = losY - 2 * YARD_PX;
+    const ang    = 40 * Math.PI / 180; // 140° break = 40° off from straight back
+    return [
+      { x: px, y: stemY },
+      { x: px + toCtr  * Math.sin(ang) * YARD_PX,
+        y: stemY        + Math.cos(ang) * YARD_PX }  // slightly back downfield
+    ];
+  },
+
+  // 2. Slant — 1yd stem, 60° diagonal inward, 8yd
+  'slant': (p, snap) => {
+    const px    = getSnapPos(p).x;
+    const losY  = snap.losY;
+    const toCtr = _routeToCenter(px, snap);
+    const stemY = losY - YARD_PX;
+    const dist  = 8 * YARD_PX;
+    const sin60 = Math.sqrt(3) / 2;  // ≈ 0.866 — stärker zur Seite
+    const cos60 = 0.5;               // flacher Tiefenanteil
+    return [
+      { x: px, y: stemY },
+      { x: px    + toCtr * dist * sin60,
+        y: stemY -          dist * cos60 }  // upfield + inward
+    ];
+  },
+
+  // 3. 5-and-In — 5yd stem, 90° horizontal to field center (ballX)
+  '5-in': (p, snap) => {
+    const px    = getSnapPos(p).x;
+    const losY  = snap.losY;
+    const stemY = losY - 5 * YARD_PX;
+    return [
+      { x: px,          y: stemY },
+      { x: snap.ballX,  y: stemY }
+    ];
+  },
+
+  // 4. 5-and-Out — 5yd stem, 90° horizontal to sideline
+  '5-out': (p, snap) => {
+    const px     = getSnapPos(p).x;
+    const losY   = snap.losY;
+    const toSide = _routeToSide(px, snap);
+    const stemY  = losY - 5 * YARD_PX;
+    const sideX  = toSide > 0 ? FIELD_RIGHT : FIELD_LEFT;
+    return [
+      { x: px,    y: stemY },
+      { x: sideX, y: stemY }
+    ];
+  },
+
+  // 5. Curl — 10yd stem, 140° break toward center, 1yd back
+  'curl': (p, snap) => {
+    const px    = getSnapPos(p).x;
+    const losY  = snap.losY;
+    const toCtr = _routeToCenter(px, snap);
+    const stemY = losY - 10 * YARD_PX;
+    const ang   = 40 * Math.PI / 180;
+    return [
+      { x: px, y: stemY },
+      { x: px + toCtr  * Math.sin(ang) * YARD_PX,
+        y: stemY        + Math.cos(ang) * YARD_PX }
+    ];
+  },
+
+  // 6. 10-and-In — 10yd stem, 90° horizontal to field center (ballX)
+  '10-in': (p, snap) => {
+    const px    = getSnapPos(p).x;
+    const losY  = snap.losY;
+    const stemY = losY - 10 * YARD_PX;
+    return [
+      { x: px,          y: stemY },
+      { x: snap.ballX,  y: stemY }
+    ];
+  },
+
+  // 7. 10-and-Out — 10yd stem, 90° horizontal to sideline
+  '10-out': (p, snap) => {
+    const px     = getSnapPos(p).x;
+    const losY   = snap.losY;
+    const toSide = _routeToSide(px, snap);
+    const stemY  = losY - 10 * YARD_PX;
+    const sideX  = toSide > 0 ? FIELD_RIGHT : FIELD_LEFT;
+    return [
+      { x: px,    y: stemY },
+      { x: sideX, y: stemY }
+    ];
+  },
+
+  // 8. Post — 10yd stem, 45° diagonal toward center (goalpost), 8yd
+  'post': (p, snap) => {
+    const px    = getSnapPos(p).x;
+    const losY  = snap.losY;
+    const toCtr = _routeToCenter(px, snap);
+    const stemY = losY - 10 * YARD_PX;
+    const dist  = 8 * YARD_PX;
+    return [
+      { x: px, y: stemY },
+      { x: px    + toCtr * dist * Math.SQRT1_2,
+        y: stemY -          dist * Math.SQRT1_2 }
+    ];
+  },
+
+  // 9. Corner — 10yd stem, 45° diagonal toward sideline, 8yd
+  'corner': (p, snap) => {
+    const px     = getSnapPos(p).x;
+    const losY   = snap.losY;
+    const toSide = _routeToSide(px, snap);
+    const stemY  = losY - 10 * YARD_PX;
+    const dist   = 8 * YARD_PX;
+    return [
+      { x: px, y: stemY },
+      { x: px    + toSide * dist * Math.SQRT1_2,
+        y: stemY -           dist * Math.SQRT1_2 }
+    ];
+  },
+
+  // 10. Fly — straight upfield, 25yd, no break
+  'fly': (p, snap) => {
+    const px   = getSnapPos(p).x;
+    const losY = snap.losY;
+    return [{ x: px, y: losY - 25 * YARD_PX }];
+  },
+
+  // 11. Drag — 45° angle to 1yd line over LOS, then horizontal inward
+  'drag': (p, snap) => {
+    const px    = getSnapPos(p).x;
+    const losY  = snap.losY;
+    const toCtr = _routeToCenter(px, snap);
+    const y1    = losY - YARD_PX;  // 1yd above LOS
+    return [
+      { x: px + toCtr * YARD_PX,      y: y1 },  // 45° corner: 1yd up + 1yd in
+      { x: px + toCtr * 9 * YARD_PX,  y: y1 }   // horizontal 8 more yards inward
+    ];
+  },
+
+  // 12. Flat — 1yd over LOS, horizontal toward own sideline, 18yd from ball
+  'flat': (p, snap) => {
+    const px     = getSnapPos(p).x;
+    const losY   = snap.losY;
+    const toSide = _routeToSide(px, snap);
+    const endX   = snap.ballX + toSide * 18 * YARD_PX;
+    return [
+      { x: endX, y: losY - YARD_PX }
+    ];
+  },
+
+  // 13. Flat Strong — 1yd over LOS, always toward coverage strong side, 18yd from ball
+  'flat-strong': (p, snap) => {
+    const losY  = snap.losY;
+    const sDir  = snap.coverageStrongSide === 'R' ? 1 : -1;
+    const endX  = snap.ballX + sDir * 18 * YARD_PX;
+    return [
+      { x: endX, y: losY - YARD_PX }
+    ];
+  },
+
+};
+
+// ── Route lookup helper ───────────────────────────────────────────────────
+function _applyRoute(name, player, snap) {
+  const fn = ROUTE_LIBRARY[name];
+  if (!fn) { console.warn('ROUTE_LIBRARY: unknown route', name); return null; }
+  return fn(player, snap);
+}
+
+// ── PLAY_PRESETS ──────────────────────────────────────────────────────────
+// Each preset has a routes(numbered, snap) function.
+// New presets can use _applyRoute(name, player, snap) for library routes.
+const PLAY_PRESETS = {
+
+  // ── Sail Dragon ──────────────────────────────────────────────────────────
+  // #1 Fly · #2 Out strong · #3 Flat strong · #4 Flat weak · #5 Angle-in
+  'sail-dragon': {
+    label: 'Sail Dragon',
+    routes(numbered, snap) {
+      const losY   = snap.losY;
+      const ballX  = snap.ballX;
+      const strong = snap.strongSide || 'R';
+      const sDir   = strong === 'R' ? 1 : -1;
+      const wDir   = -sDir;
+      const routes = {};
+
+      // #1 — Fly: straight upfield, 25yd
+      if (numbered[0]) routes[numbered[0].id] = _applyRoute('fly', numbered[0], snap);
+
+      // #2 — 10yd out toward strong sideline
+      if (numbered[1]) {
+        const p  = numbered[1];
+        const px = getSnapPos(p).x;
+        routes[p.id] = [
+          { x: px,                         y: losY - YARD_PX * 10 },
+          { x: px + sDir * YARD_PX * 8,   y: losY - YARD_PX * 10 }
+        ];
+      }
+
+      // #3 — Flat to strong side
+      if (numbered[2]) routes[numbered[2].id] = _applyRoute('flat', numbered[2], snap);
+
+      // #4 — Flat to weak side
+      if (numbered[3]) routes[numbered[3].id] = _applyRoute('flat', numbered[3], snap);
+
+      // #5 — Dragon: 2yd stem, 45° inward, ends at 7yd depth
+      if (numbered[4]) {
+        const p      = numbered[4];
+        const px     = getSnapPos(p).x;
+        const toCtr  = _routeToCenter(px, snap);
+        const stemY  = losY - 2 * YARD_PX;
+        const endY   = losY - 7 * YARD_PX;
+        const hDist  = Math.abs(endY - stemY); // 5yd at 45°
+        routes[p.id] = [
+          { x: px,                   y: stemY },
+          { x: px + toCtr * hDist,  y: endY  }
+        ];
+      }
+
+      return routes;
+    }
+  },
+
+  // ── Dagger Mesh Post ─────────────────────────────────────────────────────
+  // #1 Post · #2 Post · #3 Mesh-Over (3yd→weak) · #4 Mesh-Under (1yd→strong) · #5 Post
+  // Works formations-agnostisch: 2x2, 3x1, Empty — Nummern decken alles ab.
+  'dagger-mesh-post': {
+    label: 'Dagger Mesh Post',
+    routes(numbered, snap) {
+      const losY  = snap.losY;
+      const ballX = snap.ballX;
+      const sDir  = snap.coverageStrongSide === 'R' ? 1 : -1;
+      const wDir  = -sDir;
+      const routes = {};
+
+      // #1 — 10-and-In: 10yd stem, 90° horizontal toward center, 6yd
+      if (numbered[0]) routes[numbered[0].id] = _applyRoute('10-in', numbered[0], snap);
+
+      // #2 — Post: 10yd stem, 45° inward diagonal, 8yd
+      if (numbered[1]) routes[numbered[1].id] = _applyRoute('post', numbered[1], snap);
+
+      // #3 — Mesh Over: 3yd stem, then horizontal toward weak side
+      // Crosses OVER #4 — 2yd depth separation prevents collision
+      if (numbered[2]) {
+        const p     = numbered[2];
+        const px    = getSnapPos(p).x;
+        const stemY = losY - 3 * YARD_PX;
+        routes[p.id] = [
+          { x: px,                            y: stemY },
+          { x: ballX + wDir * 15 * YARD_PX,  y: stemY }
+        ];
+      }
+
+      // #4 — Mesh Under: 1yd stem, then horizontal toward strong side
+      // Crosses UNDER #3 — runs beneath the over-crosser
+      if (numbered[3]) {
+        const p     = numbered[3];
+        const px    = getSnapPos(p).x;
+        const stemY = losY - YARD_PX;
+        routes[p.id] = [
+          { x: px,                            y: stemY },
+          { x: ballX + sDir * 15 * YARD_PX,  y: stemY }
+        ];
+      }
+
+      // #5 — Post: mirrors #1/#2 on weak side
+      if (numbered[4]) routes[numbered[4].id] = _applyRoute('post', numbered[4], snap);
+
+      return routes;
+    }
+  },
+
+  // ── Lion Hold Double Post ────────────────────────────────────────────────
+  // RB holds (no route). Remaining receivers numbered from strong side:
+  // Normal (2x2 / 3x1): #1 Slant · #2 Slant · #3 Post · #4 Post
+  // Empty  (no RB):     #1 Slant · #2 Slant · #3 Drag  · #4 Post · #5 Post
+  'lion-hold-double-post': {
+    label: 'Lion Hold Double Post',
+    routes(numbered, snap) {
+      const routes = {};
+      const rbIds  = new Set(snap.backfieldPlayers.map(p => p.id));
+
+      // Receivers only — RB bekommt keine Route, bleibt stehen
+      const receivers = numbered.filter(p => !rbIds.has(p.id));
+
+      const routeNames = snap.isEmpty
+        ? ['slant', 'slant', 'drag', 'post', 'post']
+        : ['slant', 'slant', 'post', 'post'];
+
+      receivers.forEach((p, i) => {
+        if (routeNames[i]) routes[p.id] = _applyRoute(routeNames[i], p, snap);
+      });
+
+      return routes;
+    }
+  },
+
+  // ── Full Dragon Curl Flat ────────────────────────────────────────────────
+  // #1 Slant · #2 Slant · #3 Flat · #4 Flat · #5 Curl
+  'full-dragon-curl-flat': {
+    label: 'Full Dragon Curl Flat',
+    routes(numbered, snap) {
+      const routes = {};
+      const assign = ['slant', 'slant', 'flat', 'flat', 'curl'];
+      numbered.forEach((p, i) => {
+        if (assign[i]) routes[p.id] = _applyRoute(assign[i], p, snap);
+      });
+      return routes;
+    }
+  },
+
+  // ── Full Flood ───────────────────────────────────────────────────────────
+  // #1 Fly · #2 Corner · #3 RB→Flat Strong / Receiver→10-and-Out · #4 RB→Flat Strong / Receiver→Drag · #5 5-and-In
+  'full-flood': {
+    label: 'Full Flood',
+    routes(numbered, snap) {
+      const routes = {};
+      const rbIds  = new Set(snap.backfieldPlayers.map(p => p.id));
+
+      if (numbered[0]) routes[numbered[0].id] = _applyRoute('fly',    numbered[0], snap);
+      if (numbered[1]) routes[numbered[1].id] = _applyRoute('corner', numbered[1], snap);
+      if (numbered[2]) {
+        const route = rbIds.has(numbered[2].id) ? 'flat-strong' : '10-out';
+        routes[numbered[2].id] = _applyRoute(route, numbered[2], snap);
+      }
+      if (numbered[3]) {
+        const route = rbIds.has(numbered[3].id) ? 'flat-strong' : 'drag';
+        routes[numbered[3].id] = _applyRoute(route, numbered[3], snap);
+      }
+      if (numbered[4]) routes[numbered[4].id] = _applyRoute('5-in',  numbered[4], snap);
+
+      return routes;
+    }
+  },
+
+};
+
+function applyPlayPreset() {
+  const sel = document.getElementById('playPresetSelect');
+  if (!sel || sel.value === 'manual') return;
+
+  const preset = PLAY_PRESETS[sel.value];
+  if (!preset) { showToast('⚠ Unknown play preset'); return; }
+
+  // Rebuild snapshot from current positions
+  rebuildOffenseStructureSnapshot();
+  const snap = offenseStructureSnapshot;
+  if (!snap) { showToast('⚠ Add offense players first'); return; }
+
+  // Get eligible receivers numbered 1-5 from strong side
+  const numbered = getPlayEligibles();
+  if (numbered.length === 0) { showToast('⚠ No eligible receivers found'); return; }
+
+  // Generate routes
+  const routeMap = preset.routes(numbered, snap);
+
+  // Apply routes to players (clear existing first)
+  players.forEach(p => {
+    if (routeMap[p.id]) {
+      p.routePoints = routeMap[p.id].map(wp => ({ x: wp.x, y: wp.y }));
+      p.blockPoints = []; // clear blocks when assigning routes
+    }
+  });
+
+  showToast('✓ ' + preset.label + ' applied');
+  draw();
+}
+

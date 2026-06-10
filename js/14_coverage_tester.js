@@ -1,1 +1,633 @@
-const _0x1ac276=_0x2d41;(function(_0x3017d9,_0x50b185){const _0x1da966=_0x2d41,_0x55c27a=_0x3017d9();while(!![]){try{const _0x1e7a5f=parseInt(_0x1da966(0x1ef))/0x1+-parseInt(_0x1da966(0x1f2))/0x2*(-parseInt(_0x1da966(0x229))/0x3)+-parseInt(_0x1da966(0x1e1))/0x4*(-parseInt(_0x1da966(0x238))/0x5)+-parseInt(_0x1da966(0x21c))/0x6*(-parseInt(_0x1da966(0x212))/0x7)+-parseInt(_0x1da966(0x21a))/0x8*(parseInt(_0x1da966(0x22a))/0x9)+parseInt(_0x1da966(0x225))/0xa+-parseInt(_0x1da966(0x18f))/0xb*(parseInt(_0x1da966(0x260))/0xc);if(_0x1e7a5f===_0x50b185)break;else _0x55c27a['push'](_0x55c27a['shift']());}catch(_0x27052b){_0x55c27a['push'](_0x55c27a['shift']());}}}(_0x2404,0xe75fd));const COV_TEST_SAMPLE_TIMES=[0x1,0x2],COV_TEST_DT=0.1,COV_TEST_MAX_TICKS=0x50,COV_TEST_RANGE_YD=0x7,COV_TEST_NEAR_YD=0x5,COV_TEST_SKILL_TYPES=['WR','TE','RB','FB'],COV_TEST_NON_COVER_ROLES=new Set(['DE','DT','NT']),COV_TEST_DEFAULT_BACKSIDE={'2x2':'cover5-weak','3x1':'c2m-backside','empty':_0x1ac276(0x21e)},COV_TEST_DEFAULT_STRONG={'2x2':_0x1ac276(0x1ab),'3x1':_0x1ac276(0x1c3),'empty':_0x1ac276(0x20f)};function _covTestCategorize(_0x38a073){const _0x42cab9=_0x1ac276,_0x3b2ad9={'DsDHq':_0x42cab9(0x218),'DcFex':function(_0x5357b4,_0x2bde7b){return _0x5357b4===_0x2bde7b;},'FLRsx':_0x42cab9(0x23f),'ULzFN':_0x42cab9(0x209)},_0x4a30fe=PRESET_REGISTRY[_0x38a073];if(!_0x4a30fe)return _0x3b2ad9['DsDHq'];if(_0x3b2ad9['DcFex'](_0x4a30fe[_0x42cab9(0x241)],!![]))return _0x42cab9(0x218);if(/-backside$/['test'](_0x38a073))return _0x3b2ad9[_0x42cab9(0x19b)];if(/-weak$/[_0x42cab9(0x24e)](_0x38a073))return _0x3b2ad9['ULzFN'];if(/-strong$/[_0x42cab9(0x24e)](_0x38a073))return _0x42cab9(0x1d9);return _0x42cab9(0x218);}function _0x2404(){const _0x6d6b92=['3x1','togglePause','className','fnWwj','BLuqt','wepzz','bGJuE','kspDl','click','strong','hasError','tELmW','simX','ZONE','split','defLabel','dNTtk','66540zWjfwB','join','cjlko','slice','WpVRo','<td\x20class=\x22','createElement','length','type','[CovTest]\x20showResults\x20failed:','keys','value','BvcFS','innerHTML','986679kKGXON','options','kEkyA','55520jOVXvh','undefined','#covTestCloseBtn','DNlbK','UPppJ','GlGMd','FvkmQ','ffbYs','sort','\x22\x20title=\x22','CRxkr','#covTestTbody','delete','Zrjvy','yd\x0a\x20\x20\x20\x20\x20\x20\x20\x20&nbsp;\x20<span\x20class=\x22cov-c-yellow\x22>gelb</span>\x20','toFixed','IUqkw','XykSV','head','querySelectorAll','LRVJp','DMyDj','ott','weak','scope','covTestResultsOverlay','\x0a\x20\x20\x20\x20<div\x20class=\x22cov-test-card\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22cov-test-title\x22>Testing\x20coverages…</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22cov-test-progress-bar\x22><div\x20class=\x22cov-test-progress-fill\x22\x20id=\x22covTestFill\x22></div></div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22cov-test-progress-text\x22\x20id=\x22covTestText\x22>0\x20/\x200</div>\x0a\x20\x20\x20\x20</div>','style','info','buster-strong','presetKey','rush','406pqQKON','unknown','2x2-strong','SLMDs','sim','zNDUU','fullfield','cov-c-red','4509208hYNHBt','message','166026vrKrBs','<td\x20class=\x22cov-preset-name\x22\x20data-key=\x22','tuff-backside','formation','Jtvfh','RUstI','Keine\x20WR/TE/RB/FB\x20auf\x20dem\x20Feld\x20—\x20nichts\x20zu\x20testen.','hypot','change','17654430jrsdRf','appendChild','covTestProgress','body','54hZWQle','9rcZekz','getElementById','idle','laFQB','label','checked','yd\x0a\x20\x20\x20\x20\x20\x20\x20\x20&nbsp;\x20<span\x20class=\x22cov-c-none\x22>✗</span>\x20keiner\x0a\x20\x20\x20\x20\x20\x20\x20\x20&nbsp;\x20·\x20★\x20=\x20man-assigned,\x20sonst\x20nächster\x20Coverage-Spieler\x20(DL\x20ausgeschlossen)\x0a\x20\x20\x20\x20\x20\x20\x20\x20&nbsp;\x20·\x20MAN/ZONE/RUSH/OTT/IDLE\x20=\x20aktueller\x20Mode\x0a\x20\x20\x20\x20\x20\x20\x20\x20&nbsp;\x20·\x20<span\x20class=\x22cov-c-na\x22>—</span>\x20=\x20nicht\x20im\x20Scope\x20des\x20Presets\x20(Strong-Preset\x20zeigt\x20nur\x20Strong-Seite\x20+\x20RB/FB;\x20Weak/Backside\x20nur\x20Weak-Seite\x20+\x20RB/FB)\x0a\x20\x20\x20\x20\x20\x20\x20\x20&nbsp;\x20·\x20Click\x20auf\x20Preset-Namen\x20lädt\x20es\x20ins\x20Call\x20Sheet\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22cov-test-table-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<table\x20class=\x22cov-test-table\x22\x20id=\x22covTestTable\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20rowspan=\x222\x22>Preset</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20rowspan=\x222\x22>Scope</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','covTestCSS','OTT','coverageStrongSide','addEventListener','forEach','cov-c-green','DOEOa','505QGCXMx','SyCxD','</b>\x20&nbsp;\x20·\x20&nbsp;\x20','QhaVk','OgOsw','role','rmUtH','backside','UPzmd','fullField','Fqhob','IeGBN','function','manual','distYd','VOlaj','yHYkR','_receiverNumber','MAN','QuZnh','\x20/\x20','2x2','test','<br><span\x20class=\x22cov-th-type\x22>id:','hmCpG','\x0a\x20\x20\x20\x20<div\x20class=\x22cov-test-results\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22cov-test-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22cov-test-h-title\x22>Coverage\x20Test\x20—\x20Formation:\x20<b>','includes','#covTestText','Cwwng','<td\x20class=\x22cov-scope\x22>','empty-trips','teoXm','samples','2x2-weak','defRole','\x20\x20—\x20\x20','cTMHi','warn','kpmkK','xAxEA','60305940FtRzqK','draw','11zwJbAH','neEtz','gNyFh','drop','gdbqI','ClgIr','target','KBBGs','jaJSd','\x20·\x20mode=','VaatT','Coverage\x20Test\x20braucht\x20Formation\x202x2\x20/\x203x1\x20/\x20Empty.\x0aAktuell:\x20','FLRsx','width','data-key','filter','classList','empty','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tbody\x20id=\x22covTestTbody\x22></tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>','\x0a\x20\x20\x20\x20body.coverage-testing\x20#modeIndicator,\x0a\x20\x20\x20\x20body.coverage-testing\x20#simBtn,\x0a\x20\x20\x20\x20body.coverage-testing\x20#replayBtn,\x0a\x20\x20\x20\x20body.coverage-testing\x20#pauseBtn,\x0a\x20\x20\x20\x20body.coverage-testing\x20#simPhase,\x0a\x20\x20\x20\x20body.coverage-testing\x20#advancedDrawer,\x0a\x20\x20\x20\x20body.coverage-testing\x20#debugLog\x20{\x20visibility:\x20hidden\x20!important;\x20}\x0a\x0a\x20\x20\x20\x20#covTestProgress\x20{\x0a\x20\x20\x20\x20\x20\x20position:\x20fixed;\x20inset:\x200;\x20z-index:\x2099998;\x0a\x20\x20\x20\x20\x20\x20background:\x20rgba(0,0,0,0.55);\x0a\x20\x20\x20\x20\x20\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20font-family:\x20system-ui,\x20sans-serif;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-card\x20{\x0a\x20\x20\x20\x20\x20\x20background:\x20#1a1a1a;\x20color:\x20#eee;\x20padding:\x2022px\x2028px;\x0a\x20\x20\x20\x20\x20\x20border-radius:\x208px;\x20min-width:\x20380px;\x0a\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#444;\x20box-shadow:\x200\x2010px\x2040px\x20rgba(0,0,0,.5);\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-title\x20{\x20font-size:\x2015px;\x20margin-bottom:\x2012px;\x20}\x0a\x20\x20\x20\x20.cov-test-progress-bar\x20{\x0a\x20\x20\x20\x20\x20\x20height:\x208px;\x20background:\x20#333;\x20border-radius:\x204px;\x20overflow:\x20hidden;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-progress-fill\x20{\x0a\x20\x20\x20\x20\x20\x20height:\x20100%;\x20background:\x20linear-gradient(90deg,#4caf50,#8bc34a);\x0a\x20\x20\x20\x20\x20\x20width:\x200%;\x20transition:\x20width\x200.15s\x20linear;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-progress-text\x20{\x0a\x20\x20\x20\x20\x20\x20margin-top:\x208px;\x20font-size:\x2012px;\x20color:\x20#aaa;\x20font-family:\x20ui-monospace,monospace;\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#covTestResultsOverlay\x20{\x0a\x20\x20\x20\x20\x20\x20position:\x20fixed;\x20inset:\x200;\x20z-index:\x2099999;\x0a\x20\x20\x20\x20\x20\x20background:\x20rgba(0,0,0,0.75);\x0a\x20\x20\x20\x20\x20\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20font-family:\x20system-ui,\x20sans-serif;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-results\x20{\x0a\x20\x20\x20\x20\x20\x20background:\x20#161616;\x20color:\x20#ddd;\x0a\x20\x20\x20\x20\x20\x20width:\x2096vw;\x20height:\x2092vh;\x0a\x20\x20\x20\x20\x20\x20border-radius:\x208px;\x20border:\x201px\x20solid\x20#444;\x0a\x20\x20\x20\x20\x20\x20display:\x20flex;\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20box-shadow:\x200\x2010px\x2040px\x20rgba(0,0,0,.6);\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-header\x20{\x0a\x20\x20\x20\x20\x20\x20display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20padding:\x2012px\x2018px;\x20border-bottom:\x201px\x20solid\x20#333;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-h-title\x20{\x20font-size:\x2015px;\x20}\x0a\x20\x20\x20\x20.cov-test-h-controls\x20{\x20display:\x20flex;\x20gap:\x2014px;\x20align-items:\x20center;\x20font-size:\x2013px;\x20}\x0a\x20\x20\x20\x20.cov-test-h-controls\x20button\x20{\x0a\x20\x20\x20\x20\x20\x20background:\x20#333;\x20color:\x20#eee;\x20border:\x201px\x20solid\x20#555;\x0a\x20\x20\x20\x20\x20\x20padding:\x204px\x2010px;\x20border-radius:\x204px;\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-h-controls\x20button:hover\x20{\x20background:\x20#444;\x20}\x0a\x20\x20\x20\x20.cov-test-legend\x20{\x0a\x20\x20\x20\x20\x20\x20padding:\x208px\x2018px;\x20font-size:\x2011px;\x20color:\x20#aaa;\x0a\x20\x20\x20\x20\x20\x20border-bottom:\x201px\x20solid\x20#333;\x20background:\x20#1a1a1a;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-table-wrap\x20{\x0a\x20\x20\x20\x20\x20\x20flex:\x201;\x20overflow:\x20auto;\x20padding:\x200;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-table\x20{\x0a\x20\x20\x20\x20\x20\x20width:\x20100%;\x20border-collapse:\x20collapse;\x0a\x20\x20\x20\x20\x20\x20font-family:\x20ui-monospace,\x20\x22SF\x20Mono\x22,\x20Menlo,\x20monospace;\x0a\x20\x20\x20\x20\x20\x20font-size:\x2011px;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-table\x20th,\x20.cov-test-table\x20td\x20{\x0a\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#2a2a2a;\x0a\x20\x20\x20\x20\x20\x20padding:\x204px\x206px;\x0a\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20white-space:\x20nowrap;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-test-table\x20thead\x20{\x20position:\x20sticky;\x20top:\x200;\x20background:\x20#222;\x20z-index:\x202;\x20}\x0a\x20\x20\x20\x20.cov-test-table\x20th\x20{\x20background:\x20#222;\x20font-weight:\x20600;\x20}\x0a\x20\x20\x20\x20.cov-th-type\x20{\x20font-size:\x209px;\x20color:\x20#888;\x20font-weight:\x20400;\x20}\x0a\x20\x20\x20\x20.cov-th-t\x20{\x20font-size:\x2010px;\x20color:\x20#888;\x20font-weight:\x20400;\x20}\x0a\x20\x20\x20\x20.cov-preset-name\x20{\x0a\x20\x20\x20\x20\x20\x20text-align:\x20left\x20!important;\x0a\x20\x20\x20\x20\x20\x20color:\x20#79c0ff;\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20font-weight:\x20600;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.cov-preset-name:hover\x20{\x20background:\x20#2a3340;\x20text-decoration:\x20underline;\x20}\x0a\x20\x20\x20\x20.cov-scope\x20{\x20color:\x20#888;\x20font-size:\x2010px;\x20}\x0a\x20\x20\x20\x20.cov-c-green\x20\x20{\x20background:\x20#14361a;\x20color:\x20#b3f0c0;\x20}\x0a\x20\x20\x20\x20.cov-c-yellow\x20{\x20background:\x20#3c3415;\x20color:\x20#f0e3a8;\x20}\x0a\x20\x20\x20\x20.cov-c-red\x20\x20\x20\x20{\x20background:\x20#401b1b;\x20color:\x20#ff9b9b;\x20}\x0a\x20\x20\x20\x20.cov-c-none\x20\x20\x20{\x20background:\x20#2a0e0e;\x20color:\x20#ff6b6b;\x20font-weight:\x20bold;\x20}\x0a\x20\x20\x20\x20.cov-c-na\x20\x20\x20\x20\x20{\x20background:\x20#1a1a1a;\x20color:\x20#444;\x20}\x0a\x20\x20\x20\x20.cov-mode-tag\x20{\x20font-size:\x209px;\x20opacity:\x200.75;\x20letter-spacing:\x200.4px;\x20}\x0a\x20\x20\x20\x20.cov-row-err\x20td:first-child\x20{\x20box-shadow:\x20inset\x203px\x200\x200\x20#e85;\x20}\x0a\x20\x20','yd\x0a\x20\x20\x20\x20\x20\x20\x20\x20&nbsp;\x20<span\x20class=\x22cov-c-red\x22>rot</span>\x20&gt;','oJLxD','coverage-testing','<th\x20colspan=\x222\x22>','azRlO','3x1-backside','querySelector','map','bracket-strong','1|3|4|9|10|11|8|13|5|12|6|2|7|0','follow','ohmrL','sXFps','aYapL','mode','3x1-strong','remove','_side','.cov-preset-name','simY','fatal:\x20','</td>','POkfY','push','#covTestFilterErr','textContent','KWBPn','tqUco','requestAnimationFrame','showOutcomeToast','wicID','has','seahawk-strong','yQcYh','cs-','tVJSc','XbyzJ','PNoBK','IDLE','focusTargetId','RHaBh','</span></td>','obDiT','div','error'];_0x2404=function(){return _0x6d6b92;};return _0x2404();}function _covTestSlotsFor(_0xec3d48){const _0x3edb75=_0x1ac276,_0x3a627b={'kspDl':_0x3edb75(0x1a0),'RUstI':_0x3edb75(0x256),'EixFM':'empty-backside','teoXm':_0x3edb75(0x1d0),'gNyFh':_0x3edb75(0x1b2),'OgOsw':_0x3edb75(0x1a8),'LRVJp':_0x3edb75(0x214)};if(_0xec3d48===_0x3a627b[_0x3edb75(0x1d7)])return{'strong':_0x3a627b[_0x3edb75(0x221)],'weak':_0x3a627b['EixFM']};if(_0xec3d48===_0x3a627b[_0x3edb75(0x257)])return{'strong':_0x3a627b[_0x3edb75(0x191)],'weak':_0x3a627b[_0x3edb75(0x23c)]};return{'strong':_0x3a627b[_0x3edb75(0x206)],'weak':_0x3edb75(0x259)};}function _covTestApplicableKeys(_0x7e83ee){const _0x10dd16=_0x1ac276,_0x4b9d35={'azRlO':_0x10dd16(0x1c5),'zNDUU':function(_0x681801,_0x4a152a){return _0x681801===_0x4a152a;},'WSofT':_0x10dd16(0x245)},_0x433ac4=_covTestSlotsFor(_0x7e83ee),_0x4bbfa3=new Set();for(const _0x4f9b3b of[_0x433ac4[_0x10dd16(0x1d9)],_0x433ac4[_0x10dd16(0x209)]]){const _0x14f416=document[_0x10dd16(0x22b)](_0x4b9d35[_0x10dd16(0x1a7)]+_0x4f9b3b);if(!_0x14f416)continue;for(const _0x4d19b6 of _0x14f416[_0x10dd16(0x1f0)]){if(!_0x4d19b6[_0x10dd16(0x1ec)]||_0x4b9d35[_0x10dd16(0x217)](_0x4d19b6[_0x10dd16(0x1ec)],_0x4b9d35['WSofT']))continue;if(!PRESET_REGISTRY[_0x4d19b6[_0x10dd16(0x1ec)]])continue;_0x4bbfa3['add'](_0x4d19b6[_0x10dd16(0x1ec)]);}}return _0x4bbfa3;}function _covTestPairForSideOnly(_0x52d3c8,_0x312e56,_0x1d0122){const _0x298cca=_0x1ac276,_0x3afd94={'duzDk':function(_0x5f5857,_0xb521d5){return _0x5f5857!==_0xb521d5;},'DOEOa':_0x298cca(0x1f3),'XbyzJ':'strong','LNTxZ':function(_0x3f4363,_0x261b47){return _0x3f4363===_0x261b47;},'aYapL':_0x298cca(0x24d),'PNoBK':_0x298cca(0x209)},_0x3b40b5=_0x3afd94['duzDk'](typeof _STRONG_TO_WEAK,_0x3afd94[_0x298cca(0x237)])?_STRONG_TO_WEAK:{},_0x27fd2b=_0x3afd94['duzDk'](typeof _STRONG_TO_BACKSIDE,'undefined')?_STRONG_TO_BACKSIDE:{};if(_0x1d0122===_0x3afd94[_0x298cca(0x1c7)]){if(_0x3afd94['LNTxZ'](_0x312e56,_0x3afd94[_0x298cca(0x1b0)]))return _0x3b40b5[_0x52d3c8]||null;return _0x27fd2b[_0x52d3c8]||_0x3b40b5[_0x52d3c8]||null;}if(_0x1d0122===_0x3afd94[_0x298cca(0x1c8)]||_0x3afd94['LNTxZ'](_0x1d0122,_0x298cca(0x23f))){for(const [_0x4fb7fb,_0x5a1333]of Object['entries'](_0x3b40b5))if(_0x5a1333===_0x52d3c8)return _0x4fb7fb;for(const [_0x22e465,_0x293ef4]of Object['entries'](_0x27fd2b))if(_0x293ef4===_0x52d3c8)return _0x22e465;}return null;}function _covTestBuildCallSheet(_0x1f7f47,_0x156755){const _0x41c0eb=_0x1ac276,_0x123d99={'tPAXX':function(_0x54af00,_0x3a020e,_0x3b6df2,_0x4e769d){return _0x54af00(_0x3a020e,_0x3b6df2,_0x4e769d);},'laFQB':function(_0x1f7b5d,_0xf5de7f){return _0x1f7b5d===_0xf5de7f;},'Cwwng':_0x41c0eb(0x1d9)},_0x336a51=_covTestSlotsFor(_0x156755),_0x315eb1=_covTestCategorize(_0x1f7f47),_0x19a6cd={...callSheet},_0x4a0b67=_0x123d99['tPAXX'](_covTestPairForSideOnly,_0x1f7f47,_0x156755,_0x315eb1);if(_0x315eb1===_0x41c0eb(0x218))_0x19a6cd[_0x336a51[_0x41c0eb(0x1d9)]]=_0x1f7f47;else _0x123d99[_0x41c0eb(0x22d)](_0x315eb1,_0x123d99[_0x41c0eb(0x254)])?(_0x19a6cd[_0x336a51[_0x41c0eb(0x1d9)]]=_0x1f7f47,_0x19a6cd[_0x336a51[_0x41c0eb(0x209)]]=_0x4a0b67||COV_TEST_DEFAULT_BACKSIDE[_0x156755]||_0x19a6cd[_0x336a51[_0x41c0eb(0x209)]]):(_0x19a6cd[_0x336a51['weak']]=_0x1f7f47,_0x19a6cd[_0x336a51[_0x41c0eb(0x1d9)]]=_0x4a0b67||COV_TEST_DEFAULT_STRONG[_0x156755]||_0x19a6cd[_0x336a51[_0x41c0eb(0x1d9)]]);return _0x19a6cd;}function _covTestPlayerInScope(_0x26c869,_0x4913f9,_0x40a220,_0x593520){const _0x44249f=_0x1ac276,_0x2ae3bf={'IUqkw':'3|2|5|4|0|1','FvkmQ':function(_0x1b1d29,_0x3cfcf0){return _0x1b1d29===_0x3cfcf0;},'wicID':'weak','TQQGy':function(_0x1277e8,_0x182461){return _0x1277e8===_0x182461;},'InCfc':_0x44249f(0x1d9),'QhaVk':function(_0x33c4d2,_0xc633b4){return _0x33c4d2||_0xc633b4;}},_0x329321=_0x2ae3bf[_0x44249f(0x202)][_0x44249f(0x1de)]('|');let _0x91380d=0x0;while(!![]){switch(_0x329321[_0x91380d++]){case'0':if(_0x2ae3bf[_0x44249f(0x1f8)](_0x26c869,_0x2ae3bf[_0x44249f(0x1c1)])||_0x2ae3bf[_0x44249f(0x1f8)](_0x26c869,_0x44249f(0x23f)))return _0x4913f9!==_0x593520;continue;case'1':return!![];case'2':if(_0x2ae3bf['TQQGy'](_0x40a220,'RB')||_0x40a220==='FB')return!![];continue;case'3':if(_0x26c869===_0x44249f(0x218))return!![];continue;case'4':if(_0x2ae3bf[_0x44249f(0x1f8)](_0x26c869,_0x2ae3bf['InCfc']))return _0x4913f9===_0x593520;continue;case'5':if(_0x2ae3bf[_0x44249f(0x23b)](!_0x4913f9,!_0x593520))return!![];continue;}break;}}function _covTestDetectFormation(){const _0x45e1f9=_0x1ac276,_0x2f5d3a={'dDEfF':function(_0x2e4b36,_0x18bbf3){return _0x2e4b36===_0x18bbf3;},'gdbqI':function(_0x220654){return _0x220654();},'DNlbK':function(_0x55c3e7,_0x13a265){return _0x55c3e7(_0x13a265);}};_0x2f5d3a['dDEfF'](typeof rebuildOffenseStructureSnapshot,_0x45e1f9(0x244))&&_0x2f5d3a[_0x45e1f9(0x193)](rebuildOffenseStructureSnapshot);const _0x7e329f=offenseStructureSnapshot,_0x4feb46=_0x2f5d3a[_0x45e1f9(0x1f5)](getFormationRead,_0x7e329f);return _0x4feb46[_0x45e1f9(0x21f)];}function _covTestCaptureSnapshot(){const _0x485619=_0x1ac276,_0x4d49d8={'obDiT':function(_0x57d806,_0x78032e){return _0x57d806-_0x78032e;}},_0x1f07f8={},_0x342ef0=players['filter'](_0xb9286d=>COV_TEST_SKILL_TYPES[_0x485619(0x252)](_0xb9286d['type']));return defensePlayers[_0x485619(0x235)](()=>{}),_0x342ef0[_0x485619(0x235)](_0x4353fa=>{const _0x2e1c3d=_0x485619,_0x144cb8={'UPppJ':function(_0x24ee0d,_0x40ee5f){return _0x24ee0d===_0x40ee5f;},'CRxkr':function(_0x8adf59,_0x4c2815){return _0x8adf59<_0x4c2815;}},_0x492bdc=_0x4353fa['simX']??_0x4353fa['x'],_0x522688=_0x4353fa['simY']??_0x4353fa['y'];let _0x1ba01a=null;defensePlayers[_0x2e1c3d(0x235)](_0x5a8849=>{const _0x5d4932=_0x2e1c3d,_0x5de2ee=_0x5a8849['decision'];if(!_0x5de2ee)return;(_0x144cb8[_0x5d4932(0x1f6)](_0x5de2ee[_0x5d4932(0x1b1)],_0x5d4932(0x1ad))||_0x5de2ee['mode']===_0x5d4932(0x208))&&_0x144cb8[_0x5d4932(0x1f6)](_0x5de2ee[_0x5d4932(0x1ca)],_0x4353fa['id'])&&(_0x1ba01a=_0x5a8849);});let _0x148016=null,_0x57cb2a=Infinity;defensePlayers[_0x2e1c3d(0x235)](_0x2e31d3=>{const _0x50e82e=_0x2e1c3d;if(COV_TEST_NON_COVER_ROLES[_0x50e82e(0x1c2)](_0x2e31d3[_0x50e82e(0x23d)]))return;const _0x2e6a14=(_0x2e31d3[_0x50e82e(0x1dc)]??_0x2e31d3['x'])-_0x492bdc,_0x44946b=(_0x2e31d3[_0x50e82e(0x1b6)]??_0x2e31d3['y'])-_0x522688,_0x490390=Math[_0x50e82e(0x223)](_0x2e6a14,_0x44946b);_0x144cb8[_0x50e82e(0x1fc)](_0x490390,_0x57cb2a)&&(_0x57cb2a=_0x490390,_0x148016=_0x2e31d3);});const _0x55b876=_0x1ba01a||_0x148016;if(!_0x55b876)_0x1f07f8[_0x4353fa['id']]={'offLabel':_0x4353fa[_0x2e1c3d(0x22e)],'defLabel':null,'distYd':null,'mode':null,'isAssigned':![]};else{const _0x11208f=_0x4d49d8[_0x2e1c3d(0x1cd)](_0x55b876['simX']??_0x55b876['x'],_0x492bdc),_0x2a8994=_0x4d49d8[_0x2e1c3d(0x1cd)](_0x55b876[_0x2e1c3d(0x1b6)]??_0x55b876['y'],_0x522688),_0xaea4bb=Math[_0x2e1c3d(0x223)](_0x11208f,_0x2a8994),_0x2dc0fa=_0x55b876[_0x2e1c3d(0x23d)]||frozenRoleMap?.['get'](_0x55b876['id'])||'';_0x1f07f8[_0x4353fa['id']]={'offLabel':_0x4353fa[_0x2e1c3d(0x22e)],'offType':_0x4353fa[_0x2e1c3d(0x1e9)],'defLabel':_0x55b876[_0x2e1c3d(0x22e)]||_0x2dc0fa||'D#'+_0x55b876['id'],'defId':_0x55b876['id'],'defRole':_0x2dc0fa,'distYd':_0xaea4bb/YARD_PX,'mode':_0x55b876['decision']?.[_0x2e1c3d(0x1b1)]||'?','isAssigned':!!_0x1ba01a};}}),_0x1f07f8;}function _covTestRunOnePreset(_0x35d8ed,_0xaa3ebb,_0x3b57aa){const _0x35d304=_0x1ac276,_0x5b4fdc={'kpmkK':function(_0x1eead6,_0x500efa,_0xa45c51){return _0x1eead6(_0x500efa,_0xa45c51);},'tVJSc':function(_0x50ff3f){return _0x50ff3f();},'Zrjvy':function(_0x51b60e){return _0x51b60e();},'jJnpD':function(_0x23cc63,_0x5ca270){return _0x23cc63>_0x5ca270;},'KWBPn':function(_0x3465e4,_0x106353){return _0x3465e4(_0x106353);},'tqUco':function(_0x43116b,_0x3c02b0){return _0x43116b===_0x3c02b0;},'ffbYs':'play','rmUtH':function(_0x39810a,_0xc89cd9){return _0x39810a===_0xc89cd9;}},_0x4a2dd5=_0x5b4fdc[_0x35d304(0x25e)](_covTestBuildCallSheet,_0x35d8ed,_0xaa3ebb);Object[_0x35d304(0x1eb)](_0x4a2dd5)[_0x35d304(0x235)](_0x4d476a=>{callSheet[_0x4d476a]=_0x4a2dd5[_0x4d476a];});const _0x68e314={},_0x4c0546=COV_TEST_SAMPLE_TIMES[_0x35d304(0x1e4)](),_0x249cba=new Set(_0x4c0546);let _0x50c1bf;try{if(mode===_0x35d304(0x216))_0x5b4fdc[_0x35d304(0x1c6)](stopSim);_0x5b4fdc[_0x35d304(0x1ff)](startSim);let _0xccae2a=0x1,_0x352d12=0x0,_0x333612=simPhase,_0x182d16=-0x1;while(mode===_0x35d304(0x216)&&_0x5b4fdc['jJnpD'](_0x249cba['size'],0x0)&&_0x352d12<COV_TEST_MAX_TICKS){_0xccae2a+=COV_TEST_DT*0x3e8,_0x5b4fdc['KWBPn'](animateSim,_0xccae2a),_0x352d12++;if(simPhase==='play')for(const _0x4975ec of _0x4c0546){if(!_0x249cba[_0x35d304(0x1c2)](_0x4975ec))continue;playPhaseTime>=_0x4975ec&&(_0x68e314[_0x4975ec]=_0x5b4fdc[_0x35d304(0x1ff)](_covTestCaptureSnapshot),_0x249cba[_0x35d304(0x1fe)](_0x4975ec));}if(simPhase===_0x333612&&_0x5b4fdc[_0x35d304(0x1be)](simPhase,_0x5b4fdc['ffbYs'])&&playPhaseTime===_0x182d16)break;_0x333612=simPhase,_0x182d16=_0x5b4fdc[_0x35d304(0x23e)](simPhase,_0x5b4fdc[_0x35d304(0x1f9)])?playPhaseTime:-0x1;}for(const _0x41747d of _0x4c0546){if(!_0x68e314[_0x41747d])_0x68e314[_0x41747d]=_0x5b4fdc['tVJSc'](_covTestCaptureSnapshot);}_0x50c1bf={'presetKey':_0x35d8ed,'formation':_0xaa3ebb,'scope':_covTestCategorize(_0x35d8ed),'samples':_0x68e314,'error':null};}catch(_0x2f201a){_0x50c1bf={'presetKey':_0x35d8ed,'formation':_0xaa3ebb,'scope':_0x5b4fdc[_0x35d304(0x1bd)](_covTestCategorize,_0x35d8ed),'samples':{},'error':String(_0x2f201a&&_0x2f201a[_0x35d304(0x21b)]||_0x2f201a)};}try{if(_0x5b4fdc[_0x35d304(0x23e)](mode,_0x35d304(0x216)))stopSim();}catch(_0x40c05c){}return Object[_0x35d304(0x1eb)](_0x3b57aa)[_0x35d304(0x235)](_0x4b6e4f=>{callSheet[_0x4b6e4f]=_0x3b57aa[_0x4b6e4f];}),_0x50c1bf;}let _covTestRunning=![];function runCoverageTests(){const _0x3ac387=_0x1ac276,_0x29ee4e={'BvcFS':function(_0x2ce9a3,_0x3e1291){return _0x2ce9a3+_0x3e1291;},'jJxtz':function(_0x4f109e,_0x563c0d){return _0x4f109e<_0x563c0d;},'dNTtk':function(_0x1aa7ab,_0xedba86,_0x4854c8,_0x4594f9){return _0x1aa7ab(_0xedba86,_0x4854c8,_0x4594f9);},'Jtvfh':_0x3ac387(0x213),'Fqhob':_0x3ac387(0x1b7),'QuZnh':function(_0x486100,_0x17bb6b,_0x2afe09,_0x24c8b5,_0x37c7ee){return _0x486100(_0x17bb6b,_0x2afe09,_0x24c8b5,_0x37c7ee);},'bGJuE':function(_0x305c9a,_0x8a8b6c){return _0x305c9a<_0x8a8b6c;},'ClgIr':function(_0x388764){return _0x388764();},'IeGBN':function(_0x1c7f4e){return _0x1c7f4e();},'fEoKf':_0x3ac387(0x1ac),'cUPju':_0x3ac387(0x1ea),'xAxEA':function(_0x427530,_0x268303){return _0x427530===_0x268303;},'neEtz':_0x3ac387(0x244),'POkfY':_0x3ac387(0x1a5),'tELmW':_0x3ac387(0x216),'hmCpG':_0x3ac387(0x25d),'WpVRo':'2x2','XykSV':function(_0x67d83f,_0x17745b){return _0x67d83f(_0x17745b);},'VOlaj':function(_0x33734e,_0x2a84db){return _0x33734e===_0x2a84db;},'VaatT':function(_0xd552ec,_0x50dc3a,_0x4205b4){return _0xd552ec(_0x50dc3a,_0x4205b4);}};if(_covTestRunning)return;if(mode===_0x29ee4e[_0x3ac387(0x1db)]){showToast?.('Sim\x20läuft\x20—\x20bitte\x20erst\x20stoppen',_0x29ee4e[_0x3ac387(0x250)]);return;}const _0x3f442a=_covTestDetectFormation();if(![_0x29ee4e[_0x3ac387(0x1e5)],_0x3ac387(0x1d0),_0x3ac387(0x1a0)][_0x3ac387(0x252)](_0x3f442a)){_0x29ee4e[_0x3ac387(0x203)](alert,_0x3ac387(0x19a)+_0x3f442a);return;}const _0x3234b4=offenseStructureSnapshot?.[_0x3ac387(0x233)]||'R',_0x22d376=players[_0x3ac387(0x19e)](_0x11fb60=>COV_TEST_SKILL_TYPES['includes'](_0x11fb60['type']))['length'];if(_0x29ee4e[_0x3ac387(0x247)](_0x22d376,0x0)){alert(_0x3ac387(0x222));return;}_covTestRunning=!![],document[_0x3ac387(0x228)][_0x3ac387(0x19f)]['add'](_0x3ac387(0x1a5));const _0x10d483={...callSheet},_0x2b6e41=qbNeverThrow,_0x352f24=activePreset,_0x5399a5=window['requestAnimationFrame'],_0x482f92=window[_0x3ac387(0x261)],_0x30396f=window[_0x3ac387(0x1c0)],_0x8aaacc=window['togglePause'];window[_0x3ac387(0x1bf)]=()=>0x0,window[_0x3ac387(0x261)]=()=>{},window[_0x3ac387(0x1c0)]=()=>{},window[_0x3ac387(0x1d1)]=()=>{},qbNeverThrow=!![];const _0x125859=_covTestBuildProgressOverlay();document['body'][_0x3ac387(0x226)](_0x125859);const _0x19f4b7=_0x29ee4e['XykSV'](_covTestApplicableKeys,_0x3f442a),_0x405fc3=Object[_0x3ac387(0x1eb)](PRESET_REGISTRY)[_0x3ac387(0x19e)](_0x791668=>_0x19f4b7[_0x3ac387(0x1c2)](_0x791668))['sort'](),_0x43c794=[],_0x519da1=0x6;let _0x116f21=0x0;function _0x2eff01(){const _0x4d1446=_0x3ac387;try{const _0x87f423=Math['min'](_0x29ee4e[_0x4d1446(0x1ed)](_0x116f21,_0x519da1),_0x405fc3['length']);for(;_0x29ee4e['jJxtz'](_0x116f21,_0x87f423);_0x116f21++){const _0x4ac15a=_0x405fc3[_0x116f21];let _0x1c3f6b;try{_0x1c3f6b=_0x29ee4e[_0x4d1446(0x1e0)](_covTestRunOnePreset,_0x4ac15a,_0x3f442a,_0x10d483);}catch(_0x53c7be){console['error']('[CovTest]\x20preset\x20failed:',_0x4ac15a,_0x53c7be),_0x1c3f6b={'presetKey':_0x4ac15a,'formation':_0x3f442a,'scope':_0x29ee4e[_0x4d1446(0x220)],'samples':{},'error':_0x29ee4e[_0x4d1446(0x242)]+String(_0x53c7be&&_0x53c7be[_0x4d1446(0x21b)]||_0x53c7be)};}_0x43c794[_0x4d1446(0x1ba)](_0x1c3f6b);}_0x29ee4e[_0x4d1446(0x24b)](_covTestUpdateProgress,_0x125859,_0x116f21,_0x405fc3['length'],_0x405fc3[_0x116f21-0x1]),_0x29ee4e[_0x4d1446(0x1d6)](_0x116f21,_0x405fc3[_0x4d1446(0x1e8)])?setTimeout(_0x2eff01,0x0):_0x29ee4e[_0x4d1446(0x194)](_0x5ec392);}catch(_0x45c2d8){console[_0x4d1446(0x1cf)]('[CovTest]\x20fatal\x20in\x20runBatch:',_0x45c2d8);try{_0x29ee4e[_0x4d1446(0x243)](_0x5ec392);}catch(_0x4dbe23){}}}let _0x47e388=![];function _0x5ec392(){const _0x50c9e1=_0x3ac387,_0xacc30d=_0x29ee4e['fEoKf'][_0x50c9e1(0x1de)]('|');let _0x1b4caa=0x0;while(!![]){switch(_0xacc30d[_0x1b4caa++]){case'0':try{_0x29ee4e[_0x50c9e1(0x24b)](_covTestShowResults,_0x43c794,_0x3f442a,_0x10d483,_0x3234b4);}catch(_0x2d4de1){console[_0x50c9e1(0x1cf)](_0x29ee4e['cUPju'],_0x2d4de1);}continue;case'1':if(_0x47e388)return;continue;case'2':_covTestRunning=![];continue;case'3':_0x47e388=!![];continue;case'4':window[_0x50c9e1(0x1bf)]=_0x5399a5;continue;case'5':try{Object[_0x50c9e1(0x1eb)](_0x10d483)['forEach'](_0x4ba7fd=>{callSheet[_0x4ba7fd]=_0x10d483[_0x4ba7fd];});}catch(_0x346f24){}continue;case'6':try{_0x125859['remove']();}catch(_0x4503b7){}continue;case'7':try{if(_0x29ee4e[_0x50c9e1(0x25f)](typeof draw,_0x29ee4e[_0x50c9e1(0x190)]))draw();}catch(_0x19fb7b){}continue;case'8':qbNeverThrow=_0x2b6e41;continue;case'9':window[_0x50c9e1(0x261)]=_0x482f92;continue;case'10':window[_0x50c9e1(0x1c0)]=_0x30396f;continue;case'11':window['togglePause']=_0x8aaacc;continue;case'12':try{document['body']['classList']['remove'](_0x29ee4e[_0x50c9e1(0x1b9)]);}catch(_0x232b18){}continue;case'13':activePreset=_0x352f24;continue;}break;}}_0x29ee4e[_0x3ac387(0x199)](setTimeout,_0x2eff01,0x1e);}function _covTestBuildProgressOverlay(){const _0x12879f=_0x1ac276,_0x4357ff=document[_0x12879f(0x1e7)](_0x12879f(0x1ce));return _0x4357ff['id']=_0x12879f(0x227),_0x4357ff[_0x12879f(0x1ee)]=_0x12879f(0x20c),_0x4357ff;}function _covTestUpdateProgress(_0x7cfcfe,_0x3c5482,_0x4cfbfe,_0x2fc26d){const _0x44de5d=_0x1ac276,_0x44d33a={'fnWwj':'#covTestFill','wepzz':_0x44de5d(0x253),'cTMHi':function(_0x258497,_0x1a2ed3){return _0x258497*_0x1a2ed3;},'ohmrL':_0x44de5d(0x25b)},_0x3c5642=_0x7cfcfe[_0x44de5d(0x1a9)](_0x44d33a[_0x44de5d(0x1d3)]),_0xfb006e=_0x7cfcfe[_0x44de5d(0x1a9)](_0x44d33a[_0x44de5d(0x1d5)]);if(_0x3c5642)_0x3c5642[_0x44de5d(0x20d)][_0x44de5d(0x19c)]=_0x44d33a[_0x44de5d(0x25c)](_0x3c5482/_0x4cfbfe,0x64)[_0x44de5d(0x201)](0x1)+'%';if(_0xfb006e)_0xfb006e[_0x44de5d(0x1bc)]=_0x3c5482+_0x44de5d(0x24c)+_0x4cfbfe+(_0x2fc26d?_0x44d33a[_0x44de5d(0x1ae)]+_0x2fc26d:'');}function _covTestShowResults(_0xd12e05,_0x1292e1,_0x56554d,_0x184bc5){const _0x491fdc=_0x1ac276,_0x2cffb5={'RZTYo':function(_0x35d027,_0x561387){return _0x35d027&&_0x561387;},'yHYkR':function(_0x31a4f3,_0x2ecdf3){return _0x31a4f3(_0x2ecdf3);},'DMyDj':function(_0x5220e4,_0x3df847,_0x379317){return _0x5220e4(_0x3df847,_0x379317);},'bgidx':function(_0x3f6120,_0xc84fc2){return _0x3f6120(_0xc84fc2);},'CLTFc':_0x491fdc(0x1ce),'SyCxD':_0x491fdc(0x1f4)},_0x1a2a2a=players['filter'](_0x502de=>COV_TEST_SKILL_TYPES[_0x491fdc(0x252)](_0x502de[_0x491fdc(0x1e9)]))[_0x491fdc(0x1fa)]((_0x3be69f,_0x46f361)=>_0x3be69f['x']-_0x46f361['x']);_0xd12e05[_0x491fdc(0x235)](_0x311d03=>{const _0x210b27=_0x491fdc,_0x6e3919={'RHaBh':function(_0x3c628b,_0x5c92b9,_0x429720,_0x4dfcc9,_0x3dfa60){return _0x3c628b(_0x5c92b9,_0x429720,_0x4dfcc9,_0x3dfa60);},'oJLxD':function(_0x3f2236,_0x4f7c35){return _0x3f2236==_0x4f7c35;},'PeweU':function(_0x597609,_0x21fafd){return _0x597609>_0x21fafd;}};_0x311d03[_0x210b27(0x1da)]=![];for(const _0x17f222 of COV_TEST_SAMPLE_TIMES){const _0x3428d9=_0x311d03[_0x210b27(0x258)][_0x17f222]||{};_0x1a2a2a[_0x210b27(0x235)](_0x7366be=>{const _0x1bc4b1=_0x210b27;if(!_0x6e3919[_0x1bc4b1(0x1cb)](_covTestPlayerInScope,_0x311d03['scope'],_0x7366be[_0x1bc4b1(0x1b4)],_0x7366be[_0x1bc4b1(0x1e9)],_0x184bc5))return;const _0x3c8f72=_0x3428d9[_0x7366be['id']];if(!_0x3c8f72||_0x6e3919[_0x1bc4b1(0x1a4)](_0x3c8f72['distYd'],null)||_0x6e3919['PeweU'](_0x3c8f72['distYd'],COV_TEST_RANGE_YD))_0x311d03[_0x1bc4b1(0x1da)]=!![];});}}),_0xd12e05[_0x491fdc(0x1fa)]((_0x12c64a,_0x4a31f5)=>{const _0x234223=_0x491fdc;if(_0x12c64a[_0x234223(0x1da)]!==_0x4a31f5[_0x234223(0x1da)])return _0x12c64a['hasError']?-0x1:0x1;return _0x12c64a['presetKey']['localeCompare'](_0x4a31f5[_0x234223(0x210)]);});const _0x253e35=document['createElement'](_0x2cffb5['CLTFc']);_0x253e35['id']=_0x491fdc(0x20b),_0x253e35[_0x491fdc(0x1ee)]=_0x491fdc(0x251)+_0x1292e1['toUpperCase']()+_0x491fdc(0x23a)+_0xd12e05[_0x491fdc(0x1e8)]+'\x20Presets\x20getestet</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22cov-test-h-controls\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label><input\x20type=\x22checkbox\x22\x20id=\x22covTestFilterErr\x22>\x20nur\x20Probleme</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22covTestCloseBtn\x22>✕\x20schließen</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22cov-test-legend\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20Zellen:\x20<b>Defender</b>\x20(oben)\x20·\x20<b>MODE·Distanz</b>\x20(unten)\x20&nbsp;\x20|\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22cov-c-green\x22>grün</span>\x20&lt;'+COV_TEST_NEAR_YD+_0x491fdc(0x200)+COV_TEST_NEAR_YD+'–'+COV_TEST_RANGE_YD+_0x491fdc(0x1a3)+COV_TEST_RANGE_YD+_0x491fdc(0x230)+_0x1a2a2a[_0x491fdc(0x1aa)](_0x56beaf=>{const _0x479fec=_0x491fdc,_0x5f5057=_0x56beaf[_0x479fec(0x249)]?'#'+_0x56beaf[_0x479fec(0x249)]:'',_0xd2ce20=_0x56beaf['_side']?_0x56beaf['_side']:'',_0x58b4b0=_0x2cffb5['RZTYo'](_0xd2ce20,_0x5f5057)?''+_0xd2ce20+_0x5f5057:_0x56beaf[_0x479fec(0x1e9)];return _0x479fec(0x1a6)+_0x56beaf['type']+'\x20'+_0x58b4b0+_0x479fec(0x24f)+_0x56beaf['id']+'</span></th>';})[_0x491fdc(0x1e2)]('')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1a2a2a[_0x491fdc(0x1aa)](()=>'<th\x20class=\x22cov-th-t\x22>t=1s</th><th\x20class=\x22cov-th-t\x22>t=2s</th>')[_0x491fdc(0x1e2)]('')+_0x491fdc(0x1a1),document[_0x491fdc(0x228)][_0x491fdc(0x226)](_0x253e35);const _0x2113b9=_0x253e35[_0x491fdc(0x1a9)](_0x491fdc(0x1fd));function _0xaed095(_0x36a848){const _0x1ae22a=_0x491fdc,_0x5cc814={'kxSBF':function(_0x335597,_0x44c74d,_0x2ba85c){const _0x2f100e=_0x2d41;return _0x2cffb5[_0x2f100e(0x207)](_0x335597,_0x44c74d,_0x2ba85c);}};_0x2113b9[_0x1ae22a(0x1ee)]='',_0xd12e05['forEach'](_0x18e7ce=>{const _0x2618d4=_0x1ae22a;if(_0x36a848&&!_0x18e7ce['hasError'])return;const _0x594fc0=document['createElement']('tr');_0x594fc0[_0x2618d4(0x1d2)]=_0x18e7ce[_0x2618d4(0x1da)]?'cov-row-err':'';const _0x582d53=[];_0x582d53[_0x2618d4(0x1ba)](_0x2618d4(0x21d)+_0x18e7ce[_0x2618d4(0x210)]+'\x22\x20title=\x22Click\x20to\x20load\x22>'+_0x18e7ce['presetKey']+_0x2618d4(0x1b8)),_0x582d53[_0x2618d4(0x1ba)](_0x2618d4(0x255)+_0x18e7ce[_0x2618d4(0x20a)]+'</td>');for(const _0x40ba34 of _0x1a2a2a){const _0x201835=_covTestPlayerInScope(_0x18e7ce[_0x2618d4(0x20a)],_0x40ba34[_0x2618d4(0x1b4)],_0x40ba34[_0x2618d4(0x1e9)],_0x184bc5);for(const _0x3e06c3 of COV_TEST_SAMPLE_TIMES){if(!_0x201835){_0x582d53[_0x2618d4(0x1ba)]('<td\x20class=\x22cov-c-na\x22\x20title=\x22nicht\x20im\x20Scope\x20dieses\x20Presets\x22>—</td>');continue;}const _0xea1a1e=(_0x18e7ce[_0x2618d4(0x258)][_0x3e06c3]||{})[_0x40ba34['id']];_0x582d53[_0x2618d4(0x1ba)](_0x2cffb5[_0x2618d4(0x248)](_covTestCellHtml,_0xea1a1e));}}_0x594fc0[_0x2618d4(0x1ee)]=_0x582d53[_0x2618d4(0x1e2)](''),_0x2113b9['appendChild'](_0x594fc0);}),_0x2113b9[_0x1ae22a(0x205)](_0x1ae22a(0x1b5))[_0x1ae22a(0x235)](_0x155ac2=>{const _0x284886=_0x1ae22a;_0x155ac2[_0x284886(0x234)](_0x284886(0x1d8),()=>{const _0x2cf6af=_0x284886,_0x1b9896=_0x155ac2['getAttribute'](_0x2cf6af(0x19d));_0x5cc814['kxSBF'](_covTestLoadPresetIntoCallSheet,_0x1b9896,_0x1292e1);});});}_0xaed095(![]),_0x253e35[_0x491fdc(0x1a9)](_0x491fdc(0x1bb))[_0x491fdc(0x234)](_0x491fdc(0x224),_0x2b9ea0=>{const _0x1ab476=_0x491fdc;_0x2cffb5['bgidx'](_0xaed095,_0x2b9ea0[_0x1ab476(0x195)][_0x1ab476(0x22f)]);}),_0x253e35[_0x491fdc(0x1a9)](_0x2cffb5[_0x491fdc(0x239)])['addEventListener'](_0x491fdc(0x1d8),()=>_0x253e35[_0x491fdc(0x1b3)]());}function _0x2d41(_0x431850,_0x4d229a){_0x431850=_0x431850-0x18f;const _0x240436=_0x2404();let _0x2d41fe=_0x240436[_0x431850];return _0x2d41fe;}function _covTestModeTag(_0x25b154){const _0x35e820=_0x1ac276,_0x3a4839={'MZJRP':_0x35e820(0x1ad),'KBBGs':_0x35e820(0x1dd),'yQcYh':'RUSH'};switch(_0x25b154){case _0x3a4839['MZJRP']:return _0x35e820(0x24a);case _0x35e820(0x208):return _0x35e820(0x232);case _0x35e820(0x192):return _0x3a4839[_0x35e820(0x196)];case _0x35e820(0x211):return _0x3a4839[_0x35e820(0x1c4)];case _0x35e820(0x22c):return _0x35e820(0x1c9);default:return _0x25b154?_0x25b154['toUpperCase']():'—';}}function _covTestCellHtml(_0x4a5e83){const _0x2d454e=_0x1ac276,_0x534a6a={'cjlko':_0x2d454e(0x236),'UPzmd':_0x2d454e(0x219)};if(!_0x4a5e83||_0x4a5e83['distYd']==null)return'<td\x20class=\x22cov-c-none\x22>✗</td>';let _0x2069ac=_0x534a6a[_0x2d454e(0x1e3)];if(_0x4a5e83['distYd']>COV_TEST_RANGE_YD)_0x2069ac=_0x534a6a[_0x2d454e(0x240)];else{if(_0x4a5e83[_0x2d454e(0x246)]>COV_TEST_NEAR_YD)_0x2069ac='cov-c-yellow';}const _0x33673a=_0x4a5e83['isAssigned']?'★\x20':'',_0x439971=_0x4a5e83[_0x2d454e(0x246)]['toFixed'](0x1),_0x38e78c=_covTestModeTag(_0x4a5e83[_0x2d454e(0x1b1)]);return _0x2d454e(0x1e6)+_0x2069ac+_0x2d454e(0x1fb)+(_0x4a5e83[_0x2d454e(0x25a)]||'')+_0x2d454e(0x198)+(_0x4a5e83['mode']||'')+'\x22>'+_0x33673a+_0x4a5e83[_0x2d454e(0x1df)]+'<br><span\x20class=\x22cov-mode-tag\x22>'+_0x38e78c+'·'+_0x439971+_0x2d454e(0x1cc);}function _covTestLoadPresetIntoCallSheet(_0x3ae0c7,_0x10e559){const _0xfdab63=_0x1ac276,_0x4550e8={'BLuqt':function(_0x100cc7,_0x5169b8){return _0x100cc7===_0x5169b8;},'jaJSd':function(_0x58f40e,_0x47b2a9){return _0x58f40e===_0x47b2a9;},'GlGMd':_0xfdab63(0x244),'sXFps':function(_0x3b044a){return _0x3b044a();},'SLMDs':function(_0x434ab7,_0x5b121c){return _0x434ab7===_0x5b121c;}},_0x37cca3=_covTestBuildCallSheet(_0x3ae0c7,_0x10e559);Object[_0xfdab63(0x1eb)](_0x37cca3)[_0xfdab63(0x235)](_0x41d5d2=>{callSheet[_0x41d5d2]=_0x37cca3[_0x41d5d2];}),Object['keys'](_0x37cca3)[_0xfdab63(0x235)](_0x3b4b9d=>{const _0x198c54=_0xfdab63,_0x3619c9=document[_0x198c54(0x22b)]('cs-'+_0x3b4b9d);if(_0x3619c9&&[..._0x3619c9[_0x198c54(0x1f0)]]['some'](_0x9e69fe=>_0x9e69fe[_0x198c54(0x1ec)]===_0x37cca3[_0x3b4b9d]))_0x3619c9[_0x198c54(0x1ec)]=_0x37cca3[_0x3b4b9d];});if(typeof rebuildOffenseStructureSnapshot===_0xfdab63(0x244))rebuildOffenseStructureSnapshot();if(_0x4550e8[_0xfdab63(0x1d4)](typeof resolveActivePreset,_0xfdab63(0x244)))resolveActivePreset(offenseStructureSnapshot);if(_0x4550e8[_0xfdab63(0x197)](typeof applyPresetAlignment,_0x4550e8[_0xfdab63(0x1f7)]))_0x4550e8[_0xfdab63(0x1af)](applyPresetAlignment);if(typeof updateCallSheetLockState===_0xfdab63(0x244))_0x4550e8[_0xfdab63(0x1af)](updateCallSheetLockState);if(_0x4550e8[_0xfdab63(0x197)](typeof draw,_0x4550e8[_0xfdab63(0x1f7)]))draw();if(_0x4550e8[_0xfdab63(0x215)](typeof showToast,_0x4550e8[_0xfdab63(0x1f7)]))showToast('Preset\x20geladen:\x20'+_0x3ae0c7,_0xfdab63(0x20e));}(function _covTestInjectCSS(){const _0x2d1f3c=_0x1ac276,_0x4ded48={'kEkyA':'style'};if(document[_0x2d1f3c(0x22b)](_0x2d1f3c(0x231)))return;const _0x1a154c=document[_0x2d1f3c(0x1e7)](_0x4ded48[_0x2d1f3c(0x1f1)]);_0x1a154c['id']=_0x2d1f3c(0x231),_0x1a154c['textContent']=_0x2d1f3c(0x1a2),document[_0x2d1f3c(0x204)][_0x2d1f3c(0x226)](_0x1a154c);}());
+// ===================================================================
+// COVERAGE TESTER — runs the current offense play against every preset
+// in PRESET_REGISTRY headlessly, captures who-is-covering-whom at
+// t=1.0s and t=2.0s, and shows a results table.
+// ===================================================================
+
+const COV_TEST_SAMPLE_TIMES   = [1.0, 2.0];
+const COV_TEST_DT             = 0.1;       // synthetic tick size (sim seconds)
+const COV_TEST_MAX_TICKS      = 80;        // safety cap per preset
+const COV_TEST_RANGE_YD       = 7.0;       // "in range" threshold
+const COV_TEST_NEAR_YD        = 5.0;       // green threshold
+const COV_TEST_SKILL_TYPES    = ['WR','TE','RB','FB'];
+// Roles we don't count as coverage (D-line — they rush, not cover)
+const COV_TEST_NON_COVER_ROLES = new Set(['DE','DT','NT']);
+
+// Sane defaults to pair with side-only presets so the OTHER side of the
+// field has *some* coverage (otherwise everyone on the backside reads as
+// uncovered, which would be noise, not signal).
+const COV_TEST_DEFAULT_BACKSIDE = {
+  '2x2':   'cover5-weak',
+  '3x1':   'c2m-backside',
+  'empty': 'tuff-backside',
+};
+const COV_TEST_DEFAULT_STRONG = {
+  '2x2':   'bracket-strong',
+  '3x1':   'seahawk-strong',
+  'empty': 'buster-strong',
+};
+
+// ── Preset categorization ───────────────────────────────────────────
+// Returns 'fullfield' | 'strong' | 'weak' | 'backside'
+function _covTestCategorize(presetKey) {
+  const preset = PRESET_REGISTRY[presetKey];
+  if (!preset) return 'fullfield';
+  if (preset.fullField === true) return 'fullfield';
+  if (/-backside$/.test(presetKey)) return 'backside';
+  if (/-weak$/.test(presetKey))     return 'weak';
+  if (/-strong$/.test(presetKey))   return 'strong';
+  return 'fullfield';
+}
+
+// ── Slot mapping per formation ──────────────────────────────────────
+function _covTestSlotsFor(formation) {
+  if (formation === 'empty') return { strong: 'empty-trips',  weak: 'empty-backside' };
+  if (formation === '3x1')   return { strong: '3x1-strong',   weak: '3x1-backside' };
+  return { strong: '2x2-strong', weak: '2x2-weak' };
+}
+
+// Read the call-sheet dropdowns for the given formation and return the
+// set of preset keys that are actually selectable for either slot.
+// This is the ground truth for "which presets apply to this formation".
+function _covTestApplicableKeys(formation) {
+  const slots = _covTestSlotsFor(formation);
+  const keys = new Set();
+  for (const slot of [slots.strong, slots.weak]) {
+    const sel = document.getElementById('cs-' + slot);
+    if (!sel) continue;
+    for (const opt of sel.options) {
+      if (!opt.value || opt.value === 'manual') continue;
+      if (!PRESET_REGISTRY[opt.value]) continue; // skip stale options
+      keys.add(opt.value);
+    }
+  }
+  return keys;
+}
+
+// Look up the matching weak/backside (or strong) pendant for a side-only
+// preset. Uses the global maps from 06_coverage_engine.js when present —
+// they're the same maps the call-sheet UI uses to auto-pair, so the sim
+// runs under coherent strong+weak logic.
+function _covTestPairForSideOnly(presetKey, formation, scope) {
+  const sMap = (typeof _STRONG_TO_WEAK     !== 'undefined') ? _STRONG_TO_WEAK     : {};
+  const bMap = (typeof _STRONG_TO_BACKSIDE !== 'undefined') ? _STRONG_TO_BACKSIDE : {};
+  if (scope === 'strong') {
+    // 2x2 → weak partner; 3x1/empty → prefer backside, fall back to weak
+    if (formation === '2x2')   return sMap[presetKey] || null;
+    return bMap[presetKey] || sMap[presetKey] || null;
+  }
+  // weak | backside → reverse lookup
+  if (scope === 'weak' || scope === 'backside') {
+    for (const [s, w] of Object.entries(sMap)) if (w === presetKey) return s;
+    for (const [s, w] of Object.entries(bMap)) if (w === presetKey) return s;
+  }
+  return null;
+}
+
+// ── Build the call sheet for a given preset under a formation ──────
+function _covTestBuildCallSheet(presetKey, formation) {
+  const slots = _covTestSlotsFor(formation);
+  const scope = _covTestCategorize(presetKey);
+  const cs = { ...callSheet };
+  const pair = _covTestPairForSideOnly(presetKey, formation, scope);
+
+  if (scope === 'fullfield') {
+    cs[slots.strong] = presetKey;
+    // weak slot ignored (preset.fullField overrides it)
+  } else if (scope === 'strong') {
+    cs[slots.strong] = presetKey;
+    cs[slots.weak]   = pair || COV_TEST_DEFAULT_BACKSIDE[formation] || cs[slots.weak];
+  } else { // weak | backside
+    cs[slots.weak]   = presetKey;
+    cs[slots.strong] = pair || COV_TEST_DEFAULT_STRONG[formation] || cs[slots.strong];
+  }
+  return cs;
+}
+
+// Decide which offense players a preset row is "responsible" for.
+//   strong    → players on the strong side, plus RB/FB (check-release)
+//   weak/back → players on the weak side,   plus RB/FB
+//   fullfield → all players
+function _covTestPlayerInScope(scope, playerSide, playerType, strongSide) {
+  if (scope === 'fullfield') return true;
+  if (playerType === 'RB' || playerType === 'FB') return true; // always shown both sides
+  if (!playerSide || !strongSide) return true;
+  if (scope === 'strong')                          return playerSide === strongSide;
+  if (scope === 'weak' || scope === 'backside')    return playerSide !== strongSide;
+  return true;
+}
+
+// ── Detect current formation BEFORE starting tests ──────────────────
+function _covTestDetectFormation() {
+  // rebuildOffenseStructureSnapshot is called inside draw() — force one.
+  if (typeof rebuildOffenseStructureSnapshot === 'function') {
+    rebuildOffenseStructureSnapshot();
+  }
+  const snap = offenseStructureSnapshot;
+  const read = getFormationRead(snap);
+  return read.formation; // '2x2' | '3x1' | 'empty' | '2x1' | '1x1'
+}
+
+// ── Capture: for each WR/TE/RB/FB, who is the nearest defender? ────
+function _covTestCaptureSnapshot() {
+  const out = {};
+  const offSkill = players.filter(p => COV_TEST_SKILL_TYPES.includes(p.type));
+  defensePlayers.forEach(()=>{}); // (keep array reference stable)
+
+  offSkill.forEach(off => {
+    const ox = off.simX ?? off.x;
+    const oy = off.simY ?? off.y;
+
+    // 1) Assigned man-follower (decision.mode === 'follow' on this player)
+    let assigned = null;
+    defensePlayers.forEach(d => {
+      const dec = d.decision;
+      if (!dec) return;
+      if ((dec.mode === 'follow' || dec.mode === 'ott') && dec.focusTargetId === off.id) {
+        assigned = d;
+      }
+    });
+
+    // 2) Nearest coverage defender (any mode), as fallback / "de facto" cover.
+    //    D-line (DE/DT/NT) is excluded — they rush, they don't cover.
+    let nearest = null;
+    let nearestDistPx = Infinity;
+    defensePlayers.forEach(d => {
+      if (COV_TEST_NON_COVER_ROLES.has(d.role)) return;
+      const dx = (d.simX ?? d.x) - ox;
+      const dy = (d.simY ?? d.y) - oy;
+      const dist = Math.hypot(dx, dy);
+      if (dist < nearestDistPx) {
+        nearestDistPx = dist;
+        nearest = d;
+      }
+    });
+
+    const pick = assigned || nearest;
+    if (!pick) {
+      out[off.id] = { offLabel: off.label, defLabel: null, distYd: null, mode: null, isAssigned: false };
+    } else {
+      const dx = (pick.simX ?? pick.x) - ox;
+      const dy = (pick.simY ?? pick.y) - oy;
+      const distPx = Math.hypot(dx, dy);
+      const role = pick.role || frozenRoleMap?.get(pick.id) || '';
+      out[off.id] = {
+        offLabel:  off.label,
+        offType:   off.type,
+        defLabel:  pick.label || role || `D#${pick.id}`,
+        defId:     pick.id,
+        defRole:   role,
+        distYd:    distPx / YARD_PX,
+        mode:      pick.decision?.mode || '?',
+        isAssigned: !!assigned,
+      };
+    }
+  });
+  return out;
+}
+
+// ── Run sim headlessly to completion for ONE preset ─────────────────
+function _covTestRunOnePreset(presetKey, formation, originalCallSheet) {
+  // Apply the call sheet for this preset
+  const cs = _covTestBuildCallSheet(presetKey, formation);
+  Object.keys(cs).forEach(k => { callSheet[k] = cs[k]; });
+
+  const samples = {}; // t -> snapshot
+  const targets = COV_TEST_SAMPLE_TIMES.slice();
+  const targetsRemaining = new Set(targets);
+
+  let result;
+  try {
+    if (mode === 'sim') stopSim();
+    startSim();
+
+    let ts = 1; // synthetic ms timestamp
+    // First call inside startSim was animateSim() with no ts → it just RAFed.
+    // Our RAF is patched to no-op. Now drive ticks synchronously.
+    let safety = 0;
+    let prevPhase = simPhase;
+    let prevPlayTime = -1;
+    while (mode === 'sim' && targetsRemaining.size > 0 && safety < COV_TEST_MAX_TICKS) {
+      ts += COV_TEST_DT * 1000;
+      animateSim(ts);
+      safety++;
+
+      // After play phase begins, capture at each sample time
+      if (simPhase === 'play') {
+        // capture if we've just crossed a target threshold
+        for (const t of targets) {
+          if (!targetsRemaining.has(t)) continue;
+          if (playPhaseTime >= t) {
+            samples[t] = _covTestCaptureSnapshot();
+            targetsRemaining.delete(t);
+          }
+        }
+      }
+      // Avoid pathological lock if phases stall
+      if (simPhase === prevPhase && simPhase === 'play' && playPhaseTime === prevPlayTime) {
+        // play phase frozen — bail out
+        break;
+      }
+      prevPhase = simPhase;
+      prevPlayTime = (simPhase === 'play') ? playPhaseTime : -1;
+    }
+
+    // Fill missing samples with whatever we have now (might still be in preplay)
+    for (const t of targets) {
+      if (!samples[t]) samples[t] = _covTestCaptureSnapshot();
+    }
+
+    result = { presetKey, formation, scope: _covTestCategorize(presetKey), samples, error: null };
+  } catch (e) {
+    result = { presetKey, formation, scope: _covTestCategorize(presetKey), samples: {}, error: String(e && e.message || e) };
+  }
+
+  // Always stop sim and restore
+  try { if (mode === 'sim') stopSim(); } catch(_) {}
+  // Restore call sheet to caller's snapshot
+  Object.keys(originalCallSheet).forEach(k => { callSheet[k] = originalCallSheet[k]; });
+
+  return result;
+}
+
+// ── Main entry ──────────────────────────────────────────────────────
+let _covTestRunning = false;
+function runCoverageTests() {
+  if (_covTestRunning) return;
+  if (mode === 'sim') { showToast?.('Sim läuft — bitte erst stoppen', 'warn'); return; }
+
+  const formation = _covTestDetectFormation();
+  if (!['2x2','3x1','empty'].includes(formation)) {
+    alert(`Coverage Test braucht Formation 2x2 / 3x1 / Empty.\nAktuell: ${formation}`);
+    return;
+  }
+  const strongSide = offenseStructureSnapshot?.coverageStrongSide || 'R';
+
+  const skillCount = players.filter(p => COV_TEST_SKILL_TYPES.includes(p.type)).length;
+  if (skillCount === 0) {
+    alert('Keine WR/TE/RB/FB auf dem Feld — nichts zu testen.');
+    return;
+  }
+
+  _covTestRunning = true;
+  document.body.classList.add('coverage-testing');
+
+  // Save state we'll trash during tests
+  const origCallSheet  = { ...callSheet };
+  const origQbNT       = qbNeverThrow;
+  const origActivePre  = activePreset;
+
+  // Save and stub heavy globals (RAF + draw + togglePause + toasts)
+  const origRAF        = window.requestAnimationFrame;
+  const origDraw       = window.draw;
+  const origToast      = window.showOutcomeToast;
+  const origPause      = window.togglePause;
+  window.requestAnimationFrame = () => 0;
+  window.draw          = () => {};
+  window.showOutcomeToast = () => {};
+  window.togglePause   = () => {};
+
+  qbNeverThrow = true; // never throw during tests
+
+  // Build progress overlay
+  const overlay = _covTestBuildProgressOverlay();
+  document.body.appendChild(overlay);
+
+  // Only test presets that are actually selectable for this formation's
+  // call-sheet slots — dropdown options are the ground truth.
+  const applicable = _covTestApplicableKeys(formation);
+  const presetKeys = Object.keys(PRESET_REGISTRY)
+    .filter(k => applicable.has(k))
+    .sort();
+  const results = [];
+
+  // Run async-ish: process N per microtask batch so the progress bar repaints.
+  // Use a chained setTimeout for guaranteed DOM repaint between batches.
+  const BATCH_SIZE = 6;
+  let idx = 0;
+
+  function runBatch() {
+    try {
+      const end = Math.min(idx + BATCH_SIZE, presetKeys.length);
+      for (; idx < end; idx++) {
+        const key = presetKeys[idx];
+        let res;
+        try {
+          res = _covTestRunOnePreset(key, formation, origCallSheet);
+        } catch (e) {
+          console.error('[CovTest] preset failed:', key, e);
+          res = { presetKey: key, formation, scope: 'unknown', samples: {}, error: 'fatal: ' + String(e && e.message || e) };
+        }
+        results.push(res);
+      }
+      _covTestUpdateProgress(overlay, idx, presetKeys.length, presetKeys[idx-1]);
+      if (idx < presetKeys.length) {
+        setTimeout(runBatch, 0);
+      } else {
+        _covTestFinish();
+      }
+    } catch (e) {
+      // Failsafe: never leave window globals stubbed. _covTestFinish restores
+      // requestAnimationFrame/draw/etc. — must run no matter what.
+      console.error('[CovTest] fatal in runBatch:', e);
+      try { _covTestFinish(); } catch(_) {}
+    }
+  }
+
+  let _finishCalled = false;
+  function _covTestFinish() {
+    if (_finishCalled) return;  // idempotent — safe if outer catch also calls
+    _finishCalled = true;
+    // Restore globals
+    window.requestAnimationFrame = origRAF;
+    window.draw          = origDraw;
+    window.showOutcomeToast = origToast;
+    window.togglePause   = origPause;
+    qbNeverThrow         = origQbNT;
+    activePreset         = origActivePre;
+    try { Object.keys(origCallSheet).forEach(k => { callSheet[k] = origCallSheet[k]; }); } catch(_) {}
+
+    try { document.body.classList.remove('coverage-testing'); } catch(_) {}
+    try { overlay.remove(); } catch(_) {}
+    _covTestRunning = false;
+
+    // Final redraw to reset visuals
+    try { if (typeof draw === 'function') draw(); } catch(_){}
+
+    try { _covTestShowResults(results, formation, origCallSheet, strongSide); } catch(e) {
+      console.error('[CovTest] showResults failed:', e);
+    }
+  }
+
+  setTimeout(runBatch, 30);
+}
+
+// ── Progress overlay ────────────────────────────────────────────────
+function _covTestBuildProgressOverlay() {
+  const o = document.createElement('div');
+  o.id = 'covTestProgress';
+  o.innerHTML = `
+    <div class="cov-test-card">
+      <div class="cov-test-title">Testing coverages…</div>
+      <div class="cov-test-progress-bar"><div class="cov-test-progress-fill" id="covTestFill"></div></div>
+      <div class="cov-test-progress-text" id="covTestText">0 / 0</div>
+    </div>`;
+  return o;
+}
+function _covTestUpdateProgress(overlay, done, total, currentKey) {
+  const fill = overlay.querySelector('#covTestFill');
+  const txt  = overlay.querySelector('#covTestText');
+  if (fill) fill.style.width = `${(done/total*100).toFixed(1)}%`;
+  if (txt)  txt.textContent  = `${done} / ${total}${currentKey ? '  —  '+currentKey : ''}`;
+}
+
+// ── Results table ───────────────────────────────────────────────────
+function _covTestShowResults(results, formation, originalCallSheet, strongSide) {
+  // Determine the list of offense skill players (use current state — they
+  // were restored by stopSim). Order: by x-position left → right.
+  const off = players
+    .filter(p => COV_TEST_SKILL_TYPES.includes(p.type))
+    .sort((a,b) => (a.x - b.x));
+
+  // Mark each result as hasError if any IN-SCOPE cell > 7yd or missing
+  results.forEach(r => {
+    r.hasError = false;
+    for (const t of COV_TEST_SAMPLE_TIMES) {
+      const snap = r.samples[t] || {};
+      off.forEach(p => {
+        if (!_covTestPlayerInScope(r.scope, p._side, p.type, strongSide)) return;
+        const cell = snap[p.id];
+        if (!cell || cell.distYd == null || cell.distYd > COV_TEST_RANGE_YD) r.hasError = true;
+      });
+    }
+  });
+
+  // Sort: errors first, then alphabetic
+  results.sort((a,b) => {
+    if (a.hasError !== b.hasError) return a.hasError ? -1 : 1;
+    return a.presetKey.localeCompare(b.presetKey);
+  });
+
+  const overlay = document.createElement('div');
+  overlay.id = 'covTestResultsOverlay';
+  overlay.innerHTML = `
+    <div class="cov-test-results">
+      <div class="cov-test-header">
+        <div class="cov-test-h-title">Coverage Test — Formation: <b>${formation.toUpperCase()}</b> &nbsp; · &nbsp; ${results.length} Presets getestet</div>
+        <div class="cov-test-h-controls">
+          <label><input type="checkbox" id="covTestFilterErr"> nur Probleme</label>
+          <button id="covTestCloseBtn">✕ schließen</button>
+        </div>
+      </div>
+      <div class="cov-test-legend">
+        Zellen: <b>Defender</b> (oben) · <b>MODE·Distanz</b> (unten) &nbsp; |
+        <span class="cov-c-green">grün</span> &lt;${COV_TEST_NEAR_YD}yd
+        &nbsp; <span class="cov-c-yellow">gelb</span> ${COV_TEST_NEAR_YD}–${COV_TEST_RANGE_YD}yd
+        &nbsp; <span class="cov-c-red">rot</span> &gt;${COV_TEST_RANGE_YD}yd
+        &nbsp; <span class="cov-c-none">✗</span> keiner
+        &nbsp; · ★ = man-assigned, sonst nächster Coverage-Spieler (DL ausgeschlossen)
+        &nbsp; · MAN/ZONE/RUSH/OTT/IDLE = aktueller Mode
+        &nbsp; · <span class="cov-c-na">—</span> = nicht im Scope des Presets (Strong-Preset zeigt nur Strong-Seite + RB/FB; Weak/Backside nur Weak-Seite + RB/FB)
+        &nbsp; · Click auf Preset-Namen lädt es ins Call Sheet
+      </div>
+      <div class="cov-test-table-wrap">
+        <table class="cov-test-table" id="covTestTable">
+          <thead>
+            <tr>
+              <th rowspan="2">Preset</th>
+              <th rowspan="2">Scope</th>
+              ${off.map(p => {
+                const num = p._receiverNumber ? `#${p._receiverNumber}` : '';
+                const side = p._side ? p._side : '';
+                const tag = side && num ? `${side}${num}` : (p.type);
+                return `<th colspan="2">${p.type} ${tag}<br><span class="cov-th-type">id:${p.id}</span></th>`;
+              }).join('')}
+            </tr>
+            <tr>
+              ${off.map(() => `<th class="cov-th-t">t=1s</th><th class="cov-th-t">t=2s</th>`).join('')}
+            </tr>
+          </thead>
+          <tbody id="covTestTbody"></tbody>
+        </table>
+      </div>
+    </div>`;
+  document.body.appendChild(overlay);
+
+  const tbody = overlay.querySelector('#covTestTbody');
+  function renderRows(filterErr) {
+    tbody.innerHTML = '';
+    results.forEach(r => {
+      if (filterErr && !r.hasError) return;
+      const tr = document.createElement('tr');
+      tr.className = r.hasError ? 'cov-row-err' : '';
+      const cells = [];
+      cells.push(`<td class="cov-preset-name" data-key="${r.presetKey}" title="Click to load">${r.presetKey}</td>`);
+      cells.push(`<td class="cov-scope">${r.scope}</td>`);
+      for (const p of off) {
+        const inScope = _covTestPlayerInScope(r.scope, p._side, p.type, strongSide);
+        for (const t of COV_TEST_SAMPLE_TIMES) {
+          if (!inScope) {
+            cells.push(`<td class="cov-c-na" title="nicht im Scope dieses Presets">—</td>`);
+            continue;
+          }
+          const c = (r.samples[t] || {})[p.id];
+          cells.push(_covTestCellHtml(c));
+        }
+      }
+      tr.innerHTML = cells.join('');
+      tbody.appendChild(tr);
+    });
+    // Click handler to load preset
+    tbody.querySelectorAll('.cov-preset-name').forEach(td => {
+      td.addEventListener('click', () => {
+        const key = td.getAttribute('data-key');
+        _covTestLoadPresetIntoCallSheet(key, formation);
+      });
+    });
+  }
+  renderRows(false);
+  overlay.querySelector('#covTestFilterErr').addEventListener('change', e => {
+    renderRows(e.target.checked);
+  });
+  overlay.querySelector('#covTestCloseBtn').addEventListener('click', () => overlay.remove());
+}
+
+// Map sim decision.mode → short tag shown in the cell.
+function _covTestModeTag(mode) {
+  switch (mode) {
+    case 'follow': return 'MAN';
+    case 'ott':    return 'OTT';
+    case 'drop':   return 'ZONE';
+    case 'rush':   return 'RUSH';
+    case 'idle':   return 'IDLE';
+    default:       return mode ? mode.toUpperCase() : '—';
+  }
+}
+function _covTestCellHtml(c) {
+  if (!c || c.distYd == null) return `<td class="cov-c-none">✗</td>`;
+  let cls = 'cov-c-green';
+  if (c.distYd >  COV_TEST_RANGE_YD) cls = 'cov-c-red';
+  else if (c.distYd > COV_TEST_NEAR_YD) cls = 'cov-c-yellow';
+  const star = c.isAssigned ? '★ ' : '';
+  const dist = c.distYd.toFixed(1);
+  const tag  = _covTestModeTag(c.mode);
+  return `<td class="${cls}" title="${c.defRole || ''} · mode=${c.mode || ''}">${star}${c.defLabel}<br><span class="cov-mode-tag">${tag}·${dist}</span></td>`;
+}
+
+function _covTestLoadPresetIntoCallSheet(presetKey, formation) {
+  const cs = _covTestBuildCallSheet(presetKey, formation);
+  Object.keys(cs).forEach(k => { callSheet[k] = cs[k]; });
+  // Sync dropdown UI if present
+  Object.keys(cs).forEach(k => {
+    const sel = document.getElementById('cs-' + k);
+    if (sel && [...sel.options].some(o => o.value === cs[k])) sel.value = cs[k];
+  });
+  // Resolve and re-align
+  if (typeof rebuildOffenseStructureSnapshot === 'function') rebuildOffenseStructureSnapshot();
+  if (typeof resolveActivePreset === 'function') resolveActivePreset(offenseStructureSnapshot);
+  if (typeof applyPresetAlignment === 'function') applyPresetAlignment();
+  if (typeof updateCallSheetLockState === 'function') updateCallSheetLockState();
+  if (typeof draw === 'function') draw();
+  if (typeof showToast === 'function') showToast(`Preset geladen: ${presetKey}`, 'info');
+}
+
+// ── Inject CSS once ─────────────────────────────────────────────────
+(function _covTestInjectCSS() {
+  if (document.getElementById('covTestCSS')) return;
+  const style = document.createElement('style');
+  style.id = 'covTestCSS';
+  style.textContent = `
+    body.coverage-testing #modeIndicator,
+    body.coverage-testing #simBtn,
+    body.coverage-testing #replayBtn,
+    body.coverage-testing #pauseBtn,
+    body.coverage-testing #simPhase,
+    body.coverage-testing #advancedDrawer,
+    body.coverage-testing #debugLog { visibility: hidden !important; }
+
+    #covTestProgress {
+      position: fixed; inset: 0; z-index: 99998;
+      background: rgba(0,0,0,0.55);
+      display: flex; align-items: center; justify-content: center;
+      font-family: system-ui, sans-serif;
+    }
+    .cov-test-card {
+      background: #1a1a1a; color: #eee; padding: 22px 28px;
+      border-radius: 8px; min-width: 380px;
+      border: 1px solid #444; box-shadow: 0 10px 40px rgba(0,0,0,.5);
+    }
+    .cov-test-title { font-size: 15px; margin-bottom: 12px; }
+    .cov-test-progress-bar {
+      height: 8px; background: #333; border-radius: 4px; overflow: hidden;
+    }
+    .cov-test-progress-fill {
+      height: 100%; background: linear-gradient(90deg,#4caf50,#8bc34a);
+      width: 0%; transition: width 0.15s linear;
+    }
+    .cov-test-progress-text {
+      margin-top: 8px; font-size: 12px; color: #aaa; font-family: ui-monospace,monospace;
+    }
+
+    #covTestResultsOverlay {
+      position: fixed; inset: 0; z-index: 99999;
+      background: rgba(0,0,0,0.75);
+      display: flex; align-items: center; justify-content: center;
+      font-family: system-ui, sans-serif;
+    }
+    .cov-test-results {
+      background: #161616; color: #ddd;
+      width: 96vw; height: 92vh;
+      border-radius: 8px; border: 1px solid #444;
+      display: flex; flex-direction: column;
+      box-shadow: 0 10px 40px rgba(0,0,0,.6);
+    }
+    .cov-test-header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 12px 18px; border-bottom: 1px solid #333;
+    }
+    .cov-test-h-title { font-size: 15px; }
+    .cov-test-h-controls { display: flex; gap: 14px; align-items: center; font-size: 13px; }
+    .cov-test-h-controls button {
+      background: #333; color: #eee; border: 1px solid #555;
+      padding: 4px 10px; border-radius: 4px; cursor: pointer;
+    }
+    .cov-test-h-controls button:hover { background: #444; }
+    .cov-test-legend {
+      padding: 8px 18px; font-size: 11px; color: #aaa;
+      border-bottom: 1px solid #333; background: #1a1a1a;
+    }
+    .cov-test-table-wrap {
+      flex: 1; overflow: auto; padding: 0;
+    }
+    .cov-test-table {
+      width: 100%; border-collapse: collapse;
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+      font-size: 11px;
+    }
+    .cov-test-table th, .cov-test-table td {
+      border: 1px solid #2a2a2a;
+      padding: 4px 6px;
+      text-align: center;
+      white-space: nowrap;
+    }
+    .cov-test-table thead { position: sticky; top: 0; background: #222; z-index: 2; }
+    .cov-test-table th { background: #222; font-weight: 600; }
+    .cov-th-type { font-size: 9px; color: #888; font-weight: 400; }
+    .cov-th-t { font-size: 10px; color: #888; font-weight: 400; }
+    .cov-preset-name {
+      text-align: left !important;
+      color: #79c0ff; cursor: pointer;
+      font-weight: 600;
+    }
+    .cov-preset-name:hover { background: #2a3340; text-decoration: underline; }
+    .cov-scope { color: #888; font-size: 10px; }
+    .cov-c-green  { background: #14361a; color: #b3f0c0; }
+    .cov-c-yellow { background: #3c3415; color: #f0e3a8; }
+    .cov-c-red    { background: #401b1b; color: #ff9b9b; }
+    .cov-c-none   { background: #2a0e0e; color: #ff6b6b; font-weight: bold; }
+    .cov-c-na     { background: #1a1a1a; color: #444; }
+    .cov-mode-tag { font-size: 9px; opacity: 0.75; letter-spacing: 0.4px; }
+    .cov-row-err td:first-child { box-shadow: inset 3px 0 0 #e85; }
+  `;
+  document.head.appendChild(style);
+})();

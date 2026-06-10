@@ -1,1 +1,120 @@
-const _0x1e76e6=_0x380c;(function(_0x32d266,_0x3a4e7f){const _0x445e26=_0x380c,_0x381a3b=_0x32d266();while(!![]){try{const _0x366729=parseInt(_0x445e26(0x8a))/0x1*(-parseInt(_0x445e26(0xb2))/0x2)+-parseInt(_0x445e26(0x8e))/0x3+-parseInt(_0x445e26(0x82))/0x4+-parseInt(_0x445e26(0xbb))/0x5+parseInt(_0x445e26(0x8f))/0x6+-parseInt(_0x445e26(0xb6))/0x7*(-parseInt(_0x445e26(0x94))/0x8)+-parseInt(_0x445e26(0xa6))/0x9*(-parseInt(_0x445e26(0xaa))/0xa);if(_0x366729===_0x3a4e7f)break;else _0x381a3b['push'](_0x381a3b['shift']());}catch(_0x22aa8f){_0x381a3b['push'](_0x381a3b['shift']());}}}(_0x1daf,0x290e7));const ATTRIBUTE_DEFS=[{'key':'SPD','label':_0x1e76e6(0xbc),'desc':'Maximale\x20Laufgeschwindigkeit','default':0x50},{'key':_0x1e76e6(0x97),'label':'Acceleration','desc':_0x1e76e6(0x96),'default':0x50},{'key':_0x1e76e6(0x9b),'label':'Strength','desc':_0x1e76e6(0x84),'default':0x50},{'key':_0x1e76e6(0x87),'label':_0x1e76e6(0xb5),'desc':_0x1e76e6(0xaf),'default':0x50},{'key':_0x1e76e6(0x89),'label':_0x1e76e6(0x9d),'desc':_0x1e76e6(0x9a),'default':0x50},{'key':_0x1e76e6(0x81),'label':_0x1e76e6(0x98),'desc':'Press-Release\x20an\x20der\x20Line\x20(erste\x200.5s)','default':0x50},{'key':_0x1e76e6(0x91),'label':_0x1e76e6(0x86),'desc':_0x1e76e6(0x7f),'default':0x50},{'key':'RTE','label':_0x1e76e6(0xb7),'desc':'Routen-Präzision\x20(Drift\x20+\x20Timing)','default':0x63},{'key':_0x1e76e6(0x88),'label':_0x1e76e6(0xb1),'desc':_0x1e76e6(0xa8),'default':0x50},{'key':_0x1e76e6(0x9e),'label':_0x1e76e6(0xb9),'desc':_0x1e76e6(0xab),'default':0x50},{'key':_0x1e76e6(0x93),'label':_0x1e76e6(0x95),'desc':'Passgenauigkeit\x20unter\x20Druck','default':0x50},{'key':'AWR','label':_0x1e76e6(0x8b),'desc':_0x1e76e6(0xa1),'default':0x63},{'key':_0x1e76e6(0x9c),'label':_0x1e76e6(0x9f),'desc':_0x1e76e6(0xb8),'default':0x50},{'key':'COV','label':_0x1e76e6(0x90),'desc':_0x1e76e6(0xa4),'default':0x63},{'key':_0x1e76e6(0x85),'label':_0x1e76e6(0x83),'desc':'Pass-Rush-Effektivität','default':0x50},{'key':_0x1e76e6(0xb3),'label':_0x1e76e6(0xba),'desc':_0x1e76e6(0xae),'default':0x63},{'key':'CRA','label':_0x1e76e6(0xa0),'desc':_0x1e76e6(0xa9),'default':0x63},{'key':_0x1e76e6(0x8c),'label':_0x1e76e6(0x8d),'desc':_0x1e76e6(0x80),'default':0x63}],ATTRIBUTE_MAP={};ATTRIBUTE_DEFS['forEach'](_0x2ecf2c=>{const _0x2d0065=_0x1e76e6;ATTRIBUTE_MAP[_0x2ecf2c[_0x2d0065(0xa3)]]=_0x2ecf2c;});function _0x1daf(){const _0x439207=['518067IrEnWj','85632rfJqEk','Coverage','BRK','COV','THA','7944WEqMGV','Throw\x20Accuracy','Wie\x20schnell\x20Vollspeed\x20erreicht\x20wird','ACC','Release','map','Fangwahrscheinlichkeit\x20im\x20Contested-Bereich','STR','TAK','Catch\x20in\x20Traffic','THP','Tackle','Call\x20Reaction','Spielverständnis\x20—\x20Reaktionszeit\x20+\x20Reads','wJYnY','key','Coverage-Qualität\x20(Man\x20+\x20Zone)','default','3430683nPqFkf','attributes','Block-Effizienz\x20—\x20Run/Pass\x20Protection','Reaktionszeit\x20auf\x20Coverage-Trigger\x20(Push/Switch/Zone-Read)','20MHVlWA','Ballgeschwindigkeit\x20/\x20Wurfstärke','RTE','round','Reaktionszeit\x20auf\x20Receiver-Cuts\x20—\x20niedrig\x20=\x20langer\x20Freeze','Fangwahrscheinlichkeit\x20bei\x20Separation','hJpXS','Blocking','1086nYlObu','CRE','SPD','Catch','1127VqkkrT','Route\x20Running','Tackle-Sicherheit','Throw\x20Power','Cut\x20Reaction','977415HBXoLt','Speed','Speed-Erhalt\x20am\x20Route-Cut','Zone-IQ\x20—\x20Tiefen-Bias\x20bei\x20Multi-Receiver,\x20Antizipations-Drift\x20bei\x20leerer\x20Zone','REL','390916AxSlNG','Pass\x20Rush','Körperkraft\x20—\x20Block/Rush-Duelle','PRS','Break','CTH','BLK','CIT','557qpHZmN','Awareness','ZON','Zone\x20Coverage'];_0x1daf=function(){return _0x439207;};return _0x1daf();}const ATTRIBUTE_KEYS=ATTRIBUTE_DEFS[_0x1e76e6(0x99)](_0x395868=>_0x395868['key']),ATTRIBUTE_DEFAULT=0x4b,OL_DEFAULT_SPD=0x50,_LEGACY_KEY_MAP={'speed':'SPD','catch':_0x1e76e6(0x87),'route':_0x1e76e6(0xac),'blocking':_0x1e76e6(0x88),'release':_0x1e76e6(0x81),'tackle':_0x1e76e6(0x9c),'coverage':'COV','manCoverage':_0x1e76e6(0x92),'zoneCoverage':'COV','pursuit':_0x1e76e6(0xb4),'press':_0x1e76e6(0x85)};function _0x380c(_0x520ef8,_0x2f7f13){_0x520ef8=_0x520ef8-0x7f;const _0x1daf37=_0x1daf();let _0x380cd3=_0x1daf37[_0x520ef8];return _0x380cd3;}function getAttr(_0x5e370e,_0x5e894b){const _0x27f2e4=_0x1e76e6,_0x542870=_LEGACY_KEY_MAP[_0x5e894b]||_0x5e894b;return _0x5e370e?.[_0x27f2e4(0xa7)]?.[_0x542870]??ATTRIBUTE_DEFAULT;}function initPlayerAttributes(_0x36a940,_0x1ef3a6=![]){const _0x188a6c=_0x1e76e6;if(!_0x36a940)return;(!_0x36a940[_0x188a6c(0xa7)]||_0x1ef3a6)&&(_0x36a940[_0x188a6c(0xa7)]={}),ATTRIBUTE_DEFS['forEach'](_0xa88ec=>{const _0x23bb17=_0x188a6c;_0x36a940['attributes'][_0xa88ec[_0x23bb17(0xa3)]]===undefined&&(_0x36a940[_0x23bb17(0xa7)][_0xa88ec[_0x23bb17(0xa3)]]=_0xa88ec[_0x23bb17(0xa5)]);});}function setAttr(_0x47a67b,_0x4f8e47,_0x2aef97){const _0x1e4e6c=_0x1e76e6,_0x5b1ef8={'wJYnY':function(_0xbcd810,_0x4d84f5){return _0xbcd810(_0x4d84f5);}};if(!_0x47a67b)return;if(!_0x47a67b[_0x1e4e6c(0xa7)])_0x5b1ef8[_0x1e4e6c(0xa2)](initPlayerAttributes,_0x47a67b);const _0x4890c3=_LEGACY_KEY_MAP[_0x4f8e47]||_0x4f8e47;_0x47a67b[_0x1e4e6c(0xa7)][_0x4890c3]=Math['max'](0x0,Math['min'](0x63,Math[_0x1e4e6c(0xad)](_0x2aef97)));}function getAttributes(_0x4e4009){const _0x65f952=_0x1e76e6,_0x117c0b={'hJpXS':function(_0x44c18b,_0x36a21e){return _0x44c18b(_0x36a21e);}};if(!_0x4e4009)return null;if(!_0x4e4009[_0x65f952(0xa7)])_0x117c0b[_0x65f952(0xb0)](initPlayerAttributes,_0x4e4009);return{..._0x4e4009[_0x65f952(0xa7)]};}
+// ===================================================================
+// 00_ATTRIBUTES.JS — Universal Player Attribute System
+// ===================================================================
+// Muss VOR 03_sim_engine.js und 10_outcome.js geladen werden.
+//
+// Jeder Spieler (Offense + Defense) bekommt alle Attribute.
+// Die Position bestimmt nur welche relevant sind — nicht welche existieren.
+// Bereich: 0–99, Default: 75
+// ===================================================================
+
+// ── Attribut-Definitionen ─────────────────────────────────────────────
+// Jedes Attribut hat: key, label (UI), Beschreibung, Default
+const ATTRIBUTE_DEFS = [
+  // ── Athletik ──
+  { key: 'SPD', label: 'Speed',            desc: 'Maximale Laufgeschwindigkeit',                default: 80 },
+  { key: 'ACC', label: 'Acceleration',     desc: 'Wie schnell Vollspeed erreicht wird',         default: 80 },
+  { key: 'STR', label: 'Strength',         desc: 'Körperkraft — Block/Rush-Duelle',             default: 80 },
+
+  // ── Receiving ──
+  { key: 'CTH', label: 'Catch',            desc: 'Fangwahrscheinlichkeit bei Separation',       default: 80 },
+  { key: 'CIT', label: 'Catch in Traffic', desc: 'Fangwahrscheinlichkeit im Contested-Bereich', default: 80 },
+  { key: 'REL', label: 'Release',          desc: 'Press-Release an der Line (erste 0.5s)',       default: 80 },
+  { key: 'BRK', label: 'Break',            desc: 'Speed-Erhalt am Route-Cut',                   default: 80 },
+  { key: 'RTE', label: 'Route Running',    desc: 'Routen-Präzision (Drift + Timing)',            default: 99 },
+
+  // ── Blocking ──
+  { key: 'BLK', label: 'Blocking',         desc: 'Block-Effizienz — Run/Pass Protection',       default: 80 },
+
+  // ── Passing ──
+  { key: 'THP', label: 'Throw Power',      desc: 'Ballgeschwindigkeit / Wurfstärke',            default: 80 },
+  { key: 'THA', label: 'Throw Accuracy',   desc: 'Passgenauigkeit unter Druck',                 default: 80 },
+
+  // ── Mental ──
+  { key: 'AWR', label: 'Awareness',        desc: 'Spielverständnis — Reaktionszeit + Reads',    default: 99 },
+
+  // ── Defense ──
+  { key: 'TAK', label: 'Tackle',           desc: 'Tackle-Sicherheit',                           default: 80 },
+  { key: 'COV', label: 'Coverage',         desc: 'Coverage-Qualität (Man + Zone)',               default: 99 },
+  { key: 'PRS', label: 'Pass Rush',        desc: 'Pass-Rush-Effektivität',                      default: 80 },
+  { key: 'CRE', label: 'Cut Reaction',     desc: 'Reaktionszeit auf Receiver-Cuts — niedrig = langer Freeze', default: 99 },
+  { key: 'CRA', label: 'Call Reaction',    desc: 'Reaktionszeit auf Coverage-Trigger (Push/Switch/Zone-Read)', default: 99 },
+  { key: 'ZON', label: 'Zone Coverage',    desc: 'Zone-IQ — Tiefen-Bias bei Multi-Receiver, Antizipations-Drift bei leerer Zone', default: 99 },
+];
+
+// Schneller Lookup: key → definition
+const ATTRIBUTE_MAP = {};
+ATTRIBUTE_DEFS.forEach(def => { ATTRIBUTE_MAP[def.key] = def; });
+
+// Alle Keys als Array (für Iteration)
+const ATTRIBUTE_KEYS = ATTRIBUTE_DEFS.map(d => d.key);
+
+// Default-Wert für unbekannte/fehlende Attribute
+const ATTRIBUTE_DEFAULT = 75;
+
+// ── O-Line globaler SPD-Wert ──────────────────────────────────────────
+// Alle 5 OLiner (LT, LG, C, RG, RT) laufen mit diesem SPD-Wert.
+// Skala identisch zu Skill-Player-SPD: 75 = Baseline, 99 = max, 0 = Floor.
+// Formel in getMoveSpeed: speed = baseSpeed * (OL_DEFAULT_SPD / 75)
+// Tune-Beispiel: 50 = OLine läuft 50/75 = 0.667× baseSpeed.
+const OL_DEFAULT_SPD = 80;
+
+// ── Attribut-Zugriff ──────────────────────────────────────────────────
+// Gibt den Attribut-Wert eines Spielers zurück.
+// Fallback: ATTRIBUTE_DEFAULT wenn Spieler keine Attribute hat.
+//
+// Akzeptiert sowohl die neuen Keys (SPD, CTH, ...) als auch die
+// alten Strings aus 10_outcome.js (speed, catch, route, ...) für
+// Rückwärtskompatibilität.
+
+const _LEGACY_KEY_MAP = {
+  'speed':        'SPD',
+  'catch':        'CTH',
+  'route':        'RTE',
+  'blocking':     'BLK',
+  'release':      'REL',
+  'tackle':       'TAK',
+  'coverage':     'COV',
+  'manCoverage':  'COV',
+  'zoneCoverage': 'COV',
+  'pursuit':      'SPD',
+  'press':        'PRS',
+};
+
+function getAttr(player, attr) {
+  // Legacy-Key umwandeln
+  const key = _LEGACY_KEY_MAP[attr] || attr;
+  return player?.attributes?.[key] ?? ATTRIBUTE_DEFAULT;
+}
+
+// ── Spieler-Attribute initialisieren ──────────────────────────────────
+// Setzt alle 14 Attribute auf Default. Überschreibt keine existierenden Werte.
+// Aufruf: initPlayerAttributes(player)       → alle auf 75
+//         initPlayerAttributes(player, true)  → erzwingt Reset auf 75
+
+function initPlayerAttributes(player, forceReset = false) {
+  if (!player) return;
+  if (!player.attributes || forceReset) {
+    player.attributes = {};
+  }
+  ATTRIBUTE_DEFS.forEach(def => {
+    if (player.attributes[def.key] === undefined) {
+      player.attributes[def.key] = def.default;
+    }
+  });
+}
+
+// ── Einzelnes Attribut setzen (mit Clamp 0–99) ────────────────────────
+function setAttr(player, key, value) {
+  if (!player) return;
+  if (!player.attributes) initPlayerAttributes(player);
+  const k = _LEGACY_KEY_MAP[key] || key;
+  player.attributes[k] = Math.max(0, Math.min(99, Math.round(value)));
+}
+
+// ── Alle Attribute eines Spielers als Kopie zurückgeben ───────────────
+function getAttributes(player) {
+  if (!player) return null;
+  if (!player.attributes) initPlayerAttributes(player);
+  return { ...player.attributes };
+}
