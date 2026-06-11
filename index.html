@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KARDIRON — Play Designer</title>
 <link rel="stylesheet" href="css/kardiron.css">
+  <meta name="robots" content="noindex, nofollow">
 </head>
 <body>
 
@@ -1095,6 +1096,7 @@
     ];
 
     function apply(d, assignment) {
+      if (typeof saveUndoSnapshot === 'function') saveUndoSnapshot();
       d.assignment = assignment;
       d.passAssignment = assignment.type !== 'none' ? Object.assign({}, assignment) : null;
       d._manualAssignment = (assignment.type !== 'none');
@@ -1170,7 +1172,7 @@
           if (level === 'man') {
             if (typeof players !== 'undefined' && players.length) {
               players.forEach(function (p) {
-                menu.appendChild(item('→ ' + p.label + ' #' + p.id, function () {
+                menu.appendChild(item('→ ' + playerDisplayName(p), function () {
                   apply(d, { type: 'man', targetId: p.id, leverage: 'headUp', trailDistance: 1 });
                 }));
               });
