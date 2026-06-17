@@ -83,6 +83,8 @@
     <button class="btn btn-ghost" id="saveMp4Btn"  style="display:none">SAVE MP4</button>
     <button class="btn btn-ghost" id="loadBtn">LOAD</button>
     <input type="file" id="fileInput" accept=".json,.gif,.png,.mp4,.webm" style="display:none">
+    <!-- Undo — moved here from the defense panel (global edit action). Enable/disable handled by id in 12_undo.js -->
+    <button class="btn btn-ghost" id="undoBtn" onclick="undo()" style="opacity:0.35;cursor:not-allowed" disabled>↶ UNDO</button>
     <button class="btn btn-warning" id="pauseBtn" style="display:none" onclick="togglePause()">⏸ PAUSE</button>
     <button class="btn btn-sim" id="replayBtn" style="display:none" onclick="replaySim()">↻ REPLAY</button>
     <button class="btn btn-sim" id="simBtn">▶ SIMULATE</button>
@@ -249,6 +251,15 @@
     </div>
   </div>
 
+  <!-- Board theme button styling (buttons live in the Game Features drawer) -->
+  <style>
+    #boardThemeBar .board-theme-btn{font-family:'Barlow Condensed',sans-serif;font-size:12px;letter-spacing:0.04em;
+      color:var(--text-dim);background:transparent;border:1px solid var(--ui-border);border-radius:5px;
+      padding:3px 9px;cursor:pointer}
+    #boardThemeBar .board-theme-btn:hover{color:#fff;border-color:rgba(255,255,255,0.4)}
+    #boardThemeBar .board-theme-btn.active{color:#fff;background:rgba(255,255,255,0.12);border-color:rgba(255,255,255,0.5)}
+  </style>
+
   <!-- RIGHT: Defense Panel (Phase 3.2 / 3.3) -->
   <div class="right-panel" id="defensePanel" style="width:160px">
     <div class="panel-title defense">DEFENSE</div>
@@ -277,6 +288,7 @@
       <div class="sidebar-title" style="margin-bottom:8px">Coverage Call Sheet</div>
 
       <!-- 2x2 -->
+      <div id="csGroup-2x2">
       <div style="font-size:10px;color:#888;letter-spacing:0.06em;margin-bottom:4px">2×2</div>
       <div style="display:grid;grid-template-columns:52px 1fr;align-items:center;gap:4px;margin-bottom:4px">
         <span style="font-size:11px;color:#aaa">Strong</span>
@@ -350,8 +362,10 @@
         </select>
       </div>
       <div id="cs-2x2-fullfield-hint" style="display:none;font-size:10px;color:#666;font-style:italic;margin-bottom:6px;padding-left:56px">Full Field — kein Weak Side nötig</div>
+      </div><!-- /csGroup-2x2 -->
 
       <!-- 3x1 -->
+      <div id="csGroup-3x1">
       <div style="font-size:10px;color:#888;letter-spacing:0.06em;margin-bottom:4px">3×1</div>
       <div style="display:grid;grid-template-columns:52px 1fr;align-items:center;gap:4px;margin-bottom:4px">
         <span style="font-size:11px;color:#aaa">Strong</span>
@@ -370,6 +384,7 @@
           <option value="knife-strong">Knife — Strong Side</option>
           <option value="buster-strong">Buster — Strong Side</option>
           <option value="poach-3x1">Poach — 3×1</option>
+          <option value="cutter-3x1">Cutter — 3×1</option>
           <option value="cover3-sky-match-3x1">Cover 3 Sky Match 3×1</option>
           <option value="cover3-buzz-match-3x1">Cover 3 Buzz Match 3×1</option>
           <option value="cover3-robber-match-3x1">Cover 3 Robber Match 3×1</option>
@@ -410,8 +425,10 @@
         </select>
       </div>
       <div id="cs-3x1-fullfield-hint" style="display:none;font-size:10px;color:#666;font-style:italic;margin-bottom:4px;padding-left:56px">Full Field — kein Backside nötig</div>
+      </div><!-- /csGroup-3x1 -->
 
       <!-- Empty -->
+      <div id="csGroup-empty">
       <div style="font-size:10px;color:#888;letter-spacing:0.06em;margin-bottom:4px">EMPTY</div>
       <div style="display:grid;grid-template-columns:52px 1fr;align-items:center;gap:4px;margin-bottom:4px">
         <span style="font-size:11px;color:#aaa">Trips</span>
@@ -453,11 +470,13 @@
         </select>
       </div>
       <div id="cs-empty-fullfield-hint" style="display:none;font-size:10px;color:#666;font-style:italic;margin-bottom:4px;padding-left:56px">Full Field — kein Backside nötig</div>
+      </div><!-- /csGroup-empty -->
 
-      <div style="margin-top:8px;padding-top:6px;border-top:1px solid var(--ui-border);display:flex;align-items:center;gap:6px">
-        <input type="checkbox" id="stickyDecisionsToggle" checked onchange="onStickyToggleChange()" style="cursor:pointer">
-        <label for="stickyDecisionsToggle" style="font-size:11px;color:#aaa;cursor:pointer;user-select:none">Sticky Switch Decisions</label>
-      </div>
+      <!-- Progressive disclosure: by default only the call-sheet group for the
+           current offense formation is shown; this toggles all three on/off. -->
+      <button id="csShowAllBtn" onclick="toggleShowAllCallSheets()"
+        title="Show coverage call sheets for every formation type, not just the current one"
+        style="width:100%;margin-top:8px;background:transparent;border:1px solid var(--ui-border);border-radius:3px;color:var(--text-dim);font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:0.5px;padding:5px;cursor:pointer">▾ Show all formations</button>
 
       <div id="presetMatchList" style="margin-top:6px;display:none"></div>
     </div>
@@ -592,54 +611,41 @@
         </div>
       </div>
     </div>
-    <!-- Show Zones toggle -->
-    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
+    <!-- ── Show Jobs + Show Zones — visible directly in the menu (most-used overlays) ── -->
+    <div class="def-section">
       <button class="tool-toggle-btn active" id="showJobsBtn" onclick="toggleShowJobs()">⬡ Show Jobs</button>
+      <button class="tool-toggle-btn" id="showZonesBtn" onclick="toggleShowZones()" style="margin-top:6px">⬡ Show Zones</button>
     </div>
-    <!-- Show Zones toggle -->
-    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
-      <button class="tool-toggle-btn" id="showZonesBtn" onclick="toggleShowZones()">⬡ Show Zones</button>
+    <!-- ── "Field Display & Alignment" accordion — remaining overlays + alignment, collapsed by default.
+         Buttons keep their IDs + handlers; trailing updateShowOnFieldBadge() refreshes "(N on)". -->
+    <div class="def-accordion-header" id="showOnFieldHeader" onclick="toggleShowOnFieldAccordion()">
+      <span>FIELD DISPLAY &amp; ALIGNMENT <span id="showOnFieldCount" style="color:var(--text-dim);font-weight:400">(1 on)</span></span>
+      <span class="def-accordion-chevron" id="showOnFieldChevron">▼</span>
     </div>
-    <!-- Show Run Fits toggle -->
-    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
-      <button class="tool-toggle-btn" id="showRunFitsBtn" onclick="toggleShowRunFits()">⬡ Show Run Fits</button>
-      <div id="runFitsSummary" style="display:none;margin-top:6px;padding:6px 8px;background:rgba(74,222,128,0.05);border:1px solid rgba(74,222,128,0.2);border-radius:3px;font-size:11px;letter-spacing:0.5px;line-height:1.8;color:#4ade80"></div>
-      <button class="tool-toggle-btn active" id="flowReadBtn" onclick="toggleFlowRead()" style="margin-top:6px">⬡ Flow Read</button>
-    </div>
-    <!-- Def Trails toggle -->
-    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
-      <button class="tool-toggle-btn" id="defTrailsBtn" onclick="toggleDefTrails()">⬡ Def Trails</button>
-    </div>
-    <!-- Reactive Formation toggle -->
-    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
-      <div style="font-size:10px;color:var(--text-dim);letter-spacing:0.5px;margin-bottom:4px">↺ REACTIVE FORMATION</div>
-      <div style="display:flex;gap:4px">
-        <button class="tool-toggle-btn" id="reactiveFormationBtn" style="flex:1;font-size:10px" onclick="toggleReactiveFormation('presnap')">Pre-Snap</button>
-        <button class="tool-toggle-btn" id="reactiveFormationAfterBtn" style="flex:1;font-size:10px" onclick="toggleReactiveFormation('after')">After Sh/Mo</button>
+    <div class="def-accordion-body hidden" id="showOnFieldBody">
+      <div class="def-section" style="border-bottom:none">
+        <button class="tool-toggle-btn" id="showRunFitsBtn" onclick="toggleShowRunFits();updateShowOnFieldBadge()">⬡ Show Run Fits</button>
+        <div id="runFitsSummary" style="display:none;margin-top:6px;padding:6px 8px;background:rgba(74,222,128,0.05);border:1px solid rgba(74,222,128,0.2);border-radius:3px;font-size:11px;letter-spacing:0.5px;line-height:1.8;color:#4ade80"></div>
+        <button class="tool-toggle-btn active" id="flowReadBtn" onclick="toggleFlowRead();updateShowOnFieldBadge()" style="margin-top:6px">⬡ Flow Read</button>
+        <button class="tool-toggle-btn" id="defTrailsBtn" onclick="toggleDefTrails();updateShowOnFieldBadge()" style="margin-top:6px">⬡ Def Trails</button>
+        <!-- Alignment controls moved in here -->
+        <div style="margin-top:10px;border-top:1px solid var(--ui-border);padding-top:8px">
+          <div class="sidebar-title" style="margin-bottom:6px;font-size:12px">Alignment</div>
+          <div style="font-size:10px;color:var(--text-dim);letter-spacing:0.5px;margin-bottom:4px">↺ REACTIVE FORMATION</div>
+          <div style="display:flex;gap:4px">
+            <button class="tool-toggle-btn" id="reactiveFormationBtn" style="flex:1;font-size:10px" onclick="toggleReactiveFormation('presnap')">Pre-Snap</button>
+            <button class="tool-toggle-btn" id="reactiveFormationAfterBtn" style="flex:1;font-size:10px" onclick="toggleReactiveFormation('after')">After Sh/Mo</button>
+          </div>
+          <button class="def-btn" style="width:100%;margin-top:6px;font-size:11px;color:#a78bfa;background:transparent;border-color:rgba(167,139,250,0.35)" onclick="resetAlignmentToPreset()">↺ Reset Alignment to Preset</button>
+        </div>
       </div>
-    </div>
-    <!-- Reset Alignment to Preset -->
-    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
-      <button class="def-btn" style="width:100%;font-size:11px;color:#a78bfa;background:transparent;border-color:rgba(167,139,250,0.35)" onclick="resetAlignmentToPreset()">↺ Reset Alignment to Preset</button>
     </div>
     <!-- Status line -->
     <div class="def-status" id="defStatus">No defender selected</div>
-    <!-- Deselect all button -->
-    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
-      <button class="def-btn" style="width:100%;font-size:11px;color:var(--text-dim);background:transparent;border-color:var(--ui-border)" onclick="deselectAll()">✕ Deselect All</button>
-    </div>
-    <!-- Undo Button -->
-    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
-      <button class="tool-toggle-btn" id="undoBtn" onclick="undo()"
-        style="opacity:0.35;cursor:not-allowed" disabled>↶ Undo</button>
-    </div>
-    <!-- Zoom Tool -->
-    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
-      <button class="tool-toggle-btn" id="zoomToolBtn" onclick="toggleZoomTool()">🔍 Zoom: ±10 yds</button>
-    </div>
-    <!-- Coverage Tester -->
-    <div style="padding:6px 12px;border-top:1px solid var(--ui-border)">
-      <button class="tool-toggle-btn" id="covTestBtn" onclick="runCoverageTests()">🧪 Test Coverages</button>
+    <!-- ── Utility row: Deselect + Zoom ── -->
+    <div style="padding:6px 12px;border-top:1px solid var(--ui-border);display:flex;gap:6px">
+      <button class="def-btn" style="flex:1;font-size:11px;color:var(--text-dim);background:transparent;border-color:var(--ui-border)" onclick="deselectAll()">✕ Deselect</button>
+      <button class="tool-toggle-btn" id="zoomToolBtn" style="flex:1" onclick="toggleZoomTool()">🔍 Zoom ±10</button>
     </div>
     <!-- Defense panel resize -->
     <div class="panel-resize-strip" style="margin-top:auto">
@@ -690,6 +696,12 @@
       title="Illegal Formation Rules on/off"
       style="color:#fff;opacity:0.5">Illegal Formation: OFF</button>
 
+    <!-- Freehand — hold left mouse + drag to draw the active tool's path (route/block/motion/shift) -->
+    <button class="panel-action-btn" id="freehandBtn"
+      onclick="toggleFreehand()"
+      title="Freehand — select a player and a tool (route/block/motion/shift), then hold the left mouse button and drag to draw the path"
+      style="color:#fff;opacity:0.5">✏️ Freehand: OFF</button>
+
     <!-- GAME button injected here by the game engine (moved from offense panel) -->
     <div id="gameBtnSlot" style="display:flex"></div>
 
@@ -704,6 +716,18 @@
       title="Show or hide the simulation debug log"
       style="color:#fff;opacity:0.4">SIM DEBUG: OFF</button>
 
+    <!-- Coverage Tester (moved from defense panel — dev/test tool) -->
+    <button class="panel-action-btn" id="covTestBtn"
+      onclick="runCoverageTests()"
+      title="Run automated coverage tests"
+      style="color:#fff">🧪 Test Coverages</button>
+
+    <!-- Sticky Switch Decisions (moved from coverage call sheet panel) -->
+    <div style="padding:6px 0;display:flex;align-items:center;gap:6px">
+      <input type="checkbox" id="stickyDecisionsToggle" checked onchange="onStickyToggleChange()" style="cursor:pointer">
+      <label for="stickyDecisionsToggle" style="font-size:11px;color:#aaa;cursor:pointer;user-select:none">Sticky Switch Decisions</label>
+    </div>
+
     <!-- Debug overlay toggles (moved from offense panel — JS in 02/03/04 wires these) -->
     <label class="debug-toggle-wrap" id="debugToggleWrap">
       <input type="checkbox" id="debugOverlayToggle"> DEBUG: FORMATION
@@ -714,6 +738,14 @@
     <label class="debug-toggle-wrap" id="qbReadToggleWrap">
       <input type="checkbox" id="qbReadToggle"> DEBUG: QB READ
     </label>
+
+    <!-- Board theme (field background: grass / white / black) -->
+    <span style="font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:1.2px;margin-left:6px">BOARD</span>
+    <div id="boardThemeBar" style="display:flex;gap:5px;align-items:center">
+      <button class="board-theme-btn active" data-theme="grass" onclick="setFieldTheme('grass')">Grass</button>
+      <button class="board-theme-btn"        data-theme="white" onclick="setFieldTheme('white')">White</button>
+      <button class="board-theme-btn"        data-theme="black" onclick="setFieldTheme('black')">Black</button>
+    </div>
   </div>
 </div>
 
