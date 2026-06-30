@@ -203,6 +203,12 @@
         <button class="tool-btn tool-motion"       id="toolMotion" onclick="setTool('motion')" title="Motion — purple spring, 1 player pre-snap (after shift)">Motion</button>
         <button class="tool-btn tool-shift"        id="toolShift"  onclick="setTool('shift')"  title="Shift — black spring, multi-player pre-snap (before motion)">Shift</button>
       </div>
+      <!-- Freehand draw — applies to the active tool (route/block/motion/shift). Default OFF. -->
+      <div style="padding:6px 0 2px;display:flex;align-items:center;gap:6px">
+        <input type="checkbox" id="freehandToggle" onchange="onFreehandToggleChange()" style="cursor:pointer">
+        <label for="freehandToggle" style="font-size:11px;color:#aaa;cursor:pointer;user-select:none"
+          title="Freehand — select a player, then hold the left mouse button and drag to draw the active tool's path">✏️ Freehand draw</label>
+      </div>
       <div class="motion-owner-badge" id="motionOwnerBadge"></div>
       <button class="panel-action-btn important-toggle" id="toggleImportantBtn"
         onclick="toggleImportantRoute()"
@@ -695,12 +701,6 @@
       onclick="toggleIllegalFormationRules()"
       title="Illegal Formation Rules on/off"
       style="color:#fff;opacity:0.5">Illegal Formation: OFF</button>
-
-    <!-- Freehand — hold left mouse + drag to draw the active tool's path (route/block/motion/shift) -->
-    <button class="panel-action-btn" id="freehandBtn"
-      onclick="toggleFreehand()"
-      title="Freehand — select a player and a tool (route/block/motion/shift), then hold the left mouse button and drag to draw the path"
-      style="color:#fff;opacity:0.5">✏️ Freehand: OFF</button>
 
     <!-- GAME button injected here by the game engine (moved from offense panel) -->
     <div id="gameBtnSlot" style="display:flex"></div>
